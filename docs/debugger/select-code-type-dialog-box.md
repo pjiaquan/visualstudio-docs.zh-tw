@@ -1,0 +1,48 @@
+---
+title: "選取程式碼類型對話方塊 | Microsoft Docs"
+ms.custom: ""
+ms.date: "12/05/2016"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.debug.selectengines"
+dev_langs: 
+  - "FSharp"
+  - "VB"
+  - "CSharp"
+  - "C++"
+  - "JScript"
+  - "SQL"
+  - "VB"
+  - "CSharp"
+  - "C++"
+helpviewer_keywords: 
+  - "偵錯 [Visual Studio], 引擎選擇"
+  - "偵錯工具, 引擎選擇"
+  - "偵錯引擎選擇對話方塊"
+ms.assetid: 932269fe-94e3-43cb-8931-078f31afd177
+caps.latest.revision: 10
+caps.handback.revision: 10
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+---
+# 選取程式碼類型對話方塊
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
+若要開啟這個對話方塊，請開啟 \[**附加至處理序**\] 對話方塊，然後按一下 \[**選取**\] 按鈕。  
+  
+ **自動判斷要偵錯的程式碼類型**  
+ 將依據正在執行的程式碼類型，選取適當的偵錯工具。  
+  
+ **偵錯這些程式碼類型:**  
+ 從提供的清單選擇要進行偵錯的程式碼類型。  
+  
+## 請參閱  
+ [偵錯工具安全性](../debugger/debugger-security.md)   
+ [附加至執行中處理序](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
