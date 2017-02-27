@@ -1,8 +1,7 @@
 ---
 title: "原始檔控制外掛程式 API 函式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "原始檔控制外掛程式，函式"
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
 caps.latest.revision: 19
-caps.handback.revision: 19
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 19
 ---
 # 原始檔控制外掛程式 API 函式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

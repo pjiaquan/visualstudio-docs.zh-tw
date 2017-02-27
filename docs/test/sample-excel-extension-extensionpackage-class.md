@@ -1,8 +1,7 @@
 ---
 title: "範例 Excel 延伸模組：ExtensionPackage 類別 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/09/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e45410a-1819-4d54-ac21-7280152f7e3a
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 9
 ---
 # 範例 Excel 延伸模組：ExtensionPackage 類別
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

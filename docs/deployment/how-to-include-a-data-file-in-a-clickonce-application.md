@@ -1,8 +1,7 @@
 ---
 title: "如何：在 ClickOnce 應用程式中納入資料檔案 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "部署應用程式 [ClickOnce], 資料檔案"
 ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 caps.latest.revision: 15
-caps.handback.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 15
 ---
 # 如何：在 ClickOnce 應用程式中納入資料檔案
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

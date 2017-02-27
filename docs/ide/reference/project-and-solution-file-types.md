@@ -1,8 +1,7 @@
 ---
 title: "專案和方案檔類型 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -32,10 +31,10 @@ helpviewer_keywords:
   - "Visual Studio, 檔案類型和副檔名"
 ms.assetid: 0ba5007b-465d-4efa-b1e4-f0ee68527649
 caps.latest.revision: 19
-caps.handback.revision: 19
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 19
 ---
 # 專案和方案檔類型
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

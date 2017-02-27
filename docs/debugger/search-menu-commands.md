@@ -1,8 +1,7 @@
 ---
 title: "搜尋功能表命令 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "搜尋功能表命令"
 ms.assetid: f36dff9a-49ef-46ce-8c9a-76246458c0d0
 caps.latest.revision: 3
-caps.handback.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 3
 ---
 # 搜尋功能表命令
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "專案設計工具、建置事件 (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "建置後事件"
 ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 caps.latest.revision: 16
-caps.handback.revision: 16
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 16
 ---
 # 專案設計工具、建置事件 (C#)
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "MSBuild 特殊字元 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "MSBuild 逸出字元"
 ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # MSBuild 特殊字元
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

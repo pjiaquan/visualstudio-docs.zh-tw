@@ -1,8 +1,7 @@
 ---
 title: "註冊自訂的偵錯引擎 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "偵錯引擎註冊"
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
 caps.latest.revision: 6
-caps.handback.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 6
 ---
 # 註冊自訂的偵錯引擎
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

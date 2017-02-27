@@ -1,8 +1,7 @@
 ---
 title: "程式碼內容 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "偵錯的 [偵錯 SDK]，內容"
 ms.assetid: 65e4d37a-086b-426e-9394-a3534967fd59
 caps.latest.revision: 10
-caps.handback.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 10
 ---
 # 程式碼內容
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

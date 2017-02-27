@@ -1,8 +1,7 @@
 ---
 title: "SolutionFolder 項目 (Visual Studio 範本) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "SolutionFolder 項目 [Visual Studio 樣板]"
 ms.assetid: 963f0398-fb50-4d8e-879d-d48f8b7c6d80
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # SolutionFolder 項目 (Visual Studio 範本)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

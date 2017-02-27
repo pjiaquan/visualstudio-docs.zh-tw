@@ -1,8 +1,7 @@
 ---
 title: "說明檢視器的協助工具功能 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "說明檢視器 2.0, 協助工具功能"
 ms.assetid: 94a3225c-d2cb-4565-8453-855d1cdc1acf
 caps.latest.revision: 14
-caps.handback.revision: 14
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # 說明檢視器的協助工具功能
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

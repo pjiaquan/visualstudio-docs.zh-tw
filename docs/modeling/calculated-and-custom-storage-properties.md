@@ -1,8 +1,7 @@
 ---
 title: "計算和自訂的儲存體屬性 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ helpviewer_keywords:
   - "程式設計網域屬性的定義域專屬語言"
 ms.assetid: 42b785f9-2b0f-4f13-a6b4-246e5e0d477a
 caps.latest.revision: 19
-caps.handback.revision: 19
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 19
 ---
 # 計算和自訂的儲存體屬性
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

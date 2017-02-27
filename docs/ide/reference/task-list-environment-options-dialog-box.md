@@ -1,8 +1,7 @@
 ---
 title: "選項對話方塊、環境、工作清單 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -26,10 +25,10 @@ helpviewer_keywords:
   - "工作清單, 註解工作"
 ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 15
-caps.handback.revision: 15
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 選項對話方塊、環境、工作清單
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

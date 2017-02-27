@@ -1,8 +1,7 @@
 ---
 title: "描述項目 (Visual Studio 範本) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "Description 項目 [Visual Studio 專案範本]"
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
 caps.latest.revision: 16
-caps.handback.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 16
 ---
 # 描述項目 (Visual Studio 範本)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

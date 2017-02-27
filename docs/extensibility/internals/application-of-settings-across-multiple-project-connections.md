@@ -1,8 +1,7 @@
 ---
 title: "跨多個專案的連接設定的應用程式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "原始檔控制外掛程式，應用程式的設定"
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 跨多個專案的連接設定的應用程式
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

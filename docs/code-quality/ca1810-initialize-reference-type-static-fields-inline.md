@@ -1,8 +1,7 @@
 ---
 title: "CA1810：必須初始化參考類型內部的靜態欄位 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,10 +16,10 @@ helpviewer_keywords:
   - "CA1810"
 ms.assetid: e9693118-a914-4efb-9550-ec659d8d97d2
 caps.latest.revision: 21
-caps.handback.revision: 21
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 21
 ---
 # CA1810：必須初始化參考類型內部的靜態欄位
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

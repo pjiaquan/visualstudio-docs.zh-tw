@@ -1,8 +1,7 @@
 ---
 title: "Visual Studio 偵錯範例 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "偵錯 SDK 範例"
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # Visual Studio 偵錯範例
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

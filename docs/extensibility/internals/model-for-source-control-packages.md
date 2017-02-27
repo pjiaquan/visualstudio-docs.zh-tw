@@ -1,8 +1,7 @@
 ---
 title: "原始檔控制套件的模型 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "原始檔控制 [Visual Studio SDK]，模型"
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
 caps.latest.revision: 13
-caps.handback.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 原始檔控制套件的模型
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

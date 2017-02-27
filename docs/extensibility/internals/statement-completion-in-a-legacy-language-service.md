@@ -1,8 +1,7 @@
 ---
 title: "在舊版語言服務中的陳述式完成 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "語言服務，陳述式完成"
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # 在舊版語言服務中的陳述式完成
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

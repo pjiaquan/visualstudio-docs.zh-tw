@@ -1,8 +1,7 @@
 ---
 title: "範例 Excel 延伸模組：ActionFilter 類別 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/09/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c69fe3c7-f797-4e90-b21c-f2cc4dddf152
 caps.latest.revision: 11
-caps.handback.revision: 11
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 11
 ---
 # 範例 Excel 延伸模組：ActionFilter 類別
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

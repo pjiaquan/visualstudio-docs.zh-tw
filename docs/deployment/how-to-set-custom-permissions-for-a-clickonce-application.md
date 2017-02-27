@@ -1,8 +1,7 @@
 ---
 title: "如何：設定 ClickOnce 應用程式的自訂使用權限 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "權限, ClickOnce 應用程式"
 ms.assetid: 660459ca-ef73-44a8-b323-610001f63b93
 caps.latest.revision: 17
-caps.handback.revision: 17
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 17
 ---
 # 如何：設定 ClickOnce 應用程式的自訂使用權限
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

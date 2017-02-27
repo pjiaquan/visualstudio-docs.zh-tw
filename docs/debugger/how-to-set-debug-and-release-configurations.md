@@ -1,8 +1,7 @@
 ---
 title: "如何：設定偵錯和發行組態 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -37,10 +36,10 @@ helpviewer_keywords:
   - "Visual Basic 專案, 偵錯與發行組建"
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 caps.latest.revision: 45
-caps.handback.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 45
 ---
 # 如何：設定偵錯和發行組態
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

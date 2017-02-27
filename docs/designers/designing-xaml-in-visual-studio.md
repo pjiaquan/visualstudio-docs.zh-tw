@@ -1,37 +1,19 @@
 ---
-title: "在 Visual Studio 中設計 XAML | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
+title: "Designing XAML in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 caps.latest.revision: 4
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: ab6e824d508a53cc294aa44527174da5c2249258
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 4
 ---
 # <a name="designing-xaml-in-visual-studio"></a>在 Visual Studio 中設計 XAML
 Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 XAML 型 Windows 桌面、Web、 [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx)和 [Windows 市集](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) 應用程式建立更吸引人的使用者介面和豐富的媒體體驗。 兩者共用一組常用的設計和工具視窗以及 XAML 編輯器，但是 Blend for Visual Studio 提供更進階工作的其他設計工具，例如動畫和行為。  

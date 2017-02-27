@@ -1,8 +1,7 @@
 ---
 title: "使用活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ helpviewer_keywords:
   - "工作流程設計工具 [WFD], 活動設計工具"
 ms.assetid: 3c2725c3-091b-49ab-81e7-d4c7028d47a2
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 9
 ---
 # 使用活動設計工具
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 包括許多系統供應的活動，在您建構活動與工作流程時，可以使用這些活動。本節描述系統供應的活動分類與其可用的設計工具。這些類別內的個別活動與其個別設計工具的主題，均描述這些活動的功能，並提供如何使用活動的指引。  

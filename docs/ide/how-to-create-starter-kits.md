@@ -1,8 +1,7 @@
 ---
 title: "如何：建立入門套件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "入門套件, 建立"
 ms.assetid: ed7d1844-7c01-424a-a831-5003efe0f7bc
 caps.latest.revision: 22
-caps.handback.revision: 22
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 如何：建立入門套件
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

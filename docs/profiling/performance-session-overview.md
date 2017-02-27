@@ -1,8 +1,7 @@
 ---
 title: "程式碼剖析工具效能工作階段概觀 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "效能工作階段"
 ms.assetid: 35752f95-a57a-4def-b64d-cf4899669e99
 caps.latest.revision: 35
-caps.handback.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 35
 ---
 # 程式碼剖析工具效能工作階段概觀
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

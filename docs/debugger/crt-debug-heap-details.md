@@ -1,8 +1,7 @@
 ---
 title: "CRT 偵錯堆積詳細資料 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -77,10 +76,10 @@ helpviewer_keywords:
   - "new 運算子, 使用 C++ 的偵錯堆積"
 ms.assetid: bf78ace6-28e4-4a04-97c6-39e0cdd00ba4
 caps.latest.revision: 19
-caps.handback.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 19
 ---
 # CRT 偵錯堆積詳細資料
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

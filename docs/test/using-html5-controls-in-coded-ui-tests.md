@@ -1,8 +1,7 @@
 ---
 title: "在自動程式碼 UI 測試中使用 HTML5 控制項 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2000b214-ae92-4334-b549-aa0eb4f45fe1
 caps.latest.revision: 17
-caps.handback.revision: 17
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 17
 ---
 # 在自動程式碼 UI 測試中使用 HTML5 控制項
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,43 +1,25 @@
 ---
-title: "尋找及使用 Visual Studio 延伸模組 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.ExtensionManager
-helpviewer_keywords:
-- install extensions
-- install packages
-- managing extensions visual studio
+title: "尋找及使用 Visual Studio 擴充功能 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.ExtensionManager"
+helpviewer_keywords: 
+  - "安裝擴充功能"
+  - "安裝套件"
+  - "管理 Visual Studio 擴充功能"
 ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
 caps.latest.revision: 42
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 55c2e1936b0c2f117b1bda1fb0c92c0dd5659a07
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 40
 ---
 # <a name="finding-and-using-visual-studio-extensions"></a>尋找及使用 Visual Studio 擴充功能
 Visual Studio 擴充功能是在 Visual Studio 內執行的程式碼封裝，並提供全新或改良的 Visual Studio 功能。 您可以在這裡找到 Visual Studio 延伸模組的詳細資訊：[Visual Studio SDK](../extensibility/visual-studio-sdk.md)。  

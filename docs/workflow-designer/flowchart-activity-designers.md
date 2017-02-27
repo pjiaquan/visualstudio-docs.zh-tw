@@ -1,18 +1,17 @@
 ---
 title: "流程圖活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/02/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
 caps.latest.revision: 4
-caps.handback.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 4
 ---
 # 流程圖活動設計工具
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 包括幾項系統提供的活動，在您建構工作流程時，可以使用這些活動。本節包含用來管理工作流程中之流程圖的系統提供活動。下列主題說明會這些活動，並且提供如何使用的指引。  

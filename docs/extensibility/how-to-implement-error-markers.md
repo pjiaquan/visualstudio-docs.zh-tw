@@ -1,8 +1,7 @@
 ---
 title: "How to: 實作錯誤標記 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，舊版-錯誤標記"
 ms.assetid: e8e78514-5720-4fc2-aa43-00b6af482e38
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # How to: 實作錯誤標記
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "如何：設定 ClickOnce 部署錯誤的自訂記錄檔位置 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "疑難排解 ClickOnce 部署"
 ms.assetid: 77424414-7f0e-4b99-94bb-ea130de92d09
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 9
 ---
 # 如何：設定 ClickOnce 部署錯誤的自訂記錄檔位置
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

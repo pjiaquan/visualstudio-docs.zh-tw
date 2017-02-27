@@ -1,8 +1,7 @@
 ---
 title: "遠端偵錯錯誤和疑難排解 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -27,10 +26,10 @@ helpviewer_keywords:
   - "遠端偵錯，錯誤"
 ms.assetid: b2f41a80-e3e0-4064-a487-8e8446270dec
 caps.latest.revision: 22
-caps.handback.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 遠端偵錯錯誤和疑難排解
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

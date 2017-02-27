@@ -1,8 +1,7 @@
 ---
 title: "目標批次處理中的項目中繼資料 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "目標批次處理 [MSBuild]"
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 6
 ---
 # 目標批次處理中的項目中繼資料
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

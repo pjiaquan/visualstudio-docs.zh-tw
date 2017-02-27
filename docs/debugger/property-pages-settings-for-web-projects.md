@@ -1,8 +1,7 @@
 ---
 title: "Web 專案的屬性頁設定 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,10 +22,10 @@ helpviewer_keywords:
   - "專案 [Visual Studio], 偵錯組態"
 ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 caps.latest.revision: 11
-caps.handback.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # Web 專案的屬性頁設定
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

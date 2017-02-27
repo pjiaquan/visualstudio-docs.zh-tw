@@ -1,8 +1,7 @@
 ---
 title: "核心介面 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]，核心介面"
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 caps.latest.revision: 24
-caps.handback.revision: 24
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 核心介面
 [!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]

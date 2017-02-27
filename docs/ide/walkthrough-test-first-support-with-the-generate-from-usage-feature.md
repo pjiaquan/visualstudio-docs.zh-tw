@@ -1,8 +1,7 @@
 ---
 title: "逐步解說：以使用時產生功能支援測試優先 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "測試優先的開發"
 ms.assetid: 764c17a4-cd95-4c23-bf63-d92d9c5adfb2
 caps.latest.revision: 63
-caps.handback.revision: 63
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 63
 ---
 # 逐步解說：以使用時產生功能支援測試優先
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

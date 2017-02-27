@@ -1,8 +1,7 @@
 ---
 title: "屬性視窗物件清單 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "屬性視窗中，物件清單"
 ms.assetid: 6c159c9d-345d-4b23-8ddd-9839d338b62f
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # 屬性視窗物件清單
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

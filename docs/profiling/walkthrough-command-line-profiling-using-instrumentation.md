@@ -1,8 +1,7 @@
 ---
 title: "逐步解說：使用檢測進行命令列剖析 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "效能工具，命令列工具"
 ms.assetid: 1c6f1586-3d6a-431f-bedf-c54088e280ba
 caps.latest.revision: 15
-caps.handback.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 逐步解說：使用檢測進行命令列剖析
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

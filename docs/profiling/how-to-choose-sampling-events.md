@@ -1,47 +1,29 @@
 ---
 title: "如何：選擇取樣事件 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.performance.property.sampling
-helpviewer_keywords:
-- clock cycles sample event
-- sample events, choosing
-- profiling tools, sample events
-- page faults sample event
-- system calls sample event
-- performance counter sample event
-- performance tools, sample events
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.performance.property.sampling"
+helpviewer_keywords: 
+  - "時脈週期範例事件"
+  - "範例事件，選擇"
+  - "程式碼剖析工具，取樣事件"
+  - "分頁錯誤範例事件"
+  - "系統呼叫範例事件"
+  - "效能計數器範例事件"
+  - "效能工具，範例事件"
 ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
 caps.latest.revision: 23
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: c5c031c5eb857e95af97a92500327088665e364d
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 23
 ---
 # <a name="how-to-choose-sampling-events"></a>如何：選擇取樣事件
 根據預設，[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 程式碼剖析工具收集效能資料的間隔，是分析程序使用的處理器週期數。 一個間隔的預設週期數是 10,000,000，在 1 GH 電腦上約為 0.01 秒。 您可以變更間隔中的週期數，而且可以變更取樣事件。 下列是可用的取樣事件︰  

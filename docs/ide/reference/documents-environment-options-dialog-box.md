@@ -1,8 +1,7 @@
 ---
 title: "選項對話方塊、環境、文件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -35,10 +34,10 @@ helpviewer_keywords:
   - "方案總管, 將檔案顯示於"
 ms.assetid: 4e3ccf1b-cd68-4db6-9470-710c911b47fc
 caps.latest.revision: 21
-caps.handback.revision: 21
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 21
 ---
 # 選項對話方塊、環境、文件
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

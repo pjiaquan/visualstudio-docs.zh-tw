@@ -1,51 +1,33 @@
 ---
 title: "JavaScript 記憶體 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-dev_langs:
-- FSharp
-- VB
-- CSharp
-- C++
-helpviewer_keywords:
-- dominators, memory analyzer (JavaScript)
-- memory leaks (JavaScript)
-- heap memory, JavaScript
-- leaks, memory (JavaScript)
-- snapshots, memory analyzer (JavaScript)
-- JavaScript Memory Analyzer
-- analyzing memory, JavaScript
-- memory analyzer, JavaScript
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "FSharp"
+  - "VB"
+  - "CSharp"
+  - "C++"
+helpviewer_keywords: 
+  - "主導者, 記憶體分析器 (JavaScript)"
+  - "記憶體遺漏 (JavaScript)"
+  - "堆積記憶體, JavaScript"
+  - "遺漏, 記憶體 (JavaScript)"
+  - "快照, 記憶體分析器 (JavaScript)"
+  - "JavaScript 記憶體分析器"
+  - "分析記憶體, JavaScript"
+  - "記憶體分析器, JavaScript"
 ms.assetid: 78f8532b-7b4e-4b50-b8b7-68ca0926dd4e
 caps.latest.revision: 49
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: f76e8b2846f0a9dfd37799f6e6f205bee446bbe4
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 46
 ---
 # <a name="javascript-memory"></a>JavaScript 記憶體
 您可以使用 Visual Studio 中提供的 JavaScript 記憶體分析器，在使用 JavaScript 針對 Windows 建置的市集應用程式中了解記憶體使用量並找出記憶體流失的問題。 支援的應用程式包括 Windows Phone 市集和 Windows 市集的應用程式。  

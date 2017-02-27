@@ -1,8 +1,7 @@
 ---
 title: "以 64 位元處理序的形式執行單元測試 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "單元測試, 執行"
 ms.assetid: d23a9ee7-58e3-4e8b-a38c-b2207ea73fea
 caps.latest.revision: 25
-caps.handback.revision: 25
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 25
 ---
 # 以 64 位元處理序的形式執行單元測試
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,41 +1,23 @@
 ---
 title: "執行時間 (執行緒檢視) | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.cv.threads.timeline.execution
-helpviewer_keywords:
-- Concurrency Visualizer, Execution Time (Threads View)
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.cv.threads.timeline.execution"
+helpviewer_keywords: 
+  - "並行視覺化檢視, 執行時間 (執行緒檢視)"
 ms.assetid: 80c100f8-2502-4613-bfef-4f4f2e09cc8d
 caps.latest.revision: 10
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: ee9d0dc29509e9b41fbec9691061c1ed928f063c
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 10
 ---
 # <a name="execution-time-threads-view"></a>執行時間 (執行緒檢視)
 當執行緒在系統的邏輯核心上主動執行工作時，[執行緒檢視] 時間表中的這些區段代表執行時間。  

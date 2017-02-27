@@ -1,8 +1,7 @@
 ---
 title: "舊版 Windows Workflow Foundation UI 設計工具的說明 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, UI 參考"
 ms.assetid: b3a0104f-4485-45ac-9794-82d54e45fb09
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 6
 ---
 # 舊版 Windows Workflow Foundation UI 設計工具的說明
 本節包含 [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] 中舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 的即時線上說明主題。當您需要以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標時，請使用舊版設計工具。  

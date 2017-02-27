@@ -1,8 +1,7 @@
 ---
 title: "Sequence 活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Statements.Sequence.UI"
 ms.assetid: 51c8d3cb-4d43-458f-9631-b63755f9ac94
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # Sequence 活動設計工具
 <xref:System.Activities.Statements.Sequence> 活動會包含子活動的已排序集合，而該集合會依序執行。  

@@ -1,8 +1,7 @@
 ---
 title: "以動態方式加入功能表項目 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "功能表新增動態項目"
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
 caps.latest.revision: 37
-caps.handback.revision: 37
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 37
 ---
 # 以動態方式加入功能表項目
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

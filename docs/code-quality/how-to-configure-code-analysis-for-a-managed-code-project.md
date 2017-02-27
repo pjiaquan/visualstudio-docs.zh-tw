@@ -1,8 +1,7 @@
 ---
 title: "如何：設定 Managed 程式碼專案的程式碼分析 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,10 +15,10 @@ helpviewer_keywords:
   - "程式碼分析，規則集"
 ms.assetid: 618f6ff3-db0e-46cb-b08d-dfa35e62c9e7
 caps.latest.revision: 33
-caps.handback.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 33
 ---
 # 如何：設定 Managed 程式碼專案的程式碼分析
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

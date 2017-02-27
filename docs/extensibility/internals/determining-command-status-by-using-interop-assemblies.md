@@ -1,8 +1,7 @@
 ---
 title: "使用 Interop 組件來判斷命令狀態 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "命令處理使用 interop 組件狀態"
 ms.assetid: 2f5104d1-7b4c-4ca0-a626-50530a8f7f5c
 caps.latest.revision: 18
-caps.handback.revision: 18
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 18
 ---
 # 使用 Interop 組件來判斷命令狀態
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

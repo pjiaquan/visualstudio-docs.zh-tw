@@ -1,8 +1,7 @@
 ---
 title: "逐步解說: 建立自訂編輯器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，自訂-建立"
 ms.assetid: d090abb6-d99f-4083-a3db-cd16bf81ce7d
 caps.latest.revision: 17
-caps.handback.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 17
 ---
 # 逐步解說: 建立自訂編輯器
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

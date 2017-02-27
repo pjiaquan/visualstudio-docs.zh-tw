@@ -1,8 +1,7 @@
 ---
 title: "錯誤：Web 伺服器已經鎖定，並會封鎖 DEBUG 動詞命令 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,10 +19,10 @@ helpviewer_keywords:
   - "偵錯工具, Web 應用程式錯誤"
 ms.assetid: 9c8c4812-17db-484d-9c1b-ffd9e3bfef5a
 caps.latest.revision: 10
-caps.handback.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 10
 ---
 # 錯誤：Web 伺服器已經鎖定，並會封鎖 DEBUG 動詞命令
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

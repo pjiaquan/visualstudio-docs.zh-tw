@@ -1,8 +1,7 @@
 ---
 title: "ClickOnce 部署資訊清單 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "部署資訊清單 [ClickOnce]"
 ms.assetid: 8457e615-e3b6-4990-8dcf-11bc590e4e9b
 caps.latest.revision: 23
-caps.handback.revision: 23
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 23
 ---
 # ClickOnce 部署資訊清單
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

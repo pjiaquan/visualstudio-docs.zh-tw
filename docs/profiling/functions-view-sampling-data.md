@@ -1,40 +1,22 @@
 ---
-title: "函式檢視 - 取樣資料 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- sampling profiling method,Functions View
-- Functions view
+title: "函式檢視 - 程式碼剖析工具：取樣資料 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "取樣分析方法，函式檢視"
+  - "函式檢視"
 ms.assetid: 029d5ebb-e551-46b0-b64e-2c553d9dbb8e
 caps.latest.revision: 12
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 0fecc6505e306a002314d41b409ee198e71152fc
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 12
 ---
 # <a name="functions-view---sampling-data"></a>函式檢視 - 取樣資料
 取樣方法的函式報表檢視會列出程式碼剖析執行期間取樣的函式。  

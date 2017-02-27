@@ -1,8 +1,7 @@
 ---
 title: "逐步解說：建立自訂啟動載入器以顯示隱私權提示 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,10 +21,10 @@ helpviewer_keywords:
   - "Windows Installer 部署, 必要條件"
 ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
 caps.latest.revision: 10
-caps.handback.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 10
 ---
 # 逐步解說：建立自訂啟動載入器以顯示隱私權提示
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

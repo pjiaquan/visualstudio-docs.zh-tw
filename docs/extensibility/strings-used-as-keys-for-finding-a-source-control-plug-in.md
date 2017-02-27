@@ -1,8 +1,7 @@
 ---
 title: "使用做為索引鍵來尋找原始檔控制外掛程式的字串 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "原始檔控制外掛程式，用於尋找字串"
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 使用做為索引鍵來尋找原始檔控制外掛程式的字串
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

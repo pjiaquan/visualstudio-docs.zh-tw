@@ -1,8 +1,7 @@
 ---
 title: "使用 ClickOnce 部署 COM 元件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "免註冊的 COM 部署"
 ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
 caps.latest.revision: 12
-caps.handback.revision: 12
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 12
 ---
 # 使用 ClickOnce 部署 COM 元件
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

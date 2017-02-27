@@ -1,8 +1,7 @@
 ---
 title: "CA1020：避免在命名空間中包含過少的類型 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,10 +16,10 @@ helpviewer_keywords:
   - "CA1020"
 ms.assetid: 9cb272f6-a3ff-45af-b35d-70dea620b074
 caps.latest.revision: 17
-caps.handback.revision: 17
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 17
 ---
 # CA1020：避免在命名空間中包含過少的類型
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

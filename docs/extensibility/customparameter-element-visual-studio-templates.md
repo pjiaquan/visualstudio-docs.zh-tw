@@ -1,8 +1,7 @@
 ---
 title: "CustomParameter 項目 (Visual Studio 範本) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "CustomParameters 項目 [Visual Studio 專案範本]"
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
 caps.latest.revision: 6
-caps.handback.revision: 6
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 6
 ---
 # CustomParameter 項目 (Visual Studio 範本)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,36 +1,19 @@
 ---
 title: "PTVS 快速入門：設定 Visual Studio | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- devlang-python
-ms.tgt_pltfrm: 
-ms.topic: article
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "devlang-python"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
 ms.assetid: ec491c1d-bdb2-4c2b-a390-bd808cec635a
 caps.latest.revision: 5
-author: kraigb
-ms.author: kraigb
-manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: d3c061866ecffb77c3f9e5b1c01e9d39a21ba10b
-
+author: "kraigb"
+ms.author: "kraigb"
+manager: "ghogen"
+caps.handback.revision: 4
 ---
 # <a name="getting-started-with-ptvs-setting-up-visual-studio"></a>PTVS 快速入門：設定 Visual Studio
 如果您有 Visual Studio，則安裝 PTVS 和相關程式庫會相當快速。  如果您沒有 Visual Studio，您可以取得一份免費的專業品質版本。  

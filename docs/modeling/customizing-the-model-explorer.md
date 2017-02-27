@@ -1,8 +1,7 @@
 ---
 title: "自訂模型總管 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, 網域指定的語言總管"
 ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 20
-caps.handback.revision: 20
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 20
 ---
 # 自訂模型總管
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

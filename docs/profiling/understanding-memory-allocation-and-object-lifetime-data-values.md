@@ -1,8 +1,7 @@
 ---
 title: "認識程式碼剖析工具中的記憶體配置和物件存留期資料值 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "程式碼剖析工具，.NET 記憶體方法"
 ms.assetid: a22445b3-39a6-4919-8506-2b5b0ceaf77e
 caps.latest.revision: 11
-caps.handback.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # 認識程式碼剖析工具中的記憶體配置和物件存留期資料值
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

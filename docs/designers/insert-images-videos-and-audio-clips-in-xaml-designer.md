@@ -1,8 +1,7 @@
 ---
 title: "在 XAML 設計工具中插入影像、視訊和音訊剪輯 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,10 +10,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff707aca-6bc5-4a2d-834b-bb6511a7b8f6
 caps.latest.revision: 11
-caps.handback.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # 在 XAML 設計工具中插入影像、視訊和音訊剪輯
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

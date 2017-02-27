@@ -1,41 +1,23 @@
 ---
 title: "執行緒檢視 (平行處理效能) | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.performance.view.threadblocking
-helpviewer_keywords:
-- Concurrency Visualizer, Threads View (Parallel Performance)
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.performance.view.threadblocking"
+helpviewer_keywords: 
+  - "並行視覺化檢視，執行緒檢視 (平行處理效能)"
 ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 caps.latest.revision: 21
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 1777df83f2c2764e173300f897b18a699a38c197
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 21
 ---
 # <a name="threads-view-parallel-performance"></a>執行緒檢視 (平行處理效能)
 執行緒檢視是並行視覺化檢視中最詳細且功能豐富的檢視。 使用此檢視，您可以識別執行緒是否在執行中，或因為同步處理、 I/O 或因其他原因而遭到封鎖。  

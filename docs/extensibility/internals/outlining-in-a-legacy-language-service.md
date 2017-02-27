@@ -1,8 +1,7 @@
 ---
 title: "舊版語言服務中的大綱 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "大綱、 支援的語言服務 [受管理的封裝 framework]"
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 舊版語言服務中的大綱
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "開始使用來源控制 Vspackage | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "取得已啟動，原始檔控制套件"
 ms.assetid: 049c68f4-a041-4f24-8575-4837e7f5cf3f
 caps.latest.revision: 22
-caps.handback.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 開始使用來源控制 Vspackage
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "如何：使用原生執行階段檢查 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -43,10 +42,10 @@ helpviewer_keywords:
   - "變數 [偵錯工具], 資料遺失"
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 caps.latest.revision: 19
-caps.handback.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 19
 ---
 # 如何：使用原生執行階段檢查
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

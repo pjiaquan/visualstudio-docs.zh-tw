@@ -1,47 +1,29 @@
 ---
 title: "逐步解說：改善 UI 回應性 (HTML) | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-dev_langs:
-- FSharp
-- VB
-- CSharp
-- C++
-helpviewer_keywords:
-- performance tools, JavaScript [Store apps]
-- performance, JavaScript [Store apps]
-- performance, HTML [Store apps]
-- performance tools, HTML [Store apps]
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "FSharp"
+  - "VB"
+  - "CSharp"
+  - "C++"
+helpviewer_keywords: 
+  - "效能工具, HTML [市集應用程式]"
+  - "效能工具, JavaScript [市集應用程式]"
+  - "效能, HTML [市集應用程式]"
+  - "效能, JavaScript [市集應用程式]"
 ms.assetid: 7e5a2524-dbf5-4a40-b5d6-2d1ed7fff3de
 caps.latest.revision: 16
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 753b4abd76b56ff46406b3a2f5ab5b8fb008c526
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 13
 ---
 # <a name="walkthrough-improving-ui-responsiveness-html"></a>逐步解說：改善 UI 回應性 (HTML)
 本逐步解說將帶領您使用 [HTML UI 回應性分析工具](../profiling/html-ui-responsiveness.md)找出並修正效能問題。 您可以在 Visual Studio 中使用此分析工具來分析使用 JavaScript 建置的 Windows 通用應用程式及 Windows 市集應用程式。 在這個案例中，您將建立極常更新 DOM 項目的效能測試應用程式，並且使用分析工具找出並修正問題。  

@@ -1,8 +1,7 @@
 ---
 title: "註冊程式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]，程式註冊"
 ms.assetid: d726a161-7db3-4ef4-b258-9f6a5be68418
 caps.latest.revision: 11
-caps.handback.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # 註冊程式
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

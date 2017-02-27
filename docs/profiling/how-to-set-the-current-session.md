@@ -1,45 +1,27 @@
 ---
-title: "如何：設定目前的工作階段 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- current performance sessions
-- Performance Explorer, selecting sessions
-- profiling tools, setting sessions
-- multiple performance sessions
-- performance sessions, setting multiple
-- performance tools, setting current performance session
-- sessions, setting multiple
+title: "如何：設定目前的程式碼剖析工作階段 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "目前的效能工作階段"
+  - "效能總管，選取工作階段"
+  - "程式碼剖析工具，設定工作階段"
+  - "多個效能工作階段"
+  - "效能工作階段，設定多個"
+  - "效能工具，設定目前的效能工作階段"
+  - "工作階段，設定多個"
 ms.assetid: a593e551-18ec-46fd-bfd5-8a045165a334
 caps.latest.revision: 16
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: f00bcb579d2f3a6d8fd860aed7d41f3d67f164d5
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 16
 ---
 # <a name="how-to-set-the-current-session"></a>如何：設定目前的工作階段
 您可以在 [效能總管]中開啟多個效能工作階段，然後選取其中一個可見的效能工作階段來設為目前的工作階段。  

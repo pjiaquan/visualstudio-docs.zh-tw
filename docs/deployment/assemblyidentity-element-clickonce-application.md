@@ -1,8 +1,7 @@
 ---
 title: "&lt;assemblyIdentity&gt; 項目 (ClickOnce 應用程式) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "<assemblyIdentity> 項目 [ClickOnce 應用程式資訊清單]"
 ms.assetid: f48e9531-efac-4d11-8166-f63a5ece1ac5
 caps.latest.revision: 20
-caps.handback.revision: 20
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 20
 ---
 # &lt;assemblyIdentity&gt; 項目 (ClickOnce 應用程式)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

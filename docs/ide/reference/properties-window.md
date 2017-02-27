@@ -1,8 +1,7 @@
 ---
 title: "屬性視窗 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,10 +22,10 @@ helpviewer_keywords:
   - "屬性視窗"
 ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
 caps.latest.revision: 11
-caps.handback.revision: 11
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # 屬性視窗
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

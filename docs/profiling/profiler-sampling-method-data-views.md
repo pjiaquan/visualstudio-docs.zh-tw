@@ -1,8 +1,7 @@
 ---
 title: "程式碼剖析工具取樣方法資料檢視 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "取樣資料檢視"
 ms.assetid: 798de693-e43a-4056-aff5-48310c2172c5
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 程式碼剖析工具取樣方法資料檢視
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

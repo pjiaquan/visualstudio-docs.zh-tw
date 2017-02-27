@@ -1,8 +1,7 @@
 ---
 title: "識別及自訂 Visual Studio 中的鍵盤快速鍵 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "快速鍵組合 [Visual Studio]"
 ms.assetid: d2774be2-60a4-4d6f-95f1-79d0d9e55b56
 caps.latest.revision: 26
-caps.handback.revision: 26
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 26
 ---
 # 識別及自訂 Visual Studio 中的鍵盤快速鍵
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

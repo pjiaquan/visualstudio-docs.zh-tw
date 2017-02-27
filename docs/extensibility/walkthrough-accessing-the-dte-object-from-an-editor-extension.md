@@ -1,8 +1,7 @@
 ---
 title: "逐步解說︰ 從編輯器延伸模組來存取 DTE 物件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，新-取得 DTE 物件"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
 caps.latest.revision: 22
-caps.handback.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 逐步解說︰ 從編輯器延伸模組來存取 DTE 物件
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "如何：為執行中的處理序附加和中斷連結程式碼剖析工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "程式碼剖析工具"
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
 caps.latest.revision: 30
-caps.handback.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 30
 ---
 # 如何：為執行中的處理序附加和中斷連結程式碼剖析工具
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

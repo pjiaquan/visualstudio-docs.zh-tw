@@ -1,8 +1,7 @@
 ---
 title: "視覺化檢視安全性考量 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "視覺化檢視, 安全性"
 ms.assetid: cdd86bd5-b729-409b-a7c6-374efa091eb1
 caps.latest.revision: 22
-caps.handback.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 視覺化檢視安全性考量
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

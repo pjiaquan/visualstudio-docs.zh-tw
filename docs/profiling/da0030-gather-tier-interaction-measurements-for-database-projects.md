@@ -1,8 +1,7 @@
 ---
 title: "DA0030：蒐集資料庫專案的階層互動度量 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ f1_keywords:
   - "vs.performance.30"
 ms.assetid: 42b2f69d-0cfa-4854-82c4-589c3d8b4557
 caps.latest.revision: 7
-caps.handback.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 7
 ---
 # DA0030：蒐集資料庫專案的階層互動度量
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,41 +1,23 @@
 ---
 title: "效能工作階段屬性 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- Profiling Tools,properties
-- property pages,Profiling Tools
-- performance tools, performance session properties
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "分析工具, 屬性"
+  - "屬性頁, 分析工具"
+  - "效能工具, 效能工作階段屬性"
 ms.assetid: c3a86913-172b-488f-a31a-cea01a71b2ea
 caps.latest.revision: 16
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 9e2c533f31c0fd0e73e990a747491ffd1d6cb267
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 16
 ---
 # <a name="performance-session-properties"></a>效能工作階段屬性
 [效能工作階段] 可以讓您進行設定，以決定如何對應用程式進行程式碼剖析。 它也會儲存針對程式碼剖析工作階段所產生的報告。  

@@ -1,8 +1,7 @@
 ---
 title: "篩選程式碼剖析工具報表檢視 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "程式碼剖析工具, 設定"
 ms.assetid: 820cf192-7fd6-4bee-9a51-aa69154aca85
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 篩選程式碼剖析工具報表檢視
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

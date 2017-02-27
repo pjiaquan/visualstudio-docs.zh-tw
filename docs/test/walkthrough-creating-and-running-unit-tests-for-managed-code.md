@@ -1,42 +1,24 @@
 ---
 title: "逐步解說：針對 Managed 程式碼建立和執行單元測試 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- unit tests, walkthrough
-- unit tests, creating
-- unit tests, generating
-- unit tests, running
-- unit tests, authoring
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-devops-test"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "單元測試，逐步解說"
+  - "單元測試，建立"
+  - "單元測試，產生"
+  - "單元測試，執行"
+  - "單元測試，撰寫"
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 83
-ms.author: mlearned
-manager: douge
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: a00b80092a44190d626b93b0ecc5689bafd1a4e3
-
+ms.author: "mlearned"
+manager: "douge"
+caps.handback.revision: 83
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-managed-code"></a>逐步解說：針對 Managed 程式碼建立和執行單元測試
 本逐步解說會引導您使用適用於 Managed 程式碼的 Microsoft 單元測試架構和 Visual Studio 測試總管，來建立、執行和自訂一系列的單元測試。 您可以從開發中的 C# 專案開始，建立執行其程式碼的測試、執行測試，並檢查結果。 然後，您可以修改專案程式碼並重新執行測試。  

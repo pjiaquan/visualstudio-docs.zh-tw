@@ -1,49 +1,31 @@
 ---
 title: "Devenv 命令列參數 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- switches, Devenv
-- builds [Team System], command-line
-- applications [Visual Studio], executing
-- compiling source code, Devenv
-- command-line switches, Devenv
-- command line [Visual Studio], switches
-- Devenv
-- environment, Devenv commands
-- compilers, Devenv commands
-- switches
-- Devenv, syntax and list of switches
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "應用程式 [Visual Studio], 執行"
+  - "組建 [Team System], 命令列"
+  - "命令列 [Visual Studio], 參數"
+  - "命令列參數, Devenv"
+  - "編譯器, Devenv 命令"
+  - "編譯原始程式碼, Devenv"
+  - "Devenv"
+  - "Devenv, 語法和參數清單"
+  - "環境, Devenv 命令"
+  - "參數"
+  - "參數, Devenv"
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
 caps.latest.revision: 33
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: e6d73f518f62cefc1fbb791d6c51a6d42a4cfae5
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 29
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 命令列參數
 Devenv 可讓您設定整合式開發環境 (IDE) 的各種選項，也可讓您從命令列建置、偵錯和部署專案。 使用這些參數透過指令碼或 .bat 檔案 (例如，夜間組建指令碼) 執行 IDE，或在特定組態中啟動 IDE。  

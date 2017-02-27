@@ -1,8 +1,7 @@
 ---
 title: "DA0505：為進行程式碼剖析的處理序所配置的平均私用位元組 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ f1_keywords:
   - "vs.performance.505"
 ms.assetid: 32c612ea-d077-44ba-8e6f-3a96333bad00
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # DA0505：為進行程式碼剖析的處理序所配置的平均私用位元組
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "影像圖案的屬性 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "網域指定的語言, 影像圖案"
 ms.assetid: 9ce00ccd-07f2-4640-ac96-2a60481d0d72
 caps.latest.revision: 25
-caps.handback.revision: 25
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 25
 ---
 # 影像圖案的屬性
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "如何：在機器碼中設定執行緒名稱 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -22,10 +21,10 @@ helpviewer_keywords:
   - "執行緒處理 [Visual Studio], 名稱"
 ms.assetid: c85d0968-9f22-4d69-87f4-acca2ae777b8
 caps.latest.revision: 37
-caps.handback.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 37
 ---
 # 如何：在機器碼中設定執行緒名稱
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

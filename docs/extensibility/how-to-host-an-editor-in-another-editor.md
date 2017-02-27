@@ -1,8 +1,7 @@
 ---
 title: "How to: 裝載在另一個編輯器中的編輯器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，舊版-裝載巢狀的編輯器"
 ms.assetid: 2b0eb705-fe94-4ca8-93e0-9dbd8ce61a44
 caps.latest.revision: 14
-caps.handback.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # How to: 裝載在另一個編輯器中的編輯器
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

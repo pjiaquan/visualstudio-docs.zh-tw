@@ -1,8 +1,7 @@
 ---
 title: "CA1721：屬性名稱不能和其中有 get 的方法名稱相符 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,10 +16,10 @@ helpviewer_keywords:
   - "PropertyNamesShouldNotMatchGetMethods"
 ms.assetid: 45a0e853-1f06-4688-af1b-cc634409e295
 caps.latest.revision: 17
-caps.handback.revision: 17
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 17
 ---
 # CA1721：屬性名稱不能和其中有 get 的方法名稱相符
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

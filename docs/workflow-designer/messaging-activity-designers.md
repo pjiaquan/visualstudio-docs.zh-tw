@@ -1,18 +1,17 @@
 ---
 title: "傳訊活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
 caps.latest.revision: 7
-caps.handback.revision: 7
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 7
 ---
 # 傳訊活動設計工具
 傳訊活動設計工具會用來建立及設定從 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] 應用程式內部傳送與接收 [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] 訊息的傳訊活動。[!INCLUDE[netfx40_long](../workflow-designer/includes/netfx40_long_md.md)] 導入五個傳訊活動，而且 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 提供兩個新的範本設計工具，可用來管理工作流程內的傳訊。本節包含的主題以及下表所列的主題會提供如何使用 [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] 活動與範本設計工具的指引。  

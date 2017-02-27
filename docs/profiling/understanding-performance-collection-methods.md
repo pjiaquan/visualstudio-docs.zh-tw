@@ -1,8 +1,7 @@
 ---
 title: "認識程式碼剖析方法 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "程式碼剖析工具，程式碼剖析方法"
 ms.assetid: ea4881fd-bd04-4875-9b7b-28490d6706f9
 caps.latest.revision: 20
-caps.handback.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 20
 ---
 # 認識程式碼剖析方法
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

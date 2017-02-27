@@ -1,8 +1,7 @@
 ---
 title: "適用於 Managed 程式碼的安全性規則規則集 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,10 +10,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 9
 ---
 # 適用於 Managed 程式碼的安全性規則規則集
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "選項對話方塊、環境、尋找和取代 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,10 +16,10 @@ helpviewer_keywords:
   - "尋找和取代, 自訂"
 ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
 caps.latest.revision: 12
-caps.handback.revision: 12
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # 選項對話方塊、環境、尋找和取代
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

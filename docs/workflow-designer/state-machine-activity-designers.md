@@ -1,17 +1,16 @@
 ---
 title: "狀態機器活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
 caps.latest.revision: 5
-caps.handback.revision: 5
 ms.author: "sdanie"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # 狀態機器活動設計工具
 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 包括一些在建構工作流程時可以使用的活動設計工具。本節包含系統提供的活動設計工具，這些活動設計工具用來建立和管理狀態機器工作流程。下列主題說明會這些設計工具，並且提供如何使用的指引。  

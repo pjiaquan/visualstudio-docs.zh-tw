@@ -1,8 +1,7 @@
 ---
 title: "CorrelationScope 活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 6
 ---
 # CorrelationScope 活動設計工具
 \[**CorrelationScope**\] 活動設計工具會用來建立及設定 <xref:System.ServiceModel.Activities.CorrelationScope> 活動，該活動會使用 <xref:System.ServiceModel.Activities.CorrelationHandle> 物件提供子系傳訊活動的隱含管理。  

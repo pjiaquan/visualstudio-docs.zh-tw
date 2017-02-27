@@ -1,18 +1,17 @@
 ---
 title: "HOW TO：使用工作流程設計工具偵測 XAML | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: d9305dbc-af62-4bdd-b03f-c54e3fe9ecc7
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 8
 ---
 # HOW TO：使用工作流程設計工具偵測 XAML
 工作流程是根據 XAML 所定義的。工作流程的 UI 呈現方式，乃是建立在定義該工作流程的 XAML 樹狀結構上。偵錯的體驗類似 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 中的工作流程偵錯。例如，為 XAML 偵錯時，其區域變數、監看及執行緒視窗的運作方式，就像在 [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] 中偵錯一樣。此外，在 XAML 偵錯期間的呼叫堆疊檢視，也是工作流程執行流程的逐行階層架構檢視。  

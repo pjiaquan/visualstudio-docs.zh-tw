@@ -1,8 +1,7 @@
 ---
 title: "在遠端電腦上執行 Windows 市集應用程式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,10 +15,10 @@ dev_langs:
   - "C++"
 ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
 caps.latest.revision: 43
-caps.handback.revision: 43
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 43
 ---
 # 在遠端電腦上執行 Windows 市集應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

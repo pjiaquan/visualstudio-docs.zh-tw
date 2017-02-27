@@ -1,8 +1,7 @@
 ---
 title: "如何：比較程式碼剖析工具資料檔案 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,10 +15,10 @@ helpviewer_keywords:
   - "程式碼剖析工具, 如何比較分析工具結果檔案"
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
 caps.latest.revision: 20
-caps.handback.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 20
 ---
 # 如何：比較程式碼剖析工具資料檔案
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

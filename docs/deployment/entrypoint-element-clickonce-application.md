@@ -1,8 +1,7 @@
 ---
 title: "&lt;entryPoint&gt; 項目 (ClickOnce 應用程式) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "資料清單 [ClickOnce], entryPoint 項目"
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
 caps.latest.revision: 33
-caps.handback.revision: 33
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 33
 ---
 # &lt;entryPoint&gt; 項目 (ClickOnce 應用程式)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

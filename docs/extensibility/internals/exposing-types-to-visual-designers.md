@@ -1,8 +1,7 @@
 ---
 title: "公開型別，以視覺化設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "公開型別，以視覺化設計工具的自訂工具"
 ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 caps.latest.revision: 11
-caps.handback.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 11
 ---
 # 公開型別，以視覺化設計工具
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

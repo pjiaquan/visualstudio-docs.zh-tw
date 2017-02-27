@@ -1,8 +1,7 @@
 ---
 title: "ClickOnce 應用程式資訊清單 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "ClickOnce, 應用程式資訊清單"
 ms.assetid: 29570cec-4e53-4660-a850-abc4fa150243
 caps.latest.revision: 23
-caps.handback.revision: 23
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 23
 ---
 # ClickOnce 應用程式資訊清單
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

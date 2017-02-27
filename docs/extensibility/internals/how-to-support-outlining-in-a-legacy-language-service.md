@@ -1,8 +1,7 @@
 ---
 title: "如何︰ 支援舊版語言服務中的大綱 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "隱藏的文字，摺疊至定義命令"
 ms.assetid: bb6e74c3-93e4-4ef7-afc7-1c9b342f083b
 caps.latest.revision: 17
-caps.handback.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 17
 ---
 # 如何︰ 支援舊版語言服務中的大綱
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "使用編輯器項目範本建立擴充功能 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，新的擴充功能"
 ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
 caps.latest.revision: 16
-caps.handback.revision: 16
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 16
 ---
 # 使用編輯器項目範本建立擴充功能
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "程式碼剖析工具報表檢視 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "程式碼剖析工具，報表檢視"
 ms.assetid: 3e84e513-dc64-40bb-b385-03281f28b519
 caps.latest.revision: 24
-caps.handback.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 程式碼剖析工具報表檢視
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

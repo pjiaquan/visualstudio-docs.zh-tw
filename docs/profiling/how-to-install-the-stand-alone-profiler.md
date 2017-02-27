@@ -1,8 +1,7 @@
 ---
 title: "如何：安裝獨立分析工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "程式碼剖析工具, 獨立程式碼剖析工具"
 ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 caps.latest.revision: 24
-caps.handback.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 如何：安裝獨立分析工具
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

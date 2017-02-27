@@ -1,8 +1,7 @@
 ---
 title: "來源控制項 VSPackage 架構 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "原始檔控制套件架構"
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
 caps.latest.revision: 25
-caps.handback.revision: 25
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 25
 ---
 # 來源控制項 VSPackage 架構
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

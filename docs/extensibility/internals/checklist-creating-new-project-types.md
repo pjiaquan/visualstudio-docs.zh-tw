@@ -1,8 +1,7 @@
 ---
 title: "檢查清單︰ 建立新的專案類型 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "專案類型，建立的檢查清單"
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
 caps.latest.revision: 23
-caps.handback.revision: 23
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 23
 ---
 # 檢查清單︰ 建立新的專案類型
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

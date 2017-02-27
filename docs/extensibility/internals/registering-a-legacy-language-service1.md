@@ -1,8 +1,7 @@
 ---
-title: "註冊舊版語言服務 | Microsoft Docs"
+title: "註冊舊版語言 Service1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "註冊語言服務 [受管理的封裝 framework]"
 ms.assetid: d33b08af-09e0-4c79-87b2-5536b27fbacf
 caps.latest.revision: 22
-caps.handback.revision: 22
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 註冊舊版語言服務
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

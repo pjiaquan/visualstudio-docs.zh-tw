@@ -1,8 +1,7 @@
 ---
 title: "專案設計工具、安全性頁 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "專案設計工具中的 [安全性] 頁面"
 ms.assetid: 641d9cd3-fa07-498a-8568-3c169bb4d3d5
 caps.latest.revision: 34
-caps.handback.revision: 34
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 34
 ---
 # 專案設計工具、安全性頁
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

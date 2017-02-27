@@ -1,8 +1,7 @@
 ---
 title: "如何：對 Managed 程式碼手動執行程式碼分析 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "程式碼分析, 執行"
 ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
 caps.latest.revision: 14
-caps.handback.revision: 14
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 14
 ---
 # 如何：對 Managed 程式碼手動執行程式碼分析
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

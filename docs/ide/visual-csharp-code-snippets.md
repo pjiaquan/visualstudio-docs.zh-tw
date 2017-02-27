@@ -1,43 +1,25 @@
 ---
 title: "Visual C# 程式碼片段 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- snippets [C#], default snippets
-- snippets [C#], Code Snippet Inserter
-- Code Snippet Inserter [J#]
-- Code Snippet Inserter [C#]
-- Visual C#, default snippets
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "程式碼片段 [C#]，預設的程式碼片段"
+  - "程式碼片段 [C#]，程式碼片段插入器"
+  - "程式碼片段插入器 [J#]"
+  - "程式碼片段插入器 [C#]"
+  - "Visual C#，預設的程式碼片段"
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 33
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a4721d8bbd5dd6ec29f555ee8d4848ef3660243f
-ms.openlocfilehash: 0e1c37c0ce85cc44f7d43d895f3b4a4615539e3e
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 33
 ---
 # <a name="visual-c-code-snippets"></a>Visual C# 程式碼片段
 程式碼片段是可快速插入程式碼的現成程式碼片段。 例如，`for` 程式碼片段會建立空白 `for` 迴圈。 部分程式碼片段是範圍陳述式程式碼片段，可讓您選取程式碼行，然後選擇包含所選取程式碼行的程式碼片段。 例如，如果您選取程式碼行，然後啟用 `for` 程式碼片段，則會建立迴圈區塊內包含這些程式碼行的 `for` 迴圈。 程式碼片段可以更快速、更輕鬆且更可靠地撰寫程式碼。  

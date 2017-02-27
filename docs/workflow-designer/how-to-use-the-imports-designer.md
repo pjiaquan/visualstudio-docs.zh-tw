@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：使用匯入設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Presentation.View.ImportDesigner.UI"
 ms.assetid: 61328ab6-9b66-4e12-8630-22e30ee8c9d1
 caps.latest.revision: 10
-caps.handback.revision: 10
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 10
 ---
 # HOW TO：使用匯入設計工具
 匯入設計工具可讓您輸入要用於運算式之型別的命名空間。在匯入設計工具中指定命名空間，與在 Visual Basic .NET 和 C\# 中使用**Imports** 或 **using** 關鍵字十分類似，只要在運算式中輸入型別名稱即可，而不必輸入完整的型別名稱。  

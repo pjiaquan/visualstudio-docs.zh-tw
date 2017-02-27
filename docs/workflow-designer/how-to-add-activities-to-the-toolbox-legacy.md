@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：將活動新增至工具箱 (舊版) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ helpviewer_keywords:
   - "工具箱, 新增活動"
 ms.assetid: b66ea29c-120b-40ba-8a61-c1c8240850fa
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # HOW TO：將活動新增至工具箱 (舊版)
 當您使用以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標的舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 來建置工作流程方案時，自訂活動可以加入至工作流程專案中，而且其設計工具會置於 \[**工具箱**\] 方便您存取。您也可以直接從動態連結程式庫 \(DLL\) 將活動加入至 \[**工具箱**\]。  

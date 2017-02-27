@@ -1,8 +1,7 @@
 ---
 title: "錯誤：未正確設定 Web 伺服器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,10 +19,10 @@ helpviewer_keywords:
   - "偵錯工具, Web 應用程式錯誤"
 ms.assetid: 875ba87f-c372-4126-8fe3-e33931cf26c0
 caps.latest.revision: 22
-caps.handback.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 錯誤：未正確設定 Web 伺服器
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

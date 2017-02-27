@@ -1,40 +1,22 @@
 ---
-title: "檢測方法資料檢視 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- profiling tools,instrumentation method views
-- instrumentation profiling method
+title: "程式碼剖析工具檢測方法資料檢視 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "檢測分析方法"
+  - "程式碼剖析工具, 檢測方法檢視"
 ms.assetid: 481f7579-f784-49ef-bb6c-2944e9d6ab42
 caps.latest.revision: 10
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 024d1b40a0eb8fa3a96c38cc07ca0ede268fdd43
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 10
 ---
 # <a name="instrumentation-method-data-views"></a>檢測方法資料檢視
 本節包含使用檢測方法所產生的程式碼剖析工具資料檔案之檢視和報告的參考資訊。  

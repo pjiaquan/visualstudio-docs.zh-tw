@@ -1,8 +1,7 @@
 ---
 title: "從命令列使用程式碼剖析工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,10 +16,10 @@ helpviewer_keywords:
   - "命令列，工具"
 ms.assetid: 6593fa82-181e-4009-a0ed-02aa24c2c063
 caps.latest.revision: 35
-caps.handback.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 35
 ---
 # 從命令列使用程式碼剖析工具
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

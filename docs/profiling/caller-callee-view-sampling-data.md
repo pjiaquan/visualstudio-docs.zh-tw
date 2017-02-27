@@ -1,8 +1,7 @@
 ---
 title: "呼叫端/被呼叫端檢視 - 程式碼分析工具取樣資料 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "呼叫端/被呼叫端檢視"
 ms.assetid: 28e85ed5-1512-4b59-bb84-138a2abca7dd
 caps.latest.revision: 14
-caps.handback.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # 呼叫端/被呼叫端檢視 - 程式碼分析工具取樣資料
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

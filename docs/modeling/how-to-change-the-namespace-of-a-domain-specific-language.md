@@ -1,8 +1,7 @@
 ---
 title: "如何：變更網域指定的語言命名空間 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ helpviewer_keywords:
   - "網域指定的語言, 命名空間"
 ms.assetid: f20c47e5-230d-4f0e-812f-5c6edb86866c
 caps.latest.revision: 19
-caps.handback.revision: 19
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 19
 ---
 # 如何：變更網域指定的語言命名空間
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

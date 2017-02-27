@@ -1,8 +1,7 @@
 ---
 title: "TemplateContent 項目 (Visual Studio 範本) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "TemplateContent 項目 [Visual Studio 專案範本]"
 ms.assetid: 90ae401c-b294-49ac-98da-e0d274f5bebb
 caps.latest.revision: 14
-caps.handback.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # TemplateContent 項目 (Visual Studio 範本)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

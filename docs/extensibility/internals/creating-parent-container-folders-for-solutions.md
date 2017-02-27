@@ -1,8 +1,7 @@
 ---
 title: "為方案建立父容器的資料夾 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "原始檔控制外掛程式，建立父容器"
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 為方案建立父容器的資料夾
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

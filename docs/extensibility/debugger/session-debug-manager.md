@@ -1,8 +1,7 @@
 ---
 title: "偵錯的工作階段管理員 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "委派的工作階段偵錯管理員"
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 caps.latest.revision: 10
-caps.handback.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 10
 ---
 # 偵錯的工作階段管理員
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]
