@@ -1,8 +1,7 @@
 ---
 title: "如何：同步處理具有 Team 專案簽入原則的程式碼專案規則集 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ f1_keywords:
   - "vs.codeanalysis.selecttfsruleset"
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
 caps.latest.revision: 12
-caps.handback.revision: 12
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 12
 ---
 # 如何：同步處理具有 Team 專案簽入原則的程式碼專案規則集
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

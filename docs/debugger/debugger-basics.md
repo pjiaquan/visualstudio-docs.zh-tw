@@ -1,8 +1,7 @@
 ---
 title: "偵錯工具基礎 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -20,10 +19,10 @@ helpviewer_keywords:
   - "偵錯工具, 藍圖"
 ms.assetid: 4da42a10-384d-44d7-b4dc-032202ff784b
 caps.latest.revision: 27
-caps.handback.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 27
 ---
 # 偵錯工具基礎
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "自訂項目的建立和移動 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "定義域專屬語言，項目合併指示詞"
 ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 36
-caps.handback.revision: 36
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 36
 ---
 # 自訂項目的建立和移動
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

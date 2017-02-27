@@ -1,78 +1,60 @@
 ---
 title: "Visual Studio 中的方案和專案 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/16/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.savedeferredsaveprojectonclose
-- vs.untrustedtemplateopeningdocuments
-- Project Properties.FullPath
-- vs.addnewsolutionitem
-- vs.environment.projects
-- vs.openproject
-- vs.getopenfilename
-- vs.addnewitem
-- vs.encoding
-- vs.addexistingitem
-- Project Properties.URL
-- VS.SolutionExplorer
-- Project Properties.FileName
-- SolutionProperties.Name
-- VS.SaveChangesDlg
-- vs.newproject
-- VS.SolutionExplorer.Selection
-- SolutionProperties.Path
-- vs.getdirectoryname
-- vs.addexistingsolutionitem
-- SolutionProperties.Description
-- vs.environment.solutions
-- vs.saveordiscarddeferredsaveproject
-- VS.SolutionExplorer.Solutions
-helpviewer_keywords:
-- vs.solutionpropertypages
-- vs.solutionpropertypages.startupproject
-- vs.solutionpropertypages.configurationsettings
-- solution items, folder in Solution Explorer
-- solution items, shared
-- solutions [Visual Studio]
-- project items [Visual Studio], about project items
-- workspaces
-- solutions [Visual Studio], designing
-- projects [Visual Studio]
-- solutions [Visual Studio], projects and
-- vs.solutionpropertypages.projectdependencies
-- applications [Visual Studio]
-- projects [Visual Studio], setting up
-- miscellaneous files
+ms.custom: ""
+ms.date: "11/16/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.savedeferredsaveprojectonclose"
+  - "vs.untrustedtemplateopeningdocuments"
+  - "Project Properties.FullPath"
+  - "vs.addnewsolutionitem"
+  - "vs.environment.projects"
+  - "vs.openproject"
+  - "vs.getopenfilename"
+  - "vs.addnewitem"
+  - "vs.encoding"
+  - "vs.addexistingitem"
+  - "Project Properties.URL"
+  - "VS.SolutionExplorer"
+  - "Project Properties.FileName"
+  - "SolutionProperties.Name"
+  - "VS.SaveChangesDlg"
+  - "vs.newproject"
+  - "VS.SolutionExplorer.Selection"
+  - "SolutionProperties.Path"
+  - "vs.getdirectoryname"
+  - "vs.addexistingsolutionitem"
+  - "SolutionProperties.Description"
+  - "vs.environment.solutions"
+  - "vs.saveordiscarddeferredsaveproject"
+  - "VS.SolutionExplorer.Solutions"
+helpviewer_keywords: 
+  - "vs.solutionpropertypages"
+  - "vs.solutionpropertypages.startupproject"
+  - "vs.solutionpropertypages.configurationsettings"
+  - "方案項目，在 [方案總管] 的資料夾"
+  - "方案項目共用"
+  - "方案 [Visual Studio]"
+  - "專案項目 [Visual Studio]，關於專案項目"
+  - "工作區"
+  - "方案 [Visual Studio] 設計"
+  - "專案 [Visual Studio]"
+  - "方案 [Visual Studio]、 專案和"
+  - "vs.solutionpropertypages.projectdependencies"
+  - "應用程式 [Visual Studio]"
+  - "專案 [Visual Studio] 設定"
+  - "其他檔案"
 ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
 caps.latest.revision: 35
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: a88acb10478c5beb68cc6a12334f00145d183b1d
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 35
 ---
 # <a name="solutions-and-projects-in-visual-studio"></a>Visual Studio 中的方案和專案
 當您在 Visual Studio 中建立 App、應用程式、網站、Web 應用程式、指令碼、外掛程式等項目時，您必須開始一個「專案」 。 在邏輯方面而言，專案包含所有原始程式碼檔案、圖示、影像、資料檔案以及其他會編譯到可執行程式或網站的項目，或是執行編譯所需的項目。  專案也包含所有編譯器設定與其他組態檔，這些是您的程式將與其通訊的各種服務或元件所需的項目。

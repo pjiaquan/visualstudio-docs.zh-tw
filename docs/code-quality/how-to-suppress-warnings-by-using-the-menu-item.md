@@ -1,8 +1,7 @@
 ---
 title: "如何：使用功能表項目隱藏警告 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "程式碼分析，隱藏警告"
 ms.assetid: 36bd1850-dcde-4ed0-9bc3-0b83df434362
 caps.latest.revision: 24
-caps.handback.revision: 24
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 24
 ---
 # 如何：使用功能表項目隱藏警告
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

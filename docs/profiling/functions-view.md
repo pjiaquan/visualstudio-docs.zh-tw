@@ -1,8 +1,7 @@
 ---
 title: "函式檢視 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "程式碼剖析工具, 函式檢視"
 ms.assetid: 513c6174-071d-48a4-9e25-04debbb63e5c
 caps.latest.revision: 27
-caps.handback.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 27
 ---
 # 函式檢視
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

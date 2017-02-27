@@ -1,38 +1,21 @@
 ---
 title: "協助工具秘訣和訣竅 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- accessibility [Visual Studio]
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "存取範圍 [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 caps.latest.revision: 22
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: c1e4fdf79ac11095501ca8823ff247cb48374824
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 21
 ---
 # <a name="accessibility-tips-and-tricks"></a>協助工具秘訣和訣竅
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 包括內建協助工具功能，可讓您透過鍵盤輕鬆工作，以及使用螢幕助讀程式或其他輔助技術裝置。 本主題包括針對協助工具最佳化 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 的一些建議，以及一些實用快速鍵組合。  

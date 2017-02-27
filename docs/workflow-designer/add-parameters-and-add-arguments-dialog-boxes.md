@@ -1,8 +1,7 @@
 ---
 title: "加入參數及加入引數對話方塊 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/02/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,9 +10,9 @@ f1_keywords:
   - "AddParameters.UI"
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
 caps.latest.revision: 7
-caps.handback.revision: 7
 ms.author: "sdanie"
 manager: "erikre"
+caps.handback.revision: 7
 ---
 # 加入參數及加入引數對話方塊
 下表說明 <xref:System.Activities.Statements.InvokeMethod> 設計工具所使用的 \[**加入參數**\] 對話方塊的使用者介面 \(UI\) 項目。  

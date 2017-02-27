@@ -1,8 +1,7 @@
 ---
 title: "使用 Visual Studio 靜態程式碼分析，分析市集應用程式的程式碼品質 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,10 +10,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2341013d-a08b-49a7-b6fd-a7b6aaa797e0
 caps.latest.revision: 11
-caps.handback.revision: 11
 author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
+caps.handback.revision: 11
 ---
 # 使用 Visual Studio 靜態程式碼分析，分析市集應用程式的程式碼品質
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

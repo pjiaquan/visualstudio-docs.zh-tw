@@ -1,8 +1,7 @@
 ---
 title: "定義項目 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "定義項目 (VSCT XML 結構描述)"
 ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
 caps.latest.revision: 10
-caps.handback.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 10
 ---
 # 定義項目
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

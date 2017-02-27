@@ -1,8 +1,7 @@
 ---
 title: "自訂圖表上的展示 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ helpviewer_keywords:
   - "網域指定的語言, 圖表"
 ms.assetid: 259836b0-783c-46a0-b7c7-dc4b2f7b4a81
 caps.latest.revision: 31
-caps.handback.revision: 31
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 31
 ---
 # 自訂圖表上的展示
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

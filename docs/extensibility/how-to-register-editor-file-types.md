@@ -1,8 +1,7 @@
 ---
 title: "如何: 登錄編輯程式檔案類型 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，舊版的登錄檔案類型"
 ms.assetid: 54846779-8290-48de-90ab-81011559d9a5
 caps.latest.revision: 14
-caps.handback.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # 如何: 登錄編輯程式檔案類型
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "部署自訂指示詞處理器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ helpviewer_keywords:
   - "文字範本, 自訂指示詞處理器"
 ms.assetid: 80c28722-a630-47b5-923b-024dc3f2c940
 caps.latest.revision: 18
-caps.handback.revision: 18
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 18
 ---
 # 部署自訂指示詞處理器
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

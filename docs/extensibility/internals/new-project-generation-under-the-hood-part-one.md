@@ -1,8 +1,7 @@
 ---
 title: "新產生的專案︰ 在幕後，第一部 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "專案 [Visual Studio]，新的專案產生"
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 caps.latest.revision: 29
-caps.handback.revision: 29
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 29
 ---
 # 新產生的專案︰ 在幕後，第一部
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

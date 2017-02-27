@@ -1,8 +1,7 @@
 ---
 title: "認識程式碼剖析工具中的取樣資料值 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "程式碼剖析工具，取樣"
 ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 22
-caps.handback.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 22
 ---
 # 認識程式碼剖析工具中的取樣資料值
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "舊版語言服務中的比對括號 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "語言服務 [受管理的封裝 framework] 括號對稱"
 ms.assetid: 4e3d0a70-f22f-49dd-92d8-edf48ab62b52
 caps.latest.revision: 27
-caps.handback.revision: 27
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 27
 ---
 # 舊版語言服務中的比對括號
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

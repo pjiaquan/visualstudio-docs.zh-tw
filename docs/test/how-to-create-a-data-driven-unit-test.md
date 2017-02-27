@@ -1,8 +1,7 @@
 ---
 title: "如何：建立資料驅動型單元測試 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,9 +17,9 @@ helpviewer_keywords:
   - "資料驅動的單元測試"
 ms.assetid: a0322bc5-02c8-4f9f-af43-100a60b1bd28
 caps.latest.revision: 33
-caps.handback.revision: 33
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 33
 ---
 # 如何：建立資料驅動型單元測試
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

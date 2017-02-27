@@ -1,8 +1,7 @@
 ---
 title: "模組檢視 - 分析工具：取樣資料 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "取樣分析方法, 模組檢視"
 ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 模組檢視 - 分析工具：取樣資料
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

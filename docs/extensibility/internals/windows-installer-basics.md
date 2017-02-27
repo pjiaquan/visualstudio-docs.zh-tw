@@ -1,8 +1,7 @@
 ---
 title: "Windows 安裝程式的基本概念 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "VSPackages，Windows 安裝程式的基本概念"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # Windows 安裝程式的基本概念
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "認識程式碼剖析工具中的資源爭用資料值 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "程式碼剖析工具，並行方法"
 ms.assetid: 071c0f0f-1eba-4dc8-ae87-0810e4086dd0
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 認識程式碼剖析工具中的資源爭用資料值
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "如何：匯出包含預乘 Alpha 的材質 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,10 +10,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 05348afa-f079-4f53-a05b-ecd91d13adab
 caps.latest.revision: 4
-caps.handback.revision: 4
 author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
+caps.handback.revision: 4
 ---
 # 如何：匯出包含預乘 Alpha 的材質
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

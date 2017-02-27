@@ -1,8 +1,7 @@
 ---
 title: "在舊版語言服務中的自訂文件屬性 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "語言服務 [受管理的封裝 framework] 自訂文件屬性"
 ms.assetid: cc714a67-b33e-4440-9203-3c90f648bd9c
 caps.latest.revision: 18
-caps.handback.revision: 18
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 18
 ---
 # 在舊版語言服務中的自訂文件屬性
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

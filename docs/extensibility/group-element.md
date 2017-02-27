@@ -1,8 +1,7 @@
 ---
 title: "群組項目 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "群組項目 (VSCT XML 結構描述)"
 ms.assetid: 69faee18-cbf4-470a-b952-c1919c583df8
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 群組項目
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

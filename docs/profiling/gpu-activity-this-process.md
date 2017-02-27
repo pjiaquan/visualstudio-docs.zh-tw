@@ -1,8 +1,7 @@
 ---
 title: "GPU 活動 (這個處理序) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpuactivity"
 ms.assetid: 0956edbf-9bcd-4afe-9287-fda628648ca0
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 5
 ---
 # GPU 活動 (這個處理序)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "覆寫 ToolsVersion 設定 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "MSBuild, 覆寫 ToolsVersion 設定"
 ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 24
-caps.handback.revision: 24
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 覆寫 ToolsVersion 設定
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

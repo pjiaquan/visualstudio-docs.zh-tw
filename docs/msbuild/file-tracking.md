@@ -1,8 +1,7 @@
 ---
 title: "檔案追蹤 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "msbuild, 檔案追蹤"
 ms.assetid: e6c66ac0-3464-451f-9192-3b98dca21b4a
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 6
 ---
 # 檔案追蹤
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

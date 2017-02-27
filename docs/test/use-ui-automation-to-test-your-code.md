@@ -1,45 +1,27 @@
 ---
-title: "使用使用者介面自動化來測試您的程式碼 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-devops-test
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.codedUITest
-- vs.codedUITest.recorder
-- vs.codedUITest.testbuilder
-- vs.codedUITest.addAssertions
-- vs.codedUITest.createdialog
-helpviewer_keywords:
-- automated tests, testing UI interface
-- coded UI test
+title: "使用 UI 自動化來測試您的程式碼 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-devops-test"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.codedUITest"
+  - "vs.codedUITest.recorder"
+  - "vs.codedUITest.testbuilder"
+  - "vs.codedUITest.addAssertions"
+  - "vs.codedUITest.createdialog"
+helpviewer_keywords: 
+  - "自動化測試, 測試 UI 介面"
+  - "自動程式碼 UI 測試"
 ms.assetid: ad9e3eaa-ab86-436e-95b8-dc20eb1f8b2a
 caps.latest.revision: 85
-ms.author: mlearned
-manager: douge
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 753a39940ba32052cff14460f007a8f8a2d191dd
-
+ms.author: "mlearned"
+manager: "douge"
+caps.handback.revision: 83
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>使用 UI 自動化來測試您的程式碼
 驅動應用程式通過其使用者介面 (UI) 的自動化測試稱為「自動程式化 UI 測試」(CUIT)。 這些測試包括 UI 控制項的功能測試。 它們可讓您確認整個應用程式 (包括其使用者介面) 正確運作。 自動程式碼 UI 測試特別適用於使用者介面中有驗證或其他邏輯時 (例如，在網頁中)。 它們也經常用來自動化現有手動測試。  

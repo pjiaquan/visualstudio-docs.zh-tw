@@ -1,8 +1,7 @@
 ---
 title: "SendAndReceiveReply 樣本設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/23/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ f1_keywords:
   - "System.ServiceModel.Activities.ReceiveReply.UI"
 ms.assetid: 818a8c84-6593-416d-b016-1d91b85ffb68
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 6
 ---
 # SendAndReceiveReply 樣本設計工具
 \[**SendAndReceiveReply**\] 範本會用來在一個 <xref:System.Activities.Statements.Sequence> 活動內建立一對預先設定的 <xref:System.ServiceModel.Activities.Send> 與 <xref:System.ServiceModel.Activities.ReceiveReply> 活動，這些活動相互關聯，屬於用戶端要求與回應訊息交換模式的一部分。  

@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：將新的項目加入至工作流程專案 (舊版) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "工作流程, 新增項目"
 ms.assetid: 130cd83d-942d-437b-bbb5-8088ec0a6d79
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # HOW TO：將新的項目加入至工作流程專案 (舊版)
 當您使用 [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] 所提供的舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 來建立工作流程專案時 \(此專案是以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標\)，您可以將 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] 項目和其他熟悉的 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 項目加入專案中。  

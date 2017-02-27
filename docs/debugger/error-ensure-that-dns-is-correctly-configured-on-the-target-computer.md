@@ -1,8 +1,7 @@
 ---
 title: "錯誤：請確認目標電腦上的 DNS 設定都正確 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ dev_langs:
   - "C++"
 ms.assetid: 2d364caf-73af-4186-bf9b-af186331cbe8
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 6
 ---
 # 錯誤：請確認目標電腦上的 DNS 設定都正確
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

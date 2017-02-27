@@ -1,8 +1,7 @@
 ---
 title: "訊息選項對話方塊、輸出索引標籤 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "訊息選項, 輸出"
 ms.assetid: 22dd48c2-6d17-41b1-b84c-9ddeaef68411
 caps.latest.revision: 4
-caps.handback.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 4
 ---
 # 訊息選項對話方塊、輸出索引標籤
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

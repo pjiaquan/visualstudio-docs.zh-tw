@@ -1,8 +1,7 @@
 ---
 title: "偵錯工作階段的可執行檔對話方塊 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -23,10 +22,10 @@ helpviewer_keywords:
   - "偵錯工作階段的可執行檔對話方塊"
 ms.assetid: c0ddbe32-b99f-4425-acf1-f48842804f56
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # 偵錯工作階段的可執行檔對話方塊
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

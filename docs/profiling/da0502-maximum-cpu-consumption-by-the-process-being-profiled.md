@@ -1,8 +1,7 @@
 ---
 title: "DA0502：進行程式碼剖析之處理序所需的最大 CPU 使用量 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ f1_keywords:
   - "vs.performance.502"
 ms.assetid: 1ee53df5-b0dc-4265-9d4f-527830d08725
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # DA0502：進行程式碼剖析之處理序所需的最大 CPU 使用量
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

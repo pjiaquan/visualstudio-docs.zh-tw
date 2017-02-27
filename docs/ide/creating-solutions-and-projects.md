@@ -1,46 +1,28 @@
 ---
 title: "建立方案與專案 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.openprojectfromweb
-- vs.newproject
-- VS.ToolsOptionsPages.Projects.General
-- SolutionItemsProject
-helpviewer_keywords:
-- solutions [Visual Studio], deleting
-- solutions [Visual Studio], creating
-- projects [Visual Studio], creating
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.openprojectfromweb"
+  - "vs.newproject"
+  - "VS.ToolsOptionsPages.Projects.General"
+  - "SolutionItemsProject"
+helpviewer_keywords: 
+  - "方案 [Visual Studio], 刪除"
+  - "方案 [Visual Studio], 建立"
+  - "專案 [Visual Studio], 建立"
 ms.assetid: 836f8ca0-3fc9-4f4b-9090-45f2e4d2e9c8
 caps.latest.revision: 46
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: b36d04886bddba926ab3def55244410b8ff4c61e
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 43
 ---
 # <a name="creating-solutions-and-projects"></a>Creating Solutions and Projects
 專案是邏輯容器，以儲存建置您應用程式所需的所有檔案。 選擇主要功能表中的 [檔案] &#124; [新增] &#124; [專案] 來建立專案時，[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 會建立一個包含該專案的方案。 您接著可以視需要將更多新的或現有專案加入方案。 您可以從現有的程式碼檔案建立專案，而且您可以建立暫存專案 (僅限 .NET)，當專案完成後，將刪除暫存專案。  

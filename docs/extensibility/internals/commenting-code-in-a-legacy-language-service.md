@@ -1,8 +1,7 @@
 ---
 title: "在舊版語言服務中的註解程式碼 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "註解程式碼的語言服務 [受管理的封裝 framework]"
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
 caps.latest.revision: 14
-caps.handback.revision: 14
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 14
 ---
 # 在舊版語言服務中的註解程式碼
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

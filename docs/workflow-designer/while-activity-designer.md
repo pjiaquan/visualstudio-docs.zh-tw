@@ -1,8 +1,7 @@
 ---
 title: "While 活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Statements.While.UI"
 ms.assetid: ea008091-2e4c-4f64-bfa5-afb919552446
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # While 活動設計工具
 在指定的 <xref:System.Activities.Statements.Condition%2A> 評估為 **true** 的同時，<xref:System.Activities.Statements.While> 活動會執行其 <xref:System.Activities.Statements.While.Body%2A> 中包含的活動。包含的活動可能永遠不會執行。如果您要包含的活動至少執行一次，請改用 <xref:System.Activities.Statements.DoWhile> 活動。  

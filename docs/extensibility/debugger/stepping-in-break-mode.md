@@ -1,8 +1,7 @@
 ---
 title: "在中斷模式中逐步執行 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]，請在中斷模式中逐步執行"
 ms.assetid: b08dc8ee-6c63-4462-a097-6f525cfbb35a
 caps.latest.revision: 7
-caps.handback.revision: 7
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 7
 ---
 # 在中斷模式中逐步執行
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

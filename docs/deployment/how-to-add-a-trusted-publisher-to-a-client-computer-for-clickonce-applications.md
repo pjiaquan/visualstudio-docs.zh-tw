@@ -1,8 +1,7 @@
 ---
 title: "如何：新增信任發行者至 ClickOnce 應用程式的用戶端電腦 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "信任的應用程式部署, 受信任發行者"
 ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
 caps.latest.revision: 10
-caps.handback.revision: 10
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 10
 ---
 # 如何：新增信任發行者至 ClickOnce 應用程式的用戶端電腦
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

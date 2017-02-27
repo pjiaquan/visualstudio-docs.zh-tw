@@ -1,8 +1,7 @@
 ---
 title: "Persist 活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Statements.Persist.UI"
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692
 caps.latest.revision: 6
-caps.handback.revision: 6
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 6
 ---
 # Persist 活動設計工具
 \[**Persist**\] 活動設計工具會用來建立及設定 <xref:System.Activities.Statements.Persist> 活動。  

@@ -1,8 +1,7 @@
 ---
 title: "測試區 5︰ 變更原始檔控制 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "原始檔控制外掛程式，變更原始檔控制"
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 測試區 5︰ 變更原始檔控制
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

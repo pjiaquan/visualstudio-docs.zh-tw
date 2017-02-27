@@ -1,8 +1,7 @@
 ---
 title: "使用存放區檢視進行偵錯 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ helpviewer_keywords:
   - "網域指定的語言, 存放區檢視"
 ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 17
-caps.handback.revision: 17
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 17
 ---
 # 使用存放區檢視進行偵錯
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

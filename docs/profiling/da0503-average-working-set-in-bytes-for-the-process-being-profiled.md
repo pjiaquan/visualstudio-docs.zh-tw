@@ -1,8 +1,7 @@
 ---
 title: "DA0503：進行程式碼剖析之處理序的平均工作集 (以位元組為單位) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ f1_keywords:
   - "vs.performance.rules.DA0503"
 ms.assetid: 9047a494-eaaf-4679-b422-c64e8bde77a4
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # DA0503：進行程式碼剖析之處理序的平均工作集 (以位元組為單位)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

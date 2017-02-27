@@ -1,8 +1,7 @@
 ---
 title: "篩選巢狀專案 AddItem 對話方塊 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "巢狀的專案，AddItem 對話方塊方塊篩選"
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # 篩選巢狀專案 AddItem 對話方塊
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

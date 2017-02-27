@@ -1,8 +1,7 @@
 ---
 title: "如何：隱藏所產生程式碼的程式碼分析警告 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,10 +10,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 5
 ---
 # 如何：隱藏所產生程式碼的程式碼分析警告
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

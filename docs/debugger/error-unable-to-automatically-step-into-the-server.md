@@ -1,8 +1,7 @@
 ---
 title: "錯誤：無法自動逐步執行至伺服器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,10 +23,10 @@ helpviewer_keywords:
   - "遠端偵錯，通知錯誤"
 ms.assetid: 9a370ccc-d358-429c-b285-9b6c0649bc68
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 錯誤：無法自動逐步執行至伺服器
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

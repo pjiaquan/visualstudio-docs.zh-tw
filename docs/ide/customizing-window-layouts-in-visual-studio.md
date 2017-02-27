@@ -1,52 +1,34 @@
 ---
 title: "在 Visual Studio 中自訂視窗版面配置 | Microsoft Docs"
-ms.custom: 
-ms.date: 01/23/2017
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.windows
-- vs.environment
-helpviewer_keywords:
-- windows [Visual Studio], managing
-- custom window configurations
-- layout [Visual Studio], window management
-- document windows [Visual Studio]
-- interface modes
-- AutoHide windows
-- MDI, window interface modes
-- multiple monitors
-- Tabbed Document mode
-- debug mode
-- custom layouts
+ms.custom: ""
+ms.date: "01/23/2017"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.windows"
+  - "vs.environment"
+helpviewer_keywords: 
+  - "AutoHide 視窗"
+  - "自訂配置"
+  - "自訂視窗組態"
+  - "偵錯模式"
+  - "文件視窗 [Visual Studio]"
+  - "介面模式"
+  - "配置 [Visual Studio], 視窗管理"
+  - "MDI, 視窗介面模式"
+  - "多部監視器"
+  - "索引標籤式文件模式"
+  - "視窗 [Visual Studio], 管理"
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 caps.latest.revision: 27
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 841c635c00aea5e78396f27098a1e64fbe29a421
-ms.openlocfilehash: b2a09ceddbfcbfb8632f777f55229d186f6e5ae9
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 27
 ---
 # <a name="customize-window-layouts-in-visual-studio"></a>在 Visual Studio 中自訂視窗版面配置
 在 Visual Studio 中，您可自訂視窗的位置、大小和行為，以建立最適合各種開發工作流程的視窗版面配置。 IDE 會記住您自訂的版面配置。 例如，若您變更 [方案總管]  的固定位置，然後再關閉 Visual Studio，則下次啟動時即使您在另一台電腦上操作，[方案總管]  亦會固定於相同位置。 您亦可命名和儲存自訂配置，然後使用單一命令切換各個配置。 例如，您可以建立一個編輯配置和一個偵錯配置，然後使用 [視窗] &#124; [套用視窗配置] 功能表命令在兩者間切換。  

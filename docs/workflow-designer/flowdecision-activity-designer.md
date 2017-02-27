@@ -1,8 +1,7 @@
 ---
 title: "FlowDecision 活動設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/27/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Statements.FlowDecision.UI"
 ms.assetid: 4a49edc3-3662-4b7b-812e-0a5ba00d6c94
 caps.latest.revision: 4
-caps.handback.revision: 4
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 4
 ---
 # FlowDecision 活動設計工具
 <xref:System.Activities.Statements.FlowDecision> 節點是條件式節點，會根據是否滿足指定條件來提供控制流程的二選一分支。如果流程要求兩個以上的分支，請改用 <xref:System.Activities.Statements.FlowSwitch%601>。  

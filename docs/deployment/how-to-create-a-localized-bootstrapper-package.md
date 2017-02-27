@@ -1,8 +1,7 @@
 ---
 title: "如何：建立當地語系化啟動載入器套件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "必要條件, 建立當地語系化啟動載入器套件"
 ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 caps.latest.revision: 15
-caps.handback.revision: 15
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 15
 ---
 # 如何：建立當地語系化啟動載入器套件
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

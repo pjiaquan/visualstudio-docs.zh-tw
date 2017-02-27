@@ -1,8 +1,7 @@
 ---
 title: "IDE 所實作的回呼函式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "回呼函式，原始檔控制外掛程式"
 ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
 caps.latest.revision: 24
-caps.handback.revision: 24
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # IDE 所實作的回呼函式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

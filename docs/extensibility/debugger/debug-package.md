@@ -1,8 +1,7 @@
 ---
 title: "偵錯封裝 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]，封裝"
 ms.assetid: 99947fd4-fb87-4c69-b26c-65634e17d285
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 偵錯封裝
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "AsyncVoidMethodBuilder 結構-內部成員 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "AsyncVoidMethodBuilder 結構 [.NET Framework 偵錯引擎]"
 ms.assetid: fe2970ab-d4c5-4355-a8e4-772ee0a57178
 caps.latest.revision: 4
-caps.handback.revision: 4
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 4
 ---
 # AsyncVoidMethodBuilder 結構-內部成員
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "MaxFrameworkVersion 項目 (Visual Studio 範本) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "MaxFrameworkVersion 項目 (Visual Studio 範本)"
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # MaxFrameworkVersion 項目 (Visual Studio 範本)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

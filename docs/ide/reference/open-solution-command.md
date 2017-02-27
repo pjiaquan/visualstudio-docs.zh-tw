@@ -1,8 +1,7 @@
 ---
 title: "開啟方案命令 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,10 +15,10 @@ helpviewer_keywords:
   - "開啟方案命令"
 ms.assetid: 61de76c8-69d7-4cdb-b605-e132f45d05d9
 caps.latest.revision: 10
-caps.handback.revision: 10
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 10
 ---
 # 開啟方案命令
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

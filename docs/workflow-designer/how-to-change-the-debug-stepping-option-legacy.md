@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：變更偵錯逐步執行選項 (舊版) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "逐步執行, 變更選項"
 ms.assetid: aedc06af-d58a-44d6-aee4-f397f1f923a0
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # HOW TO：變更偵錯逐步執行選項 (舊版)
 本主題描述如何在具有並行動作的舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 中變更 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] 應用程式的偵錯逐步執行選項。當您需要以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標時，請使用舊版 [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]。  

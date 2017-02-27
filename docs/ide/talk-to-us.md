@@ -1,37 +1,19 @@
 ---
 title: "告訴我們 | Microsoft Docs"
-ms.custom: 
-ms.date: 01/10/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- product support [Visual Studio]
-- Help [Visual Studio], product support
+ms.custom: ""
+ms.date: "01/10/2017"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "產品支援 [Visual Studio]"
+  - "說明 [Visual Studio]，產品支援"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
-author: TerryGLee
-ms.author: tglee
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 34cc8dad76b93ee5a8d5b8f544e29f46aa5b6438
-ms.openlocfilehash: 604c1baf9424b63f3c0b8597e9ddb0adb686c33e
-
+author: "TerryGLee"
+ms.author: "tglee"
+manager: "ghogen"
+caps.handback.revision: 31
 ---
 # <a name="talk-to-us"></a>Talk to Us
 我們想要知道您對於改善我們產品和文件的看法。 我們無法一一回應，但我們會確保您的意見傳達至適當的人員或小組。  

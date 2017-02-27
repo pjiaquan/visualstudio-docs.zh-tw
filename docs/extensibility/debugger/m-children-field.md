@@ -1,8 +1,7 @@
 ---
 title: "m_children 欄位 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "m_children 欄位 ContingentProperties 類別 [.NET Framework 偵錯引擎]"
 ms.assetid: 0a3b5653-7bc0-4a7a-8963-9020bc52b9cb
 caps.latest.revision: 12
-caps.handback.revision: 12
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 12
 ---
 # m_children 欄位
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

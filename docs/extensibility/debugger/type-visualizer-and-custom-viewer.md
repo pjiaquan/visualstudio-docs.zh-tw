@@ -1,8 +1,7 @@
 ---
 title: "類型的視覺化檢視和自訂檢視器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]，類型的視覺化檢視"
 ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
 caps.latest.revision: 13
-caps.handback.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 類型的視覺化檢視和自訂檢視器
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

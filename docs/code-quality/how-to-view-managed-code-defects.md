@@ -1,8 +1,7 @@
 ---
 title: "如何：檢視 Managed 程式碼的缺失 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "程式碼，檢視缺失"
 ms.assetid: 58aa6c23-d0b3-414d-930d-82e676cb7e5f
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
+caps.handback.revision: 13
 ---
 # 如何：檢視 Managed 程式碼的缺失
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

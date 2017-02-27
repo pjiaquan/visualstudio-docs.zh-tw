@@ -1,8 +1,7 @@
 ---
 title: "API 參考 (Visual Studio 偵錯) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "偵錯 [偵錯 SDK]、 [API 參考"
 ms.assetid: e4e429da-3667-41f7-9158-a8207d13e91a
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # API 參考 (Visual Studio 偵錯)
 [!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]

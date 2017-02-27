@@ -1,8 +1,7 @@
 ---
 title: "使用舊版 API 自訂編輯器控制項和功能表 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，舊版的控制項和功能表"
 ms.assetid: 1ce1f55b-6825-4654-a60a-7831af2ab44f
 caps.latest.revision: 17
-caps.handback.revision: 17
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 17
 ---
 # 使用舊版 API 自訂編輯器控制項和功能表
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：建立循序工作流程程式庫 (舊版) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,10 +13,10 @@ helpviewer_keywords:
   - "工作流程, 循序工作流程程式庫"
 ms.assetid: 9433ccf3-1eab-4d53-90ff-2e7b2341676c
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # HOW TO：建立循序工作流程程式庫 (舊版)
 依照下列步驟使用 [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] 提供的舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 來建立循序工作流程程式庫專案。當您需要以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標時，請使用舊版 [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]。  

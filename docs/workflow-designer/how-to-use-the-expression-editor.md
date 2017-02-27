@@ -1,8 +1,7 @@
 ---
 title: "HOW TO：使用運算式編輯器 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ f1_keywords:
   - "System.Activities.Presentation.View.ExpressionTextBox.UI"
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 13
 ---
 # HOW TO：使用運算式編輯器
 \[運算式編輯器\] 是 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 控制項，在許多工作流程活動中，會用來做為輸入及評估這些運算式的工具。  \[運算式編輯器\] 提供完整功能的 IDE 編輯經驗，包括 IntelliSense、顏色標示、ParamInfo、錯誤不規則曲線等等。  編譯器在運算式輸入之後會加以驗證。  如果運算式無效，就會顯示錯誤圖示。  編輯器也可以透過 \[**運算式編輯器**\] 對話方塊的形式開啟。  

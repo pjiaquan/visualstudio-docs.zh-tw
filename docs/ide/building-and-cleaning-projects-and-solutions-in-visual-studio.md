@@ -1,51 +1,33 @@
 ---
 title: "在 Visual Studio 中建置和清除專案與方案 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- VS.BuildProjectPicker
-- vs.batchbuild
-helpviewer_keywords:
-- Clean Solution command
-- builds [Visual Studio], managing
-- solution build configurations, starting
-- Build Solution command
-- project build configurations, starting
-- build configurations, starting
-- project build configurations, dependencies
-- Rebuild Solution command
-- solution build configurations, build order
-- builds [Visual Studio], preparing
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "VS.BuildProjectPicker"
+  - "vs.batchbuild"
+helpviewer_keywords: 
+  - "清除方案命令"
+  - "組建 [Visual Studio]，管理"
+  - "方案組建組態，開始"
+  - "建置方案命令"
+  - "專案組建組態，開始"
+  - "組建組態，開始"
+  - "專案組建組態，相依性"
+  - "重建方案命令"
+  - "方案組建組態，建置順序"
+  - "組建 [Visual Studio]，準備"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 caps.latest.revision: 35
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 96fad179fb30f3b5e8fe6ddfd041c8e289dde48a
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 35
 ---
 # <a name="building-and-cleaning-projects-and-solutions-in-visual-studio"></a>在 Visual Studio 中建置和清除專案與方案
 您可以使用本主題中的程序來建置、重建或清除所有或部分專案，或方案中的專案項目。 如需逐步教學課程，請參閱[逐步解說︰建置應用程式](../ide/walkthrough-building-an-application.md)。  

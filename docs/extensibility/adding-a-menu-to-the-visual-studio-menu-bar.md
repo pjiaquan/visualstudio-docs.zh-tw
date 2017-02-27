@@ -1,8 +1,7 @@
 ---
 title: "將功能表加入至 Visual Studio 功能表列 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "最上層功能表"
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
 caps.latest.revision: 51
-caps.handback.revision: 51
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 51
 ---
 # 將功能表加入至 Visual Studio 功能表列
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

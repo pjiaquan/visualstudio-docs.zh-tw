@@ -1,41 +1,23 @@
 ---
 title: "縮放控制 (執行緒檢視) | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: article
-f1_keywords:
-- vs.cv.threads.tools.zoom
-helpviewer_keywords:
-- Concurrency Visualizer, Zoom Control (Threads View)
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vs.cv.threads.tools.zoom"
+helpviewer_keywords: 
+  - "並行視覺化檢視, 縮放控制 (執行緒檢視)"
 ms.assetid: 7f9bda07-53a8-4f11-9846-a3e31064c596
 caps.latest.revision: 8
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 45a87efe6f3ae741ffccbc8b2849d28d3126b640
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 8
 ---
 # <a name="zoom-control-threads-view"></a>縮放控制 (執行緒檢視)
 縮放控制是可以放大和縮小時間軸的滑桿，讓您能專注在特別感興趣的區域。 此控制項會從時間軸檢視的中央放大，因此請先將感興趣的區域置中再放大。  

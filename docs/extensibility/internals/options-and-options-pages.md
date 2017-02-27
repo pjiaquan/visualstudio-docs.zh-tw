@@ -1,8 +1,7 @@
 ---
 title: "選項和選項頁面 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -17,9 +16,9 @@ helpviewer_keywords:
   - "工具選項頁 [Visual Studio SDK]，屬性"
 ms.assetid: e6c0e636-5ec3-450e-b395-fc4bb9d75918
 caps.latest.revision: 34
-caps.handback.revision: 34
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 34
 ---
 # 選項和選項頁面
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

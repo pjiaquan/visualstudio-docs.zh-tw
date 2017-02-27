@@ -1,8 +1,7 @@
 ---
 title: "無法變更值對話方塊 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "變數 [偵錯工具], 編輯"
 ms.assetid: 19e930c2-5fbf-4c83-aae8-a1dc3f8fcae8
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 無法變更值對話方塊
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

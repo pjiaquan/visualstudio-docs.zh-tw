@@ -1,8 +1,7 @@
 ---
 title: "GuidSymbol 項目 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "GuidSymbol 項目 (VSCT XML 結構描述)"
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
 caps.latest.revision: 8
-caps.handback.revision: 8
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # GuidSymbol 項目
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

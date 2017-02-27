@@ -1,46 +1,29 @@
 ---
 title: "階層式組織當地語系化的資源 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- resource files, localized
-- localization [Visual Studio], resources
-- fallback resources
-- international applications [Visual Studio], storing resources
-- satellite assemblies, resource hierarchies
-- globalization [Visual Studio], resources
-- satellite assemblies
-- resources [Visual Studio], fallback system
-- resource files, fallback processes
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "資源檔, 當地語系化"
+  - "當地語系化 [Visual Studio], 資源"
+  - "後援資源"
+  - "國際應用程式 [Visual Studio], 儲存資源"
+  - "附屬組件, 資源階層架構"
+  - "全球化 [Visual Studio], 資源"
+  - "附屬組件"
+  - "資源 [Visual Studio], 後援系統"
+  - "資源檔，後援處理序"
 ms.assetid: dadf8f2c-f74c-44d7-bec0-a1e956d8d38d
 caps.latest.revision: 8
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: a8bc841364ce5fd7c2bd9f3e4ff68257bdc35165
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 8
 ---
 # <a name="hierarchical-organization-of-resources-for-localization"></a>階層式組織當地語系化的資源
 在 Visual Studio 中，當地語系化資源 (例如適用於各文化的字串和影像資料) 會儲存在不同的檔案中，並根據 UI 文化特性設定載入。 若要了解當地語系化資源載入的方式，最好將它們視為以階層方式組織而成。  

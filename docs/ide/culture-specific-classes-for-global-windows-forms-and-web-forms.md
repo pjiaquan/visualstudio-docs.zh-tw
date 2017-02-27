@@ -1,53 +1,36 @@
 ---
-title: "全域 Windows Form 和 Web Form 的特定文化特性類別 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- globalization [Windows Forms], classes
-- Web applications [.NET Framework], globalization
-- culture, culture-specific classes
-- numbers, international
-- localization [Windows Forms], classes
-- globalization [Visual Studio], culture-specific classes
-- Windows Forms, localization
-- international applications [Visual Studio], data formats
-- time [Visual Studio], international
-- dates [Visual Studio], international
-- culture
-- international characters
-- currency formats
-- ASP.NET, globalization
-- classes [Visual Studio], culture-specific
-- localization [Visual Studio], culture-specific classes
+title: "全域 Windows Form 和 Web Form 的文化特性特定類別 | Microsoft Docs"
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "全球化 [Windows Forms], 類別"
+  - "Web 應用程式 [.NET Framework], 全球化"
+  - "文化特性, 文化特性專用類別"
+  - "數字, 國際化"
+  - "當地語系化 [Windows Form], 類別"
+  - "全球化 [Visual Studio], 文化特性專用類別"
+  - "Windows Forms, 當地語系化"
+  - "國際應用程式 [Visual Studio], 資料格式"
+  - "時間 [Visual Studio], 國際化"
+  - "日期 [Visual Studio], 國際化"
+  - "文化特性"
+  - "國際字元"
+  - "貨幣格式"
+  - "ASP.NET, 全球化"
+  - "類別 [Visual Studio], 文化特性專用"
+  - "當地語系化 [Visual Studio], 文化特性專用類別"
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 caps.latest.revision: 10
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 3fb3b66548077a2f92289f1a2f02cc8ae77544cc
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 10
 ---
 # <a name="culture-specific-classes-for-global-windows-forms-and-web-forms"></a>全域 Windows Form 和 Web Form 的文化特性特定類別
 每個文化特性對於顯示日期、時間、數字、貨幣及其他資訊都有不同的慣例。 <xref:System.Globalization> 命名空間包含的類別可用來修改特定文化特性顯示值的方式，例如 <xref:System.Globalization.DateTimeFormatInfo>、**Calendar** 和 <xref:System.Globalization.NumberFormatInfo>。  

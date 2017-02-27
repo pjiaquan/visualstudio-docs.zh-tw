@@ -1,8 +1,7 @@
 ---
 title: "活動檢視 (舊版) | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/23/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "檢視, 活動"
 ms.assetid: 83dc68cd-2cb2-45c2-9a6e-10d82053171a
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # 活動檢視 (舊版)
 [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] 提供的許多活動 \(工作流程組成的元素\) 具有舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 中所提供的幾個設計檢視。當您將 \[**工具箱**\] 中的活動設計工具拖曳至設計介面後，之後每次選取活動時，便可以使用 \[**工作流程**\] 功能表或以滑鼠右鍵按一下選取的活動，在不同的設計檢視間切換。此外，當您將指標移至選取活動的名稱上方時，會顯示一組下拉式索引標籤，可用來在不同的檢視之間切換。  

@@ -1,8 +1,7 @@
 ---
 title: "建立舊版工作流程活動 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "工作流程, 建立專案"
 ms.assetid: 572d5c32-59ef-49d8-a24c-e180fe9f7a11
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 5
 ---
 # 建立舊版工作流程活動
 本章節描述如何使用 vs2010 提供的舊版 [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] 來建立工作流程專案。舊版 [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] 是以 [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] 或 [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] 為目標。其中包括如何使用下表所列之工作流程專案範本的相關資訊。  

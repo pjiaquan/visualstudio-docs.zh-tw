@@ -1,8 +1,7 @@
 ---
 title: "使用 Microsoft Fakes 在測試期間隔離程式碼 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -11,9 +10,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a03c2e83-a41f-4854-bcf2-fcaa277a819d
 caps.latest.revision: 16
-caps.handback.revision: 16
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 16
 ---
 # 使用 Microsoft Fakes 在測試期間隔離程式碼
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

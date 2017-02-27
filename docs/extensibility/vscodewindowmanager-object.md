@@ -1,8 +1,7 @@
 ---
 title: "VSCodeWindowManager 物件 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -16,9 +15,9 @@ helpviewer_keywords:
   - "檢視 [Visual Studio SDK]，VSCodeWindowManager 物件"
 ms.assetid: e313add5-afdb-4d8d-abd1-764e1fc10c44
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # VSCodeWindowManager 物件
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

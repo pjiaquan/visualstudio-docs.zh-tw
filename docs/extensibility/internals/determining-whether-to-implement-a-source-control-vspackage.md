@@ -1,8 +1,7 @@
 ---
 title: "決定是否要實作的原始檔控制 VSPackage | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "關於原始檔控制套件的原始檔控制套件"
 ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 caps.latest.revision: 24
-caps.handback.revision: 24
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 決定是否要實作的原始檔控制 VSPackage
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "檔案中取代 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ helpviewer_keywords:
   - "[檔案中尋找] 索引標籤, [尋找和取代] 視窗"
 ms.assetid: ca361466-53bd-44db-a28a-3a74bc03b028
 caps.latest.revision: 29
-caps.handback.revision: 29
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 29
 ---
 # 檔案中取代
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

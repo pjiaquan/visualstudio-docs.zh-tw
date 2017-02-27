@@ -1,17 +1,16 @@
 ---
 title: "HOW TO：定義並取用工作流程設計工具中的活動委派 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 caps.latest.revision: 3
-caps.handback.revision: 3
 ms.author: "sdanie"
 manager: "erikre"
+caps.handback.revision: 3
 ---
 # HOW TO：定義並取用工作流程設計工具中的活動委派
 [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)]包含用於 <xref:System.Activities.Statements.InvokeDelegate> 活動的全新設計工具。這個設計工具可用來將委派指派給衍生自 <xref:System.Activities.ActivityDelegate> 的活動，例如 <xref:System.Activities.ActivityAction> 或 <xref:System.Activities.ActivityFunc%601>。  

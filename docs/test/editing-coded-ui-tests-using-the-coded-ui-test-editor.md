@@ -1,8 +1,7 @@
 ---
 title: "使用自動程式碼 UI 測試編輯器，編輯自動程式碼 UI 測試 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/16/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,9 +14,9 @@ helpviewer_keywords:
   - "自動程式碼 UI 測試, 自動程式碼 UI 測試編輯器"
 ms.assetid: 76435c4b-593e-43a3-a9fe-709a7f9f5e0f
 caps.latest.revision: 40
-caps.handback.revision: 40
 ms.author: "mlearned"
 manager: "douge"
+caps.handback.revision: 40
 ---
 # 使用自動程式碼 UI 測試編輯器，編輯自動程式碼 UI 測試
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

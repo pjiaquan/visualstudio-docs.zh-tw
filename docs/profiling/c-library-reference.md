@@ -1,8 +1,7 @@
 ---
 title: "C 程式庫參考 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ helpviewer_keywords:
   - "並行視覺化檢視 SDK，C 程式庫參考"
 ms.assetid: 46907a60-25e2-470d-a650-ae7349f868fd
 caps.latest.revision: 3
-caps.handback.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 3
 ---
 # C 程式庫參考
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

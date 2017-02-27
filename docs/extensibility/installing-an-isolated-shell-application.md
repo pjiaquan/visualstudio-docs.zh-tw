@@ -1,8 +1,7 @@
 ---
 title: "安裝獨立的 Shell 應用程式 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "Visual Studio shell，部署命令介面為基礎的應用程式"
 ms.assetid: 33416226-9083-41b5-b153-10d2bf35c012
 caps.latest.revision: 40
-caps.handback.revision: 40
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 40
 ---
 # 安裝獨立的 Shell 應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

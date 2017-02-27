@@ -1,8 +1,7 @@
 ---
 title: "概觀 (偵錯介面存取 SDK) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,10 +23,10 @@ helpviewer_keywords:
   - "可執行檔映像"
 ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
 caps.latest.revision: 9
-caps.handback.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 概觀 (偵錯介面存取 SDK)
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

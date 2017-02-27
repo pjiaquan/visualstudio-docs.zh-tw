@@ -1,8 +1,7 @@
 ---
 title: "保留主題供稍後使用 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -19,10 +18,10 @@ helpviewer_keywords:
   - "說明檢視器 2.0, 我的最愛索引標籤"
 ms.assetid: f0a4c657-001d-4604-a403-d46f15782724
 caps.latest.revision: 8
-caps.handback.revision: 8
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 8
 ---
 # 保留主題供稍後使用
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

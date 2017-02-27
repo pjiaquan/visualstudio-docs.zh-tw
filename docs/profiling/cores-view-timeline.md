@@ -1,8 +1,7 @@
 ---
 title: "核心檢視時間表 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -15,10 +14,10 @@ helpviewer_keywords:
   - "並行視覺化檢視, 核心檢視時間表"
 ms.assetid: 10f0c666-ac2f-4ac5-9fb5-a88f660ab840
 caps.latest.revision: 5
-caps.handback.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 5
 ---
 # 核心檢視時間表
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

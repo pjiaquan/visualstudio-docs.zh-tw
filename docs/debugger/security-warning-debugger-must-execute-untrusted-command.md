@@ -1,8 +1,7 @@
 ---
 title: "安全性警告：偵錯工具必須執行未受信任的命令 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -18,10 +17,10 @@ dev_langs:
   - "C++"
 ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
+caps.handback.revision: 13
 ---
 # 安全性警告：偵錯工具必須執行未受信任的命令
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

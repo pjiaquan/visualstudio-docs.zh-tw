@@ -1,8 +1,7 @@
 ---
 title: "如何：存取及限制目前的選取範圍 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +10,10 @@ helpviewer_keywords:
   - "網域指定的語言, 存取目前的選取範圍"
 ms.assetid: 2990981e-dfae-416f-b0d0-7197f1242dfa
 caps.latest.revision: 14
-caps.handback.revision: 14
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 14
 ---
 # 如何：存取及限制目前的選取範圍
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

@@ -1,8 +1,7 @@
 ---
 title: "檢查清單︰ 建立傳統語言服務 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "語言服務，原生程式碼"
 ms.assetid: 8b73b341-a33a-4ab5-9390-178c9e563d2d
 caps.latest.revision: 9
-caps.handback.revision: 9
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 9
 ---
 # 檢查清單︰ 建立傳統語言服務
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

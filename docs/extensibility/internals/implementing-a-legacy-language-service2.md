@@ -1,8 +1,7 @@
 ---
-title: "實作傳統語言服務 | Microsoft Docs"
+title: "實作傳統語言 Service2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "實作語言服務 [受管理的封裝 framework]"
 ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
 caps.latest.revision: 26
-caps.handback.revision: 26
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 26
 ---
 # 實作傳統語言服務
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]

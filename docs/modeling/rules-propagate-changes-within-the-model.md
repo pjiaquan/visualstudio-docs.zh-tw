@@ -1,8 +1,7 @@
 ---
 title: "規則傳播模型內的變更 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-tfs-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ helpviewer_keywords:
   - "定義域專屬語言規則"
 ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
 caps.latest.revision: 30
-caps.handback.revision: 30
 author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
+caps.handback.revision: 30
 ---
 # 規則傳播模型內的變更
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

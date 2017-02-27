@@ -1,8 +1,7 @@
 ---
 title: "逐步解說: 將內容類型連結至檔案名稱副檔名 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,9 +12,9 @@ helpviewer_keywords:
   - "編輯器 [Visual Studio SDK]，新的連結內容類型為檔案副檔名"
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 caps.latest.revision: 24
-caps.handback.revision: 24
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 24
 ---
 # 逐步解說: 將內容類型連結至檔案名稱副檔名
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

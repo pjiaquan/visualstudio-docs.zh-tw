@@ -1,18 +1,17 @@
 ---
 title: "無法刪除屬性 &lt;屬性名稱&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/21/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 caps.latest.revision: 2
-caps.handback.revision: 2
 author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
+caps.handback.revision: 2
 ---
 # 無法刪除屬性 &lt;屬性名稱&gt;
 無法刪除屬性 \<屬性名稱\>，因為它是設定為 \<類別名稱\> 與 \<類別名稱\> 間之繼承的鑑別子屬性  

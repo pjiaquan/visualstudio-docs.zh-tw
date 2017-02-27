@@ -1,43 +1,25 @@
 ---
 title: "效能分析的初級開發人員指南 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-debug
-ms.tgt_pltfrm: 
-ms.topic: get-started-article
-f1_keywords:
-- vs.performance.wizard.intropage
-helpviewer_keywords:
-- Profiling Tools, quick start
-- Diagnostics Tools, CPU Usage
-- CPU Usage
-- Diagnostics Tools
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "get-started-article"
+f1_keywords: 
+  - "vs.performance.wizard.intropage"
+helpviewer_keywords: 
+  - "效能工具, 精靈"
+  - "效能精靈"
+  - "程式碼剖析工具, 快速入門"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 caps.latest.revision: 45
-author: mikejo5000
-ms.author: mikejo
-manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 53907b9b88deca671ee0695385dcbc856a35d309
-ms.openlocfilehash: edc4f1e6a332a3c515a1d1a65b15ae3f1b989ed8
-
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 43
 ---
 # <a name="beginners-guide-to-performance-profiling"></a>效能分析的初級開發人員指南
 您可以使用 Visual Studio 程式碼剖析工具來分析應用程式中的效能問題。 此程序示範如何使用 [診斷工具] 的 [CPU 使用量] 索引標籤，以取得您的應用程式的效能資料。 診斷工具可用於 Visual Studio 中的 .NET 開發 (包括 ASP.NET) 和原生/C++ 開發。

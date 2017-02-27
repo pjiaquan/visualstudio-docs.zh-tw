@@ -1,8 +1,7 @@
 ---
 title: "目標項目 (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -21,10 +20,10 @@ helpviewer_keywords:
   - "<Target> 項目 [MSBuild]"
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
 caps.latest.revision: 34
-caps.handback.revision: 34
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 34
 ---
 # 目標項目 (MSBuild)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

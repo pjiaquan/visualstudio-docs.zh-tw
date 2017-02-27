@@ -1,8 +1,7 @@
 ---
 title: "使用工作流程設計工具 | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/02/2016"
-ms.prod: ".net-framework-4.6"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,10 +11,10 @@ helpviewer_keywords:
   - "工作流程設計工具 [WFD], 使用"
 ms.assetid: 991a942f-29bc-4868-9299-ed80c5665ab5
 caps.latest.revision: 13
-caps.handback.revision: 13
 author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
+caps.handback.revision: 13
 ---
 # 使用工作流程設計工具
 本節詳述如何使用內建的設計工具，以及多個活動設計工具裝載的運算式編輯器，建立新的活動與工作流程專案。  

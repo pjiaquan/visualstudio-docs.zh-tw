@@ -1,8 +1,7 @@
 ---
 title: "獨立的 Shell 應用程式服務的指導方針 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -14,9 +13,9 @@ helpviewer_keywords:
   - "Shell 整合的模式 [Visual Studio]，服務性"
 ms.assetid: 747d1a47-b8b3-4e8b-93c0-768724be48f2
 caps.latest.revision: 15
-caps.handback.revision: 15
 ms.author: "gregvanl"
 manager: "ghogen"
+caps.handback.revision: 15
 ---
 # 獨立的 Shell 應用程式服務的指導方針
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]

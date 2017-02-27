@@ -1,45 +1,27 @@
 ---
 title: "Visual Studio 影像庫 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
-ms.reviewer: 
-ms.suite: 
-ms.technology:
-- vs-ide-general
-ms.tgt_pltfrm: 
-ms.topic: article
-helpviewer_keywords:
-- animation [Visual Studio]
-- graphics [Visual Studio], Image Library
-- Image Library [Visual Studio]
-- images [Visual Studio], VS Image Library
-- Visual Studio Image Library
-- icons [Visual Studio], Image Library
-- bitmaps [Visual Studio], Image Library
+ms.custom: ""
+ms.date: "11/04/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-general"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+helpviewer_keywords: 
+  - "動畫 [Visual Studio]"
+  - "圖形 [Visual Studio]，影像庫"
+  - "影像庫 [Visual Studio]"
+  - "影像 [Visual Studio]，VS 影像庫"
+  - "Visual Studio 影像庫"
+  - "圖示 [Visual Studio]，影像庫"
+  - "點陣圖 [Visual Studio]，影像庫"
 ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
 caps.latest.revision: 29
-author: kempb
-ms.author: kempb
-manager: ghogen
-translation.priority.ht:
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- ru-ru
-- zh-cn
-- zh-tw
-translation.priority.mt:
-- cs-cz
-- pl-pl
-- pt-br
-- tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 9c25532605613b34ded15a4bd6a533e589b7fce2
-ms.openlocfilehash: 3add401b2d9590893ae1a90af7d5f1d9c9360b63
-
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 29
 ---
 # <a name="the-visual-studio-image-library"></a>Visual Studio 影像庫
 Visual Studio 映像庫包含出現在 Microsoft Visual Studio、Microsoft Windows、Office system 及其他 Microsoft 軟體中的應用程式映像。 這個包含超過 1,000 個映像的集合可以用來建立外觀與 Microsoft 軟體一致的應用程式。  

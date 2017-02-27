@@ -1,8 +1,7 @@
 ---
 title: "選項對話方塊、環境、匯入和匯出設定 | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -13,10 +12,10 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Profiles"
 ms.assetid: 4e69f97b-2bd2-4619-a5f9-92ca2e814de3
 caps.latest.revision: 3
-caps.handback.revision: 3
 author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
+caps.handback.revision: 3
 ---
 # 選項對話方塊、環境、匯入和匯出設定
 [!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]
