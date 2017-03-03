@@ -1,0 +1,1 @@
+# <a name="welcome-to-scripting-docs"></a>歡迎使用指令碼文件！
