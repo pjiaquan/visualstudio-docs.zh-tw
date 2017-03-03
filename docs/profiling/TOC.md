@@ -3,6 +3,7 @@
 ## [效能分析的初級開發人員指南](beginners-guide-to-performance-profiling.md)
 ## [使用或不使用偵錯工具來執行程式碼剖析工具](running-profiling-tools-with-or-without-the-debugger.md)
 ## [記憶體使用量](memory-usage.md)
+### [自訂原生 ETW 堆積事件](custom-native-etw-heap-events.md)
 ### [記憶體使用量 (不偵錯)](memory-usage-without-debugging2.md)
 ## [CPU 使用量](cpu-usage.md)
 ### [分析 Windows 通用 App 中的 CPU 使用量](analyze-cpu-usage-in-a-windows-universal-app.md)
@@ -365,8 +366,3 @@
 ##### [CvWriteMessage 函式](cvwritemessage-function.md)
 ### [並行視覺化檢視命令列公用程式 (CVCollectionCmd)](concurrency-visualizer-command-line-utility-cvcollectioncmd.md)
 ## [分析市集應用程式中的能源利用](analyze-energy-use-in-store-apps.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
