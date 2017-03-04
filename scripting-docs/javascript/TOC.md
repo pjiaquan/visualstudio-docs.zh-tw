@@ -1,5 +1,5 @@
-# [JavaScript 的新功能](what-s-new-in-javascript.md)
 # [JavaScript 語言參考](javascript-language-reference.md)
+# [JavaScript 的新功能](what-s-new-in-javascript.md)
 # [JavaScript 基本概念](javascript-fundamentals.md)
 ## [撰寫 JavaScript 程式碼](writing-javascript-code.md)
 ## [變數](variables-javascript.md)
