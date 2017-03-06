@@ -28,9 +28,9 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 09f14e5b28a506d4f2112f82ee4fd6b0855a8f93
-ms.openlocfilehash: 67e143e1b95a0e4d881d7d6bccae0d7445897aa2
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 4f93b8c1db59dd8d8a407c82002240641be43018
+ms.openlocfilehash: 1f9248442357c4447703ac6d6dac8a27934904e8
+ms.lasthandoff: 03/01/2017
 
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>如何︰ 將擴充性專案移轉至 Visual Studio 2017
@@ -76,6 +76,8 @@ ms.lasthandoff: 02/22/2017
 ## <a name="make-changes-to-the-vsix-extension-manifest"></a>變更 VSIX 擴充功能資訊清單
 
 若要確保使用者的 Visual Studio 安裝程式已執行此擴充功能所需的所有組件，指定延伸模組資訊清單檔案中的所有必要條件元件或封裝。 當使用者嘗試安裝擴充功能時，VSIXInstaller 會檢查是否會安裝所有必要條件。 若缺少某些，將會提示使用者安裝遺漏的元件擴充功能的安裝程序的一部分。
+
+>**注意︰**至少所有擴充功能應該指定 Visual Studio 核心編輯器元件為必要條件。
 
 * 編輯擴充功能資訊清單檔案 （通常稱為 source.extension.vsixmanifest）。
 * 請確定`InstallationTarget`包含 15.0。
@@ -138,7 +140,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ![啟動外部程式](media/start-external-program.png)
 
->**注意︰**偵錯起始動作通常會儲存在。 副檔名為.csproj.user 檔案。 這個檔案通常包含在.gitignore 檔案，並因此，不通常會儲存其他專案時使用檔案認可至原始檔控制。 因此，如果您有提取您的方案從原始檔控制的全新很可能專案會有任何值為 起始動作。 使用 Visual Studio 2017 建立新的 VSIX 專案都有。 以指向目前的 Visual Studio 安裝目錄的預設值建立副檔名為.csproj.user 檔案。 不過如果您要移轉的 VSIX v2 延伸模組，則可能的。 副檔名為.csproj.user 檔案將包含參考先前的 Visual Studio 版本的安裝目錄。 設定的值**偵錯** > **起始動作**將允許正確 Visual Studio 實驗性執行個體啟動時您嘗試偵錯您的擴充功能。
+>**注意︰**偵錯起始動作通常會儲存在。 副檔名為.csproj.user 檔案。 這個檔案通常包含在.gitignore 檔案，並因此，不通常會儲存其他專案時使用檔案認可至原始檔控制。 同樣地，如果有提取全新從原始檔控制方案很可能專案會有任何值為 起始動作。 使用 Visual Studio 2017 建立新的 VSIX 專案都有。 以指向目前的 Visual Studio 安裝目錄的預設值建立副檔名為.csproj.user 檔案。 不過如果您要移轉的 VSIX v2 延伸模組，則可能的。 副檔名為.csproj.user 檔案將包含參考先前的 Visual Studio 版本的安裝目錄。 設定的值**偵錯** > **起始動作**將允許正確 Visual Studio 實驗性執行個體啟動時您嘗試偵錯您的擴充功能。
 
 ## <a name="check-that-the-extension-builds-correctly-as-a-vsix-v3"></a>請檢查正確 （如 VSIX v3)，建置擴充功能
 
@@ -174,7 +176,7 @@ VSIX 成功安裝在電腦安裝所有必要先決條件的測試。
 
 ![vs 執行處理程序](media/vs-running-processes.png)
 
-等候所有處理序關閉，或以手動方式結束工作。 您可以找到處理程序所列的名稱，或使用括號中列出的 PID。
+等候所有處理序關閉，或手動結束工作。 您可以找到處理程序所列的名稱，或使用括號中列出的 PID。
 
 >**注意︰**這些處理程序將不會自動關閉 Visual Studio 執行個體正在執行時。 請確定您已關閉所有執行個體上 – 包括其他使用者，從 Visual studio，然後繼續重試。
 
@@ -215,3 +217,4 @@ Excel 工作表中有四個資料行︰**元件名稱**， **ComponentId**，**�
 
 * 如果您有偵錯工具擴充功能，而且知道您的專案具有 VSDebugEng.dll 和 VSDebug.dll 的參考，按一下 [篩選] 按鈕，在**二進位碼檔案 / 檔案名稱**標頭。  搜尋 「 VSDebugEng.dll 」，並選取 [確定]。  接下來，按一下 [篩選] 按鈕，在**二進位碼檔案 / 檔案名稱**標頭一次，並搜尋 「 VSDebug.dll 」。  選取核取方塊 」 加入目前的選取範圍來篩選 」，然後選取 [確定]。  現在查看**元件名稱**了大部分的元件與延伸模組類型。 在此範例中，您會選擇的時間只需偵錯工具，將它加入至您 vsixmanifest。
 * 如果您知道您的專案會處理與偵錯工具項目，您可以搜尋 「 偵錯工具 」 篩選器的 [搜尋] 方塊中查看哪些元件包含偵錯工具在其名稱。
+
