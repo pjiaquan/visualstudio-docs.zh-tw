@@ -1,18 +1,37 @@
 ---
 title: "升級 Visual Studio 2010 單元測試專案 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: f1502b51-d6db-4894-9fbf-4a5723e4bb1a
 caps.latest.revision: 8
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 8
+ms.author: mlearned
+manager: douge
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
+ms.openlocfilehash: 806f5004a4ab3d33d4be86cd4784de989c5fd282
+ms.lasthandoff: 03/03/2017
+
 ---
 # <a name="upgrade-visual-studio-2010-unit-test-projects"></a>升級 Visual Studio 2010 單元測試專案
 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] 包含與 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 測試專案的測試專案相容性。 例如，您透過 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 建立的測試專案可以使用 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] 開啟，不需要任何升級。 因此，您的小組可以同時使用 [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] SP1 和 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] 處理相同的測試專案。 如需詳細資訊，請參閱[從 Visual Studio 2010 升級測試](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)。  
@@ -41,12 +60,7 @@ caps.handback.revision: 8
 |從 [測試總管] 透過 TRX 記錄檔共用執行結果。||您仍然可以從命令列和 Team Build 取得 TRX 記錄檔。|  
   
 ## <a name="see-also"></a>另請參閱  
- [移植、移轉和升級 Visual Studio 專案](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [移植、移轉和升級 Visual Studio 專案](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
  [對程式碼進行單元測試](../test/unit-test-your-code.md)   
  [從舊版 Visual Studio 升級測試](http://msdn.microsoft.com/en-us/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)   
  [升級 Visual Studio 2010 的自動程式化 UI 測試](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
