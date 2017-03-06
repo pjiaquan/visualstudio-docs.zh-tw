@@ -7,6 +7,7 @@
 ### [內嵌暫存變數](refactoring/inline-temporary-variable.md)
 ### [將類型移至相符的檔案](refactoring/move-type-to-matching-file.md)
 ### [重新命名](refactoring/rename.md)
+### [同步處理類型和檔案名稱](refactoring/sync-type-and-file.md)
 ## [程式碼產生](code-generation-vb.md)
 ### [產生類別/類型](code-generation/generate-class-type.md)
 ### [產生方法](code-generation/generate-method.md)
