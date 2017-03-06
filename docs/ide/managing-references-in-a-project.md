@@ -43,9 +43,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 4b82b8583ec54af9eee383255d20b40674e7c2c1
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
+ms.openlocfilehash: 99a485f2b7ebda9169797db06212ae56dc4d9eb1
+ms.lasthandoff: 03/03/2017
 
 ---
 # <a name="managing-references-in-a-project"></a>管理專案中的參考
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/22/2017
 ### <a name="project-references"></a>專案參考  
  以 Windows 10 為目標的通用 Windows 平台 (UWP) 專案可以建立對方案中其他 UWP 專案的參考，或建立以 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 為目標之 Windows 市集專案或二進位檔的參考，前提是這些專案不使用 Windows 10 中已被取代的 API。 如需詳細資訊，請參閱 [從 Windows 執行階段 8 移至 UWP](https://msdn.microsoft.com/en-us/library/windows/apps/dn954974.aspx)。  
 
- 如果選擇將 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 專案的目標重定為 Windows 10，請參閱[移植、移轉和升級 Visual Studio 專案](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)  
+ 如果選擇將 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 專案的目標重定為 Windows 10，請參閱[移植、移轉和升級 Visual Studio 專案](../porting/port-migrate-and-upgrade-visual-studio-projects.md)  
 
 ### <a name="extension-sdk-references"></a>擴充功能 SDK 參考  
  以通用 Windows 平台 (UWP) 為目標的 Visual Basic、C#、C++ 和 JavaScript Windows 市集專案可以參考以 [!INCLUDE[win81](../debugger/includes/win81_md.md)] 為目標的擴充功能 SDK，前提是這些擴充功能 SDK 不使用在 Windows 10 中已被取代的 API。 請檢查擴充功能 SDK 廠商網站，以確定是否可透過以 UWP 為目標的 Windows 市集專案進行參考。  

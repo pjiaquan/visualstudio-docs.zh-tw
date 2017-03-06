@@ -33,9 +33,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 9c25532605613b34ded15a4bd6a533e589b7fce2
-ms.openlocfilehash: 8bb4a33b0cb9957850e45f0d9d735cb0c2862f51
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
+ms.openlocfilehash: 480be03d8ca431ff90ff00881a29daeaecfbec1b
+ms.lasthandoff: 03/03/2017
 
 ---
 # <a name="user-permissions-and-visual-studio"></a>使用者權限和 Visual Studio
@@ -86,5 +86,5 @@ ms.lasthandoff: 02/22/2017
      在 Visual Studio 啟動時，**(系統管理員)** 會顯示在標題列的產品名稱之後。  
   
 ## <a name="see-also"></a>另請參閱  
- [移植、移轉和升級 Visual Studio 專案](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [移植、移轉和升級 Visual Studio 專案](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
  [安裝 Visual Studio](../install/install-visual-studio.md)
