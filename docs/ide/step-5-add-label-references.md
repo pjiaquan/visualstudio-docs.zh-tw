@@ -24,7 +24,8 @@ caps.handback.revision: 20
   
 1.  使用下列程式碼，將標籤參考加入至您的表單。  
   
-     [!CODE [VbExpressTutorial4Step5#5](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial4step5#5)]  
+     [!code-vb[VbExpressTutorial4Step5#5](../ide/codesnippet/VisualBasic/step-5-add-label-references_1.vb)]
+     [!code-cs[VbExpressTutorial4Step5#5](../ide/codesnippet/CSharp/step-5-add-label-references_1.cs)]  
   
      這些參考變數看起來類似您先前用來將物件 \(例如 `Timer` 物件、`List` 物件及 `Random` 物件\) 加入至表單的陳述式。  但是，這些陳述式不會導致表單上出現兩個額外的 Label 控制項，因為這兩個陳述式中都沒有使用 `new` 關鍵字。  若沒有 `new` 關鍵字，就不會建立物件。  這就是為何 `firstClicked` 和 `secondClicked` 都稱為參考變數：它們只會追蹤 \(或參照\) `Label` 物件。  
   
@@ -32,7 +33,8 @@ caps.handback.revision: 20
   
 2.  修改 Click 事件處理常式，以使用新的 `firstClicked` 參考變數。  移除 `label_Click()` 事件處理常式方法 \(`clickedLabel.ForeColor = Color.Black;`\) 中的最後一個陳述式，並以後面的 `if` 陳述式取代 \(請務必包含註解和整個 `if` 陳述式\)。  
   
-     [!CODE [VbExpressTutorial4Step5#6](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial4step5#6)]  
+     [!code-vb[VbExpressTutorial4Step5#6](../ide/codesnippet/VisualBasic/step-5-add-label-references_2.vb)]
+     [!code-cs[VbExpressTutorial4Step5#6](../ide/codesnippet/CSharp/step-5-add-label-references_2.cs)]  
   
 3.  儲存並執行您的程式。  選擇其中一個 Label 控制項，其圖示就會出現。  
   

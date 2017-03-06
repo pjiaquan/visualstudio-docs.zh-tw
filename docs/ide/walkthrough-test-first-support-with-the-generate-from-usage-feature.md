@@ -86,7 +86,8 @@ Visual C\#
   
      在 `DefaultAutomobileIsInitializedCorrectly` 中加入下列程式碼行：  
   
-     [!CODE [VbTDDWalkthrough#1](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#1)]  
+     [!code-cs[VbTDDWalkthrough#1](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.cs)]
+     [!code-vb[VbTDDWalkthrough#1](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_1.vb)]  
   
      因為程式碼參考 `Automobile` 上未定義的兩個屬性，所以會顯示智慧標籤。 按一下 `Model` 的智慧標籤，然後按一下 \[產生屬性 Stub\]。 也產生 `TopSpeed` 屬性的屬性Stub。  
   
@@ -117,7 +118,8 @@ Visual C\#
   
 1.  在這個測試方法中，您會產生建構函式 Stub，它會初始化 `Model` 和 `TopSpeed` 屬性以獲得您指定的值。 稍後，您會加入更多的程式碼以完成測試。 請將下列其他測試方法加入您的 `AutomobileTest` 類別中。  
   
-     [!CODE [VbTDDWalkthrough#2](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#2)]  
+     [!code-cs[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.cs)]
+     [!code-vb[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_2.vb)]  
   
 2.  按一下新類別建構函式下的智慧標籤，然後按一下 \[產生建構函式 Stub\]。 請注意，在 `Automobile` 類別檔案中，新的建構函式已檢查建構函式呼叫中所使用的區域變數名稱，找到 `Automobile` 類別中具有相同名稱的屬性，並提供建構函式主體的程式碼將引數值儲存在 `Model` 和 `TopSpeed` 屬性中。 \(在 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 中，新建構函式的 `_model` 和 `_topSpeed` 欄位都是 `Model` 和 `TopSpeed` 屬性的隱含定義支援欄位。\)  
   
@@ -127,13 +129,15 @@ Visual C\#
   
 1.  假設規格規定，如果其 `Model` 和 `TopSpeed` 屬性設為預設值以外的值，新的 `Automobile` 就可以放入執行狀態。 請將下列各行加入 `AutomobileWithModelNameCanStart` 方法中。  
   
-     [!CODE [VbTDDWalkthrough#3](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#3)]  
+     [!code-cs[VbTDDWalkthrough#3](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.cs)]
+     [!code-vb[VbTDDWalkthrough#3](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_3.vb)]  
   
 2.  按一下 `myAuto.Start` 方法呼叫的智慧標籤，然後按一下 \[產生方法 Stub\]。  
   
 3.  按一下 `IsRunning` 屬性的智慧標籤，然後按一下 \[產生屬性 Stub\]。 現在 `Automobile` 類別包含下列程式碼。  
   
-     [!CODE [VbTDDWalkthrough#4](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#4)]  
+     [!code-cs[VbTDDWalkthrough#4](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_4.cs)]
+     [!code-vb[VbTDDWalkthrough#4](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_4.vb)]  
   
 ### 執行測試  
   
@@ -152,11 +156,13 @@ Visual C\#
   
 1.  將下列程式碼加入預設建構函式中，讓 `Model`、`TopSpeed` 和 `IsRunning` 屬性都初始化為正確的 `"Not specified"`、`-1` 和 `True` \(`true`\) 預設值。  
   
-     [!CODE [VbTDDWalkthrough#5](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#5)]  
+     [!code-cs[VbTDDWalkthrough#5](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.cs)]
+     [!code-vb[VbTDDWalkthrough#5](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_5.vb)]  
   
 2.  呼叫 `Start` 方法時，它應該只有在 `Model` 或 `TopSpeed` 屬性設為預設值以外的值時，才將 `IsRunning` 旗標設為 true。 從方法主體移除 `NotImplementedException`，並加入下列程式碼。  
   
-     [!CODE [VbTDDWalkthrough#6](../CodeSnippet/VS_Snippets_VBCSharp/vbtddwalkthrough#6)]  
+     [!code-cs[VbTDDWalkthrough#6](../ide/codesnippet/CSharp/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.cs)]
+     [!code-vb[VbTDDWalkthrough#6](../ide/codesnippet/VisualBasic/walkthrough-test-first-support-with-the-generate-from-usage-feature_6.vb)]  
   
 ### 再次執行測試  
   
