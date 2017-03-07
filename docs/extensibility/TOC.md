@@ -10,8 +10,6 @@
 ## [輕量型解決方案載入](lightweight-solution-load-extension-impact.md)
 ## [常見問題集](faq-2017.md)
 # [如何︰將擴充性專案移轉至 Visual Studio 2017](how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
-# [Visual Studio 2015 SDK 的新功能](what-s-new-in-the-visual-studio-2015-sdk.md)
-# [如何︰將擴充性專案移轉至 Visual Studio 2015](how-to-migrate-extensibility-projects-to-visual-studio-2015.md)
 # [擴充功能表和命令](extending-menus-and-commands.md)
 ## [建立具有功能表命令的擴充功能](creating-an-extension-with-a-menu-command.md)
 ## [將功能表加入至 Visual Studio 功能表列](adding-a-menu-to-the-visual-studio-menu-bar.md)
