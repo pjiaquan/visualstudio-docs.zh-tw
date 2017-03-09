@@ -1,4 +1,4 @@
-# [程式碼剖析工具](index.md)
+# [程式碼剖析工具](profiling-tools.md)
 ## [程式碼剖析功能導覽](profiling-feature-tour.md)
 ## [效能分析的初學者指南](beginners-guide-to-performance-profiling.md)
 ## [程式碼剖析工具的新功能](what-s-new-in-profiling-tools.md)
