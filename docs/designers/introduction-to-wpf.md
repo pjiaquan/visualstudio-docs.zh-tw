@@ -203,7 +203,7 @@ End Namespace
   
  下列範例使用 <xref:System.Windows.Controls.DockPanel> 來配置多個 <xref:System.Windows.Controls.TextBox> 控制項：  
   
- [!CODE [IntroToWPFSnippets#LayoutMARKUP](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#layoutmarkup)]  
+ [!code-xml[IntroToWPFSnippets#LayoutMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_1.xaml)]  
   
  <xref:System.Windows.Controls.DockPanel> 可讓子 <xref:System.Windows.Controls.TextBox> 控制項指示排列方式。 為了執行這項操作，<xref:System.Windows.Controls.DockPanel> 會實作公開給子控制項的 <xref:System.Windows.Controls.DockPanel.Dock%2A> 屬性，讓每個控制項都能指定停駐樣式。  
   
@@ -263,9 +263,10 @@ End Namespace
   
  圖案有趣的一點是它不僅用於顯示，還可實作許多您預期控制項會有的功能，包括鍵盤和滑鼠輸入。 下列範例示範所要處理之 <xref:System.Windows.Shapes.Ellipse> 的 <xref:System.Windows.UIElement.MouseUp> 事件。  
   
- [!CODE [IntroToWPFSnippets#HandleEllipseMouseUpEventMARKUP](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#handleellipsemouseupeventmarkup)]  
+  [!code-xml[IntroToWPFSnippets#HandleEllipseMouseUpEventMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_7.xaml)]  
   
- [!CODE [IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#handleellipsemouseupeventcodebehind)]  
+  [!code-vb[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_8.vb)]
+ [!code-cs[IntroToWPFSnippets#HandleEllipseMouseUpEventCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_8.cs)]    
   
  下圖顯示上述程式碼所產生的結果。  
   
@@ -318,7 +319,7 @@ End Namespace
 ### 視訊和音訊  
  <xref:System.Windows.Controls.MediaElement> 控制項可播放視訊和音訊，而且有足夠的彈性可做為自訂媒體播放程式的基礎。 下列 XAML 標記實作一個媒體播放程式。  
   
- [!CODE [IntroToWPFSnippets#MediaElementMARKUP](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#mediaelementmarkup)]  
+ [!code-xml[IntroToWPFSnippets#MediaElementMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_9.xaml)]  
   
  下圖中的視窗顯示執行中的 <xref:System.Windows.Controls.MediaElement> 控制項。  
   
@@ -355,9 +356,9 @@ End Namespace
 ### 內容模型  
  大多數 WPF 控制項的主要用途在於顯示內容。 在 WPF 中，可構成控制項內容的項目類型和數目，稱為控制項的*「內容模型」*\(Content Model\)。 有些控制項可能包含單一內容類型的單一項目；例如，<xref:System.Windows.Controls.TextBox> 的內容是指派給 <xref:System.Windows.Controls.TextBox.Text%2A> 屬性的字串值。 下列範例會設定 <xref:System.Windows.Controls.TextBox> 的內容。  
   
- [!CODE [IntroToWPFSnippets#TextBoxContentMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#textboxcontentmarkup1)]  
-[!CODE [IntroToWPFSnippets#TextBoxContentMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#textboxcontentmarkup2)]  
-[!CODE [IntroToWPFSnippets#TextBoxContentMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#textboxcontentmarkup3)]  
+ [!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_10.xaml)]  
+[!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_11.xaml)]  
+[!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_12.xaml)]  
   
  其結果如下圖所示。  
   
@@ -365,9 +366,9 @@ End Namespace
   
  不過，其他控制項可能包含不同內容類型的多個項目；<xref:System.Windows.Controls.ContentControl.Content%2A> 屬性所指定的 <xref:System.Windows.Controls.Button> 內容可包含各種項目，包括版面配置控制項、文字、影像和圖案。 下列範例示範具有內含 <xref:System.Windows.Controls.DockPanel>、<xref:System.Windows.Controls.Label>、<xref:System.Windows.Controls.Border> 和 <xref:System.Windows.Controls.MediaElement> 之內容的 <xref:System.Windows.Controls.Button>。  
   
- [!CODE [IntroToWPFSnippets#ButtonContentMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#buttoncontentmarkup1)]  
-[!CODE [IntroToWPFSnippets#ButtonContentMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#buttoncontentmarkup2)]  
-[!CODE [IntroToWPFSnippets#ButtonContentMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#buttoncontentmarkup3)]  
+ [!code-xml[IntroToWPFSnippets#ButtonContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_13.xaml)]  
+[!code-xml[IntroToWPFSnippets#ButtonContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_14.xaml)]  
+[!code-xml[IntroToWPFSnippets#ButtonContentMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_15.xaml)]  
   
  下圖顯示這個按鈕的內容。  
   
@@ -385,9 +386,10 @@ End Namespace
   
  例如，下列範例示範如何使用 <xref:System.Windows.Controls.ControlTemplate> 來變更 <xref:System.Windows.Controls.Button> 的外觀。  
   
- [!CODE [IntroToWPFSnippets#ButtonControlTemplateWindowMARKUP](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#buttoncontroltemplatewindowmarkup)]  
+ [!code-xml[IntroToWPFSnippets#ButtonControlTemplateWindowMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_16.xaml)]  
   
- [!CODE [IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#buttoncontroltemplatewindowcodebehind)]  
+ [!code-cs[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_17.cs)]
+ [!code-vb[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_17.vb)]  ]  
   
  在這個範例中，預設按鈕的使用者介面已取代成具有深藍色框線的 <xref:System.Windows.Shapes.Ellipse>，並使用 <xref:System.Windows.Media.RadialGradientBrush> 填滿。<xref:System.Windows.Controls.ContentPresenter> 控制項會顯示 <xref:System.Windows.Controls.Button> 的內容："Click Me\!" 按下 <xref:System.Windows.Controls.Button> 之後，仍會引發 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件做為 <xref:System.Windows.Controls.Button> 控制項預設行為的一部分。 其結果如下圖所示。  
   
@@ -400,10 +402,10 @@ End Namespace
   
  預設外觀是您可預期的 <xref:System.Windows.Controls.ListBox> 外觀。 不過，每項工作的預設外觀只包含工作名稱。 若要顯示工作名稱、描述和優先權，則必須使用 <xref:System.Windows.DataTemplate> 變更 <xref:System.Windows.Controls.ListBox> 控制項之繫結清單項目的預設外觀。 下列 XAML 會定義此 <xref:System.Windows.DataTemplate>，您可以使用 <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> 屬性將其套用至每項工作。  
   
- [!CODE [IntroToWPFSnippets#DataTemplateMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#datatemplatemarkup1)]  
-[!CODE [IntroToWPFSnippets#DataTemplateMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#datatemplatemarkup2)]  
-[!CODE [IntroToWPFSnippets#DataTemplateMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#datatemplatemarkup3)]  
-[!CODE [IntroToWPFSnippets#DataTemplateMARKUP4](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#datatemplatemarkup4)]  
+ [!code-xml[IntroToWPFSnippets#DataTemplateMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_18.xaml)]  
+[!code-xml[IntroToWPFSnippets#DataTemplateMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_19.xaml)]  
+[!code-xml[IntroToWPFSnippets#DataTemplateMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_20.xaml)]  
+[!code-xml[IntroToWPFSnippets#DataTemplateMARKUP4](../designers/codesnippet/Xaml/introduction-to-wpf_21.xaml)]  
   
  下圖顯示這段程式碼的效果。  
   
@@ -416,10 +418,10 @@ End Namespace
 ### 樣式  
  樣式可讓開發人員和設計人員標準化其產品的特定外觀。 WPF 提供強式樣式模型，其中的基礎就是 <xref:System.Windows.Style> 項目。 下列範例會建立一個樣式，以將視窗上每一個 <xref:System.Windows.Controls.Button> 的背景色彩設定為 `Orange`。  
   
- [!CODE [IntroToWPFSnippets#StyleMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#stylemarkup1)]  
-[!CODE [IntroToWPFSnippets#StyleMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#stylemarkup2)]  
-[!CODE [IntroToWPFSnippets#StyleMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#stylemarkup3)]  
-[!CODE [IntroToWPFSnippets#StyleMARKUP4](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#stylemarkup4)]  
+ [!code-xml[IntroToWPFSnippets#StyleMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_22.xaml)]  
+[!code-xml[IntroToWPFSnippets#StyleMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_23.xaml)]  
+[!code-xml[IntroToWPFSnippets#StyleMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_24.xaml)]  
+[!code-xml[IntroToWPFSnippets#StyleMARKUP4](../designers/codesnippet/Xaml/introduction-to-wpf_25.xaml)]  
   
  由於這種樣式是以所有 <xref:System.Windows.Controls.Button> 控制項為目標，系統會將該樣式自動套用至視窗中的所有按鈕，如下圖所示。  
   
@@ -432,9 +434,9 @@ End Namespace
   
  下列範例會定義 <xref:System.Windows.Controls.Button> 和 <xref:System.Windows.Controls.Label> 共用的一般背景色彩。  
   
- [!CODE [IntroToWPFSnippets#ResourceWindowMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#resourcewindowmarkup1)]  
-[!CODE [IntroToWPFSnippets#ResourceWindowMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#resourcewindowmarkup2)]  
-[!CODE [IntroToWPFSnippets#ResourceWindowMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#resourcewindowmarkup3)]  
+ [!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_26.xaml)]  
+[!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_27.xaml)]  
+[!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_28.xaml)]  
   
  這個範例使用 `Window.Resources` 屬性項目來實作背景色彩資源。 這項資源可供 <xref:System.Windows.Window> 的所有子系使用。 以下依其解析順序列出各種資源範圍，包括：  
   
@@ -448,13 +450,13 @@ End Namespace
   
  除了直接建立資源與特定範圍的關聯之外，您還可以使用個別 <xref:System.Windows.ResourceDictionary> 封裝一或多項資源，以做為應用程式的其他組件來參考。 例如，下列範例會定義資源字典中的預設背景色彩。  
   
- [!CODE [IntroToWPFSnippets#ResourceDictionaryMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#resourcedictionarymarkup1)]  
-[!CODE [IntroToWPFSnippets#ResourceDictionaryMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#resourcedictionarymarkup2)]  
+ [!code-xml[IntroToWPFSnippets#ResourceDictionaryMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_29.xaml)]  
+[!code-xml[IntroToWPFSnippets#ResourceDictionaryMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_30.xaml)]  
   
  下列範例會參考上述範例中定義的資源字典，以便在應用程式內部共用。  
   
- [!CODE [IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#applicationscopedresourcedictionarymarkup1)]  
-[!CODE [IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#applicationscopedresourcedictionarymarkup2)]  
+ [!code-xml[IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_31.xaml)]  
+[!code-xml[IntroToWPFSnippets#ApplicationScopedResourceDictionaryMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_32.xaml)]   
   
  資源與資源字典是 WPF 支援佈景主題和面板的基礎。  
   
@@ -477,17 +479,14 @@ End Namespace
   
  下列範例示範衍生自 <xref:System.Windows.Controls.UserControl> 的自訂數值上下按鈕控制項。  
   
- [!CODE [IntroToWPFSnippets#UserControlMARKUP](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolmarkup)]  
+ [!code-xml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]  
   
- [!CODE [IntroToWPFSnippets#UserControlCODEBEHIND1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind1)]  
-[!CODE [IntroToWPFSnippets#UserControlCODEBEHIND2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind2)]  
-[!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)]  
+ [!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
+ [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]  
   
  下一個範例說明將使用者控制項併入 <xref:System.Windows.Window> 所需的 XAML。  
   
- [!CODE [IntroToWPFSnippets#UserControlWindowMARKUP1](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolwindowmarkup1)]  
-[!CODE [IntroToWPFSnippets#UserControlWindowMARKUP2](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolwindowmarkup2)]  
-[!CODE [IntroToWPFSnippets#UserControlWindowMARKUP3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolwindowmarkup3)]  
+ [!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]  
   
  下圖顯示 <xref:System.Windows.Window> 中所裝載的 `NumericUpDown` 控制項。  
   
