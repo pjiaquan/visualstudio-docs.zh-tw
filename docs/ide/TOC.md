@@ -49,7 +49,7 @@
 #### [步驟 8：新增方法以驗證玩家是否贏了](step-8-add-a-method-to-verify-whether-the-player-won.md)
 #### [步驟 9：嘗試其他功能](step-9-try-other-features.md)
 ## [Visual Studio 中的 C++ 使用者入門](getting-started-with-cpp-in-visual-studio.md)
-## [Visual Studio 2015 中的使用者偵錯入門](getting-started-with-debugging-in-visual-studio.md)
+## [Visual Studio 中的偵錯入門](getting-started-with-debugging-in-visual-studio.md)
 # [尋找和使用 Visual Studio 延伸模組](finding-and-using-visual-studio-extensions.md)
 # [Visual Studio 中的方案和專案](solutions-and-projects-in-visual-studio.md)
 ## [建立方案和專案](creating-solutions-and-projects.md)
