@@ -1,5 +1,5 @@
 # [MsBuild](msbuild.md)
-## [MSBuild 12.0 的新功能](what-s-new-in-msbuild-12-0.md)
+## [MSBuild 15.0 的新功能](what-s-new-in-msbuild-15-0.md)
 ## [MSBuild 概念](msbuild-concepts.md)
 ### [MSBuild 屬性](msbuild-properties.md)
 #### [如何：在組建中使用環境變數](how-to-use-environment-variables-in-a-build.md)
@@ -194,8 +194,3 @@
 ### [要逸出的特殊字元](special-characters-to-escape.md)
 ## [MSBuild 字彙表](msbuild-glossary.md)
 ## [其他 MSBuild 資源](additional-msbuild-resources.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

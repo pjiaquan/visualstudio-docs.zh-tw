@@ -267,15 +267,15 @@
 ##### [CA2242：必須正確測試 NaN](ca2242-test-for-nan-correctly.md)
 ##### [CA2243：屬性字串常值必須正確剖析](ca2243-attribute-string-literals-should-parse-correctly.md)
 #### [程式碼分析原則錯誤](code-analysis-policy-errors.md)
-## [使用程式碼分析進行 C-C++ 程式碼品質分析](analyzing-c-cpp-code-quality-by-using-code-analysis.md)
-### [快速入門：C-C++ 程式碼分析](quick-start-code-analysis-for-c-cpp.md)
+## [使用程式碼分析進行 C/C++ 程式碼品質分析](analyzing-c-cpp-code-quality-by-using-code-analysis.md)
+### [快速入門：C/C++ 程式碼分析](quick-start-code-analysis-for-c-cpp.md)
 ### [使用規則集指定要執行的 C++ 規則](using-rule-sets-to-specify-the-cpp-rules-to-run.md)
 ### [使用 C++ 核心指南檢查工具](using-the-cpp-core-guidelines-checkers.md)
 ### [C/C++ 程式碼分析概觀](code-analysis-for-c-cpp-overview.md)
-### [如何：為 C-C++ 專案設定程式碼分析屬性](how-to-set-code-analysis-properties-for-c-cpp-projects.md)
-### [逐步解說：分析 C-C++ 程式碼的缺失](walkthrough-analyzing-c-cpp-code-for-defects.md)
+### [如何：為 C/C++ 專案設定程式碼分析屬性](how-to-set-code-analysis-properties-for-c-cpp-projects.md)
+### [逐步解說：分析 C/C++ 程式碼的缺失](walkthrough-analyzing-c-cpp-code-for-defects.md)
 #### [示範範例](demo-sample.md)
-### [使用 SAL 註釋減少 C-C++ 程式碼的缺失](using-sal-annotations-to-reduce-c-cpp-code-defects.md)
+### [使用 SAL 註釋減少 C/C++ 程式碼的缺失](using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 #### [了解 SAL](understanding-sal.md)
 #### [註釋函式參數和傳回值](annotating-function-parameters-and-return-values.md)
 #### [註釋函式行為](annotating-function-behavior.md)
@@ -285,7 +285,7 @@
 #### [內建函式](intrinsic-functions.md)
 #### [最佳做法和範例 (SAL)](best-practices-and-examples-sal.md)
 ### [如何：使用 __analysis_assume 指定其他程式碼資訊](how-to-specify-additional-code-information-by-using-analysis-assume.md)
-### [C-C++ 程式碼分析警告](code-analysis-for-c-cpp-warnings.md)
+### [C/C++ 程式碼分析警告](code-analysis-for-c-cpp-warnings.md)
 #### [C1250](c1250.md)
 #### [C1251](c1251.md)
 #### [C1252](c1252.md)
@@ -609,8 +609,3 @@
 # [品質工具疑難排解](troubleshooting-quality-tools.md)
 ## [程式碼分析問題疑難排解](troubleshooting-code-analysis-issues.md)
 ## [程式碼度量問題疑難排解](troubleshooting-code-metrics-issues.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

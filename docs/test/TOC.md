@@ -31,7 +31,9 @@
 #### [分析組建驗證測試中的程式碼涵蓋範圍](analyzing-code-coverage-in-build-verification-tests.md)
 #### [疑難排解程式碼涵蓋範圍](troubleshooting-code-coverage.md)
 ### [使用模擬器來隔離 Sharepoint 2010 應用程式的單元測試](using-emulators-to-isolate-unit-tests-for-sharepoint-2010-applications.md)
-## [使用使用者介面自動化來測試您的程式碼](use-ui-automation-to-test-your-code.md)
+## [使用 Visual Studio 2017 Enterprise Edition 中的即時單元測試](live-unit-testing.md)
+### [即時單元測試常見問題集](live-unit-testing-faq.md)
+## [使用 UI 自動化來測試您的程式碼](use-ui-automation-to-test-your-code.md)
 ### [逐步解說：建立、編輯和維護自動程式化 UI 測試](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 ### [使用自動程式化 UI 測試來測試 Windows 市集 8.1 應用程式](test-windows-store-8-1-apps-with-coded-ui-tests.md)
 ### [使用自動程式化 UI 測試，來測試 Windows Phone 8.1 應用程式](test-windows-phone-8-1-apps-with-coded-ui-tests.md)
@@ -58,7 +60,7 @@
 ##### [範例 Excel 延伸模組：Element 類別](sample-excel-extension-element-classes.md)
 ##### [範例 Excel 延伸模組：ActionFilter 類別](sample-excel-extension-actionfilter-class.md)
 ### [升級 Visual Studio 2010 的自動程式化 UI 測試](upgrading-coded-ui-tests-from-visual-studio-2010.md)
-## [分析應用程式品質](../code-quality)
+## [分析應用程式品質](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
 ## [品質工具疑難排解](troubleshooting-quality-tools.md)
 ### [程式碼分析問題疑難排解](troubleshooting-code-analysis-issues.md)
 ### [程式碼度量問題疑難排解](troubleshooting-code-metrics-issues.md)
@@ -70,8 +72,3 @@
 ### [使用 Visual Studio 靜態程式碼分析，分析市集應用程式的程式碼品質](analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
 #### [使用 Visual Studio 靜態程式碼分析，分析市集應用程式中的 Visual Basic 和 C# 程式碼品質](analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md)
 #### [使用 Visual Studio 靜態程式碼分析，分析市集應用程式的 C++ 程式碼品質](analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

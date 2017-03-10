@@ -12,12 +12,14 @@
 ## [Mip-map 產生變異](mip-map-generation-variant.md)
 ## [半/四分之一紋理維度變異](half-quarter-texture-dimensions-variant.md)
 ## [BC 紋理壓縮變異](bc-texture-compression-variant.md)
-# [圖形事件清單](graphics-event-list.md)
-# [圖形狀態](graphics-state.md)
-# [圖形管線階段](graphics-pipeline-stages.md)
-# [圖形事件呼叫堆疊](graphics-event-call-stack.md)
-# [圖形像素歷史記錄](graphics-pixel-history.md)
-# [圖形物件表](graphics-object-table.md)
+# [事件清單](graphics-event-list.md)
+# [狀態](graphics-state.md)
+# [管線階段](graphics-pipeline-stages.md)
+# [事件呼叫堆疊](graphics-event-call-stack.md)
+# [像素歷史記錄](graphics-pixel-history.md)
+# [物件表](graphics-object-table.md)
+# [API 和記憶體統計資料](graphics-api-and-memory-statistics.md)
+# [畫面格驗證](graphics-frame-validation.md)
 # [HLSL 著色器偵錯工具](hlsl-shader-debugger.md)
 # [命令列擷取工具](command-line-capture-tool.md)
 # [圖形診斷範例](graphics-diagnostics-examples.md)
@@ -45,8 +47,3 @@
 ## [DONT_SAVE_VSGLOG_TO_TEMP](dont-save-vsglog-to-temp.md)
 ## [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)
 ## [VSG_NODEFAULT_INSTANCE](vsg-nodefault-instance.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

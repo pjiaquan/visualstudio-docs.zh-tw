@@ -199,7 +199,7 @@
 ### [偵錯準備：Visual C++ 專案類型](debugging-preparation-visual-cpp-project-types.md)
 ### [如何：偵錯最佳化程式碼](how-to-debug-optimized-code.md)
 ### [DebugBreak 和 __debugbreak](debugbreak-and-debugbreak.md)
-### [C-C++ 判斷提示](c-cpp-assertions.md)
+### [C/C++ 判斷提示](c-cpp-assertions.md)
 ### [如何：偵錯內嵌組譯程式碼](how-to-debug-inline-assembly-code.md)
 ### [MFC 偵錯技術](mfc-debugging-techniques.md)
 ### [CRT 偵錯技術](crt-debugging-techniques.md)

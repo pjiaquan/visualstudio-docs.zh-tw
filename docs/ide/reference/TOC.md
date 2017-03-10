@@ -41,9 +41,9 @@
 ### [所有語言、文字編輯器、選項](options-text-editor-all-languages.md)
 ### [索引標籤、所有語言、文字編輯器、選項](options-text-editor-all-languages-tabs.md)
 ### [基本 (Visual Basic)、文字編輯器、選項](options-text-editor-basic-visual-basic.md)
-### [格式、C-C++、文字編輯器、選項](options-text-editor-c-cpp-formatting.md)
-### [進階、C-C++、文字編輯器、選項](options-text-editor-c-cpp-advanced.md)
-### [實驗、C-C++、文字編輯器、選項](options-text-editor-c-cpp-experimental.md)
+### [格式、C/C++、文字編輯器、選項](options-text-editor-c-cpp-formatting.md)
+### [、C/C++、文字編輯器、選項](options-text-editor-c-cpp-advanced.md)
+### [選項、文字編輯器、C/C++、實驗](options-text-editor-c-cpp-experimental.md)
 ### [格式、C#、文字編輯器、選項](options-text-editor-csharp-formatting.md)
 ### [進階、C#、文字編輯器、選項](options-text-editor-csharp-advanced.md)
 ### [IntelliSense、C#、文字編輯器、選項](options-text-editor-csharp-intellisense.md)
@@ -88,6 +88,7 @@
 ### [元件索引標籤、工具箱](toolbox-components-tab.md)
 ### [資料索引標籤、工具箱](toolbox-data-tab.md)
 ### [HTML 索引標籤、工具箱](toolbox-html-tab.md)
+## [XAML 設計工具選項頁面](xaml-designer.md)
 # [Devenv 命令列參數](devenv-command-line-switches.md)
 ## [-? (devenv.exe)](q-devenv-exe.md)
 ## [-Build (devenv.exe)](build-devenv-exe.md)
@@ -162,8 +163,3 @@
 ## [Microsoft 提供的協助工具產品和服務](accessibility-products-and-services-from-microsoft.md)
 ## [設計可及性應用程式的資源](resources-for-designing-accessible-applications.md)
 ## [所需的 Proxy 授權](proxy-authorization-required.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
