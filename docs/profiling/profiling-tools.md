@@ -31,9 +31,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5ec205ee98f61b400112a39197e1f2aa9dddbd7d
-ms.openlocfilehash: 2d6ec94f7e68a84a4bb4a606882997fadec49e01
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8f844c2d7d975476bc4c059d211a1d6cb0df64eb
+ms.openlocfilehash: 4c995fb6df6316ce7f84fae7075b81063b54ebf7
+ms.lasthandoff: 02/28/2017
 
 ---
 # <a name="profiling-tools"></a>程式碼剖析工具
@@ -62,12 +62,12 @@ ms.lasthandoff: 02/22/2017
 ## <a name="gpu-usage"></a>GPU 使用量  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  
   
- 請使用 [GPU Usage](../debugger/gpu-usage.md) 工具來深入了解 Direct3D 應用程式的高階硬體使用率。 您可以使用此工具，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 **GPU 使用量** 工具可以在您執行偵錯時從 [診斷工具]  視窗執行 ([偵錯] / [顯示診斷工具]) 或在偵錯工具之外執行 ([偵錯] / [效能分析工具...])。  
+ 請使用「GPU 使用量」[](../debugger/gpu-usage.md)工具來深入了解 Direct3D 應用程式的高階硬體使用率。 您可以使用此工具，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 「GPU 使用量」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具...])。  
   
 ## <a name="application-timeline"></a>應用程式時間軸  
  ![DiagAppTimeline](../profiling/media/diagapptimeline.png "DiagAppTimeline")  
   
- [Application Timeline](../profiling/application-timeline.md) 工具可透過提供資源耗用量的詳細檢視，來協助改善 XAML 應用程式的效能。 您可以使用 **應用程式時間軸** ，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 **應用程式時間軸** 工具可以從 [診斷工具]  視窗執行 ([偵錯] / [效能分析工具...])。
+ [Application Timeline](../profiling/application-timeline.md) 工具可透過提供資源耗用量的詳細檢視，來協助改善 XAML 應用程式的效能。 您可以使用 **應用程式時間軸** ，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 「應用程式時間軸」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具...])。
   
 ## <a name="perftips"></a>效能提示  
  ![DiagPerfTips](../profiling/media/diagperftips.png "DiagPerfTips")  
@@ -85,12 +85,12 @@ ms.lasthandoff: 02/22/2017
 ## <a name="javascript-memory"></a>JavaScript 記憶體  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
   
- [JavaScript Memory](../profiling/javascript-memory.md) 工具可讓您測量、評估及鎖定程式碼中的效能相關問題，方法是收集應用程式中每個函式的進入和離開計時資訊。 您可以使用這項工具搭配 Windows 通用 HTML 應用程式。 **JavaScript 函式計時** 工具可以從 [診斷工具]  視窗執行 ([偵錯] / [效能分析工具...])。  
+ 「JavaScript 記憶體」[](../profiling/javascript-memory.md)工具可讓您找出應用程式中記憶體流失與記憶體不足使用的情況。 此工具可讓您擷取 JavaScript 堆積的快照。 您可以使用這項工具搭配 Windows 通用 HTML 應用程式。 「JavaScript 記憶體」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具...])。  
   
 ## <a name="html-ui-responsiveness"></a>HTML UI 回應性  
  ![DiagHTMLResp](../profiling/media/diaghtmlresp.png "DiagHTMLResp")  
   
- [HTML UI 回應性](../profiling/html-ui-responsiveness.md)工具可協助您找出應用程式中的效能問題，包括缺乏回應性、載入時間緩慢，以及視覺效果更新不如預期頻繁。 您可以使用這項工具搭配 Windows 通用 HTML 應用程式。 **HTML UI 回應性** 工具可以從 [診斷工具]  視窗執行 ([偵錯] / [效能分析工具...])。  
+ [HTML UI 回應性](../profiling/html-ui-responsiveness.md)工具可協助您找出應用程式中的效能問題，包括缺乏回應性、載入時間緩慢，以及視覺效果更新不如預期頻繁。 您可以使用這項工具搭配 Windows 通用 HTML 應用程式。 「HTML UI 回應性」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具...])。  
   
 ## <a name="intellitrace"></a>IntelliTrace  
  ![DiagIntelliTrace](../profiling/media/diagintellitrace.png "DiagIntelliTrace")  
