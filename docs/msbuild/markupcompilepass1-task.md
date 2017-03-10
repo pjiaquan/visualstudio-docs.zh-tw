@@ -1,75 +1,90 @@
 ---
-title: "MarkupCompilePass1 Task | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/15/2016"
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "converting XAML to binary format [WPF MSBuild]"
-  - "MarkupCompilePass1 task [WPF MSBuild], parameters"
-  - "converting XAML projects to compiled binary format [WPF MSBuild]"
-  - "MarkupCompilePass1 task [WPF MSBuild], converting XAML to binary format"
+title: "MarkupCompilePass1 工作 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- converting XAML to binary format [WPF MSBuild]
+- MarkupCompilePass1 task [WPF MSBuild], parameters
+- converting XAML projects to compiled binary format [WPF MSBuild]
+- MarkupCompilePass1 task [WPF MSBuild], converting XAML to binary format
 ms.assetid: 693d6945-fd6f-4698-8f64-9dfcb71052d3
 caps.latest.revision: 8
-caps.handback.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
----
-# MarkupCompilePass1 Task
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 79460291e91f0659df0a4241e17616e55187a0e2
+ms.openlocfilehash: d4cb33cd46ab45c580e70ce7e590960ed4fd75a9
+ms.lasthandoff: 02/22/2017
 
-<xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作會將不可當地語系化的[!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 專案檔轉換成編譯的二進位格式。  
+---
+# <a name="markupcompilepass1-task"></a>MarkupCompilePass1 工作
+<xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作會將無法當地語系化的 [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] 專案檔轉換成已編譯的二進位格式。  
   
-## 工作參數  
+## <a name="task-parameters"></a>工作參數  
   
-|參數|描述|  
-|--------|--------|  
-|`AllGeneratedFiles`|選擇性 **ITaskItem\[\]** 輸出參數。<br /><br /> 包含 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作產生的完整檔案清單。|  
-|`AlwaysCompileMarkupFilesInSeparateDomain`|選擇性 **Boolean** 參數。<br /><br /> 指定是否要在另外的 <xref:System.AppDomain> 執行工作。  如果這個參數傳回 **false**，表示工作會在與 [!INCLUDE[TLA#tla_msbuild](../msbuild/includes/tlasharptla_msbuild_md.md)] 相同的 <xref:System.AppDomain> 中執行，執行的速度會較快。  如果參數傳回 **true**，表示會在與 [!INCLUDE[TLA2#tla_msbuild](../msbuild/includes/tla2sharptla_msbuild_md.md)] 不同的 <xref:System.AppDomain> 中執行，執行的速度會較慢。|  
-|`ApplicationMarkup`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定應用程式定義 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案的名稱。|  
-|`AssembliesGeneratedDuringBuild`|選擇性 **String\[\]** 參數。<br /><br /> 指定在建置程序期間變更之組件的參考。  例如，[!INCLUDE[TLA#tla_visualstu2005](../msbuild/includes/tlasharptla_visualstu2005_md.md)] 方案所包含的專案參考另一個專案的編譯輸出。  在此情況下，第二個專案的編譯輸出就可以加入到 **AssembliesGeneratedDuringBuild** 參數。<br /><br /> 注意：**AssembliesGeneratedDuringBuild** 參數必須包含建置方案產生之完整組件集合的參考。|  
-|`AssemblyName`|必要的 **String** 參數。<br /><br /> 指定專案所產生組件的簡短名稱。  例如，如果專案產生名為 **WinExeAssembly.exe** 的 [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] 可執行檔，**AssemblyName** 參數的值就是 **WinExeAssembly**。|  
-|`AssemblyPublicKeyToken`|選擇性 **String** 參數。<br /><br /> 指定組件的公開金鑰語彙基元。|  
-|`AssemblyVersion`|選擇性 **String** 參數。<br /><br /> 指定組件的版本號碼|  
-|`ContentFiles`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定鬆散內容檔案的清單。|  
-|`DefineConstants`|選擇性 **String** 參數。<br /><br /> 指定保留 **DefineConstants** 的目前値，  這會影響目標組件的產生；如果參數變更，目標組件中的公用 API 可能會變更，而參考區域型別之 [!INCLUDE[TLA2#tla_titlexaml](../msbuild/includes/tla2sharptla_titlexaml_md.md)] 檔案的編譯可能會受到影響。|  
-|`ExtraBuildControlFiles`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定檔案清單，以控制是否要在 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作重新執行時觸發重建；如果其中一個檔案變更，就會觸發重建。|  
-|`GeneratedBamlFiles`|選擇性 **ITaskItem\[\]** 輸出參數。<br /><br /> 包含產生的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案清單。|  
-|`GeneratedCodeFiles`|選擇性 **ITaskItem\[\]** 輸出參數。<br /><br /> 包含產生的 Managed 程式碼檔案。|  
-|`GeneratedLocalizationFiles`|選擇性 **ITaskItem\[\]** 輸出參數。<br /><br /> 包含為每個可當地語系化的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案產生的當地語系化檔案清單。|  
-|`HostInBrowser`|選擇性 **String** 參數。<br /><br /> 指定產生的組件是否為 [!INCLUDE[TLA#tla_xbap](../msbuild/includes/tlasharptla_xbap_md.md)]。  有效選項為 **true** 和 **false**。  如果為 **true**，產生的程式碼就會支援瀏覽器裝載。|  
-|`KnownReferencePaths`|選擇性 **String\[\]** 參數。<br /><br /> 指定在建置程序期間不會變更之組件的參考。  其中包含位於[!INCLUDE[TLA#tla_gac](../msbuild/includes/tlasharptla_gac_md.md)]、[!INCLUDE[TLA#tla_netframewk](../misc/includes/tlasharptla_netframewk_md.md)] 安裝目錄等的組件。|  
-|`Language`|必要的 **String** 參數。<br /><br /> 指定編譯器支援的 Managed 語言。  有效的選項是 **C\#**，  **VB**，  **JScript**，以及  **C\+\+**。|  
-|`LanguageSourceExtension`|選擇性 **String** 參數。<br /><br /> 指定附加到所產生 Managed 程式碼檔案副檔名的副檔名：<br /><br /> `<Filename>.g<LanguageSourceExtension>`<br /><br /> 如果 **LanguageSourceExtension** 參數沒有設定特定值，則會使用語言的預設原始程式檔副檔名：[!INCLUDE[TLA#tla_visualb](../msbuild/includes/tlasharptla_visualb_md.md)] 為 **.vb**，[!INCLUDE[TLA#tla_cshrp](../msbuild/includes/tlasharptla_cshrp_md.md)] 為 **.csharp**。|  
-|`LocalizationDirectivesToLocFile`|選擇性 **String** 參數。<br /><br /> 指定如何產生每個 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 原始程式檔的當地語系化資訊。  有效選項包括 **None**、**CommentsOnly** 和 **All**。|  
-|`OutputPath`|必要的 **String** 參數。<br /><br /> 指定所產生的 Managed 程式碼檔案和 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案要在哪個目錄中產生。|  
-|`OutputType`|必要的 **String** 參數。<br /><br /> 指定專案所產生組件的類型。  有效選項包括 **winexe**、**exe**、**library** 和 **netmodule**。|  
-|`PageMarkup`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定要處理的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案清單。|  
-|`References`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定檔案對包含 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案所用型別之組件的參考清單。|  
-|`RequirePass2ForMainAssembly`|選擇性 **Boolean** 輸出參數。<br /><br /> 表示專案是否包含不可當地語系化的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案，這些檔案參考內嵌到主要組件的區域型別。|  
-|`RequirePass2ForSatelliteAssembly`|選擇性 **Boolean** 輸出參數。<br /><br /> 表示專案是否包含可當地語系化的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案 \(這些檔案參考內嵌到主要組件的區域型別\)。|  
-|`RootNamespace`|選擇性 **String** 參數。<br /><br /> 指定專案中類別的根命名空間。  若對應的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案沒有 `x:Class` 屬性，則產生的 Managed 程式碼檔案也會使用 **RootNamespace** 做為預設命名空間。|  
-|`SourceCodeFiles`|選擇性 **ITaskItem\[\]** 參數。<br /><br /> 指定目前專案的程式碼檔案清單。  此清單不包含產生的語言特定 Managed 程式碼檔案。|  
-|`UICulture`|選擇性 **String** 參數。<br /><br /> 指定 UI 文化特性 \(Culture\) 的附屬組件，產生的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案會內嵌到該附屬組件。  如果沒有設定 **UICulture**，產生的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案會內嵌到主要組件。|  
-|`XAMLDebuggingInformation`|選擇性 **Boolean** 參數。<br /><br /> 若為 **true**，表示會產生診斷資訊，並包含在編譯的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 中，以協助偵錯。|  
+|參數|說明|  
+|---------------|-----------------|  
+|`AllGeneratedFiles`|選擇性的 **ITaskItem[]** 輸出參數。<br /><br /> 包含 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作所產生的完整檔案清單。|  
+|`AlwaysCompileMarkupFilesInSeparateDomain`|選擇性的 **Boolean** 參數。<br /><br /> 指定是否要在個別的 <xref:System.AppDomain> 中執行工作。 如果此參數傳回 **false**，工作就會在與 [!INCLUDE[TLA#tla_msbuild](../msbuild/includes/tlasharptla_msbuild_md.md)] 相同的 <xref:System.AppDomain> 中執行，執行速度會較快。 如果此參數傳回 **true**，工作就會在與 [!INCLUDE[TLA2#tla_msbuild](../msbuild/includes/tla2sharptla_msbuild_md.md)] 隔離的第二個 <xref:System.AppDomain> 中執行，執行速度會較慢。|  
+|`ApplicationMarkup`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 指定應用程式定義 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案的名稱。|  
+|`AssembliesGeneratedDuringBuild`|選擇性的 **String[]** 參數。<br /><br /> 指定對在建置程序中變更之組件的參考。 例如，[!INCLUDE[TLA#tla_visualstu2005](../msbuild/includes/tlasharptla_visualstu2005_md.md)] 方案可能包含一個專案，此專案參考另一個專案的已編譯輸出。 在此情況下，可以將第二個專案的已編譯輸出新增到 **AssembliesGeneratedDuringBuild** 參數。<br /><br /> 注意：**AssembliesGeneratedDuringBuild** 參數必須包含對組建方案所產生之一組完整組件的參考。|  
+|`AssemblyName`|必要的 **string** 參數。<br /><br /> 指定為專案產生之組件的簡短名稱。 例如，如果專案要產生名稱為 **WinExeAssembly.exe** 的 [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] 可執行檔，則 **AssemblyName** 參數的值會是 **WinExeAssembly**。|  
+|`AssemblyPublicKeyToken`|選擇性的 **String** 參數。<br /><br /> 指定組件的公開金鑰語彙基元。|  
+|`AssemblyVersion`|選擇性的 **String** 參數。<br /><br /> 指定組件的版本號碼。|  
+|`ContentFiles`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 指定鬆散內容檔案的清單。|  
+|`DefineConstants`|選擇性的 **String** 參數。<br /><br /> 指定保留目前的 **DefineConstants** 值。 這會影響目標組件產生；如果變更此參數，就可能變更目標組件中的公用 API，而可能影響到參考區域類型之 [!INCLUDE[TLA2#tla_titlexaml](../msbuild/includes/tla2sharptla_titlexaml_md.md)] 檔案的編譯。|  
+|`ExtraBuildControlFiles`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 指定可控制當 <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作返回時是否要觸發重建的檔案清單；如果這些檔案其中一個發生變更，就會觸發重建。|  
+|`GeneratedBamlFiles`|選擇性的 **ITaskItem[]** 輸出參數。<br /><br /> 包含採用 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式的已產生檔案清單。|  
+|`GeneratedCodeFiles`|選擇性的 **ITaskItem[]** 輸出參數。<br /><br /> 包含已產生的 Managed 程式碼檔案清單。|  
+|`GeneratedLocalizationFiles`|選擇性的 **ITaskItem[]** 輸出參數。<br /><br /> 包含已針對每個可當地語系化的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案產生的當地語系化檔案清單。|  
+|`HostInBrowser`|選擇性的 **String** 參數。<br /><br /> 指定產生的組件是否為 [!INCLUDE[TLA#tla_xbap](../msbuild/includes/tlasharptla_xbap_md.md)]。 有效的選項為 **true** 和 **false**。 如果為 **true**，就會產生程式碼來支援瀏覽器裝載。|  
+|`KnownReferencePaths`|選擇性的 **String[]** 參數。<br /><br /> 指定對在建置程序中不會變更之組件的參考。 包括位於 [!INCLUDE[TLA#tla_gac](../msbuild/includes/tlasharptla_gac_md.md)]、位於 [!INCLUDE[TLA#tla_netframewk](../misc/includes/tlasharptla_netframewk_md.md)] 安裝目錄等位置中的組件。|  
+|`Language`|必要的 **String** 參數。<br /><br /> 指定編譯器支援的 Managed 語言。 有效的選項為 **C#**、**VB**、**JScript** 及 **C++**。|  
+|`LanguageSourceExtension`|選擇性的 **String** 參數。<br /><br /> 指定附加至所產生的 Managed 程式碼檔案之副檔名的副檔名：<br /><br /> `<Filename>.g<LanguageSourceExtension>`<br /><br /> 如果沒有為 **LanguageSourceExtension** 參數設定特定的值，就會使用語言的預設來源檔案副檔名：**.vb** (適用於 [!INCLUDE[TLA#tla_visualb](../msbuild/includes/tlasharptla_visualb_md.md)])、**.csharp** (適用於 [!INCLUDE[TLA#tla_cshrp](../data-tools/includes/tlasharptla_cshrp_md.md)])。|  
+|`LocalizationDirectivesToLocFile`|選擇性的 **String** 參數。<br /><br /> 指定如何產生每個來源 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案的當地語系化資訊。 有效的選項為 **None**、**CommentsOnly** 及 **All**。|  
+|`OutputPath`|必要的 **String** 參數。<br /><br /> 指定要在其中產生所產生之 Managed 程式碼檔案和 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案的目錄。|  
+|`OutputType`|必要的 **String** 參數。<br /><br /> 指定專案所產生之組件的類型。 有效的選項為 **winexe**、**exe**、**library** 及 **netmodule**。|  
+|`PageMarkup`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 要處理的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案清單。|  
+|`References`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 指定從檔案到包含 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案中所使用類型之組件的參考清單。|  
+|`RequirePass2ForMainAssembly`|選擇性的 **Boolean** 輸出參數。<br /><br /> 指出專案是否包含參考內嵌至主要組件之區域類型的無法當地語系化 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案。|  
+|`RequirePass2ForSatelliteAssembly`|選擇性的 **Boolean** 輸出參數。<br /><br /> 指出專案是否包含參考內嵌至主要組件之區域類型的可當地語系化 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案。|  
+|`RootNamespace`|選擇性的 **String** 參數。<br /><br /> 指定專案內類別的根命名空間。 當對應的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案未包含 `x:Class` 屬性時，**RootNamespace** 也用來作為所產生 Managed 程式碼檔案的預設命名空間。|  
+|`SourceCodeFiles`|選擇性的 **ITaskItem[]** 參數。<br /><br /> 指定目前專案的程式碼檔案清單。 此清單不包括已產生的語言特定 Managed 程式碼檔案。|  
+|`UICulture`|選擇性的 **String** 參數。<br /><br /> 指定要在其中內嵌所產生之 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案的 UI 文化特性 (Culture) 附屬組件。 如果未設定 **UICulture**，所產生的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 二進位格式檔案就會內嵌在主要組件中。|  
+|`XAMLDebuggingInformation`|選擇性的 **Boolean** 參數。<br /><br /> 值為 **true** 時，會產生診斷資訊並包含在已編譯的 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 中，以協助偵錯。|  
   
-## 備註  
- <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作通常會將 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 編譯成二進位格式並產生程式碼檔案。  如果 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案參考相同專案中定義的型別，編譯成二進位格式的作業會由 **MarkupCompilePass1** 延後到第二次標記編譯傳遞 \(**MarkupCompilePass2**\)。  這類檔案之所以必須延後編譯，是因為它們必須先等參考的區域定義型別編譯完成。  不過，如果 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案有 `x:Class` 屬性，<xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 會為它產生語言特定程式碼檔案。  
+## <a name="remarks"></a>備註  
+ <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 工作通常會將 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 編譯成二進位格式，並產生程式碼檔案。 如果 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案包含對相同專案中所定義之類型的參考，**MarkupCompilePass1** 就會將其二進位格式編譯延後至第二個標記編譯階段 (**MarkupCompilePass2**)。 這類檔案的編譯必須延後，因為它們必須等待所參考的本機定義類型編譯完成。 不過，如果 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案具有 `x:Class` 屬性，<xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass1> 就會為它產生語言特定程式碼檔案。  
   
- 如果 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案包含使用 `x:Uid` 屬性的項目，表示此檔案可當地語系化：  
+ [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案如果包含使用 `x:Uid` 屬性的元素，便是可當地語系化的檔案：  
   
-```  
+```xml  
 <Page x:Class="WPFMSBuildSample.Page1"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
@@ -79,9 +94,9 @@ manager: "ghogen"
 </Page>  
 ```  
   
- 當 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案宣告 [!INCLUDE[TLA#tla_xml](../msbuild/includes/tlasharptla_xml_md.md)] 命名空間，而這個命名空間使用 `clr-namespace` 值參考目前專案中的命名空間時，表示此檔案參考區域定義型別：  
+ 當 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案宣告 [!INCLUDE[TLA#tla_xml](../msbuild/includes/tlasharptla_xml_md.md)] 命名空間以使用 `clr-namespace` 值來參考目前專案中的命名空間時，會參考本機定義的類型：  
   
-```  
+```xml  
 <Page x:Class="WPFMSBuildSample.Page1"  
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
@@ -96,12 +111,12 @@ manager: "ghogen"
 </Page>  
 ```  
   
- 如果任何 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案可當地語系化，或參考區域定義型別，就需要第二次標記編譯傳遞，這需要先執行 [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md)，再執行 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)。  
+ 如果有任何 [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案是可當地語系化的，或是參考本機定義的類型，就必須有第二個標記編譯階段，這會需要執行 [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md)，然後執行 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)。  
   
-## 範例  
- 下列範例顯示如何將三個 `Page` [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案轉換成二進位格式檔案。  `Page1` 包含型別 `Class1` 的參考，由於這個型別位於專案的根命名空間，因此在這次標記編譯傳遞不會轉換成二進位格式檔案。  相反地，[GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md) 會先執行，接著再執行 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)。  
+## <a name="example"></a>範例  
+ 下列範例示範如何將三個 `Page`[!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] 檔案轉換成二進位格式檔案。 `Page1` 包含對類型 `Class1` (位於專案的根命名空間中) 的參考，因此無法在此標記編譯階段中轉換成二進位格式檔案。 取而代之的是，會執行 [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md)，接著執行 [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md)。  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <UsingTask   
     TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass1"   
@@ -120,10 +135,10 @@ manager: "ghogen"
 </Project>  
 ```  
   
-## 請參閱  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [建置 WPF 應用程式 \(WPF\)](../Topic/Building%20a%20WPF%20Application%20\(WPF\).md)   
- [WPF XAML 瀏覽器應用程式概觀](../Topic/WPF%20XAML%20Browser%20Applications%20Overview.md)
+## <a name="see-also"></a>另請參閱  
+ [WPF MSBuild 參考](../msbuild/wpf-msbuild-reference.md)   
+ [工作參考](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild 參考](../msbuild/msbuild-reference.md)   
+ [工作參考](../msbuild/msbuild-task-reference.md)   
+ [建置 WPF 應用程式 (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c)   
+ [WPF XAML 瀏覽器應用程式概觀](http://msdn.microsoft.com/Library/3a7a86a8-75d5-4898-96b9-73da151e5e16)
