@@ -1,63 +1,78 @@
 ---
-title: "AspNetCompiler Task | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "MSBuild, AspNetCompiler task"
-  - "AspNetCompiler task [MSBuild]"
+title: "使用 AspNetCompiler 工作先行編譯 ASP.NET 應用程式 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- MSBuild, AspNetCompiler task
+- AspNetCompiler task [MSBuild]
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
 caps.latest.revision: 11
-caps.handback.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
----
-# AspNetCompiler Task
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 26c3d46033a59f88e70b6afde25a25c1ef5e77e8
+ms.openlocfilehash: 0227d24dda3ca6a94092361f70c7e699c2c79c71
+ms.lasthandoff: 02/22/2017
 
-`AspNetCompiler` 工作包裝 aspnet\_compiler.exe，這是先行編譯 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 應用程式的公用程式。  
+---
+# <a name="aspnetcompiler-task"></a>AspNetCompiler 工作
+`AspNetCompiler` 工作會包裝 aspnet_compiler.exe，此為先行編譯 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 應用程式的公用程式。  
   
-## 工作參數  
+## <a name="task-parameters"></a>工作參數  
  下表說明 `AspNetCompiler` 工作的參數。  
   
 |參數|描述|  
-|--------|--------|  
-|`AllowPartiallyTrustedCallers`|選擇性 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，則強式名稱組件允許部分信任的呼叫端。|  
-|`Clean`|選擇性 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，先行編譯的應用程式就會進行清除建置。  之前編譯過的任何元件都會重新編譯。  預設值是 `false`。  這個參數對應於 aspnet\_compiler.exe 上的 **\-c** 選項。|  
-|`Debug`|選擇性 `Boolean` 參數。<br /><br /> 如果這個參數為 `true`，在編譯 \(Compilation\) 期間便會發出偵錯資訊 \(.PDB 檔\)。  預設值是 `false`。  這個參數對應於 aspnet\_compiler.exe 上的 **\-d** 選項。|  
-|`DelaySign`|選擇性 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，則建立組件時不會完整簽署該組件。|  
-|`FixedNames`|選擇性 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，則會為編譯的組件指定固定的名稱。|  
-|`Force`|選擇性 `Boolean` 參數。<br /><br /> 如果這個參數為 `true`，工作便會覆寫目標 \(Target\) 目錄 \(如果已經存在\)。  現有的內容都會遺失。  預設值是 `false`。  這個參數對應於 aspnet\_compiler.exe 上的 **\-f** 選項。|  
-|`KeyContainer`|選擇性 `String` 參數。<br /><br /> 指定強式名稱金鑰容器。|  
-|`KeyFile`|選擇性 `String` 參數。<br /><br /> 指定強式名稱金鑰檔的實體路徑。|  
-|`MetabasePath`|選擇性 `String` 參數。<br /><br /> 指定應用程式的完整 IIS Metabase 路徑。  這個參數無法與 `VirtualPath` 或 `PhysicalPath` 參數合併。  這個參數對應於 aspnet\_compiler.exe 上的 **\-m** 選項。|  
-|`PhysicalPath`|選擇性 `String` 參數。<br /><br /> 指定要編譯之應用程式的實體路徑。  如果遺失此參數，便會使用 IIS Metabase 來找出應用程式。  這個參數對應於 aspnet\_compiler.exe 上的 **\-p** 選項。|  
-|`TargetFrameworkMoniker`|選擇性 `String` 參數。<br /><br /> 指定 TargetFrameworkMoniker，表示應該使用 aspnet\_compiler.exe 的哪個 .NET Framework 版本。  只接受 .NET Framework Moniker。|  
-|`TargetPath`|選擇性 `String` 參數。<br /><br /> 指定要將應用程式編譯至的實體路徑。  如果沒有指定，應用程式便會就地先行編譯。|  
-|`Updateable`|選擇性 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，先行編譯的應用程式就會是可更新的。  預設值是 `false`。  這個參數對應於 aspnet\_compiler.exe 上的 **\-u** 選項。|  
-|`VirtualPath`|選擇性 `String` 參數。<br /><br /> 所要編譯之應用程式的虛擬路徑。  如果有指定 `PhysicalPath`，就會使用實體路徑來找出應用程式。  否則，便會使用 IIS Metabase，並假設應用程式位於預設網站。  這個參數對應於 aspnet\_compiler.exe 上的 **\-v** 選項。|  
+|---------------|-----------------|  
+|`AllowPartiallyTrustedCallers`|選擇性的 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，強式名稱的組件將允許部分信任的呼叫端。|  
+|`Clean`|選擇性的 `Boolean` 參數<br /><br /> 如果此參數為 `true`，將全新建置先行編譯的應用程式。 任何先前已編譯的元件都將重新編譯。 預設值是 `false`。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-c** 參數 (Switch)。|  
+|`Debug`|選擇性的 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，就會在編譯期間發出偵錯資訊 (.PDB 檔案)。 預設值是 `false`。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-d** 參數 (Switch)。|  
+|`DelaySign`|選擇性的 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，就不會在建立時完整簽署組件。|  
+|`FixedNames`|選擇性的 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，就會為編譯的組件指定固定的名稱。|  
+|`Force`|選擇性的 `Boolean` 參數<br /><br /> 如果此參數為 `true`，工作將會覆寫目標目錄 (如果已經存在)。 現有的內容都會遺失。 預設值是 `false`。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-f** 參數 (Switch)。|  
+|`KeyContainer`|選擇性的 `String` 參數。<br /><br /> 指定強式名稱金鑰容器。|  
+|`KeyFile`|選擇性的 `String` 參數。<br /><br /> 指定強式名稱金鑰檔的實體路徑。|  
+|`MetabasePath`|選擇性的 `String` 參數。<br /><br /> 指定應用程式的完整 IIS Metabase 路徑。 此參數無法與 `VirtualPath` 或 `PhysicalPath` 參數相結合。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-m** 參數 (Switch)。|  
+|`PhysicalPath`|選擇性的 `String` 參數。<br /><br /> 指定要編譯之應用程式的實體路徑。 如果此參數遺失，可以使用 IIS Metabase 來尋找應用程式。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-p** 參數 (Switch)。|  
+|`TargetFrameworkMoniker`|選擇性的 `String` 參數。<br /><br /> 指定 TargetFrameworkMoniker，指示應該使用 aspnet_compiler.exe 的哪一個 .NET Framework 版本。 只接受 .NET Framework Moniker。|  
+|`TargetPath`|選擇性的 `String` 參數。<br /><br /> 指定編譯應用程式的實體路徑。 如果未指定，則會就地先行編譯應用程式。|  
+|`Updateable`|選擇性的 `Boolean` 參數。<br /><br /> 如果此參數為 `true`，將可更新先行編譯的應用程式。  預設值是 `false`。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-u** 參數 (Switch)。|  
+|`VirtualPath`|選擇性的 `String` 參數。<br /><br /> 要編譯之應用程式的虛擬路徑。 如果指定了 `PhysicalPath`，就能使用實體路徑來尋找應用程式。 否則，會使用 IIS metabase，而且假設應用程式位於預設網站中。 此參數 (Parameter) 對應到 aspnet_compiler.exe 上的 **-v** 參數 (Switch)。|  
   
-## 備註  
- 除了以上列出的參數之外，此項工作還會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別中的參數，而該類別本身又繼承 <xref:Microsoft.Build.Utilities.ToolTask> 類別。  如需這些錯誤碼的清單及其說明，請參閱 [ToolTaskExtension Base Class](../msbuild/tooltaskextension-base-class.md)。  
+## <a name="remarks"></a>備註  
+ 除了上面所列的參數，此工作會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別的參數，而它本身是繼承自 <xref:Microsoft.Build.Utilities.ToolTask> 類別。 如需這些其他參數的清單及其說明，請參閱 [ToolTaskExtension 基底類別](../msbuild/tooltaskextension-base-class.md)。  
   
-## 範例  
- 在下列程式碼範例中，使用 `AspNetCompiler` 工作來先行編譯 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 應用程式。  
+## <a name="example"></a>範例  
+ 下列程式碼範例使用 `AspNetCompiler` 工作來先行編譯 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 應用程式。  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <Target Name="PrecompileWeb">  
         <AspNetCompiler  
@@ -71,6 +86,7 @@ manager: "ghogen"
 </Project>  
 ```  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [工作](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [工作參考](../msbuild/msbuild-task-reference.md)
+

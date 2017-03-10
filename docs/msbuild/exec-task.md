@@ -1,63 +1,78 @@
 ---
-title: "Exec Task | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Exec"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "Exec task [MSBuild]"
-  - "MSBuild, Exec task"
+title: "Exec 工作 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- http://schemas.microsoft.com/developer/msbuild/2003#Exec
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- Exec task [MSBuild]
+- MSBuild, Exec task
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 caps.latest.revision: 20
-caps.handback.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
----
-# Exec Task
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: a9c1338910364451577957da52f9f3aef518aa67
+ms.openlocfilehash: e8c9e615d8bf88a897add6b139d27c617fbec018
+ms.lasthandoff: 02/22/2017
 
-使用指定的引數執行指定的程式或命令。  
+---
+# <a name="exec-task"></a>Exec 工作
+使用指定的引數來執行指定的程式或命令。  
   
-## 參數  
+## <a name="parameters"></a>參數  
  下表說明 `Exec` 工作的參數。  
   
 |參數|描述|  
-|--------|--------|  
-|`Command`|必要的 `String` 參數。<br /><br /> 要執行的命令。  這些命令可能是系統命令 \(例如 attrib\) 或可執行檔 \(例如 program.exe、runprogram.bat 或 setup.msi\)。<br /><br /> 這個參數可以包含多行命令。  或者，您也可以將多個命令放在批次檔中，並使用這個參數來執行它。|  
-|`CustomErrorRegularExpression`|選擇性 `String` 參數。<br /><br /> 指定要在工具輸出中找出錯誤行的規則運算式。  這對產生非一般格式輸出的工具非常有用。|  
-|`CustomWarningRegularExpression`|選擇性 `String` 參數。<br /><br /> 指定要在工具輸出中找出警告行的規則運算式。  這對產生非一般格式輸出的工具非常有用。|  
-|`ExitCode`|選擇性 \(Optional\) `Int32` 輸出唯讀參數。<br /><br /> 指定由執行的命令所提供的結束代碼 \(Exit Code\)。|  
-|`IgnoreExitCode`|選擇性 `Boolean` 參數。<br /><br /> 如果為 `true`，則工作會忽略由執行的命令所提供的結束代碼。  否則，如果執行的命令傳回非零的結束代碼，工作便會傳回 `false`。|  
-|`IgnoreStandardErrorWarningFormat`|選擇性 `Boolean` 參數。<br /><br /> 如果為 `false`，則選取輸出中符合標準錯誤\/警告格式的文字行，並將其記錄為錯誤\/警告。  如果為 `true`，則停用此行為。|  
-|`Outputs`|選擇性的 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 輸出參數。<br /><br /> 含有工作的輸出項目。  `Exec` 工作不會自行設定這些項目。  反之，您可以提供這些項目，就像是工作設定過這些項目一樣，以便以後能在專案中加以使用。|  
-|`StdErrEncoding`|選擇性 `String` 輸出參數。<br /><br /> 指定擷取之工作標準錯誤資料流的編碼方式。  預設是目前主控台輸出的編碼方式。|  
-|`StdOutEncoding`|選擇性 `String` 輸出參數。<br /><br /> 指定擷取之工作標準輸出資料流的編碼方式。  預設是目前主控台輸出的編碼方式。|  
-|`WorkingDirectory`|選擇性 `String` 參數。<br /><br /> 指定將會執行命令的目錄。|  
+|---------------|-----------------|  
+|`Command`|必要的 `String` 參數。<br /><br /> 一或多個要執行的命令。 這些可以是系統命令 (例如 attrib) 或可執行檔 (例如 program.exe、runprogram.bat 或 setup.msi)。<br /><br /> 此參數可以包含多行命令。 或者，您可以將多個命令放在一個批次檔中，然後使用此參數來執行該批次檔。|  
+|`CustomErrorRegularExpression`|選擇性的 `String` 參數。<br /><br /> 指定在工具輸出中用來檢查錯誤行的規則運算式。 這適用於會產生異常格式之輸出的工具。|  
+|`CustomWarningRegularExpression`|選擇性的 `String` 參數。<br /><br /> 指定在工具輸出中用來檢查警告行的規則運算式。 這適用於會產生異常格式之輸出的工具。|  
+|`ExitCode`|選擇性 `Int32` 輸出唯讀參數。<br /><br /> 指定已執行命令提供的結束代碼。|  
+|`IgnoreExitCode`|選擇性的 `Boolean` 參數。<br /><br /> 如果是 `true`，工作就會略過已執行命令提供的結束代碼。 否則，如果已執行的命令傳回非零的結束代碼，工作就會傳回 `false`。|  
+|`IgnoreStandardErrorWarningFormat`|選擇性的 `Boolean` 參數。<br /><br /> 如果是 `false`，即會選取符合標準錯誤/警告格式之輸出中的行，並將它們記錄為錯誤/警告。 如果是 `true`，即會停用此行為。 預設值是 `false`。|  
+|`Outputs`|選擇性的 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 輸出參數。<br /><br /> 包含來自工作的輸出項目。 `Exec` 工作本身不會設定這些項目。 相反地，您可以提供項目，就像工作本身已設定一樣，如此一來，稍後就能在專案中使用它們。|  
+|`StdErrEncoding`|選擇性的 `String` 輸出參數。<br /><br /> 指定所擷取工作標準錯誤資料流的編碼方式。 預設值是目前的主控台輸出編碼方式。|  
+|`StdOutEncoding`|選擇性的 `String` 輸出參數。<br /><br /> 指定所擷取工作標準輸出資料流的編碼方式。 預設值是目前的主控台輸出編碼方式。|  
+|`WorkingDirectory`|選擇性的 `String` 參數。<br /><br /> 指定將執行命令的目錄。|  
   
-## 備註  
- 當無法使用您所執行的工作 \(Job\) 之特定 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 工作 \(Task\) 時，這項工作 \(Task\) 便相當有用。  但是與較特殊的工作不同，`Exec` 工作無法從其所執行的工具或命令收集輸出。  
+## <a name="remarks"></a>備註  
+ 若無法針對您想要執行的作業取得特定的 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 工作，此工作就非常有用。 不過，`Exec` 工作與更特定的工作不同，無法從它執行的工具或命令中收集輸出。  
   
- `Exec` 工作會呼叫 cmd.exe，而不會直接叫用程序。  
+ `Exec` 工作會呼叫 cmd.exe，而不是直接叫用處理序。  
   
- 除了本文件中列出的參數之外，此項工作還會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別中的參數，而該類別本身又繼承 <xref:Microsoft.Build.Utilities.ToolTask> 類別。  如需這些錯誤碼的清單及其說明，請參閱 [ToolTaskExtension Base Class](../msbuild/tooltaskextension-base-class.md)。  
+ 除了本文件所列的參數，此工作會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別的參數，而它本身是繼承自 <xref:Microsoft.Build.Utilities.ToolTask> 類別。 如需這些其他參數的清單及其說明，請參閱 [ToolTaskExtension 基底類別](../msbuild/tooltaskextension-base-class.md)。  
   
-## 範例  
- 下列範例使用 `Exec` 工作來執行命令。  
+## <a name="example"></a>範例  
+ 下列範例會使用 `Exec` 工作來執行命令。  
   
-```  
+```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
     <ItemGroup>  
         <Binaries Include="*.dll;*.exe"/>  
@@ -71,6 +86,7 @@ manager: "ghogen"
 </Project>  
 ```  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [工作](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [工作參考](../msbuild/msbuild-task-reference.md)
+
