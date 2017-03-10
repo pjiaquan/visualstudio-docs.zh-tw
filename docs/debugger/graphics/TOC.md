@@ -13,7 +13,7 @@
 ## [半/四分之一紋理維度變異](half-quarter-texture-dimensions-variant.md)
 ## [BC 紋理壓縮變異](bc-texture-compression-variant.md)
 # [事件清單](graphics-event-list.md)
-# [狀態](graphics-state.md)
+# [圖形狀態](graphics-state.md)
 # [管線階段](graphics-pipeline-stages.md)
 # [事件呼叫堆疊](graphics-event-call-stack.md)
 # [像素歷史記錄](graphics-pixel-history.md)
