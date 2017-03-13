@@ -27,16 +27,18 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: b259c5d02a452bfaa3bd59f2096b43ee1c1c5942
-ms.openlocfilehash: 352de7f71f8a6c16439061c9815219e5f2b3840a
+ms.sourcegitcommit: 3b812629bf0f655f39c35a56eb1b3ca9113303a6
+ms.openlocfilehash: 8bf6d49b21d128d15f5312fb230d4a8e7a8195af
+ms.lasthandoff: 03/01/2017
 
 ---
 
 # <a name="go-to"></a>到
 有許多方法可以透過鍵盤和滑鼠在 Visual Studio IDE 內輕鬆地巡覽程式碼。
 
+<!-- VERSIONLESS -->
 ## <a name="go-to-all"></a>移至全部
-巡覽程式碼，以找到您所尋找的特定位元。  您可以從簡單的介面搜尋特定行、類型、符號、檔案和其他項目。
+Visual Studio 2017 及更新版本有提供這項功能，  其可巡覽程式碼，以找到您所尋找的特定位元。  您可以透過簡潔的整合介面，搜尋特定行、類型、符號、檔案和其他項目。
 
 ### <a name="how-to-use"></a>如何使用
 * **鍵盤**
@@ -81,6 +83,7 @@ t      | ![類型圖示](media/gotoall_typeicon.png)     | Ctrl+1、Ctrl+T | 尋
 使用預覽索引標籤 | 在 IDE 的預覽索引標籤中立即顯示選取的項目
 顯示詳細資料    | 在視窗中顯示文件註解中的專案、檔案、行和摘要資訊
 置中視窗   | 將此視窗移至 IDE 的中心，而不是右上方
+<!-- END VERSIONLESS -->
 
 ## <a name="go-to-definition"></a>移至定義
 巡覽至類型來源，然後在新的索引標籤中開啟結果︰
@@ -125,8 +128,3 @@ t      | ![類型圖示](media/gotoall_typeicon.png)     | Ctrl+1、Ctrl+T | 尋
 **Ctrl+Shift+-**    | 向前巡覽堆疊
 
 您也可以使用 [檢視] > [向後巡覽] 和 [檢視] > [向前巡覽] 功能表項目。
-
-
-<!--HONumber=Feb17_HO4-->
-
-

@@ -1,7 +1,7 @@
 ---
 title: "管理外部工具 | Microsoft Docs"
 ms.custom: 
-ms.date: 01/23/2017
+ms.date: 02/17/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -76,43 +76,33 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 66e09a22bcedb37f82eb9517a8f9d4affbe3a374
-ms.openlocfilehash: ad9461bb29dba3e8e2ffe242c1f709587729ce22
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: c36d97b83aa0892235c8f196cf6af63520b3547c
+ms.openlocfilehash: a31b90643e3707348595fce02ec37a1c02a97195
+ms.lasthandoff: 03/01/2017
 
 ---
 # <a name="manage-external-tools"></a>管理外部工具
-您可以從 Visual Studio 內部呼叫外部工具。 [工具] 功能表中有提供一些預設的工具，但您可以另外加入自己的可執行檔。  
-  
+您可以使用 [工具]，從 Visual Studio 內部呼叫外部工具。 [工具] 功能表中有提供一些預設的工具，但您可以另外加入自己的可執行檔。  
+
 ## <a name="tools-available-on-the-visual-studio-tools-menu"></a>Visual Studio [工具] 功能表上提供的工具
- 您可以從 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 的 [工具] 功能表呼叫下列工具。 也可以從 [快速啟動] 視窗以名稱來呼叫工具。 例如，若要呼叫 GuidGen.exe，請鍵入 **Create GUID**。  
-  
-1.  建立 GUID：產生 GUID。  
-  
-2.  錯誤查詢：從輸入的值取得錯誤訊息。 如需詳細資訊，請參閱 [ERRLOOK 參考](/visual-cpp/build/reference/errlook-reference)。  
-  
-3.  ATL/MFC 追蹤工具：顯示 ATL 與 MFC 來源中的偵錯追蹤訊息。  
-  
-4.  PreEmptive Dotfuscator and Analytics：保護 .NET 程式免於反向工程。  
-  
-5.  SPY++：以圖形化方式顯示處理序、執行緒、視窗及視窗訊息。  
-  
-6.  WCF 服務組態編輯器：可用以建立及修改 WCF 服務的組態設定。  
-  
-> [!WARNING]
->  視您安裝的 Visual Studio 版本及套用的設定檔之不同，您看到的外部工具清單或許有些不同。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
-  
+ [工具] 功能表包含數個內建命令，例如：
+
+*  [延伸模組和更新] 可用來[管理 Visual Studio 延伸模組](finding-and-using-visual-studio-extensions.md)
+*  [程式碼片段管理員...] 可用來[組織程式碼片段](code-snippets.md#code-snippet-manager)
+*  [PreEmptive Protection - Dotfuscator] 可用來啟動 [Dotfuscator Community Edition (CE)](dotfuscator/index.md) (若[已安裝](dotfuscator/install.md)的話)
+*  [自訂...] 可用來[自訂功能表和工具列](how-to-customize-menus-and-toolbars-in-visual-studio)
+*  [選項...] 可用來[設定各種不同的 Visual Studio IDE 和其他工具選項](reference/options-dialog-box-visual-studio.md)
+
 ## <a name="add-new-tools-to-the-tools-menu"></a>將新的工具新增至 [工具] 功能表 
- 您可將外部工具加入 [工具] 功能表。 開啟 [外部工具] 對話方塊，按一下 [加入]，然後填入資訊。 例如，下列輸入內容會讓 Windows 檔案總管的開啟位置，會是於 Visual Studio 中目前所開啟之檔案所在的目錄：  
+ 您可將外部工具加入 [工具] 功能表。 開啟 [外部工具...] 對話方塊，按一下 [加入]，然後填入資訊。 例如，下列輸入內容會讓 Windows 檔案總管的開啟位置，會是於 Visual Studio 中目前所開啟之檔案所在的目錄：  
   
-1.  Title: Open File Location  
+1.  標題：*Open File Location*
   
-2.  Command: explorer.exe  
+2.  命令：`explorer.exe`  
   
-3.  Arguments: /root, "$(ItemDir)"  
+3.  引數：`/root, "$(ItemDir)"`  
   
-## <a name="arguments-for-external-tools"></a>外部工具的引數  
- 下列引數是您啟動外部工具時指派的 Visual Studio 變數。 可使用 [外部工具] 對話方塊將 [記事本] 或 Spy++ 等外部工具的連結列在 [工具] 功能表上。  
+ 以下是在定義外部工具時可以使用的引數完整清單。
   
 > [!NOTE]
 >  IDE 狀態列會顯示目前這一行和目前資料行的變數，以指出插入點在作用中程式碼編輯器的位置。 目前的文字變數則會傳回在該位置選取的文字或程式碼。  
@@ -135,7 +125,7 @@ ms.lasthandoff: 02/22/2017
 |專案檔名|$(ProjFileName)|目前專案的檔案名稱 (磁碟機 + 路徑 + 檔案名稱)。|  
 |方案目錄|$(SolutionDir)|目前方案的目錄 (磁碟機 + 路徑)。|  
 |方案檔名|$(SolutionFileName)|目前方案的檔案名稱 (磁碟機 + 路徑 + 檔案名稱)。|  
-  
+
 ## <a name="see-also"></a>請參閱  
  [C/C++ 建置工具](/visual-cpp/build/reference/c-cpp-build-tools)
 

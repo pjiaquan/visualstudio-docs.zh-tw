@@ -1,7 +1,7 @@
 ---
 title: "建立可移植的自訂編輯器設定 |Microsoft Docs"
 ms.custom: 
-ms.date: 12/14/2016
+ms.date: 02/17/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,8 +33,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 31f433b28b67dc6f3179be87cb5894b5b3f0aa4f
-ms.openlocfilehash: 8c986958f141d3efc2ffe29b4176b43e9960e0e1
+ms.sourcegitcommit: 203e1e27cc892e96b103fc6cb22a73672a8e16af
+ms.openlocfilehash: 70f3c6c7e4356a698aa6c1dd265f6c79c662673e
+ms.lasthandoff: 03/01/2017
 
 ---
 # <a name="create-portable-custom-editor-settings"></a>建立可移植的自訂編輯器設定
@@ -86,8 +87,15 @@ Visual Studio 中的編輯器支援核心 EditorConfig 選項集合的下列值�
 > [!NOTE]
 >  將 .editorconfig 檔案新增到專案或程式碼基底並不會將現有的樣式轉換為新樣式，它只適用於剛剛新增的行。 如果您從專案或程式碼基底移除 .editorconfig 檔案，必須重新載入程式碼檔案，編輯器設定才會還原成全域設定。 在 Visual Studio 中的 [錯誤] 視窗裡會報告 .editorconfig 檔案中的任何錯誤。
 
+## <a name="support-editorconfig-for-your-language-service"></a>語言服務的 EditorConfig 支援
 
+在大部分情況下，當您實作 Visual Studio 語言服務時，並不需要進行任何額外的作業即可支援 EditorConfig 通用屬性。 當使用者開啟檔案時，核心編輯器會自動探索並讀取 .editorconfig 檔案，然後設定適當的文字緩衝區和檢視選項。 不過，當使用者編輯或格式化文字時，有些語言服務會選擇適當的內容文字檢視選項，而不使用定位點和空格這類項目的全域設定。 在這種情況下，您必須更新語言服務才能支援 EditorConfig 檔案。
 
-<!--HONumber=Feb17_HO4-->
+下表列出要更新語言服務以支援 EditorConfig 檔案所需的變更。
 
+| 已被取代的全域特定語言選項 | 取代內容選項 |
+| :------------- | :------------- |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.fInsertTabs 或 Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs | !textBufferOptions.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) 或 !textView.Options.GetOptionValue(DefaultOptions.ConvertTabsToSpacesOptionId) |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize 或 Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize | textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) 或 textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId) |
+| Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize 或 Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize | textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) 或 textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId) |
 
