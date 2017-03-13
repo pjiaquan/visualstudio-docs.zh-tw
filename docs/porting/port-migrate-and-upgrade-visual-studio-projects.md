@@ -1,7 +1,7 @@
 ---
 title: "移植、移轉及升級 Visual Studio 專案 | Microsoft Docs"
 ms.custom: 
-ms.date: 11/16/2016
+ms.date: 2/27/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -20,8 +20,8 @@ helpviewer_keywords:
 - asset compatibility
 - projects, conversion
 ms.assetid: bee759bd-6ff5-4c2e-913a-ea7d3c906c29
-author: TerryGLee
-ms.author: tglee
+author: kraigb
+ms.author: kraigb
 manager: ghogen
 translation.priority.ht:
 - de-de
@@ -39,21 +39,41 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: ae6564f10ca561853444698665779bd1014d4afd
-ms.openlocfilehash: 2915a9ceec638471ac29599992a7ccdff17cefb4
+ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
+ms.openlocfilehash: 6b61cbc8460266ac305b12bf14f92d7445bfc900
+ms.lasthandoff: 03/03/2017
 
 ---
 # <a name="port-migrate-and-upgrade-visual-studio-projects"></a>移植、移轉及升級 Visual Studio 專案
-當您移至較新版的 Visual Studio 時，您會想要知道在最新版本中，執行您在舊版建立的任何解決方案、專案、檔案及其他資產「之前」，是否必須有所修改。
 
- 許多廣泛使用的資產在最新版的 Visual Studio 2017 RC 的行為方式，會和在目前的版本 Visual Studio 2015 中相同。 在舊版的 Visual Studio 2013 以及 Visual Studio 2012 中，也會有相同的行為方式。
+一般來說，每個新版本的 Visual Studio 都會支援大多數舊版類型的專案、檔案和其他資產。 因此，您可以一如既往地使用這些項目；如果您不需要新版的功能，Visual Studio 會保留與 Visual Studio 2015、Visual Studio 2013 和 Visual Studio 2012 等舊版的回溯相容性 。 (請參閱[版本資訊](https://www.visualstudio.com/vs/release-notes/)，以了解哪些功能專屬於哪一個版本)。
 
- 例如，在 Visual Studio 2017 RC 中，您可以開啟Visual Studio 2015 或 Visual Studio 2013 中建立的專案，加以變更，然後在 Visual Studio 2017 RC 中重新開啟專案，您的變更會保持不變，而專案行為會和舊版中的行為相同。 這也適用於許多在 Visual Studio 2012 中建立的資產。  
+不過，有些類型的支援可能會隨時間而改變。 新版的 Visual Studio 可能不再支援某些類型，或需要將這些類型移轉與更新，導致它們不再具有回溯相容性。 本主題提供在 Visual Studio 2017 中受影響之專案類型的詳細資料。 如需 Visual Studio 2017 的支援類型清單，請參閱 [Visual Studio 2017 平台目標及相容性](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs)主題。
 
- 如果您將 Visual Studio 2015 與 Visual Studio 2013、Visual Studio 2012 或 Visual Studio 2010 SP1 一起使用，就可以使用這些版本其中任何一個建立和修改專案及檔案。 只要不加入其中一個版本不支援的功能，就可以在版本之間傳輸專案和檔案。 (如需各個版本專屬功能的詳細資訊，請參閱[版本資訊](https://www.visualstudio.com/vs/release-notes/))。
-
-
-
-<!--HONumber=Feb17_HO4-->
+> [!Note]
+> 開啟特定專案類型時，需透過 [Visual Studio 安裝程式] 新增適當的工作負載。
 
 
+## <a name="projects"></a>專案
+
+下列清單描述 Visual Studio 2017 對使用舊版建立之專案的支援。 如果您在此處沒有看到應列出的專案或檔案類型，請參閱[本主題的 Visual Studio 2015 版本](https://msdn.microsoft.com/library/hh266747.aspx)，並記在下列註解中。
+
+| 專案類型 | 支援 |
+| --- | --- |
+| .NET Core 專案 (.xproj) | 透過 Visual Studio 2015 建立的專案會使用預覽工具，其中包括 .xproj 專案檔。 使用 Visual Studio 2017 開啟 .xproj 檔案時，系統會提示您將檔案移轉為 .csproj 格式 (進行 .xproj 檔案的備份)。 VS2015 和更早版本不支援這種 .NET Core 專案適用的 .csproj 格式，  且 .xproj 格式必須移轉為 .csproj，才能在 Visual Studio 2017 中受到支援。 |
+| 已啟用 Application Insights 的 ASP.NET Web 應用程式和 ASP.NET Core Web 應用程式 | 對每位 Visual Studio 使用者來說，資源資訊會儲存在每個使用者執行個體的登錄中。 當使用者未開啟任何專案，而要搜尋 Azure Application Insights 資料時，就會使用這些項目。 Visual Studio 2015 使用的登錄位置和 Visual Studio 2017 不同，因此不會產生衝突。<br/><br/>在使用者建立 ASP.NET Web 應用程式或 ASP.NET Core Web 應用程式之後，資源就會存放在 .suo 檔案中。 只要 Visual Studio 支援在 Visual Studio 2015 和 Visual Studio 2017 中使用專案和方案，使用者即可在這兩個版本中開啟專案，資源資訊亦可用於這兩個版本。 不過，使用者必須在每個產品上進行一次驗證。 例如，如果專案是以 Visual Studio 2015 建立並在 Visual Studio 2017 中開啟，則使用者也需要在 Visual Studio 2017 上進行驗證。 |
+| C#/Visual Basic Webform 或 Windows Form | 您可以在 Visual Studio 2017 和 Visual Studio 2015 中開啟專案。 |
+| 資料庫單元測試專案 (.csproj、.vbproj)    | Visual Studio 2017 可以載入舊版的資料單元測試專案，但會使用 GAC’d 版本的相依性。 若要升級單元測試專案以使用最新的相依性，請以滑鼠右鍵按一下方案總管，並選取 [轉換成 SQL Server 單元測試專案...]。 |
+| F# | Visual Studio 2017 可以開啟在 Visual Studio 2013 和 Visual Studio 2015 中建立的專案。 不過，若要在這些專案中啟用 Visual Studio 2017 的功能，請開啟專案屬性，並將目標 fsharp.core 變更為 F# 4.1。 |
+| LightSwitch | Visual Studio 2017 不再支援 LightSwitch。 在 Visual Studio 2013 或 Visual Studio 2015 中，如果要開啟使用 Visual Studio 2012 和更早版本所建立的專案，系統會將該專案升級，並僅可在 Visual Studio 2013 或 Visual Studio 2015 之後的版本中開啟。 |
+| Microsoft Azure Tools for Visual Studio | 若要開啟這些類型的專案，請先安裝 [Azure SDK for .NET](http://azure.microsoft.com/en-us/downloads/)，然後再開啟專案。 如有必要，系統會更新您的專案。 |
+| 模型檢視控制器架構 (ASP.NET MVC) | 針對 MVC 版本和 Visual Studio 的支援：<ul><li>Visual Studio 2010 SP1 支援 MVC 2 和 MVC 3；您可透過 [ASP.NET 4 MVC 4 for Visual Studio 2010 SP1 下載](https://www.microsoft.com/en-us/download/details.aspx?id=30683)來新增 MVC 4 的支援</li><li>Visual Studio 2012 只支援 MVC 3 和 MVC 4</li><li>Visual Studio 2013 只支援 MVC 4 和 MVC 5</li><li>Visual Studio 2017 和 Visual Studio 2015 支援 MVC 4 (您可以開啟現有專案，但不能建立新的專案) 和 MVC 5</li></ul><br/><br/>升級 MVC 版本：<ul><li>如需關於如何從 MVC 2 自動升級到 MVC 3 的詳細資訊，請參閱 [ASP.NET MVC 3 Application Upgrader](http://go.microsoft.com/fwlink/?LinkID=238178)(ASP.NET MVC 3 應用程式升級程式)。</li><li>如需關於如何從 MVC 2 手動升級至 MVC 3 的詳細資訊，請參閱 [Upgrading an ASP.NET MVC 2 Project to ASP.NET MVC 3 Tools Update](http://go.microsoft.com/fwlink/?linkid=238178)(將 ASP.NET MVC 2 專案升級至 ASP.NET MVC 3 工具更新)。</li><li>如需關於如何從 MVC 3 手動升級至 MVC 4 的詳細資訊，請參閱 [Upgrading an ASP.NET MVC 3 Project to ASP.NET MVC 4](http://www.asp.net/whitepapers/mvc4-release-notes)(將 ASP.NET MVC 3 專案升級至 ASP.NET MVC 4)。 如果您的專案是以 .NET Framework 3.5 SP1 為目標，則必須將目標重定為使用 .NET Framework 4。</li><li>如需如何將 MVC 4 手動升級為 MVC 5 的資訊，請參閱 [How to Upgrade an ASP.NET MVC 4 and Web API Project to ASP.NET MVC 5 and Web API 2](https://www.asp.net/mvc/overview/releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2) (如何將 ASP.NET MVC 4 和 Web API 專案升級至 ASP.NET MVC 5 和 Web API 2)。</li></ul> |
+| 模型化 | 如果您允許 Visual Studio 自動更新專案，則可以在 Visual Studio 2015、Visual Studio 2013 或 Visual Studio 2012 中開啟專案。<br/><br/>Visual Studio 2015 和 Visual Studio 2017 之間的模型專案格式沒有變更，因此在任一版本都可以開啟和修改專案。 不過，Visual Studio 2017 的行為有下列差異：<ul><li>在功能表和範本中，模型專案現在稱為「相依性驗證」專案。</li><li>Visual Studio 2017 不再支援 UML 圖表。 UML 檔案在方案總管中的提列方式與之前相同，但會以 XML 檔案的形式開啟。 您可以使用 Visual Studio 2015 來檢視、建立或編輯 UML 圖表。</li><li>在 Visual Studio 2017 中建置模型專案時，系統將不再執行架構相依性的驗證。 相反地，系統會在每個程式碼專案建置時執行驗證。 這項變更不會影響模型專案，但卻必須對要驗證的程式碼專案進行變更。 Visual Studio 2017 可以自動對程式碼專案進行必要的變更 ([詳細資訊](http://go.microsoft.com/fwlink/?LinkId=827800))。</li></ul> |
+| Silverlight | Visual Studio 2017 不支援 Silverlight 專案。 若要維護 Silverlight 應用程式，請繼續使用 Visual Studio 2015。 |
+| Visual C++ | 在 Visual Studio 2017 中，您可依原樣開啟使用 Visual Studio 2015 所建立的方案和專案，但在較舊版本的 Visual Studio 中建立的專案可能需要將專案升級，或將目標重定為較新的工具組，以便使用 Visual Studio 2017 來建置。 如需詳細資訊，請參閱[如何：將 Visual C++ 專案升級為 Visual Studio 2015](https://msdn.microsoft.com/en-us/library/hh690665.aspx)和 [Visual C++ 移植和升級指南](https://msdn.microsoft.com/en-us/library/dn986839.aspx)。 |
+| Visual Studio 擴充性/VSIX | 系統會更新含 MinimumVersion 14.0 或以下版本的專案，以宣告 MinimumVersion 15.0，如此一來，即無法在舊版的 Visual Studio 中開啟專案。 若要允許在舊版本中開啟專案，請將 MinimumVersion 設為 `$(VisualStudioVersion)`。 另請參閱[如何︰將擴充性專案移轉至 Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)。 |
+| Visual Studio Lab Management | 您可以使用 Microsoft Test Manager 或 Visual Studio 2010 SP1 和更新版本，開啟在這些版本中建立的環境。 不過，若是 Visual Studio 2010 SP1，Microsoft Test Manager 的版本必須符合 Team Foundation Server 的版本才能建立環境。 |
+| Visual Studio Tools for Apache Cordova |這類專案可以在 Visual Studio 2017 中開啟，但不具備回溯相容性。 從 Visual Studio 2015 中開啟專案時，系統會提示您允許對專案進行修改。 這麼做會將專案升級為使用工具組 (而不是 `taco.json` 檔案)，來管理 Cordova 程式庫、其平台和外掛程式，以及其節點/npm 相依性的版本控制。 如需詳細資訊，請參閱[移轉指南](http://taco.visualstudio.com/docs/vs-taco-2017-migration/)。 |
+| Windows Communication Foundation 與 Windows Workflow Foundation | 您可以在 Visual Studio 2017、Visual Studio 2015、Visual Studio 2013 和 Visual Studio 2012 中開啟這類專案。 |
+| Windows Presentation Foundation | 您可以在 Visual Studio 2013、Visual Studio 2012 和 Visual Studio 2010 SP1 中開啟這類專案。 |
+| Windows 市集/Windows Phone 應用程式 | Visual Studio 2017 不支援 Windows 市集 8.1 和 8.0 以及 Windows Phone 8.1 和 8.0 專案。 若要維護這些應用程式，請繼續使用 Visual Studio 2015。 若要維護 Windows Phone 7.x 專案，請使用 Visual Studio 2012。 |

@@ -1,7 +1,7 @@
 ---
 title: "改善程式碼品質"
 ms.custom: na
-ms.date: 10/14/2016
+ms.date: 02/17/2017
 ms.reviewer: na
 ms.suite: na
 ms.technology:
@@ -30,8 +30,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 93f70de0acfa8b5efcfe141a1f8060061a4ba15d
-ms.openlocfilehash: 0c439304b8a23166293fc4cc6d984947fd51f133
+ms.sourcegitcommit: 7a282fc04c1eb01f0c56b1d76880276fc270686d
+ms.openlocfilehash: df5195e7cc435f6da8ebfee4589d7c6258018993
+ms.lasthandoff: 03/01/2017
 
 ---
 # <a name="improve-code-quality"></a>改善程式碼品質
@@ -49,8 +50,6 @@ ms.openlocfilehash: 0c439304b8a23166293fc4cc6d984947fd51f133
 |[對程式碼進行單元測試](../test/unit-test-your-code.md)|測試總管可讓您輕鬆地將單元測試整合在開發實務中。 您可以使用 Microsoft 單元測試架構，或使用多種協力廠商架構和開放原始碼架構的其中一種。|  
 |[分析應用程式品質](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|靜態程式碼分析工具可尋找 C++ 和 Managed 程式碼中的設計、使用方式、可維護性和樣式等問題。 許多這些問題可能會造成難以在標準測試環境重現的 Bug。|  
 |[測量 Managed 程式碼的複雜度和維護性](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|程式碼度量資訊是一組軟體測量數據，可以讓開發人員更深入了解他們正在開發的程式碼。 度量資訊包括函式和類別的可維護性指數、函式的循環複雜度、類別的繼承深度，以及類別間的結合程度。|  
-|[適用於 Team Foundation Server 的 PreEmptive Analytics](http://msdn.microsoft.com/library/hh973124.aspx)|適用於 TFS CE 的 PreEmptive Analytics 可協助您將以意見為導向的開發程序整合至您的開發工作流程中。 您的應用程式會在執行期間發生錯誤時，自動將例外狀況報告資料傳回 PreEmptive Analytics 服務。 此服務接著會根據您定義的規則和臨界值，建立或更新 Microsoft Team Foundation Server 中的工作項目。|  
-|[PreEmptive Dotfuscator 和 Analytics CE](assetId:///25d195d4-9f76-4dcc-9fbb-eeb9bdca9a3f)|PreEmptive Dotfuscator 是 .NET 模糊化和壓縮程式，可協助保護程式免於受到反向工程的威脅，同時使程式更小巧且更有效率。|  
   
 ## <a name="related-scenarios"></a>相關案例  
  [採用 Visual Studio 和 Team Foundation Server 方便進行應用程式生命週期管理](assetId:///7ae9182f-4762-4bd3-b238-39ce987932e5)  
@@ -62,13 +61,11 @@ ms.openlocfilehash: 0c439304b8a23166293fc4cc6d984947fd51f133
  [測試應用程式](https://www.visualstudio.com/docs/test/overview)  
  您可以使用 [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] 和 [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] 在整個測試生命週期中提高生產力， [!INCLUDE[vsPreShort](../test/includes/vspreshort_md.md)] 或 [!INCLUDE[vsUltShort](../test/includes/vsultshort_md.md)] 可讓您計劃投入測試的時間。 此外還可以建立、管理、編輯和執行手動和自動化測試。 您還可以根據您的計劃檢閱測試進度。  
   
+ [使用 PreEmptive Protection - Dotfuscator 保護應用程式](../ide/dotfuscator/index.md)  
+ 您可以使用免費的 Dotfuscator Community Edition 協助保護商業機密和其他智慧財產 (IP)、減少盜版和仿冒，並防止竄改及未經授權的偵錯。  Dotfuscator 不需要其他程式設計作業，甚至不需要存取原始程式碼，就可以保護並強化編譯的組件。
+  
  [建置應用程式](https://www.visualstudio.com/docs/build/overview)  
  您可以使用 [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] 來建立和管理程式碼的自動化組建。 [!INCLUDE[esprbuild](../test/includes/esprbuild_md.md)] 可讓您建立置放伺服器以部署組建。 此外，您也可以分析組建趨勢。  
   
  [使用 Visual Studio Online 或 Team Foundation Server 追蹤工作](https://www.visualstudio.com/docs/work/overview)  
  您可以使用 [!INCLUDE[vstsTfsLong](../test/includes/vststfslong_md.md)] 計劃和追蹤專案，無論使用的是彈性程序、正式程序或是這些程序的變化。 透過計劃專案、依據計劃追蹤進度及進行必要的調整，就可以降低風險、避免發生意外狀況，以及管理專案的成本。
-
-
-<!--HONumber=Feb17_HO4-->
-
-
