@@ -1,7 +1,7 @@
 ---
 title: "When 元素 (MSBuild) | Microsoft Docs"
 ms.custom: 
-ms.date: 11/04/2016
+ms.date: 03/13/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -54,48 +54,48 @@ ms.lasthandoff: 02/22/2017
  \<Otherwise>  
  \<Choose>  
  ...  
-  
+
 ## <a name="syntax"></a>語法  
-  
-```xml  
+
+```  
 <When Condition="'StringA'=='StringB'">  
     <PropertyGroup>... </PropertyGroup>  
     <ItemGroup>... </ItemGroup>  
     <Choose>... </Choose>  
 </When>  
 ```  
-  
+
 ## <a name="attributes-and-elements"></a>屬性和元素  
  以下各節說明屬性、子元素和父元素。  
-  
+
 ### <a name="attributes"></a>屬性  
-  
+
 |屬性|描述|  
 |---------------|-----------------|  
 |條件|必要屬性。<br /><br /> 要評估的條件。 如需詳細資訊，請參閱[條件](../msbuild/msbuild-conditions.md)。|  
-  
+
 ### <a name="child-elements"></a>子元素  
-  
+
 |元素|描述|  
 |-------------|-----------------|  
 |[Choose](../msbuild/choose-element-msbuild.md)|選擇性元素。<br /><br /> 評估子元素，以選取要執行的一個程式碼區段。 `Choose` 元素中可能有零個或多個 `When` 元素。|  
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|選擇性元素。<br /><br /> 包含一組使用者定義的 [Item](../msbuild/item-element-msbuild.md) 元素。 `ItemGroup` 元素中可能有零個或多個 `When` 元素。|  
 |[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|選擇性元素。<br /><br /> 包含一組使用者定義的 [Property](../msbuild/property-element-msbuild.md) 元素。 `When` 元素中可能有零個或多個 `PropertyGroup` 元素。|  
-  
+
 ### <a name="parent-elements"></a>父元素  
-  
+
 |元素|描述|  
 |-------------|-----------------|  
 |[Choose 元素 (MSBuild)](../msbuild/choose-element-msbuild.md)|評估子元素，以選取要執行的一個程式碼區段。|  
-  
+
 ## <a name="remarks"></a>備註  
  如果 `Condition` 屬性評估為 true，則會執行 `When` 元素的子元素 `ItemGroup` 和 `PropertyGroup`，且略過所有後續的 `When` 元素。  
-  
+
  `Choose`、`When` 和 `Otherwise` 元素會一起用來提供選取一個程式碼區段的方式，以執行一些可能的替代方案。 如需詳細資訊，請參閱[條件式建構](../msbuild/msbuild-conditional-constructs.md)。  
-  
+
 ## <a name="example"></a>範例  
  下列專案使用 `Choose` 元素來選取 `When` 元素中要設定的屬性值集合。 如果兩個 `When` 元素的 `Condition` 屬性都評估為 `false`，則 `Otherwise` 元素中的屬性值已設定。  
-  
+
 ```xml  
 <Project  
     xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >  
@@ -140,7 +140,8 @@ ms.lasthandoff: 02/22/2017
     <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />  
 </Project>  
 ```  
-  
+
 ## <a name="see-also"></a>另請參閱  
  [條件式建構](../msbuild/msbuild-conditional-constructs.md)   
  [專案檔案結構描述參考](../msbuild/msbuild-project-file-schema-reference.md)
+

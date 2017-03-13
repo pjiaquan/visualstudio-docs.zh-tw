@@ -1,65 +1,83 @@
 ---
 title: "ProjectExtensions 項目 (MSBuild) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ProjectExtensions"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "< ProjectExtensions > 項目 [MSBuild]"
-  - "ProjectExtensions 項目 [MSBuild]"
+ms.custom: 
+ms.date: 03/13/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- http://schemas.microsoft.com/developer/msbuild/2003#ProjectExtensions
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- <ProjectExtensions> element [MSBuild]
+- ProjectExtensions element [MSBuild]
 ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 18
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 3ba7680d46345f2b49019659c715cfb418933d39
+ms.openlocfilehash: f219301ec954442b4c9913c254e234a520177169
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="projectextensions-element-msbuild"></a>ProjectExtensions 項目 (MSBuild)
 可讓 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 專案檔包含非 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 的資訊。 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 將會忽略 `ProjectExtensions` 內部的一切。  
-  
+
  \<Project>  
  \<ProjectExtensions>  
-  
+
 ## <a name="syntax"></a>語法  
-  
-```xml  
+
+```  
 <ProjectExtensions>  
     Non-MSBuild information to include in file.  
 </ProjectExtensions>  
 ```  
-  
+
 ## <a name="attributes-and-elements"></a>屬性和項目  
  下列章節說明屬性、子項目和父項目。  
-  
+
 ### <a name="attributes"></a>屬性  
  無  
-  
+
 ### <a name="child-elements"></a>子項目  
  無  
-  
+
 ### <a name="parent-elements"></a>父項目  
-  
+
 |項目|說明|  
 |-------------|-----------------|  
 |[Project](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 專案檔案的必要根項目。|  
-  
+
 ## <a name="remarks"></a>備註  
  在 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 專案中，只能使用一個 `ProjectExtensions` 項目。  
-  
+
 ## <a name="example"></a>範例  
  下列程式碼範例會顯示來自整合式開發環境中且儲存於 `ProjectExtensions` 項目內的資訊。  
-  
+
 ```xml  
 <ProjectExtensions>  
     <VSIDE>  
@@ -71,12 +89,8 @@ caps.handback.revision: 18
     </VSIDE>  
 </ProjectExtensions>  
 ```  
-  
+
 ## <a name="see-also"></a>另請參閱  
  [專案檔案結構描述參考](../msbuild/msbuild-project-file-schema-reference.md)  
  [MSBuild](../msbuild/msbuild.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
 
