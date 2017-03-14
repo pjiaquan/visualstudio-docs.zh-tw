@@ -29,9 +29,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 65bceca75b87aaf187926ebbed1a54ce4f0e8eec
-ms.openlocfilehash: 5978cf2b0edd1e5d979f6f9679717389278a1f55
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8a3c6e60d0ea85d93281764ec3a3435538b9baa0
+ms.openlocfilehash: b81ce391ad842085f95ff0a4a6e906036406230a
+ms.lasthandoff: 02/28/2017
 
 ---
 # <a name="memory-usage"></a>記憶體使用量
@@ -41,61 +41,94 @@ ms.lasthandoff: 02/22/2017
   
 -   您也可以比較 (差異比對) 應用程式的兩個快照，找出造成記憶體使用量隨著時間逐漸增加的程式碼部分。  
   
- 下圖顯示 Visual Studio 2015 Update 1 中的 [診斷工具]  視窗：  
+ 下圖顯示 [診斷工具] 視窗 (於 Visual Studio 2015 Update 1 及更新版本中提供)：  
   
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
- 除了可以在 **記憶體使用量** 工具中收集任何時間的記憶體快照之外，您還可以使用 Visual Studio 偵錯工具，來控制調查效能問題時要如何執行應用程式。 設定中斷點、逐步偵錯、全部中斷和其他偵錯工具動作，都可以協助您將效能調查工作集中在最相關的程式碼路徑上。 在應用程式執行時進行這些動作，可排除您不感興趣之程式碼的干擾，並可大幅縮短診斷問題所需的時間。  
+ 除了可以在 **記憶體使用量** 工具中收集任何時間的記憶體快照之外，您還可以使用 Visual Studio 偵錯工具，來控制調查效能問題時要如何執行應用程式。 設定中斷點、逐步偵錯、全部中斷和其他偵錯工具動作，都可以協助您將效能調查工作集中在最相關的程式碼路徑上。 在應用程式執行時進行那些動作，可排除您不感興趣之程式碼的干擾，並可大幅縮短診斷問題所需的時間。  
   
  您也可以在偵錯工具外部使用記憶體工具。 請參閱[記憶體使用量 (不偵錯)](../profiling/memory-usage-without-debugging2.md)。  
   
 > [!NOTE]
 >  **自訂配置器支援** 原生記憶體分析工具的運作方式是收集在執行階段所發出的配置 [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) 事件資料。  在來源層級已註釋 CRT 和 Windows SDK 中的配置器，以便擷取其配置資料。  如果您正在撰寫自己的配置器，則針對任何將指標傳回最新配置之堆積記憶體的函式，都可以使用 [__declspec](/visual-cpp/cpp/declspec)(allocator) 來裝飾，如本範例中針對 myMalloc 所示：  
 >   
->  `__declspec(allocator) void* myMalloc(size_t size)`  
+>  `__declspec(allocator) void* myMalloc(size_t size)` 
+
+## <a name="collect-memory-usage-data"></a>收集記憶體使用量資料
+
+1.  開啟您想要在 Visual Studio 中偵錯的專案，並於應用程式中要開始檢查記憶體使用量的位置設定中斷點。
+
+    如果您懷疑某個區域具有記憶體問題，請在記憶體問題發生之前設定第一個中斷點。
+
+    > [!TIP]
+    >  由於當應用程式頻繁地配置和解除配置記憶體時，擷取您感興趣之作業的記憶體設定檔可能會是項挑戰，因此請在作業開始和結束處 (或是逐項順著作業) 設定中斷點，以找出記憶體變更的實際點。 
+
+2.  在您想要分析的函式或程式碼區域結尾 (或是在可能的記憶體問題發生之後) 設定第二個中斷點。
   
-## <a name="analyze-memory-use-with-the-debugger"></a>使用偵錯工具分析記憶體使用量  
+3.  [偵錯工具]  視窗會自動出現，除非您將其關閉。 如需再次顯示視窗，請按一下 [偵錯] / [視窗] / [顯示診斷工具]。
+
+4.  以工具列上的 [選取工具] 設定選擇 [記憶體使用量]。
+
+     ![顯示診斷工具](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
+
+5.  按一下 [偵錯/開始偵錯] (或工具列上的 [開始] 或 **F5**)。
+
+     當應用程式完成載入時，會出現 [Diagnostics Tools (診斷工具)] 的 [Summary (摘要)] 檢視。
+
+     ![診斷工具摘要索引標籤](../profiling/media/DiagToolsSummaryTab.png "DiagToolsSummaryTab")
+
+     > [!NOTE]
+     >  由於收集記憶體資料可能會影響原生或混合模式應用程式的偵錯效能，因此預設會停用記憶體快照。 若要在原生或混合模式應用程式中啟用快照，請啟動偵錯工作階段 (快速鍵：**F5**)。 在顯示 [診斷工具] 視窗時，選擇 [記憶體使用量] 索引標籤，然後選擇 [堆積程式碼剖析]。  
+     >   
+     >  ![啟用快照](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
+     >   
+     >  停止 (快速鍵： **Shift + F5**) 並重新啟動偵錯。  
+
+6.  若要在偵錯工作階段開始時擷取快照，請選擇 [記憶體使用量] 摘要工具列上的 [擷取快照]。 (在此設定中斷點也可能會有幫助)。
+
+    ![擷取快照](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot") 
+     
+     > [!TIP]
+     >  -   若要建立記憶體的比較基準，請考慮擷取偵錯工作階段開始時的快照。  
+
+6.  執行會叫用您的第一個中斷點的案例。
+
+7.  當偵錯工具於第一個中斷點暫停時，選擇 [記憶體使用量] 摘要工具列上的 [擷取快照]。  
+
+8.  按 F5 使應用程式執行至第二個中斷點。
+
+9.  現在請擷取另一個快照。
+
+     此時，您可以開始分析資料。    
   
-> [!NOTE]
->  由於收集記憶體資料可能會影響原生或混合模式應用程式的偵錯效能，因此預設會停用記憶體快照。 若要啟用原生或混合模式應用程式的快照，請啟動偵錯工作階段 (快速鍵： **F5**)。 在顯示 [診斷工具]  視窗時，選擇 [記憶體使用量] 索引標籤，然後選擇 [啟用快照] 。  
->   
->  ![啟用快照](../profiling/media/dbgdiag_mem_mixedtoolbar_enablesnapshot.png "DBGDIAG_MEM_MixedToolbar_EnableSnapshot")  
->   
->  停止 (快速鍵： **Shift + F5**) 並重新啟動偵錯。  
+## <a name="analyze-memory-usage-data"></a>分析記憶體使用量資料
+[記憶體使用量] 摘要表的資料列會列出您在偵錯工作階段期間擷取的快照，並提供更詳細檢視的連結。
+
+![記憶體摘要表](../profiling/media/dbgdiag_mem_summarytable.png "DBGDIAG_MEM_SummaryTable")
+
+ 每個資料行的名稱則取決於您在專案屬性中選擇的偵錯模式：.NET、原生或混合 (.NET 和原生)。  
   
- 每當您想要擷取記憶體的狀態時，請選擇 [記憶體使用量]  摘要工具列上的 [擷取快照]  。  
+-   [物件 (差異)] 和 [配置數 (差異)] 資料行顯示擷取快照時 .NET 和原生記憶體中的物件數目。  
   
- ![擷取快照](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot")  
+-   [堆積大小 (差異)] 資料行顯示 .NET 和原生堆積中的位元組數目 
+
+當您擷取多個快照之後，摘要表的資料格會包含資料列快照與上一個快照之間的值變更。  
   
-> [!TIP]
->  -   若要建立記憶體的比較基準，請考慮擷取偵錯工作階段開始時的快照。  
-> -   由於當應用程式頻繁地配置和解除配置記憶體時，擷取您感興趣之作業的記憶體設定檔可能會是項挑戰，因此請在作業開始和結束處設定中斷點，或逐步執行作業，以找出記憶體變更的實際點。  
+![記憶體摘要表儲存格](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
+
+若要分析記憶體使用量，請按一下其中一個可以開啟記憶體使用量詳細報表的連結：  
+
+-   若要檢視目前快照與先前快照之間差異的詳細資料，請選擇箭號左側的變更連結 (![記憶體使用量增加](../profiling/media/prof-tour-mem-usage-up-arrow.png "記憶體使用量增加"))。 紅色箭號表示記憶體使用量增加，綠色箭號表示減少)。
+
+    > [!TIP]
+    >  為了協助使用者更快速地識別記憶體問題，差異報表會以整體數目增加最多 ([物件 (差異)] 資料行中的變更連結)，或整體堆積大小增加最多 ([堆積大小 (差異)] 資料行中的變更連結) 的物件類型來分類。
+
+-   若只要檢視所選快照的詳細資料，請選取未變更連結。 
   
-## <a name="viewing-memory-snapshot-details"></a>檢視記憶體快照詳細資料  
- 記憶體使用量摘要表的資料列會列出您在偵錯工作階段期間擷取的快照。  
-  
- 每個資料列的資料行則取決於您在專案屬性中選擇的偵錯模式：.NET、原生或混合 (.NET 和原生)。  
-  
--   [Managed 物件] 和 [原生配置]  資料行顯示擷取快照時 .NET 和原生記憶體中的物件數目。  
-  
--   [Managed 堆積大小]  和 [原生堆積大小]  資料行顯示 .NET 和原生堆積中的位元組數目。  
-  
--   當您擷取多個快照之後，摘要表的資料格會包含資料列快照與上一個快照之間的值變更。  
-  
-     ![記憶體摘要表儲存格](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
-  
- **檢視詳細資料報表：**  
-  
--   若只要檢視所選快照的詳細資料，請選擇目前連結。  
-  
--   若要檢視目前快照與上一個快照之間的差異詳細資料，請選擇變更連結。  
-  
- 報表會在個別的視窗中顯示。  
-  
-## <a name="memory-usage-details-reports"></a>記憶體使用量詳細資料報表  
+ 報表會在個別的視窗中顯示。   
   
 ### <a name="managed-types-reports"></a>Managed 類型報表  
- 選擇記憶體使用量摘要表中 [Managed 物件]  或 [Managed 堆積大小]  資料格的目前連結。  
+ 選擇 [記憶體使用量] 摘要表中 [物件 (差異)] 或 [配置數 (差異)] 資料格的目前連結。  
   
  ![偵錯工具 Managed 類型報表 &#45; 根的路徑](../profiling/media/dbgdiag_mem_managedtypesreport_pathstoroot.png "DBGDIAG_MEM_ManagedTypesReport_PathsToRoot")  
   
@@ -114,7 +147,7 @@ ms.lasthandoff: 02/22/2017
  [執行個體]  檢視顯示在上方窗格的快照中選取之物件的執行個體。 [根的路徑] 和 [參考的物件] 窗格顯示參考所選執行個體的物件，以及所選執行個體參考的類型。 當偵錯工具在擷取快照的位置停止時，您可以將滑鼠停留在 [值] 資料格，以在工具提示中顯示物件的值。  
   
 ### <a name="native-type-reports"></a>原生類型報表  
- 在 [診斷工具]  視窗的記憶體使用量摘要表中，選擇 [原生配置]  或 [原生堆積大小]  資料格的目前連結。  
+ 在 [診斷工具] 視窗的 [記憶體使用量] 摘要表中，選擇 [配置數 (差異)] 或 [堆積大小 (差異)] 資料格的目前連結。  
   
  ![原生類型檢視](../profiling/media/dbgdiag_mem_native_typesview.png "DBGDIAG_MEM_Native_TypesView")  
   
