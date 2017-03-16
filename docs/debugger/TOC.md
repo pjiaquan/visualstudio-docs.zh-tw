@@ -1,5 +1,4 @@
-# [Visual Studio 偵錯](debugging-in-visual-studio.md)
-# [偵錯工具功能導覽](debugger-feature-tour.md)
+# [偵錯功能導覽](debugger-feature-tour.md)
 # [Visual Studio 中偵錯工具的新功能](what-s-new-for-the-debugger-in-visual-studio.md)
 # [偵錯工具基礎](debugger-basics.md)
 ## [開始使用偵錯工具](getting-started-with-the-debugger.md)
