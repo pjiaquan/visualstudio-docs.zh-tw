@@ -89,9 +89,9 @@ warning | 當未遵循此樣式時，顯示編譯器警告。
         - [Throw 運算式](#null_checking_throw_expressions)
         - [條件式的委派呼叫](#null_checking_conditional_delegate_calls)
 
-## <a name="a-namethisandmethis-and-me-qualificationa"></a><a name="this_and_me">"This." 和 "Me."限定性條件</a>
+## <a name="this_and_me">"This." 和 "Me."限定性條件</a>
 
-### <a name="a-namethisandmefieldsfieldsa"></a><a name="this_and_me_fields">欄位</a>
+### <a name="this_and_me_fields">欄位</a>
 
 |  選項名稱 | `dotnet_style_qualification_for_field` |
 | ------------- |:-------------:|
@@ -109,7 +109,7 @@ warning | 當未遵循此樣式時，顯示編譯器警告。
 dotnet_style_qualification_for_field = false:suggestion
 ```
 
-### <a name="a-namethisandmepropertiespropertiesa"></a><a name="this_and_me_properties">屬性</a>
+### <a name="this_and_me_properties">屬性</a>
 
 |  選項名稱 | `dotnet_style_qualification_for_property` |
 | ------------- |:-------------:|
@@ -128,7 +128,7 @@ dotnet_style_qualification_for_property = false:suggestion
 ```
 
 
-### <a name="a-namethisandmemethodsmethodsa"></a><a name="this_and_me_methods">方法</a>
+### <a name="this_and_me_methods">方法</a>
 |  選項名稱 | `dotnet_style_qualification_for_method` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -146,7 +146,7 @@ dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 ```
 
-### <a name="a-namethisandmeeventseventsa"></a><a name="this_and_me_events">事件</a>
+### <a name="this_and_me_events">事件</a>
 |  選項名稱 | `dotnet_style_qualification_for_event` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -164,7 +164,7 @@ dotnet_style_qualification_for_event = false:suggestion
 ```
 
 ## <a name="language_keywords">語言關鍵字 (int、string 等等) 與類型參考的 Framework 類型名稱</a>
-### <a name="a-namelanguagekeywordsvariableslocals-parameters-and-membersa"></a><a name="language_keywords_variables">區域變數、參數和成員</a>
+### <a name="language_keywords_variables">區域變數、參數和成員</a>
 |  選項名稱 | `dotnet_style_predefined_type_for_locals_parameters_members` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -181,7 +181,7 @@ dotnet_style_qualification_for_event = false:suggestion
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 ``` 
 
-### <a name="a-namelanguagekeywordsmemberaccessmember-access-expressionsa"></a><a name="language_keywords_member_access">成員存取運算式</a>
+### <a name="language_keywords_member_access">成員存取運算式</a>
 |  選項名稱 | `dotnet_style_predefined_type_for_member_access` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -198,8 +198,8 @@ dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 dotnet_style_predefined_type_for_member_access = true:suggestion
 ``` 
 
-## <a name="a-nameexpressionlevelexpression-level-preferencesa"></a><a name="expression_level">運算式層級喜好設定</a>
-### <a name="a-nameexpressionlevelobjectinitializersobject-initializersa"></a><a name="expression_level_object_initializers">物件初始設定式</a>
+## <a name="expression_level">運算式層級喜好設定</a>
+### <a name="expression_level_object_initializers">物件初始設定式</a>
 |  選項名稱 | `dotnet_style_object_initializer` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -216,7 +216,7 @@ dotnet_style_predefined_type_for_member_access = true:suggestion
 dotnet_style_object_initializer = true:suggestion
 ``` 
 
-### <a name="a-nameexpressionlevelcollectioninitializerscollection-initializersa"></a><a name="expression_level_collection_initializers">集合初始設定式</a>
+### <a name="expression_level_collection_initializers">集合初始設定式</a>
 |  選項名稱 | `dotnet_style_collection_initializer` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -233,7 +233,7 @@ dotnet_style_object_initializer = true:suggestion
 dotnet_style_collection_initializer = true:suggestion
 ```
 
-### <a name="a-nameexpressionleveltuplenamesexplicit-tuple-namesa"></a><a name="expression_level_tuple_names">明確的 Tuple 名稱</a>
+### <a name="expression_level_tuple_names">明確的 Tuple 名稱</a>
 |  選項名稱 | `dotnet_style_explicit_tuple_names` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -250,7 +250,7 @@ dotnet_style_collection_initializer = true:suggestion
 dotnet_style_explicit_tuple_names = true:suggestion
 ``` 
 
-### <a name="a-nameexpressionlevelnullcheckingcoalescing-expressions-in-null-checkinga"></a><a name="expression_level_null_checking">"Null" 檢查中的聯合運算式</a>
+### <a name="expression_level_null_checking">"Null" 檢查中的聯合運算式</a>
 |  選項名稱 | `dotnet_style_coalesce_expression` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -267,7 +267,7 @@ dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
 ``` 
 
-### <a name="a-nameexpressionlevelnullpropogationnull-propagation-in-null-checkinga"></a><a name="expression_level_null_propogation">"Null" 檢查中的 Null 傳播</a>
+### <a name="expression_level_null_propogation">"Null" 檢查中的 Null 傳播</a>
 |  選項名稱 | `dotnet_style_null_propagation` |
 | ------------- |:-------------:|
 | **適用的語言** | C# 和 Visual Basic
@@ -284,9 +284,9 @@ dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
 ``` 
 
-# <a name="a-namecsharpcodestylecsharp-code-style-settingsa"></a><a name="csharp_codestyle">CSharp 程式碼樣式設定</a>
-## <a name="a-namevarvara"></a><a name="var">"var"</a>
-### <a name="a-namevarbuiltinvar-for-built-in-typesa"></a><a name="var_built_in">內建類型的 "var"</a>
+# <a name="csharp_codestyle">CSharp 程式碼樣式設定</a>
+## <a name="var">"var"</a>
+### <a name="var_built_in">內建類型的 "var"</a>
 |  選項名稱 | `csharp_style_var_for_built_in_types` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -303,7 +303,7 @@ dotnet_style_null_propagation = true:suggestion
 csharp_style_var_for_built_in_types = true:suggestion
 ``` 
 
-### <a name="a-namevarapparentvar-when-type-is-apparenta"></a><a name="var_apparent">類型明顯時的 "var"</a>
+### <a name="var_apparent">類型明顯時的 "var"</a>
 |  選項名稱 | `csharp_style_var_when_type_is_apparent` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -320,7 +320,7 @@ csharp_style_var_for_built_in_types = true:suggestion
 csharp_style_var_when_type_is_apparent = true:suggestion
 ``` 
 
-### <a name="a-namevarelsewherevar-elsewherea"></a><a name="var_elsewhere">他處的 "var"</a>
+### <a name="var_elsewhere">他處的 "var"</a>
 |  選項名稱 | `csharp_style_var_elsewhere` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -337,7 +337,7 @@ csharp_style_var_when_type_is_apparent = true:suggestion
 csharp_style_var_elsewhere = true:suggestion
 ``` 
 
-### <a name="a-nameexpressionbodiedmembersmethodsa"></a><a name="expression_bodied_members">方法</a>
+### <a name="expression_bodied_members">方法</a>
 |  選項名稱 | `csharp_style_expression_bodied_methods` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -354,7 +354,7 @@ csharp_style_var_elsewhere = true:suggestion
 csharp_style_expression_bodied_methods = false:none
 ``` 
 
-### <a name="a-nameexpressionbodiedmembersconstructorsconstructorsa"></a><a name="expression_bodied_members_constructors">建構函式</a>
+### <a name="expression_bodied_members_constructors">建構函式</a>
 |  選項名稱 | `csharp_style_expression_bodied_constructors` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -371,7 +371,7 @@ csharp_style_expression_bodied_methods = false:none
 csharp_style_expression_bodied_constructors = false:none
 ``` 
 
-### <a name="a-nameexpressionbodiedmembersoperatorsoperatorsa"></a><a name="expression_bodied_members_operators">運算子</a>
+### <a name="expression_bodied_members_operators">運算子</a>
 |  選項名稱 | `csharp_style_expression_bodied_operators` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -388,7 +388,7 @@ csharp_style_expression_bodied_constructors = false:none
 csharp_style_expression_bodied_operators = false:none
 ``` 
 
-### <a name="a-nameexpressionbodiedmemberspropertiespropertiesa"></a><a name="expression_bodied_members_properties">屬性</a>
+### <a name="expression_bodied_members_properties">屬性</a>
 |  選項名稱 | `csharp_style_expression_bodied_properties` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -405,7 +405,7 @@ csharp_style_expression_bodied_operators = false:none
 csharp_style_expression_bodied_properties = false:none
 ``` 
 
-### <a name="a-nameexpressionbodiedmembersindexersindexersa"></a><a name="expression_bodied_members_indexers">索引子</a>
+### <a name="expression_bodied_members_indexers">索引子</a>
 |  選項名稱 | `csharp_style_expression_bodied_indexers` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -422,7 +422,7 @@ csharp_style_expression_bodied_properties = false:none
 csharp_style_expression_bodied_indexers = false:none
 ``` 
 
-### <a name="a-nameexpressionbodiedmembersaccessorsaccessorsa"></a><a name="expression_bodied_members_accessors">存取子</a>
+### <a name="expression_bodied_members_accessors">存取子</a>
 |  選項名稱 | `csharp_style_expression_bodied_accessors` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -439,8 +439,8 @@ csharp_style_expression_bodied_indexers = false:none
 csharp_style_expression_bodied_accessors = false:none
 ``` 
 
-## <a name="a-namepatternmatchingpattern-matchinga"></a><a name="pattern_matching">模式比對</a>
-### <a name="a-namepatternmatchingiscastis-with-cast-checkinga"></a><a name="pattern_matching_is_cast">"is" 與 "cast" 檢查</a>
+## <a name="pattern_matching">模式比對</a>
+### <a name="pattern_matching_is_cast">"is" 與 "cast" 檢查</a>
 |  選項名稱 | `csharp_style_pattern_matching_over_is_with_cast_check` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -457,7 +457,7 @@ csharp_style_expression_bodied_accessors = false:none
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 ```
 
-### <a name="a-namepatternmatchingasnullas-with-null-checkinga"></a><a name="pattern_matching_as_null">"as" 與 "null" 檢查</a>
+### <a name="pattern_matching_as_null">"as" 與 "null" 檢查</a>
 |  選項名稱 | `csharp_style_pattern_matching_over_as_with_null_check` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -474,14 +474,14 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 ```
 
-### <a name="a-nameinlinedvariabledeclarationsinlined-variable-declarationsa"></a><a name="inlined_variable_declarations">內嵌變數宣告</a>
+### <a name="inlined_variable_declarations">內嵌變數宣告</a>
 |  選項名稱 | `csharp_style_inlined_variable_declaration` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
 
 | 值 | 描述 | 已套用 
 | ------------- |:-------------|:-------------|
-| True | 偏好盡可能內嵌宣告 `out` 變數。 | **C#:** <br>`if (int.TryParse(value out int i) {...}`
+| True | 偏好盡可能內嵌宣告 `out` 變數。 | **C#:** <br>`if (int.TryParse(value, out int i) {...}`
 | False | 偏好明確宣告 `out` 變數。| **C#:** <br>`int i; if (int.TryParse(value, out i) {...}`
 
 #### <a name="example-editorconfig-file"></a>Editorconfig 檔案範例︰
@@ -491,8 +491,8 @@ csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 csharp_style_inlined_variable_declaration = true:suggestion
 ```
 
-## <a name="a-namenullcheckingnull-checking-preferencesa"></a><a name="null_checking">"Null" 檢查喜好設定</a>
-### <a name="a-namenullcheckingthrowexpressionsthrow-expressionsa"></a><a name="null_checking_throw_expressions">Throw 運算式</a>
+## <a name="null_checking">"Null" 檢查喜好設定</a>
+### <a name="null_checking_throw_expressions">Throw 運算式</a>
 |  選項名稱 | `csharp_style_throw_expression` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
@@ -509,7 +509,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 csharp_style_throw_expression = true:suggestion
 ```
 
-### <a name="a-namenullcheckingconditionaldelegatecallsprefer-conditional-delegate-callsa"></a><a name="null_checking_conditional_delegate_calls">偏好條件式委派呼叫</a>
+### <a name="null_checking_conditional_delegate_calls">偏好條件式委派呼叫</a>
 |  選項名稱 | `csharp_style_conditional_delegate_call` |
 | ------------- |:-------------:|
 | **適用的語言** | C#
