@@ -1,25 +1,44 @@
 ---
 title: "Visual C# 程式碼片段 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "程式碼片段 [C#]，預設的程式碼片段"
-  - "程式碼片段 [C#]，程式碼片段插入器"
-  - "程式碼片段插入器 [J#]"
-  - "程式碼片段插入器 [C#]"
-  - "Visual C#，預設的程式碼片段"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- snippets [C#], default snippets
+- snippets [C#], Code Snippet Inserter
+- Code Snippet Inserter [J#]
+- Code Snippet Inserter [C#]
+- Visual C#, default snippets
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 33
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5b6334c38a6c058f274498c06f8e07c934931910
+ms.openlocfilehash: 01c13c4e0c9107f07580fb1701f81eac74a5022f
+ms.lasthandoff: 03/22/2017
+
 ---
 # <a name="visual-c-code-snippets"></a>Visual C# 程式碼片段
 程式碼片段是可快速插入程式碼的現成程式碼片段。 例如，`for` 程式碼片段會建立空白 `for` 迴圈。 部分程式碼片段是範圍陳述式程式碼片段，可讓您選取程式碼行，然後選擇包含所選取程式碼行的程式碼片段。 例如，如果您選取程式碼行，然後啟用 `for` 程式碼片段，則會建立迴圈區塊內包含這些程式碼行的 `for` 迴圈。 程式碼片段可以更快速、更輕鬆且更可靠地撰寫程式碼。  
@@ -59,7 +78,7 @@ caps.handback.revision: 33
 |mbox|建立 <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName> 呼叫。 您可能需要新增 System.Windows.Forms.dll 的參考。|在方法、索引子、屬性存取子或事件存取子內。|  
 |namespace|建立 [namespace](/dotnet/csharp/language-reference/keywords/namespace) 宣告。|在命名空間 (包含全域命名空間) 內部。|  
 |prop|建立[自動實作的屬性](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)宣告。|在類別或結構內部。|  
-ropfull|建立具有 get 和 set 存取子的屬性宣告。|在類別或結構內部。|  
+propfull|建立具有 get 和 set 存取子的屬性宣告。|在類別或結構內部。|  
 |propg|建立具有私用 "set" 存取子的唯讀[自動實作的屬性](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)。|在類別或結構內部。|  
 |sim|建立 [static](/dotnet/csharp/language-reference/keywords/static)[int](/dotnet/csharp/language-reference/keywords/int) Main 方法宣告。|在類別或結構內部。|  
 |struct|建立 [struct](/dotnet/csharp/language-reference/keywords/struct) 宣告。|在命名空間 (包含全域命名空間)、類別或結構內部。|  
@@ -79,8 +98,4 @@ ropfull|建立具有 get 和 set 存取子的屬性宣告。|在類別或結構�
  [範本參數](../ide/template-parameters.md)   
  [如何：使用範圍陳述式程式碼片段](../ide/how-to-use-surround-with-code-snippets.md)   
  
-
-
-<!--HONumber=Feb17_HO4-->
-
 
