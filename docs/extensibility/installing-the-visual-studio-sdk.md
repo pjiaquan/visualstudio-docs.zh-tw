@@ -27,40 +27,19 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 9c25532605613b34ded15a4bd6a533e589b7fce2
-ms.openlocfilehash: d039c50cea2ee038baec26fad02a98ae45f0d521
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 722c32c139d2f560fa6d10aba9fd8bac610f9f20
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="installing-the-visual-studio-sdk"></a>安裝 Visual Studio SDK
-啟動 Visual Studio 2015 中，您未安裝 Visual Studio SDK 從 「 下載中心 」。 它是 Visual Studio 安裝程式的選用功能。 您也可以在稍後安裝 VS SDK。  
+Visual Studio SDK 是 Visual Studio 安裝程式的選用功能。 您也可以在稍後安裝 VS SDK。  
   
 ## <a name="installing-the-visual-studio-sdk-as-part-of-a-visual-studio-installation"></a>安裝 Visual Studio SDK 為 Visual Studio 安裝的一部分  
- 如果您想要納入您的 Visual Studio 安裝的 VSSDK，您必須執行自訂安裝。  
-  
-> [!NOTE]
->  安裝可執行檔，在 Visual Studio SDK 稱為**Visual Studio 擴充性工具**。  
-  
-1.  啟動 Visual Studio 2015 安裝。 您可以安裝任何版本的 Visual Studio Express 除外。  
-  
-2.  在第一個畫面上，選取**自訂**，而非**預設**。 按 [下一步] 。  
-  
-3.  您應該會看到樹狀檢視的自訂功能。 開啟**常用工具**。 您應該會看到**Visual Studio 擴充性工具**。  
-  
-     ![VSSDKInstall](../extensibility/media/vssdkinstall.png "VSSDKInstall")  
-  
-4.  檢查**Visual Studio 擴充性工具**，然後按一下 **下一步**並繼續安裝。  
+ 如果您想要納入您的 Visual Studio 安裝的 VSSDK，您應該安裝**Visual Studio 擴充功能開發**工作負載下的**其他工具組**。 這會安裝 Visual Studio SDK，以及所需的必要條件。 您可以進一步微調安裝，選取或取消選取的元件從摘要檢視。 
   
 ## <a name="installing-the-visual-studio-sdk-after-installing-visual-studio"></a>安裝 Visual Studio 安裝 Visual Studio SDK  
- 如果您決定在完成 Visual Studio 安裝之後安裝 Visual Studio SDK，您應該遵循下列程序︰  
-  
-1.  移至**控制台 / 程式 / 程式和功能**，並尋找**Visual Studio 2015**。 您可以安裝 Visual Studio SDK 的任何版本的 Visual Studio 2015，除了 Express。  
-  
-2.  以滑鼠右鍵按一下**Visual Studio 2015**，然後按一下 **變更**。 您應該會看到 [安裝] 頁面。  
-  
-3.  遵循相同的程序中**隨著 Visual Studio 安裝的一部分來安裝 Visual Studio SDK**上方。  
-  
-4.  按一下  **Visual Studio 擴充性工具**安裝 Visual Studio SDK 的連結。  
+ 如果您決定在完成 Visual Studio 安裝之後安裝 Visual Studio SDK，請重新執行 Visual Studio 安裝程式，然後選取**Visual Studio 擴充功能開發**工作負載。  
   
 ## <a name="installing-the-visual-studio-sdk-from-a-solution"></a>從方案安裝 Visual Studio SDK  
  如果您未先安裝的 VSSDK，與擴充性專案開啟的方案，系統會提示您反白顯示的資訊列上方的 [方案總管]。 它看起來應該如下所示︰  
@@ -68,12 +47,6 @@ ms.lasthandoff: 02/22/2017
  ![SolutionExplorerInstall](../extensibility/media/solutionexplorerinstall.png "SolutionExplorerInstall")  
   
 ## <a name="installing-the-visual-studio-sdk-from-the-command-line"></a>從命令列安裝 Visual Studio SDK  
- 您也可以使用從命令列安裝的 VSSDK **/InstallSelectableItems**參數搭配 Visual Studio 安裝程式。 如需有關安裝程式搭配使用命令列參數的詳細資訊，請參閱[使用命令列參數來安裝 Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)。  
-  
- 若要安裝的 VSSDK 以無訊息模式使用 Visual Studio 2015 Community 安裝程式的方法如下︰  
-  
-```  
-vs_community.exe /s /installSelectableItems VS_SDK_GROUPV1  
-```  
+使用 Visual Studio 工作負載或元件，您也可以從命令列安裝的項目。 請參閱[使用命令列參數來安裝 Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)如需有關適當的命令列參數，以及如何判斷工作負載或元件的識別項。
   
  請注意，您必須使用符合您已安裝的版本，Visual Studio 的 Visual Studio 安裝程式。 比方說，如果您有在電腦上安裝 Visual Studio 企業版，您必須執行 Visual Studio 企業版安裝程式 (vs_enterprise.exe)。

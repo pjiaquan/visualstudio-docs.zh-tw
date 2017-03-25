@@ -33,9 +33,9 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 477f57bbca9c49e7d7d13155fc1f6e55ee4667a8
-ms.openlocfilehash: efc5a2722757229057a91f5e3a6c2ad3681f5a89
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: b3cd444e48893057a057c39c515e51ff8b509b34
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="visual-studio-sdk"></a>Visual Studio SDK
@@ -58,10 +58,10 @@ Visual Studio SDK 可協助您擴充 Visual Studio 功能或整合到 Visual Stu
  如果您撰寫過 Visual Studio 擴充功能之前，您應該會發現這些功能以及在詳細資訊[開始開發 Visual Studio 擴充功能](../extensibility/starting-to-develop-visual-studio-extensions.md)。  
   
 ## <a name="installing-the-visual-studio-sdk"></a>安裝 Visual Studio SDK  
- 啟動 Visual Studio 2015 中，您未安裝 Visual Studio SDK 從 「 下載中心 」。 它是 Visual Studio 安裝程式的選用功能。 您也可以在稍後安裝 VS SDK。 如需詳細資訊，請參閱[安裝 Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)。  
+ Visual Studio SDK 是 Visual Studio 安裝程式的選用功能。 您也可以在稍後安裝 VS SDK。 如需詳細資訊，請參閱[安裝 Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)。  
   
-## <a name="whats-new-in-the-visual-studio-2015-sdk"></a>什麼是 Visual Studio 2015 SDK 的新功能  
- Visual Studio SDK 有一些新功能，包括燈泡和新的專案項目可讓您建立功能表命令、 工具視窗和使用 VSIX 套件的編輯器延伸模組。 如需詳細資訊，請參閱[的新功能 Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md)。  
+## <a name="whats-new-in-the-visual-studio-2017-sdk"></a>什麼是 Visual Studio 2017 SDK 的新功能  
+ Visual Studio SDK 有一些新功能，例如輕量型方案負載和 VSIX v3 格式，以及最新變更，這可能需要更新您的擴充功能的支援。 如需詳細資訊，請參閱[的新功能 Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md)。  
   
 ## <a name="visual-studio-user-experience-guidelines"></a>Visual Studio 使用者經驗指導方針  
  取得設計您的擴充功能中的使用者介面很棒的訣竅[Visual Studio 使用者經驗指導方針](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md)。  
@@ -92,7 +92,7 @@ Visual Studio SDK 可協助您擴充 Visual Studio 功能或整合到 Visual Stu
   
 ## <a name="see-also"></a>另請參閱  
  [建立擴充功能的功能表命令](../extensibility/creating-an-extension-with-a-menu-command.md)   
- [如何︰ 將移轉至 Visual Studio 2015 的擴充性專案](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)   
+ [如何︰ 將擴充性專案移轉至 Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)   
  [常見問題集︰ 將增益集轉換成 VSPackage 擴充功能](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   
  [管理多個執行緒在 Managed 程式碼](../extensibility/managing-multiple-threads-in-managed-code.md)   
  [擴充的功能表和命令](../extensibility/extending-menus-and-commands.md)   
