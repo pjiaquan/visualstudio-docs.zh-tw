@@ -31,9 +31,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: e8fc38b16d5e73ca47f5c59bb6b236a2dd682c4e
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 0d129b4820944f5717c63243cb8550bc4fed3385
+ms.openlocfilehash: 380b65540d8f5c6ea6d8a8adf1f3c5575f5dd9dc
+ms.lasthandoff: 03/20/2017
 
 ---
 # <a name="profiling-tools"></a>程式碼剖析工具
@@ -103,17 +103,18 @@ ms.lasthandoff: 03/07/2017
 ## <a name="which-tool-should-i-use"></a>應該使用哪一種工具？  
  以下資料表列出 Visual Studio 提供的各種工具和您可以用它們處理的不同專案類型︰  
   
-|效能工具|Windows 桌面|Windows 通用/市集|ASP.NET|  
+|效能工具|Windows 桌面|Windows 通用/市集|ASP.NET/ASP.NET Core|  
 |----------------------|---------------------|------------------------------|-------------|  
 |[記憶體使用量](../profiling/memory-usage.md)|是|是|是|  
 |[CPU 使用量](../profiling/cpu-usage.md)|是|是|是|  
-|[GPU 使用量](../debugger/gpu-usage.md)|是|是|否|  
-|[應用程式時間軸](../profiling/application-timeline.md)|是|是|否|  
-|[效能提示](../profiling/perftips.md)|是|對 XAML 為是，對 HTML 為否|否|  
-|[效能總管](../profiling/performance-explorer.md)|是|否|是|  
-|[IntelliTrace](../debugger/intellitrace.md)|僅限 .NET Enterprise|僅限 .NET Enterprise|僅限 .NET Enterprise|  
-|[HTML UI 回應性](../profiling/html-ui-responsiveness.md)|否|對 HTML 為是，對 XAML 為否|否|  
-|[JavaScript 記憶體](../profiling/javascript-memory.md)|否|對 HTML 為是，對 XAML 為否|否|  
+|[GPU 使用量](../debugger/gpu-usage.md)|是|是|no|  
+|[應用程式時間軸](../profiling/application-timeline.md)|是|是|no|  
+|[效能提示](../profiling/perftips.md)|是|對 XAML 為是，對 HTML 為否|是|  
+|[效能總管](../profiling/performance-explorer.md)|是|no|是 (對 ASP.NET Core 則否)|  
+|[IntelliTrace](../debugger/intellitrace.md)|僅限 .NET Enterprise|僅限 .NET Enterprise|僅限 .NET Enterprise|
+|[網路使用量](../profiling/network-usage.md)|no|是|no| 
+|[HTML UI 回應性](../profiling/html-ui-responsiveness.md)|no|對 HTML 為是，對 XAML 為否|no|  
+|[JavaScript 記憶體](../profiling/javascript-memory.md)|no|對 HTML 為是，對 XAML 為否|no|  
   
 ## <a name="see-also"></a>另請參閱  
  [Visual Studio IDE](../ide/visual-studio-ide.md)
