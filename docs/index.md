@@ -4,9 +4,9 @@ hide_bc: true
 title: "Visual Studio 文件"
 description: "了解如何使用 Visual Studio 2017 以您選擇的語言，為您的平台和裝置開發應用程式、服務及工具。"
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 2a782993b8e2787c99c384c6df9c72316fe11521
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 371d314bfb81e47a13e7f00d4d4269313477ecf9
+ms.openlocfilehash: c00f51ce4662806d4c7112a3bd7a5e531e3ba521
+ms.lasthandoff: 03/23/2017
 
 ---
 <div id="main" class="v2">
@@ -570,8 +570,26 @@ ms.lasthandoff: 03/07/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>擴充</h3>
-                                                    <p>將您自己的功能加入至 Visual Studio IDE 來改善您的開發經驗。
-                                                    </p>
+                                                    <p>將您自己的功能加入至 Visual Studio IDE 來改善您的開發經驗。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-9.svg" src="./images/vs_features-9.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>資料</h3>
+                                                    <p>建立幾乎可以連線到所有資料庫產品或服務中，任何格式、任何位置 (本機電腦、區域網路、公用雲端、私人雲端或混合式雲端) 之資料的應用程式。</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -767,4 +785,3 @@ ms.lasthandoff: 03/07/2017
         </ul>
     </div>
 </div>
-
