@@ -28,8 +28,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 76721dbf816cf7b7b8691efc10d22aac6b69cb05
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>使用適用於 C++ 的 Microsoft 單元測試架構撰寫適用於 C/C++ 的單元測試
@@ -97,7 +98,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
   
         3.  在測試的捷徑功能表上，選擇 [偵錯選取的測試]  ，以在偵錯工具中執行測試。  
   
-##  <a name="a-namewalkthrougha-walkthrough-developing-an-unmanaged-dll-with-test-explorer"></a><a name="walkthrough"></a> 逐步解說：使用測試總管來開發 Unmanaged DLL  
+##  <a name="walkthrough"></a> 逐步解說：使用測試總管來開發 Unmanaged DLL  
  您可以調整此逐步解說來開發您自己的 DLL。 主要步驟如下所示：  
   
 1.  [建立原生測試專案](#unitTestProject)。 測試會建立在個別的專案中，與您所開發的 DLL 不同。  
@@ -116,7 +117,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
   
 8.  [將單元與外部資源隔離](https://msdn.microsoft.com/library/hh549174.aspx)。 一般而言，DLL 相依於您開發之系統的其他元件，例如其他 DLL、資料庫或遠端子系統。 將每個單元與其相依性隔離，進行獨立測試會很有用。 外部元件可能會使測試執行速度變慢。 在開發期間，其他元件可能並不完整。  
   
-###  <a name="a-nameunittestprojecta-create-a-native-unit-test-project"></a><a name="unitTestProject"></a> 建立原生單元測試專案  
+###  <a name="unitTestProject"></a> 建立原生單元測試專案  
   
 1.  在 [檔案]  功能表上，依序選擇 [新增] 和 [專案] 。  
   
@@ -165,7 +166,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
   
          ![[單元測試總管] 中有一個測試成功](../test/media/utecpp04.png "UteCpp04")  
   
-###  <a name="a-namecreatedllprojecta-create-an-unmanaged-dll-project"></a><a name="createDllProject"></a> 建立 Unmanaged DLL 專案  
+###  <a name="createDllProject"></a> 建立 Unmanaged DLL 專案  
   
 1.  使用 **Win32 Project** 範本來建立 **Visual C++** 專案。  
   
@@ -195,7 +196,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
     }  
     ```  
   
-###  <a name="a-namecoupleprojectsa-couple-the-test-project-to-the-dll-project"></a><a name="coupleProjects"></a> 將測試專案結合至 DLL 專案  
+###  <a name="coupleProjects"></a> 將測試專案結合至 DLL 專案  
   
 1.  將 DLL 專案加入測試專案的專案參考中：  
   
@@ -245,7 +246,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
   
  您已經設定測試和程式碼專案，並確認您可以執行在程式碼專案中執行函式的測試。 現在您可以開始撰寫真正的測試和程式碼。  
   
-###  <a name="a-nameiteratea-iteratively-augment-the-tests-and-make-them-pass"></a><a name="iterate"></a> 反覆擴大測試範圍並使其通過  
+###  <a name="iterate"></a> 反覆擴大測試範圍並使其通過  
   
 1.  加入新的測試：  
   
@@ -303,7 +304,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
     > [!TIP]
     >  開發程式碼時，一次加入一個測試。 確定所有測試在每次反覆之後都通過。  
   
-###  <a name="a-namedebuga-debug-a-failing-test"></a><a name="debug"></a> 對失敗的測試進行偵錯  
+###  <a name="debug"></a> 對失敗的測試進行偵錯  
   
 1.  加入另一個測試：  
   
@@ -378,7 +379,7 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
 > [!TIP]
 >  如果個別測試沒有任何會防止它們依任意順序執行的相依性，請使用工具列上的 ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") 切換按鈕開啟平行測試執行。 這可大幅縮短執行所有測試所需的時間。  
   
-###  <a name="a-namerefactora-refactor-the-code-without-changing-tests"></a><a name="refactor"></a> 重構程式碼，但不變更測試  
+###  <a name="refactor"></a> 重構程式碼，但不變更測試  
   
 1.  簡化 SquareRoot 函式中的主要計算：  
   
@@ -414,8 +415,3 @@ ms.openlocfilehash: dd88409bb0774342e0a9f50178e1204cabf72e46
  [偵錯機器碼](../debugger/debugging-native-code.md)   
  [逐步解說：建立和使用動態連結程式庫 (C++)](http://msdn.microsoft.com/Library/3ae94848-44e7-4955-bbad-7d40f493e941)   
  [匯入和匯出](/visual-cpp/build/importing-and-exporting)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

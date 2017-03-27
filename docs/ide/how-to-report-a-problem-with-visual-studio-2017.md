@@ -1,7 +1,7 @@
 ---
 title: "如何回報 Visual Studio 2017 的問題 | Microsoft Docs"
 ms.custom: 
-ms.date: 2016-10-05
+ms.date: 03/07/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -13,12 +13,13 @@ ms.author: tglee
 manager: ghogen
 robots: noindex,nofollow
 translationtype: Human Translation
-ms.sourcegitcommit: b81a082de053b11e8dbe05317f69d4bcb603f4de
-ms.openlocfilehash: 5aac18786f3952648eeea4e7d0258a5e59c497c2
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 2220a1c2def8fd831f3adba1f3b02e03efe47fe9
+ms.lasthandoff: 03/07/2017
 
 ---
-# <a name="how-to-report-a-problem-with-visual-studio-2017-rc"></a>如何回報 Visual Studio 2017 RC 的問題
-若您在使用 Visual Studio 時發生問題，請告知我們，讓我們能夠加以診斷並修正。  透過使用 [回報問題] 工具，您可以收集問題的詳細資訊，而且只需按幾下按鈕即可將其傳送給 Microsoft。  
+# <a name="how-to-report-a-problem-with-visual-studio-2017"></a>如何回報 Visual Studio 2017 的問題
+若您在使用 Visual Studio 時發生問題，請告知我們，讓我們能夠加以診斷並修正。  透過使用 [回報問題] 工具，您可以收集問題的詳細資訊，然後只需按幾下按鈕，即可將該資訊傳送給 Microsoft。  
 
  Microsoft 尊重您的隱私權。 如需我們如何處理您所傳送之資料的資訊，請參閱 [Microsoft Visual Studio 產品系列隱私權聲明](https://www.visualstudio.com/en-us/dn948229)。  
 
@@ -27,13 +28,22 @@ ms.openlocfilehash: 5aac18786f3952648eeea4e7d0258a5e59c497c2
 
  ![[回報問題] 功能表項目](../ide/media/report-a-problem-menu-item.png "[回報問題] 功能表項目")  
 
+## <a name="sign-in-to-visual-studio"></a>登入 Visual Studio
+ 如果您尚未登入，您可以先登入 Visual Studio，再回報問題。 如此一來，您不僅可以回報所遇到的問題，還可以針對所看到任何其他問題的張貼文章進行投票或評論。
+
+  1. 按一下位於工具左邊的 [登入]，如以下螢幕擷取畫面所示。
+  2. 依照畫面上的指示操作來登入。
+
+  ![登入以回報問題](../ide/media/vs2017-report-a-problem-sign-in.png "登入以回報問題")
+
+
 ## <a name="search-and-vote-for-similar-problems"></a>搜尋類似問題並針對類似問題投票  
 ###  <a name="search_and_vote"></a>  
 
 1.  搜尋您的問題，並查看其他人是否已回報過。
 2.  如果有人回報過，則請對它投票，讓我們知道。  
 
-  ![VS15-FeedbackTool-SearchForSimilarReportedProblems](../ide/media/feedbacktool-searchforsimilarreportedproblems.png "搜尋類似問題並針對類似問題投票")
+  ![VS15-FeedbackTool-SearchForSimilarReportedProblems](../ide/media/vs2017-report-a-problem-search-and-vote.png "搜尋類似問題並針對類似問題投票")
 
 
 ## <a name="report-a-new-problem"></a>回報新問題
@@ -68,9 +78,4 @@ ms.openlocfilehash: 5aac18786f3952648eeea4e7d0258a5e59c497c2
 
 ## <a name="see-also"></a>另請參閱  
  [告訴我們](../ide/talk-to-us.md)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

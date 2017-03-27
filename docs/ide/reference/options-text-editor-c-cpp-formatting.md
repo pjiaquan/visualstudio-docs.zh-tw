@@ -1,5 +1,5 @@
 ---
-title: "格式、C/C++、文字編輯器、選項 | Microsoft Docs"
+title: "選項、文字編輯器、C/C++、格式設定 | Microsoft Docs"
 ms.custom: 
 ms.date: 11/04/2016
 ms.reviewer: 
@@ -35,12 +35,12 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 0fc25d6ed45929764b5d8cb64df935dd14886f1e
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: f70339a150a53d346ab9a6f59b4b1634263f5b9e
+ms.lasthandoff: 03/07/2017
 
 ---
-# <a name="options-text-editor-cc-formatting"></a>格式、C/C++、文字編輯器、選項
+# <a name="options-text-editor-cc-formatting"></a>選項、文字編輯器、C/C++、格式設定
 讓您在使用 C 或 C++ 進行程式設計時，變更 [程式碼編輯器] 的預設行為。  
   
  若要存取這個頁面，請在 [選項] 對話方塊的左窗格中依序展開 [文字編輯器] 和 [C/C++]，然後按一下 [格式]。  

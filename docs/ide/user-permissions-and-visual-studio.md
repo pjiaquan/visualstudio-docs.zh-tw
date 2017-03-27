@@ -33,25 +33,24 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
-ms.openlocfilehash: 480be03d8ca431ff90ff00881a29daeaecfbec1b
-ms.lasthandoff: 03/03/2017
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: dc32236dad42ec169fc1c7a243b7c67fd5a8dbf3
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="user-permissions-and-visual-studio"></a>使用者權限和 Visual Studio
 基於安全性原因，您最好盡可能以一般使用者身分來執行 Visual Studio。  
-  
+
 > [!WARNING]
 >  您也應該確保不會編譯、啟動或偵錯任何不是來自受信任者或受信任位置的 Visual Studio 方案。  
-  
+
  身為一般使用者，您可以在 Visual Studio IDE 中執行幾乎所有的作業，但是必須有系統管理員權限，才能完成下列工作：  
-  
+
 |區域|工作|如需詳細資訊|  
 |----------|----------|--------------------------|  
 |安裝|安裝 Visual Studio。|[安裝 Visual Studio](../install/install-visual-studio.md)|  
-||從 Visual Studio 試用版升級。|[如何：從 Visual Studio 試用版升級](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)|  
 ||安裝、更新或移除本機說明內容。|[安裝與管理本機內容](../ide/install-and-manage-local-content.md)|  
-|應用程式類型|開發 SharePoint 2010 方案。|[開發 SharePoint 方案的需求](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
+|應用程式類型|開發適用於 SharePoint 的方案。|[開發 SharePoint 方案的需求](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
 ||取得 [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]的開發人員授權。|[取得開發人員授權 (Windows 市集應用程式)](http://go.microsoft.com/fwlink/?LinkID=241313)|  
 |工具箱|將傳統 COM 控制項新增至 [工具箱]。|[使用工具箱](../ide/using-the-toolbox.md)|  
 |增益集|安裝及使用在 IDE 中使用傳統 COM 撰寫的增益集。|[建立增益集和精靈](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|  
@@ -61,30 +60,30 @@ ms.lasthandoff: 03/03/2017
 ||偵錯在不同使用者帳戶下執行的應用程式，例如 ASP.NET 網站。|[偵錯 ASP.NET 和 AJAX 應用程式](../debugger/debugging-aspnet-and-ajax-applications.md)|  
 ||在 XAML 瀏覽器應用程式的區域 (XBAP) 中進行偵錯。|[WPF 主應用程式 (PresentationHost.exe)](http://msdn.microsoft.com/Library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|  
 ||使用模擬器來偵錯 Microsoft Azure 雲端服務專案。|[在 Visual Studio 中偵錯雲端服務](http://go.microsoft.com/fwlink/?LinkId=266725)|  
-||設定遠端偵錯的防火牆。|[在裝置上設定遠端工具](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)|  
+||設定遠端偵錯的防火牆。|[遠端偵錯](../debugger/remote-debugging.md)|  
 |效能工具|對應用程式進行程式碼剖析。|[效能分析的初級開發人員指南](../profiling/beginners-guide-to-performance-profiling.md)|  
-|部署|將 Web 應用程式部署在本機電腦上的 Internet Information Services (IIS)。|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478) (使用 Visual Studio 或 Visual Web Developer 將 ASP.NET Web 應用程式部署至主機服務提供者：部署至 IIS 作為測試環境)|  
-|提供意見給 Microsoft|變更您參與 Visual Studio 客戶經驗改進計畫的方式。|[如何：傳送意見回應](../misc/how-to-send-feedback-about-visual-studio.md)|  
-  
+|部署|將 Web 應用程式部署在本機電腦上的 Internet Information Services (IIS)。|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478) (使用 Visual Studio 或 Visual Web Developer 將 ASP.NET Web 應用程式部署至主機服務提供者：部署至 IIS 作為測試環境)|
+
 ## <a name="running-visual-studio-as-an-administrator"></a>以系統管理員身分執行 Visual Studio  
  您可以在每次啟動 IDE 時以系統管理權限啟動 Visual Studio，或修改應用程式捷徑永遠以系統管理權限執行。 如需詳細資訊，請參閱 Windows 說明。  
-  
+
 #### <a name="to-run-visual-studio-with-administrative-permissions-on-includewin8debuggerincludeswin8mdmd-includewin81debuggerincludeswin81mdmd-includewinserver8debuggerincludeswinserver8mdmd-or-includewinblueserver2ideincludeswinblueserver2mdmd"></a>若要在 [!INCLUDE[win8](../debugger/includes/win8_md.md)]、[!INCLUDE[win81](../debugger/includes/win81_md.md)]、[!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)] 或 [!INCLUDE[winblue_server_2](../ide/includes/winblue_server_2_md.md)] 上以系統管理權限執行 Visual Studio  
-  
+
 1.  在 [開始] 畫面上鍵入 **Visual Studio**。 您應該會看到您所安裝之 Visual Studio 的版本。  
-  
+
 2.  選取您想要啟動的 Visual Studio 版本，然後開啟捷徑功能表 (這會顯示在畫面底部)。 選擇 [以系統管理員身分執行] 。  
-  
+
      在 Visual Studio 啟動時，**(系統管理員)** 會顯示在標題列的產品名稱之後。  
-  
+
 #### <a name="to-run-visual-studio-with-administrative-permissions-on-includewin7debuggerincludeswin7mdmd-or-includewinsvr08r2debuggerincludeswinsvr08r2mdmd"></a>若要在 [!INCLUDE[win7](../debugger/includes/win7_md.md)] 或 [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)] 上以系統管理權限執行 Visual Studio  
-  
+
 1.  選擇 [開始] 功能表上的 [所有程式]。  
-  
+
 2.  在 Microsoft Visual Studio <版本> 資料夾中，選取 Visual Studio <版本>，開啟捷徑功能表，然後選擇 以系統管理員身分執行。  
-  
+
      在 Visual Studio 啟動時，**(系統管理員)** 會顯示在標題列的產品名稱之後。  
-  
+
 ## <a name="see-also"></a>另請參閱  
  [移植、移轉和升級 Visual Studio 專案](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
  [安裝 Visual Studio](../install/install-visual-studio.md)
+

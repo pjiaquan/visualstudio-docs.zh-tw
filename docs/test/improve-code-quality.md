@@ -30,9 +30,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7a282fc04c1eb01f0c56b1d76880276fc270686d
-ms.openlocfilehash: df5195e7cc435f6da8ebfee4589d7c6258018993
-ms.lasthandoff: 03/01/2017
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 2fa87621ed76fb93a9e92d558be5519d783274c5
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="improve-code-quality"></a>改善程式碼品質
@@ -48,6 +48,7 @@ ms.lasthandoff: 03/01/2017
 |||  
 |-|-|  
 |[對程式碼進行單元測試](../test/unit-test-your-code.md)|測試總管可讓您輕鬆地將單元測試整合在開發實務中。 您可以使用 Microsoft 單元測試架構，或使用多種協力廠商架構和開放原始碼架構的其中一種。|  
+|[Visual Studio 的 Live Unit Testing](../test/live-unit-testing.md)|Live Unit Testing 會自動在背景執行單元測試，並在 Visual Studio 程式碼編輯器中以圖形方式顯示程式碼涵蓋範圍和測試結果。|  
 |[分析應用程式品質](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)|靜態程式碼分析工具可尋找 C++ 和 Managed 程式碼中的設計、使用方式、可維護性和樣式等問題。 許多這些問題可能會造成難以在標準測試環境重現的 Bug。|  
 |[測量 Managed 程式碼的複雜度和維護性](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|程式碼度量資訊是一組軟體測量數據，可以讓開發人員更深入了解他們正在開發的程式碼。 度量資訊包括函式和類別的可維護性指數、函式的循環複雜度、類別的繼承深度，以及類別間的結合程度。|  
   

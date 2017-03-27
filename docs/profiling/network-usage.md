@@ -1,21 +1,40 @@
 ---
-title: "分析網路使用量 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "在 Visual Studio 中分析 UWP App 的網路使用量 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 45fa397d-d7a1-4c4c-9c97-ede6c21643bd
 caps.latest.revision: 7
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 5
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 60d05761993a4bd7547d83274e103de1b5c30b34
+ms.lasthandoff: 03/07/2017
+
 ---
-# <a name="network-usage"></a>網路使用量
+# <a name="analyze-network-usage-in-uwp-apps"></a>分析 UWP App 的網路使用量
 Visual Studio 的 [網路] 診斷工具會收集使用 [Windows.Web.Http 應用程式開發介面](https://msdn.microsoft.com/library/windows/apps/windows.web.http.aspx)執行之網路作業的相關資料。 分析這份資料可協助您解決存取和驗證、不正確的快取使用，以及顯示和下載效能不佳等問題。  
   
  網路工具僅支援 Windows 通用平台應用程式。 目前不支援其他平台。  
@@ -74,8 +93,3 @@ Visual Studio 的 [網路] 診斷工具會收集使用 [Windows.Web.Http 應用�
  [使用或不使用偵錯工具執行程式碼剖析工具](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
  [Visual Studio 部落格︰Visual Studio 的網路檢查簡介 (英文)](http://go.microsoft.com/fwlink/?LinkId=535022)   
  [Channel 9 影片︰ VS 診斷工具 - 新的網路分析工具 (英文)](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
