@@ -7,6 +7,7 @@
 ### [記憶體使用量 (不偵錯)](memory-usage-without-debugging2.md)
 ## [CPU 使用量](cpu-usage.md)
 ### [分析 Windows 通用 App 中的 CPU 使用量](analyze-cpu-usage-in-a-windows-universal-app.md)
+## [GPU 使用量](gpu-usage.md)
 ## [應用程式時間軸](application-timeline.md)
 ## [效能提示](perftips.md)
 ## [JavaScript 記憶體](javascript-memory.md)
