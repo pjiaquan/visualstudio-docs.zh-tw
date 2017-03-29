@@ -316,7 +316,7 @@ ms.lasthandoff: 02/22/2017
         android:layout_marginLeft="10dp" />  
     ```  
   
-10. 從 [工具箱] 中，將 [Number] 控制項拖曳至 [RelativeLayout]，並將它放在 [Zip Code] (郵遞區號) 標籤下方。 接著，設定下列屬性：  
+10. 從 [工具箱] 中，將 [Number] 控制項拖曳至 [RelativeLayout]，並將它放在 [Zip Code]\(郵遞區號) 標籤下方。 接著，設定下列屬性：  
   
     |屬性|值|  
     |--------------|-----------|  
@@ -535,7 +535,7 @@ ms.lasthandoff: 02/22/2017
   
 2.  選取適當的裝置或模擬器目標，然後按 F5 鍵以啟動應用程式。  
   
-3.  在裝置上或模擬器中，於編輯方塊中輸入有效的美國郵遞區號 (例如：60601)，然後按 [Get Weather] (獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
+3.  在裝置上或模擬器中，於編輯方塊中輸入有效的美國郵遞區號 (例如：60601)，然後按 [Get Weather]\(獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
   
      ![Android 及 Windows Phone 的氣象應用程式](../cross-platform/media/xamarin_getstarted_results.png "Xamarin_GetStarted_Results")  
   
@@ -641,7 +641,7 @@ ms.lasthandoff: 02/22/2017
   
 2.  按 F5 鍵以啟動應用程式。  
   
-3.  在 Windows Phone 模擬器中，於編輯方塊中輸入有效的美國郵遞區號輸入 (例如：60601)，然後按 [Get Weather] (獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
+3.  在 Windows Phone 模擬器中，於編輯方塊中輸入有效的美國郵遞區號輸入 (例如：60601)，然後按 [Get Weather]\(獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
   
      ![執行中應用程式的 Windows 版本](../cross-platform/media/xamarin_getstarted_results_windows.png "Xamarin_GetStarted_Results_Windows")  
   

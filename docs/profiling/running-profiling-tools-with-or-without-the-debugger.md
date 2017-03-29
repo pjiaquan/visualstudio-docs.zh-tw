@@ -16,6 +16,7 @@ manager: ghogen
 translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 2cfcc962e41d67995f1e1e04b787a49edfbbfbf6
+ms.lasthandoff: 02/22/2017
 
 ---
 # <a name="running-profiling-tools-with-or-without-the-debugger"></a>使用或不使用偵錯工具來執行程式碼剖析工具
@@ -38,10 +39,10 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
      偵錯組建缺少「版本」組建提供的某些最佳化功能，例如內嵌函數呼叫和常數、清除未用的程式碼路徑，以及無法採用偵錯工具所用的方式儲存變數。 偵錯工具本身由於需要執行特定作業進行偵錯 (例如攔截例外和模組載入事件)，因此效能時有差異。 基於以上原因，偵錯工具整合工具的效能數字表現精確度範圍僅為數十毫秒。 具非偵錯工具的「版本」設定其效能數字會更加精確。  
   
-##  <a name="a-namebkmkquickstartcollectdiagnosticdataa-collect-profiling-data-while-debugging"></a><a name="BKMK_Quick_start__Collect_diagnostic_data"></a>偵錯時收集程式碼剖析資料  
+##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a>偵錯時收集程式碼剖析資料  
  下列章節說明本機偵錯。 您可以在稍後的各節裡，了解在裝置上偵錯或遠端偵錯。  
   
-1.  開啟您想要偵錯的專案，然後按一下[偵錯/開始偵錯]  (或工具列上的 [開始]  或 **F5**)。  
+1.  開啟您想要偵錯的專案，然後按一下[偵錯/開始偵錯]\ (或工具列上的 [開始]  或 **F5**)。  
   
 2.  [偵錯工具]  視窗會自動出現，除非您將其關閉。 如需再次顯示視窗，請按一下 [偵錯] / [視窗] / [顯示診斷工具]。  
   
@@ -140,8 +141,3 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
  [Visual Studio 2015 中的診斷工具偵錯工具視窗 (英文)](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015.aspx)  
   
  [Visual Studio Enterprise 2015 中的 IntelliTrace (英文)](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/intellitrace-in-visual-studio-ultimate-2015.aspx)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
