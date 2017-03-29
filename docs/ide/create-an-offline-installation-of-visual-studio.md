@@ -2,14 +2,14 @@
 title: "建立 Visual Studio 的離線安裝 | Microsoft Docs"
 description: "選擇版本，並了解如何建立 Visual Studio 的離線安裝。"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 03/27/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
 - vs-ide-install
 ms.tgt_pltfrm: 
 ms.topic: article
-pagetype: ContentPage
+layout: ContentPage
 f1_keywords:
 - offline installation [Visual Studio]
 - offline install [Visual Studio]
