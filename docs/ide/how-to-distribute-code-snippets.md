@@ -43,7 +43,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="setting-up-the-extension"></a>設定擴充功能  
  在此程序中，我們將使用在[逐步解說：建立程式碼片段](../ide/walkthrough-creating-a-code-snippet.md)中所建立之相同的 Hello World 程式碼片段。 我們將提供 .snippet 文字，所以您不需返回再做一次。  
 
-1.  建立新的 VSIX 專案，名為 **TestSnippet**。 ([檔案]/[新增]/[專案]/[Visual C#] (或 [Visual Basic]/[擴充性])  
+1.  建立新的 VSIX 專案，名為 **TestSnippet**。 ([檔案]/[新增]/[專案]/[Visual C#]\(或 [Visual Basic]/[擴充性])  
 
 2.  在 **TestSnippet** 專案中加入新的 XML 檔案，並將其命名為 **VBCodeSnippet.snippet**。 使用下列內容取代此內容：  
 
