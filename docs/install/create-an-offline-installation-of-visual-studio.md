@@ -2,7 +2,7 @@
 title: "建立 Visual Studio 2017 的離線安裝程式 | Microsoft Docs"
 description: "了解如何建立 Visual Studio 的離線安裝程式。"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 03/21/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,9 +34,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 91fde66abf2f325ef0a6a0a2fd30e36981f44033
-ms.openlocfilehash: acb47946c29d99cb53b34d67fe8a26f5611307f9
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: 5b6334c38a6c058f274498c06f8e07c934931910
+ms.openlocfilehash: 563c78a49eb55886b1ddbd4f437951c99c6568e5
+ms.lasthandoff: 03/22/2017
 
 ---
 # <a name="create-an-offline-installer-for-visual-studio-2017"></a>建立 Visual Studio 2017 的離線安裝程式
@@ -54,6 +54,8 @@ ms.lasthandoff: 03/08/2017
 |Visual Studio 企業版 |**vs_enterprise.exe**|  
 |Visual Studio Professional |**vs_professional.exe**|  
 |Visual Studio 社群 |**vs_community.exe**|
+
+其他支援的啟動載入器包括 vs_buildtools.exe、vs_feedbackclient.exe、vs_teamexplorer.exe、vs_testagent.exe、vs_testcontroller.exe 及 vs_testprofessional.exe。
 
 ## <a name="create-an-offline-installation-folder"></a>建立離線安裝資料夾
 若要建立包含所有語言和所有功能的離線安裝，請下列範例中的其中一個命令。
@@ -90,8 +92,6 @@ ms.lasthandoff: 03/08/2017
 * 若要更新您從離線安裝資料夾安裝的 Visual Studio 執行個體，請執行「Visual Studio 安裝程式」，然後按一下 [更新]。
 * 若要重新整理您的離線安裝資料夾，以便讓它包含最新的更新，請再次執行 ```--layout``` 命令。 請務必指向您之前使用的相同資料夾；如此一來，才會只下載自您上次執行 ```--layout``` 之後已更新的元件。
 
-
-如果您想要更新離線安裝，請再次執行 `--layout` 命令。 請務必指向您之前使用的相同資料夾；如此一來，才會只下載自您上次執行 `--layout` 之後已更新的元件。
 
 ### <a name="how-to-troubleshoot-an-offline-installer"></a>如何針對離線安裝程式進行疑難排解
 有時會發生一些問題。 下表是已知的問題及一些可能有幫助的因應措施。
