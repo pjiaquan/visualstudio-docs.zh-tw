@@ -1,21 +1,39 @@
 ---
 title: "逐步解說：使用 MSBuild | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "MSBuild、 教學課程"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 32
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 3ba7680d46345f2b49019659c715cfb418933d39
+ms.openlocfilehash: ecfd08a410983561f3c1e761eb25302b6d9281c4
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="walkthrough-using-msbuild"></a>逐步解說：使用 MSBuild
 MSBuild 是 Microsoft 和 Visual Studio 的建置平台。 此逐步解說將介紹 MSBuild 的建置區塊，以及示範如何撰寫和管理 MSBuild 專案及進行偵錯。 學習內容：  
@@ -37,7 +55,7 @@ MSBuild 是 Microsoft 和 Visual Studio 的建置平台。 此逐步解說將介
   
 2.  在 [檔案]  功能表中，指向 [新增] ，然後按一下 [專案] 。  
   
-3.  在 [新增專案] 對話方塊中，選取 Visual C# 專案類型，然後選取 [Windows Forms 應用程式] 範本。 在 [名稱] 方塊中，輸入 `BuildApp`。 輸入方案的**位置**，例如 `D:\`。 接受 [為方案建立目錄] (已選取)、[加入至原始檔控制] (未選取) 及 [方案名稱] (`BuildApp`) 的預設值。  
+3.  在 [新增專案] 對話方塊中，選取 Visual C# 專案類型，然後選取 [Windows Forms 應用程式] 範本。 在 [名稱] 方塊中，輸入 `BuildApp`。 輸入方案的**位置**，例如 `D:\`。 接受 [為方案建立目錄]\(已選取)、[加入至原始檔控制]\(未選取) 及 [方案名稱] \(`BuildApp`) 的預設值。  
   
      按一下 [確定] 以建立專案檔。  
   
@@ -578,8 +596,3 @@ $(PropertyName)
 ## <a name="see-also"></a>另請參閱
 [MSBuild 概觀](../msbuild/msbuild.md)  
  [MSBuild 參考](../msbuild/msbuild-reference.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

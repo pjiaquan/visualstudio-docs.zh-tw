@@ -51,7 +51,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="you-have-re-targeted-a-project-to-a-different-version-of-the-net-framework"></a>您將專案的目標重定為不同版本的 .NET Framework  
  如果您變更應用程式的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 目標版本，Visual Studio 會變更一些參考，但您可能要手動更新某些參考。 例如，如果您變更應用程式將目標設定為 [!INCLUDE[net_v35SP1_long](../msbuild/includes/net_v35sp1_long_md.md)]，且該應用程式有依賴 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔的資源或設定，就可能發生其中一個前述的錯誤。  
   
- 若要解決應用程式設定，請開啟 [方案總管]，選擇 [顯示所有檔案]，然後在 Visual Studio 的 XML 編輯器中編輯 app.config 檔案。 將設定中的版本變更為符合 .NET Framework 的適當版本。 例如，您可以將版本設定從 4.0.0.0 變更為 2.0.0.0。 同樣地，針對加入資源的應用程式，請開啟 [方案總管]，選擇 [顯示所有檔案] 按鈕，展開 [我的專案] (Visual Basic) 或 [屬性] (C#)，然後在 Visual Studio 的 XML 編輯器中編輯 Resources.resx 檔案。 將版本設定從 4.0.0.0 變更為 2.0.0.0。  
+ 若要解決應用程式設定，請開啟 [方案總管]，選擇 [顯示所有檔案]，然後在 Visual Studio 的 XML 編輯器中編輯 app.config 檔案。 將設定中的版本變更為符合 .NET Framework 的適當版本。 例如，您可以將版本設定從 4.0.0.0 變更為 2.0.0.0。 同樣地，針對加入資源的應用程式，請開啟 [方案總管]，選擇 [顯示所有檔案] 按鈕，展開 [我的專案]\(Visual Basic) 或 [屬性]\ (C#)，然後在 Visual Studio 的 XML 編輯器中編輯 Resources.resx 檔案。 將版本設定從 4.0.0.0 變更為 2.0.0.0。  
   
  如果您的應用程式具有資源 (例如圖示或點陣圖) 或設定 (例如資料連接字串)，您也可以透過在 [專案設計工具] 的 [設定] 頁面上移除所有的項目，然後重新加入必要的設定來解決錯誤。  
   
