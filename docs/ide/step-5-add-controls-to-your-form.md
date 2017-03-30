@@ -1,19 +1,38 @@
 ---
-title: "步驟 5：將控制項加入至您的表單 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "步驟 5：將控制項新增至您的表單 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 20
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
+ms.openlocfilehash: 07048d1ab89599609d7ece1e69056e6dd1dd7eea
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="step-5-add-controls-to-your-form"></a>步驟 5：將控制項加入至您的表單
 在這個步驟中，您要將控制項 (例如 `PictureBox` 控制項和 `CheckBox` 控制項) 新增至表單。 接著，您要將按鈕加入至表單。  
@@ -57,7 +76,7 @@ PictureBox 工作
   
 1.  選擇您加入的新 FlowLayoutPanel。 移至 [工具箱] 中的 [通用控制項]，然後按兩下 [Button] 項目將稱為 **button1** 的按鈕控制項新增至 FlowLayoutPanel。 重複此步驟加入另一個按鈕。 IDE 判斷已有一個稱為 **button1** 的按鈕，所以會將下一個按鈕命名為 **button2**。  
   
-2.  您通常會使用 [工具箱] 加入其他按鈕。 此時，選擇 [button2]，然後在功能表列上依序選擇 [編輯]和 [複製] (或按 Ctrl+C)。 在功能表列上，依序選擇 [編輯] 和 [貼上] (或按 Ctrl+V)，貼上按鈕的複本。 現在再貼一次。 IDE 現在已將 **button3** 和 **button4** 新增至 FlowLayoutPanel。  
+2.  您通常會使用 [工具箱] 加入其他按鈕。 此時，選擇 [button2]，然後在功能表列上依序選擇 [編輯]和 [複製]\ (或按 Ctrl+C)。 在功能表列上，依序選擇 [編輯] 和 [貼上]\(或按 Ctrl+V)，貼上按鈕的複本。 現在再貼一次。 IDE 現在已將 **button3** 和 **button4** 新增至 FlowLayoutPanel。  
   
     > [!NOTE]
     >  您可以複製及貼上任何控制項。 IDE 會以邏輯方式命名和放置新的控制項。 如果您將控制項貼至容器中，IDE 會選擇下一個邏輯放置空間。  
@@ -81,8 +100,3 @@ PictureBox 工作
 -   若要移到下一個教學課程步驟，請參閱[步驟 6：命名您的按鈕控制項](../ide/step-6-name-your-button-controls.md)。  
   
 -   若要回到上一個教學課程步驟，請參閱[步驟 4：使用 TableLayoutPanel 控制項來配置您的表單](../ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md)。
-
-
-<!--HONumber=Feb17_HO4-->
-
-
