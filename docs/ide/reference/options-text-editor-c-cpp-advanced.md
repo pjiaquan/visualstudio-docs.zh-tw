@@ -34,8 +34,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: a1edc88394193474b273968d8435e8df06415044
-ms.openlocfilehash: 6169b6d1805808c96647425706bf555e379679a8
+ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
+ms.openlocfilehash: ba9c9b60de651eecc92ea10ba44579a7dadc36df
+ms.lasthandoff: 03/27/2017
 
 ---
 # <a name="options-text-editor-cc-advanced"></a>進階、C/C++、文字編輯器、選項
@@ -139,7 +140,10 @@ ms.openlocfilehash: 6169b6d1805808c96647425706bf555e379679a8
  每次發出 IntelliSense 要求時將保持使用中的最大轉譯單位數目。 您指定的值必須介於 2 與 15 之間。 此數字與將執行的最大 VCPkgSrv.exe 處理序數目直接相關 (針對指定的 Visual Studio 執行個體)。 預設值為 2，但是，如果您有可用的記憶體，則可以增加此值，而且在 IntelliSense 上可能會有略佳的效能。  
   
  如需轉譯單位的詳細資訊，請參閱[轉譯階段](/visual-cpp/preprocessor/phases-of-translation)。  
-  
+
+ **成員清單的點取代成箭號**  
+ 當成員清單適用時，以 '->' 取代 '.'。
+
  **停用主動成員清單**  
  輸入類型或變數的名稱時，不會出現成員清單。 只有在輸入 [成員清單認可字元] 選項中所定義的其中一個認可字元之後，才會顯示清單。  
   
@@ -169,12 +173,14 @@ ms.openlocfilehash: 6169b6d1805808c96647425706bf555e379679a8
  在 [尋找所有參考] 結果中隱藏未經確認的項目。 如果您取消設定 [停用解析] 選項，則可以使用此選項，在結果中隱藏未確認項目。  
   
  **停用反白顯示參考**  
+
+ ## <a name="text-editor"></a>文字編輯器
+ **啟用展開範圍**  
+ 如果啟用，您可以在文字編輯器中輸入 '{'，以大括號來括住選取的文字。  
+  
+ **啟用展開優先順序**  
+ 如果啟用，您可以在文字編輯器中輸入 '('，以圓括號來括住選取的文字。  
   
 ## <a name="see-also"></a>另請參閱  
  [設定語言特定編輯器選項](../../ide/reference/setting-language-specific-editor-options.md)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 
