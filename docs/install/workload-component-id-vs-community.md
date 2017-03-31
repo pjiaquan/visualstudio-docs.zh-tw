@@ -1,14 +1,10 @@
 ---
-title:
-- "Visual Studio Community 2017 工作負載和元件識別碼 | Microsoft Docs"
+title: "Visual Studio Community 2017 工作負載和元件識別碼 | Microsoft Docs"
 description: "使用工作負載和元件識別碼透過命令列安裝 Visual Studio，或是在 VSIX 資訊清單中指定為相依性"
 keywords: 
-author:
-- TerryGLee
-ms.author:
-- tglee
-manager:
-- ghogen
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
 ms.date: 03/07/2017
 ms.topic: article
 helpviewer_keywords:

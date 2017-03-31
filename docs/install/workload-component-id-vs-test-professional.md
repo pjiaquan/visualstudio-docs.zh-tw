@@ -1,14 +1,10 @@
 ---
-title:
-- "Visual Studio Test Professional 2017 工作負載和元件識別碼 | Microsoft Docs"
+title: "Visual Studio Test Professional 2017 工作負載和元件識別碼 | Microsoft Docs"
 description: "使用 Visual Studio 工作負載和元件識別碼為通用測試人員提供整合式測試工具"
 keywords: 
-author:
-- TerryGLee
-ms.author:
-- tglee
-manager:
-- ghogen
+author: TerryGLee
+ms.author: tglee
+manager: ghogen
 ms.date: 03/07/2017
 ms.topic: article
 helpviewer_keywords:
