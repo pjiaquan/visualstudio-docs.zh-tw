@@ -1,7 +1,7 @@
 # [歡迎使用 Visual Studio 2017！](welcome-to-visual-studio.md)
 # [新功能](ide/whats-new-in-visual-studio.md)
 # [安裝](install/TOC.md)
-# [Visual Studio IDE](ide/index.md)
+# [Visual Studio IDE](ide/visual-studio-ide.md)
 # [Visual Basic](/dotnet/articles/visual-basic)
 # [Visual C#](/dotnet/articles/csharp)
 # [Visual C++](/cpp/top/visual-cpp-in-visual-studio)
