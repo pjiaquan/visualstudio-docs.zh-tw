@@ -62,7 +62,7 @@ ms.lasthandoff: 03/20/2017
 ## <a name="gpu-usage"></a>GPU 使用量  
  ![DiagGPUUsage](../profiling/media/diaggpuusage.png "DiagGPUUsage")  
   
- 請使用「GPU 使用量」[](../debugger/gpu-usage.md)工具來深入了解 Direct3D 應用程式的高階硬體使用率。 您可以使用此工具，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 「GPU 使用量」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具])。  
+ 請使用[「GPU 使用量」](../debugger/gpu-usage.md)工具來深入了解 Direct3D 應用程式的高階硬體使用率。 您可以使用此工具，搭配桌面應用程式和 Windows 通用應用程式，但不能搭配 ASP.NET 應用程式。 「GPU 使用量」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具])。  
   
 ## <a name="application-timeline"></a>應用程式時間軸  
  ![DiagAppTimeline](../profiling/media/diagapptimeline.png "DiagAppTimeline")  
@@ -85,7 +85,7 @@ ms.lasthandoff: 03/20/2017
 ## <a name="javascript-memory"></a>JavaScript 記憶體  
  ![DiagJSMemory](../profiling/media/diagjsmemory.png "DiagJSMemory")  
   
- 「JavaScript 記憶體」[](../profiling/javascript-memory.md)工具可讓您找出應用程式中記憶體流失與記憶體不足使用的情況。 此工具可讓您擷取 JavaScript 堆積的快照。 您可以使用此工具搭配 Windows 通用 HTML 應用程式。 「JavaScript 記憶體」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具])。  
+ [「JavaScript 記憶體」](../profiling/javascript-memory.md)工具可讓您找出應用程式中記憶體流失與記憶體不足使用的情況。 此工具可讓您擷取 JavaScript 堆積的快照。 您可以使用此工具搭配 Windows 通用 HTML 應用程式。 「JavaScript 記憶體」工具可在偵錯工具之外執行 ([偵錯] / [效能分析工具])。  
   
 ## <a name="html-ui-responsiveness"></a>HTML UI 回應性  
  ![DiagHTMLResp](../profiling/media/diaghtmlresp.png "DiagHTMLResp")  
