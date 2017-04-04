@@ -12,7 +12,7 @@ helpviewer_keywords:
 - coded UI tests, Excel Add-in sample
 ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
 caps.latest.revision: 16
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - cs-cz
@@ -64,3 +64,4 @@ ms.lasthandoff: 02/22/2017
  [擴充自動程式化 UI 測試和動作記錄以支援 Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)   
  [逐步解說：建立 Excel 的第一個 VSTO 增益集](http://msdn.microsoft.com/Library/a855e2be-3ecf-4112-a7f5-ec0f7fad3b5f)   
  [Office 和 SharePoint 開發](/office-dev/office-dev/office-and-sharepoint-development-in-visual-studio)
+

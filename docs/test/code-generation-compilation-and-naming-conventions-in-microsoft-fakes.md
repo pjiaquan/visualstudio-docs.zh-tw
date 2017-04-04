@@ -10,7 +10,7 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 16
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - cs-cz
@@ -304,3 +304,4 @@ attribute of the Assembly element in the .fakes:
   
 ## <a name="see-also"></a>另請參閱  
  [使用 Microsoft Fakes 在測試期間隔離程式碼](../test/isolating-code-under-test-with-microsoft-fakes.md)
+

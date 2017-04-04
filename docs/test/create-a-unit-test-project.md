@@ -1,18 +1,37 @@
 ---
 title: "建立單元測試專案 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 8
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 8
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
+ms.openlocfilehash: 7cd8ed6aea56b5f59abbbf96709af3d42d2857c5
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="create-a-unit-test-project"></a>建立單元測試專案
 單元測試通常會反映測試之程式碼的結構。 例如，單元測試專案會針對產品中的每個程式碼專案建立。 測試專案可位於與實際程式碼相同的方案中，或位於其他方案中。 您在方案中可以有多個單元測試專案。  
@@ -50,8 +69,4 @@ caps.handback.revision: 8
  **執行單元測試**  
   
  [使用測試總管執行單元測試](../test/run-unit-tests-with-test-explorer.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
 

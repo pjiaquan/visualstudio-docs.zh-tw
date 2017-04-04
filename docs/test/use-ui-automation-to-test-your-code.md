@@ -19,7 +19,7 @@ helpviewer_keywords:
 - coded UI test
 ms.assetid: ad9e3eaa-ab86-436e-95b8-dc20eb1f8b2a
 caps.latest.revision: 85
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - de-de
@@ -510,3 +510,4 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
  [自動程式化 UI 測試和動作記錄的支援組態和平台](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [升級 Visual Studio 2010 的自動程式化 UI 測試](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)   
  [從現有的動作記錄產生自動程式化 UI 測試](/devops-test-docs/test/generating-a-coded-ui-test-from-an-existing-action-recording)
+

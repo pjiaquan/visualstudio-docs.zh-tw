@@ -1,20 +1,38 @@
 ---
 title: "建立資料驅動自動程式化 UI 測試 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "自動程式碼的 UI 測試、 資料驅動"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- coded UI tests, data-driven
 ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 56
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 56
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
+ms.openlocfilehash: 9885f3cff76b9c5e1d053550be80c4b68cf9de1b
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="creating-a-data-driven-coded-ui-test"></a>建立資料驅動自動程式化 UI 測試
 若要測試不同的情況，您可以使用不同的參數值，多次執行您的測試。 資料驅動自動程式碼 UI 測試是方便進行這項作業的方法。 您可以在資料來源中定義參數值，而且資料來源中的每個資料列都是自動程式碼 UI 測試的反覆項目。 整體測試結果將會根據所有反覆項目的結果。 例如，如果其中一個測試反覆項目失敗，則整體測試結果就是失敗。  
@@ -206,7 +224,7 @@ caps.handback.revision: 56
   
 ## <a name="q--a"></a>問與答  
   
-###  <a name="a-namecreatedatadrivencuitqadatasourceattributesa-what-are-the-data-source-attributes-for-other-data-source-types-such-as-sql-express-or-xml"></a><a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> 其他資料來源類型 (例如 SQL Express 或 XML) 的資料來源屬性為何？  
+###  <a name="CreateDataDrivenCUIT_QA_DataSourceAttributes"></a> 其他資料來源類型 (例如 SQL Express 或 XML) 的資料來源屬性為何？  
  您可以使用下表中的範例資料來源字串，方法是將它們複製至您的程式碼，並進行必要的自訂。  
   
  **資料來源類型和屬性**  
@@ -256,8 +274,4 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
  [建立自動程式化 UI 測試](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)   
  [自動程式化 UI 測試的最佳做法](../test/best-practices-for-coded-ui-tests.md)   
  [自動程式化 UI 測試和動作記錄的支援組態和平台](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
 

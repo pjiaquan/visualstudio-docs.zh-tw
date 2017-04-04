@@ -13,7 +13,7 @@ helpviewer_keywords:
 - team-based development
 ms.assetid: 73baa961-c21f-43fe-bb92-3f59ae9b5945
 caps.latest.revision: 39
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - cs-cz
@@ -70,3 +70,4 @@ ms.lasthandoff: 03/07/2017
   
  [使用 Visual Studio Online 或 Team Foundation Server 追蹤工作](https://www.visualstudio.com/docs/work/overview)  
  您可以使用 [!INCLUDE[vstsTfsLong](../test/includes/vststfslong_md.md)] 計劃和追蹤專案，無論使用的是彈性程序、正式程序或是這些程序的變化。 透過計劃專案、依據計劃追蹤進度及進行必要的調整，就可以降低風險、避免發生意外狀況，以及管理專案的成本。
+

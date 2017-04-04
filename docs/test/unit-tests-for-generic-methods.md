@@ -13,7 +13,7 @@ helpviewer_keywords:
 - unit tests, and generics
 ms.assetid: ffc89814-a7df-44fc-aef5-dd3dfeb28a9b
 caps.latest.revision: 47
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - cs-cz
@@ -215,3 +215,4 @@ namespace ClassLibrary2
 ## <a name="see-also"></a>另請參閱  
  [單元測試的結構](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [對程式碼進行單元測試](../test/unit-test-your-code.md)
+
