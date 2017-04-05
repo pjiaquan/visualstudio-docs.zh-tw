@@ -153,7 +153,7 @@
 ## [切換中斷點命令](toggle-breakpoint-command.md)
 ## [監看式命令](watch-command.md)
 # [Visual Studio 中的 XML 工具](../../xml-tools/xml-tools-in-visual-studio.md)
-# [MSBuild](../../msbuild/msbuild1.md)
+# [MSBuild](../../msbuild/msbuild.md)
 # [適用於行動不便人士的協助工具](accessibility-for-people-with-disabilities.md)
 ## [Visual Studio 的協助工具功能](accessibility-features-of-visual-studio.md)
 ### [如何：設定 IDE 協助工具選項](how-to-set-ide-accessibility-options.md)
