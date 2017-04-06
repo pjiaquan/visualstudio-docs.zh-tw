@@ -28,9 +28,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 76721dbf816cf7b7b8691efc10d22aac6b69cb05
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 84549f28f33933eacbf44742b5be129df8ab780e
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>使用適用於 C++ 的 Microsoft 單元測試架構撰寫適用於 C/C++ 的單元測試
@@ -48,7 +48,7 @@ ms.lasthandoff: 03/07/2017
   
     -   `#include` 一個 `.h` 檔案，該檔案中包含 DLL 可外部存取函式的宣告。  
   
-         `.h` 檔案應包含標記 `_declspec(dllimport)` 的函式宣告。 或者，您可以使用 .DEF 檔案來匯出方法。 如需詳細資訊，請參閱[匯入及匯出](/visual-cpp/build/importing-and-exporting)。  
+         `.h` 檔案應包含標記 `_declspec(dllimport)` 的函式宣告。 或者，您可以使用 .DEF 檔案來匯出方法。 如需詳細資訊，請參閱[匯入及匯出](/cpp/build/importing-and-exporting)。  
   
          單元測試只能存取從受測試之 DLL 匯出的函式。  
   
@@ -184,7 +184,7 @@ ms.lasthandoff: 03/07/2017
   
      ![新的 DLL 程式碼專案以及包含 API 巨集的 .h 檔案](../test/media/utecpp07.png "UteCpp07")  
   
-     宣告子 `__declspec(dllexport)` 會使類別的 public 和 protected 成員顯示在 DLL 外部。 如需詳細資訊，請參閱 [Using dllimport and dllexport in C++ Classes](/visual-cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes)。  
+     宣告子 `__declspec(dllexport)` 會使類別的 public 和 protected 成員顯示在 DLL 外部。 如需詳細資訊，請參閱 [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes)。  
   
 4.  在主體 .cpp 檔案中，加入函式的最小主體：  
   
@@ -414,5 +414,5 @@ ms.lasthandoff: 03/07/2017
  [Managed/Unmanaged 程式碼互通性概觀](http://msdn.microsoft.com/library/ms973872.aspx)   
  [偵錯機器碼](../debugger/debugging-native-code.md)   
  [逐步解說：建立和使用動態連結程式庫 (C++)](http://msdn.microsoft.com/Library/3ae94848-44e7-4955-bbad-7d40f493e941)   
- [匯入和匯出](/visual-cpp/build/importing-and-exporting)
+ [匯入和匯出](/cpp/build/importing-and-exporting)
 
