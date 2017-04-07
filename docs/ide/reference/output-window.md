@@ -36,9 +36,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 118223d1a5c07188b8f8d8c7b6990792dcd94ff5
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 989bc338e0cb8c49a2342d998e1e09e8f6b0eb9f
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="output-window"></a>輸出視窗
@@ -76,7 +76,7 @@ ms.lasthandoff: 02/22/2017
   
  您也可以透過程式設計方式撰寫自己的應用程式，以在執行階段將診斷訊息寫入 [輸出] 窗格。 若要這樣做，請在 .NET Framework Class Library 的 <xref:System.Diagnostics> 命名空間中使用 <xref:System.Diagnostics.Debug> 類別或 <xref:System.Diagnostics.Trace> 類別的成員。 建置方案或專案的偵錯組態時，<xref:System.Diagnostics.Debug> 類別的成員會顯示輸出；建置偵錯或發行組態時，<xref:System.Diagnostics.Trace> 類別的成員會顯示輸出。 如需詳細資訊，請參閱[輸出視窗中的診斷訊息](../../debugger/diagnostic-messages-in-the-output-window.md)。  
   
- 在 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 中，您可以建立自訂建置步驟和建置事件，而其警告和錯誤會顯示並計入 [輸出] 窗格中。 您可以在輸出行上按 F1，以顯示適當的說明主題。 如需詳細資訊，請參閱[格式化自訂建置步驟或建置事件的輸出](/visual-cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event)。  
+ 在 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 中，您可以建立自訂建置步驟和建置事件，而其警告和錯誤會顯示並計入 [輸出] 窗格中。 您可以在輸出行上按 F1，以顯示適當的說明主題。 如需詳細資訊，請參閱[格式化自訂建置步驟或建置事件的輸出](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event)。  
   
 ## <a name="scrolling-behavior"></a>捲動行為  
  如果您在 [輸出] 視窗中使用自動捲動，然後使用滑鼠或方向鍵進行巡覽，則會停止自動捲動。 若要繼續自動捲動，請按 CTRL+END。  

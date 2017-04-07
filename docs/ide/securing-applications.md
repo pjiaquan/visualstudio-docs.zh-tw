@@ -31,9 +31,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: a9af3991247abfe2750dac4042adf7755bfe2e3d
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: ba87dedcedace72a2d4fc47f894337ce69fbfc7e
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="securing-applications"></a>設定應用程式的安全性
@@ -42,7 +42,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="general-security-considerations"></a>一般安全性考量  
  每一種語言都有自己的安全性考量和挑戰。  
   
- [安全性最佳做法](/visual-cpp/top/security-best-practices-for-cpp)  
+ [安全性最佳做法](/cpp/top/security-best-practices-for-cpp)  
  在 Visual C++ 中工作時，提供資訊的安全性功能和可用的做法。  
   
  [NOT IN BUILD：安全性和程式設計 (C# 和 Visual Basic)](http://msdn.microsoft.com/en-us/227e2863-cf09-4c28-9611-bcd82be5e994)  

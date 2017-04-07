@@ -34,9 +34,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: cf427f2c06e377895dd6477d67dacbd04c996ec5
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: d4772671e61d2225a97ef5e36f24e6f8a4a45c35
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="supplying-xml-code-comments"></a>提供 XML 程式碼註解
@@ -46,7 +46,7 @@ ms.lasthandoff: 02/22/2017
   
  如需在 C# 中撰寫程式碼的詳細資訊，請參閱 [XML 文件註解](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)。  
   
- 如需在 C++ 中撰寫程式碼的詳細資訊，請參閱[註解](/visual-cpp/cpp/comments-cpp)和 [XML 文件](/visual-cpp/ide/xml-documentation-visual-cpp)。  
+ 如需在 C++ 中撰寫程式碼的詳細資訊，請參閱[註解](/cpp/cpp/comments-cpp)和 [XML 文件](/cpp/ide/xml-documentation-visual-cpp)。  
   
 ## <a name="see-also"></a>另請參閱  
  [使用 IntelliSense](../ide/using-intellisense.md)

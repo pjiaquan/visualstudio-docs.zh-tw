@@ -34,9 +34,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: ba9c9b60de651eecc92ea10ba44579a7dadc36df
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 9c9e9e8c63d69e797a28ce4f8b1ac0adcf074b77
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="options-text-editor-cc-advanced"></a>進階、C/C++、文字編輯器、選項
@@ -139,7 +139,7 @@ ms.lasthandoff: 03/27/2017
  **最大快取轉譯單位數目**  
  每次發出 IntelliSense 要求時將保持使用中的最大轉譯單位數目。 您指定的值必須介於 2 與 15 之間。 此數字與將執行的最大 VCPkgSrv.exe 處理序數目直接相關 (針對指定的 Visual Studio 執行個體)。 預設值為 2，但是，如果您有可用的記憶體，則可以增加此值，而且在 IntelliSense 上可能會有略佳的效能。  
   
- 如需轉譯單位的詳細資訊，請參閱[轉譯階段](/visual-cpp/preprocessor/phases-of-translation)。  
+ 如需轉譯單位的詳細資訊，請參閱[轉譯階段](/cpp/preprocessor/phases-of-translation)。  
 
  **成員清單的點取代成箭號**  
  當成員清單適用時，以 '->' 取代 '.'。
