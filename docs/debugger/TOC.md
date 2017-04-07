@@ -97,6 +97,7 @@
 ## [在 IIS 電腦上從遠端對 ASP.NET 執行偵錯](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 ## [對 C# 專案進行遠端偵錯](remote-debugging-csharp.md)
 ## [對 C++ 專案進行遠端偵錯](remote-debugging-cpp.md)
+## [在 Azure 上對 ASP.NET 進行遠端偵錯](remote-debugging-azure.md)
 ## [設定 Windows 防火牆進行遠端偵錯](configure-the-windows-firewall-for-remote-debugging.md)
 ## [遠端偵錯工具連接埠指派](remote-debugger-port-assignments.md)
 ## [遠端偵錯錯誤和疑難排解](remote-debugging-errors-and-troubleshooting.md)
