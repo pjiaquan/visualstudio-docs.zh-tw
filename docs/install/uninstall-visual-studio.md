@@ -2,7 +2,7 @@
 title: "解除安裝 Visual Studio 2017 | Microsoft Docs"
 description: "了解如何逐步解除安裝 Visual Studio。"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 03/27/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -32,9 +32,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: b2926232b920fc06c5c14a36d736e6fd73f87f1f
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 9e635a28d3338bcf518a0aec69c476280eedf6e2
+ms.openlocfilehash: 3a4dda7736409ce60d6f1a1aa42b820978d63074
+ms.lasthandoff: 03/27/2017
 
 ---
 
@@ -46,6 +46,9 @@ Visual Studio 是我們提供給開發人員的整合式生產力工具套件，
      例如，在執行「Windows 10 年度更新版」的電腦上，選取 [開始]，然後捲動至字母 [V]，您就會看到它列為 [Visual Studio 安裝程式]。  
 
      ![Visual Studio 安裝程式](media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
+
+     >[!NOTE]
+     在某些電腦上，Visual Studio 安裝程式可能會列在 **"M"** 字母下方，成為 [Microsoft Visual Studio 安裝程式]。
 
 2.  按一下以啟動安裝程式，按一下 ![[詳細資料] 圖示](media/vs2017uninstall-UninstallIcon.png "選取 [選項] 圖示") 圖示，然後按一下 [解除安裝]。  
 

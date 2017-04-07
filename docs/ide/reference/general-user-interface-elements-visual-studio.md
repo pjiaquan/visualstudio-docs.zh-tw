@@ -28,9 +28,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 6fd4350f2e11f95f77cd592f91c1467ddada293d
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 9e635a28d3338bcf518a0aec69c476280eedf6e2
+ms.openlocfilehash: 6cbb3f36dd2ffc0e075b2d79753b1e0e96a8f810
+ms.lasthandoff: 03/27/2017
 
 ---
 # <a name="general-user-interface-elements-visual-studio"></a>一般使用者介面項目 (Visual Studio)
@@ -72,6 +72,9 @@ ms.lasthandoff: 02/22/2017
   
  [、C/C++、文字編輯器、選項](../../ide/reference/options-text-editor-c-cpp-advanced.md)  
  可讓您指定 C 或 C++ 檔案的進階選項。  
+
+[、C/C++、文字編輯器、選項](../../ide/reference/options-text-editor-c-cpp-experimental.md)  
+ 可讓您指定 C 或 C++ 檔案的實驗性選項。 這些選項供您試用並提供意見反應。 它們可能在以後從產品中移除，或以不同的名稱併入產品。 
   
  [格式、C#、文字編輯器、選項](../../ide/reference/options-text-editor-csharp-formatting.md)  
  可讓您指定 C# 檔案的格式化選項。  

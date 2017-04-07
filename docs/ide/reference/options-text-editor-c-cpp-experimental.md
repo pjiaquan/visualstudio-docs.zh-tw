@@ -31,43 +31,29 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: a1edc88394193474b273968d8435e8df06415044
-ms.openlocfilehash: a3fcafe5c191987668dc6e0dce8835d748742ed7
+ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
+ms.openlocfilehash: 780c643c25f0d43ec0564e43bc50d2f36f1aee79
+ms.lasthandoff: 03/27/2017
 
 ---
 # <a name="options-text-editor-cc-experimental"></a>選項、文字編輯器、C/C++、實驗
-藉由變更這些選項，您可以變更進行 C 或 C++ 程式設計時之 IntelliSense 和瀏覽資料庫的相關行為。  
+藉由變更這些選項，您可以變更進行 C 或 C++ 程式設計時之 IntelliSense 和瀏覽資料庫的相關行為。 這些功能是真正實驗性質，可能會修改或從 Visual Studio 未來版本中移除。  
   
  若要存取這個頁面，請在 [選項]  對話方塊的左窗格中依序展開 [文字編輯器] 和 [C/C++] ，然後選擇 [實驗] 。  
-  
- Visual Studio 2015 Update 1 RC 安裝提供這些功能。  
+
+ Visual Studio 2017 安裝提供這些功能。  
   
 > [!NOTE]
->  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置。 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   
-## <a name="browsingnavigation"></a>瀏覽/巡覽  
- **啟用新的 Database Engine**  
- 這應該會自動加速資料庫母體擴展，並讓 [移至定義]  和 [尋找所有參考] 等所有資料庫作業的速度變快 (而不會因此而失準) (只要關閉並重新開啟您的方案，即可套用變更，而不必重新啟動 Visual Studio)。  
-  
-## <a name="intellisense"></a>IntelliSense  
- **成員清單的點取代成箭號**  
- 當成員清單適用時，以 '->' 取代 '.'。  
-  
-## <a name="refactoring"></a>重構  
- **啟用擷取函式**  
- 將選取的程式碼擷取至其自己的函式，並以新函式的呼叫取代程式碼。 若要存取這項功能，請以滑鼠右鍵按一下選取的程式碼並選取 [快速動作] ，或是直接按預設快速鍵 Ctrl+點 [Ctrl+.]。  
-  
- **啟用變更簽章**  
- 加入、重新排列及刪除函式的參數，並將變更散佈到所有呼叫位置。 若要存取這項功能，請以滑鼠右鍵按一下函式並選取 [快速動作] ，或是直接按預設快速鍵 Ctrl+點 [Ctrl+.]。  
-  
-## <a name="text-editor"></a>文字編輯器  
- **啟用展開範圍**  
- 如果啟用，您可以在文字編輯器中輸入 '{'，以大括號來括住選取的文字。  
-  
- **啟用展開優先順序**  
- 如果啟用，您可以在文字編輯器中輸入 '('，以圓括號來括住選取的文字。  
-  
- 如需 Visual Studio 組件庫中的其他文字編輯器功能，請參閱 [這裡](http://go.microsoft.com/fwlink/?LinkId=692016)的清單。 [C++ 快速修正](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f)即為一例，其支援下列項目：  
+## <a name="enable-predictive-intellisense"></a>啟用預測性 Intellisense
+預測性 IntelliSense 會限制顯示在 IntelliSense 下拉式清單中的結果數，讓您只看到內容相關的結果。 例如，如果您輸入 <code>int x =</code> 並叫用 IntelliSense 下拉式清單，您只會看到整數或傳回整數的函式。 根據預設，會關閉預測性 IntelliSense。
+
+## <a name="enable-faster-project-load"></a>啟用更快的專案載入
+此選項會啟用稱為「輕量型解決方案負載」的功能。 當啟用輕量型解決方案負載時，Visual Studio 在實際需要之前不會完全載入專案。 許多一般工作，例如瀏覽程式碼基底、編輯程式碼和建置專案，並不需要載入專案。 啟用此選項時，您可以更快速地開始使用這些一般工作，而不需要等待載入專案。  
+
+## <a name="additional-features-in-the-visual-studio-gallery"></a>Visual Studio 組件庫中的其他功能
+如需 Visual Studio 組件庫中的其他文字編輯器功能，請參閱[這裡](http://go.microsoft.com/fwlink/?LinkId=692016)的清單。 [C++ 快速修正](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f)即為一例，其支援下列項目：  
   
 -   **加入遺漏的 #include** - 建議相關的 #include 來表示程式碼中的未知符號  
   
@@ -82,9 +68,4 @@ ms.openlocfilehash: a3fcafe5c191987668dc6e0dce8835d748742ed7
 ## <a name="see-also"></a>另請參閱  
  [設定語言特定編輯器選項](../../ide/reference/setting-language-specific-editor-options.md)   
  [Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx) (在 C++ 中重構 (VC 部落格))
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

@@ -2,7 +2,7 @@
 title: "修改 Visual Studio 2017 | Microsoft Docs"
 description: "了解如何逐步修改 Visual Studio。"
 ms.custom: H1Hack27Feb2017
-ms.date: 03/07/2017
+ms.date: 03/27/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,9 +34,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 7ba87c0ba023b76a1f992eb9af660decd0b80ccd
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 9e635a28d3338bcf518a0aec69c476280eedf6e2
+ms.openlocfilehash: 183f5761e0b3159412d1da6bb4f30d716a4c41db
+ms.lasthandoff: 03/27/2017
 
 ---
 # <a name="modify-visual-studio-2017-by-adding-or-removing-workloads-and-components"></a>透過新增或移除工作負載和元件來修改 Visual Studio 2017
@@ -52,6 +52,9 @@ ms.lasthandoff: 03/07/2017
      例如，在執行「Windows 10 年度更新版」的電腦上，選取 [開始]，然後捲動至字母 [V]，您就會看到它列為 [Visual Studio 安裝程式]。  
 
      ![Visual Studio 安裝程式](media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
+
+     >[!NOTE]
+     在某些電腦上，Visual Studio 安裝程式可能會列在 **"M"** 字母下方，成為 [Microsoft Visual Studio 安裝程式]。
 
 2.  按一下或點選來啟動安裝程式，然後選取 [修改]。  
 
