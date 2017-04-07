@@ -28,25 +28,23 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 221f4911981deec0330f76a82c0cc8a1b968e56e
-ms.openlocfilehash: 081a569fc7e38fecc8cc1ae5b0f8138ae8f25521
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 2e6e4b3d9d1528d57fe181b3765e1ce3624bebad
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="changes-in-visual-studio-2017-extensibility"></a>在 Visual Studio 2017 擴充性的變更
 
->**注意︰**這份文件為初步資訊而且根據 Visual Studio 2017 RC 版本。
-
 使用 Visual Studio 2017，我們提供[更快、 輕量型 Visual Studio 安裝經驗](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer)，以減少對使用者的系統，Visual Studio 的影響時的工作負載和已安裝的功能讓使用者更大的選擇。 若要支援這些增強功能，我們做了變更擴充性模型，並有一些重大變更對 Visual Studio 擴充性。 本文件將說明這些變更，並做什麼來解決這些問題的技術細節。 請注意，某些資訊是時間點實作詳細資料，而且日後可能變更。
 
-## <a name="changes-affecting-vsix-format-and-installation"></a>變更會影響 VSIX 格式和安裝
+## <a name="changes-affecting-vsix-format-and-installation"></a>VSIX 格式和安裝影響的變更
 
 我們導入 VSIX v3 支援輕量級安裝經驗 （第 3 版） 格式。
 
 VSIX 格式的變更包括︰
 
 * 安裝程式必要條件的宣告。 若要履行承諾的輕量型、 快速安裝 Visual Studio 中，安裝程式現在會為使用者提供更多組態選項。 如此一來，若要確保安裝的功能和擴充功能所需的元件，延伸模組必須宣告它們的相依性。
-  * RC 版本中，Visual Studio 2017 安裝程式會自動提供取得並安裝必要元件，以使用者安裝您的擴充功能的一部分。
+  * Visual Studio 2017 安裝程式會自動提供取得並安裝必要元件，以使用者安裝您的擴充功能的一部分。
   * 嘗試安裝不是使用新的 VSIX v3 格式，即使它們已經標示為目標版本 15.0 其資訊清單中的擴充功能時，還會警告使用者。
 * VSIX 格式的增強的功能。 在傳遞[低影響的安裝](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install)也支援-並存安裝的 Visual studio，我們不再將大部分的組態資料儲存至系統登錄中，移出 GAC 的 Visual Studio 特定組件。 我們也可以增加功能的 VSIX 格式和 VSIX 安裝引擎，可讓您使用它，而非 MSI 或 EXE 來安裝您的擴充功能，某些安裝類型。
 

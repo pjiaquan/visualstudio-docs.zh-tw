@@ -1,7 +1,7 @@
 ---
-title: "CPU 取樣的初級開發人員指南 | Microsoft Docs"
-ms.custom: 
-ms.date: 11/04/2016
+title: "Visual Studio 中 CPU 取樣的初級開發人員指南 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
+ms.date: 03/06/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,8 +34,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 53907b9b88deca671ee0695385dcbc856a35d309
-ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: ddd52c1af0a164235de2e5055896e020dc8715c3
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="beginners-guide-to-cpu-sampling"></a>CPU 取樣的初級開發人員指南
@@ -53,7 +54,7 @@ ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
 > [!TIP]
 >  如果您剖析呼叫 Windows 函式的程式碼，您應該要確定您有最新的 .pdb 檔案。 如果沒有這些檔案，您的報告檢視會列出隱晦且難以了解的 Windows 函式名稱。 如需如何確認您擁有所需檔案的詳細資訊，請參閱[如何：參考 Windows 符號資訊](../profiling/how-to-reference-windows-symbol-information.md)。  
   
-##  <a name="a-namestep1a-create-and-run-a-performance-session"></a><a name="Step1"></a>建立和執行效能工作階段  
+##  <a name="Step1"></a>建立和執行效能工作階段  
  若要取得您要分析的資料，您必須先建立效能工作階段，然後再執行工作階段。 [效能精靈] 可讓您進行這兩項工作。  
   
  如果您不是在對 Windows 傳統型應用程式或 ASP.NET 應用程式進行程式碼剖析，您必須使用其他的程式碼剖析工具。 請參閱[程式碼剖析工具](../profiling/profiling-tools.md)。  
@@ -65,7 +66,7 @@ ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
     > [!IMPORTANT]
     >  如果您不是所使用之電腦的系統管理員，則在使用分析工具時應該以系統管理員身分執行 Visual Studio。 (以滑鼠右鍵按一下 Visual Studio 應用程式圖示，然後按一下 [以系統管理員身分執行]。  
   
-2.  在 [偵錯] 功能表上選擇 [效能分析工具] 。  
+2.  在 [偵錯] 功能表上，選取 [分析工具]，然後選取 [效能分析工具]。  
   
 3.  核取 [效能精靈] 選項，然後按一下 [開始]。  
   
@@ -79,7 +80,7 @@ ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
   
      在您完成執行應用程式後，程式碼剖析資料的 [摘要] 檢視會顯示在 Visual Studio 主視窗中，且新工作階段的圖示會出現在 [效能總管] 視窗中。  
   
-##  <a name="a-namestep2a-step-2-analyze-sampling-data"></a><a name="Step2"></a> 步驟 2：分析取樣資料  
+##  <a name="Step2"></a> 步驟 2：分析取樣資料  
  完成執行效能工作階段之後，分析報告的 [摘要] 檢視會出現在 Visual Studio 主視窗中。  
   
  建議您先檢查 [最忙碌路徑]，接著檢查執行最多工作之函式的清單，最後使用 [摘要時間表] 來專注於其他函式以開始分析資料。 您也可以在 [錯誤清單] 視窗中檢視分析建議和警告。  
@@ -124,7 +125,7 @@ ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
   
     -   若要檢視有關警告的詳細資訊，請以滑鼠右鍵按一下錯誤，然後按一下 [顯示錯誤說明]。  
   
-##  <a name="a-namestep3a-step-3-revise-code-and-rerun-a-session"></a><a name="Step3"></a>步驟 3：修訂程式碼並重新執行工作階段  
+##  <a name="Step3"></a>步驟 3：修訂程式碼並重新執行工作階段  
  在找到並最佳化一個或多個函式之後，您可以重複執行程式碼剖析並且比較資料，識別對應用程式效能的變更所帶來的差異。  
   
 #### <a name="to-revise-code-and-rerun-the-profiler"></a>修訂程式碼並重新執行分析工具  
@@ -143,8 +144,3 @@ ms.openlocfilehash: 072783e138fcc20d80ccbe8ec8b66905778cf67d
  [效能總管](../profiling/performance-explorer.md)   
  [快速入門](../profiling/getting-started-with-performance-tools.md)   
  [概觀](../profiling/overviews-performance-tools.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

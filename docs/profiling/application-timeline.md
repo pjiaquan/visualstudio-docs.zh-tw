@@ -1,21 +1,40 @@
 ---
-title: "應用程式時間軸 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "在 Visual Studio 中分析 XAML 應用程式的資源耗用量 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: df7d854b-0a28-45a9-8a64-c015a4327701
 caps.latest.revision: 11
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 9
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 5455d9a16004fef1aec02fbaf856f336c67dfb05
+ms.lasthandoff: 03/07/2017
+
 ---
-# <a name="application-timeline"></a>應用程式時間軸
+# <a name="analyze-resource-consumption-and-ui-thread-acitivity-xaml"></a>分析資源耗用量和 UI 執行緒活動 (XAML)
 使用 [應用程式時間軸]  程式碼剖析工具來找出並修正 XAML 應用程式中的應用程式互動相關效能問題。 此工具可透過提供應用程式資源耗用量的詳細檢視，來協助改善 XAML 應用程式的效能。 您可以分析應用程式準備 UI 畫面格 (版面配置和轉譯)、服務網路和磁碟要求，以及像是應用程式啟動、頁面載入和視窗大小調整等情況所花費的時間。  
   
  [應用程式時間軸]是可透過 [偵錯/效能分析工具] 命令啟動的工具之一。  
@@ -37,7 +56,7 @@ caps.handback.revision: 9
 > [!NOTE]
 >  除了 [時間軸]  資料之外，您還可以收集並分析 CPU 使用量資料和能源消耗資料。 請參閱[使用或不使用偵錯工具來執行程式碼剖析工具 (Running Profiling Tools With or Without the Debugger)](../profiling/running-profiling-tools-with-or-without-the-debugger.md)。
   
-##  <a name="a-namebkmkcollecttimelinedataforyourappa-collect-application-timeline-data"></a><a name="BKMK_Collect_Timeline_data_for_your_app"></a>收集應用程式時間軸資料  
+##  <a name="BKMK_Collect_Timeline_data_for_your_app"></a>收集應用程式時間軸資料  
  您可以在本機電腦、連接的裝置、Visual Studio 模擬器 (Simulator 或 Emulator) 或遠端裝置上分析應用程式的回應性。 請參閱[使用或不使用偵錯工具來執行程式碼剖析工具 (Running Profiling Tools With or Without the Debugger)](../profiling/running-profiling-tools-with-or-without-the-debugger.md)。
   
 > [!TIP]
@@ -62,34 +81,34 @@ caps.handback.revision: 9
   
      ![時間軸分析工具報告](../profiling/media/timeline_base.png "TIMELINE_Base")  
   
-##  <a name="a-namebkmkanalyzetimelineprofilingdataa-analyze-timeline-profiling-data"></a><a name="BKMK_Analyze_Timeline_profiling_data"></a>分析時間軸程式碼剖析資料  
+##  <a name="BKMK_Analyze_Timeline_profiling_data"></a>分析時間軸程式碼剖析資料  
  收集到分析資料之後，您可以使用下面這些步驟開始分析：  
   
 1.  檢查 [ **UI 執行緒使用率** ] 和 [ **視覺輸送量 (FPS)** ] 圖形中的資訊，然後使用時間軸巡覽列選取您要分析的時間範圍。  
   
 2.  使用 [UI 執行緒使用率]  或 [視覺輸送量 (FPS)]  圖中的資訊，檢查 [時間軸詳細資料]  檢視中的詳細資料，找出任何明顯缺乏回應性的可能原因。  
   
-###  <a name="a-namebkmkreportscenarioscategoriesandeventsa-report-scenarios-categories-and-events"></a><a name="BKMK_Report_scenarios_categories_and_events"></a>報告情節、分類和事件  
+###  <a name="BKMK_Report_scenarios_categories_and_events"></a>報告情節、分類和事件  
  [應用程式時間軸]  工具會顯示與 XAML 效能相關之情節、分類和事件的計時資料。  
   
-###  <a name="a-namebkmkdiagnosticsessiontimelinea-diagnostic-session-timeline"></a><a name="BKMK_Diagnostic_session_timeline"></a>診斷工作階段時間軸  
+###  <a name="BKMK_Diagnostic_session_timeline"></a>診斷工作階段時間軸  
  ![效能及診斷時間軸](../profiling/media/diaghub_timelinewithusermarks.png "DIAGHUB_TimelineWithUserMarks")  
   
  頁面頂端的尺規顯示所分析資訊的時間軸。 這個時間軸同時適用於 [ **UI 執行緒使用率** ] 圖形和 [ **視覺輸送量** ] 圖形。 您可以拖曳時間軸上的巡覽列，選取時間軸的區段，以縮小報告範圍。  
   
  時間軸也會顯示您已插入的所有使用者標記，以及應用程式的啟用週期事件。  
   
-###  <a name="a-namebkmkuithreadutilizationgrapha-ui-thread-utilization-graph"></a><a name="BKMK_UI_thread_utilization_graph"></a>UI 執行緒使用率圖  
+###  <a name="BKMK_UI_thread_utilization_graph"></a>UI 執行緒使用率圖  
  ![CPU 使用率圖形](../profiling/media/timeline_cpuutilization.png "TIMELINE_CpuUtilization")  
   
  [UI 執行緒使用率 (%)]  圖是顯示某項分類在收集時間範圍內相對花費之時間量的橫條圖。  
   
-###  <a name="a-namebkmkvisualthroughputfpsgrapha-visual-throughput-fps-graph"></a><a name="BKMK_Visual_throughput_FPS_graph"></a>視覺輸送量 (FPS) 圖  
+###  <a name="BKMK_Visual_throughput_FPS_graph"></a>視覺輸送量 (FPS) 圖  
  ![視覺輸送量圖形](../profiling/media/timeline_visualthroughput.png "TIMELINE_VisualThroughput")  
   
  [ **視覺輸送量 (FPS)** ] 折線圖會顯示應用程式 UI 和撰寫執行緒上的每秒畫面格數 (FPS)。  
   
-###  <a name="a-namebkmktimelinedetailsa-timeline-details"></a><a name="BKMK_Timeline_details_"></a>時間軸詳細資料  
+###  <a name="BKMK_Timeline_details_"></a>時間軸詳細資料  
  詳細資料檢視是您會花費大部分的時間分析報表之處。 其會顯示由 UI 架構子系統分類之應用程式 CPU 使用率的詳細檢視或耗用 CPU 系統的元件。  
   
  支援的事件如下：  
@@ -106,7 +125,7 @@ caps.handback.revision: 9
 > [!TIP]
 >  當您開始進行程式碼剖析以檢視 UI 執行緒上所執行的應用程式時，請選擇 [CPU 使用量]  工具和 [應用程式時間軸]  工具。 將長時間執行的應用程式程式碼移到背景執行緒可以改善 UI 回應性。  
   
-####  <a name="a-namebkmkcustomizingtimelinedetailsa-customizing-timeline-details"></a><a name="BKMK_Customizing_Timeline_details_"></a> 自訂時間軸詳細資料  
+####  <a name="BKMK_Customizing_Timeline_details_"></a> 自訂時間軸詳細資料  
  您可以使用 [時間軸詳細資料]  工具列來排序、篩選及指定 [時間軸詳細資料]  檢視項目的註釋。  
   
 |||  
@@ -120,8 +139,3 @@ caps.handback.revision: 9
  [WPF 團隊部落格︰WPF 應用程式的新 UI 效能分析工具 (New UI Performance Analysis Tool for WPF Applications)](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
  [使用 C++、C# 及 Visual Basic 的 Windows 市集應用程式的效能最佳做法](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
  [最佳化 WPF 應用程式效能](http://msdn.microsoft.com/Library/ac8c6aa3-3c68-4a24-9827-3b6c829c1ebf)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

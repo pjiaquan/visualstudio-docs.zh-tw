@@ -1,19 +1,38 @@
 ---
 title: "使用 Visual Studio 的 Xamarin 建置具有原生 UI 的應用程式 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- tgt-pltfrm-cross-plat
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 30f137e6-595d-4ce7-b8f5-415b07c1caa2
 caps.latest.revision: 31
-author: "ghogen"
-ms.author: "ghogen"
-manager: "ghogen"
-caps.handback.revision: 23
+author: ghogen
+ms.author: ghogen
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: f78e2b713e75c5601a07907e7f717db92571568b
+ms.openlocfilehash: b9e8ab5432e5c546776a61b364c0886d9f96c096
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>使用 Visual Studio 的 Xamarin 建置具有原生 UI 的應用程式
 在您完成[設定與安裝](../cross-platform/setup-and-install.md)和[驗證您的 Xamarin 環境](../cross-platform/verify-your-xamarin-environment.md)中的步驟之後，本逐步解說將示範如何建立具有原生 UI 層的基本 Xamarin 應用程式 (如下所示)。 使用原生 UI，共用程式碼會位於可攜式類別庫 (PCL) 中，而個別的平台專案會包含 UI 定義。  
@@ -52,7 +71,7 @@ caps.handback.revision: 23
 >      -   [嗨，Xamarin.Forms (英文)](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
 >     -   [嗨，Xamarin.Forms 多重畫面 (英文)](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)  
   
-##  <a name="a-namesolutiona-set-up-your-solution"></a><a name="solution"></a> 設定方案  
+##  <a name="solution"></a> 設定方案  
  下列步驟會建立具有原生 UI 的 Xamarin 方案，其中包含適用於共用程式碼的 PCL 以及兩個已加入的 NuGet 封裝。  
   
 1.  在 Visual Studio 中，建立新的**空的應用程式 (原生可攜式)** 方案，並將其命名為 **WeatherApp**。 您可以在搜尋欄位中輸入**原生可攜式**，就能輕鬆找到這個範本。  
@@ -91,7 +110,7 @@ caps.handback.revision: 23
   
 5.  建置方案，並確認沒有任何建置錯誤。  
   
-##  <a name="a-namedataservicea-write-shared-data-service-code"></a><a name="dataservice"></a> 撰寫共用的資料服務程式碼  
+##  <a name="dataservice"></a> 撰寫共用的資料服務程式碼  
  您可以在 **WeatherApp (可攜式)** 專案中撰寫可攜式類別庫 (PCL) 程式碼，進而跨所有平台共用。 系統會在 iOS、Android 和 Windows Phone 專案所建置的應用程式封裝中自動包含 PCL。  
   
  下列步驟接著會將程式碼新增至 PCL，以存取並儲存該天氣服務的資料：  
@@ -220,12 +239,12 @@ caps.handback.revision: 23
   
 10. 建置 **WeatherApp** PCL 專案，以確保程式碼正確。  
   
-##  <a name="a-nameandroida-design-ui-for-android"></a><a name="Android"></a> 設計適用於 Android 的 UI  
+##  <a name="Android"></a> 設計適用於 Android 的 UI  
  我們現在要設計使用者介面，並將其連接到您的共用程式碼，然後執行應用程式。  
   
 ### <a name="design-the-look-and-feel-of-your-app"></a>設計應用程式的外觀與風格  
   
-1.  在 [方案總管]** 中**，依序展開 [WeatherApp.Droid]>[資源]>[配置] 資料夾，然後開啟 [Main.axml]。 這會在視覺化設計工具中開啟檔案 (如果出現 Java 相關錯誤，請參閱此[部落格文章](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9))。  
+1.  在 [方案總管]**中**，依序展開 [WeatherApp.Droid]>[資源]>[配置] 資料夾，然後開啟 [Main.axml]。 這會在視覺化設計工具中開啟檔案 (如果出現 Java 相關錯誤，請參閱此[部落格文章](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9))。  
   
     > [!TIP]
     >  專案中還有許多其他檔案。 探索這些檔案已超出本主題的範圍。但若您需要深入了解 Android 專案的結構，請參閱 xamarin.com 上「嗨 Android」主題的[第 2 部分深入探討 (英文)](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/)。  
@@ -297,7 +316,7 @@ caps.handback.revision: 23
         android:layout_marginLeft="10dp" />  
     ```  
   
-10. 從 [工具箱] 中，將 [Number] 控制項拖曳至 [RelativeLayout]，並將它放在 [Zip Code] (郵遞區號) 標籤下方。 接著，設定下列屬性：  
+10. 從 [工具箱] 中，將 [Number] 控制項拖曳至 [RelativeLayout]，並將它放在 [Zip Code]\(郵遞區號) 標籤下方。 接著，設定下列屬性：  
   
     |屬性|值|  
     |--------------|-----------|  
@@ -516,14 +535,14 @@ caps.handback.revision: 23
   
 2.  選取適當的裝置或模擬器目標，然後按 F5 鍵以啟動應用程式。  
   
-3.  在裝置上或模擬器中，於編輯方塊中輸入有效的美國郵遞區號 (例如：60601)，然後按 [Get Weather] (獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
+3.  在裝置上或模擬器中，於編輯方塊中輸入有效的美國郵遞區號 (例如：60601)，然後按 [Get Weather]\(獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
   
      ![Android 及 Windows Phone 的氣象應用程式](../cross-platform/media/xamarin_getstarted_results.png "Xamarin_GetStarted_Results")  
   
 > [!TIP]
 >  本專案的完整原始程式碼位於 [GitHub 上的 mobile-samples 存放庫 (英文)](https://github.com/xamarin/mobile-samples/tree/master/Weather) 中。  
   
-##  <a name="a-namewindowsa-design-ui-for-windows-phone"></a><a name="Windows"></a> 設計適用於 Windows Phone 的 UI  
+##  <a name="Windows"></a> 設計適用於 Windows Phone 的 UI  
  我們現在要設計適用於 Windows Phone 的使用者介面、將其連接到您的共用程式碼，然後執行應用程式。  
   
 ### <a name="design-the-look-and-feel-of-your-app"></a>設計應用程式的外觀與風格  
@@ -622,14 +641,14 @@ caps.handback.revision: 23
   
 2.  按 F5 鍵以啟動應用程式。  
   
-3.  在 Windows Phone 模擬器中，於編輯方塊中輸入有效的美國郵遞區號輸入 (例如：60601)，然後按 [Get Weather] (獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
+3.  在 Windows Phone 模擬器中，於編輯方塊中輸入有效的美國郵遞區號輸入 (例如：60601)，然後按 [Get Weather]\(獲知天氣)。 該地區的天氣資料隨即會顯示在控制項中。  
   
      ![執行中應用程式的 Windows 版本](../cross-platform/media/xamarin_getstarted_results_windows.png "Xamarin_GetStarted_Results_Windows")  
   
 > [!TIP]
 >  本專案的完整原始程式碼位於 [GitHub 上的 mobile-samples 存放庫 (英文)](https://github.com/xamarin/mobile-samples/tree/master/Weather) 中。  
   
-##  <a name="a-namenexta-next-steps"></a><a name="next"></a> 後續步驟  
+##  <a name="next"></a> 後續步驟  
  **將適用於 iOS 的 UI 加入至方案**  
   
  加入適用於 iOS 的原生 UI 來延伸此範例。 基於這個理由，您必須在區域網路上連接到已安裝 Xcode 及 Xamarin 的 Mac。 完成此動作之後，您就能直接在 Visual Studio 中使用 iOS 設計工具。 如需完整的應用程式，請參閱 [GitHub 上的 mobile-samples 儲存機制 (英文)](https://github.com/xamarin/mobile-samples/tree/master/Weather)。  
@@ -644,8 +663,3 @@ caps.handback.revision: 23
  [Xamarin 開發人員網站 (英文)](http://developer.xamarin.com/)   
  [Windows 開發人員中心](https://dev.windows.com/en-us)   
  [Swift 與 C# 的快速參考海報 (英文)](http://aka.ms/scposter)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

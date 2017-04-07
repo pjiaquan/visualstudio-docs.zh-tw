@@ -1,6 +1,6 @@
 ---
-title: "HTML UI 回應性 | Microsoft Docs"
-ms.custom: 
+title: "分析 UWP App 中 HTML UI 的回應性 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
 ms.date: 11/04/2016
 ms.reviewer: 
 ms.suite: 
@@ -40,13 +40,13 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: bdfe341252a7c4340a8c0a624d4394124c3efada
-ms.openlocfilehash: 1d230cb011c93ce48a855e86355d4a6ccdf55a29
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 618aaec3a0ae735560d14bea43cc2b08bd9e5445
+ms.lasthandoff: 03/07/2017
 
 ---
-# <a name="html-ui-responsiveness"></a>HTML UI 回應性
-本主題描述如何使用 UI 回應性分析工具隔離應用程式中的效能問題。該效能工具可供 Windows 市集應用程式使用。  
+# <a name="analyze-html-ui-responsiveness-in-universal-windows-apps"></a>分析通用 Windows App 中 HTML UI 的回應性
+本主題描述如何使用 UI 回應性分析工具隔離應用程式中的效能問題。該效能工具可供通用 Windows App 使用。  
   
  UI 回應性分析工具可協助您隔離問題，如 UI 回應性問題，或者平台的副作用，發生時通常伴有下列徵兆：  
   
@@ -145,7 +145,7 @@ ms.lasthandoff: 02/22/2017
     > [!TIP]
     >  分析工具中大部分的有用資訊都會出現在時間軸詳細資料圖表中。  
   
-12. 在 CPU 使用率或視覺輸送量 (FPS) 圖表中選取區域後，選擇 [ **放大** ] (按鈕或內容功能表) 以取得詳細資訊。 圖形的時間軸會變成只顯示選取的時段。  
+12. 在 CPU 使用率或視覺輸送量 (FPS) 圖表中選取區域後，選擇 [ **放大** ]\(按鈕或內容功能表) 以取得詳細資訊。 圖形的時間軸會變成只顯示選取的時段。  
   
 13. 放大時，請選取 CPU 使用率或視覺輸送量圖形的一部分。 確定選取範圍時，分析工具下方窗格的時間軸詳細資料圖形會變成只顯示選取的時段。  
   

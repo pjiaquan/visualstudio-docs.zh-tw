@@ -28,20 +28,18 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: e273f31cb1f43ff79fd9a4ade37d112351dea9b5
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 19ce2d4cc1ff92240529f35f42845778ded49fdf
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="migrate-64-bit-debugger-com-class-registration"></a>移轉 64 位元偵錯工具的 COM 類別登錄
-
->**注意︰**這份文件為初步資訊而且根據 Visual Studio 2017 RC 版本。
 
 偵錯工具擴充功能的 （藉由使用 regasm，regsvr32，或直接寫入登錄），在 HKEY_CLASSES_ROOT 登錄 COM 類別，並載入 msvsmon.exe （遠端偵錯工具），您就可以提供此註冊，以 msvsmon 而不需要撰寫至 HKEY_CLASSES_ROOT。 這會影響舊版的.NET 偵錯工具運算式評估工具或已設定為 msvsmon.exe 程序中載入的偵錯引擎。
 
 ## <a name="msvsmon-comclass-def"></a>msvsmon-comclass def
 
-若要使用這項技術，將 *.msvsmon-comclass-def.json 檔案旁 msvsmon (InstallDir:\Common7\IDE\Remote Debugger\x64)。
+若要使用這項技術，將 *.msvsmon-comclass-def.json 檔案旁邊 msvsmon (InstallDir:\Common7\IDE\Remote Debugger\x64)。
 
 以下是範例 msvsmon-comclass def 檔註冊其中一個受管理和一個原生類別︰
 

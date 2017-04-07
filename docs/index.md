@@ -4,9 +4,9 @@ hide_bc: true
 title: "Visual Studio 文件"
 description: "了解如何使用 Visual Studio 2017 以您選擇的語言，為您的平台和裝置開發應用程式、服務及工具。"
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 2a782993b8e2787c99c384c6df9c72316fe11521
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 06cdfb076120ffd7459a16b56c659bb86942cd7f
+ms.openlocfilehash: 5a8448dff45473fa40892fb07604759a9d015021
+ms.lasthandoff: 03/31/2017
 
 ---
 <div id="main" class="v2">
@@ -287,7 +287,7 @@ ms.lasthandoff: 03/07/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>.NET 的行動裝置程式開發</h3>
+                                                    <h3>使用 .NET 的行動應用程式開發</h3>
                                                     <p>使用 Xamarin，建置 iOS、Android 或 Windows 的跨平台應用程式。</p>
                                                 </div>
                                             </div>
@@ -570,8 +570,26 @@ ms.lasthandoff: 03/07/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>擴充</h3>
-                                                    <p>將您自己的功能加入至 Visual Studio IDE 來改善您的開發經驗。
-                                                    </p>
+                                                    <p>將您自己的功能加入至 Visual Studio IDE 來改善您的開發經驗。</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/visualstudio/data-tools/accessing-data-in-visual-studio">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/vs_features-9.svg" src="./images/vs_features-9.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>資料</h3>
+                                                    <p>建立幾乎可以連線到所有資料庫產品或服務中，任何格式、任何位置 (本機電腦、區域網路、公用雲端、私人雲端或混合式雲端) 之資料的應用程式。</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -1,27 +1,46 @@
 ---
-title: "使用 UI 自動化來測試您的程式碼 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.codedUITest"
-  - "vs.codedUITest.recorder"
-  - "vs.codedUITest.testbuilder"
-  - "vs.codedUITest.addAssertions"
-  - "vs.codedUITest.createdialog"
-helpviewer_keywords: 
-  - "自動化測試, 測試 UI 介面"
-  - "自動程式碼 UI 測試"
+title: "使用使用者介面自動化來測試您的程式碼 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.codedUITest
+- vs.codedUITest.recorder
+- vs.codedUITest.testbuilder
+- vs.codedUITest.addAssertions
+- vs.codedUITest.createdialog
+helpviewer_keywords:
+- automated tests, testing UI interface
+- coded UI test
 ms.assetid: ad9e3eaa-ab86-436e-95b8-dc20eb1f8b2a
 caps.latest.revision: 85
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 83
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
+ms.openlocfilehash: 753a39940ba32052cff14460f007a8f8a2d191dd
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>使用 UI 自動化來測試您的程式碼
 驅動應用程式通過其使用者介面 (UI) 的自動化測試稱為「自動程式化 UI 測試」(CUIT)。 這些測試包括 UI 控制項的功能測試。 它們可讓您確認整個應用程式 (包括其使用者介面) 正確運作。 自動程式碼 UI 測試特別適用於使用者介面中有驗證或其他邏輯時 (例如，在網頁中)。 它們也經常用來自動化現有手動測試。  
@@ -62,13 +81,13 @@ caps.handback.revision: 83
   
 -   [後續步驟](#VerifyCodeUsingCUITWhatsNext)  
   
-##  <a name="a-nameverifyingcodeusingcuitcreatea-creating-coded-ui-tests"></a><a name="VerifyingCodeUsingCUITCreate"></a> 建立自動程式化 UI 測試  
+##  <a name="VerifyingCodeUsingCUITCreate"></a> 建立自動程式化 UI 測試  
   
 1.  **建立自動程式化 UI 測試專案。**  
   
      自動程式化 UI 測試必須包含在自動程式化 UI 測試專案中。 如果您還沒有自動程式化 UI 測試專案，請予以建立。 在 [方案總管] 的方案捷徑功能表上，依序選擇 [加入] 和 [新增專案]，然後選取 [Visual Basic] 或 [Visual C#]。 接著，依序選擇 [測試] 和 [自動程式化 UI 測試]。  
   
-    -   *我看不到 [自動程式化 UI 測試]** 專案範本。*  
+    -   *我看不到 [自動程式化 UI 測試]**專案範本。*  
   
          您使用的 Visual Studio 版本可能不支援自動程式化 UI 測試。 若要建立自動程式化 UI 測試，您必須使用 Visual Studio Enterprise。  
   
@@ -153,7 +172,7 @@ caps.handback.revision: 83
   
  如需更詳細的範例，請參閱[逐步解說：建立、編輯和維護自動程式化 UI 測試](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)。 在這個逐步解說中，您將建立簡單的 Windows Presentation Foundation (WPF) 應用程式，以示範如何建立、編輯和維護自動程式化 UI 測試。 本逐步解說提供解決方案用來修正各種因時間問題和控制項重構而中斷的測試。  
   
-###  <a name="a-namestartinga-starting-and-stopping-the-application-under-test"></a><a name="starting"></a> 啟動和停止受測試的應用程式  
+###  <a name="starting"></a> 啟動和停止受測試的應用程式  
  *我不想要分別針對每個測試啟動和停止應用程式、瀏覽器或資料庫。我要如何避免這麼做？*  
   
 -   ![必要條件](../test/media/prereq.png "Prereq") 如果您不想要錄製可啟動受測試應用程式的動作，則必須先啟動應用程式，再選擇 [錄製] 圖示。  
@@ -164,7 +183,7 @@ caps.handback.revision: 83
   
 -   ![必要條件](../test/media/prereq.png "Prereq") 您可以加入測試清除方法 (透過 [TestCleanup] 屬性予以識別)，此方法會在每個測試方法結束時執行程式碼。 例如，可以從 TestCleanup 方法呼叫關閉應用程式的方法。  
   
-###  <a name="a-nameverifyingcodeusingcuitgenerateassertionsa-validating-the-properties-of-ui-controls"></a><a name="VerifyingCodeUsingCUITGenerateAssertions"></a> 驗證 UI 控制項的屬性  
+###  <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> 驗證 UI 控制項的屬性  
  您可以使用**自動程式化 UI 測試產生器**，將使用者介面 (UI) 控制項加入至您測試的 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>，或者為針對使用 UI 控制項判斷提示的驗證方法產生程式碼。  
   
  若要產生 UI 控制項的判斷提示，請選擇自動程式化 UI 測試產生器中的 [加入判斷提示] 工具，並將它拖曳至受測試應用程式上想要驗證是否正確的控制項。 有方塊括住控制項時，請放開滑鼠。 此控制類別碼會立即在 `UIMap.Designer.cs` 檔案中建立。  
@@ -285,7 +304,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 ```  
   
-##  <a name="a-nameverifyingcodecuitmodifya-customizing-your-coded-ui-test"></a><a name="VerifyingCodeCUITModify"></a> 自訂您的自動程式化 UI 測試  
+##  <a name="VerifyingCodeCUITModify"></a> 自訂您的自動程式化 UI 測試  
  在您建立自動程式化 UI 測試之後，就可以在 Visual Studio 中使用下列任何工具對其進行編輯：  
   
 -   **自動程式化 UI 測試產生器：**使用自動程式化 UI 測試產生器，將其他控制項和驗證加入至您的測試。 請參閱本主題中的[加入控制項並驗證其屬性](#VerifyingCodeUsingCUITGenerateAssertions)小節。  
@@ -312,7 +331,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
         -   [自動程式化 UI 測試和動作記錄的支援組態和平台](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)  
   
-###  <a name="a-namegeneratedcodea-the-generated-code"></a><a name="generatedCode"></a> 產生的程式碼  
+###  <a name="generatedCode"></a> 產生的程式碼  
  當您選擇 [產生程式碼] 時，會建立數段程式碼：  
   
 -   **測試方法中的行。**  
@@ -380,7 +399,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
  如需產生的程式碼的詳細資訊，請參閱[自動程式化 UI 測試的結構](../test/anatomy-of-a-coded-ui-test.md)。  
   
-###  <a name="a-nameactionsa-coding-ui-control-actions-and-properties"></a><a name="actions"></a> 編寫 UI 控制項動作和屬性的程式碼  
+###  <a name="actions"></a> 編寫 UI 控制項動作和屬性的程式碼  
  當您在自動程式化 UI 測試中使用 UI 測試控制項時，UI 測試控制項分成兩個部分：動作和屬性。  
   
 -   第一個部分包含您可以對 UI 測試控制項執行的動作。 例如，自動程式碼 UI 測試可以在 UI 測試控制項上模擬按一下滑鼠，或模擬在鍵盤上鍵入的按鍵來影響 UI 測試控制項。  
@@ -436,10 +455,10 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
      `SetProperty(myWinCheckBox.PropertyNames.Checked, true);`  
   
-###  <a name="a-namedebugginga-debugging"></a><a name="debugging"></a> 偵錯  
+###  <a name="debugging"></a> 偵錯  
  您可以使用自動程式化 UI 測試記錄來分析自動程式化 UI 測試。 自動程式碼 UI 測試記錄會篩選和錄製您自動程式碼 UI 測試執行的重要資訊。 記錄的格式可讓您快速偵錯問題。 如需詳細資訊，請參閱[使用自動程式化 UI 測試記錄分析自動程式化 UI 測試](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)。  
   
-##  <a name="a-nameverifycodeusingcuitwhatsnexta-whats-next"></a><a name="VerifyCodeUsingCUITWhatsNext"></a> 後續步驟  
+##  <a name="VerifyCodeUsingCUITWhatsNext"></a> 後續步驟  
  **執行自動程式化 UI 測試的其他選項：**您可以直接從 Visual Studio 執行自動程式化 UI 測試 (如本主題前面所述)。 此外，您可以從 [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] 或 [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] 執行自動化 UI 測試。 與其他自動化測試不同，如果自動化自動程式化 UI 測試，則在您執行程式碼 UI 測試時，其必須與桌面進行互動。  
   
 -   [如何：從 Microsoft Visual Studio 執行測試](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)  
@@ -491,8 +510,4 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
  [自動程式化 UI 測試和動作記錄的支援組態和平台](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
  [升級 Visual Studio 2010 的自動程式化 UI 測試](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)   
  [從現有的動作記錄產生自動程式化 UI 測試](/devops-test-docs/test/generating-a-coded-ui-test-from-an-existing-action-recording)
-
-
-<!--HONumber=Feb17_HO4-->
-
 

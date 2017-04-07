@@ -3,6 +3,7 @@
 # [解除安裝 Visual Studio](uninstall-visual-studio.md)
 # [Visual Studio 系統管理員指南](visual-studio-administrator-guide.md)
 ## [使用命令列參數安裝 Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+## [命令列參數範例](command-line-parameter-examples.md)
 ## [建立 Visual Studio 的離線安裝](create-an-offline-installation-of-visual-studio.md)
 ## [部署 Visual Studio 時會自動套用產品金鑰](automatically-apply-product-keys-when-deploying-visual-studio.md)
 ## [Visual Studio 工作負載與元件識別碼](workload-and-component-ids.md)

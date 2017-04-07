@@ -1,26 +1,44 @@
 ---
 title: "逐步解說：從頭開始建立 MSBuild 專案檔案 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "MSBuild、 教學課程"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- MSBuild, tutorial
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 20
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 8cc8cb349901c7a2b0c94875d29e602c33baa5bf
+ms.lasthandoff: 04/05/2017
+
 ---
 # <a name="walkthrough-creating-an-msbuild-project-file-from-scratch"></a>逐步解說：從頭開始建立 MSBuild 專案檔案
 以 .NET Framework 為目標的程式設計語言，使用 MSBuild 專案檔描述及控制應用程式建置流程。 當您使用 Visual Studio 建立 MSBuild 專案檔時，系統會自動將適當的 XML 加入該檔案。 不過，您可能會發現，了解 XML 的組織方式，以及您如何對其進行變更以控制組建會非常有用。  
   
- 如需為 C++ 專案建立專案檔的相關資訊，請參閱 [MSBuild (Visual C++)](/visual-cpp/build/msbuild-visual-cpp)。  
+ 如需為 C++ 專案建立專案檔的相關資訊，請參閱 [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp)。  
   
  此逐步解說顯示如何僅使用文字編輯器以累加方式建立基本專案檔。 此逐步解說遵循下列步驟：  
   
@@ -480,8 +498,3 @@ caps.handback.revision: 20
 ## <a name="see-also"></a>另請參閱  
 [MSBuild 概觀](../msbuild/msbuild.md)  
  [MSBuild 參考](../msbuild/msbuild-reference.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

@@ -1,57 +1,73 @@
 ---
-title: "IDebugBreakpointRequest3 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugBreakpointRequest3"
-helpviewer_keywords: 
-  - "IDebugBreakpointRequest3"
+title: "IDebugBreakpointRequest3 |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugBreakpointRequest3
+helpviewer_keywords:
+- IDebugBreakpointRequest3
 ms.assetid: 8a042beb-b319-48e3-b3c8-9c8336ab371b
 caps.latest.revision: 8
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 8
----
-# IDebugBreakpointRequest3
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 61307781f8d386e7011422c0df815d80113b95cd
+ms.lasthandoff: 04/05/2017
 
-這個介面表示建立與繫結任何中斷點類型的必要資訊。  這是副檔名為[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)。  
+---
+# <a name="idebugbreakpointrequest3"></a>IDebugBreakpointRequest3
+此介面代表建立並繫結任何中斷點類型的所需的資訊。 它是一個擴充的[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)。  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
 IDebugBreakpointRequest3 : IDebugBreakpointRequest2  
 ```  
   
-## 實作器注意事項  
- 工作階段偵錯管理員 \(SDM\) 通常會實作這個介面。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ 工作階段的偵錯管理員 (SDM) 通常會實作這個介面。  
   
-## 呼叫者的備忘稿  
- 偵錯引擎 \(DE\) 存取這個介面，藉由呼叫[QueryInterface](/visual-cpp/atl/queryinterface) IDebugBreakpointRequest2 介面收到的呼叫[CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ 偵錯引擎 (DE) 存取這個介面，藉由呼叫[QueryInterface](/cpp/atl/queryinterface) IDebugBreakpointRequest2 介面的呼叫中收到[CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)。  
   
-## 方法 Vtable 順序  
- 除了繼承自 [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md) 的方法之外，`IDebugBreakpointRequest3` 介面還會公開下列方法。  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
+ 除了繼承自[IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)、`IDebugBreakpointRequest3`介面會公開下列方法。  
   
-|方法|描述|  
-|--------|--------|  
-|[GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md)|取得描述這個中斷點要求中斷點要求資訊。|  
+|方法|說明|  
+|------------|-----------------|  
+|[GetRequestInfo2](../../../extensibility/debugger/reference/idebugbreakpointrequest3-getrequestinfo2.md)|取得描述此中斷點要求的中斷點要求資訊。|  
   
-## 備註  
- 此介面用來提供其他資訊給透過 DE [BP\_REQUEST\_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)結構。  這項額外資訊包含 DE 廠商識別碼 \(以 GUID 形式表示的\) 的追蹤點的名稱，中斷點的條件約束名稱。  
+## <a name="remarks"></a>備註  
+ 這個介面用來提供其他資訊給透過 DE [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)結構。 這項額外資訊包括 DE 廠商識別碼 （中的 GUID 格式）、 追蹤點的名稱和中斷點條件約束的名稱。  
   
-## 需求  
- 標頭: msdbg.h  
+## <a name="requirements"></a>需求  
+ 標頭︰ msdbg.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件： Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [IDebugBreakpointRequest2](../../../extensibility/debugger/reference/idebugbreakpointrequest2.md)   
- [BP\_REQUEST\_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)
+ [BP_REQUEST_INFO2](../../../extensibility/debugger/reference/bp-request-info2.md)

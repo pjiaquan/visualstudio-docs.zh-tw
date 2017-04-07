@@ -31,13 +31,13 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 005911465f7ba78a3a6dcdf8249a96443cd12355
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: e36f2863680dea79451e57d06bd749b52fbed933
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="idebugaddress2"></a>IDebugAddress2
-這個介面會提供存取擁有物件的位址的處理序識別碼由這個介面。  
+這個介面提供的存取權，擁有物件的位址的處理序的識別碼由這個介面。  
   
 ## <a name="syntax"></a>語法  
   
@@ -46,17 +46,17 @@ IDebugAddress2 : IDebugAddress
 ```  
   
 ## <a name="notes-for-implementers"></a>實作者注意事項  
- 符號提供者實作的相同物件上實作這個介面[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面。 這個介面會提供存取權擁有的物件，這個地址相關的處理序的識別碼。  
+ 符號提供者會實作此介面實作在相同物件上[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面。 這個介面會提供存取給擁有此位址相關物件的程序的識別碼。  
   
 ## <a name="notes-for-callers"></a>呼叫端資訊  
- 使用[QueryInterface](/visual-cpp/atl/queryinterface)以取得此介面從[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面。  
+ 使用[QueryInterface](/cpp/atl/queryinterface)獲得從這個介面[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面。  
   
 ## <a name="methods-in-vtable-order"></a>依照 vtable 順序的方法  
- 除了繼承自方法[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面，這個介面會實作下列方法︰  
+ 除了繼承自[IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md)介面，這個介面會實作下列方法︰  
   
 |方法|描述|  
 |------------|-----------------|  
-|[GetProcessID](../../../extensibility/debugger/reference/idebugaddress2-getprocessid.md)|擷取處理序擁有此介面所表示之物件的識別碼。|  
+|[GetProcessID](../../../extensibility/debugger/reference/idebugaddress2-getprocessid.md)|擷取擁有此介面所表示之物件的處理序識別碼。|  
   
 ## <a name="requirements"></a>需求  
  標頭︰ sh.h  

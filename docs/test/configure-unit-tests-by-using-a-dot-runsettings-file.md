@@ -10,7 +10,7 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: f7e9e4a2-5d01-4f78-b408-5be3892bd162
 caps.latest.revision: 25
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - de-de
@@ -30,6 +30,7 @@ translation.priority.mt:
 translationtype: Human Translation
 ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
 ms.openlocfilehash: 04c981d458912aaf3802e727369893759faab3a5
+ms.lasthandoff: 02/22/2017
 
 ---
 # <a name="configure-unit-tests-by-using-a-runsettings-file"></a>使用 .runsettings 檔案設定單元測試
@@ -58,7 +59,7 @@ ms.openlocfilehash: 04c981d458912aaf3802e727369893759faab3a5
   
  ![啟用回合設定檔](../test/media/runsettings-1.png "RunSettings-1")  
   
-##  <a name="a-nameexamplea-copy-this-example-runsettings-file"></a><a name="example"></a> 複製這個範例 .runsettings 檔案  
+##  <a name="example"></a> 複製這個範例 .runsettings 檔案  
  以下是一般 *.runsettings 檔案。 因為每個值都有預設值，因此該檔案的每個項目都是選擇性的。  
   
 ```xml  
@@ -180,8 +181,4 @@ ms.openlocfilehash: 04c981d458912aaf3802e727369893759faab3a5
 ## <a name="see-also"></a>另請參閱  
  [自訂程式碼涵蓋範圍分析](../test/customizing-code-coverage-analysis.md)   
  [指定 Visual Studio 測試的測試設定](/devops-test-docs/test/specifying-test-settings-for-visual-studio-tests)
-
-
-<!--HONumber=Feb17_HO4-->
-
 

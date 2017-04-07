@@ -1,19 +1,38 @@
 ---
-title: "應用程式生命週期管理 (ALM) (含 Unity 應用程式) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "應用程式生命週期管理 (ALM) 與 Unity 應用程式 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- tgt-pltfrm-cross-plat
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 caps.latest.revision: 12
-author: "ghogen"
-ms.author: "ghogen"
-manager: "ghogen"
-caps.handback.revision: 12
+author: ghogen
+ms.author: ghogen
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: f78e2b713e75c5601a07907e7f717db92571568b
+ms.openlocfilehash: 06a708113c86ca51a4ef98399b34b9dec8e90ccc
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="application-lifecycle-management-alm-with-unity-apps"></a>應用程式生命週期管理 (ALM) (含 Unity 應用程式)
 開發新型平台的應用程式比起只撰寫程式碼牽涉到更多活動。 這些稱為 DevOps (開發 + 作業) 的活動橫跨整個應用程式生命週期，包含計劃和追蹤工作、設計和實作程式碼、管理原始程式碼儲存機制、執行建置、管理持續整合和部署、測試 (包含單元測試和 UI 測試)、在開發和生產環境中執行各種形式的診斷，以及透過遙測和分析即時監視應用程式效能和使用者行為。  
@@ -113,13 +132,8 @@ caps.handback.revision: 12
 |上傳至應用程式存放區|Partial|您可以針對某些應用程式存放區，使用擴充功能來自動化此程序。  請參閱[適用於 Visual Studio Team Services 的擴充功能 (英文)](https://marketplace.visualstudio.com/VSTS)；例如[適用於 Google Play 的擴充功能 (英文)](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play)。|  
   
 ## <a name="monitor-with-hockeyapp"></a>使用 HockeyApp 監視  
- 參考連結︰** [使用 HockeyApp 監視 (英文)](https://www.hockeyapp.net/features/)**  
+ 參考連結︰**[使用 HockeyApp 監視 (英文)](https://www.hockeyapp.net/features/)**  
   
 |功能|支援 Unity|其他註解|  
 |-------------|--------------------------|-------------------------|  
 |當機分析、遙測和 Beta 發佈|是|HockeyApp 主要用於處理 Beta 發佈和取得當機報告。<br /><br /> 針對來自 C# 指令碼的遙測，可以使用任何分析架構，但前提是它在 Unity 所使用的 .NET 版本上執行。 不過，這只允許遊戲指令碼內的分析，並不會深入 Unity 引擎內部。 目前沒有任何適用的 Application Insights 的外掛程式，但外掛程式適用於其他分析解決方案，例如 [Unity Analytics (英文)](https://www.assetstore.unity3d.com/en/#!/content/28120) 和 [Google Analytics (英文)](https://github.com/googleanalytics/google-analytics-plugin-for-unity)。 當然，了解 Unity 專案本質的服務 (如 Unity Analytics) 所提供的分析比一般架構更有意義。|
-
-
-<!--HONumber=Feb17_HO4-->
-
-

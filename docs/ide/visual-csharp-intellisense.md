@@ -55,13 +55,13 @@ ms.lasthandoff: 02/22/2017
   
  C# 中的完成清單也十分聰明，可以篩選掉不相關的語彙基元，並根據內容預先選取語彙基元。 如需詳細資訊，請參閱 [C# 中已篩選的完成清單](../misc/filtered-completion-lists-in-csharp.md)和 [C# 中預先選取的完成清單項目](../misc/pre-selected-completion-list-items-in-csharp.md)。  
   
-###  <a name="a-namecodesnippetsa-code-snippets-in-completion-lists"></a><a name="CodeSnippets"></a> 完成清單中的程式碼片段  
+###  <a name="CodeSnippets"></a> 完成清單中的程式碼片段  
  Visual C# 完成清單包含程式碼片段，可以協助您在程式中輕鬆地插入預先定義的程式碼主體。 在完成清單中，程式碼片段會顯示為片段的 [Shortcut 項目 (IntelliSense 程式碼片段)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa)。  如需 Visual C# 中所提供之預設程式碼片段的詳細資訊，請參閱 [Visual C# 程式碼片段](../ide/visual-csharp-code-snippets.md)。  
   
-###  <a name="a-namekeywordsa-language-keywords-in-completion-lists"></a><a name="Keywords"></a> 完成清單中的語言關鍵字  
+###  <a name="Keywords"></a> 完成清單中的語言關鍵字  
  Visual C# 的完成清單也包含語言關鍵字。 如需 C# 語言關鍵字的詳細資訊，請參閱 [C# 關鍵字](/dotnet/csharp/language-reference/keywords/index)。  
   
-###  <a name="a-nameextensionmethodsa-extension-methods-in-completion-lists"></a><a name="ExtensionMethods"></a> 完成清單中的擴充方法  
+###  <a name="ExtensionMethods"></a> 完成清單中的擴充方法  
  Visual C# 的完成清單包含範圍內的擴充方法。  
   
 > [!NOTE]
@@ -93,7 +93,7 @@ ms.lasthandoff: 02/22/2017
 -   參數會自動排序到符合您所輸入之參數的第一個方法多載。 如有多個方法多載，您可以使用向上鍵與向下鍵巡覽至清單中下一個可能的多載。  
   
 ## <a name="most-recently-used-members"></a>最近使用的成員  
- IntelliSense 會記住您最近在 [列出成員][](../ide/using-intellisense.md) 快顯方塊中選取的成員，自動完成物件名稱。 下次使用 [成員] 清單時，最近使用過的成員就會顯示在頂端。 IDE 會在每個工作階段之間，清除最近使用過的成員記錄。  
+ IntelliSense 會記住您最近在 [[列出成員]](../ide/using-intellisense.md) 快顯方塊中選取的成員，自動完成物件名稱。 下次使用 [成員] 清單時，最近使用過的成員就會顯示在頂端。 IDE 會在每個工作階段之間，清除最近使用過的成員記錄。  
   
 ## <a name="override"></a>override  
  當您鍵入 [override](/dotnet/csharp/language-reference/keywords/override)，然後按下空格鍵時，IntelliSense 即會在快顯清單方塊中顯示所有您可以覆寫的有效基底類別成員。 在 `override` 之後輸入方法的傳回類型，可提示 IntelliSense 僅顯示會傳回相同類型的方法。 當 IntelliSense 找不到任何相符項目時，它會顯示所有基底類別成員。  
@@ -112,7 +112,7 @@ ms.lasthandoff: 02/22/2017
  ![加入 using，智慧標籤展開的影像](../ide/media/addusesmartexp.gif "AddUseSmartExp")  
   
 ### <a name="organize-usings"></a>組合管理 Using  
- [組合管理 Using]**`extern` 選項會排序並移除 ** 和 `using` 宣告，但不變更原始程式碼的行為。 不必要且缺乏組織的 `using` 指示詞會使原始程式碼隨著時間而變得繁雜難以閱讀。 [組合管理 Using] 選項可移除未使用的 `using` 指示詞來精簡原始程式碼，並加以排序來改善可讀性。  
+ [組合管理 Using]**`extern` 選項會排序並移除** 和 `using` 宣告，但不變更原始程式碼的行為。 不必要且缺乏組織的 `using` 指示詞會使原始程式碼隨著時間而變得繁雜難以閱讀。 [組合管理 Using] 選項可移除未使用的 `using` 指示詞來精簡原始程式碼，並加以排序來改善可讀性。  
   
  若要查看 Visual Studio IDE 中的可用選項，請在 [編輯] 功能表上，指向 [IntelliSense]，然後指向 [組合管理 Using]。 IDE 提供下列選項來組合管理和移除 `usings` 指示詞：  
   

@@ -1,25 +1,44 @@
 ---
-title: "Application Page, Project Designer (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vb.ProjectPropertiesApplicationWPF"
-  - "vb.ProjectPropertiesApplication"
-helpviewer_keywords: 
-  - "專案設計工具，應用程式頁面"
-  - "專案設計工具中的應用程式頁面"
+title: "專案設計工具、應用程式頁面 (Visual Basic) | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vb.ProjectPropertiesApplicationWPF
+- vb.ProjectPropertiesApplication
+helpviewer_keywords:
+- Project Designer, Application page
+- Application page in Project Designer
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 64
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 64
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
+ms.openlocfilehash: d95f62f61261c9c5c9af36e3bb2ee6fe66d63d2a
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="application-page-project-designer-visual-basic"></a>Application Page, Project Designer (Visual Basic)
 使用 [專案設計工具] 的 [應用程式] 頁面來指定專案的應用程式設定和屬性。  
@@ -76,7 +95,7 @@ caps.handback.revision: 64
  **啟動表單/啟始物件/啟動 URI**  
  指定應用程式的啟動表單或進入點。  
   
- 如果選取 [啟用應用程式架構] (預設)，此清單的標題為 [啟動表單]，而且因為應用程式架構只支援啟動表單，而非物件，所以只會顯示表單。  
+ 如果選取 [啟用應用程式架構]\(預設)，此清單的標題為 [啟動表單]，而且因為應用程式架構只支援啟動表單，而非物件，所以只會顯示表單。  
   
  如果專案是 WPF 瀏覽器應用程式，此清單的標題為 [啟動 URI]，而且預設值為 **Page1.xaml**。 [啟動 URI] 清單可讓您指定應用程式在啟動時顯示的使用者介面資源 (XAML 項目)。 如需詳細資訊，請參閱 <xref:System.Windows.Application.StartupUri%2A>。  
   
@@ -158,8 +177,3 @@ caps.handback.revision: 64
 ## <a name="see-also"></a>另請參閱  
 [管理應用程式屬性](../../ide/application-properties.md)
  [撰寫 Office 方案中的程式碼](/office-dev/office-dev/writing-code-in-office-solutions)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

@@ -1,4 +1,5 @@
 ---
+redirect_url: /visualstudio/ide/refactoring-code-generation-quick-actions
 title: "Visual Studio 中的程式碼產生 | Microsoft Docs"
 ms.custom: 
 ms.date: 11/16/2016
@@ -30,6 +31,7 @@ translation.priority.ht:
 translationtype: Human Translation
 ms.sourcegitcommit: 4d3dde251368507690faa54f94138872b16b9b44
 ms.openlocfilehash: 8676fd2957a713e101b65623e38e06299191bce6
+ms.lasthandoff: 02/22/2017
 
 ---
 
@@ -52,8 +54,3 @@ Visual Studio 可協助產生部分的原始程式碼，讓您專注於實際工
 [Visual Studio IDE](../ide/visual-studio-ide.md)   
 [在程式碼和文字編輯器中撰寫程式碼](../ide/writing-code-in-the-code-and-text-editor.md)  
 [預覽變更](preview-changes.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

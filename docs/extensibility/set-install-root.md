@@ -28,14 +28,12 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 4e8ceb1c988f639d0ea18b94e206ddec2d3e764c
-ms.openlocfilehash: 5c103b5f038260a17f64af56f78f0b3f37e3bb32
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 6d87c86d0a7793f661c6a3b28e95340f3a28c616
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="installing-outside-the-extensions-folder"></a>安裝擴充功能資料夾之外
-
->**注意︰**這份文件為初步資訊而且根據 Visual Studio 2017 RC 版本。
 
 從 Visual Studio 2017 和 VSIX v3 （第 3 版），現在已支援安裝擴充功能資料夾以外的延伸模組資產。 目前，做為有效的安裝位置 （[installdir] 會對應至 Visual Studio 執行個體的安裝目錄），會啟用下列位置︰
 

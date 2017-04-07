@@ -1,37 +1,57 @@
 ---
-title: "目標項目 (MSBuild) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "目標項目 [MSBuild]"
-  - "<Target> 項目 [MSBuild]"
+title: "Target 項目 (MSBuild) | Microsoft Docs"
+ms.custom: 
+ms.date: 03/13/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- http://schemas.microsoft.com/developer/msbuild/2003#Target
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- Target element [MSBuild]
+- <Target> element [MSBuild]
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 34
----
-# 目標項目 (MSBuild)
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 0e5a449ef396e7b9fd23a2c018bdc7f8791b7b38
+ms.openlocfilehash: 217f42db123e95557c2425b5678fb1ac9473c162
+ms.lasthandoff: 03/13/2017
 
-包含 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 會依序執行的一組工作。  
-  
-## 語法  
-  
+---
+# <a name="target-element-msbuild"></a>目標項目 (MSBuild)
+包含一組可循序執行的 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 工作。  
+
+ \<Project>  
+ \<Target>  
+
+## <a name="syntax"></a>語法  
+
 ```  
 <Target Name="Target Name"  
         Inputs="Inputs"  
@@ -49,59 +69,59 @@ caps.handback.revision: 34
     <OnError... />  
 </Target>  
 ```  
-  
-## 屬性和項目  
- 下列章節會說明屬性、子項目和父項目。  
-  
-### 屬性  
-  
+
+## <a name="attributes-and-elements"></a>屬性和項目  
+ 下列章節說明屬性、子項目和父項目。  
+
+### <a name="attributes"></a>屬性  
+
 |屬性|描述|  
-|--------|--------|  
+|---------------|-----------------|  
 |`Name`|必要屬性。<br /><br /> 目標的名稱。|  
-|`Condition`|選擇性屬性。<br /><br /> 要評估的條件。  如果條件評估為 `false`，目標就不會執行目標的主體，或是 `DependsOnTargets` 屬性中設定的任何目標。  如需條件的詳細資訊，請參閱 [Conditions](../msbuild/msbuild-conditions.md)。|  
-|`Inputs`|選擇性屬性。<br /><br /> 形成輸入這個目標的檔案。  多檔案以分號隔開。  檔案的時間戳記與檔案會比較時間戳記在 `Outputs` 的判斷 `Target` 是否為最新狀態。  如需詳細資訊，請參閱 [累加建置](../msbuild/incremental-builds.md)、[如何：累加建置](../msbuild/how-to-build-incrementally.md)和[轉換](../msbuild/msbuild-transforms.md)。|  
-|`Outputs`|選擇性屬性。<br /><br /> 形成輸出至這個目標的檔案。  多檔案以分號隔開。  檔案的時間戳記與檔案會比較時間戳記在 `Inputs` 的判斷 `Target` 是否為最新狀態。  如需詳細資訊，請參閱 [累加建置](../msbuild/incremental-builds.md)、[如何：累加建置](../msbuild/how-to-build-incrementally.md)和[轉換](../msbuild/msbuild-transforms.md)。|  
-|`Returns`|選擇性屬性。<br /><br /> 一組可供叫用此目標之工作 \(例如，MSBuild 工作\) 使用的項目。  分號會分隔多個目標。  如果在檔案的目標沒有 `Returns` 屬性，因此使用輸出屬性。|  
-|`KeepDuplicateOutputs`|選擇性的布林值屬性。<br /><br /> 如果 `true`，對同一項目的多個參考目標的傳回記錄。  這個屬性預設為 `false`。|  
-|`BeforeTargets`|選擇性屬性。<br /><br /> 以分號分隔的目標名稱清單。指定時，表示這個目標應該執行，在指定的一個或多個目標之前。  這讓專案作者擴充現有的一組目標，而不需要直接修改它們。  如需詳細資訊，請參閱[目標建置順序](../msbuild/target-build-order.md)。|  
-|`AfterTargets`|選擇性屬性。<br /><br /> 以分號分隔的目標名稱清單。  指定時，表示這個目標應該執行，在指定的一個或多個目標之後。  這讓專案作者擴充現有的一組目標，而不需要直接修改它們。  如需詳細資訊，請參閱[目標建置順序](../msbuild/target-build-order.md)。|  
-|`DependsOnTargets`|選擇性屬性。<br /><br /> 在能夠執行此目標，或者開始最上層相依性的分析之前，所必須執行的目標。  分號會分隔多個目標。|  
-|`Label`|選擇性屬性。<br /><br /> 可識別或排序系統和使用者項目的識別項。|  
-  
-### 子項目  
-  
-|元素|描述|  
-|--------|--------|  
-|[工作](../msbuild/task-element-msbuild.md)|建立並執行 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 工作的執行個體。  目標中可能含有零或多個工作。|  
-|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|包含一組使用者定義的 `Property` 項目。  .NET Framework 3.5 開始， `Target` 項目可能包含 `PropertyGroup` 項目。|  
-|[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|包含一組使用者定義的 `Item` 項目。  .NET Framework 3.5 開始， `Target` 項目可能包含 `ItemGroup` 項目。  如需詳細資訊，請參閱[項目](../msbuild/msbuild-items.md)。|  
-|[OnError](../msbuild/onerror-element-msbuild.md)|做為一或多個目標會執行，如果 `ContinueOnError` 屬性是 ErrorAndStop \(或 `false`\) 的失敗的工作。  目標中可能有零或多個 `OnError` 項目。  如果有 `OnError` 項目的話，這些項目必須是 `Target` 項目中的最後項目。<br /><br /> 如需 `ContinueOnError` 屬性的詳細資訊，請參閱 [Task Element \(MSBuild\)](../msbuild/task-element-msbuild.md)。|  
-  
-### 父項目  
-  
-|元素|描述|  
-|--------|--------|  
-|[專案](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 專案檔的必要根項目。|  
-  
-## 備註  
- 第一個要執行的目標是在執行階段指定。  目標可以對其他目標具有相依性。  例如，部署的目標可以相依於編譯 \(Compilation\) 的目標。  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 引擎會按照相依性在 `DependsOnTargets` 屬性中出現的順序，從左到右執行它們。  如需詳細資訊，請參閱[目標](../msbuild/msbuild-targets.md)。  
-  
- 在建置期間一個目標只能執行一次，即使有一個以上的目標對此目標具有相依性亦是如此。  
-  
- 即使由於目標的 `Condition` 屬性評估為 `false` 而略過該目標，如果之後在建置時叫用 \(Invoke\) 該目標，而且其 `Condition` 屬性在那時評估為 `true`，就依然會執行該目標。  
-  
- 在 MSBuild 4 之前，`Target` 會傳回 `Outputs` 屬性中指定的任何項目。  若要這樣做，MSBuild 就必須記錄這些項目，以備日後在組建中要求它們。  由於有沒有辦法指出哪些目標的輸出是呼叫端所需要的，MSBuild 積累了在所有被叫用 `Target` 上的所有 `Outputs` 中的所有項目。  這會為具有大量輸出項目的組建帶來延展上的問題。  
-  
- 如果使用者在專案中的任何 `Target` 項目上指定 `Returns`，則只有那些具有 `Returns` 屬性的 `Target` 會記錄這些項目。  
-  
- `Target` 可以同時包含 `Outputs` 屬性和 `Returns` 屬性。  `Outputs` 可與 `Inputs` 搭配使用以判斷是否為最新的目標。  `Returns` \(如果存在\) 會覆寫判斷傳回哪些項目至呼叫端的 `Outputs` 值。  如果 `Returns` 不存在，則會提供 `Outputs` 給呼叫端使用，但前面所述的情況除外。  
-  
- 在 MSBuild 4 以前，每當 `Target` 將多個參考加入至其 `Outputs` 中的相同項目時，都會記錄這些重複項目。  就非常大的組建而言，其中有大量的輸出以及許多專案間的相依性，由於重複項目沒有任何作用，因此會造成大量的記憶體浪費。  當 `KeepDuplicateOutputs` 屬性設定為 `true`時，這些迴圈記錄。  
-  
-## 範例  
- 在下列程式碼範例中，示範了執行 `Csc` 工作的 `Target` 項目。  
-  
-```  
+|`Condition`|選擇性屬性。<br /><br /> 要評估的條件。 如果條件評估為 `false`，目標將不會執行目標或 `DependsOnTargets` 屬性中所設定之任何目標的主體。 如需條件的詳細資訊，請參閱[條件](../msbuild/msbuild-conditions.md)。|  
+|`Inputs`|選擇性屬性。<br /><br /> 構成此目標輸入的檔案。 若有多個檔案，則會以分號分隔。 檔案的時間戳記將會與 `Outputs` 中的檔案時間戳記相比較，以判斷 `Target` 是否為最新狀態。 如需詳細資訊，請參閱[累加建置](../msbuild/incremental-builds.md)、[如何：累加建置](../msbuild/how-to-build-incrementally.md)及[轉換](../msbuild/msbuild-transforms.md)。|  
+|`Outputs`|選擇性屬性。<br /><br /> 構成此目標輸出的檔案。 若有多個檔案，則會以分號分隔。 檔案的時間戳記將會與 `Inputs` 中的檔案時間戳記相比較，以判斷 `Target` 是否為最新狀態。 如需詳細資訊，請參閱[累加建置](../msbuild/incremental-builds.md)、[如何：累加建置](../msbuild/how-to-build-incrementally.md)及[轉換](../msbuild/msbuild-transforms.md)。|  
+|`Returns`|選擇性屬性。<br /><br /> 將可供叫用此目標的工作 (例如 MSBuild 工作) 使用的項目組。 若有多個目標，則會以分號分隔。 如果檔案中的目標沒有 `Returns` 屬性，即會基於此目的改用 Outputs 屬性。|  
+|`KeepDuplicateOutputs`|選擇性的 Boolean 屬性。<br /><br /> 如果是 `true`，即會記錄多個對目標 Returns 中相同項目的參考。  根據預設，此屬性為 `false`。|  
+|`BeforeTargets`|選擇性屬性。<br /><br /> 以分號分隔的目標名稱清單。  指定時，表示此目標應該在指定的一或多個目標之前執行。 這讓專案作者能夠擴充現有的目標組，而不需直接修改它們。 如需詳細資訊，請參閱[目標建置順序](../msbuild/target-build-order.md)。|  
+|`AfterTargets`|選擇性屬性。<br /><br /> 以分號分隔的目標名稱清單。 指定時，表示此目標應該在指定的一或多個目標之後執行。 這讓專案作者能夠擴充現有的目標組，而不需直接修改它們。 如需詳細資訊，請參閱[目標建置順序](../msbuild/target-build-order.md)。|  
+|`DependsOnTargets`|選擇性屬性。<br /><br /> 必須在此目標執行之前，或發生最上層相依性分析之前執行的目標。 若有多個目標，則會以分號分隔。|  
+|`Label`|選擇性屬性。<br /><br /> 用來識別或排序系統和使用者項目的識別項。|  
+
+### <a name="child-elements"></a>子項目  
+
+|項目|說明|  
+|-------------|-----------------|  
+|[Task](../msbuild/task-element-msbuild.md)|建立並執行 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 工作的執行個體。 目標中可能有零或多個工作。|  
+|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|包含一組使用者定義的 `Property` 項目。 從 .NET Framework 3.5 開始，`Target` 項目可以包含 `PropertyGroup` 項目。|  
+|[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|包含一組使用者定義的 `Item` 項目。 從 .NET Framework 3.5 開始，`Target` 項目可以包含 `ItemGroup` 項目。 如需詳細資訊，請參閱[項目](../msbuild/msbuild-items.md)。|  
+|[OnError](../msbuild/onerror-element-msbuild.md)|如果 `ContinueOnError` 屬性是失敗工作的 ErrorAndStop (或 `false`)，則會導致執行一或多個目標。 目標中可能有零或多個 `OnError` 項目。 如果有 `OnError` 項目存在，則它們必須是 `Target` 項目中的最後一個項目。<br /><br /> 如需 `ContinueOnError` 屬性的相關資訊，請參閱 [Task 項目 (MSBuild)](../msbuild/task-element-msbuild.md)。|  
+
+### <a name="parent-elements"></a>父項目  
+
+|項目|說明|  
+|-------------|-----------------|  
+|[Project](../msbuild/project-element-msbuild.md)|[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 專案檔案的必要根項目。|  
+
+## <a name="remarks"></a>備註  
+ 在執行階段指定要執行的第一個目標。 目標可以相依於其他目標。 例如，適用於部署的目標相依於適用於編譯的目標。 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 引擎會依其在 `DependsOnTargets` 屬性中出現的順序，從左到右依序執行相依性。 如需詳細資訊，請參閱[目標](../msbuild/msbuild-targets.md)。  
+
+ 目標在建置期間只會執行一次，即使有多個目標相依於該目標也一樣。  
+
+ 若因目標的 `Condition` 屬性評估為 `false` 而略過該目標，如果稍後在組建中叫用該目標且其 `Condition` 屬性在該時點評估為 `true`，則仍會執行該目標。  
+
+ 在 MSBuild 4 之前，`Target` 會傳回 `Outputs` 屬性中所指定的任何項目。  若要這樣做，MSBuild 必須記錄這些項目，以防組建中後續的工作需要用到它們。 由於沒有任何方法可指出哪些目標具有呼叫端所要求的輸出，因此，MSBuild 會在所有叫用的 `Target` 上累積來自所有 `Outputs` 的所有項目。 這會導致含有大量輸出項目的組建問題範圍擴大。  
+
+ 如果使用者在專案中的任何 `Target` 項目上指定 `Returns`，則只有具 `Returns` 屬性的 `Target` 會記錄這些項目。  
+
+ `Target` 可能同時包含 `Outputs` 屬性和 `Returns` 屬性。  `Outputs` 會與 `Inputs` 搭配使用，以判斷目標是否為最新狀態。 如果有 `Returns`，即會覆寫 `Outputs` 的值，來判斷要將哪些項目傳回給呼叫端。  如果 `Returns` 不存在，則會將 `Outputs` 開放給呼叫端使用，但稍早所述的案例除外。  
+
+ 在 MSBuild 4 之前，任何時候，只要 `Target` 在其 `Outputs` 中包含多個對相同項目的參考，就會記錄這些重複項目。 若含有大量輸出和許多專案相依性的組建數量非常多，這會造成大量記憶體的浪費，因為重複項目不具任何用途。 將 `KeepDuplicateOutputs` 屬性設為 `true` 時，就會記錄這些重複項目。  
+
+## <a name="example"></a>範例  
+ 下列程式碼範例示範執行 `Csc` 工作的 `Target` 項目。  
+
+```xml  
 <Target Name="Compile" DependsOnTargets="Resources" Returns="$(TargetPath)">  
     <Csc Sources="@(CSFile)"  
           TargetType="library"  
@@ -114,7 +134,8 @@ caps.handback.revision: 34
     </Csc>  
 </Target>  
 ```  
-  
-## 請參閱  
+
+## <a name="see-also"></a>另請參閱  
  [目標](../msbuild/msbuild-targets.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+ [專案檔案結構描述參考](../msbuild/msbuild-project-file-schema-reference.md)
+

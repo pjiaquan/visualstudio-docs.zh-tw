@@ -1,20 +1,39 @@
 ---
-title: "自動程式碼 UI 測試和動作記錄的支援組態和平台 | Microsoft Docs"
-ms.custom: ""
-ms.date: "2015-10-04"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "自動程式碼 UI 測試"
+title: "自動程式化 UI 測試和動作記錄的支援組態和平台 | Microsoft Docs"
+ms.custom: 
+ms.date: 2015-10-04
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- coded UI tests
 ms.assetid: 544742b5-4ec1-4d51-b941-72b2f6ff17bc
 caps.latest.revision: 106
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 104
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
+ms.openlocfilehash: b4ca42eedec0f6fe2daaa70b04ab9fdaf37865fc
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings"></a>自動程式化 UI 測試和動作記錄的支援組態和平台
 Visual Studio 企業版的自動程式碼 UI 測試的支援組態與平台會列在下表中。 這些組態也套用至使用[!INCLUDE[MTRlong](../test/includes/mtrlong_md.md)]建立的動作記錄。  
@@ -70,8 +89,4 @@ Visual Studio 企業版的自動程式碼 UI 測試的支援組態與平台會�
 ## <a name="see-also"></a>另請參閱  
  [使用使用者介面自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)   
  [從現有的動作記錄產生自動程式化 UI 測試](/devops-test-docs/test/generating-a-coded-ui-test-from-an-existing-action-recording)
-
-
-<!--HONumber=Feb17_HO4-->
-
 

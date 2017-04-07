@@ -1,7 +1,7 @@
 ---
-title: "選項，XAML 設計工具 | Microsoft Docs"
+title: "XAML 設計工具選項頁面 | Microsoft Docs"
 ms.custom: 
-ms.date: 01/17/2017
+ms.date: 03/02/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -30,12 +30,13 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7c944afe8c89b8a5e30bf1e5937e848e078954ac
-ms.openlocfilehash: f4a4832e5659a46b236cdcf9ff2eecdc3cabf57d
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: d23a47b708754248cd5c3fb8d86510a0c96491fa
+ms.lasthandoff: 03/07/2017
 
 ---
-# <a name="options-xaml-designer"></a>選項，XAML 設計工具
-使用 [XAML 設計工具] 屬性頁面來指定如何格式化您 XAML 文件中的項目和屬性。 若要開啟 [選項] 對話方塊，請選擇 [工具] 功能表，然後選擇 [選項]。 若要存取 [XAML 設計工具] 屬性頁面，請選擇 [XAML 設計工具] 節點。 當您開啟文件時，會套用 XAML 設計工具的設定。 因此，若要變更設定，您需要關閉然後重新開啟 Visual Studio，才能看到變更。
+# <a name="xaml-designer-options-page"></a>XAML 設計工具選項頁面
+使用 [XAML 設計工具] 選項頁面來指定如何設定 XAML 文件中元素和屬性的格式。 若要開啟此頁面，請選擇 [工具] 功能表，然後選擇 [選項]。 若要存取 [XAML 設計工具] 屬性頁面，請選擇 [XAML 設計工具] 節點。 當您開啟文件時，會套用 XAML 設計工具的設定。 因此，若要變更設定，您需要關閉然後重新開啟 Visual Studio，才能看到變更。
 
 > [!NOTE]
 >  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [ **工具** ] 功能表中選取 [ **匯入和匯出設定** ]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
@@ -118,9 +119,4 @@ ms.openlocfilehash: f4a4832e5659a46b236cdcf9ff2eecdc3cabf57d
  [WPF 中的 XAML](http://msdn.microsoft.com/Library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)   
  [如何︰變更 XAML 檢視設定](http://msdn.microsoft.com/en-us/aee87c79-ca01-4f84-8fb7-a9e47048ee47)   
  [XAML 和程式碼逐步解說](http://msdn.microsoft.com/en-us/b3ff41a0-a2a3-4f61-b698-ac88ec8f799c)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio 2017 RC 的新功能 | Microsoft Docs"
+title: "Visual Studio 2017 的新功能 | Microsoft Docs"
 ms.custom: 
-ms.date: 12/13/2016
+ms.date: 03/08/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,147 +31,146 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 4fb097ab0ee0d45fd5727e3170db3393392abf23
-ms.openlocfilehash: dc1941fd755c28039560b608733067b1da365c3a
+ms.sourcegitcommit: 8c4e45eadd81c54a372885ce89ccced1256d3b3d
+ms.openlocfilehash: 14a06f4344989052b0a020570dc87d9697ba95d0
+ms.lasthandoff: 03/09/2017
 
 ---
 # <a name="what39s-new-in-visual-studio-2017"></a>Visual Studio 2017 的新功能
-歡迎使用 Visual Studio 2017 RC 這套整合開發人員生產力工具、雲端服務和延伸模組的套件，讓您和您的團隊可以建立適用於網路、Windows 市集、桌上型電腦、Android 及 iOS 的絕佳應用程式和遊戲。  
+適用於任何開發人員、任何應用程式及任何平台的卓越生產力。 您可使用 Visual Studio 2017 來開發適用於 Android、iOS、Windows、Linux、Web 及雲端的應用程式。 快速編碼、輕鬆偵錯及診斷、頻繁測試，然後自信地發行。 您也可以建置自己的擴充功能來擴充和自訂 Visual Studio 。 使用版本控制、變得敏捷、使用這個新版本有效率地共同作業！
 
-在我們最新 Visual Studio 版本的這個候選版 (RC) 中，著重在效能和產能的改善。 在效能方面，我們已加快 Visual Studio 的啟動、使其更具回應力，而且使用的記憶體遠少於以前。 在產能方面，我們已新增或更新可讓您在使用 Visual Studio 時更具效率的功能。
-
-> [!TIP]
-> 若要查看新的 RC 如何運作，請觀看 Channel 9 上的 [What's New in Visual Studio](https://channel9.msdn.com/events/connect/2016/159) (Visual Studio 的新功能) 影片。   
+> [!NOTE]
+> 如需 Visual Studio 2017 中新功能的完整清單，請參閱[版本資訊](https://www.visualstudio.com/news/vs2015-vs)。
 
 以下是我們所做變更的高階回顧︰
 
-* **提高產能**。 無論您使用哪種語言或平台，加強程式碼巡覽、IntelliSense、重構、程式碼修正及偵錯，都能節省您花在每日工作的時間和心力。 此外，對於採用 DevOps 的團隊，Visual Studio 2017 則透過即時單元測試和即時架構相依性驗證等全新即時功能，簡化開發人員的內部迴圈，並加速程式碼流程。
-* **重新定義基本概念**。  如何提高開發人員每日基礎工作的效率重新受到重視。 從為開發人員需求而量身打造的全新輕量型及模組化安裝，並縮短啟動到關機時間的 IDE，到不需要專案和方案即可檢視程式碼、編輯程式碼並對其偵錯的新方法，Visual Studio 2017 協助開發人員持續關注全貌。
-* **簡化 Azure 開發**。 內建 Azure 工具套件讓開發人員能夠輕鬆建立由 Microsoft Azure 提供技術的雲端優先應用程式。 有了 Visual Studio，要直接從 IDE 在 Azure 設定、建置、偵錯、封裝及部署應用程式與服務十分容易。
-* **五星級行動裝置開發**。 有了進階偵錯與分析工具以及單元測試產生功能，具有 Xamarin 的 Visual Studio 2017 讓開發人員為 Android、iOS 及 Windows 建置、連接及調整行動裝置應用程式從未如此輕鬆、簡單。 開發人員也可以選擇在 Visual Studio 中使用 Apache Cordova 或 Visual C++ 跨平台程式庫開發，來開發行動裝置應用程式。  
+* **效能和生產力**。 我們不僅專注在新式且現代化的行動、雲端及桌面程式開發功能，同時也改進了整體的擷取、效能及一般開發人員生產力體驗。 與以前相比，Visual Studio 的啟動速度、回應速度都變得更快，且使用的記憶體也更少。
+* **重新定義基本概念**。 新的安裝體驗意謂著您可以安裝得更快，且可以在需要時安裝所需的項目。 不論您是要載入大型方案與專案，還是要使用程式碼資料夾或甚至是單一程式碼檔案，Visual Studio 的啟動速度都更快。 而且，Visual Studio 可協助您將焦點放在主要目標，特別適用於採用 DevOps 的小組。
+* **搭配 Azure 的雲端應用程式開發**。 一套內建的 Azure 工具套件，可讓您輕鬆建立由 Microsoft Azure 提供技術的雲端優先應用程式。 Visual Studio 可讓您在 Azure 上輕鬆設定、建置、偵錯、封裝及部署應用程式與服務。
+* **行動應用程式開發**。 在 Visual Studio 2017 中，您可以透過 Xamarin 快速創新並獲得結果，它使用一個核心程式碼基底和一組技術來統一您的多平台行動需求。 利用您現有的小組、技術投資及 C# 程式碼即可撰寫行動應用程式，讓您不僅能夠提前還能以低於預算的方式，提供消費者等級的體驗。 您可以加速行動應用程式生命週期的每個步驟，以提供世界級的消費者體驗，或是提供生產力應用程式組合來提升工作人員能力。
 
-以下是最值得注意的變更的更多詳細資料。
-
-> [!NOTE]
-> 如需 Visual Studio 2017 RC 和其後續 RC Refresh 中新功能的完整清單，請參閱[版本資訊](https://www.visualstudio.com/news/vs2015-vs)。 如需問題和因應措施的清單，請參閱版本資訊的 [Known Issues](https://www.visualstudio.com/news/vs2015-vs#knownissues) (已知問題) 小節。   
+以下是有關我們一些最重大變更的更多詳細資料。
 
 ## <a name="performance-improvements"></a>效能改善
 
 ### <a name="a-new-setup-experience"></a>新的安裝經驗  
-[Download Visual Studio Enterprise 2017 RC](https://aka.ms/vs/15/preview/vs_enterprise) (下載 Visual Studio Enterprise 2017 RC) 或[Visual Studio 2017 產品系列系統需求](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
+[下載 Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) 或[查看 Visual Studio 系統需求](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs)
 
- 我們已重新設計 Visual Studio 設定經驗，可更容易在您需要功能時只安裝您所需的功能。 我們也已經減少最少使用量，因此 Visual Studio 的安裝會更為快速，並且對系統的影響也較少。 而且，它也會完全進行解除安裝。
+ Visual Studio 可讓您在需要功能時，以更輕鬆、更快的方式只安裝所需的功能。 而且，它也會完全進行解除安裝。
 
- 您會在安裝 Visual Studio 時看到的最重要變更是其新的安裝體驗。 在 [工作負載] 索引標籤上，您會看到群組在一起的安裝選項來代表通用架構、語言及平台，範圍涵蓋從 .NET 桌面開發到採用 R、Python 和 F# 的資料科學。  
+ 您在安裝 Visual Studio 時將看到的最重要變更就是它的新安裝體驗。 在 [工作負載] 索引標籤上，您會看到已分組來代表通用架構、語言及平台的安裝選項。 其範圍涵蓋 Windows、Linux 及 iOS 上從 .NET 桌面開發到 C++ 應用程式開發皆包含在內的所有項目。   
 
- ![Visual Studio 2017 RC 安裝程式對話方塊](../ide/media/willow1.png "安裝 Visual Studio 2017")
+ ![Visual Studio 2017 安裝對話方塊](../install/media/vs2017-workloads.PNG "Visual Studio 2017 安裝畫面")
 
-選擇您需要的工作負載，並在需要時進行變更。 最小安裝的大小雖然只有幾百 MB，但仍包含基本程式碼編輯支援，可支援&20; 種以上的語言與原始程式碼控制功能。
+選擇您需要的工作負載，然後在需要時加以變更。
 
-我們也新增不同的方法來安裝 Visual Studio。 想要選擇您自己的元件，而不是使用工作負載嗎？ 只需從安裝程式選取 [個別元件] 索引標籤。 想要安裝語言套件，同時不需要變更 Windows 語言選項嗎？ 選擇安裝程式的 [語言套件] 索引標籤。  
+想要選擇您自己的元件，而不是使用工作負載嗎？ 只需從安裝程式選取 [個別元件] 索引標籤。 想要安裝語言套件，同時不需要變更 Windows 語言選項嗎？ 選擇安裝程式的 [語言套件] 索引標籤。  
 
-若要更深入了解新的安裝體驗 (包括引導您執行這項作業的逐步指示)，請參閱[安裝 Visual Studio](../install/install-visual-studio.md) 頁面。
-
+若要深入了解新的安裝體驗 (包括引導您執行這項作業的逐步指示)，請參閱[安裝 Visual Studio](../install/install-visual-studio.md) 頁面。
 
 ### <a name="start-visual-studio-faster"></a>更快速啟動 Visual Studio
-如果 Visual Studio 偵測到 IDE 啟動時間變慢，則會提供新的 Visual Studio 效能中心來協助您加快速度。 效能中心會列出所有讓 IDE 啟動變慢的延伸模組和工具視窗。 您可以使用它來改善啟動效能，方法是判斷延伸模組啟動時機，或是否在啟動時開啟工具視窗。
+新的「Visual Studio 效能中心」可協助您將 IDE 啟動時間最佳化。 「效能中心」會列出可能讓 IDE 啟動變慢的所有擴充功能和工具視窗。 您可以使用它來改善啟動效能，方法是判斷延伸模組啟動時機，或是否在啟動時開啟工具視窗。
 
 ### <a name="decrease-solution-load-time"></a>減少解決方案載入時間
-處理包含多達 100 個專案的方案，並不表示您需要一次處理所有檔案或專案。 您現在可以進行編輯和偵錯，而不需要等待 Visual Studio 載入每個專案。 若要使用 Managed 專案進行試用，請從 [工具] -> [選項] -> [專案和方案] 中開啟 [輕量型解決方案載入]。
+處理包含大量專案的方案並不意謂著您必須一次處理所有的檔案或專案。 您現在可以進行編輯和偵錯，而不需要等待 Visual Studio 載入每個專案。 若要使用 Managed 專案進行試用，請從 [工具] -> [選項] -> [專案和方案] 中開啟 [輕量型解決方案載入]。
 
-  ![Visual Studio 2017 RC 中的 [選項] 對話方塊](../ide/media/vs2017ide-LightweightSolutionLoad.PNG "VS2017RC [選項] 對話方塊 - 輕量型解決方案載入")
+  ![Visual Studio 2017 中的 [選項] 對話方塊](../ide/media/vs2017ide-LightweightSolutionLoad.PNG "Visual Studio 2017 - [選項] 對話方塊 - 輕量型方案載入")
 
 ### <a name="faster-on-demand-loading-of-extensions"></a>依需求更快速地載入延伸模組
-這個概念十分簡單︰在需要時載入延伸模組，而不是 Visual Studio 啟動時。 首先，我們將 Python 和 Xamarin 延伸模組轉換成在需要時載入，接下來，致力於將 Visual Studio 隨附的所有延伸模組以及協力廠商隨附的延伸模組移至此模型。 想要知道哪些延伸模組影響啟動、解決方案載入和輸入效能嗎？ 您可以在 [說明] -> [管理 Visual Studio 效能] 中查看這項資訊。
+Visual Studio 正在移動其擴充功能 (同時也在處理協力廠商擴充功能)，讓它們變成在需要時載入，而不是在 IDE 啟動時載入。 想要知道哪些延伸模組影響啟動、解決方案載入和輸入效能嗎？ 您可以在 [說明] -> [管理 Visual Studio 效能] 中查看這項資訊。
 
-  ![Visual Studio 2017 RC 中的 [選項] 對話方塊](../ide/media/vs2017ide-ManageVSperf.png "VS2017RC [說明] 對話方塊 - 效能管理")
+  ![Visual Studio 2017 中的 [選項] 對話方塊](../ide/media/vs2017ide-manage-vs-perf.png "Visual Studio [說明] 對話方塊 - 效能管理")
 
 ## <a name="productivity-improvements"></a>產能提升
 
 ### <a name="sign-in-across-multiple-accounts"></a>跨多個帳戶登入  
-我們已在 Visual Studio 2017 RC 中引進新的身分識別服務，可讓您在 Microsoft 開發人員工具之間共用使用者帳戶，例如 Team Explorer、Azure Tools、Windows 市集發行和其他工具。
+我們已在 Visual Studio 中導入新的身分識別服務，可讓您在 Team Explorer、Azure Tools、Windows 市集發行等工具之間共用使用者帳戶。
 
-另外，您可以登入更長的時間；我們不會要求您每 12 小時重新登入一次。 若要深入了解，請參閱 [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) (較少的 Visual Studio 登入提示) 部落格文章。
+此外，您也可以保持登入的狀態更久。 Visual Studio 將不會每隔 12 小時要求您重新登入一次。 若要深入了解，請參閱 [Fewer Visual Studio Sign-in Prompts](https://blogs.msdn.microsoft.com/visualstudio/2016/08/15/fewer-visual-studio-sign-in-prompts/) (較少的 Visual Studio 登入提示) 部落格文章。
 
 ### <a name="manage-your-extensions-with-roaming-extensions-manager"></a>使用漫遊延伸模組管理員來管理延伸模組
-現在，登入 Visual Studio 時，可以更容易地使用慣用延伸模組來設定每個開發環境。 新的漫遊延伸模組管理員會在雲端中建立一份同步清單，以追蹤您的所有慣用延伸模組。  
+當您登入 Visual Studio 時，可以更輕鬆地使用慣用的擴充功能來設定每個開發環境。 新的「漫遊擴充功能管理員」會在雲端建立一份同步清單，來記錄您的所有慣用擴充功能。  
 
 若要查看 Visual Studio 中的延伸模組清單，請按一下 [工具] > [延伸模組和更新]，然後按一下 [漫遊延伸模組管理員]。
 
-![Visual Studio 2017 - [延伸模組和更新] 對話方塊](../ide/media/vs2017ide-ExtensionsAndUpdates.png "Visual Studio 2017 - [工具] > [延伸模組和更新] 對話方塊")
+![Visual Studio 2017 - [延伸模組和更新] 對話方塊](../ide/media/vs2017ide-extensions-and-updates.png "Visual Studio 2017 - [工具] > [延伸模組和更新] 對話方塊")
 
 漫遊延伸模組管理員會追蹤您安裝的所有延伸模組，但是您可以選擇想要新增至 [漫遊] 清單的延伸模組。
 
 ![Visual Studio 2017 - [延伸模組和更新] 對話方塊](../ide/media/vs2017ide-RoamingExtensionManager.png "Visual Studio 2017 - 漫遊延伸模組管理員")
 
 當您使用漫遊延伸模組管理員時，會在清單中看到 3 個圖示類型︰
-* ![Roamed (已漫遊) 圖示](../ide/media/vs2017ide-roamedicon.png "Roamed (已漫遊) 圖示") *** Roamed (已漫遊) 圖示***︰延伸模組已在此 [漫遊] 清單中，但尚未安裝在電腦上
+* ![[已漫遊] 圖示](../ide/media/vs2017ide-roamedicon.png "[已漫遊] 圖示") 已漫遊：在此「漫遊清單」中但未安裝在您電腦上的擴充功能。
   (您可以使用 [下載] 按鈕進行安裝)。
-* ![Roamed and Installed (已漫遊並已安裝) 圖示](../ide/media/vs2017ide-roamedinstalledicon.png "Roamed and Installed (已漫遊並已安裝) 圖示") ***Roamed and Installed (已漫遊並已安裝) 圖示***︰所有延伸模組都在此 [漫遊] 清單中，並已安裝在開發環境中
+* ![[已漫遊並已安裝] 圖示](../ide/media/vs2017ide-roamedinstalledicon.png "[已漫遊並已安裝] 圖示") 已漫遊並已安裝︰所有在此「漫遊清單」中並已安裝在您開發環境中的擴充功能。
   (如果您決定不再漫遊，則可以使用 [停止漫遊] 按鈕予以移除)。
-* ![Installed (已安裝) 圖示](../ide/media/vs2017ide-installedicon.png "Installed (已安裝) 圖示") ***Installed (已安裝) 圖示***︰所有延伸模組都已安裝在此環境中，但不在 [漫遊] 清單中
+* ![[已安裝] 圖示](../ide/media/vs2017ide-installedicon.png "[已安裝] 圖示") 已安裝︰所有已安裝在此環境中但不在「漫遊清單」中的擴充功能。
   (使用 [開始漫遊] 按鈕，即可將延伸模組新增至 [漫遊] 清單)。
 
-這些圖示會顯示您清單的目前狀態。 您可依據需要，自訂任何狀態的任何擴充功能， 也可以由我們為您代勞！ 您在登入後下載的任何延伸模組都會新增至您的清單並顯示為 [Roamed and Installed] (已漫遊並已安裝)，而且出現在 [漫遊] 清單中，讓您可以從任何電腦存取延伸模組！
+您在登入後下載的任何擴充功能都會新增到您的清單中並顯示為「已漫遊並已安裝」，而且會包含在您的「漫遊清單」中，讓您從任何電腦都可以存取它。
 
 ### <a name="experience-live-architecture-dependency-validation-and-live-unit-testing"></a>體驗即時架構相依性驗證和即時單元測試
 
-在 Visual Studio Enterprise 2017 RC 中，如果您已設定相依性驗證圖表 (也稱為 分層圖)，則現在於程式碼編輯器中輸入程式碼時，會即時通知您發生架構相依性規則違規。
+現在，當您在「程式碼編輯器」中輸入程式碼時，如果違反架構相依性規則，Visual Studio 可以使用「相依性驗證」圖表 (也稱為 分層圖) 來即時通知您。
 
-錯誤會出現在 [錯誤清單] 中，而且文字編輯器中的波浪線會顯示違規的確切位置。 您現在較不容易引進不想要的相依性。
+錯誤會出現在 [錯誤清單] 中，而且文字編輯器中的波浪線會顯示違規的確切位置。 如此較不容易引進您不想要的相依性。
 
 ![即時驗證架構](../ide/media/vs2017ide-LiveArchitectureDepedendencyValidation.png "即時驗證架構相依性")
 
 #### <a name="live-unit-testing"></a>即時單元測試：
 
-即時單元測試是我們引進的新功能，且僅出現在 Visual Studio Enterprise 版中。 這項功能會在您撰寫程式碼時，在編輯器中即時以視覺化方式呈現單元測試結果和程式碼涵蓋範圍。 它可與 .NET Framework 的 C#/VB 專案搭配使用，並支援 MSTest、xUnit 及 NUnit 三種測試架構。
+在 Visual Studio Enterprise 2017 中，即時單元測試會在您撰寫程式碼時，在編輯器中提供即時單元測試結果和程式碼涵蓋範圍。 它可以與 .NET Framework 的 C# 和 Visual Basic 專案搭配運作，並且支援 MSTest、xUnit 及 NUnit 這三種測試架構。
+
+![即時單元測試](../ide/media/lut-codewindow.png "Visual Studio Enterprise 版中新「即時單元測試」功能的範例")
 
 ### <a name="visual-studio-ide-enhancements"></a>Visual Studio IDE 加強功能
 #### <a name="interact-with-git"></a>與 Git 互動：
-Visual Studio IDE 下方中的控制項可讓您快速認可並將專案發行至 Git，以及管理 Git 存放庫。
+當您在 Visual Studio 中處理專案時，可以設定您的程式碼，然後快速認可並發佈到 Git 服務。 您也可以從 IDE 右下角的按鈕中使用功能表點選，來管理您的 Git 儲存機制。
 
-![Visual Studio 2017 RC 安裝程式對話方塊](../ide/media/vsIDE-GitInteraction.png "Git-tools-in-the-VS2017RC-IDE")
+![Visual Studio 2017 與 Git 互動對話方塊](../ide/media/vsIDE-GitInteraction.png "Visual Studio IDE 中的 Git 工具")
 
 #### <a name="view-and-navigate-code-with-structure-visualizer"></a>使用結構視覺化檢視來檢視和巡覽程式碼︰
-Visual Studio 程式碼編輯器中具有稱為「結構視覺化檢視」的新功能。 這項功能會在巢狀程式碼區域之間顯示垂直輔助線，讓您更輕鬆地檢視和巡覽程式碼。 這項功能適用於所有 TextMate 支援的語言，以及 Visual C#、Visual Basic 和 XAML。
+「結構視覺化檢視」會在您的程式碼上繪製結構輔助線 (也稱為 縮排輔助線)。 您可以使用這些輔助線，以視覺化方式隨時呈現您所在的程式碼區塊，而不需捲動。 將滑鼠游標暫留在程式碼行上會顯示工具提示，可讓您看到該區塊的開頭及其父代。 此功能除了在 C#、Visual Basic 及 XAML 有提供之外，所有透過 TextMate 文法支援的語言也都有此功能。
 
-![Visual Studio 2017 RC 安裝程式對話方塊](../ide/media/vsIDE-StructureVisualizer.png "Structure-Visualizer-in-VS2017RC")
+![Visual Studio 2017 結構視覺化檢視](../ide/media/vsIDE-StructureVisualizer.png "Visual Studio 中的結構視覺化檢視")
 
-#### <a name="experience-an-improved-navigate-to"></a>遇到改善的 [巡覽至]︰
-我們已改善 [巡覽至] 函式。 我們已簡化 [巡覽至] 視窗，並且已新增可讓您縮小程式碼搜尋範圍的額外篩選字元支援。
+#### <a name="experience-improved-navigation-controls"></a>體驗已改進的瀏覽控制項：
+我們已重新整理瀏覽體驗，以協助您在從 A 移到 B 時更為堅定而不易分心。
 
-#### <a name="create-apps-in-even-more-programming-languages"></a>甚至以更多的程式設計語言來建立應用程式︰
-您可以使用比舊版還要多的程式設計語言在 Visual Studio 中建立應用程式，因此不再需要方案和專案。 您的程式碼會取得語法顏色標示、基本陳述式完成，有時還會取得 [巡覽至] 和其他支援。 如果您偏好的語言不予支援，則可以使用 TextMate 文法來建立其支援。
+* **移至** (Ctrl+F12) &ndash; 會從任何基底類型或成員瀏覽至其各種實作。
+
+* **移至全部** (Ctrl+T 或 Ctrl+,) &ndash; 會直接瀏覽至任何檔案/類型/成員/符號宣告。 您可以篩選您的結果清單或使用查詢語法 (例如 “f searchTerm” 用於檔案，“t searchTerm” 用於類型等等)。
+
+ ![已改進的 [移至全部]](../ide/media/vs2017ide-navigation-go-to.png "已改進的 [移至全部] 功能範例")
+
+* **尋找所有參考 (Shift+F12)** &ndash; 包含語法色彩標示，您可以依據專案、定義及路徑的組合，將 [尋找所有參考] 結果分組。 您也可以「鎖定」結果，如此您便可以繼續尋找其他參考，又不會遺失原始結果。
+
+ ![新的 [尋找所有參考] 工具](../ide/media/vs2017ide-find-all-references.png "新的 [尋找所有參考] 工具範例")
+
+* **縮排輔助線** &ndash; 灰色垂直虛線在程式碼中就像是地標，可提供在您檢視框架內的內容。 您可以透過熱門的 Productivity Power Tools 辨識這些輔助線。
+
+如需有關我們新生產力功能的詳細資訊，請參閱 Mark Wilson-Thomas 所撰寫的 [Visual Studio 2017 中的生產力 (英文)](https://blogs.msdn.microsoft.com/visualstudio/2016/11/28/productivity-in-visual-studio-2017-rc/) 部落格文章。
 
 ### <a name="visual-c"></a>Visual C++
-Visual Studio 2017 RC 帶來多項 Visual C++ 環境的更新與修正。 我們修正了編譯器及工具中超過 250 個 Bug 與回報的問題，其中多為客戶透過 [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect") 所提交。
+您將在 Visual Studio 中看到數項改進，例如使用 Visual Studio 來散發「C++ 核心指南」、新增增強的 C++11 和 C++ 功能支援以更新編譯器、新增和更新 C++ 程式庫中的功能。 我們還提升了 C++ IDE、安裝工作負載等的效能。
 
-我們也進行數項改進，包括散發 Visual Studio 的 C++ 核心指南、新增增強的 C++11 和 C++ 功能支援以更新編譯器、新增和更新 C++ 程式庫中的功能，以及提升 C++ IDE、安裝工作負載和其他項目的效能。
+此外，我們修正了編譯器及工具中超過 250 個錯誤 (bug) 與回報的問題，其中許多是客戶透過 [Microsoft Connect](https://connect.microsoft.com/VisualStudio "Microsoft Connect") 所提交。
 
-如需完整詳細資訊，請參閱 [Visual 2017 RC 中的 Visual C++ 新功能](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)頁面。  
-
+如需完整的詳細資料，請參閱 [Visual Studio 2017 中 Visual C++ 的新功能](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)頁面。  
 
 ### <a name="debugging-and-diagnostics"></a>偵錯和診斷
-偵錯的速度現在更快，而且不會在編輯時導致延遲。
-
-例如︰在舊版 Visual Studio 中，我們針對 WPF、Windows Forms 和 Managed 主控台專案引進裝載處理序以更快速進行偵錯，方法是在背景中啟動處理序以用於下一個偵錯工作階段。 當您在偵錯工作階段結束後停止偵錯或使用 Visual Studio 時，這個用意良好的功能導致 Visual Studio 暫時無法回應數秒。
-
-在 Visual Studio 2017 中，我們已關閉裝載處理序，並最佳化偵錯，就像沒有裝載處理序一樣快，而從未使用裝載處理序的專案甚至會更快 (例如 ASP.NET、Universal Windows 和 C++ 專案)。
 
 #### <a name="run-to-click"></a>執行至點選處：
-現在，進行偵錯時，可以按一下程式碼行旁的圖示來執行該行。 您不再需要設定暫時中斷點來執行多項步驟，就能執行程式碼並停在想要的程式行。
 
-![Visual Studio 2017 RC 偵錯 - 執行至點選處](../ide/media/vs2017ide-RunToClick.png "Visual Studio 2017 偵錯和診斷中的 [執行至點選處]")
+現在，您可以更容易在偵錯時往前跳過，而不需設定中斷點來停在您想要的程式碼行上。 當您在偵錯工具中被停止時，只要按一下您滑鼠游標所在程式碼行旁邊的圖示即可。 您的程式碼將會執行，並在下次在程式碼路徑中執行到該行時，就停在該行。
+
+![Visual Studio 2017 偵錯 - 執行至點選處](../ide/media/vs2017ide-RunToClick.png "Visual Studio 偵錯和診斷中的 [執行至點選處]")
 
 #### <a name="the-new-exception-helper"></a>新的例外狀況協助程式：
 
-您可以使用新的例外狀況協助程式立即存取內部例外狀況，快速檢視壓縮的非強制回應對話方塊中的例外狀況資訊。
+新的「例外狀況協助程式」可協助您快速檢視例外狀況資訊。 此資訊會以簡潔的形式呈現，其中包含內部例外狀況的快速存取方式。 當您診斷 NullReferenceException 時，在「例外狀況協助程式」內即可快速查看哪些項目為 Null。
 
-診斷 NullReferenceException 時，可快速在例外狀況協助程式中查看哪些項目為 Null。
-
-您也可以排除從特定模組擲回例外狀況類型所造成的中斷，方法是按一下核取方塊，以新增在擲回例外狀況時停止的條件。
-
-![[新增例外狀況協助程式] 對話方塊](../ide/media/vs2017ide-ExceptionHelper.png "[新增例外狀況協助程式] 對話方塊")
+![Visual Studio 中新的「例外狀況協助程式」對話方塊](../ide/media/vs2017ide-ExceptionHelper.png "新的「例外狀況協助程式」對話方塊")
 
 如需詳細資訊，請參閱 [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) (在 Visual Studio 中使用新的例外狀況協助程式) 部落格文章。
 
@@ -191,9 +190,4 @@ Visual Studio 2017 RC 帶來多項 Visual C++ 環境的更新與修正。 我們
 * [C# 的新功能](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)  
 * [Team Foundation Server 的新功能](https://www.visualstudio.com/en-us/docs/whats-new)
 * [Visual Studio 版本資訊](https://www.visualstudio.com/news/vs2015-vs)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

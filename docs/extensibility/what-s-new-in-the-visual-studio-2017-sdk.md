@@ -28,20 +28,18 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 221f4911981deec0330f76a82c0cc8a1b968e56e
-ms.openlocfilehash: 60898d7cace1c10006436a8d98cbd7f7628cf972
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 8163a0e1230712734936b7548bef1753ee0c1d2a
+ms.openlocfilehash: 3da360fc4df5516f5d976f807319c07b49d8c4e8
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="what39s-new-in-the-visual-studio-2017-sdk"></a>什麼是 Visual Studio 2017 SDK 的新功能
-
->**注意︰**這份文件為初步資訊而且根據 Visual Studio 2017 RC 版本。
 
 Visual Studio SDK 的 Visual Studio 2017 具有下列全新和更新功能。
 
 ## <a name="vsix-v3-format"></a>VSIX v3 格式
 
-若要支援的新的輕量級安裝之 Visual Studio 2017，VSIX 擴充功能資訊清單格式已更新為版本 3 (VSIX v3)。
+若要支援的新的輕量級安裝之 Visual Studio 2017，已更新的 VSIX 擴充功能資訊清單的格式版本 3 (VSIX v3)。
 
 新的格式可支援︰
 
@@ -52,8 +50,8 @@ Visual Studio SDK 的 Visual Studio 2017 具有下列全新和更新功能。
 若要深入了解這些變更，請參閱下列主題︰
 
 * [擴充性 2017年的變更](breaking-changes-2017.md)
-* [在 VSIX v3 Ngen 支援](ngen-support.md)
-* [安裝擴充功能資料夾之外](set-install-root.md)
+* [VSIX v3 中的 Ngen 支援](ngen-support.md)
+* [在擴充功能資料夾之外進行安裝](set-install-root.md)
 * [常見問題集的 Visual Studio 2017 擴充性](faq-2017.md)
 
 ## <a name="migrating-extensibility-project-to-visual-studio-2017"></a>移轉至 Visual Studio 2017 的擴充性專案

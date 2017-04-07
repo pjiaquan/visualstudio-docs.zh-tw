@@ -43,7 +43,7 @@ ms.lasthandoff: 02/22/2017
  ![方案總管樹狀結構中的 [屬性] 節點](../ide/media/vs2015_props_se.png "VS2015_Props_SE")  
   
 > [!TIP]
->  方案有一些屬性，專案項目也有；您可以在 [屬性視窗][](../ide/reference/properties-window.md) 中存取這些屬性，而非 [專案設計工具]。  
+>  方案有一些屬性，專案項目也有；您可以在 [[屬性視窗]](../ide/reference/properties-window.md) 中存取這些屬性，而非 [專案設計工具]。  
   
 ## <a name="project-properties"></a>專案屬性  
  [專案屬性] 會組織成群組，而且每個群組都具有其專屬屬性頁，並且頁面可能會因語言和專案類型不同而不同。  

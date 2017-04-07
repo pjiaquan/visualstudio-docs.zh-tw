@@ -22,6 +22,7 @@ manager: ghogen
 translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 1901f0dde22fb44ecf3d1b549505590125999700
+ms.lasthandoff: 02/22/2017
 
 ---
 # <a name="adding-visual-studio-editor-support-for-other-languages"></a>新增其他語言的 Visual Studio 編輯器支援
@@ -43,7 +44,7 @@ ms.openlocfilehash: 1901f0dde22fb44ecf3d1b549505590125999700
 |CSS|INI|LUA|R|Swift|XML|  
 |Docker|Jade|品牌|Ruby|TypeScript|YAML|  
   
- 除了語法顏色標示和基本陳述式完成之外，Visual Studio 也有一項稱為「巡覽至」[](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/)的功能。 這項功能可讓您快速搜尋程式碼檔案、檔案路徑和程式碼符號。 Visual Studio 提供下列語言版本的「巡覽至」支援。  
+ 除了語法顏色標示和基本陳述式完成之外，Visual Studio 也有一項稱為 [「巡覽至」](https://blogs.msdn.microsoft.com/benwilli/2015/04/09/visual-studio-tip-3-use-navigate-to/)的功能。 這項功能可讓您快速搜尋程式碼檔案、檔案路徑和程式碼符號。 Visual Studio 提供下列語言版本的「巡覽至」支援。  
   
 -   移至  
   
@@ -86,8 +87,3 @@ ms.openlocfilehash: 1901f0dde22fb44ecf3d1b549505590125999700
  [Visual Studio 2013 巡覽至增強功能](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)   
  [逐步解說：建立程式碼片段](../ide/walkthrough-creating-a-code-snippet.md)   
  [逐步解說：顯示陳述式完成](../extensibility/walkthrough-displaying-statement-completion.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

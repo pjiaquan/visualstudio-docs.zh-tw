@@ -28,28 +28,21 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: d4741ff741b89997bbfe4fea9b0f60bba84e63db
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: 77e7ce26df70e41e2328442454fe78c7a663f1f3
+ms.openlocfilehash: de00ef86413571739446b61427c3a8e6c4680c06
+ms.lasthandoff: 03/08/2017
 
 ---
 # <a name="javascript-in-visual-studio"></a>Visual Studio 中的 JavaScript
 JavaScript 是在 Visual Studio 中的第一級語言。 當您在 Visual Studio IDE 中撰寫 JavaScript 程式碼時，可以使用大部分或所有標準編輯輔助，包括程式碼片段、IntelliSense 等等。 您可以為許多應用程式類型和服務撰寫 JavaScript 程式碼。  
   
- 如需 JavaScript 語言參考文件，請參閱 [JavaScript](http://msdn.microsoft.com/library/d1et7k7c\(v=vs.94\).aspx)。  
+ 如需 JavaScript 語言參考文件，請參閱 [JavaScript](https://docs.microsoft.com/scripting/javascript/javascript-language-reference)。
   
  可能需要特定版本的 Visual Studio 或特定的 Visual Studio 擴充功能，才能開發特定應用程式類型和使用 HTML 和 JavaScript 的服務。 下列清單中有詳細資訊的連結。  
   
--   若要使用 Apache Cordova 來建立跨平台應用程式，請[取得 Visual Studio Tools for Apache Cordova](http://go.microsoft.com/fwlink/p/?LinkId=397606)。  
+-   若要使用 Apache Cordova 來建立跨平台應用程式，請參閱[適用於 Apache Cordova 的 Visual Studio 工具 (英文)](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/)。  
   
--   若要建立 [Windows 市集](http://dev.windows.com/develop)、[Windows Phone](http://dev.windows.com/develop) 及通用應用程式 (支援這兩種平台)，請[取得工具](http://dev.windows.com/en-us/develop/downloads)。  
-  
--   若要建立雲端式服務，請參閱 [Microsoft Azure 網站](http://azure.microsoft.com/documentation/)。  
-  
--   若要建立網站和 Web 應用程式，請參閱 [ASP.NET 網站](http://www.asp.net/get-started/websites)。  
-  
-    > [!NOTE]
-    >  您可以建立空白 ASP.Net 網站，並用來進行 HTML、CSS 和 JavaScript 程式設計。 ASP.NET 所提供的 Webconfig 檔案可讓您在 Visual Studio 中偵錯 (或當您執行應用程式時，可以使用 F12 工具)。  
+-   如需您可在 Visual Studio 中使用的 JavaScript 技術連結，請參閱 [JavaScript (英文)](https://docs.microsoft.com/scripting/javascript/) 和[指令碼技術 (英文)](https://docs.microsoft.com/scripting/) 頁面。
   
  Visual Studio 中的 JavaScript 編輯器會提供 IntelliSense 支援。 如需詳細資訊，請參閱 [JavaScript IntelliSense](../ide/javascript-intellisense.md)。  
   

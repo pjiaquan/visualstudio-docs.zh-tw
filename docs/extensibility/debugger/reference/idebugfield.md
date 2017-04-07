@@ -31,13 +31,13 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: e272f7b5e314e09d111ca3996870f5131ebdc3d0
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: b96de879e880fc786f3bcedbe797cb66e68e04b9
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="idebugfield"></a>IDebugField
-這個介面表示的欄位，也就是符號或類型的描述。  
+此介面代表一個欄位，也就是符號或類型的描述。  
   
 ## <a name="syntax"></a>語法  
   
@@ -49,14 +49,14 @@ IDebugField : IUnknown
  符號提供者會實作這個介面的基底類別的所有欄位。  
   
 ## <a name="notes-for-callers"></a>呼叫端資訊  
- 這個介面是所有欄位的基底類別。 根據傳回值[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)，此介面可能會傳回更具特製化的介面使用[QueryInterface](/visual-cpp/atl/queryinterface)。 此外，許多介面傳回`IDebugField`各種方法的物件。  
+ 這個介面是基底類別的所有欄位。 根據傳回值[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)，此介面可能會傳回更具特製化的介面使用[QueryInterface](/cpp/atl/queryinterface)。 此外，許多介面傳回`IDebugField`各種方法的物件。  
   
 ## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
  下表顯示的方法`IDebugField`。  
   
 |方法|描述|  
 |------------|-----------------|  
-|[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)|取得相關的符號或類型可顯示的資訊。|  
+|[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)|取得可顯示的符號或類型的相關資訊。|  
 |[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)|取得欄位的類型。|  
 |[GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)|取得欄位的類型。|  
 |[GetContainer](../../../extensibility/debugger/reference/idebugfield-getcontainer.md)|取得欄位的容器。|  
@@ -64,12 +64,12 @@ IDebugField : IUnknown
 |[GetSize](../../../extensibility/debugger/reference/idebugfield-getsize.md)|取得欄位，以位元組為單位的大小。|  
 |[GetExtendedInfo](../../../extensibility/debugger/reference/idebugfield-getextendedinfo.md)|取得擴充欄位的相關資訊。|  
 |[等於](../../../extensibility/debugger/reference/idebugfield-equal.md)|比較兩個欄位。|  
-|[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)|取得型別無關的符號或類型資訊。|  
+|[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)|取得與類型無關的相關資訊的符號或類型。|  
   
 ## <a name="remarks"></a>備註  
  型別就相當於 C 語言`typedef`。  
   
- 在下列的 c + + 語言範例，`weather`類別型別和`sunny`和`stormy`符號︰  
+ 在下列 c + + 語言的範例，`weather`類別型別和`sunny`和`stormy`符號︰  
   
 ```cpp#  
 class weather;  
@@ -77,7 +77,7 @@ weather sunny;
 weather stormy;  
 ```  
   
- 欄位會表示為符號還是型別由呼叫[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)及檢查[FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)結果。 如果`FIELD_KIND_TYPE`位元會設為欄位型別，而且如果`FIELD_KIND_SYMBOL`位元設定時，它是一個符號。  
+ 欄位代表符號還是可以藉由呼叫決定類型[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)和檢查[FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md)結果。 如果`FIELD_KIND_TYPE`位元會設為欄位類型，而且如果`FIELD_KIND_SYMBOL`會設定位元，它是一種符號。  
   
 ## <a name="requirements"></a>需求  
  標頭︰ sh.h  

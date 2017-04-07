@@ -1,24 +1,43 @@
 ---
 title: "逐步解說：針對 Managed 程式碼建立和執行單元測試 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "單元測試，逐步解說"
-  - "單元測試，建立"
-  - "單元測試，產生"
-  - "單元測試，執行"
-  - "單元測試，撰寫"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- unit tests, walkthrough
+- unit tests, creating
+- unit tests, generating
+- unit tests, running
+- unit tests, authoring
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 83
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 83
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
+ms.openlocfilehash: a00b80092a44190d626b93b0ecc5689bafd1a4e3
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-managed-code"></a>逐步解說：針對 Managed 程式碼建立和執行單元測試
 本逐步解說會引導您使用適用於 Managed 程式碼的 Microsoft 單元測試架構和 Visual Studio 測試總管，來建立、執行和自訂一系列的單元測試。 您可以從開發中的 C# 專案開始，建立執行其程式碼的測試、執行測試，並檢查結果。 然後，您可以修改專案程式碼並重新執行測試。  
@@ -53,7 +72,7 @@ caps.handback.revision: 83
   
 -   Bank 專案。 請參閱[用於建立單元測試的範例專案](../test/sample-project-for-creating-unit-tests.md)。  
   
-##  <a name="a-namebkmkpreparethewalkthrougha-prepare-the-walkthrough"></a><a name="BKMK_Prepare_the_walkthrough"></a> 準備逐步解說  
+##  <a name="BKMK_Prepare_the_walkthrough"></a> 準備逐步解說  
   
 1.  開啟 Visual Studio。  
   
@@ -104,7 +123,7 @@ public void Debit(double amount)
   
 ```  
   
-##  <a name="a-namebkmkcreateaunittestprojecta-create-a-unit-test-project"></a><a name="BKMK_Create_a_unit_test_project"></a> 建立單元測試專案  
+##  <a name="BKMK_Create_a_unit_test_project"></a> 建立單元測試專案  
  **必要條件**：遵循[準備逐步解說](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#BKMK_Prepare_the_walkthrough)程序中的步驟。  
   
 #### <a name="to-create-a-unit-test-project"></a>建立單元測試專案  
@@ -125,7 +144,7 @@ public void Debit(double amount)
   
 6.  在 [參考管理員] 對話方塊中，展開 [ **方案** ]，然後檢查 [ **Bank** ] 項目。  
   
-##  <a name="a-namebkmkcreatethetestclassa-create-the-test-class"></a><a name="BKMK_Create_the_test_class"></a> 建立測試類別  
+##  <a name="BKMK_Create_the_test_class"></a> 建立測試類別  
  我們需要一個測試類別以驗證 `BankAccount` 類別。 我們可以使用由專案範本所產生的 UnitTest1.cs，不過，我們應該使用更具有描述性的名稱來命名檔案和類別。 我們可以在方案總管中重新命名檔案，就能一個步驟達成目的。  
   
  **重新命名類別檔案**  
@@ -160,7 +179,7 @@ namespace BankTests
 using BankAccountNS;  
 ```  
   
-###  <a name="a-namebkmktestclassrequirementsa-test-class-requirements"></a><a name="BKMK_Test_class_requirements"></a> 測試類別需求  
+###  <a name="BKMK_Test_class_requirements"></a> 測試類別需求  
  測試類別的最低需求如下：  
   
 -   在適用於 Managed 程式碼的 Microsoft 單元測試架構中，對於包含要在 [測試總管] 中執行的單元測試方法的任何類別而言， `[TestClass]` 屬性是必要的。  
@@ -169,7 +188,7 @@ using BankAccountNS;
   
  單元測試專案中可以含有不具有 `[TestClass]` 屬性的其他類別，而測試類別中也可以含有不具有 `[TestMethod]` 屬性的其他方法。 您可以在測試方法中使用這些其他類別和方法。  
   
-##  <a name="a-namebkmkcreatethefirsttestmethoda-create-the-first-test-method"></a><a name="BKMK_Create_the_first_test_method"></a> 建立第一個測試方法  
+##  <a name="BKMK_Create_the_first_test_method"></a> 建立第一個測試方法  
  在這個程序中，我們會撰寫單元測試方法以驗證 `Debit` 類別之 `BankAccount` 方法的行為。 該方法如上所列。  
   
  藉由分析受測方法，我們判斷至少有三種需要檢查的行為：  
@@ -210,7 +229,7 @@ using BankAccountNS;
   
  此方法相當簡單。 我們設定一開始就有餘額的新 `BankAccount` 物件，然後提領有效的金額。 我們針對 Managed 程式碼 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A> 方法使用 Microsoft 單元測試架構，以驗證最終餘額如我們所預期。  
   
-###  <a name="a-namebkmktestmethodrequirementsa-test-method-requirements"></a><a name="BKMK_Test_method_requirements"></a> 測試方法需求  
+###  <a name="BKMK_Test_method_requirements"></a> 測試方法需求  
  測試方法必須符合下列需求：  
   
 -   此方法必須以 `[TestMethod]` 屬性裝飾。  
@@ -219,7 +238,7 @@ using BankAccountNS;
   
 -   此方法不能有參數。  
   
-##  <a name="a-namebkmkbuildandrunthetesta-build-and-run-the-test"></a><a name="BKMK_Build_and_run_the_test"></a> 建置並執行測試  
+##  <a name="BKMK_Build_and_run_the_test"></a> 建置並執行測試  
   
 #### <a name="to-build-and-run-the-test"></a>建置並執行測試  
   
@@ -231,10 +250,10 @@ using BankAccountNS;
   
 3.  在本案例中，測試就失敗了。 測試方法會移至 [ **失敗的測試**] 群組。 。 在 [測試總管] 中選取該方法，以檢視視窗底部的詳細資料。  
   
-##  <a name="a-namebkmkfixyourcodeandrerunyourtestsa-fix-your-code-and-rerun-your-tests"></a><a name="BKMK_Fix_your_code_and_rerun_your_tests"></a> 修正程式碼並重新執行測試  
+##  <a name="BKMK_Fix_your_code_and_rerun_your_tests"></a> 修正程式碼並重新執行測試  
  **分析測試結果**  
   
- 測試結果會包含說明失敗的訊息。 如果是 `AreEquals` 方法，訊息會顯示預期 (**預期的 \<*XXX*>** 參數) 和實際收到的參數 (**實際的 \<*YYY*>** 參數)。 我們預期餘額會低於一開始的餘額，但相反地，它卻增加了提領金額。  
+ 測試結果會包含說明失敗的訊息。 如果是 `AreEquals` 方法，訊息會顯示預期 (**預期的 \<*XXX*>**參數) 和實際收到的參數 (**實際的 \<*YYY*>** 參數)。 我們預期餘額會低於一開始的餘額，但相反地，它卻增加了提領金額。  
   
  重新對 Debit 程式碼執行檢查後發現了 Bug，單元測試現在已成功了。 提領的金額應該從帳戶餘額減去，但卻被加入至帳戶餘額。  
   
@@ -256,7 +275,7 @@ m_balance -= amount;
   
  在 [測試總管] 中，選擇 [ **全部執行** ] 以重新執行測試。 紅色/綠色狀態列會轉成綠色，且測試會移至 [ **成功的測試** ] 群組。  
   
-##  <a name="a-namebkmkuseunitteststoimproveyourcodea-use-unit-tests-to-improve-your-code"></a><a name="BKMK_Use_unit_tests_to_improve_your_code"></a> 使用單元測試改善您的程式碼  
+##  <a name="BKMK_Use_unit_tests_to_improve_your_code"></a> 使用單元測試改善您的程式碼  
  這一節會說明分析、單元測試開發和重構的反覆流程，是如何協助您讓生產環境程式碼更加強固而有效。  
   
  **分析問題**  
@@ -415,8 +434,4 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 ```  
   
  在這最後一節中，我們所做的測試程式碼改善工作，產生了更強固且更具資訊性的測試方法。 但更重要的是，額外的分析也會讓我們的受測專案得到更好的程式碼。
-
-
-<!--HONumber=Feb17_HO4-->
-
 

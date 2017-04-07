@@ -28,18 +28,16 @@ translation.priority.mt:
 - zh-cn
 - zh-tw
 translationtype: Machine Translation
-ms.sourcegitcommit: 4f93b8c1db59dd8d8a407c82002240641be43018
-ms.openlocfilehash: 1f9248442357c4447703ac6d6dac8a27934904e8
-ms.lasthandoff: 03/01/2017
+ms.sourcegitcommit: 5b6334c38a6c058f274498c06f8e07c934931910
+ms.openlocfilehash: efd17a3317302fedcb9bd42aded7a38adee2f75f
+ms.lasthandoff: 03/22/2017
 
 ---
 # <a name="how-to-migrate-extensibility-projects-to-visual-studio-2017"></a>如何︰ 將擴充性專案移轉至 Visual Studio 2017
 
->**注意︰**這份文件為初步資訊而且根據 Visual Studio 2017 RC 版本。
-
 本文件說明如何升級至 Visual Studio 2017 擴充性專案。 除了說明如何更新專案檔，並說明如何從延伸模組資訊清單版本 2 (VSIX v2) 升級至新版本 3 VSIX 資訊清單的格式 (VSIX v3)。
 
-## <a name="install-visual-studio-2017-rc-with-required-workloads"></a>安裝 Visual Studio 2017 RC，必要的工作負載
+## <a name="install-visual-studio-2017-with-required-workloads"></a>安裝 Visual Studio 2017 所需的工作負載
 
 請確定您的安裝包含下列工作負載︰
 
@@ -59,19 +57,16 @@ ms.lasthandoff: 03/01/2017
 
 >**注意︰**如果您的方案不會參考 Microsoft.VSSDK.BuildTools NuGet 封裝，您可以略過此步驟。
 
-若要建置您的擴充功能，在新的 VSIX v3 （第 3 版） 格式，您的方案將需要使用新的 VSSDK 建置工具來建置。 這會安裝 Visual Studio 2017 rc，但您的 VSIX v2 擴充功能可能會保留透過 NuGet 用較舊版本的參考。 如果是的話，您必須手動安裝更新的 Microsoft.VSSDK.BuildTools NuGet 封裝您的解決方案。 此 RC 版本期間，此封裝將會處於 「 預先發行 」 狀態。
+若要建置您的擴充功能，在新的 VSIX v3 （第 3 版） 格式，您的方案將需要使用新的 VSSDK 建置工具來建置。 使用 Visual Studio 2017，這會安裝，但您的 VSIX v2 擴充功能可能會保留透過 NuGet 用較舊版本的參考。 如果是的話，您必須手動安裝更新的 Microsoft.VSSDK.BuildTools NuGet 封裝您的解決方案。
 
 若要更新 Microsoft.VSSDK.BuildTools NuGet 的參考︰
 
 * 以滑鼠右鍵按一下方案，然後選擇 **管理方案的 NuGet 封裝...**
 * 瀏覽至**更新** 索引標籤。
-* 核取方塊以**包含發行前版本**。
 * 選取 Microsoft.VSSDK.BuildTools （最新版本）。
 * 按下**更新**。
 
 ![VSSDK 建置工具](media/vssdk-build-tools.png)
-
->**注意︰**螢幕擷取畫面顯示 BuildTools 的不同版本。 請選取 RC 版本。
 
 ## <a name="make-changes-to-the-vsix-extension-manifest"></a>變更 VSIX 擴充功能資訊清單
 
@@ -140,7 +135,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ![啟動外部程式](media/start-external-program.png)
 
->**注意︰**偵錯起始動作通常會儲存在。 副檔名為.csproj.user 檔案。 這個檔案通常包含在.gitignore 檔案，並因此，不通常會儲存其他專案時使用檔案認可至原始檔控制。 同樣地，如果有提取全新從原始檔控制方案很可能專案會有任何值為 起始動作。 使用 Visual Studio 2017 建立新的 VSIX 專案都有。 以指向目前的 Visual Studio 安裝目錄的預設值建立副檔名為.csproj.user 檔案。 不過如果您要移轉的 VSIX v2 延伸模組，則可能的。 副檔名為.csproj.user 檔案將包含參考先前的 Visual Studio 版本的安裝目錄。 設定的值**偵錯** > **起始動作**將允許正確 Visual Studio 實驗性執行個體啟動時您嘗試偵錯您的擴充功能。
+>**注意︰**偵錯起始動作通常會儲存在。 副檔名為.csproj.user 檔案。 這個檔案通常包含在.gitignore 檔案，並因此，不通常會儲存其他專案時使用檔案認可至原始檔控制。 因此，如果您有提取您的方案從原始檔控制的全新很可能專案會有任何值為 起始動作。 使用 Visual Studio 2017 建立新的 VSIX 專案都有。 以指向目前的 Visual Studio 安裝目錄的預設值建立副檔名為.csproj.user 檔案。 不過如果您要移轉的 VSIX v2 延伸模組，則可能的。 副檔名為.csproj.user 檔案將包含參考先前的 Visual Studio 版本的安裝目錄。 設定的值**偵錯** > **起始動作**將允許正確 Visual Studio 實驗性執行個體啟動時您嘗試偵錯您的擴充功能。
 
 ## <a name="check-that-the-extension-builds-correctly-as-a-vsix-v3"></a>請檢查正確 （如 VSIX v3)，建置擴充功能
 
@@ -155,13 +150,13 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\deven
 
 ## <a name="check-when-all-required-prerequisites-are-installed"></a>當已安裝所有必要的必要條件檢查
 
-VSIX 成功安裝在電腦安裝所有必要先決條件的測試。
+VSIX 仍可順利安裝在電腦安裝所有必要先決條件的測試。
 
 >**注意︰**安裝之前任何延伸模組，請關閉所有 Visual Studio 執行個體。
 
 嘗試安裝擴充功能︰
 
-* 在 Visual Studio 2017 RC
+* 在 Visual Studio 2017
 
 ![在 Visual Studio 2017 VSIX 安裝程式](media/vsixinstaller-vs-2017.png)
 
@@ -170,19 +165,19 @@ VSIX 成功安裝在電腦安裝所有必要先決條件的測試。
   * 應可適用於 Visual Studio 2012、 Visual Studio 2013、 Visual Studio 2015。
 * 選擇性︰ 檢查 VSIX 安裝程式版本檢查，提供選擇的版本。
   * 包含了舊版的 Visual Studio （如果安裝的話）。
-  * 包含 Visual Studio 2017 RC。
+  * 包含 Visual Studio 2017。
 
 如果最近開啟 Visual Studio，您可能會看到像這樣的對話方塊︰
 
 ![vs 執行處理程序](media/vs-running-processes.png)
 
-等候所有處理序關閉，或手動結束工作。 您可以找到處理程序所列的名稱，或使用括號中列出的 PID。
+等候所有處理序關閉，或以手動方式結束工作。 您可以找到處理程序所列的名稱，或使用括號中列出的 PID。
 
 >**注意︰**這些處理程序將不會自動關閉 Visual Studio 執行個體正在執行時。 請確定您已關閉所有執行個體上 – 包括其他使用者，從 Visual studio，然後繼續重試。
 
 ## <a name="check-when-missing-the-required-prerequisites"></a>當遺失所需的必要條件檢查
 
-* 嘗試延伸模組的機器上安裝 Visual Studio 2017 rc 並不會包含在必要條件 （如上所述） 中定義的所有元件。
+* 嘗試安裝擴充功能在電腦上使用 Visual Studio 2017 並不會包含的必要條件 （如上所述） 中定義的所有元件。
 * 請檢查安裝識別遺漏的元件/s 和列為 VSIXInstaller 中的必要條件。
 * 注意︰ 提高權限都必須如果任何必要元件需要安裝擴充功能。
 
@@ -196,7 +191,7 @@ VSIX 成功安裝在電腦安裝所有必要先決條件的測試。
 
 擴充功能類型 | 顯示名稱 |    ID
 --- | --- | ---
-編輯器 | Visual Studio 核心編輯器    | Microsoft.VisualStudio.CoreEditor
+編輯器 | Visual Studio 核心編輯器    | Microsoft.VisualStudio.Component.CoreEditor
 Roslyn | C# 和 Visual Basic | Microsoft.VisualStudio.Component.Roslyn.LanguageServices
 WPF | 受管理的桌面工作負載的核心 | Microsoft.VisualStudio.Component.ManagedDesktop.Core
 偵錯工具 | 在 Just-in-time 偵錯工具 | Microsoft.VisualStudio.Component.Debugger.JustInTime

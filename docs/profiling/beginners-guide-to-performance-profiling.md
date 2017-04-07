@@ -1,25 +1,44 @@
 ---
-title: "效能分析的初級開發人員指南 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-f1_keywords: 
-  - "vs.performance.wizard.intropage"
-helpviewer_keywords: 
-  - "效能工具, 精靈"
-  - "效能精靈"
-  - "程式碼剖析工具, 快速入門"
+title: "Visual Studio 效能分析的初級開發人員指南 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: get-started-article
+f1_keywords:
+- vs.performance.wizard.intropage
+helpviewer_keywords:
+- Profiling Tools, quick start
+- Diagnostics Tools, CPU Usage
+- CPU Usage
+- Diagnostics Tools
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
 caps.latest.revision: 45
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 43
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: fe329cd5395db3afae1c3f3e98bb6e480323e21f
+ms.lasthandoff: 03/07/2017
+
 ---
 # <a name="beginners-guide-to-performance-profiling"></a>效能分析的初級開發人員指南
 您可以使用 Visual Studio 程式碼剖析工具來分析應用程式中的效能問題。 此程序示範如何使用 [診斷工具] 的 [CPU 使用量] 索引標籤，以取得您的應用程式的效能資料。 診斷工具可用於 Visual Studio 中的 .NET 開發 (包括 ASP.NET) 和原生/C++ 開發。
@@ -30,7 +49,7 @@ caps.handback.revision: 43
 
 在本主題中，我們將討論一般偵錯工作流程中的 CPU 使用量分析。 您也可以不附加偵錯工具來分析 CPU 使用量，或是以執行中的應用程式為目標，如需詳細資訊，請參閱[執行程式碼剖析工具但不偵錯](../profiling/running-profiling-tools-with-or-without-the-debugger.md)。
   
-##  <a name="a-namebkmkquickstartcollectdiagnosticdataa-step-1-collect-profiling-data"></a><a name="BKMK_Quick_start__Collect_diagnostic_data"></a> 步驟 1︰收集程式碼剖析資料 
+##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> 步驟 1︰收集程式碼剖析資料 
   
 1.  開啟您想要在 Visual Studio 中偵錯的專案，並在您的應用程式中要檢查 CPU 使用量的位置設定中斷點。
 
@@ -81,7 +100,7 @@ caps.handback.revision: 43
 
      此時，您可以開始分析資料。
 
-## <a name="a-namestep2a-step-2-analyze-cpu-usage-data"></a><a name="Step2"></a> 步驟 2：分析 CPU 使用量資料
+## <a name="Step2"></a> 步驟 2：分析 CPU 使用量資料
 
 建議您先檢查 [CPU 使用量] 下方的函式清單、識別執行最多工作的函式，仔細觀察每一項，接著開始分析您的資料。
 
@@ -128,7 +147,7 @@ caps.handback.revision: 43
 
 - [Modules (模組)] 內含函式的模組名稱，或內含 [External Code (外部程式碼)] 節點中的函式的模組數目。
 
-## <a name="a-namebkmkexternalcodeaview-external-code"></a><a name="BKMK_External_Code"></a>檢視外部程式碼
+## <a name="BKMK_External_Code"></a>檢視外部程式碼
 
 外部程式碼是在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU Usage (CPU 使用量)] 工具會將使用者方法的外部函式，收集成一個 [External Code (外部程式碼)] 節點。
   
@@ -147,8 +166,3 @@ caps.handback.revision: 43
  [[記憶體使用量](../profiling/memory-usage.md)
  [CPU 使用量](../profiling/cpu-usage.md)
  [程式碼剖析工具](../profiling/profiling-tools.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - code coverage
 ms.assetid: 800fc739-acd2-4242-84cb-1d83b4d82cf9
 caps.latest.revision: 36
-ms.author: mlearned
+ms.author: douge
 manager: douge
 translation.priority.ht:
 - cs-cz
@@ -271,7 +271,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
      如果您有一個以上的測試來源定義，請針對每一個定義重複以上步驟。  
   
-    -   *但沒有名為 [回合設定檔類型]** 的欄位。*  
+    -   *但沒有名為 [回合設定檔類型]**的欄位。*  
   
          在 [自動化測試] 下，選取 [測試組件]，然後選擇行末的省略符號按鈕 [...]。 在 [加入/編輯測試回合] 對話方塊中，選擇 [測試執行器] 之下的 [Visual Studio 測試執行器]。  
   
@@ -302,3 +302,4 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  [自訂程式碼涵蓋範圍分析](../test/customizing-code-coverage-analysis.md)   
  [針對程式碼涵蓋範圍進行疑難排解](../test/troubleshooting-code-coverage.md)   
  [對程式碼進行單元測試](../test/unit-test-your-code.md)
+

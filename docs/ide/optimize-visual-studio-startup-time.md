@@ -18,9 +18,9 @@ manager: ghogen
 f1_keywords:
 - vs.performancecenter
 translationtype: Human Translation
-ms.sourcegitcommit: ba88bad0753653dcde8a4d28b4dd1c71522d6506
-ms.openlocfilehash: 435197f1536dc9006691c0f2e58fafd0fcf27718
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
+ms.openlocfilehash: 27a265dbbb1f9426ba2dd254095c84239bbd0db7
+ms.lasthandoff: 03/07/2017
 
 ---
 # <a name="optimize-visual-studio-startup-time"></a>最佳化 Visual Studio 啟動時間
@@ -28,7 +28,7 @@ ms.lasthandoff: 02/22/2017
 
 ## <a name="control-startup-behavior"></a>控制啟動行為
 
-為了避免延長啟動時間，Visual Studio 2017 RC 會避免使用依需求載入方式在啟動期間載入延伸模組。 這表示延伸模組不會在 Visual Studio 啟動之後立即開啟，而是在啟動之後視需要非同步開啟。 此外，因為在先前的 Visual Studio 工作階段中保持開啟的工具視窗可能會讓啟動時間變慢，所以 Visual Studio 會以更智慧的方式開啟工具視窗，以避免影響啟動時間。
+為了避免延長啟動時間，Visual Studio 2017 會使用依需求載入方式，以避免在啟動時載入擴充功能。 這表示延伸模組不會在 Visual Studio 啟動之後立即開啟，而是在啟動之後視需要非同步開啟。 此外，因為在先前的 Visual Studio 工作階段中保持開啟的工具視窗可能會讓啟動時間變慢，所以 Visual Studio 會以更智慧的方式開啟工具視窗，以避免影響啟動時間。
 
 如果 Visual Studio 偵測到啟動變慢，就會出現快顯訊息，警告您導致速度變慢的延伸模組或工具視窗。 此訊息也會提供 [管理 Visual Studio 效能] 對話方塊的連結，而在此對話方塊中，會列出影響啟動效能的延伸模組和工具視窗。 這個對話方塊可讓您變更延伸模組和工具視窗設定，以改善啟動效能。
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 02/22/2017
 
 ## <a name="speed-up-solution-load"></a>加速方案載入
 
-Visual Studio 2017 RC 引進稱為「輕量型解決方案載入」的新功能，可減少在 IDE 中載入大型方案所需的時間量和記憶體數量。 如果您有包含許多 C#、VB 或 C++ 專案的大型方案，則可能會在啟用輕量型解決方案載入時看到大幅效能改善。
+Visual Studio 2017 導入一項稱為「輕量型解決方案載入」的新功能，可減少在 IDE 中載入大型方案所需的時間量和記憶體數量。 如果您有包含許多 C#、VB 或 C++ 專案的大型方案，則可能會在啟用輕量型解決方案載入時看到大幅效能改善。
 
 因為某些 IDE 功能在啟用輕量型解決方案時不是完全可用，所以預設會關閉此功能。 下列各節將協助您決定是否不要啟用這項功能。
 
@@ -77,7 +77,7 @@ Visual Studio 2017 RC 引進稱為「輕量型解決方案載入」的新功能�
 
 ### <a name="automatically-enable-lightweight-solution-load"></a>自動啟用輕量型解決方案載入
 
-在 Visual Studio 2017 RC 中開啟大型方案時，可能會看到啟用輕量型解決方案載入的快顯訊息。 只有包含許多 C#、VB 或 C++ 專案的方案，才會出現此訊息。 選擇 [啟用] 命令只會對該方案啟用輕量型解決方案載入。 將不會變更整個 IDE 設定。
+當您在 Visual Studio 2017 中開啟大型方案時，可能會看到啟用輕量型解決方案載入的快顯訊息。 只有包含許多 C#、VB 或 C++ 專案的方案，才會出現此訊息。 選擇 [啟用] 命令只會對該方案啟用輕量型解決方案載入。 將不會變更整個 IDE 設定。
 
 ![快顯視窗](../ide/media/VSIDE_LSL Popup.png)
 

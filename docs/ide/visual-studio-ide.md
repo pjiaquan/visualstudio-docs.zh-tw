@@ -1,7 +1,7 @@
 ---
-title: Visual Studio IDE | Microsoft Docs
+title: "Visual Studio IDE 功能導覽 | Microsoft Docs"
 ms.custom: 
-ms.date: 01/17/2016
+ms.date: 03/07/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,200 +27,220 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
-ms.openlocfilehash: 10db0535b950f1a1525bab89a6df25e4e3f40012
-ms.lasthandoff: 03/03/2017
+ms.sourcegitcommit: b0d84db6a16861fb9554af2a644423f906784748
+ms.openlocfilehash: b2ff9c3505b117469854a24cad8e9b13d8039db8
+ms.lasthandoff: 03/07/2017
 
 ---
-# <a name="visual-studio-ide"></a>Visual Studio IDE
-Microsoft Visual Studio 2017 RC 是一套建立軟體的工具，適用於從規劃階段到 UI 設計、撰寫程式碼、測試、偵錯、分析程式碼品質和效能，部署給客戶以及收集使用量遙測。 這些工具的設計目的是要盡可能地緊密整合，而且全部都可透過 Visual Studio 整合式開發環境 (IDE) 公開。  
+# <a name="visual-studio-ide-feature-tour"></a>Visual Studio IDE 功能導覽
+本主題將為您介紹 Visual Studio IDE 的功能。 Visual Studio IDE 是一個互動式開發環境 (IDE)；這是一個有創意的啟動控制板，可供您用來檢視和編輯幾乎任何類型的程式碼，然後偵錯、建置及發佈適用於 Android、iOS、Windows、Web 和雲端的應用程式。 針對 Mac 和 Windows 都有適用的版本。 我們將逐步解說您可以運用 Visual Studio 來進行的一些操作及如何安裝和使用它、逐步引導您建立簡單的專案、取得進行程式碼偵錯和部署時的指標，以及介紹各種工具視窗。
 
- 您可以使用 Visual Studio 來建立許多種類的應用程式，從簡單的市集應用程式和行動用戶端的遊戲，到能讓企業和資料中心營運的大型、複雜的系統。 您可以建立  
+## <a name="what-can-you-do-with-the-visual-studio-ide"></a>您可以運用 Visual Studio IDE 來做什麼？
+您是否想要建立適用於 Android 手機的應用程式？ 您可以辦得到。 使用 C++ 來建立最頂尖的遊戲，如何？ 您也可以辦得到，而且還能做得更多。 Visual Studio 可提供範本來協助您建立網站、遊戲、傳統型應用程式、行動應用程式、適用於 Office 的應用程式等等。
 
- - 應用程式和遊戲，這些不只能在 Windows 上執行，也能在 Android 和 iOS 上執行。
+![Visual Studio 專案](../ide/media/VSIDE_Tour_Projects_List.png)
 
- - 以 ASP.NET、JQuery、AngularJS 和其他常用架構為基礎的網站和 Web 服務。
+或者，您可以直接開啟從幾乎任何來源取得的幾乎任何程式碼並開始工作。 在 GitHub 上看到您喜歡的專案嗎？ 只要直接複製該儲存機制、在 Visual Studio 中開啟它，然後開始撰寫程式碼即可！
 
- - 應用程式，供各種不同平台和裝置使用，舉幾個例子來說，例如 Azure、Office、Sharepoint、Hololens、Kinect 和物聯網等。
+### <a name="create-mobile-apps"></a>建立行動應用程式
+您可以使用 Visual C# 和 Xamarin 或 Visual C++ 為不同的平台建立原生行動應用程式，或是使用 JavaScript 搭配 Apache Cordova 來建立混合式應用程式。 您可以為 Unity、Unreal、DirectX、Cocos 等撰寫行動裝置遊戲。 Visual Studio 包含一個 Android 模擬器，可協助您執行 Android 應用程式及針對這些應用程式進行偵錯。
 
- - 使用 DirectX 提供適用於各種 Wondows 裝置包括 Xbox 在內的遊戲與大量圖形的應用程式。
+您可以藉由建立 Azure 應用程式服務，將雲端的強大功能運用在您的行動應用程式上。 Azure 應用程式服務可讓您的應用程式將資料儲存在雲端、安全地驗證使用者，以及自動相應增加或減少其資源以配合您應用程式和業務的需求。 若要深入了解，請參閱[行動應用程式開發](https://www.visualstudio.com/vs/mobile-app-development/)。
+
+### <a name="create-cloud-apps-for-azure"></a>建立適用於 Azure 的雲端應用程式
+Visual Studio 提供一套工具，可讓您輕鬆建立由 Microsoft Azure 提供技術之支援雲端的應用程式。 您可以直接從 IDE，在 Microsoft Azure 上設定、建置、偵錯、封裝及部署應用程式和服務。 請使用「已連接服務」來將 Azure 服務運用在您的應用程式上。 若要取得「適用於 .NET 的 Azure 工具」，請在安裝 Visual Studio 時，選取 [Azure 開發] 工作負載。 如需詳細資訊，請參閱 [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/)。
+
+### <a name="create-apps-for-the-web"></a>建立適用於 Web 的應用程式
+Web 推動我們的現代化世界，而 Visual Studio 則可協助您撰寫適用於 Web 的應用程式。 您可以使用 ASP.NET、Node.js、Python、JavaScript 及 TypeScript 來建立 Web 應用程式。 Visual Studio 了解 Angular、jQuery、Express 等 Web 架構。 ASP.NET Core 和 .NET Core 可在 Windows、Mac 及 Linux 作業系統上執行。 如需詳細資訊，請參閱[新式 Web 工具](https://www.visualstudio.com/vs/modern-web-tooling/)。
+
+### <a name="write-code-in-a-world-class-editing-environment"></a>在世界級的編輯環境中撰寫程式碼
+Visual Studio 可透過語法色彩標示、陳述式完成、IntelliSense (所選程式碼元素的快顯描述)、程式碼大綱、設定偵錯中斷點等功能，協助您快速且輕鬆地撰寫程式碼。
+
+![JavaScript 程式碼範例](../ide/media/vside_tour_javascript_example.gif)
+
+若要深入了解，請參閱[在程式碼和文字編輯器中撰寫程式碼](https://docs.microsoft.com/visualstudio/ide/writing-code-in-the-code-and-text-editor)。
+
+Visual Studio 還可協助您進行更多的工作。 如需更完整的清單，請參閱 [Visual Studio IDE](https://www.visualstudio.com/vs/)。
 
 
- 根據預設，Visual Studio 提供對於 C#、C 及 C++、JavaScript、TypeScript、F# 和 Visual Basic 的支援。 Visual Studio 透過 [Xamarin for Visual Studio](https://www.xamarin.com/visual-studio)、[Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) 延伸模組和 [Visual Studio Tools for Apache Cordova](../misc/get-started-with-visual-studio-tools-for-apache-cordova2.md) 分別與 Xamarin、Unity 這類協力廠商應用程式和 Apache Cordova 密切合作及整合。 您可以建立執行特定工作的自訂工具，透過 [Visual Studio SDK](../extensibility/visual-studio-sdk.md)來自行擴充 Visual Studio。
+## <a name="install-the-visual-studio-ide"></a>安裝 Visual Studio IDE
+若要開始，請下載 Visual Studio 並將它安裝在您的系統上。 您可以從 [Visual Studio 2017](https://www.visualstudio.com/vs/visual-studio-2017/) 下載它。
 
-## <a name="find-out-whats-new"></a>了解新功能
- 如果您未曾使用過 Visual Studio，請開始使用 [Visual Studio 使用者入門](../ide/get-started-with-visual-studio.md)了解基本概念。
-如果您想要了解 Visual Studio 2017 RC 的新功能，請參閱 [Visual Studio 2017 RC 的新功能](../ide/whats-new-in-visual-studio.md)。
+Visual Studio 現在比以往更輕巧！ 新模組安裝程式可讓您選擇並安裝「工作負載」，這些通常是您慣用的程式設計語言或平台所需的幾組功能。 此策略有助於將 Visual Studio 安裝項的資源使用量降到比以往低，這意謂著它的安裝和更新速度也更快。
 
-## <a name="set-up-visual-studio"></a>設定 Visual Studio
- 您可以在 [Visual Studio 產品](https://www.visualstudio.com/products/)找到最適合您的 Visual Studio 版本。
+![Visual Studio 安裝程式](../install/media/vs2017-workloads.png)
 
- 您可以從 [Visual Studio 下載](https://www.visualstudio.com/vs/)來安裝 Visual Studio 2017 RC。 若要深入了解安裝程序，請參閱 [Installing Visual Studio 2017 RC](https://go.microsoft.com/fwlink/?linkid=833223) (安裝 Visual Studio 2017 RC)。
+除了提升安裝效能之外，Visual Studio 2017 中也做了許多改進來改善整體 IDE 啟動和解決方案載入時間。 例如，選取新的 [輕量型解決方案載入] 功能 (位於主功能表的 [工具] > [選項] > [專案和方案] 底下) 可讓較大型的方案更快載入。 若要深入了解如何在您的系統上設定 Visual Studio，請參閱 [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio)。
+
+## <a name="sign-in"></a>登入
+當您第一次啟動 Visual Studio 時，可以視需要使用您的 Microsoft 帳戶或是工作或學校帳戶來登入。 登入可讓您跨多個裝置同步 Visual Studio 設定，例如視窗配置。 此外，還可自動將您連接到您可能需要的服務，例如 Azure 訂用帳戶和 Visual Studio Team Services。
+
+
+## <a name="create-a-program"></a>建立程式
+
+有一個了解東西的好方法，就是去使用它！ 讓我們來深入探討並建立一個新的簡單程式。
+
+1. 開啟 Visual Studio。 在功能表上，依序選擇 [檔案]、[新增]、[專案]。 (使用預設的專案值)。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_NewProject1.png)
+
+1. [新增專案] 對話方塊會顯示數個專案範本。 請依序選擇 [Visual C#] 底下的 [Windows 通用] 分類、[空白應用程式 (通用 Windows)] 範本，然後選擇 [確定] 按鈕。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_NewProject2.png)
+
+  這會使用 Visual C# 和 XAML 作為程式設計語言，來建立新的空白通用 Windows 應用程式專案。 請在 Visual Studio 為您設定專案時稍候一下。 如果提示您輸入任何資訊，目前請先接受預設值。
+
+1. 不久之後，您應該就會看到類似以下的螢幕擷取畫面。 您的專案檔會列在右邊一個名為 [方案總管] 的視窗中。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_NewProject3.png)
+
+1. 在 [方案總管] 中，選擇 MainPage.xaml 檔案旁邊的黑色小三角形來展開它，然後您應該會看到底下有一個 MainPage.xaml.cs 檔案。 請選擇此檔案 (當中包含 C# 程式碼) 來開啟它。
+
+  MainPage.xaml.cs 中的 C# 程式碼會顯示在畫面左邊的程式碼編輯器中。 請注意，程式碼語法會自動標示色彩來表示不同類型的程式碼，例如陳述式或註解。 此外，程式碼中的垂直小虛線會指出那些大括號彼此成對，而行號則可協助您稍後找出程式碼。 您可以選擇帶方框的小負號來摺疊或展開程式碼。 此程式碼大綱功能可讓您隱藏您不需要的程式碼，有助於讓畫面變得較為簡潔。
+
+  ![](../ide/media/VSIDE_Tour_NewProject3a.png)
+
+  還有其他可用的功能表和工具視窗，但讓我們目前先繼續進行操作。
+
+1. 為 XAML 表單新增一個按鈕，來為使用者提供一個與您應用程式互動的方式。 若要這麼做，請開啟 MainPage.xaml 檔案。 這會顯示一個分割檢視：上面是設計工具，可讓您以視覺方式放置控制項，下面是程式碼檢視，會顯示設計工具背後的 XAML 程式碼。 當您稍後執行程式時，您在設計工具中所看到的內容會變成使用者將會看到的視窗 (一個「表單」)，而基礎 XAML 會決定表單上顯示的內容。
+
+1. 在畫面的左邊，選擇 [工具箱] 索引標籤來開啟 [工具箱]。 [工具箱] 包含一些您可以新增到表單中的視覺控制項。 目前，我們將只新增一個按鈕控制項。
+
+1. 展開 [通用 XAML 控制項] 區段，然後將 [按鈕] 控制項拖曳到表單的大致中間位置。 (確切的位置並無關緊要)。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_Toolbox.png)
+
+  當您完成時，應該會看到類似以下的畫面。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_XAMLButton.png)
+
+  該按鈕在設計工具上，而其基礎程式碼 (已醒目提示) 則會自動新增到設計工具的 XAML 程式碼中。
+
+1. 讓我們來變更部分 XAML 程式碼。 請將按鈕程式碼中的文字從 `Button` 重新命名為 `Hello!`。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_XAMLButton2.png)
+
+1. 現在，啟動應用程式。 您可以透過選擇工具列上的 [開始] (![[開始] 按鈕](../ide/media/VSIDE_StartButton.png)) 按鈕，或是選擇 F5 鍵或在功能表上選擇 [偵錯] > [開始偵錯]，來執行這項操作。
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_RunButton.png)
+
+  應用程式會開始其建置程序，而狀態訊息則會顯示在 [輸出] 視窗中。 不久之後，您應該就會看到包含您按鈕的表單出現。 您現在已有一個執行中的應用程式！
+
+  ![螢幕擷取畫面](../ide/media/VSIDE_Tour_RunProject.png)
+
+  當然，它目前還執行不了太多工作，但您稍後可以視需要為它新增更多功能。
+
+1. 當您執行完程式時，請選擇工具列上的 [停止] (![[停止] 按鈕](../ide/media/VSIDE_StopButton.png)) 按鈕來停止它。
+
+讓我們來摘要重述一下您到目前為止已完成的部分：您已在 Visual Studio 中建立新的 C# Windows 通用專案、檢視其程式碼、將控制項新增到設計工具中、變更部分 XAML 程式碼，然後執行該專案。 雖然此範例的程序已簡化，但仍展示了 Visual Studio IDE 的一些常用組件，這些是您在開發自己的應用程式時將使用的組件。 如果您想要此範例的進一步詳細資料，請參閱[建立 "Hello, world" 應用程式 (XAML)](https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-xaml-universal)。
+
+
+## <a name="debug-test-and-improve-your-code"></a>偵錯、測試及改善您的程式碼
+沒有任何程式碼會始終以完美狀態執行。 當您撰寫程式碼時，必須執行它並測試它，以找出錯誤 (bug) 及改善效能。 Visual Studio 的先進偵錯系統可讓您針對在本機專案、遠端裝置或模擬器 (例如 Android 或 Windows Phone 裝置的模擬器) 上執行的程式碼進行偵錯。 您可以一次一個逐步執行程式碼陳述式，並隨時檢查變數，也可以逐步執行多執行緒應用程式，您也可以設定當指定的條件為真時才會叫用的中斷點。 您可以在程式碼執行時，監視變數的值等等。 這些全部都可以在程式碼編輯器本身中管理，如此您就不需要離開您的程式碼。
+
+![偵錯](../ide/media/VSIDE_Tour_Debugging.png)
+
+在測試方面，Visual Studio 提供單元測試、IntelliTest、負載和效能測試等。 若要取得有關 Visual Studio 偵錯程序的更多詳細資料，請參閱[偵錯工具功能導覽](https://review.docs.microsoft.com/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour)。 若要深入了解測試，請參閱[測試工具](https://www.visualstudio.com/vs/testing-tools/)。 若要深入了解如何改善您應用程式的效能，請參閱[分析工具](https://docs.microsoft.com/visualstudio/profiling/profiling-tools)。
+
+## <a name="deploy-your-finished-application"></a>部署已完成的應用程式  
+當您的應用程式已準備就緒而可部署到使用者或客戶時，Visual Studio 會提供工具來執行部署，不論您是要部署到 Windows 市集、SharePoint 網站，還是透過 InstallShield 或 Windows Installer 技術來部署，都可以。 全部都可透過 IDE 來存取。 如需詳細資訊，請參閱[部署應用程式、服務和元件](../deployment/deploying-applications-services-and-components.md)。
 
 ## <a name="quick-tour-of-the-ide"></a>IDE 快速導覽
- 下圖顯示具有一個開啟的專案與數個重要工具視窗的 Visual Studio IDE。
- - [方案總管](../ide/solutions-and-projects-in-visual-studio.md)可讓您檢視和巡覽程式碼檔。
- - [Team Explorer](https://www.visualstudio.com/en-us/docs/connect/work-team-explorer) 可讓您追蹤工作項目，並使用版本控制技術 (例如 [Git](https://git-scm.com/) 和 [Team Foundation 版本控制 (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview)) 與其他人共用程式碼。
- - [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) 可讓您檢視和管理 Azure 資源，例如虛擬機器、資料表、SQL 資料庫等。
- - [編輯器][](../ide/writing-code-in-the-code-and-text-editor.md) 視窗可讓您檢視與編輯原始程式碼和設計工具資料。
- - [輸出][](../ide/reference/output-window.md) 視窗會顯示編譯、執行、偵錯等作業的輸出。
+為了提供您一個概要的 Visual Studio 視覺總覽，下圖顯示已開啟一個專案及數個您最可能使用之重要工具視窗的 Visual Studio。
+ - [方案總管](../ide/solutions-and-projects-in-visual-studio.md)可讓您檢視、瀏覽及管理您的程式碼檔案。
+ - [編輯器](../ide/writing-code-in-the-code-and-text-editor.md)視窗會顯示程式碼，並可讓您編輯原始程式碼和設計工具資料。
+ - [輸出](../ide/reference/output-window.md)視窗會顯示來自編譯、執行、偵錯等作業的輸出訊息。
+ - [Team Explorer](https://www.visualstudio.com/docs/connect/work-team-explorer) 可讓您追蹤工作項目，並使用版本控制技術 (例如 [Git](https://git-scm.com/) 和 [Team Foundation 版本控制 (TFVC)](https://www.visualstudio.com/docs/tfvc/overview)) 與其他人共用程式碼。
+ - [Cloud Explorer](https://azure.microsoft.com/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) 可讓您檢視和管理 Azure 資源，例如虛擬機器、資料表、SQL 資料庫等。
 
+![Visual Studio IDE](../ide/media/visualstudioide.png)  
 
- ![Visual Studio IDE](../ide/media/visualstudioide.png "VisualStudioIDE")  
+以下是 Visual Studio 中一些其他常見的生產力功能。  
 
- ### <a name="sign-in"></a>登入
-  當您第一次啟動 Visual Studio 時，可以使用您的 Microsoft 帳戶或是工作或學校帳戶登入。 登入即可跨多個裝置同步處理您的視窗配置等設定，並自動連接到您可能需要的服務，例如 Azure 訂用帳戶和 Visual Studio Team Services。 如果您有以訂用帳戶為基礎的授權，您必須定期登入 Visual Studio 以保持最新的授權權杖。 如果您有產品金鑰的授權就不必登入，但這樣做可以更方便地以 Azure、Office 365 和 Salesforce.com 連接到 Visual Studio Team Services 和您的帳戶。 如需詳細資訊，請參閱[登入 Visual Studio](../ide/signing-in-to-visual-studio.md)。
+- [快速啟動](https://docs.microsoft.com/en-us/visualstudio/ide/reference/quick-launch-environment-options-dialog-box)搜尋方塊是一個可讓您在 Visual Studio 中快速找到所需項目的絕佳方式。 只要開始輸入您要尋找的任何項目的名稱，Visual Studio 就會提供選項來將您引導至您確實想要去的地方。 [快速啟動] 也會顯示連結，這些連結可啟動任何「工作負載」或「個別元件」的「Visual Studio 安裝程式」。
 
-  如果您有多個 Visual Studio Team Services 帳戶、Azure 帳戶或 MSDN 訂閱，您只需登入一次，就可以加以連結，以及存取所有帳戶中的資源和服務。 如需詳細資訊，請參閱[使用多個使用者帳戶](../ide/work-with-multiple-user-accounts.md)。
-
- ### <a name="stay-up-to-date"></a>隨時獲得最新消息
-  當 Visual Studio 或任何已安裝相關元件的更新可供使用時，標題列上方中的旗標通知圖示會告知您。 您可選擇是否要關閉這些通知或採取行動。 如需詳細資訊，請參閱 [Visual Studio 通知](../ide/visual-studio-notifications.md)。
-
- ### <a name="find-things-and-get-help"></a>尋找項目並取得協助
-  當您不知道鍵盤快速鍵或功能表位置時，下列螢幕擷取畫面中加上紅色外框的 [快速啟動][](../ide/reference/quick-launch-environment-options-dialog-box.md) 視窗可快速尋找 Visual Studio 命令、工具和功能等。 只要輸入您要尋找的項目，[快速啟動] 就會給您該項目的連結。
-
- !['new project' 的快速啟動結果](../ide/media/Productivity_QuickLaunch.png "Productivity_QuickLaunch")
-
- 在 Visual Studio 中，您可以按 **F1** 鍵，移至使用中視窗的線上說明。 您也可以在程式碼編輯器中按 **F1** 鍵，移至目前插入號位置的應用程式開發介面或關鍵字之說明頁面。 例如，在 C# 檔案中，於某處輸入插入號，或只在 `System.String` 宣告的結尾輸入插入號，然後按 **F1** 鍵以移至 [String](assetId:///T:System.String?qualifyHint=False&autoUpgrade=True) 的說明頁面。
-
-### <a name="give-feedback"></a>提出意見
- 不管何時，只要您願意，就能很簡單地在 Visual Studio 上給我們意見反應。 按一下 **QuickLaunch** 旁邊標題列的意見反應圖示，然後按一下 [回報問題]  或 [提供建議] 。
-
-![提出意見](../ide/media/VSIDE_reportproblem.png)
-
- Visual Studio 的發行前版本還有 [為此產品評分]  選項。 我們會查看所有意見，並用來改善產品。 如需詳細資訊，請參閱[告訴我們](../ide/talk-to-us.md)。
-
-### <a name="personalize-the-ide"></a>個人化 IDE
- 您可以自訂視窗配置以符合您的開發樣式。 您隨時都可以停駐、浮動或隱藏任何視窗，也可在全螢幕模式中執行編輯器。 您可以建立並儲存多個自訂視窗配置，這些只會顯示您所需特定內容的視窗。 例如，您可以建立全螢幕的配置，這樣一來您看到的就是所有程式碼編輯器。 而且，您可以建立不同的版面配置，來進行偵錯和小組作業。 如需詳細資訊，請參閱[自訂視窗版面配置](../ide/customizing-window-layouts-in-visual-studio.md)。
-
- 您可以用許多其他的方式自訂 Visual Studio，而且若您在多部電腦上工作，也可以漫遊設定。 如需詳細資訊，請參閱[將 IDE 個人化](../ide/personalizing-the-visual-studio-ide.md)。
-
- 幾乎所有項目都有鍵盤快速鍵，而且您也能加以自訂。 若要建立新的快速鍵，請在 [快速啟動] 中輸入 "Keyboard"，以開啟 [鍵盤] 對話方塊。 如果您需要選項的詳細資訊，可在這裏按 F1 移至說明頁面。 如需詳細資訊，請參閱 [Visual Studio 中的預設鍵盤快速鍵](../ide/default-keyboard-shortcuts-in-visual-studio.md)。
-
-## <a name="connect-to-visual-studio-team-services-and-team-foundation-server"></a>連接到 Visual Studio Team Services 和 Team Foundation Server
-  Visual Studio Team Services (VSTS) 這項雲端式服務可用於裝載軟體專案，以及在小組中共同作業。 VSTS 支援 Git 和 Team Foundation 原始檔控制系統，以及 Scrum、CMMI 和 Agile 開發方法。 Team Foundation 版本控制 (TFVC) 使用單一且集中式伺服器儲存機制來追蹤和版本化檔案。 在其他開發人員取得最新變更的地方，一律將本機變更簽入中央伺服器。 Team Foundation Server (TFS) 2015 為 Visual Studio 的應用程式生命週期管理中樞。 其可讓所有人使用單一方案參與開發流程。 TFS 也適合用來管理異質小組和專案
-
-  如果您在網路上有 Visual Studio Team Services 帳戶或 Team Foundation Server，可透過 [Team Explorer] 視窗與其連接。 在這個視窗中，您可以在原始檔控制簽入或簽出程式碼、管理工作項目、啟動建置和存取小組聊天室及工作區。 您可以從 [快速啟動] 開啟 [Team Explorer]，或從主功能表的 [檢視]、[Team Explorer] 或從 [小組]、[管理連接] 中予以開啟。  如需 Visual Studio Team Services 的詳細資訊，請參閱 [www.visualstudio.com](https://www.visualstudio.com/)。 如需 Team Foundation Server 的詳細資訊，請參閱 [Team Foundation Server](https://www.visualstudio.com/products/tfs-overview-vs)。
-
-  下圖顯示裝載於 VSTS 中的解決方案 [Team Explorer] 窗格：
-
- ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png "VS2017_TeamExplorer")  
-
-## <a name="create-solutions-and-projects"></a>建立方案和專案
-  雖然您可以使用 Visual Studio 瀏覽個別的程式碼檔案，但您會更常使用 *「專案」*(project)。 Visual Studio 專案是檔案及資源的集合，會編譯成單一的應用程式二進位可執行檔 (例如 .exe、DLL 或 appx)。 對於非 ASP.NET 的網站，並不產生任何可執行檔，且專案只包含 HTML、JavaScript 檔案和影像。 因為有時您可能需要建立多個二進位檔或密切相關的網站，所以 Visual Studio 具有包含多個專案或網站之方案的概念。 當您建立專案時，您實際上就是在建立單一方案的專案，您稍後如有需要也可加入更多專案到方案中。 例如，如果您有 DLL 專案時，您可以加入 .exe 專案到載入和使用 DLL 的方案。
-
-  *「專案範本」* (project template) 是一組預先填入的程式碼檔案和組態設定，讓您得以快速設定，以建立特定種類的應用程式。 Visual Studio 隨附許多專案範本以供選擇，而若沒有任何預設範本適用，您可以建立自己的範本。 以範本建立專案之後，您可在範本提供的檔案或您加入的新檔案中開始撰寫自己的程式碼。 如需詳細資訊，請參閱[方案和專案](../ide/solutions-and-projects-in-visual-studio.md)。 下圖顯示適用於 ASP.NET 應用程式之專案範本的 [新增專案] 對話方塊。
-
- ![Visual Studio [新增專案] 對話方塊](../ide/media/vs2017_newprojectdialog.png "VS2017_NewProjectDialog")  
-
-## <a name="write-navigate-and-understand-code"></a>撰寫、巡覽和了解程式碼  
- 如果您是開發人員，則編輯器視窗可能是耗費您大多數時間的地方。 Visual Studio 包含 C#、C++、Visual Basic、F#、JavaScript、TypeScript、XML, HTML 和 CSS 的內建編輯支援。 Visual Studio 也支援許多其他語言的編輯和編譯。
-
- 您可以依序選擇 [檔案]、[開啟] 和 [檔案]，以在文字編輯器中編輯個別檔案。 若要編輯開啟專案中的檔案，請在方案總管中選擇和開啟檔名。 程式碼以色彩標示，而您可以在 [快速啟動] 中輸入 “Colors” 來個人化色彩配置。 您可以同時開啟多個文字編輯器的索引視窗。 您可以單獨分割每個視窗。 您也可以在全螢幕模式中執行文字編輯器。  
-
- ![程式碼編輯器中的程式碼](../ide/media/codewindow.png "程式碼編輯器")  
-
- 文字編輯器可與許多產能功能緊密互動 (如果您想要的話)，協助您更快撰寫更好的程式碼。 這些功能會因語言而異，且您不必使用任何語言 (請在 [快速啟動] 中輸入 "Editor") 來開啟或關閉功能：下列為某些常見的產能功能：  
+  ![[快速啟動] 搜尋方塊](../ide/media/VSIDE_Tour_QuickLaunch.png)
 
 -  [重構](../ide/refactoring-in-visual-studio.md)包含一些作業，例如智慧型的變數重新命名、將選取的多行程式碼移動到個別函式、將程式碼移到其他位置、重新排序函式參數等等。
 
-  ![重構](../ide/media/VSIDE_refactor.png)  
+ ![重構](../ide/media/VSIDE_refactor.png)  
 
 -  **IntelliSense** 為一種涵蓋一組常用功能的概括性詞彙，會直接在編輯器中顯示有關您程式碼的類型資訊，而在某些情況下會為您撰寫一些程式碼。 就像內嵌在編輯器中的基本文件，讓您無需在個別的 [說明] 視窗中查閱類型資訊。 IntelliSense 功能會因語言而異。 如需詳細資訊，請參閱 [Visual C# IntelliSense](../ide/visual-csharp-intellisense.md)、[Visual C++ Intellisense](../ide/visual-cpp-intellisense.md)、[JavaScript IntelliSense](../ide/javascript-intellisense.md)、[Visual Basic 特定的 IntelliSense](../ide/visual-basic-specific-intellisense.md)。 下圖顯示一些可用的 IntelliSense 功能：  
 
-     ![Visual Studio 成員清單](../ide/media/vs2017_Intellisense.png "vs2017_Intellisense")  
+  ![Visual Studio 成員清單](../ide/media/vs2017_Intellisense.png)  
 
--  當您輸入程式碼時，[波浪線] 會即時提醒您程式碼中的錯誤或潛在問題，讓您可立即修正，不需等到編譯或執行階段才發現錯誤。 如果您將滑鼠停留在波浪線，則您會看到有關此錯誤的其他資訊。 左邊界也可能會出現燈泡與修正錯誤的建議。 如需詳細資訊，請參閱[執行燈泡提示的快速動作](../ide/perform-quick-actions-with-light-bulbs.md)。  
+-  「波浪線」是紅色的波浪底線，可在您輸入程式碼時，針對錯誤或潛在的問題即時提出警示。 這可讓您立即修正它們，而不需等到編譯或執行階段才發現錯誤。 如果您將滑鼠停留在波浪線，則您會看到有關此錯誤的其他資訊。 左邊界也可能會出現燈泡與修正錯誤的建議。 如需詳細資訊，請參閱[執行燈泡提示的快速動作](../ide/perform-quick-actions-with-light-bulbs.md)。  
 
-  ![波浪線](../ide/media/vs2017_squiggle.png "VS2017_Squiggles")  
+ ![波浪線](../ide/media/vs2017_squiggle.png)  
 
--  [書籤](../ide/setting-bookmarks-in-code.md)可讓您於正在處理的檔案中快速巡覽至特定一行。
+-  您可以在文字編輯器操作功能表上開啟[呼叫階層](../ide/reference/call-hierarchy.md)視窗，以顯示呼叫插入點 (caret) 底下方法及被該方法呼叫的方法。
 
-    ![書籤視窗](../ide/media/VSIDE_bookmarks.png)
+ ![呼叫階層視窗](../ide/media/VSIDE_call_hierarchy.png)
 
--  您可以在文字編輯器操作功能表中叫用[呼叫階層](../ide/reference/call-hierarchy.md)視窗以顯示方法，這些方法會呼叫插入號下面的方法，或是由其所呼叫。
+-  [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) 可讓您尋找程式碼、已連結的 Bug、工作項目、程式碼檢閱和單元測試的參考和變更，而不需離開編輯器。
 
-    ![呼叫階層視窗](../ide/media/VSIDE_call_hierarchy.png)
+ ![CodeLens](../ide/media/codelensoverview.png)
 
--  **CodeLens** 可讓您尋找程式碼、已連結的 Bug、工作項目、程式碼檢閱和單元測試的參考和變更，而不需離開編輯器。
+-  [查看定義] [](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) 視窗會顯示方法或類型的定義內嵌，而不用離開您目前的內容。  
 
-    ![CodeLens](../ide/media/codelensoverview.png)
-
-  如需詳細資訊，請參閱[尋找程式碼變更和其他記錄](../ide/find-code-changes-and-other-history-with-codelens.md)。  
-
--  [查看定義]  視窗會顯示方法或類型的定義內嵌，而不用離開您目前的內容。 此視窗現在也適用於 XAML。  
-
-    ![查看定義](../ide/media/VSIDE_peek_definition.png)
+ ![查看定義](../ide/media/VSIDE_peek_definition.png)
 
 -  [移至定義]  內容功能表選項會讓您直接進入定義函式或物件的位置。 以滑鼠右鍵在編輯器中按一下，還有其他巡覽命令可供使用。
 
-    ![移至定義](../ide/media/VSIDE_go_to_definition.png)
+ ![移至定義](../ide/media/VSIDE_go_to_definition.png)
 
-- [物件瀏覽器](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470)是一種相關工具，可讓您檢查系統上的 .NET 或 Windows 執行階段組件，查看它們包含的類型，以及查看這些類型包含的方法和屬性。  
+- [物件瀏覽器](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470)這個相關工具可讓您檢查系統上的 .NET 或「Windows 執行階段」組件，以查看它們所包含的型別，以及這些型別所包含的成員 (屬性、方法、事件)。
 
-     ![顯示 System.Timer 的物件瀏覽器](../ide/media/objectbrowser.png "ObjectBrowser")  
+  ![顯示 System.Timer 的 [物件瀏覽器]](../ide/media/objectbrowser.png)  
 
- 大部分 [編輯] 功能表和 [檢視] 功能表上的項目在某些方面與程式碼編輯器相關。 如需編輯器的詳細資訊，請參閱[撰寫程式碼](../ide/writing-code-in-the-code-and-text-editor.md)和 [Editing Your Code](https://www.visualstudio.com/features/ide-vs) (編輯程式碼)。  
+## <a name="collaborate-with-others-and-control-your-source-code"></a>與其他人共同作業及控制您的原始程式碼
+您可以在任何提供者所裝載的 Git 儲存機制 (包括 GitHub) 中管理您的原始程式碼。 或是使用 [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) 來一邊管理整個專案的程式碼，一邊管理錯誤 (bug) 與工作項目。
 
-## <a name="compile-and-build-your-code"></a>編譯和建置程式碼  
- 建置專案代表要編譯原始程式碼，並執行任何用以產生可執行檔的必要步驟。 不同語言有不同的建置作業，而一般網站則完全不用建置。 不論專案類型為何，[建置] 功能表是這些命令的標準位置。 若要以單一按鍵編譯和執行程式碼，請按 F5 鍵。 每個編譯器都可完全透過 IDE 設定。 [建置] 工具列可讓您指定是否要建置您程式的偵錯版本，搭配符號和額外的錯誤檢查來支援中斷點和偵錯工具的逐步執行，或指定建置您最後要交給使用者的發行組建。 在專案屬性頁上，您可以設定更多建置設定，以及許多其他的設定。 在方案總管中選擇專案節點的操作 (按一下滑鼠右鍵) 功能表，然後選擇 [屬性] 命令。 您也可以從命令列執行建置。  
+Visual Studio Team Services 是一項雲端式服務，可用來裝載軟體專案及允許以小組進行共同作業。 VSTS 支援 Git 和 Team Foundation 原始檔控制系統，以及 Scrum、CMMI 和 Agile 開發方法。 Team Foundation 版本控制 (TFVC) 使用單一且集中式伺服器儲存機制來追蹤和版本化檔案。 在其他開發人員取得最新變更的地方，一律將本機變更簽入中央伺服器。
 
- 建置的輸出會出現在 [輸出視窗] 中，包含錯誤或成功訊息。 [錯誤清單] (如下所示) 會提供建置錯誤的詳細資訊。  
+Team Foundation Server (TFS) 是 Visual Studio 的應用程式生命週期管理中樞。 其可讓所有人使用單一方案參與開發流程。 TFS 也適合用來管理異質小組和專案
 
- ![錯誤清單顯示 C&#35; 編譯器錯誤](../ide/media/VS2017_errorlist.png "VS2017_error_list")  
+如果您在網路上有 Visual Studio Team Services 帳戶或 Team Foundation Server，您便可以透過 Visual Studio 中的 [Team Explorer] 視窗與其連接。 在這個視窗中，您可以在原始檔控制簽入或簽出程式碼、管理工作項目、啟動建置和存取小組聊天室及工作區。 您可以從 [快速啟動] 方塊開啟 [Team Explorer]，也可以從主功能表的 [檢視] > [Team Explorer] 或從 [小組] > [管理連接] 來開啟它。  
 
-## <a name="debug-your-code"></a>偵錯程式碼  
- Visual Studio 的先進偵錯程式可讓您對本機專案、遠端裝置或模擬器上執行的程式碼偵錯，例如適用 Android 或 Windows Phone 裝置的模擬器。 您可以一次一個逐步執行程式碼陳述式，並隨時檢查變數，也可以逐步執行多執行緒應用程式，您也可以設定當指定的條件為真時才會叫用的中斷點。 您可以在程式碼執行時監視變數的值。 這些全部都可以在程式碼編輯器本身中管理，如此您就不必離開程式碼的內容。  
+下圖顯示裝載於 VSTS 中之解決方案的 [Team Explorer] 視窗：
 
- ![中斷點設定查看視窗](../ide/media/dbg_breakpoints_peekwindow.png "DBG_Breakpoints_PeekWindow")  
+![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)  
 
- 偵錯工具本身會有多個視窗，可讓您檢視和管理本機變數、呼叫堆疊和執行階段環境的其他方面。 您可以在 [偵錯]  功能表找到這些視窗。  
-
- [即時運算視窗](../ide/reference/immediate-window.md)可讓您輸入運算式，並立即查看其結果。
-
-![即時運算視窗](../ide/media/VSIDE_immediate_window.png)
-
- [IntelliTrace](../debugger/intellitrace.md) 視窗會記錄執行中 .NET 程式的每個方法呼叫和其他事件，它可以幫助您快速找出問題的來源。
-
- 如需詳細資訊，請參閱 [Visual Studio 偵錯](../debugger/debugging-in-visual-studio.md)。  
-
-## <a name="test-your-code"></a>測試程式碼  
- Visual Studio 包含 Managed 程式碼 (.NET) 及原生 C++ 的單元測試架構。 若要建立單元測試，只要將測試專案加入您的方案，撰寫您的測試，然後從 [測試總管] 視窗執行。 如需詳細資訊，請參閱[對程式碼進行單元測試](../test/unit-test-your-code.md)。  
-
- ![單元測試總管](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
-
-## <a name="analyze-code-quality-and-performance"></a>分析程式碼品質和效能  
- Visual Studio 包含靜態和執行階段分析的強大工具。 靜態分析工具可協助您識別設計、全球化、互通性、效能、安全性和其他類別的潛在錯誤。 效能測試或程式碼剖析需要測量您程式的執行方式。 您可從 [分析]  功能表存取這些工具。 如需詳細資訊，請參閱[使用 Visual Studio 診斷工具改善品質](../test/improve-code-quality.md)。  
-
-## <a name="connect-to-cloud-services-and-databases"></a>連接至雲端服務和資料庫  
- Visual Studio 中的 [Cloud Explorer](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) 顯示所登入 Azure 訂用帳戶下管理之所有帳戶中的 Azure 資源。 您可以安裝 [Azure SDK](https://azure.microsoft.com/en-us/downloads/)，以取得 Cloud Explorer。
+如需有關 Visual Studio Team Services 的詳細資訊，請參閱 [Visual Studio Team Services](https://www.visualstudio.com/team-services/)。 如需 Team Foundation Server 的詳細資訊，請參閱 [Team Foundation Server](https://www.visualstudio.com/products/tfs-overview-vs)。
 
 
- ![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
+## <a name="connect-to-services-databases-and-cloud-based-resources"></a>連接至服務、資料庫及雲端式資源
+雲端對現今的線上世界至關重要，而 Visual Studio 則提供您運用雲端的方法。 例如，「已連接服務」功能可讓您將應用程式連接至服務。 此外，您的應用程式還可以使用它來將其資料儲存在 Azure 儲存體上。
 
- [伺服器總管](https://msdn.microsoft.com/en-us/library/cd2cz7yy.aspx)也可用來協助您在 Azure、Salesforce.com、Office 365 和網站上瀏覽和管理 SQL Server 執行個體和資產。
+![已連接服務](../ide/media/VSIDE_Tour_Connected_Services.png)
 
- Visual Studio 包含 [Microsoft SQL Server Data Tools](https://msdn.microsoft.com/en-us/data/tools.aspx) (SSDT)，可讓您建置、偵錯、維護和重構資料庫。 您可以使用資料庫專案，或直接使用內部或外部所連接的資料庫執行個體。  
+選擇 [已連接服務] 頁面上的服務會啟動「已連接服務精靈」，此精靈會設定您的專案並下載必要的 NuGet 套件，以協助您開始編寫服務的程式碼。
 
- Visual Studio 中的 [SQL Server 物件總管](https://msdn.microsoft.com/en-us/library/hh231250.aspx)提供類似 SQL Server Management Studio 的資料庫物件檢視。 SQL Server 物件總管可讓您執行輕型的資料庫管理和設計工作，包含編輯資料表資料、比較結構描述，以及直接從 SQL Server 物件總管使用內容功能表執行查詢。 SSDT 也包含開發 SQL Server 2012 Analysis Services、 Reporting Services 和 Integration Services 商業智慧 (BI) 解決方案 (先前稱為 Business Intelligence Development Studio) 的特殊專案類型和工具。  
+您可以在 Visual Studio 內使用 [Cloud Explorer](https://azure.microsoft.com/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/) 來檢視和管理 Azure 型雲端資源。 Cloud Explorer 會顯示在您所登入 Azure 訂用帳戶下管理之所有帳戶中的 Azure 資源。 您可以在 Visual Studio 安裝程式中選取 Azure 開發工作負載，來取得 Cloud Explorer。
 
- ![SQL Server 物件總管](../ide/media/vs2015_sqlobjectexplorer.png "vs2015_SQLObjectExplorer")  
+![Cloud Explorer](../ide/media/VSIDE_CloudExplorer.png)
 
-## <a name="deploy-your-finished-application"></a>部署已完成的應用程式  
- 當您的應用程式準備好要部署給客戶時，Visual Studio 會提供工具來部署，無論您要部署至 Windows 市集、Sharepoint 網站，或是透過 InstallShield 或 Windows Installer 技術部署。 這可透過所有 IDE 存取。 如需詳細資訊，請參閱[部署應用程式、服務和元件](../deployment/deploying-applications-services-and-components.md)。  
+[伺服器總管] 可協助您瀏覽和管理 Azure、Salesforce.com、Office 365 及網站上的 SQL Server 執行個體和資產。 若要開啟 [伺服器總管]，請在主功能表上，選擇 [檢視] > [伺服器總管]。 如需有關使用 [伺服器總管] 的詳細資訊，請參閱[新增連線 (英文)](https://docs.microsoft.com/visualstudio/data-tools/add-new-connections)。
 
-## <a name="architecture-and-modeling-tools-enterprise-only"></a>Architecture and Modeling Tools (僅限 Enterprise 版)  
- 您可以使用 Visual Studio 架構與模型化工具來設計您的應用程式並加以模型化。 這些工具可協助您視覺化程式碼的結構、行為和關聯性。 您可在整個應用程式生命週期的不同細節層次建立模型，做為開發程序的一部分。 您可以連結至 Team Foundation Server 工作項目和開發計畫，來追蹤需求、工作、測試案例、Bug 和其他與模型相關聯的工作。 如需詳細資訊，請參閱[設計和模型化應用程式](../modeling/analyze-and-model-your-architecture.md)。  
+[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 是一個適用於 SQL Server、Azure SQL Database 及「Azure SQL 資料倉儲」的強大開發環境。 它可讓您建置、偵錯、維護及重構資料庫。 您可以使用資料庫專案，或直接使用內部或外部所連接的資料庫執行個體。
 
-## <a name="extend-visual-studio-through-the-visual-studio-sdk"></a>透過 Visual Studio SDK 擴充 Visual Studio  
- Visual Studio 是可擴充的平台。 Visual Studio 擴充功能是可和 IDE 整合的自訂工具。 您可以新增協力廠商擴充功能，或建立您自己的擴充功能。 如需詳細資訊，請參閱[開始開發 Visual Studio 延伸模組](../extensibility/starting-to-develop-visual-studio-extensions.md)。  
+Visual Studio 中的 [SQL Server 物件總管] 提供與 SQL Server Management Studio 類似的資料庫物件檢視。 [SQL Server 物件總管] 可讓您執行輕型的資料庫管理和設計工作，包括編輯資料表資料、比較結構描述、直接從 [SQL Server 物件總管] 使用內容功能表來執行查詢等。 如需詳細資訊，請參閱[使用物件總管來管理物件 (英文)](https://docs.microsoft.com/sql/ssms/object/manage-objects-by-using-object-explorer)。
 
- [Visual Studio 使用者經驗指導方針](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md)是任何人撰寫 Visual Studio 延伸模組不可或缺的參考。 這些特定平台指導方針包括設計對話方塊、字型、色彩、圖示、常見控制項和其他互動模式的詳細資訊，可讓您的新功能與 Visual Studio 緊密整合。  
+![SQL Server 物件總管](../ide/media/vs2015_sqlobjectexplorer.png)  
 
-## <a name="see-also"></a>另請參閱  
- [安裝 Visual Studio 2017 RC](../install/install-visual-studio.md)   
- [編輯程式碼](https://www.visualstudio.com/features/ide-vs)   
- [Visual Studio 2017 RC 的新功能](../ide/whats-new-in-visual-studio.md)   
- [移植、移轉和升級 Visual Studio 專案](../porting/port-migrate-and-upgrade-visual-studio-projects.md)   
- [告訴我們](../ide/talk-to-us.md)
+## <a name="extend-visual-studio"></a>擴充 Visual Studio
+如果 Visual Studio 沒有您所需的確切功能，您可以新增功能！ 您可以根據您的工作負載和風格將 IDE 個人化、針對尚未與 Visual Studio 整合的外部工具新增支援，以及修改現有的功能以提升您的生產力。 Visual Studio 提供來自 Microsoft、我們的合作夥伴及社群的工具、控制項和範本。 若要深入了解如何擴充 Visual Studio，請參閱[擴充 Visual Studio IDE](https://www.visualstudio.com/vs/extend/)。
+
+## <a name="learn-more-and-find-out-whats-new"></a>深入了解並找出新功能
+如果您從來沒有使用過 Visual Studio，請從 [Visual Studio 使用者入門](../ide/get-started-with-visual-studio.md)或查看 [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033) 上所提供的免費 Visual Studio 課程，來開始了解基本概念。如果您想要了解 Visual Studio 2017 中的新功能，請參閱 [Visual Studio 2017 的新功能](../ide/whats-new-in-visual-studio.md)。
+
+恭喜您完成 Visual Studio IDE 的導覽！ 希望您已了解有關其部分主要功能一些實用資訊。
+
+## <a name="see-also"></a>請參閱
+* [Visual Studio IDE](https://www.visualstudio.com/vs/)
+* [Visual Studio 下載](https://www.visualstudio.com/downloads/)
+* [Visual Studio 部落格 (英文)](https://blogs.msdn.microsoft.com/visualstudio/)
+* [Visual Studio 論壇](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?category=visualstudio%2Cvsarch%2Cvsdbg%2Cvstest%2Cvstfs%2Cvsdata%2Cvsappdev%2Cvisualbasic%2Cvisualcsharp%2Cvisualc)
+* [Microsoft Virtual Academy](https://mva.microsoft.com/)
+* [Channel 9](https://channel9.msdn.com/)
 

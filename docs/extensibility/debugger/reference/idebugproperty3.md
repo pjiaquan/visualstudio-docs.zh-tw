@@ -1,72 +1,88 @@
 ---
-title: "IDebugProperty3 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugProperty3"
-helpviewer_keywords: 
-  - "IDebugProperty3 介面"
+title: "IDebugProperty3 |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugProperty3
+helpviewer_keywords:
+- IDebugProperty3 interface
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 12
----
-# IDebugProperty3
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 295baf524d3b1261826090164ccdf657b9672122
+ms.lasthandoff: 04/05/2017
 
-這個介面會提供對支援：  
+---
+# <a name="idebugproperty3"></a>IDebugProperty3
+這個介面提供的支援︰  
   
--   擷取與屬性相關聯的任意長度的字串。  
+-   擷取與屬性相關聯的任意長度字串。  
   
--   與屬性關聯的唯一 ID。  
+-   關聯屬性的唯一識別碼。  
   
--   正在擷取屬性的自訂檢視器的清單。  
+-   擷取屬性的自訂檢視器的清單。  
   
--   設定屬性的值，能夠報告產生的錯誤  
+-   設定屬性的值，能夠報告任何產生的錯誤  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
 IDebugProperty3 : IDebugProperty2  
 ```  
   
-## 實作器注意事項  
- 偵錯引擎 \(DE\) 實作的同一個物件上實作這個介面[IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)提供支援的長字串、 屬性識別碼，以及自訂的檢視器。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ 偵錯引擎 (DE) 實作的相同物件上實作此介面[IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)長字串、 屬性識別碼和自訂檢視器提供支援。  
   
-## 呼叫者的備忘稿  
- 呼叫[QueryInterface](/visual-cpp/atl/queryinterface)的`IDebugProperty2`以取得這個介面的介面。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ 呼叫[QueryInterface](/cpp/atl/queryinterface)上`IDebugProperty2`介面，以取得此介面。  
   
-## 方法 Vtable 順序  
- 除了繼承自 `IDebugProperty2` 的方法之外，`IDebugProperty3` 介面還會公開下列方法。  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
+ 除了繼承自`IDebugProperty2`、`IDebugProperty3`介面會公開下列方法。  
   
 |方法|描述|  
-|--------|--------|  
+|------------|-----------------|  
 |[GetStringCharLength](../../../extensibility/debugger/reference/idebugproperty3-getstringcharlength.md)|傳回與屬性相關聯的字串長度。|  
-|[GetStringChars](../Topic/IDebugProperty3::GetStringChars.md)|傳回使用者提供的緩衝區中的字串。|  
-|[CreateObjectID](../../../extensibility/debugger/reference/idebugproperty3-createobjectid.md)|建立這個屬性的唯一 ID。|  
-|[DestroyObjectID](../../../extensibility/debugger/reference/idebugproperty3-destroyobjectid.md)|終結這個屬性的專一識別碼。|  
-|[GetCustomViewerCount](../Topic/IDebugProperty3::GetCustomViewerCount.md)|傳回這個屬性可以檢視使用的自訂檢視器的數目。|  
-|[GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)|傳回這個屬性可以檢視使用的自訂檢視器的清單。|  
+|[GetStringChars](../../../extensibility/debugger/reference/idebugproperty3-getstringchars.md)|使用者提供的緩衝區中傳回的字串。|  
+|[CreateObjectID](../../../extensibility/debugger/reference/idebugproperty3-createobjectid.md)|建立這個屬性的唯一識別碼。|  
+|[DestroyObjectID](../../../extensibility/debugger/reference/idebugproperty3-destroyobjectid.md)|終結此屬性的唯一識別碼。|  
+|[GetCustomViewerCount](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md)|傳回這個屬性可以使用檢視的自訂檢視器的數目。|  
+|[GetCustomViewerList](../../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md)|傳回這個屬性可以使用檢視的自訂檢視器清單。|  
 |[SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)|設定這個屬性，傳回錯誤訊息，如果任何項目發生錯誤的值。|  
   
-## 備註  
- [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)在工作階段偵錯管理員 」 \(SDM\) 設定屬性的值是較佳的方式。  
+## <a name="remarks"></a>備註  
+ [SetValueAsStringWithError](../../../extensibility/debugger/reference/idebugproperty3-setvalueasstringwitherror.md)慣用的方法為工作階段的偵錯管理員 (SDM) 來設定屬性的值。  
   
-## 需求  
- 標頭: msdbg.h  
+## <a name="requirements"></a>需求  
+ 標頭︰ msdbg.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件： Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [核心介面](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugCustomViewer](../../../extensibility/debugger/reference/idebugcustomviewer.md)

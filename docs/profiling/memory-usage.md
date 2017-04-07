@@ -1,6 +1,6 @@
 ---
-title: "記憶體使用量 | Microsoft Docs"
-ms.custom: 
+title: "在 Visual Studio 中分析記憶體使用量 | Microsoft Docs"
+ms.custom: H1Hack27Feb2017
 ms.date: 11/04/2016
 ms.reviewer: 
 ms.suite: 
@@ -29,12 +29,12 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 8a3c6e60d0ea85d93281764ec3a3435538b9baa0
-ms.openlocfilehash: b81ce391ad842085f95ff0a4a6e906036406230a
-ms.lasthandoff: 02/28/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 697b8f5517ad9a953a04f920be39c9ef2cfa2558
+ms.lasthandoff: 04/05/2017
 
 ---
-# <a name="memory-usage"></a>記憶體使用量
+# <a name="analyze-memory-usage"></a>分析記憶體使用量
 當您進行偵錯時，您可以使用與偵錯工具整合的 **記憶體使用量** 診斷工具，來找出記憶體遺漏和記憶體使用沒有效率等問題。 記憶體使用量工具可讓您擷取 Managed 和原生記憶體堆積的一個或多個 *「快照」* (Snapshot)。 您可以收集 .NET、原生或混合模式 (.NET 和原生) 應用程式的快照。  
   
 -   您可以分析一份快照，了解物件類型對於記憶體使用的相對影響，並找出應用程式中無效率使用記憶體的程式碼。  
@@ -50,7 +50,7 @@ ms.lasthandoff: 02/28/2017
  您也可以在偵錯工具外部使用記憶體工具。 請參閱[記憶體使用量 (不偵錯)](../profiling/memory-usage-without-debugging2.md)。  
   
 > [!NOTE]
->  **自訂配置器支援** 原生記憶體分析工具的運作方式是收集在執行階段所發出的配置 [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) 事件資料。  在來源層級已註釋 CRT 和 Windows SDK 中的配置器，以便擷取其配置資料。  如果您正在撰寫自己的配置器，則針對任何將指標傳回最新配置之堆積記憶體的函式，都可以使用 [__declspec](/visual-cpp/cpp/declspec)(allocator) 來裝飾，如本範例中針對 myMalloc 所示：  
+>  **自訂配置器支援** 原生記憶體分析工具的運作方式是收集在執行階段所發出的配置 [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) 事件資料。  在來源層級已註釋 CRT 和 Windows SDK 中的配置器，以便擷取其配置資料。  如果您正在撰寫自己的配置器，則針對任何將指標傳回最新配置之堆積記憶體的函式，都可以使用 [__declspec](/cpp/cpp/declspec)(allocator) 來裝飾，如本範例中針對 myMalloc 所示：  
 >   
 >  `__declspec(allocator) void* myMalloc(size_t size)` 
 
