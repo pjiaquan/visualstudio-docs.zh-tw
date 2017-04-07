@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: b0d84db6a16861fb9554af2a644423f906784748
-ms.openlocfilehash: 3ca6c45cd1f61dc4a4419ab01794e24c0c19d44a
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
+ms.openlocfilehash: b5d72a83092c2b97b30b7a8af539a0b1aca50418
+ms.lasthandoff: 03/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 03/07/2017
 
 基本偵錯工作流程包含設定中斷點、逐步執行程式碼、檢查值和處理例外狀況，如下列各節所述。 如需 Visual Studio 偵錯工具的詳細資訊，請參閱 [Visual Studio 偵錯](../debugger/debugging-in-visual-studio.md)。
 
-您可以透過 [偵錯 (Debug)] > [開始偵錯 (Start Debugging)] 命令、工具列上的 [開始] 按鈕或 F5 鍵開始偵錯工作階段。 您的專案啟動檔案 (在 [方案總管 (Solution Explorer)] 中以粗體顯示) 就會以專案的使用中環境和已在 [專案屬性 (Project Properties)] 中指定的任何命令列引數或搜尋路徑啟動 (請參閱[專案偵錯選項](#project-debugging-options))。
+您可以透過 [偵錯 (Debug)] > [開始偵錯 (Start Debugging)] 命令、工具列上的 [開始] 按鈕或 F5 鍵開始偵錯工作階段。 您的專案啟動檔案 (在 [方案總管 (Solution Explorer)] 中以粗體顯示) 就會以專案的使用中環境和已在 [專案屬性 (Project Properties)] 中指定的任何命令列引數或搜尋路徑啟動 (請參閱[專案偵錯選項](#project-debugging-options))。 不過，如果基於某些原因沒有設定啟動檔，您會看到 Python 輸出視窗短暫出現，然後消失。 在此情況下，請在適當的檔案上按一下滑鼠右鍵，然後選取 [啟動檔案]。
 
 > [!Note]
 > 偵錯工具一律會以專案的使用中 Python 環境啟動。 若要變更環境，請將其他環境設為使用中，如 [Python 環境](python-environments.md)所述。
