@@ -1,65 +1,81 @@
 ---
-title: "IDebugMethodField | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugMethodField"
-helpviewer_keywords: 
-  - "IDebugMethodField 介面"
+title: "IDebugMethodField |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugMethodField
+helpviewer_keywords:
+- IDebugMethodField interface
 ms.assetid: a7dc9030-fc98-4cf1-b943-37a4003300b6
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 12
----
-# IDebugMethodField
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 46d6173d2c015dc783bac0778b93419101d4c553
+ms.lasthandoff: 04/05/2017
 
-這個介面會描述一種方法。  
+---
+# <a name="idebugmethodfield"></a>IDebugMethodField
+此介面描述的方法。  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
-IDebugMethodField : IDebugContainerField  
+IDebugMethodField : IDebugContainerField  
 ```  
   
-## 實作器注意事項  
- 符號提供者實作的同一個物件上實作這個介面[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面。  這個介面會提供一種方法的特製化。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ 符號提供者會實作此介面實作在相同物件上[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面。 這個介面是特製化，呈現的方法。  
   
-## 呼叫者的備忘稿  
- 使用[QueryInterface](/visual-cpp/atl/queryinterface)以取得這個介面，從[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面如果[GetKind](../Topic/IDebugField::GetKind.md)會傳回`FIELD_TYPE_METHOD`。  此外，這些方法中， [GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md)， [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)，以及[EnumConstructors](../../../extensibility/debugger/reference/idebugclassfield-enumconstructors.md)內的所有 return `IDebugMethodField`介面。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ 使用[QueryInterface](/cpp/atl/queryinterface)獲得從這個介面[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)傳回`FIELD_TYPE_METHOD`。 此外，方法[GetPropertyGetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertygetter.md)， [GetPropertySetter](../../../extensibility/debugger/reference/idebugpropertyfield-getpropertysetter.md)，和[EnumConstructors](../../../extensibility/debugger/reference/idebugclassfield-enumconstructors.md)、 所有傳回`IDebugMethodField`介面。  
   
-## 方法 Vtable 順序  
- 除了在方法[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)和[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面，這個介面會實作下列方法：  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
+ 除了上[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)和[IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)介面，這個介面會實作下列方法︰  
   
 |方法|描述|  
-|--------|--------|  
-|[EnumParameters](../../../extensibility/debugger/reference/idebugmethodfield-enumparameters.md)|建立列舉值的方法的參數。|  
-|[GetThis](../../../extensibility/debugger/reference/idebugmethodfield-getthis.md)|取得包含方法的物件"this"指標。|  
+|------------|-----------------|  
+|[EnumParameters](../../../extensibility/debugger/reference/idebugmethodfield-enumparameters.md)|建立方法的參數的列舉值。|  
+|[GetThis](../../../extensibility/debugger/reference/idebugmethodfield-getthis.md)|取得物件，包含方法的"this"指標。|  
 |[EnumAllLocals](../../../extensibility/debugger/reference/idebugmethodfield-enumalllocals.md)|建立方法的所有區域變數的列舉值。|  
-|[EnumLocals](../../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md)|建立所選取之方法的區域變數的列舉值。|  
-|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugmethodfield-iscustomattributedefined.md)|判斷是否已經定義了特定的自訂屬性。|  
+|[EnumLocals](../../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md)|建立選取的本機變數之方法的列舉值。|  
+|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugmethodfield-iscustomattributedefined.md)|判斷是否已定義特定的自訂屬性。|  
 |[EnumStaticLocals](../../../extensibility/debugger/reference/idebugmethodfield-enumstaticlocals.md)|建立方法的靜態區域變數的列舉值。|  
-|[GetGlobalContainer](../../../extensibility/debugger/reference/idebugmethodfield-getglobalcontainer.md)|取得通用容器的方法。|  
-|[EnumArguments](../../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)|建立列舉值，才能呼叫方法的每個引數的型別。|  
+|[GetGlobalContainer](../../../extensibility/debugger/reference/idebugmethodfield-getglobalcontainer.md)|取得全域方法的容器。|  
+|[EnumArguments](../../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md)|建立的每個呼叫的方法所需的引數類型的列舉值。|  
   
-## 備註  
- 一種方法可以包含參數和區域變數。  
+## <a name="remarks"></a>備註  
+ 方法可以包含參數，以及本機變數。  
   
-## 需求  
- 標頭: sh.h  
+## <a name="requirements"></a>需求  
+ 標頭︰ sh.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件： Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [符號提供者介面](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugContainerField](../../../extensibility/debugger/reference/idebugcontainerfield.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

@@ -1,64 +1,80 @@
 ---
-title: "IDebugBinder3 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugBinder3"
-helpviewer_keywords: 
-  - "IDebugBinder3 介面"
+title: "IDebugBinder3 |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugBinder3
+helpviewer_keywords:
+- IDebugBinder3 interface
 ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 caps.latest.revision: 12
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 12
----
-# IDebugBinder3
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 47df761681525fd0c1062ae3d84be61c388282e9
+ms.lasthandoff: 04/05/2017
 
+---
+# <a name="idebugbinder3"></a>IDebugBinder3
 > [!IMPORTANT]
->  在 Visual Studio 2015，這種實作運算式評估工具已被取代。 如需實作 CLR 運算式評估工具的資訊，請參閱 [CLR 運算式評估工具](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) 和 [Managed 運算式評估工具範例](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)。  
+>  在 Visual Studio 2015 中，這種實作運算式評估工具已被取代。 如需實作 CLR 運算式評估工具的資訊，請參閱[CLR 運算式評估工具](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators)和[Managed 運算式評估工具範例](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample)。  
   
- 這個介面會提供存取型別、 別名和服務自訂視覺化檢視。  
+ 這個介面會提供存取型別、 別名和自訂視覺化檢視服務。  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
 IDebugBinder3 : IDebugBinder  
 ```  
   
-## 實作者注意事項  
- 偵錯引擎會實作這個介面來支援別名、 自訂視覺化檢視服務和物件型別資訊的存取權。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ 偵錯引擎實作這個介面來支援別名、 自訂視覺化檢視服務和物件類型資訊的存取權。  
   
-## 呼叫端資訊  
- [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) 介面取得此介面使用 [QueryInterface](/visual-cpp/atl/queryinterface)。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)介面取得此介面使用[QueryInterface](/cpp/atl/queryinterface)。  
   
-## 依照 Vtable 順序的方法  
- 所提供的方法除了 [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) 介面，這個介面會實作下列︰  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
+ 除了所提供的方法[IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)介面，這個介面會實作下列︰  
   
 |方法|描述|  
-|--------|--------|  
-|[GetMemoryObject](../../../extensibility/debugger/reference/idebugbinder3-getmemoryobject.md)|擷取記憶體物件，表示此物件所繫結的記憶體。|  
-|[GetExceptionObjectAndType](../../../extensibility/debugger/reference/idebugbinder3-getexceptionobjectandtype.md)|擷取這個物件 （如果有的話），相關聯的例外狀況|  
+|------------|-----------------|  
+|[GetMemoryObject](../../../extensibility/debugger/reference/idebugbinder3-getmemoryobject.md)|擷取記憶體物件，代表此物件所繫結的記憶體。|  
+|[GetExceptionObjectAndType](../../../extensibility/debugger/reference/idebugbinder3-getexceptionobjectandtype.md)|擷取這個物件 （如果有的話），與相關聯的例外狀況|  
 |[FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)|擷取指定其名稱、 別名|  
 |[GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)|擷取所有的別名，對此物件的陣列|  
-|[GetTypeArgumentCount](../Topic/IDebugBinder3::GetTypeArgumentCount.md)|取得與這個物件相關聯的引數類型的數目|  
+|[GetTypeArgumentCount](../../../extensibility/debugger/reference/idebugbinder3-gettypeargumentcount.md)|取得與這個物件相關聯的引數類型的數目|  
 |[GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md)|擷取這個物件相關聯的引數類型的清單|  
-|[GetEEService](../../../extensibility/debugger/reference/idebugbinder3-geteeservice.md)|取得視覺化檢視服務的介面|  
+|[GetEEService](../../../extensibility/debugger/reference/idebugbinder3-geteeservice.md)|取得要視覺化檢視服務時介面|  
 |[GetMemoryContext64](../../../extensibility/debugger/reference/idebugbinder3-getmemorycontext64.md)|將記憶體內容的物件位置或 64 位元記憶體位址。|  
   
-## 需求  
+## <a name="requirements"></a>需求  
  標頭︰ ee.h  
   
- 命名空間 ︰ Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件 ︰ Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [運算式評估介面](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
  [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md)

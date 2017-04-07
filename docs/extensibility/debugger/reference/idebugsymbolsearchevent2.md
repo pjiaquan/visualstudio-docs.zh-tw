@@ -1,60 +1,76 @@
 ---
-title: "IDebugSymbolSearchEvent2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugSymbolSearchEvent2"
-helpviewer_keywords: 
-  - "IDebugSymbolSearchEvent2"
+title: "IDebugSymbolSearchEvent2 |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugSymbolSearchEvent2
+helpviewer_keywords:
+- IDebugSymbolSearchEvent2
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
 caps.latest.revision: 10
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 10
----
-# IDebugSymbolSearchEvent2
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 92385ae5922ecd16658f089c28cfd3746b6ff093
+ms.lasthandoff: 04/05/2017
 
-這個介面會傳送偵錯引擎 \(DE\) 來表示所偵錯模組的偵錯符號都已載入。  
+---
+# <a name="idebugsymbolsearchevent2"></a>IDebugSymbolSearchEvent2
+偵錯引擎 (DE) 會傳送這個介面，表示已載入的模組進行偵錯的偵錯符號。  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
 IDebugSymbolSearchEvent2 : IUnknown  
 ```  
   
-## 實作器注意事項  
- DE 會實作這個介面來報告已載入模組的符號。  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)介面必須實作這個介面以相同的物件。  SDM 會使用[QueryInterface](/visual-cpp/atl/queryinterface)存取`IDebugEvent2`介面。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ DE 實作這個介面可報告已載入模組的符號。 [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)介面必須實作此介面為相同的物件。 SDM 使用[QueryInterface](/cpp/atl/queryinterface)存取`IDebugEvent2`介面。  
   
-## 呼叫者的備忘稿  
- DE 建立並傳送報告已載入模組的符號這個事件物件。  使用傳送事件[IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)它附加至正在偵錯程式時，會將 SDM 所提供的回呼函式。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ DE 建立，並將報告模組的符號已載入此事件的物件傳送。 事件會使用傳送[IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)它附加到正在偵錯程式時，會將 SDM 所提供的回呼函式。  
   
-## 方法 Vtable 順序  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
  `IDebugSymbolSearchEvent2`介面會公開下列方法。  
   
-|方法|描述|  
-|--------|--------|  
+|方法|說明|  
+|------------|-----------------|  
 |[GetSymbolSearchInfo](../../../extensibility/debugger/reference/idebugsymbolsearchevent2-getsymbolsearchinfo.md)|擷取的符號搜尋結果的相關資訊。|  
   
-## 備註  
- 即使無法載入符號時，就會傳送這個事件。  呼叫`IDebugSymbolSearchEvent2::GetSymbolSearchInfo`可讓此事件處理常式可以判斷是否該模組實際上會有任何符號。  
+## <a name="remarks"></a>備註  
+ 即使無法載入符號，則會傳送此事件。 呼叫`IDebugSymbolSearchEvent2::GetSymbolSearchInfo`可讓此事件來判斷是否模組實際上會有任何符號處理常式。  
   
- Visual Studio 的通常是利用這個事件來更新的狀態中的已載入符號的**模組**視窗。  
+ Visual Studio 通常會使用此事件更新的狀態中載入符號**模組**視窗。  
   
-## 需求  
- 標頭: msdbg.h  
+## <a name="requirements"></a>需求  
+ 標頭︰ msdbg.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件： Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [核心介面](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)

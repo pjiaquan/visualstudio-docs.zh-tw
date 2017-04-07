@@ -1,66 +1,82 @@
 ---
-title: "IDebugCustomAttributeQuery2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "IDebugCustomAttributeQuery2"
-helpviewer_keywords: 
-  - "IDebugCustomAttributeQuery 介面"
-  - "IDebugCustomAttributeQuery2 介面"
+title: "IDebugCustomAttributeQuery2 |Microsoft 文件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- IDebugCustomAttributeQuery2
+helpviewer_keywords:
+- IDebugCustomAttributeQuery interface
+- IDebugCustomAttributeQuery2 interface
 ms.assetid: 7cfa23e4-a05a-47a3-af6c-bd40c655014b
 caps.latest.revision: 13
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 13
----
-# IDebugCustomAttributeQuery2
-[!INCLUDE[vs2017banner](../../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Machine Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 80928f058dd9b6ccc9bfe162191a903f2d2309e4
+ms.lasthandoff: 04/05/2017
 
-決定此欄位的自訂屬性存在，而且如果它存在時，傳回屬性資訊。  
+---
+# <a name="idebugcustomattributequery2"></a>IDebugCustomAttributeQuery2
+判斷此欄位的自訂屬性存在，如果它存在的話，會傳回屬性資訊。  
   
-## 語法  
+## <a name="syntax"></a>語法  
   
 ```  
-IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery  
+IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery  
 ```  
   
-## 實作器注意事項  
- 符號提供者實作的同一個物件上實作這個介面[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)以支援自訂屬性。  
+## <a name="notes-for-implementers"></a>實作者注意事項  
+ 符號提供者會實作此介面實作在相同物件上[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)以支援自訂屬性。  
   
-## 呼叫者的備忘稿  
- 使用[QueryInterface](/visual-cpp/atl/queryinterface)以取得這個介面，從[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)介面。  
+## <a name="notes-for-callers"></a>呼叫端資訊  
+ 使用[QueryInterface](/cpp/atl/queryinterface)獲得從這個介面[IDebugField](../../../extensibility/debugger/reference/idebugfield.md)介面。  
   
-## 方法 Vtable 順序  
- 下表顯示的方法 **IDebugCustomAttributeQuery** 介面。  
-  
-|方法|描述|  
-|--------|--------|  
-|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)|判斷自訂屬性是否存在的名稱。|  
-|[GetCustomAttributeByName](../Topic/IDebugCustomAttributeQuery2::GetCustomAttributeByName.md)|取得指定的自訂屬性的屬性資訊。|  
-  
- 除了 **IDebugCustomAttributeQuery** 方法， `IDebugCustomAttributeQuery2`實作下列方法：  
+## <a name="methods-in-vtable-order"></a>依照 Vtable 順序的方法  
+ 下表顯示的方法**IDebugCustomAttributeQuery**介面。  
   
 |方法|描述|  
-|--------|--------|  
-|[EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)|取得附加至這個欄位的所有自訂屬性的列舉值。|  
+|------------|-----------------|  
+|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery2-iscustomattributedefined.md)|判斷名稱是否存在的自訂屬性。|  
+|[GetCustomAttributeByName](../../../extensibility/debugger/reference/idebugcustomattributequery2-getcustomattributebyname.md)|取得指定的自訂屬性的屬性資訊。|  
   
-## 備註  
+ 除了**IDebugCustomAttributeQuery**方法`IDebugCustomAttributeQuery2`實作下列方法︰  
+  
+|方法|說明|  
+|------------|-----------------|  
+|[EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md)|取得所有附加至這個欄位的自訂屬性的列舉值。|  
+  
+## <a name="remarks"></a>備註  
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)方法會傳回為這個欄位定義的所有自訂屬性的列舉值。  
   
-## 需求  
- 標頭: sh.h  
+## <a name="requirements"></a>需求  
+ 標頭︰ sh.h  
   
- Namespace: Microsoft.VisualStudio.Debugger.Interop  
+ 命名空間︰ Microsoft.VisualStudio.Debugger.Interop  
   
- 組件： Microsoft.VisualStudio.Debugger.Interop.dll  
+ 組件︰ Microsoft.VisualStudio.Debugger.Interop.dll  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [符號提供者介面](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
  [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)   
  [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md)
