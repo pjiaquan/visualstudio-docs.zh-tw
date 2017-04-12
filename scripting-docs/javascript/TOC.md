@@ -1,5 +1,6 @@
 # [JavaScript 語言參考](javascript-language-reference.md)
 # [JavaScript 的新功能](what-s-new-in-javascript.md)
+# [Visual Studio 2017 中的 JavaScript](javascript-in-vs-2017.md)
 # [JavaScript 基本概念](javascript-fundamentals.md)
 ## [撰寫 JavaScript 程式碼](writing-javascript-code.md)
 ## [變數](variables-javascript.md)
