@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: b5d72a83092c2b97b30b7a8af539a0b1aca50418
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
+ms.openlocfilehash: 1d26ca1a464e2ec15c0d5d338a46b6fb1e7e1d65
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 03/27/2017
 
 ### <a name="inspecting-and-modifying-values"></a>檢查和修改值
 
-在偵錯工具中停止時，您可以檢查和修改變數的值。 您也可以使用 [監看式 (Watch)] 視窗來監視個別的變數及自訂運算式。 (如需一般詳細資訊，請參閱[檢查變數](../debugger/getting-started-with-the-debugger.md#BKMK_Inspect_Variables)。)
+在偵錯工具中停止時，您可以檢查和修改變數的值。 您也可以使用 [監看式 (Watch)] 視窗來監視個別的變數及自訂運算式。 (如需一般詳細資訊，請參閱[檢查變數](../debugger/getting-started-with-the-debugger.md#inspect-variables-with-the-autos-and-locals-windows)。)
 
 若要使用 DataTips 檢視值，只要將滑鼠游標停在編輯器中任一變數的上方。 您可以按一下值來變更它︰
 
