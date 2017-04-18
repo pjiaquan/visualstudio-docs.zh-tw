@@ -33,9 +33,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 68358885d93e9e6b7f231750c35065be9521c3fe
-ms.openlocfilehash: b1ce5a5c4dc05cb9d0a2ebcb68a10a5054b68893
-ms.lasthandoff: 03/01/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: a990441ed4ef551a0fc6defcda45d51ff0c0d209
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="managing-assembly-and-manifest-signing"></a>管理組件和資訊清單簽署
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/01/2017
   
  如需 Visual Basic 和 C# 專案中簽署組件的資訊，請參閱[建立和使用強式名稱的組件](http://msdn.microsoft.com/Library/ffbf6d9e-4a88-4a8a-9645-4ce0ee1ee5f9)。  
   
- 如需 Visual C++ 專案中簽署組件的資訊，請參閱[強式名稱組件 (組件簽署) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)。  
+ 如需 Visual C++ 專案中簽署組件的資訊，請參閱[強式名稱組件 (組件簽署) (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)。  
 
 > [!NOTE]
 >  強式名稱簽章無法保護組件免受反向工程的威脅。  若要防止反向工程，請參閱 [Dotfuscator Community Edition (CE)](dotfuscator/index.md)。
@@ -87,4 +87,4 @@ ms.lasthandoff: 03/01/2017
   
 ## <a name="see-also"></a>另請參閱  
  [強式名稱的組件](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)   
- [強式名稱組件 (組件簽署) (C++/CLI)](/visual-cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)
+ [強式名稱組件 (組件簽署) (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)

@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 1e1f72619618d252c43537093b9ebd30eee715ab
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
+ms.openlocfilehash: ddbac5b8ed52e6ed7afae7e7b04dc2fa15f7a0c2
+ms.lasthandoff: 03/27/2017
 
 ---
 
 # <a name="debugging-python-and-c-together"></a>同時對 Python 和 C++ 進行偵錯
 
-多數的標準 Python 偵錯工具，包括適用於 Visual Studio 的 Python 工具 (PTVS，2.0 版之前) 僅支援 Python 程式碼的偵錯。 不過，實際上在需要高效能或是需要能直接叫用平台 API 的情況下，會將 Python 搭配 C 或 C++ 使用。 在任一 Visual Studio 版本上的 PTVS 2.0 和更新版本可為 Python 和原生 (C/C++) 提供整合式的同步混合模式偵錯，包含合併的呼叫堆疊、可在 Python 和原生程式碼及任一類型的程式碼中斷點之間逐步執行、可在原生框架查看物件的 Python 表示法，反之亦然︰
+多數的標準 Python 偵錯工具都僅支援對 Python 程式碼進行偵錯。 不過，實際上在需要高效能或是需要能直接叫用平台 API 的情況下，會將 Python 搭配 C 或 C++ 使用 (範例請參閱[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md))。 Visual Studio (使用 Visual Studio 2.0 和更新版本的 Python 工具時) 可為 Python 和原生 C/C++ 提供整合式的同步混合模式偵錯，包含合併的呼叫堆疊、可在 Python 和機器碼及任一類型的程式碼中斷點之間逐步執行、可在原生框架查看物件的 Python 表示法，反之亦然︰
 
 ![混合模式偵錯](media/mixed-mode-debugging.png) 
 
@@ -51,6 +51,9 @@ ms.lasthandoff: 03/10/2017
 
     ![啟用原生程式碼偵錯](media/mixed-mode-debugging-enable-native.png)
 
+    > [!Tip]    
+    > 當您啟用機器碼偵錯時，Python 的輸出視窗可能會在程式完成時立即消失，而不給您平常的「按任意鍵繼續...」暫停。 若要強制暫停，當您啟用機器碼偵錯時，請將 `-i` 選項加入 [偵錯] 索引標籤上的 [執行] > [解譯器引數] 欄位。 這會讓 Python 解譯器在程式碼完成之後進入互動模式，等候您按下 Ctrl + Z、Enter 以結束。
+
 1. 將混合模式偵錯工具附加至現有的處理序 ([偵錯 (Debug)] > [附加至處理序 (Attach to Process)]) 時，選取 [選取 (Select)] 按鈕以開啟 [選取程式碼類型 (Select Code Type)] 對話方塊、設定 [偵錯這些程式碼類型 (Debug these code types)] 選項，然後同時選取清單中的 [原生 (Native)] 和 [Python]︰
 
     ![選取原生和 Python 程式碼類型](media/mixed-mode-debugging-code-type.png)
@@ -59,8 +62,9 @@ ms.lasthandoff: 03/10/2017
 
     除了選取 (或不選取) [原生 (Native)] 以外，您還可以選取其他程式碼類型。 例如，如果某個受管理的應用程式裝載 CPython，而 CPython 又使用原生延伸模組，您想對這三個進行偵錯，您可以同時核取 [Python]、[原生 (Native)] 及 [受管理 (Managed)**] 以提供整合的偵錯體驗，包括合併的呼叫堆疊，以及在這三個執行階段之間逐步執行。
 
-1. 當您首次在混合模式開始偵錯時，您可能會看到 [需要 Python 符號 (Python Symbols Required)] 對話方塊。 如需詳細資訊，請參閱[混合模式偵錯的符號](debugging-symbols-for-mixed-mode.md)。 針對任何指定的 Python 環境，符號只需安裝一次。
+1. 當您首次在混合模式開始偵錯時，您可能會看到 [需要 Python 符號] 對話方塊。 如需詳細資訊，請參閱[混合模式偵錯的符號](debugging-symbols-for-mixed-mode.md)。 針對任何指定的 Python 環境，符號只需安裝一次。 請注意，如果您透過 Visual Studio 2017 安裝程式安裝 Python 支援，會自動包含符號。
 
+1. 您可能也想要手邊擁有 Python 原始碼本身。 對於標準的 Python，這可以取自 [https://www.python.org/downloads/source/](https://www.python.org/downloads/source/)。 下載適用於您版本的封存檔，並將它解壓縮到資料夾。 每當提示您時，請將 Visual Studio 指向該資料夾中的特定檔案。
 
 ## <a name="mixed-mode-specific-features"></a>混和模式的特定功能
 

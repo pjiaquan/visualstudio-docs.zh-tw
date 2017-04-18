@@ -1,25 +1,44 @@
 ---
 title: "Visual Studio 中的預設鍵盤快速鍵 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "說明 [Visual Studio], 快速鍵"
-  - "鍵盤繫結配置 [Visual Studio]"
-  - "鍵盤快速鍵"
-  - "鍵盤快速鍵 [Visual Studio], 鍵盤繫結配置"
-  - "快速鍵 [Visual Studio], 鍵盤繫結配置"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- shortcut keys [Visual Studio], keyboard binding schemes
+- keyboard binding schemes [Visual Studio]
+- Help [Visual Studio], shortcut keys
+- keyboard shortcuts [Visual Studio], keyboard binding schemes
+- keyboard shortcuts
 ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 51
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 230e641befbfbbb722c3f6ca21f5aab73322e61c
+ms.lasthandoff: 04/05/2017
+
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio 中的預設鍵盤快速鍵
 只需選擇適當的鍵盤快速鍵，您就可以在 Visual Studio 中更輕鬆地存取各種命令和視窗。 本主題列出 [一般開發] 設定檔的預設捷徑，您可能已在已安裝的 Visual Studio 中選擇該設定檔。 不管您選擇哪一個設定檔，都可以開啟 [選項] 對話方塊、展開 [環境] 節點，然後選擇 [鍵盤] 來識別命令的捷徑。 您也可以為指定的命令指派不同的捷徑，以自訂捷徑。  
@@ -55,22 +74,22 @@ caps.handback.revision: 51
 |[HTML 編輯器設計檢視](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorDesign)|[報表設計工具](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ReportDesigner)|[VC 快速鍵編輯器](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcaccelerator)|[XML (文字) 編輯器](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlTextEditor)|  
 |[HTML 編輯器原始碼檢視](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorSource)|[順序圖表](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SequenceDiagram)|[VC 對話方塊編輯器](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcdialogeditor)|[XML 結構描述設計工具](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlSchemaDesigner)|  
   
-##  <a name="a-namebkmkglobala-global"></a><a name="bkmk_global"></a> 全域  
+##  <a name="bkmk_global"></a> 全域  
   
-###  <a name="a-namebkmkanalyzea-analyze"></a><a name="bkmk_analyze"></a> 分析  
+###  <a name="bkmk_analyze"></a> 分析  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |Analyze.NavigateBackward|Shift+Alt+3|  
 |Analyze.NavigateForward|Shift+Alt+4|  
   
-###  <a name="a-namebkmkarchitecturea-architecture"></a><a name="bkmk_architecture"></a> 架構  
+###  <a name="bkmk_architecture"></a> 架構  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |Architecture.NewDiagram|Ctrl+\\、Ctrl+N|  
   
-###  <a name="a-namebkmkbuilda-build"></a><a name="bkmk_build"></a> 建置  
+###  <a name="bkmk_build"></a> 建置  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -79,13 +98,13 @@ caps.handback.revision: 51
 |Build.Compile|Ctrl+F7|  
 |Build.RunCodeAnalysisonSolution|ALT+F11|  
   
-###  <a name="a-namebkmkclassviewa-class-view-context-menus"></a><a name="bkmk_classview"></a> 類別檢視操作功能表  
+###  <a name="bkmk_classview"></a> 類別檢視操作功能表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties|Alt+Enter|  
   
-###  <a name="a-namebkmkdebuga-debug"></a><a name="bkmk_debug"></a> 偵錯  
+###  <a name="bkmk_debug"></a> 偵錯  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -153,7 +172,7 @@ caps.handback.revision: 51
 |Debug.Watch3|Ctrl+Alt+W、3|  
 |Debug.Watch4|Ctrl+Alt+W、4|  
   
-###  <a name="a-namebkmkdebuggera-debugger-context-menus"></a><a name="bkmk_debugger"></a> 偵錯工具操作功能表  
+###  <a name="bkmk_debugger"></a> 偵錯工具操作功能表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -161,13 +180,13 @@ caps.handback.revision: 51
 |DebuggerContextMenus.BreakpointsWindow.GoToDisassembly|Alt+F9、A|  
 |DebuggerContextMenus.BreakpointsWindow.GoToSourceCode|Alt+F9、S|  
   
-###  <a name="a-namebkmkdiagnosticsa-diagnostics-hub"></a><a name="bkmk_diagnostics"></a> 診斷中樞  
+###  <a name="bkmk_diagnostics"></a> 診斷中樞  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |DiagnosticsHub.StopCollection|Ctrl+Alt+F2|  
   
-###  <a name="a-namebkmkedita-edit"></a><a name="bkmk_edit"></a> 編輯  
+###  <a name="bkmk_edit"></a> 編輯  
   
 |命令||  
 |--------------|-|  
@@ -226,7 +245,7 @@ caps.handback.revision: 51
 |Edit.SurroundWith|Ctrl+K、Ctrl+S|  
 |Edit.Undo|Ctrl+Z<br /><br /> 或<br /><br /> Alt+退格鍵|  
   
-###  <a name="a-namebkmkeditorcontexta-editor-context-menus"></a><a name="bkmk_editorContext"></a> 編輯器操作功能表  
+###  <a name="bkmk_editorContext"></a> 編輯器操作功能表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -237,7 +256,7 @@ caps.handback.revision: 51
 |EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|Ctrl+K、Ctrl+O|  
 |EditorContextMenus.CodeWindow.ViewCallHierarchy|Ctrl+K、Ctrl+T<br /><br /> 或<br /><br /> Ctrl+K、T|  
   
-###  <a name="a-namebkmkfilea-file"></a><a name="bkmk_file"></a> 檔案  
+###  <a name="bkmk_file"></a> 檔案  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -253,7 +272,7 @@ caps.handback.revision: 51
 |File.SaveSelectedItems|Ctrl+S|  
 |File.ViewinBrowser|Ctrl+Shift+W|  
   
-###  <a name="a-namebkmkhelpa-help"></a><a name="bkmk_help"></a> 說明  
+###  <a name="bkmk_help"></a> 說明  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -262,19 +281,19 @@ caps.handback.revision: 51
 |Help.ViewHelp|Ctrl+F1|  
 |Help.WindowHelp|Shift+F1|  
   
-###  <a name="a-namebkmkloadtesta-load-test"></a><a name="bkmk_loadtest"></a> 負載測試  
+###  <a name="bkmk_loadtest"></a> 負載測試  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |LoadTest.JumpToCounterPane|Ctrl+R、Q|  
   
-###  <a name="a-namebkmkothercontexta-other-context-menus"></a><a name="bkmk_otherContext"></a> 其他操作功能表  
+###  <a name="bkmk_otherContext"></a> 其他操作功能表  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram|Insert|  
   
-###  <a name="a-namebkmkprojecta-project"></a><a name="bkmk_project"></a> 專案  
+###  <a name="bkmk_project"></a> 專案  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -286,14 +305,14 @@ caps.handback.revision: 51
 |Project.Publishselectedfiles|Alt+;、Alt+P|  
 |Project.Replaceselectedfilesfromserver|Alt+;、Alt+R|  
   
-###  <a name="a-namebkmkprojectcontexta-project-and-solution-context-menus"></a><a name="bkmk_projectContext"></a> 專案及方案操作功能表  
+###  <a name="bkmk_projectContext"></a> 專案及方案操作功能表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |ProjectandSolutionContextMenus.Item.MoveDown|Alt+向下鍵|  
 |ProjectandSolutionContextMenus.Item.MoveUp|Alt+向上鍵|  
   
-###  <a name="a-namebkmkrefactora-refactor"></a><a name="bkmk_refactor"></a> 重構  
+###  <a name="bkmk_refactor"></a> 重構  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -304,7 +323,7 @@ caps.handback.revision: 51
 |Refactor.Rename|Ctrl+R、Ctrl+R|  
 |Refactor.ReorderParameters|Ctrl+R、Ctrl+O|  
   
-###  <a name="a-namebkmksolutionexplorerglobala-solution-explorer"></a><a name="bkmk_solutionexplorerGLOBAL"></a> 方案總管  
+###  <a name="bkmk_solutionexplorerGLOBAL"></a> 方案總管  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -312,7 +331,7 @@ caps.handback.revision: 51
 |SolutionExplorer.PendingChangesFilter|Ctrl+[、P<br /><br /> 或<br /><br /> Ctrl+[、Ctrl+P|  
 |SolutionExplorer.SyncWithActiveDocument|Ctrl+[、S<br /><br /> 或<br /><br /> Ctrl+[、Ctrl+S|  
   
-###  <a name="a-namebkmkteama-team"></a><a name="bkmk_team"></a> 小組  
+###  <a name="bkmk_team"></a> 小組  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -321,7 +340,7 @@ caps.handback.revision: 51
 |Team.Git.GoToGitCommits|Ctrl+0、Ctrl+O<br /><br /> 或<br /><br /> Ctrl+0、O|  
 |Team.TeamExplorerSearch|Ctrl+'|  
   
-###  <a name="a-namebkmktfcontexta-team-foundation-context-menus"></a><a name="bkmk_TFcontext"></a> Team Foundation 操作功能表  
+###  <a name="bkmk_TFcontext"></a> Team Foundation 操作功能表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -336,14 +355,14 @@ caps.handback.revision: 51
 |TeamFoundationContextMenus.Commands.GoToWebAccess|Ctrl+0、Ctrl+A<br /><br /> 或<br /><br /> Ctrl+0、A|  
 |TeamFoundationContextMenus.Commands.GoToWorkItems|Ctrl+0、Ctrl+W<br /><br /> 或<br /><br /> Ctrl+0、W|  
   
-###  <a name="a-namebkmktesta-test"></a><a name="bkmk_test"></a> 測試  
+###  <a name="bkmk_test"></a> 測試  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |Test.UseCodedUITestBuilder|Ctrl+\\、Ctrl+C|  
 |Test.UseExistingActionRecording|Ctrl+\\、Ctrl+A|  
   
-###  <a name="a-namebkmktestexplorerglobala-test-explorer"></a><a name="bkmk_testexplorerGLOBAL"></a> 測試總管  
+###  <a name="bkmk_testexplorerGLOBAL"></a> 測試總管  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -353,7 +372,7 @@ caps.handback.revision: 51
 |TestExplorer.RunAllTests|Ctrl+R、A|  
 |TestExplorer.RunAllTestsInContext|Ctrl+R、T|  
   
-###  <a name="a-namebkmktoolsa-tools"></a><a name="bkmk_tools"></a> 工具  
+###  <a name="bkmk_tools"></a> 工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -362,7 +381,7 @@ caps.handback.revision: 51
 |Tools.ForceGC|Ctrl+Shift+Alt+F12、Ctrl+Shift+Alt+F12|  
 |Tools.GoToCommandLine|Ctrl+/|  
   
-###  <a name="a-namebkmkviewa-view"></a><a name="bkmk_view"></a> 檢視  
+###  <a name="bkmk_view"></a> 檢視  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -411,7 +430,7 @@ caps.handback.revision: 51
 |View.ZoomIn|Ctrl+Shift+.|  
 |View.ZoomOut|Ctrl+Shift+,|  
   
-###  <a name="a-namebkmkwindowa-window"></a><a name="bkmk_window"></a> Window  
+###  <a name="bkmk_window"></a> Window  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -442,14 +461,14 @@ caps.handback.revision: 51
 |Window.SolutionExplorerSearch|Ctrl+;|  
 |Window.WindowSearch|Alt+`|  
   
-###  <a name="a-namebkmkwindowsazurea-azure"></a><a name="bkmk_windowsazure"></a> Azure  
+###  <a name="bkmk_windowsazure"></a> Azure  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |WindowsAzure.RetryMobileServiceScriptOperation|Ctrl+Num *、Ctrl+R|  
 |WindowsAzure.ShowMobileServiceScriptErrorDetails|Ctrl+Num *、Ctrl+D|  
   
-##  <a name="a-namebkmkadoneta-adonet-entity-data-model-designer"></a><a name="bkmk_ADONET"></a> ADO.NET 實體資料模型設計工具  
+##  <a name="bkmk_ADONET"></a> ADO.NET 實體資料模型設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -464,7 +483,7 @@ caps.handback.revision: 51
 |View.EntityDataModelBrowser|Ctrl+1|  
 |View.EntityDataModelMappingDetails|Ctrl+2|  
   
-##  <a name="a-namebkmkclassdiagrama-class-diagram"></a><a name="bkmk_classDiagram"></a> 類別圖表  
+##  <a name="bkmk_classDiagram"></a> 類別圖表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -476,7 +495,7 @@ caps.handback.revision: 51
 |Edit.RemovefromDiagram|刪除|  
 |View.ViewCode|Enter 鍵|  
   
-##  <a name="a-namebkmkcodeduitesta-coded-ui-test-editor"></a><a name="bkmk_codedUItest"></a> 自動程式化 UI 測試編輯器  
+##  <a name="bkmk_codedUItest"></a> 自動程式化 UI 測試編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -487,14 +506,14 @@ caps.handback.revision: 51
 |OtherContextMenus.UITestEditorContextMenu.Movecode|Ctrl+Alt+C|  
 |OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod|Ctrl+Shift+T|  
   
-##  <a name="a-namebkmkdataseta-dataset-editor"></a><a name="bkmk_dataset"></a> 資料集編輯器  
+##  <a name="bkmk_dataset"></a> 資料集編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |OtherContextMenus.ColumnContext.InsertColumn|Insert|  
 |OtherContextMenus.DbTableContext.Add.Column|Ctrl+L|  
   
-##  <a name="a-namebkmkdiffa-difference-viewer"></a><a name="bkmk_diff"></a> 差異檢視器  
+##  <a name="bkmk_diff"></a> 差異檢視器  
   
 |||  
 |-|-|  
@@ -511,7 +530,7 @@ caps.handback.revision: 51
 |EditorContextMenus.CodeWindow.AddComment|Ctrl+Shift+K|  
 |EditorContextMenus.CodeWindow.EditLocalFile|Ctrl+Shift+P|  
   
-##  <a name="a-namebkmkdoma-dom-explorer"></a><a name="bkmk_DOM"></a> DOM 總管  
+##  <a name="bkmk_DOM"></a> DOM 總管  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -519,13 +538,13 @@ caps.handback.revision: 51
 |DOMExplorer.SelectElement|CTRL+B|  
 |DOMExplorer.ShowLayout|Ctrl+Shift+I|  
   
-##  <a name="a-namebkmkfsharpa-f-interactive"></a><a name="bkmk_FSharp"></a> F# Interactive  
+##  <a name="bkmk_FSharp"></a> F# Interactive  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation|Ctrl+Break|  
   
-##  <a name="a-namebkmkgraphdoca-graph-document-editor"></a><a name="bkmk_graphDoc"></a> 圖形文件編輯器  
+##  <a name="bkmk_graphDoc"></a> 圖形文件編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -537,7 +556,7 @@ caps.handback.revision: 51
 |ArchitectureContextMenus.DirectedGraphContextMenu.Remove|刪除|  
 |ArchitectureContextMenus.DirectedGraphContextMenu.Rename|F2|  
   
-##  <a name="a-namebkmkgraphicsdebuggera-graphics-diagnostics"></a><a name="bkmk_graphicsDebugger"></a> 圖形診斷  
+##  <a name="bkmk_graphicsDebugger"></a> 圖形診斷  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -551,13 +570,13 @@ caps.handback.revision: 51
 |Graphics.ZoomIn|Shift+Alt+=|  
 |Graphics.ZoomOut|Shift+Alt+-|  
   
-##  <a name="a-namebkmkhtmleditora-html-editor"></a><a name="bkmk_HTMLeditor"></a> HTML 編輯器  
+##  <a name="bkmk_HTMLeditor"></a> HTML 編輯器  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |OtherContextMenus.HTMLContext.GoToController|Ctrl+M、Ctrl+G|  
   
-##  <a name="a-namebkmkhtmleditordesigna-html-editor-design-view"></a><a name="bkmk_HTMLeditorDesign"></a> HTML 編輯器設計檢視  
+##  <a name="bkmk_HTMLeditorDesign"></a> HTML 編輯器設計檢視  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -580,7 +599,7 @@ caps.handback.revision: 51
 |View.ViewMarkup|Shift+F7|  
 |Window.PreviousTab|Ctrl+PgUp|  
   
-##  <a name="a-namebkmkhtmleditorsourcea-html-editor-source-view"></a><a name="bkmk_HTMLeditorSource"></a> HTML 編輯器原始碼檢視  
+##  <a name="bkmk_HTMLeditorSource"></a> HTML 編輯器原始碼檢視  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -590,13 +609,13 @@ caps.handback.revision: 51
 |View.ViewDesigner|Shift+F7|  
 |Window.PreviousTab|Ctrl+PgUp|  
   
-##  <a name="a-namebkmklayerdiagrama-layer-diagram"></a><a name="bkmk_layerDiagram"></a> 分層圖  
+##  <a name="bkmk_layerDiagram"></a> 分層圖  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.Delete|Shift+Delete|  
   
-##  <a name="a-namebkmkmanagedresourcesa-managed-resources-editor"></a><a name="bkmk_managedResources"></a> Managed 資源編輯器  
+##  <a name="bkmk_managedResources"></a> Managed 資源編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -611,7 +630,7 @@ caps.handback.revision: 51
 |Resources.Other|Ctrl+6|  
 |Resources.Strings|Ctrl+1|  
   
-##  <a name="a-namebkmkmergeeditora-merge-editor-window"></a><a name="bkmk_MergeEditor"></a> 合併編輯器視窗  
+##  <a name="bkmk_MergeEditor"></a> 合併編輯器視窗  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -619,7 +638,7 @@ caps.handback.revision: 51
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow|Alt+2|  
 |TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow|Alt+3|  
   
-##  <a name="a-namebkmkschemacomparea-microsoft-sql-server-data-tools-schema-compare"></a><a name="bkmk_SchemaCompare"></a> Microsoft SQL Server Data Tools，結構描述比較  
+##  <a name="bkmk_SchemaCompare"></a> Microsoft SQL Server Data Tools，結構描述比較  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -630,7 +649,7 @@ caps.handback.revision: 51
 |SQL.SSDTSchemaCompareStop|Alt+Break|  
 |SQL.SSDTSchemaCompareWriteUpdates|Shift+Alt+U|  
   
-##  <a name="a-namebkmktabledesignera-microsoft-sql-server-data-tools-table-designer"></a><a name="bkmk_TableDesigner"></a> Microsoft SQL Server Data Tools，資料表設計工具  
+##  <a name="bkmk_TableDesigner"></a> Microsoft SQL Server Data Tools，資料表設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -641,7 +660,7 @@ caps.handback.revision: 51
 |SQL.Rename|F2<br /><br /> 或<br /><br /> Ctrl+R、R<br /><br /> 或<br /><br /> Ctrl+R、Ctrl+R|  
 |ViewFileInScriptPanel|Shift+Alt+PgDn|  
   
-##  <a name="a-namebkmktsqleditora-microsoft-sql-server-data-tools-t-sql-editor"></a><a name="bkmk_TSQLeditor"></a> Microsoft SQL Server Data Tools，T-SQL 編輯器  
+##  <a name="bkmk_TSQLeditor"></a> Microsoft SQL Server Data Tools，T-SQL 編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -662,7 +681,7 @@ caps.handback.revision: 51
 |TSqlEditorCloneQuery|Ctrl+Alt+N|  
 |TSqlEditorDatabaseCombo|Shift+Alt+PgDn|  
   
-##  <a name="a-namebkmklinkfixa-microsoft-sql-server-data-tools-t-sql-pdw-editor"></a><a name="bkmk_linkfix"></a> Microsoft SQL Server Data Tools，T-SQL PDW 編輯器  
+##  <a name="bkmk_linkfix"></a> Microsoft SQL Server Data Tools，T-SQL PDW 編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -677,13 +696,13 @@ caps.handback.revision: 51
 |TSqlEditorCloneQuery|Ctrl+Alt+N|  
 |TSqlEditorDatabaseCombo|Shift+Alt+PgDn|  
   
-##  <a name="a-namebkmkpageinspectora-page-inspector"></a><a name="bkmk_PageInspector"></a> Page Inspector  
+##  <a name="bkmk_PageInspector"></a> Page Inspector  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |PageInspector.Minimize|F12|  
   
-##  <a name="a-namebkmkquerydesignera-query-designer"></a><a name="bkmk_QueryDesigner"></a> 查詢設計工具  
+##  <a name="bkmk_QueryDesigner"></a> 查詢設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -696,7 +715,7 @@ caps.handback.revision: 51
 |QueryDesigner.Results|Ctrl+4|  
 |QueryDesigner.SQL|Ctrl+3|  
   
-##  <a name="a-namebkmkqueryresultsa-query-results"></a><a name="bkmk_QueryResults"></a> 查詢結果  
+##  <a name="bkmk_QueryResults"></a> 查詢結果  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -704,7 +723,7 @@ caps.handback.revision: 51
 |SQL.QueryResultsRefresh|Shift+Alt+R|  
 |SQL.QueryResultsStop|Alt+Break|  
   
-##  <a name="a-namebkmkreportdesignera-report-designer"></a><a name="bkmk_ReportDesigner"></a> 報表設計工具  
+##  <a name="bkmk_ReportDesigner"></a> 報表設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -730,14 +749,14 @@ caps.handback.revision: 51
 |Edit.TabLeft|Shift + Tab|  
 |View.ReportData|Ctrl+Alt+D|  
   
-##  <a name="a-namebkmksequencediagrama-sequence-diagram"></a><a name="bkmk_SequenceDiagram"></a> 順序圖表  
+##  <a name="bkmk_SequenceDiagram"></a> 順序圖表  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |ArchitectureDesigner.Sequence.NavigateToCode|F12|  
 |Edit.Delete|Shift+Del|  
   
-##  <a name="a-namebkmksettingsdesignera-settings-designer"></a><a name="bkmk_SettingsDesigner"></a> 設定設計工具  
+##  <a name="bkmk_SettingsDesigner"></a> 設定設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -746,13 +765,13 @@ caps.handback.revision: 51
 |Edit.SelectionCancel|Esc|  
 |View.ViewCode|F7|  
   
-##  <a name="a-namebkmksolutionexplorera-solution-explorer"></a><a name="bkmk_SolutionExplorer"></a> 方案總管  
+##  <a name="bkmk_SolutionExplorer"></a> 方案總管  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector|Ctrl+K、Ctrl+G|  
   
-##  <a name="a-namebkmkteamexplorera-team-explorer"></a><a name="bkmk_TeamExplorer"></a> Team Explorer  
+##  <a name="bkmk_TeamExplorer"></a> Team Explorer  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
@@ -777,19 +796,19 @@ caps.handback.revision: 51
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|Shift+Alt+L|  
 |View.Refresh|F5|  
   
-##  <a name="a-namebkmktfbuilda-team-foundation-build-detail-editor"></a><a name="bkmk_TFBuild"></a> Team Foundation Build 詳細資料編輯器  
+##  <a name="bkmk_TFBuild"></a> Team Foundation Build 詳細資料編輯器  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |View.Refresh|F5|  
   
-##  <a name="a-namebkmktestexplorera-test-explorer"></a><a name="bkmk_TestExplorer"></a> 測試總管  
+##  <a name="bkmk_TestExplorer"></a> 測試總管  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |TestExplorer.OpenTest|F12|  
   
-##  <a name="a-namebkmktexteditora-text-editor"></a><a name="bkmk_TextEditor"></a> 文字編輯器  
+##  <a name="bkmk_TextEditor"></a> 文字編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -899,38 +918,38 @@ caps.handback.revision: 51
 |TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion|Alt+PgDn|  
 |TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion|Alt+PgUp|  
   
-##  <a name="a-namebkmkumlactivitydiagrama-uml-activity-diagram"></a><a name="bkmk_UMLactivityDiagram"></a> UML 活動圖表  
+##  <a name="bkmk_UMLactivityDiagram"></a> UML 活動圖表  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.Delete|Shift+Del|  
   
-##  <a name="a-namebkmkumlclassdiagrama-uml-class-diagram"></a><a name="bkmk_UMLclassDiagram"></a> UML 類別圖表  
+##  <a name="bkmk_UMLclassDiagram"></a> UML 類別圖表  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
   
-##  <a name="a-namebkmkumlcomponentdiagrama-uml-component-diagram"></a><a name="bkmk_UMLcomponentDiagram"></a> UML 元件圖表  
+##  <a name="bkmk_UMLcomponentDiagram"></a> UML 元件圖表  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
   
-##  <a name="a-namebkmkumlusecasediagrama-uml-use-case-diagram"></a><a name="bkmk_UMLusecaseDiagram"></a> UML 使用案例圖表  
+##  <a name="bkmk_UMLusecaseDiagram"></a> UML 使用案例圖表  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.DeleteFromModel|Shift+Del|  
   
-##  <a name="a-namebkmkvcacceleratora-vc-accelerator-editor"></a><a name="bkmk_vcaccelerator"></a> VC 快速鍵編輯器  
+##  <a name="bkmk_vcaccelerator"></a> VC 快速鍵編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |Edit.NewAccelerator|Insert|  
 |Edit.NextKeyTyped|Ctrl+W|  
   
-##  <a name="a-namebkmkvcdialogeditora-vc-dialog-editor"></a><a name="bkmk_vcdialogeditor"></a> VC 對話方塊編輯器  
+##  <a name="bkmk_vcdialogeditor"></a> VC 對話方塊編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -964,7 +983,7 @@ caps.handback.revision: 51
 |Format.TestDialog|Ctrl+T|  
 |Format.ToggleGuides|Ctrl+G|  
   
-##  <a name="a-namebkmkvcimageeditora-vc-image-editor"></a><a name="bkmk_vcimageeditor"></a> VC 影像編輯器  
+##  <a name="bkmk_vcimageeditor"></a> VC 影像編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1006,13 +1025,13 @@ caps.handback.revision: 51
 |Image.ZoomIn|Ctrl+Shift+.<br /><br /> 或<br /><br /> Ctrl+向上鍵|  
 |Image.ZoomOut|Ctrl+Shift+,<br /><br /> 或<br /><br /> Ctrl+向下鍵|  
   
-##  <a name="a-namebkmkvcstringeditora-vc-string-editor"></a><a name="bkmk_vcstringeditor"></a> VC 字串編輯器  
+##  <a name="bkmk_vcstringeditor"></a> VC 字串編輯器  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |Edit.NewString|Insert|  
   
-##  <a name="a-namebkmkviewdesignera-view-designer"></a><a name="bkmk_viewDesigner"></a> 檢視表設計工具  
+##  <a name="bkmk_viewDesigner"></a> 檢視表設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1025,13 +1044,13 @@ caps.handback.revision: 51
 |QueryDesigner.Results|Ctrl+4|  
 |QueryDesigner.SQL|Ctrl+3|  
   
-##  <a name="a-namebkmkvisualstudioa-visual-studio"></a><a name="bkmk_visualstudio"></a> Visual Studio  
+##  <a name="bkmk_visualstudio"></a> Visual Studio  
   
 |命令|鍵盤快速鍵|  
 |-------------|-----------------------|  
 |OtherContextMenus.ORDesignerContext.HideMethodsPane|Ctrl+1|  
   
-##  <a name="a-namebkmkwfdesignera-windows-forms-designer"></a><a name="bkmk_wfdesigner"></a> Windows Form 設計工具  
+##  <a name="bkmk_wfdesigner"></a> Windows Form 設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1060,7 +1079,7 @@ caps.handback.revision: 51
 |Edit.SizeControlUp|Ctrl+Shift+向上鍵|  
 |Edit.TabLeft|Shift + Tab|  
   
-##  <a name="a-namebkmkworkitemeditora-work-item-editor"></a><a name="bkmk_workItemEditor"></a> 工作項目編輯器  
+##  <a name="bkmk_workItemEditor"></a> 工作項目編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1068,7 +1087,7 @@ caps.handback.revision: 51
 |Edit.RefreshWorkItem|F5|  
 |Team.NewLinkedWorkItem|Shift+Alt+L|  
   
-##  <a name="a-namebkmkwiqueryviewa-work-item-query-view"></a><a name="bkmk_WIqueryview"></a> 工作項目查詢檢視  
+##  <a name="bkmk_WIqueryview"></a> 工作項目查詢檢視  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1079,7 +1098,7 @@ caps.handback.revision: 51
 |Team.Refresh|F5|  
 |Window.Toggle|Shift+Alt+V|  
   
-##  <a name="a-namebkmkwiresultsviewa-work-item-results-view"></a><a name="bkmk_WIresultsview"></a> 工作項目結果檢視  
+##  <a name="bkmk_WIresultsview"></a> 工作項目結果檢視  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1092,7 +1111,7 @@ caps.handback.revision: 51
 |Team.Refresh|F5|  
 |Window.Toggle|Shift+Alt+V|  
   
-##  <a name="a-namebkmkworkflowdesignera-workflow-designer"></a><a name="bkmk_workflowdesigner"></a> 工作流程設計工具  
+##  <a name="bkmk_workflowdesigner"></a> 工作流程設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1120,7 +1139,7 @@ caps.handback.revision: 51
 |WorkflowDesigner.ZoomIn|Ctrl+Num +|  
 |WorkflowDesigner.ZoomOut|Ctrl+Num -|  
   
-##  <a name="a-namebkmkxamluidesignera-xaml-ui-designer"></a><a name="bkmk_xamluidesigner"></a> XAML UI 設計工具  
+##  <a name="bkmk_xamluidesigner"></a> XAML UI 設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1136,14 +1155,14 @@ caps.handback.revision: 51
 |View.EdgeRightMoveRight|Ctrl+Shift+Alt+.|  
 |執行專案程式碼|Ctrl+F9|  
   
-##  <a name="a-namebkmkxmltexteditora-xml-text-editor"></a><a name="bkmk_xmlTextEditor"></a> XML (文字) 編輯器  
+##  <a name="bkmk_xmlTextEditor"></a> XML (文字) 編輯器  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
 |XML.StartXSLTDebugging|Alt+F5|  
 |XML.StartXSLTWithoutDebugging|Ctrl+Alt+F5|  
   
-##  <a name="a-namebkmkxmlschemadesignera-xml-schema-designer"></a><a name="bkmk_xmlSchemaDesigner"></a> XML 結構描述設計工具  
+##  <a name="bkmk_xmlSchemaDesigner"></a> XML 結構描述設計工具  
   
 |命令|鍵盤快速鍵|  
 |--------------|------------------------|  
@@ -1157,10 +1176,5 @@ caps.handback.revision: 51
 |XsdDesigner.ShowStartView|Ctrl+1|  
   
 ## <a name="see-also"></a>另請參閱  
- [圖示影像編輯器](/visual-cpp/windows/image-editor-for-icons)   
+ [圖示影像編輯器](/cpp/windows/image-editor-for-icons)   
  [使用 IntelliSense](../ide/using-intellisense.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

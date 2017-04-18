@@ -43,9 +43,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 96fad179fb30f3b5e8fe6ddfd041c8e289dde48a
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: ce6f346f77217e61d93879118610934422cdc642
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="building-and-cleaning-projects-and-solutions-in-visual-studio"></a>在 Visual Studio 中建置和清除專案與方案
@@ -131,6 +131,6 @@ ms.lasthandoff: 02/22/2017
  [編譯和建置](../ide/compiling-and-building-in-visual-studio.md)   
  [了解組建組態](../ide/understanding-build-configurations.md)   
  [偵錯和發行專案組態](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
- [C/C++ 建置參考](/visual-cpp/build/reference/c-cpp-building-reference)   
+ [C/C++ 建置參考](/cpp/build/reference/c-cpp-building-reference)   
  [Devenv 命令列參數](../ide/reference/devenv-command-line-switches.md)   
  [專案和方案](../ide/solutions-and-projects-in-visual-studio.md)

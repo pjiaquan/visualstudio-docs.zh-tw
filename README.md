@@ -1,19 +1,20 @@
-## Microsoft Open Source Code of Conduct
+## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft 開放原始碼管理辦法
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+此專案已採用 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) (Microsoft 開放原始碼管理辦法)。
+如需詳細資訊，請參閱 [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) (管理辦法常見問題集) 或連絡 [opencode@microsoft.com](mailto:opencode@microsoft.com)，提出任何其他問題或意見。
 
-# Visual Studio 2017 documentation
+# <a name="visual-studio-2017-documentation"></a>Visual Studio 2017 文件
 
-Welcome! This repo contains source files for the work-in-progress Visual Studio 2017 technical documentation. The topics are published on the [Visual Studio documentation site](https://docs.microsoft.com/visualstudio).
+歡迎! 此儲存機制包含工作進行中的 Visual Studio 2017 技術文件原始程式檔。 主題發佈在 [Visual Studio 文件網站](https://docs.microsoft.com/visualstudio)。
 
-The documentation for Visual Basic and Visual C# are located in a separate repo at [http://github.com/dotnet/core-docs](http://github.com/dotnet/core-docs), and the Visual C++ documentation is located in the repo located at [http://github.com/Microsoft/cpp-docs](http://github.com/Microsoft/cpp-docs).
+Visual Basic 和 Visual C# 的文件位於不同的儲存機制，網址是 [http://github.com/dotnet/core-docs](http://github.com/dotnet/core-docs)，而 Visual C++ 文件位於儲存機制，網址是 [http://github.com/Microsoft/cpp-docs](http://github.com/Microsoft/cpp-docs)。
 
-## Contributing to the documentation
+## <a name="contributing-to-the-documentation"></a>參與文件
 
-To contribute to this documentation, please see the [Contributing guide](CONTRIBUTING.md).
-We welcome your contributions to help us improve the Visual Studio docs. All the articles in this repository use GitHub flavored markdown.
+若要參與這份文件，請參閱[參與指南](CONTRIBUTING.md)。
+我們歡迎您的參與，協助我們改善 Visual Studio 文件。 在此儲存機制中的所有文章都使用 GitHub 特定的 Markdown。
 
-Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio interactive development environment (IDE), and so forth. The **/media** subfolder in each folder contains art files for the topics. The [Contributing guide](CONTRIBUTING.md) has more information.
+Visual Studio 的數個功能區域都在此儲存機制有自己的資料夾，如 **debugger** 適用於偵錯主題，**ide** 適用於 Visual Studio 互動式開發環境 (IDE) 等等。 每個資料夾的 **/media** 子資料夾中都包含主題的美工檔案。 [參與指南](CONTRIBUTING.md)有詳細資訊。
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+此專案已採用 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) (Microsoft 開放原始碼管理辦法)。 如需詳細資訊，請參閱 [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) (管理辦法常見問題集) 或連絡 [opencode@microsoft.com](mailto:opencode@microsoft.com)，提出任何其他問題或意見。
+

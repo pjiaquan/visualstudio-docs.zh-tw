@@ -37,9 +37,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 4e6d49e4c4121d5179729259e60957d57d1e04cd
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: b88c533d613d531a7dcc24e0610e2fb2a7a3d880
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="prerequisites-dialog-box"></a>Prerequisites Dialog Box
@@ -75,9 +75,9 @@ ms.lasthandoff: 02/22/2017
 |**Microsoft Visual Studio 2010 for Office Runtime (x86 和 x64)**|Visual Studio 中的 Office Developer Tools 提供便於使用的整合式工具，可搭配 Microsoft Office 建立自訂商務方案。 您可以建立使用 Office 應用程式做為使用者介面的 Managed 智慧型用戶端解決方案。 這些工具讓開發人員能夠建立易於部署與維護的安全方案。<br /><br /> 如需詳細資訊，請參閱[如何：使用 ClickOnce 發行 Office 方案](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)。|  
 |**SQL Server 2005 Express Edition SP2 (x86)**|這個套件會安裝 Microsoft SQL Server 2005 Express Edition SP2，這是以 [!INCLUDE[sqprsqext](../../ide/reference/includes/sqprsqext_md.md)] 為基礎的資料庫應用程式。 SQL Server Express 是 Microsoft SQL Server Desktop Engine (MSDE) 的取代項目。 SQL Server Express 是免費的而且可轉散發 (依合約規定)，可以當做用戶端資料庫以及基本伺服器資料庫。 與 SQL Server 2005 相同，除了以下幾個不同處：<br /><br /> -   不支援企業功能。<br />-   只限於一個 CPU。<br />-   緩衝區集區的記憶體限制為 1 GB。<br />-   資料庫大小上限為 4 GB。|  
 |**SQL Server 2008 Express**|此套件會安裝 Microsoft SQL Server 2008 Express (Microsoft SQL Server 2008 的免費版本)，這是小型網路、伺服器或桌面應用程式的理想資料庫。 它可以免費用於開發和生產環境。 隨同應用程式散發 SQL Server 2008 Express 時，必須有免費的[註冊](http://go.microsoft.com/fwlink/?LinkId=130380)。<br /><br /> 啟動載入器的行為如下：<br /><br /> -   如果電腦已有 SQL Server 2008 Express (含) 以後版本，則電腦會保持在 SQL Server 2008 Express (含) 以後版本。<br />-   如果電腦沒有任何 SQL Server 2008 Express (含) 以後版本，則套件會安裝最新版的 SQL Server 2008 Express SP1。<br /><br /> 若要深入了解 SQL Server 2008 Express，請前往 [http://go.microsoft.com/fwlink/?LinkId=183586](http://go.microsoft.com/fwlink/?LinkId=183586)。|  
-|**Visual C++ 2010 執行階段程式庫 (IA64)**|這個套件會安裝適用於 Itanium 架構的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/visual-cpp/c-runtime-library/c-run-time-library-reference)。|  
-|**Visual C++ 2010 執行階段程式庫 (x64)**|這個套件會安裝適用於 x64 作業系統的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/visual-cpp/c-runtime-library/c-run-time-library-reference)。|  
-|**Visual C++ 2010 執行階段程式庫 (x86)**|這個套件會安裝適用於 x86 作業系統的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/visual-cpp/c-runtime-library/c-run-time-library-reference)。|  
+|**Visual C++ 2010 執行階段程式庫 (IA64)**|這個套件會安裝適用於 Itanium 架構的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/cpp/c-runtime-library/c-run-time-library-reference)。|  
+|**Visual C++ 2010 執行階段程式庫 (x64)**|這個套件會安裝適用於 x64 作業系統的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/cpp/c-runtime-library/c-run-time-library-reference)。|  
+|**Visual C++ 2010 執行階段程式庫 (x86)**|這個套件會安裝適用於 x86 作業系統的 Visual C++ 執行階段程式庫，以提供 Microsoft Windows 作業系統程式設計所需的常式。 這些常式會自動執行 C 和 C++ 語言所未提供的許多常見的程式設計工作。<br /><br /> 如需詳細資訊，請參閱 [C 執行階段程式庫參考](/cpp/c-runtime-library/c-run-time-library-reference)。|  
 |**Windows Installer 3.1**|這個套件會安裝 Microsoft Windows Installer 可轉散發套件 3.1 版，以允許安裝 Windows Installer 安裝專案。 Windows Server 2003 SP1 (含) 以後版本都會預先安裝這個套件。<br /><br /> 這個項目預設為選取。|  
 |**Windows Installer 4.5**|這個套件會安裝 Microsoft Windows Installer 可轉散發套件 4.5 版，以允許安裝 Windows Installer 安裝專案。|  
   

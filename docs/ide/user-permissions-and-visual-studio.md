@@ -33,9 +33,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: dc32236dad42ec169fc1c7a243b7c67fd5a8dbf3
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 0dc9fed1e5fc5a827e836310175d558b14cd41b4
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="user-permissions-and-visual-studio"></a>使用者權限和 Visual Studio
@@ -54,8 +54,8 @@ ms.lasthandoff: 03/07/2017
 ||取得 [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)]的開發人員授權。|[取得開發人員授權 (Windows 市集應用程式)](http://go.microsoft.com/fwlink/?LinkID=241313)|  
 |工具箱|將傳統 COM 控制項新增至 [工具箱]。|[使用工具箱](../ide/using-the-toolbox.md)|  
 |增益集|安裝及使用在 IDE 中使用傳統 COM 撰寫的增益集。|[建立增益集和精靈](http://msdn.microsoft.com/Library/c5a47c21-6668-4de3-898d-afa969317e73)|  
-|建置|使用註冊元件的建置後事件。|[了解自訂建置步驟和建置事件](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
-||包含當您建立 C++ 專案時的註冊步驟。|[了解自訂建置步驟和建置事件](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
+|建置|使用註冊元件的建置後事件。|[了解自訂建置步驟和建置事件](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
+||包含當您建立 C++ 專案時的註冊步驟。|[了解自訂建置步驟和建置事件](/cpp/ide/understanding-custom-build-steps-and-build-events)|  
 |偵錯|偵錯以更高權限執行的應用程式。|[偵錯設定和準備](../debugger/debugger-settings-and-preparation.md)|  
 ||偵錯在不同使用者帳戶下執行的應用程式，例如 ASP.NET 網站。|[偵錯 ASP.NET 和 AJAX 應用程式](../debugger/debugging-aspnet-and-ajax-applications.md)|  
 ||在 XAML 瀏覽器應用程式的區域 (XBAP) 中進行偵錯。|[WPF 主應用程式 (PresentationHost.exe)](http://msdn.microsoft.com/Library/3215bfa1-722c-4ac8-a7c5-bdd02d30afbd)|  

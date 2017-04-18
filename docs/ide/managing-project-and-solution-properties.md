@@ -28,9 +28,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: e843adb473be51e185fd3b5dc514b44f16106157
-ms.lasthandoff: 02/22/2017
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 332ef0d4534d8f607a1b5d92038855ebd247657f
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="managing-project-and-solution-properties"></a>管理專案和方案屬性
@@ -60,7 +60,7 @@ ms.lasthandoff: 02/22/2017
   
  ![Visual C&#43;&#43; 專案屬性](../ide/media/vs2015_projprops_cpp.png "VS2015_ProjProps_cpp")  
   
- 如需 C++ 專案屬性的資訊，請參閱[使用專案屬性](/visual-cpp/ide/working-with-project-properties)。 如需 JavaScript 屬性的詳細資訊，請參閱 [JavaScript、屬性頁](../ide/reference/property-pages-javascript.md)。  
+ 如需 C++ 專案屬性的資訊，請參閱[使用專案屬性](/cpp/ide/working-with-project-properties)。 如需 JavaScript 屬性的詳細資訊，請參閱 [JavaScript、屬性頁](../ide/reference/property-pages-javascript.md)。  
   
 ## <a name="solution-properties"></a>方案屬性  
  若要存取方案上的屬性，請以滑鼠右鍵按一下方案總管中的方案節點，然後選擇 [屬性]。 在對話方塊中，您可以設定偵錯或發行組建的專案組態、在按 F5 時選擇哪些專案應該要當成啟始專案，以及設定程式碼分析選項。  

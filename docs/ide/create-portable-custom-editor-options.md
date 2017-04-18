@@ -1,5 +1,5 @@
 ---
-title: "建立可移植的自訂編輯器設定 |Microsoft Docs"
+title: "使用 EditorConfig 建立可攜式自訂編輯器設定 | Microsoft Docs"
 ms.custom: 
 ms.date: 02/17/2017
 ms.reviewer: 
@@ -33,12 +33,12 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 203e1e27cc892e96b103fc6cb22a73672a8e16af
-ms.openlocfilehash: 70f3c6c7e4356a698aa6c1dd265f6c79c662673e
-ms.lasthandoff: 03/01/2017
+ms.sourcegitcommit: 46846db26bee30841e6cb35913d533b512d01ba0
+ms.openlocfilehash: f377ada139d9c0e8b01b640cf603cf349dc1c3c3
+ms.lasthandoff: 03/27/2017
 
 ---
-# <a name="create-portable-custom-editor-settings"></a>建立可移植的自訂編輯器設定
+# <a name="create-portable-custom-editor-settings-with-editorconfig"></a>使用 EditorConfig 建立可攜式自訂編輯器設定
 在 Visual Studio 中的文字編輯器設定適用於特定類型的所有專案。 因此，比方說，如果您變更 C# 文字編輯器設定，該設定會適用於 Visual Studio 中的「所有」C# 專案。 不過，在某些情況下，您可能需要使用不同於您自己的個人編輯器喜好設定的慣例。 [EditorConfig](http://editorconfig.org/) 檔案藉由根據每個專案提供一般文字編輯器選項，而讓您能做到這點。 在新增到您程式碼基底的 .editorconfig 檔案中，所包含的 EditorConfig 設定會取代全域 Visual Studio 文字編輯器設定。 這表示您可以自訂每個程式碼基底，以使用您偏好的文字編輯器設定。 不需要外掛程式即可在 Visual Studio 中使用這項功能。
 
 ## <a name="coding-consistency"></a>程式碼撰寫的一致性
@@ -99,3 +99,5 @@ Visual Studio 中的編輯器支援核心 EditorConfig 選項集合的下列值�
 | Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uIndentSize 或 Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.IndentSize | textBufferOptions.GetOptionValue(DefaultOptions. IndentSizeOptionId) 或 textView.Options.GetOptionValue(DefaultOptions. IndentSizeOptionId) |
 | Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize 或 Microsoft.VisualStudio.Package.LanguagePreferences.InsertTabs.TabSize | textBufferOptions.GetOptionValue(DefaultOptions.TabSizeOptionId) 或 textView.Options.GetOptionValue(DefaultOptions.TabSizeOptionId) |
 
+# <a name="see-also"></a>另請參閱
+[使用 EditorConfig 建立可攜式自訂編輯器選項](create-portable-custom-editor-options.md)

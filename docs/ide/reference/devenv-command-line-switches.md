@@ -1,31 +1,50 @@
 ---
 title: "Devenv 命令列參數 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "應用程式 [Visual Studio], 執行"
-  - "組建 [Team System], 命令列"
-  - "命令列 [Visual Studio], 參數"
-  - "命令列參數, Devenv"
-  - "編譯器, Devenv 命令"
-  - "編譯原始程式碼, Devenv"
-  - "Devenv"
-  - "Devenv, 語法和參數清單"
-  - "環境, Devenv 命令"
-  - "參數"
-  - "參數, Devenv"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- switches, Devenv
+- builds [Team System], command-line
+- applications [Visual Studio], executing
+- compiling source code, Devenv
+- command-line switches, Devenv
+- command line [Visual Studio], switches
+- Devenv
+- environment, Devenv commands
+- compilers, Devenv commands
+- switches
+- Devenv, syntax and list of switches
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 29
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 5666566315e94f109c5ca214dcf5b2a539911203
+ms.lasthandoff: 04/05/2017
+
 ---
 # <a name="devenv-command-line-switches"></a>Devenv 命令列參數
 Devenv 可讓您設定整合式開發環境 (IDE) 的各種選項，也可讓您從命令列建置、偵錯和部署專案。 使用這些參數透過指令碼或 .bat 檔案 (例如，夜間組建指令碼) 執行 IDE，或在特定組態中啟動 IDE。  
@@ -73,7 +92,7 @@ Devenv 可讓您設定整合式開發環境 (IDE) 的各種選項，也可讓您
 |[/Log (devenv.exe)](../../ide/reference/log-devenv-exe.md)|啟動 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]，並將所有活動記錄至記錄檔。|  
 |[/Run (devenv.exe)](../../ide/reference/run-devenv-exe.md) or `/r`|編譯並執行指定的方案。|  
 |[/Runexit (devenv.exe)](../../ide/reference/runexit-devenv-exe.md)|編譯並執行指定的方案、執行方案時最小化 IDE，以及在方案完成執行之後關閉 IDE。|  
-|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|讓 IDE 使用 PATH、INCLUDE 和 LIB 環境變數進行 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 編譯，而不是 [選項] 對話方塊之 [專案] 選項的 [VC++ 目錄] 區段中所指定的設定。 如需詳細資訊，請參閱[設定命令列建置的路徑和環境變數](/visual-cpp/build/setting-the-path-and-environment-variables-for-command-line-builds)。|  
+|[/UseEnv (devenv.exe)](../../ide/reference/useenv-devenv-exe.md)|讓 IDE 使用 PATH、INCLUDE 和 LIB 環境變數進行 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 編譯，而不是 [選項] 對話方塊之 [專案] 選項的 [VC++ 目錄] 區段中所指定的設定。 如需詳細資訊，請參閱[設定命令列建置的路徑和環境變數](/cpp/build/setting-the-path-and-environment-variables-for-command-line-builds)。|  
 |[/Edit (devenv.exe)](../../ide/reference/edit-devenv-exe.md)|在這個應用程式的作用中執行個體中開啟指定的檔案。 如果沒有作用中執行個體，則會以簡易視窗配置啟動新的執行個體。|  
 |[/ResetAddin (devenv.exe)](../../ide/reference/resetaddin-devenv-exe.md)|啟動 Visual Studio IDE 的執行個體，而不需要載入指定的增益集。|  
 |[/SafeMode (devenv.exe)](../../ide/reference/safemode-devenv-exe.md)|以安全模式啟動 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]，並且只載入預設環境和服務，以及隨附的協力廠商套件版本。|  
@@ -100,8 +119,3 @@ Devenv 可讓您設定整合式開發環境 (IDE) 的各種選項，也可讓您
   
 ## <a name="see-also"></a>另請參閱  
  [選項對話方塊、環境、一般](../../ide/reference/general-environment-options-dialog-box.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

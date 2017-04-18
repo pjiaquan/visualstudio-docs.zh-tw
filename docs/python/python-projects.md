@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 中的 Python 專案 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 8ae79f6b8e7eb87c0138b0152d8f9ce46eac9a69
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: eb3abd0f37e52f2b1db3793a5471b74a5e0c37ff
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -47,7 +47,7 @@ Visual Studio 提供各種 Python 專案範本，可讓您快速設定一些應�
 
 本主題內容：
 
-- [新增檔案、指派啟動檔案及設定環境](#adding-file-assigning-a-startup-file-and-setting-environments)
+- [新增檔案、指派啟動檔案及設定環境](#adding-files-assigning-a-startup-file-and-setting-environments)
 - [專案範本](#project-templates)
 - [連結的檔案](#linked-files)
 - [參考](#references)
@@ -71,7 +71,10 @@ Visual Studio 提供各種 Python 專案範本，可讓您快速設定一些應�
 
 當您開發應用程式時，通常需要將不同類型的新檔案新增到專案中。 您可以輕鬆執行此操作，方法是在專案上按一下滑鼠右鍵，然後選取 [新增] > [現有項目]，使用此方式時，您可以瀏覽要新增的檔案；或是選取 [新增] > [新項目]，這會顯示一個對話方塊，內含各種項目範本，包括空白的 Python 檔案、Python 類別、單元測試及與 Web 應用程式相關的各種檔案。 我們鼓勵您使用測試專案來探索這些選項，以了解您的 Visual Studio 版本中提供哪些選項。
 
-每個 Python 專案都有一個指派的啟動檔案，在 [方案總管] 中是以粗體顯示。 這是當您開始偵錯 (F5 或 [偵錯] > [開始偵錯]) 時所執行的檔案，或是在互動式視窗中執行專案 (Shift+Alt+F5 或 [偵錯] > [Execute Project in Python Interactive (在 Python 互動式視窗中執行專案)]) 時所執行的檔案。 若要變更它，請在新檔案上按一下滑鼠右鍵，然後選取 [啟動檔案]。
+每個 Python 專案都有一個指派的啟動檔案，在 [方案總管] 中是以粗體顯示。 這是當您開始偵錯 (F5 或 [偵錯] > [開始偵錯]) 時所執行的檔案，或是在互動式視窗中執行專案 (Shift+Alt+F5 或 [偵錯] > [Execute Project in Python Interactive] (在 Python 互動式視窗中執行專案)) 時所執行的檔案。 若要變更它，請在新檔案上按一下滑鼠右鍵，然後選取 [啟動檔案]。
+
+> [!Tip]
+> 如果您從專案移除選取的啟動檔案，且不選取新的啟動檔案，則嘗試執行專案會造成出現 Python 輸出視窗，但接著幾乎立即消失。 如果您遇到這個問題，請確認您已指派啟動檔案。 此外，若要在此情況下讓輸出視窗保持開啟，請以滑鼠右鍵按一下專案，依序選取 [屬性]**、**[偵錯] 索引標籤，然後將 `-i` 加入 [解譯器引數] 欄位。 這會導致程式完成之後，解譯器進入互動模式，並在您輸入 Ctrl + Z、Enter 以結束之前保持視窗開啟。
 
 新專案一律會與預設的全域 Python 環境關聯。 若要將專案與不同的環境 (包括虛擬環境) 建立關聯，請在專案中的 [Python Environments (Python 環境)] 節點上按一下滑鼠右鍵，選取 [Add/Remove Python Environments (新增/移除 Python 環境)]，然後選取您想要的環境。 若要變更作用中的環境，請在想要的環境上按一下滑鼠右鍵，然後選取 [Activate Environment (啟用環境)]。 如需更多詳細資料，請參閱 [Python 環境](python-environments.md#project-specific-environments)。
 
@@ -97,6 +100,7 @@ Visual Studio 提供您一些方法來建立 Python 專案，不論是從頭開�
 | IronPython Silverlight 網頁 | 一種使用 Silverlight 在瀏覽器中執行的 IronPython 專案。 應用程式的 Python 程式碼會以指令碼的形式包含在網頁中。 樣板指令碼標記會向下拖曳出一些 JavaScript 程式碼，這些程式碼會將在 Silverlight 內部執行的 IronPython 初始化，而您的 Python 程式碼便可從中與 DOM 互動。 |
 | IronPython Windows Forms 應用程式 | 一種使用 IronPython 的專案結構，其中是使用程式碼搭配 Windows Forms 來建立 UI。 應用程式會在不顯示主控台的情況下執行。 |
 | 背景應用程式 (IoT) | 支援將 Python 專案部署成在裝置上以背景服務的形式執行。 如需詳細資訊，請瀏覽 [Windows IoT 開發人員中心](https://dev.windows.com/en-us/iot)。 |
+| Python 延伸模組 | 如果您已在 Visual Studio 2017 Preview 中安裝 **Python 原生開發工具** 與 Python 工作負載 (請參閱[安裝](installation.md))，此範本會出現在 Visual C++。 它提供的 C++ 延伸模組 DLL 的核心結構，類似於[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md)中所述。 |
 
 <a name="create-project-from-existing-files"</a>
 ### <a name="creating-a-project-from-existing-files"></a>從現有的檔案建立專案

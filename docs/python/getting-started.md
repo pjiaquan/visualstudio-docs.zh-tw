@@ -28,9 +28,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 0b87d25195b8e288252e6c53279897d1edff93bd
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
+ms.openlocfilehash: 2659c1a3b1adfc3f462971205460942c5fe5171f
+ms.lasthandoff: 03/27/2017
 
 ---
 
@@ -230,6 +230,8 @@ Visual Studio 中的 Python 支援包含一些[專案範本](python-projects.md)
     > if __name__ == "__main__":  
     >     sys.exit(int(main() or 0))      
     > ```
+    > 
+    > 或者，如果您遇到輸出視窗自動關閉，但您不想要如此的情況，請以滑鼠右鍵按一下專案、依序選取 [屬性][偵錯] 索引標籤，然後新增 `-i` 至 [解譯器引數] 欄位。 這會導致程式完成之後，解譯器進入互動模式，並在您輸入 Ctrl + Z、Enter 以結束之前保持視窗開啟。
 
 1. 在 `main` 函式第一行上設定中斷點，方法是按一下該行旁左側灰色邊界，或者將插入點放在該行，並使用 [偵錯] > [切換中斷點]* 命令 (F9)。 灰色邊界會出現紅點，表示中斷點 (如下方藍色箭號所註)：
 

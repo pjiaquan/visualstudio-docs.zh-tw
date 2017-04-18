@@ -61,10 +61,10 @@ ms.lasthandoff: 03/07/2017
 Microsoft 支援服務可能因當時的價格、條款和條件而有所變更。 價格、條款和條件如有變更恕不另行通知。  
 
 ## <a name="i-want-to-get-involved-in-the-developer-community"></a>我想要參與開發人員社群  
- 如果您想要與其他開發人員分享您的問題和解答，可以使用 [Visual Studio Developer Community](https://developercommunity.visualstudio.com/index.html) (Visual Studio 開發人員社群) 網站、[MSDN 論壇](http://social.msdn.microsoft.com/Forums/home)或 [StackOverflow](http://stackoverflow.com/)。 您也可以在 [開發人員程式碼範例](http://code.msdn.microsoft.com/)和 [CodePlex](http://www.codeplex.com/) 網站上檢視其他開發人員的程式碼和共用您的範例。 最後，很重要的一點是您可以在 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) 之任何 Visual Studio 頁面的 [Comments] (註解) 區段中回應客戶意見反應，來分享專業知識。
+ 如果您想要與其他開發人員分享您的問題和解答，可以使用 [Visual Studio Developer Community](https://developercommunity.visualstudio.com/index.html) (Visual Studio 開發人員社群) 網站、[MSDN 論壇](http://social.msdn.microsoft.com/Forums/home)或 [StackOverflow](http://stackoverflow.com/)。 您也可以在 [開發人員程式碼範例](http://code.msdn.microsoft.com/)和 [CodePlex](http://www.codeplex.com/) 網站上檢視其他開發人員的程式碼和共用您的範例。 最後，很重要的一點是您可以在 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) 之任何 Visual Studio 頁面的 [Comments]\(註解) 區段中回應客戶意見反應，來分享專業知識。
 
 ## <a name="i-want-to-help-improve-the-visual-studio-documentation"></a>我想要協助改善 Visual Studio 文件  
-  請使用頁面底部的意見反應按鈕 (**本頁是否能提供幫助？**)。 您可以在所有文件頁面上找到這個按鈕。 如果找不到您需要的解答，請告訴我們您要找什麼樣的資訊。 (或者，您可以使用 [Comments] (註解) 區段，將意見反應新增至 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) 上的任何 Visual Studio 頁面)。
+  請使用頁面底部的意見反應按鈕 (**本頁是否能提供幫助？**)。 您可以在所有文件頁面上找到這個按鈕。 如果找不到您需要的解答，請告訴我們您要找什麼樣的資訊。 (或者，您可以使用 [Comments]\(註解) 區段，將意見反應新增至 [docs.microsoft.com](https://docs.microsoft.com/visualstudio/) 上的任何 Visual Studio 頁面)。
 
 ## <a name="see-also"></a>另請參閱  
  [如何回報 Visual Studio 的問題](how-to-report-a-problem-with-visual-studio-2017.md)
