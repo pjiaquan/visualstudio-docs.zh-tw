@@ -17,3 +17,4 @@ Visual Basic 和 Visual C# 的文件位於不同的儲存機制，網址是 [htt
 Visual Studio 的數個功能區域都在此儲存機制有自己的資料夾，如 **debugger** 適用於偵錯主題，**ide** 適用於 Visual Studio 互動式開發環境 (IDE) 等等。 每個資料夾的 **/media** 子資料夾中都包含主題的美工檔案。 [參與指南](CONTRIBUTING.md)有詳細資訊。
 
 此專案已採用 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) (Microsoft 開放原始碼管理辦法)。 如需詳細資訊，請參閱 [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) (管理辦法常見問題集) 或連絡 [opencode@microsoft.com](mailto:opencode@microsoft.com)，提出任何其他問題或意見。
+
