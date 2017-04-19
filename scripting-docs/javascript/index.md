@@ -13,7 +13,7 @@ JavaScript 是在 Visual Studio 中的第一級語言。 當您在 Visual Studio
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/scripting/javascript/javascript-in-vs-2017">
+        <a href="https://docs.microsoft.com/scripting/javascript/javascript-in-vs-2017">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
