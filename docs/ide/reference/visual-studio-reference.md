@@ -1,19 +1,38 @@
 ---
 title: "Visual Studio 參考 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 35
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: e32d7a177a1a6ff0e26fba7f418f368a64bb1337
+ms.lasthandoff: 04/05/2017
+
 ---
 # <a name="visual-studio-reference"></a>Visual Studio 參考
 本節包含使用者介面參考、語言對等用法，以及其他參考文件。  
@@ -34,7 +53,7 @@ caps.handback.revision: 35
  [Visual Studio for Applications 參考](../../ide/reference/visual-studio-for-applications-reference.md)  
  包含可用於將 .NET Framework 指令碼引擎整合至應用程式之介面的參考文件。  
   
- [MSBuild](../../msbuild/msbuild1.md)  
+ [MSBuild](../../msbuild/msbuild.md)
  包含如何使用整合至 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 之 Microsoft 組建平台的相關文件。  
   
  [IDE 錯誤疑難排解資源](../../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
@@ -50,7 +69,7 @@ caps.handback.revision: 35
  [Visual Basic 參考](/dotnet/visual-basic/reference/index)  
  包含 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 升級資訊，以及 [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] 語言和執行階段參考。  
   
- [C/C++ 語言和標準程式庫](/visual-cpp/cpp/c-cpp-language-and-standard-libraries)  
+ [C/C++ 語言和標準程式庫](/cpp/cpp/c-cpp-language-and-standard-libraries)  
  包含語言參考文件。  
   
  [JScript 參考](http://msdn.microsoft.com/en-us/2e47f004-963c-4661-b887-a14e4660aadd)  
@@ -58,8 +77,3 @@ caps.handback.revision: 35
   
  [.NET Framework 參考資訊](/dotnet/visual-basic/reference/net-framework-reference-information)  
  包含 [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] 類別庫、編譯器與語言參考的相關文件，以及 [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)] 語法、XSD 參考和其他的主題。
-
-
-<!--HONumber=Feb17_HO4-->
-
-

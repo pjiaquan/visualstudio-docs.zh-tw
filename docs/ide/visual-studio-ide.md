@@ -27,9 +27,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: b0d84db6a16861fb9554af2a644423f906784748
-ms.openlocfilehash: b2ff9c3505b117469854a24cad8e9b13d8039db8
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 06cdfb076120ffd7459a16b56c659bb86942cd7f
+ms.openlocfilehash: c8276097c53ea49d223c43ada5511ab5d5f38036
+ms.lasthandoff: 03/31/2017
 
 ---
 # <a name="visual-studio-ide-feature-tour"></a>Visual Studio IDE 功能導覽
@@ -68,7 +68,7 @@ Visual Studio 還可協助您進行更多的工作。 如需更完整的清單�
 
 Visual Studio 現在比以往更輕巧！ 新模組安裝程式可讓您選擇並安裝「工作負載」，這些通常是您慣用的程式設計語言或平台所需的幾組功能。 此策略有助於將 Visual Studio 安裝項的資源使用量降到比以往低，這意謂著它的安裝和更新速度也更快。
 
-![Visual Studio 安裝程式](../install/media/vs2017-workloads.png)
+![Visual Studio 安裝程式](../ide/media/vside_tour_install_dialog.png)
 
 除了提升安裝效能之外，Visual Studio 2017 中也做了許多改進來改善整體 IDE 啟動和解決方案載入時間。 例如，選取新的 [輕量型解決方案載入] 功能 (位於主功能表的 [工具] > [選項] > [專案和方案] 底下) 可讓較大型的方案更快載入。 若要深入了解如何在您的系統上設定 Visual Studio，請參閱 [Install Visual Studio 2017](https://docs.microsoft.com/visualstudio/install/install-visual-studio)。
 
@@ -83,6 +83,8 @@ Visual Studio 現在比以往更輕巧！ 新模組安裝程式可讓您選擇�
 1. 開啟 Visual Studio。 在功能表上，依序選擇 [檔案]、[新增]、[專案]。 (使用預設的專案值)。
 
   ![螢幕擷取畫面](../ide/media/VSIDE_Tour_NewProject1.png)
+
+  或者，您可以使用起始頁來建立新的專案。 如需詳細資訊，請參閱 [Harness the Power of the Redesigned Start Page](https://blogs.msdn.microsoft.com/visualstudio/2016/11/29/harness-the-power-of-the-redesigned-start-page/) (利用重新設計之起始頁的強大功能) (部落格)。
 
 1. [新增專案] 對話方塊會顯示數個專案範本。 請依序選擇 [Visual C#] 底下的 [Windows 通用] 分類、[空白應用程式 (通用 Windows)] 範本，然後選擇 [確定] 按鈕。
 
@@ -193,16 +195,15 @@ Visual Studio 現在比以往更輕巧！ 新模組安裝程式可讓您選擇�
 
   ![顯示 System.Timer 的 [物件瀏覽器]](../ide/media/objectbrowser.png)  
 
-## <a name="collaborate-with-others-and-control-your-source-code"></a>與其他人共同作業及控制您的原始程式碼
-您可以在任何提供者所裝載的 Git 儲存機制 (包括 GitHub) 中管理您的原始程式碼。 或是使用 [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) 來一邊管理整個專案的程式碼，一邊管理錯誤 (bug) 與工作項目。
+## <a name="manage-your-source-code-and-collaborate-with-others"></a>管理您的原始程式碼並與其他人共同作業
+您可以在任何提供者所裝載的 Git 儲存機制 (包括 GitHub) 中管理您的原始程式碼。 或是使用 [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) 來一邊管理整個專案的程式碼，一邊管理錯誤 (bug) 與工作項目。 若要深入了解如何在 Visual Studio 中使用 Team Explorer 來管理 Git 存放庫，請參閱 [Get Started with Git and Team Services](https://www.visualstudio.com/en-us/docs/git/gitquickstart-vs2017) (開始使用 Git 和 Team Services)。  Visual Studio 也有其他內建原始檔控制功能。 如需詳細資訊，請參閱 [New Git Features in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/) (Visual Studio 2017 的新 Git 功能) (部落格)。
 
 Visual Studio Team Services 是一項雲端式服務，可用來裝載軟體專案及允許以小組進行共同作業。 VSTS 支援 Git 和 Team Foundation 原始檔控制系統，以及 Scrum、CMMI 和 Agile 開發方法。 Team Foundation 版本控制 (TFVC) 使用單一且集中式伺服器儲存機制來追蹤和版本化檔案。 在其他開發人員取得最新變更的地方，一律將本機變更簽入中央伺服器。
 
 Team Foundation Server (TFS) 是 Visual Studio 的應用程式生命週期管理中樞。 其可讓所有人使用單一方案參與開發流程。 TFS 也適合用來管理異質小組和專案
 
-如果您在網路上有 Visual Studio Team Services 帳戶或 Team Foundation Server，您便可以透過 Visual Studio 中的 [Team Explorer] 視窗與其連接。 在這個視窗中，您可以在原始檔控制簽入或簽出程式碼、管理工作項目、啟動建置和存取小組聊天室及工作區。 您可以從 [快速啟動] 方塊開啟 [Team Explorer]，也可以從主功能表的 [檢視] > [Team Explorer] 或從 [小組] > [管理連接] 來開啟它。  
-
-下圖顯示裝載於 VSTS 中之解決方案的 [Team Explorer] 視窗：
+如果您在網路上有 Visual Studio Team Services 帳戶或 Team Foundation Server，您便可以透過 Visual Studio 中的 [Team Explorer] 視窗與其連接。 在這個視窗中，您可以在原始檔控制簽入或簽出程式碼、管理工作項目、啟動建置和存取小組聊天室及工作區。 您可以從 [快速啟動] 方塊開啟 [Team Explorer]，也可以從主功能表的 [檢視] > [Team Explorer] 或從 [小組] > [管理連接] 來開啟它。
+下圖顯示裝載於 VSTS 中之方案的 Team Explorer 視窗。
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)  
 
@@ -232,7 +233,8 @@ Visual Studio 中的 [SQL Server 物件總管] 提供與 SQL Server Management S
 如果 Visual Studio 沒有您所需的確切功能，您可以新增功能！ 您可以根據您的工作負載和風格將 IDE 個人化、針對尚未與 Visual Studio 整合的外部工具新增支援，以及修改現有的功能以提升您的生產力。 Visual Studio 提供來自 Microsoft、我們的合作夥伴及社群的工具、控制項和範本。 若要深入了解如何擴充 Visual Studio，請參閱[擴充 Visual Studio IDE](https://www.visualstudio.com/vs/extend/)。
 
 ## <a name="learn-more-and-find-out-whats-new"></a>深入了解並找出新功能
-如果您從來沒有使用過 Visual Studio，請從 [Visual Studio 使用者入門](../ide/get-started-with-visual-studio.md)或查看 [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033) 上所提供的免費 Visual Studio 課程，來開始了解基本概念。如果您想要了解 Visual Studio 2017 中的新功能，請參閱 [Visual Studio 2017 的新功能](../ide/whats-new-in-visual-studio.md)。
+如果您從來沒有使用過 Visual Studio，請從 [Visual Studio 使用者入門](../ide/get-started-with-visual-studio.md)或查看 [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033) 上所提供的免費 Visual Studio 課程，來開始了解基本概念。
+如果您想要查看 Visual Studio 2017 的新功能，請參閱 [Visual Studio 2017 的新功能](../ide/whats-new-in-visual-studio.md)。
 
 恭喜您完成 Visual Studio IDE 的導覽！ 希望您已了解有關其部分主要功能一些實用資訊。
 

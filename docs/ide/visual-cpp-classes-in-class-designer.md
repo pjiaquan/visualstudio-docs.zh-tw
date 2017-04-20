@@ -1,45 +1,60 @@
 ---
-title: "Visual C++ Classes in Class Designer | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/05/2016"
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.classdesigner.inheritancelinelabel"
-helpviewer_keywords: 
-  - "Class Designer [Visual Studio], classes"
+title: "類別設計工具中的 Visual C++ 類別 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.classdesigner.inheritancelinelabel
+helpviewer_keywords:
+- Class Designer [Visual Studio], classes
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
 caps.latest.revision: 19
-caps.handback.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
----
-# Visual C++ Classes in Class Designer
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: 02cd1cabf8cf296130ace9a3dcf37a237805dfe9
+ms.lasthandoff: 04/05/2017
 
-\[類別設計工具\] 支援 C\+\+ 類別 \(Class\)，並用與 Visual Basic 和 Visual C\# 類別圖案相同的方式，視覺化原生 \(Native\) C\+\+ 類別，而且 C\+\+ 類別還能擁有多重的繼承關係。  您可以展開類別圖案以顯示類別中的其他欄位和方法，或是予以摺疊以節省空間。  
+---
+# <a name="visual-c-classes-in-class-designer"></a>類別設計工具中的 Visual C++ 類別
+類別設計工具支援 C++ 類別，並以視覺化 Visual Basic 和 Visual C# 類別圖形的方式來視覺化原生 C++ 類別，差異在於 C++ 類別可以有多重繼承關聯性。 您可以展開類別圖形，以顯示類別中的更多欄位和方法，或將它摺疊以節省空間。  
   
 > [!NOTE]
->  \[類別設計工具\] 不支援等位 \(一種特殊的類別，其中配置的記憶體僅為等位之最大資料成員所需要的數量\)。  
+>  類別設計工具不支援等位 (配置的記憶體僅足以供等位的最大資料成員使用之類別的特殊類型)。  
   
-## 簡單繼承  
- 當您將一個以上的類別拖曳到類別圖表中，而且這些類別具有類別繼承關係時，便會有箭號連接這些類別。  箭號會指向基底類別 \(Base Class\)。  例如，當下列類別在類別圖表中顯示時，箭號便會連接它們，並會從 B 指向 A。  
+## <a name="simple-inheritance"></a>簡單繼承  
+ 如果您將多個類別拖曳至類別圖表，而且類別具有類別繼承關聯性，則會使用箭號連接它們。 箭號會指向基底類別的方向。 例如，類別圖表中顯示下列類別時，會使用從 B 指向 A 的箭號連接它們：  
   
 ```  
 class A {};  
 class B : A {};  
 ```  
   
- 您也可以只將類別 B 拖曳至類別圖表，以滑鼠右鍵按一下 B 的類別圖案，然後按一下 \[**顯示基底類別**\]。  這樣便會顯示其基底類別：A。  
+ 您也可以只將類別 B 拖曳至類別圖表，並以滑鼠右鍵按一下 B 的類別圖形，然後按一下 [顯示基底類別]。 這會顯示其基底類別：A。  
   
-## 多重繼承  
- \[類別設計工具\] 支援多重類別繼承關係的視覺化。  「*多重繼承*」會在衍生的類別具有一個以上基底類別的屬性 \(Attribute\) 時使用。  下列是多重繼承的範例：  
+## <a name="multiple-inheritance"></a>多重繼承  
+ 類別設計工具支援多重類別繼承關聯性的視覺效果。 衍生類別有多個基底類別的屬性時，會使用「多重繼承」。 以下是多重繼承的範例：  
   
 ```  
 class Bird {};  
@@ -47,17 +62,17 @@ class Swimmer {};
 class Penguin : public Bird, public Swimmer {};  
 ```  
   
- 當您將一個以上的類別拖曳到類別圖表中，而且這些類別具有多重類別繼承關係時，便會有箭號連接這些類別。  箭號會指向基底類別。  
+ 如果您將多個類別拖曳至類別圖表，而且類別具有多重類別繼承關聯性，則會使用箭號連接它們。 箭號會指向基底類別的方向。  
   
- 以滑鼠右鍵按一下某個類別圖案，然後按一下 \[**顯示基底類別**\]，便會顯示選取類別的基底類別。  
+ 以滑鼠右鍵按一下類別圖形，然後按一下 [顯示基底類別] 會顯示所選取類別的基底類別。  
   
 > [!NOTE]
->  \[**顯示衍生類別**\] 命令並沒有對 C\+\+ 程式碼提供支援。  您可以移至 \[類別檢視\]，展開型別節點，展開 \[**衍生型別**\] 子資料夾，然後將這些型別都拖曳到類別圖表上。  
+>  [顯示衍生類別] 命令不支援用於 C++ 程式碼。 您可以移至 [類別檢視]、展開類型節點、展開 [衍生類型] 子資料夾，然後將這些類型拖曳至類別圖表，以顯示衍生類別。  
   
- 如需多重類別繼承的詳細資訊，請參閱[\(NOTINBUILD\) Multiple Inheritance](http://msdn.microsoft.com/zh-tw/3b74185e-2beb-4e29-8684-441e51d2a2ca)和[多個基底類別](/visual-cpp/cpp/multiple-base-classes)。  
+ 如需多重類別繼承的詳細資訊，請參閱 [(NOTINBUILD) 多重繼承](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca)和[多重基底類別](/cpp/cpp/multiple-base-classes)。  
   
-## 抽象類別  
- \[類別設計工具\] 支援抽象類別 \(也稱為「抽象基底類別」\)。  這些是您絕對不會具現化的類別，但可以從中衍生其他類別。  使用本文件之前提及的「多重繼承」範例，就可以將 `Bird` 類別具現化為個別物件，如下所示：  
+## <a name="abstract-classes"></a>抽象類別  
+ 類別設計工具支援抽象類別 (也稱為「抽象基底類別」)。 這些是您永遠不會具現化的類別，而是從中衍生其他類別的類別。 使用本文件稍早＜多重繼承＞中的範例，您可能會將 `Bird` 類別具現化為個別物件，如下所示︰  
   
 ```  
 int main()  
@@ -68,9 +83,9 @@ int main()
 }  
 ```  
   
- 不過，您可能不想將 `Swimmer` 類別具現化為個別物件。  而是只要從中衍生動物類別的其他型別，例如 `Penguin`、`Whale` 和 `Fish`。  在該情況下，您可以將 `Swimmer` 類別宣告為抽象基底類別。  
+ 不過，您可能不想要將 `Swimmer` 類別具現化為個別物件。 您可能只要從中衍生其他類型的動物類別；例如，`Penguin`、`Whale` 和 `Fish`。 在此情況下，您可以將 `Swimmer` 類別宣告為抽象基底類別。  
   
- 若要將類別宣告為抽象，可以使用 `abstract` 關鍵字。  成員如果標記為抽象 \(或包含在抽象類別內\) 都是虛擬的，而且必須由衍生自此抽象類別的類別實作這些成員。  
+ 若要將類別宣告為抽象，您可以使用 `abstract` 關鍵字。 標記為抽象或包括在抽象類別中的成員是虛擬的，而且必須由衍生自抽象類別的類別所實作。  
   
 ```  
 class Swimmer abstract  
@@ -80,7 +95,7 @@ class Swimmer abstract
 };  
 ```  
   
- 您也可以加入至少一個純虛擬函式 \(Pure Virtual Function\)，將類別宣告為抽象：  
+ 您也可以包括至少一個純虛擬函式，以將類別宣告為抽象︰  
   
 ```  
 class Swimmer  
@@ -90,9 +105,9 @@ class Swimmer
 };  
 ```  
   
- 在 \[類別圖表\] 中顯示這些宣告時，類別名稱 `Swimmer` 和其純虛擬函式 `swim` 都會以斜體顯示在抽象類別圖案中，並附帶有 \[**抽象類別**\] 這個標記法。  請注意，抽象類別和一般類別的型別圖案都相同，不過抽象類別型別圖案的框線為虛線。  
+ 當您在類別圖表中顯示這些宣告時，類別名稱 `Swimmer` 和其純虛擬函式 `swim` 會以斜體顯示在抽象類別圖形中，以及標記法「抽象類別」。 請注意，抽象類別類型圖形與一般類別相同，差異在於其框線為點線。  
   
- 衍生自抽象基底類別的類別必須覆寫基底類別中的每個純虛擬函式，否則便無法具現化衍生類別。  例如，從 `Swimmer` 類別衍生 `Fish` 類別，則 `Fish` 必須覆寫 `swim` 方法：  
+ 衍生自抽象基底類別的類別必須覆寫基底類別中的每個純虛擬函式，否則無法具現化衍生類別。 因此，例如，如果 `Fish` 類別衍生自 `Swimmer` 類別，則 `Fish` 必須覆寫 `swim` 方法：  
   
 ```  
 class Fish : public Swimmer  
@@ -106,10 +121,10 @@ int main()
 }  
 ```  
   
- 在 \[類別圖表\] 中顯示此程式碼時，\[類別設計工具\] 會在 `Fish` 到 `Swimmer` 之間繪製一條繼承關聯線。  
+ 當您在類別圖表中顯示此程式碼時，類別設計工具會繪製一條從 `Fish` 到 `Swimmer` 的繼承線。  
   
-## 匿名類別  
- \[類別設計工具\] 支援匿名類別 \(Anonymous Class\)。  「*匿名類別型別*」\(Anonymous Class Type\) 就是不用識別項宣告的類別。  這種類別不能具有建構函式 \(Constructor\) 或解構函式 \(Destructor\)，而且不能做為傳回值而從函式傳回。  您可以使用匿名類別來取代具有 typedef 名稱的類別名稱，如下列範例所示：  
+## <a name="anonymous-classes"></a>匿名類別  
+ 類別設計工具支援匿名類別。 「匿名類別類型」是未宣告識別碼的類別。 它們不能有建構函式或解構函式、不能當成引數傳遞至函式，而且不能從函式當成傳回值傳回。 您可以使用匿名類別，將類別名稱取代為 typedef 名稱，如下列範例所示︰  
   
 ```  
 typedef struct  
@@ -119,60 +134,60 @@ typedef struct
 } POINT;  
 ```  
   
- 結構也可以是匿名的。  \[類別設計工具\] 會以顯示各自型別的相同方式，來顯示匿名類別和結構。  儘管您可以宣告及顯示匿名類別和結構，\[類別設計工具\] 卻不會使用您所指定的標記 \(Tag\) 名稱。  而是會使用 \[類別檢視\] 所產生的名稱。  類別或結構會在 \[類別檢視\] 和 \[類別設計工具\] 中顯示為稱為 \[**\_\_unnamed**\] 的項目。  
+ 結構也可以是匿名的。 類別設計工具顯示匿名類別和結構的方式，與顯示對應類型相同。 雖然您可以宣告和顯示匿名類別和結構，但是類別設計工具不會使用您指定的標記名稱。 它會使用類別檢視所產生的名稱。 在類別檢視和類別設計工具中，類別或結構會顯示為稱為 **__unnamed** 的項目。  
   
- 如需匿名類別的詳細資訊，請參閱[匿名類別類型](/visual-cpp/cpp/anonymous-class-types)。  
+ 如需匿名類別的詳細資訊，請參閱[匿名類別類型](/cpp/cpp/anonymous-class-types)。  
   
-## 樣板類別  
- \[類別設計工具\] 支援樣板類別 \(Template Class\) 的視覺化。  並且支援巢狀宣告。  下表顯示部分典型的宣告：  
-  
-|程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`template <class T>`<br /><br /> `class A {};`|`A<T>`<br /><br /> 樣板類別|  
-|`template <class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 樣板類別|  
-|`template <class T, int i>`<br /><br /> `class A {};`|`A<T, i>`<br /><br /> 樣板類別|  
-|`template <class T, template <class K> class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 樣板類別|  
-  
- 下表顯示部分特製化的一些範例。  
+## <a name="template-classes"></a>範本類別  
+ 類別設計工具支援範本類別的視覺效果。 支援巢狀宣告。 下表顯示一些典型宣告。  
   
 |程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`template<class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 樣板類別|  
-|`template<class T>`<br /><br /> `class A<T, T> {};`|`A<T, T>`<br /><br /> 樣板類別|  
-|`template <class T>`<br /><br /> `class A<T, int> {};`|`A<T, int>`<br /><br /> 樣板類別|  
-|`template <class T1, class T2>`<br /><br /> `class A<T1*, T2*> {};`|`A<T1*, T2*>`<br /><br /> 樣板類別|  
+|------------------|-------------------------|  
+|`template <class T>`<br /><br /> `class A {};`|`A<T>`<br /><br /> 範本類別|  
+|`template <class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 範本類別|  
+|`template <class T, int i>`<br /><br /> `class A {};`|`A<T, i>`<br /><br /> 範本類別|  
+|`template <class T, template <class K> class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 範本類別|  
   
- 下表顯示部分特製化中繼承的一些範例。  
-  
-|程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`template <class T, class U>`<br /><br /> `class A {};`<br /><br /> `template <class TC>`<br /><br /> `class A<T, int> {};`<br /><br /> `class B : A<int, float>`<br /><br /> `{};`<br /><br /> `class C : A<int, int>`<br /><br /> `{};`|`A<T, U>`<br /><br /> 樣板類別<br /><br /> `B`<br /><br /> 類別<br /><br /> \(指向類別 A\)<br /><br /> `C`<br /><br /> 類別<br /><br /> \(指向類別 A\)|  
-  
- 下表顯示部分特製化樣板函式的一些範例。  
+ 下表顯示一些部分特製化範例。  
   
 |程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`class A`<br /><br /> `{`<br /><br /> `template <class T, class U>`<br /><br /> `void func(T a, U b);`<br /><br /> `template <class T>`<br /><br /> `void func(T a, int b);`<br /><br /> `};`|`A`<br /><br /> func\<T, U\> \(\+ 1 overload\)|  
-|`template <class T1>`<br /><br /> `class A {`<br /><br /> `template <class T2>`<br /><br /> `class B {};`<br /><br /> `};`<br /><br /> `template<> template<>`<br /><br /> `class A<type>::B<type> {};`|`A<T1>`<br /><br /> 樣板類別<br /><br /> `B<T2>`<br /><br /> 樣板類別<br /><br /> \(B 包含在 \[**巢狀型別**\] 下的類別 A 內\)|  
-|`template <class T>`<br /><br /> `class C {};`<br /><br /> `class A : C<int> {};`|`A`<br /><br /> 類別<br /><br /> \-\> C\<int\><br /><br /> `C<T>`<br /><br /> 樣板類別|  
+|------------------|-------------------------|  
+|`template<class T, class U>`<br /><br /> `class A {};`|`A<T, U>`<br /><br /> 範本類別|  
+|`template<class T>`<br /><br /> `class A<T, T> {};`|`A<T, T>`<br /><br /> 範本類別|  
+|`template <class T>`<br /><br /> `class A<T, int> {};`|`A<T, int>`<br /><br /> 範本類別|  
+|`template <class T1, class T2>`<br /><br /> `class A<T1*, T2*> {};`|`A<T1*, T2*>`<br /><br /> 範本類別|  
   
- 下表顯示樣板繼承的一些範例。  
-  
-|程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {`<br /><br /> `class B {};`<br /><br /> `}`<br /><br /> `class A : C<int>::B {};`|`A`<br /><br /> 類別<br /><br /> \-\>B<br /><br /> `C<int>`<br /><br /> 類別<br /><br /> \(B 包含在 \[**巢狀型別**\] 下的類別 C 內\)<br /><br /> `C<T>`<br /><br /> 樣板類別|  
-  
- 下表顯示正式特製化類別連接的一些範例。  
+ 下表顯示部分特製化中的一些繼承範例。  
   
 |程式碼項目|類別設計工具檢視|  
-|-----------|--------------|  
-|`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {};`<br /><br /> `class A : C<int> {};`<br /><br /> `class D : C<float> {};`|`A`<br /><br /> 類別<br /><br /> \-\>C\<int\><br /><br /> `C<int>`<br /><br /> 類別<br /><br /> `C<T>`<br /><br /> 樣板類別<br /><br /> `D`<br /><br /> 類別<br /><br /> \-\>C\<float\>|  
-|`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T\>|  
+|------------------|-------------------------|  
+|`template <class T, class U>`<br /><br /> `class A {};`<br /><br /> `template <class TC>`<br /><br /> `class A<T, int> {};`<br /><br /> `class B : A<int, float>`<br /><br /> `{};`<br /><br /> `class C : A<int, int>`<br /><br /> `{};`|`A<T, U>`<br /><br /> 範本類別<br /><br /> `B`<br /><br /> 類別<br /><br /> (指向類別 A)<br /><br /> `C`<br /><br /> 類別<br /><br /> (指向類別 A)|  
   
-## 請參閱  
- [Working with Visual C\+\+ Code \(Class Designer\)](../ide/working-with-visual-cpp-code-class-designer.md)   
- [類別和結構](/visual-cpp/cpp/classes-and-structs-cpp)   
- [匿名類別類型](/visual-cpp/cpp/anonymous-class-types)   
- [\(NOTINBUILD\) Multiple Inheritance](http://msdn.microsoft.com/zh-tw/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
- [多個基底類別](/visual-cpp/cpp/multiple-base-classes)   
- [樣板](/visual-cpp/cpp/templates-cpp)
+ 下表顯示一些部分特製化範本函式範例。  
+  
+|程式碼項目|類別設計工具檢視|  
+|------------------|-------------------------|  
+|`class A`<br /><br /> `{`<br /><br /> `template <class T, class U>`<br /><br /> `void func(T a, U b);`<br /><br /> `template <class T>`<br /><br /> `void func(T a, int b);`<br /><br /> `};`|`A`<br /><br /> func\<T, U> (+ 1 個多載)|  
+|`template <class T1>`<br /><br /> `class A {`<br /><br /> `template <class T2>`<br /><br /> `class B {};`<br /><br /> `};`<br /><br /> `template<> template<>`<br /><br /> `class A<type>::B<type> {};`|`A<T1>`<br /><br /> 範本類別<br /><br /> `B<T2>`<br /><br /> 範本類別<br /><br /> (B 包含在「巢狀類型」的類別 A 內)|  
+|`template <class T>`<br /><br /> `class C {};`<br /><br /> `class A : C<int> {};`|`A`<br /><br /> 類別<br /><br /> -> C\<int><br /><br /> `C<T>`<br /><br /> 範本類別|  
+  
+ 下表顯示一些範本繼承範例。  
+  
+|程式碼項目|類別設計工具檢視|  
+|------------------|-------------------------|  
+|`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {`<br /><br /> `class B {};`<br /><br /> `}`<br /><br /> `class A : C<int>::B {};`|`A`<br /><br /> 類別<br /><br /> ->B<br /><br /> `C<int>`<br /><br /> 類別<br /><br /> (B 包含在「巢狀類型」的類別 C 內)<br /><br /> `C<T>`<br /><br /> 範本類別|  
+  
+ 下表顯示一些標準特製化類別連接範例。  
+  
+|程式碼項目|類別設計工具檢視|  
+|------------------|-------------------------|  
+|`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {};`<br /><br /> `class A : C<int> {};`<br /><br /> `class D : C<float> {};`|`A`<br /><br /> 類別<br /><br /> ->C\<int><br /><br /> `C<int>`<br /><br /> 類別<br /><br /> `C<T>`<br /><br /> 範本類別<br /><br /> `D`<br /><br /> 類別<br /><br /> ->C\<float>|  
+|`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|  
+  
+## <a name="see-also"></a>另請參閱  
+ [使用 Visual C++ 程式碼 (類別設計工具)](../ide/working-with-visual-cpp-code-class-designer.md)   
+ [類別和結構](/cpp/cpp/classes-and-structs-cpp)   
+ [匿名類別類型](/cpp/cpp/anonymous-class-types)   
+ [(NOTINBUILD) 多重繼承](http://msdn.microsoft.com/en-us/3b74185e-2beb-4e29-8684-441e51d2a2ca)   
+ [多重基底類別](/cpp/cpp/multiple-base-classes)   
+ [範本](/cpp/cpp/templates-cpp)

@@ -2,7 +2,7 @@
 title: "安裝 Visual Studio 2017 | Microsoft Docs"
 description: "了解如何逐步安裝 Visual Studio。"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 04/03/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -37,9 +37,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 8c4e45eadd81c54a372885ce89ccced1256d3b3d
-ms.openlocfilehash: 5552f67ae880e3b7ec832d6d035382e2abcca116
-ms.lasthandoff: 03/09/2017
+ms.sourcegitcommit: af9699b63fdfb81a274affb78856817520c38b05
+ms.openlocfilehash: 47688935cec36db174c3a0c424b1705ae47c6118
+ms.lasthandoff: 04/03/2017
 
 ---
 # <a name="install-visual-studio-2017"></a>安裝 Visual Studio 2017
@@ -102,6 +102,8 @@ ms.lasthandoff: 03/09/2017
 
 根據預設，安裝程式會在第一次執行時，嘗試比對作業系統的語言。 安裝程式會記住這項設定。 您可以從命令列執行安裝程式來變更此設定。 例如，您可以使用下列命令來強制安裝程式以英文執行：`vs_installer.exe --locale en-US`。 下次執行安裝程式時，它會記住這項設定。 安裝程式支援下列語言權杖：zh-CN、zh-TW、cs-CZ、en-US、fr-FR、de-DE、it-IT、ja-JP、ko-KR、pl-PL、pt-BR、ru-RU、es-ES 和 tr-TR。
 
+## <a name="get-support"></a>取得支援
+有時可能會發生一些問題。 如果您的 Visual Studio 安裝失敗，請參閱[針對 Visual Studio 2017 安裝和升級失敗進行疑難排解](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures)知識庫文章，以取得疑難排解祕訣。
 
 ## <a name="see-also"></a>請參閱  
 * [修改 Visual Studio 2017](modify-visual-studio.md)
