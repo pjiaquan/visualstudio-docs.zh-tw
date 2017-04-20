@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 2017 的新功能 | Microsoft Docs"
 ms.custom: 
-ms.date: 03/08/2017
+ms.date: 04/06/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -31,9 +31,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 8c4e45eadd81c54a372885ce89ccced1256d3b3d
-ms.openlocfilehash: 14a06f4344989052b0a020570dc87d9697ba95d0
-ms.lasthandoff: 03/09/2017
+ms.sourcegitcommit: ddc84f3b92d8e0febaea3d23b415bd6e703cc530
+ms.openlocfilehash: e04b972187b7b7ec225b48cc9b8904d804399ff8
+ms.lasthandoff: 04/07/2017
 
 ---
 # <a name="what39s-new-in-visual-studio-2017"></a>Visual Studio 2017 的新功能
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/09/2017
 * **搭配 Azure 的雲端應用程式開發**。 一套內建的 Azure 工具套件，可讓您輕鬆建立由 Microsoft Azure 提供技術的雲端優先應用程式。 Visual Studio 可讓您在 Azure 上輕鬆設定、建置、偵錯、封裝及部署應用程式與服務。
 * **行動應用程式開發**。 在 Visual Studio 2017 中，您可以透過 Xamarin 快速創新並獲得結果，它使用一個核心程式碼基底和一組技術來統一您的多平台行動需求。 利用您現有的小組、技術投資及 C# 程式碼即可撰寫行動應用程式，讓您不僅能夠提前還能以低於預算的方式，提供消費者等級的體驗。 您可以加速行動應用程式生命週期的每個步驟，以提供世界級的消費者體驗，或是提供生產力應用程式組合來提升工作人員能力。
 
-以下是有關我們一些最重大變更的更多詳細資料。
+以下是有關我們一些最重大變更的詳細資料。
 
 ## <a name="performance-improvements"></a>效能改善
 
@@ -122,6 +122,21 @@ Visual Studio 正在移動其擴充功能 (同時也在處理協力廠商擴充�
 在 Visual Studio Enterprise 2017 中，即時單元測試會在您撰寫程式碼時，在編輯器中提供即時單元測試結果和程式碼涵蓋範圍。 它可以與 .NET Framework 的 C# 和 Visual Basic 專案搭配運作，並且支援 MSTest、xUnit 及 NUnit 這三種測試架構。
 
 ![即時單元測試](../ide/media/lut-codewindow.png "Visual Studio Enterprise 版中新「即時單元測試」功能的範例")
+
+如需詳細資訊，請參閱 [Live Unit Testing in Visual Studio 2017 Enterprise](https://blogs.msdn.microsoft.com/visualstudio/2017/03/09/live-unit-testing-in-visual-studio-2017-enterprise/) (Visual Studio 2017 Enterprise 中的 Live Unit Testing) 部落格文章。
+
+### <a name="devops"></a>DevOps
+#### <a name="redgate-data-tools"></a>Redgate Data Tools：
+為了將 DevOps 功能擴充到 SQL Server 資料庫開發，下列 Visual Studio 2017 版本現在會提供 Redgate Data Tools。
+
+隨附於 Visual Studio 2017 Enterprise：
+- [Redgate ReadyRoll Core](http://www.red-gate.com/products/sql-development/readyroll/entrypage/microsoft-and-readyroll?utm_source=microsoft&utm_medium=link&utm_campaign=readyroll&utm_term=docs-newinvs) 可協助您開發移轉指令碼、使用原始檔控制管理資料庫變更，並且可以將 SQL Server 資料庫變更和應用程式變更的部署安全地自動化。
+- [Redgate SQL Prompt Core](http://www.red-gate.com/products/sql-development/sql-prompt/entrypage/microsoft-and-sql-prompt?utm_source=microsoft&utm_medium=link&utm_campaign=sqlprompt&utm_term=docs-newinvs) 可協助您透過智慧型程式碼自動完成的協助，更快且更精確地撰寫 SQL。 SQL Prompt 會自動完成資料庫及系統物件和關鍵字，並在輸入期間提供資料行建議。 由於您不再需要記住所有資料行名稱或別名，這會使程式碼更加簡潔，並具有更少的錯誤。
+
+隨附於所有版本的 Visual Studio 2017：
+- [Redgate SQL Search](http://www.red-gate.com/products/sql-development/sql-search/?utm_source=microsoft&utm_medium=link&utm_campaign=sqlsearch&utm_term=docs-newinvs) 可協助您跨多個資料庫快速尋找 SQL 片段和物件以提高產能。
+
+如需詳細資訊，請參閱我們的 [Redgate Data Tools in Visual Studio 2017](https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/redgate-data-tools-in-visual-studio-2017/) (Visual Studio 2017 中的 Redgate Data Tools) 部落格文章。
 
 ### <a name="visual-studio-ide-enhancements"></a>Visual Studio IDE 加強功能
 #### <a name="interact-with-git"></a>與 Git 互動：
