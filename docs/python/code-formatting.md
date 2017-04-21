@@ -1,7 +1,7 @@
 ---
-title: "在適用於 Visual Studio 的 Python 工具中格式化程式碼 | Microsoft Docs"
+title: "在 Visual Studio 中格式化 Python 程式碼 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,22 +29,22 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: c1d7a19438b796c5666daecef33052e43d1f720f
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: b9e1c2b6be671adb99a13e4a0eb4357fbba477b2
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="formatting-python-code"></a>格式化 Python 程式碼
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 2.0 版及更新版本中的程式碼格式設定可讓您快速重新格式化程式碼，以符合預先設定的格式化選項。
+Visual Studio 可讓您快速重新格式化程式碼，以符合預先設定的格式化選項。
 
 - 若要格式化選取範圍︰選取 [編輯] > [進階] > [格式化選取範圍] 或按 Ctrl+E、F。
 - 若要格式化整個檔案︰選取 [編輯] > [進階] > [格式化文件] 或按 Ctrl+E、D。
 
 透過 [工具] > [選項] > [文字編輯器] > [Python] > [格式化] 和其子索引標籤可設定選項，且依預設會設為符合 [PEP 8 樣式指南 (英文)](http://www.python.org/dev/peps/pep-0008/) 的超集。 [一般] 索引標籤決定何時套用格式；其他三個子頁面會在後續小節中定義。
 
-PTVS 也會加入有用的[填滿註解段落](#fill-comment-paragraph)命令到 [編輯] > [進階] 功能表，如下所述。
+此外，Visual Studio 中的 Python 支援也將實用的[填滿註解段落](#fill-comment-paragraph-command)命令新增到 [編輯] > [進階] 功能表，如下所述。
 
 ## <a name="spacing"></a>間距
 
@@ -109,7 +109,7 @@ PTVS 也會加入有用的[填滿註解段落](#fill-comment-paragraph)命令到
 
 ## <a name="wrapping"></a>換行
 
-**包裝**可讓您設定**最大註解寬度** (預設為 80)，在設定 [包裝太寬的註解] 選項時，PTVS 會將註解重新格式化為不超過該寬度。
+您可在 [換行] 中設定 [最大註解寬度] (預設為 80)；如果您已設定 [將太寬的註解換行] 選項，Visual Studio 會將註解重新格式化為不超過該寬度。
 
 ```python
 # Wrapped to 40 columns

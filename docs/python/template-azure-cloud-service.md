@@ -1,7 +1,7 @@
 ---
 title: "適用於 Python 的 Azure 雲端服務專案範本 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 10ea76d474d96ba4b5aa95584fd1893abe05d991
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: 5dd1c40c925327c9494e3a334cdf348692a4981d
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="azure-cloud-service-projects-for-python"></a>適用於 Python 的 Azure 雲端服務專案
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 可提供範本以協助您使用 Python 開始建立 Azure 雲端服務。
+Visual Studio 提供的範本有助您使用 Python 以開始建立 Azure 雲端服務。
 
 [雲端服務](http://go.microsoft.com/fwlink/?LinkId=306052)是由任意數目的「背景工作角色」和「Web 角色」所組成，它們分別會執行不同概念的工作，但可以視需求跨虛擬機器分別進行複寫來做出調整。 Web 角色提供前端 Web 應用程式的裝載。 就 Python 來說，任何支援 WSGI 的 Web 架構都可用來撰寫這類應用程式 (如 [Web 專案範本](template-web.md)所支援)。 背景工作角色適用於長時間執行，且不會直接與使用者互動的程序。 它們通常會利用[資料](http://go.microsoft.com/fwlink/?LinkId=401571)和[應用程式服務](http://go.microsoft.com/fwlink/?LinkId=401572)程式庫 (可使用 `pip install`&nbsp;[`azure`](http://pypi.org/project/azure) 安裝)。
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/07/2017
 
 1. 將新角色新增至專案後，您會看到一些設定指示。 這些指示通常是不必要的，但對於在未來自訂專案上可能會很有用。 請注意，同時新增多個角色時，只有針對最後一個角色的指示會維持開啟。 不過，您可以在其他角色個別的 `readme.mht` 檔案 (位於角色的根目錄或 `bin` 資料夾中) 中找到指示和疑難排解秘訣。
 
-1. 專案的 `bin` 資料夾也包含一或兩個用來設定虛擬機器的 PowerShell 指令碼，包括安裝 Python、專案中的任何 [requirements.txt](#requirementstxt) 檔案，以及設定 IIS (如有需要)。 您可以視需要針對部署編輯這些檔案，但您能以其他方式管理最常見的選項 (請參閱下方的[設定角色部署](#configuring-role-deployment))。 不建議您移除這些檔案，因為如果無法存取這些檔案，系統將會改用舊版的設定指令碼。
+1. 專案的 `bin` 資料夾也包含一或兩個用來設定虛擬機器的 PowerShell 指令碼，包括安裝 Python、專案中的任何 [requirements.txt](#dependencies) 檔案，以及設定 IIS (如有需要)。 您可以視需要針對部署編輯這些檔案，但您能以其他方式管理最常見的選項 (請參閱下方的[設定角色部署](#configuring-role-deployment))。 不建議您移除這些檔案，因為如果無法存取這些檔案，系統將會改用舊版的設定指令碼。
 
     ![背景工作角色支援檔案](media/template-azure-cloud-service-worker-role-support-files.png)
 

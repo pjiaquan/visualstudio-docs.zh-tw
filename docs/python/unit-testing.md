@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: f1148cb9e4d50241580190f274d6a4c2e3979b80
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
+ms.openlocfilehash: 878bd0baaa0e08a31274645213b222bf6faeb412
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/10/2017
       unittest.main()
   ```
 
-1. 視需要儲存檔案，然後使用功能表命令 [測試] > [Windows] > [測試總管] 開啟測試總管。
+1. 視需要儲存檔案，然後使用 [測試] > [Windows] > [測試總管] 功能表命令，開啟測試總管。
 
 1. 測試總管會針對測試搜尋專案，並將它們顯示如下。 按兩下測試會開啟其原始程式檔。
 

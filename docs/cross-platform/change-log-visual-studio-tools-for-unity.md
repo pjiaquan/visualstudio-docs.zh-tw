@@ -29,13 +29,42 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 91fde66abf2f325ef0a6a0a2fd30e36981f44033
-ms.openlocfilehash: 8c13675dbd06111bb0eced77f9343c80959afba1
-ms.lasthandoff: 03/08/2017
+ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
+ms.openlocfilehash: 2af148cb8367ea3a584ac8e028c8167e4ad6123b
+ms.lasthandoff: 04/06/2017
 
 ---
 # <a name="change-log-visual-studio-tools-for-unity"></a>變更記錄 (Visual Studio Tools for Unity)
 Visual Studio Tools for Unity 變更記錄。  
+
+## <a name="3100"></a>3.1.0.0
+ 發行日期：2017 年 4 月 7 日
+
+### <a name="new-features"></a>新功能  
+  
+-   **偵錯工具：**  
+
+    -   已新增對全新 Unity 執行階段的支援 (以及 .NET 4.6 / C# 6 相容性)。
+        
+-   **專案產生：**  
+
+    -   已新增對 .NET 4.6 設定檔的支援。
+    
+    -   已新增對 mcs.rsp 檔案的支援。
+    
+    -   使用 Unity 5.6 時，總是啟用不安全的編譯參數。
+    
+    -   已新增在使用 Windows 市集平台和 il2cpp 後端時對 "Player" 專案產生的支援。
+   
+### <a name="bug-fixes"></a>Bug 修正  
+  
+-   **程式碼編輯器：**  
+
+    -   使用自動完成來插入方法之後的固定插入號位置。
+  
+-   **專案產生：**  
+  
+    -   已移除組件版本的後續處理步驟。
 
 ## <a name="3001"></a>3.0.0.1
  發行日期：2017 年 3 月 7 日
