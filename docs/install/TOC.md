@@ -1,4 +1,5 @@
 # [安裝 Visual Studio](install-visual-studio.md)
+# [更新 Visual Studio](update-visual-studio.md)
 # [修改 Visual Studio](modify-visual-studio.md)
 # [解除安裝 Visual Studio](uninstall-visual-studio.md)
 # [Visual Studio 系統管理員指南](visual-studio-administrator-guide.md)
