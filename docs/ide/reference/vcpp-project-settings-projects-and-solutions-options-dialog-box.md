@@ -1,82 +1,98 @@
 ---
 title: "選項對話方塊、專案和方案、VC++ 專案設定 | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/14/2016"
-ms.prod: "visual-studio-dev14"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "VS.ToolsOptionsPages.Projects.VCBuild"
-helpviewer_keywords: 
-  - "組建 [Visual Studio]，記錄檔"
-  - "建置程序 [C++]"
-  - "檔案 [Visual Studio]，由 C/C++ 編譯器建置"
-  - "檔案副檔名，由 C/C++ 編譯器建置"
-  - "cl.exe 編譯器，檔案副檔名"
-  - "副檔名，由 C/C++ 編譯器建置的檔案"
-  - "BuildLog.htm"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- VS.ToolsOptionsPages.Projects.VCBuild
+helpviewer_keywords:
+- builds [Visual Studio], logs
+- build process [C++]
+- files [Visual Studio], built by C/C++ compiler
+- file extensions, built by C or C++ compiler
+- cl.exe compiler, file extensions
+- extensions, files built by C or C++ compiler
+- BuildLog.htm
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 caps.latest.revision: 15
-caps.handback.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
----
-# 選項對話方塊、專案和方案、VC++ 專案設定
-[!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+translationtype: Human Translation
+ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
+ms.openlocfilehash: fbe834e4e8178a129f68cec1c4a78ffea3c9fd7c
+ms.lasthandoff: 04/25/2017
 
-這個對話方塊可讓您定義與建置記錄及支援檔案類型有關的 [!INCLUDE[vcprvc](../../debugger/includes/vcprvc_md.md)] 專案設定。  
+---
+# <a name="vc-project-settings-projects-and-solutions-options-dialog-box"></a>選項對話方塊、專案和方案、VC++ 專案設定
+此對話方塊可讓您定義與建置記錄及支援檔案類型相關的 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 專案設定。  
   
-### 若要存取此對話方塊  
+### <a name="to-access-this-dialog-box"></a>若要存取此對話方塊  
   
-1.  在 \[**工具**\] 功能表上，按一下 \[**選項**\]。  
+1.  在 [ **工具** ] 功能表上按一下 [ **選項**]。  
   
-2.  選取 \[**專案和方案**\]，然後再選取 \[**VC\+\+ 專案設定**\]。  
+2.  選取 [專案和方案]，然後選取 [VC++ 專案設定]。  
   
-## 建置自訂搜尋路徑  
- 指定包含 .rules 檔之目錄清單，協助您定義專案的建置規則。  
+## <a name="build-customization-search-path"></a>建置自訂搜尋路徑  
+ 指定包含 .rules 檔案的目錄清單，以協助您定義專案的建置規則。  
   
-## 建置記錄  
+## <a name="build-logging"></a>建置記錄  
  **是**  
- 開啟建置記錄檔案的產生。  本選項可產生 BuildLog.htm，此檔案位於專案的中繼檔案目錄中。  每一個全新的建置都會覆寫上一個 BuildLog.htm 檔案。  
+ 開啟組建記錄檔的產生。 此選項會產生 BuildLog.htm，您可以在專案的中繼檔案目錄中找到此檔案。 每個全新的組建都會覆寫上一個 BuildLog.htm 檔案。  
   
- **否**  
- 關閉建置記錄檔案的產生。  
+ **No**  
+ 關閉組建記錄檔的產生。  
   
-## 建置執行時間  
+## <a name="build-timing"></a>建置執行時間  
  **是**  
- 開啟建置執行時間。  如果選取，則建置完成所需的時間會張貼在 \[輸出\] 視窗中。  如需詳細資訊，請參閱[輸出視窗](../../ide/reference/output-window.md)。  
+ 開啟建置執行時間。 如果選取，組建完成所需的時間會發佈到 [輸出] 視窗。 如需詳細資訊，請參閱[輸出視窗](../../ide/reference/output-window.md)。  
   
- **否**  
+ **No**  
  關閉建置執行時間。  
   
-## 要隱藏的副檔名  
- 指定啟用 \[**顯示所有檔案**\] 時，不要在 \[**方案總管**\] 中顯示的檔案副檔名。  
+## <a name="extensions-to-hide"></a>要隱藏的副檔名  
+ 指定啟用 [顯示所有檔案] 時，不會顯示在方案總管中之檔案的副檔名。  
   
-## 要包含的副檔名  
- 指定可以移植到您的專案中的檔案副檔名。  
+## <a name="extensions-to-include"></a>要包含的副檔名  
+ 指定可移植到您專案中之檔案的副檔名。  
   
-## 最大並行 C\+\+ 編譯  
- 指定要用於平行 C\+\+ 編譯的 CPU 核心數目上限。  
+## <a name="maximum-concurrent-c-compilations"></a>並行 C++ 編譯的最大數目  
+ 指定要用於並行 C++ 編譯的最大 CPU 核心數目。  
   
-## 在記錄中顯示環境  
+## <a name="show-environment-in-log"></a>在記錄中顯示環境  
  **是**  
- 在建置記錄檔中列出環境變數。  這個選項會指定於建置 [!INCLUDE[vcprvc](../../debugger/includes/vcprvc_md.md)] 專案時，在建置記錄檔中 echo 所有環境變數。  
+ 列出組建記錄檔中的環境變數。 此選項會指定將 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 專案建置期間的所有環境變數，反映到組建記錄檔中。  
   
- **否**  
- 將環境變數從建置記錄檔中排除。  
+ **No**  
+ 從組建記錄檔排除環境變數。  
   
-## 方案總管模式  
+## <a name="solution-explorer-mode"></a>方案總管模式  
  **僅顯示專案中的檔案**  
- 將 \[**方案總管**\] 設定為僅顯示該專案中的檔案。  
+ 將方案總管設定為僅顯示專案中的檔案。  
   
  **顯示所有檔案**  
- 將 \[**方案總管**\] 設定為顯示專案中的檔案以及位於磁碟上專案資料夾中的檔案。  
+ 將方案總管設定為顯示專案中的檔案，以及專案資料夾中磁碟上的檔案。  
   
-## 請參閱  
- [建置 C\/C\+\+ 程式](/visual-cpp/build/building-c-cpp-programs)   
- [C\/C\+\+ 建置參考](/visual-cpp/build/reference/c-cpp-building-reference)
+## <a name="see-also"></a>另請參閱  
+ [建置 C/C++ 程式](/cpp/build/building-c-cpp-programs)   
+ [C/C++ 建置參考](/cpp/build/reference/c-cpp-building-reference)

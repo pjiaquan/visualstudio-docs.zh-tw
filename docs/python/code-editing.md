@@ -1,7 +1,7 @@
 ---
-title: "在適用於 Visual Studio 的 Python 工具中編輯程式碼 | Microsoft Docs"
+title: "在 Visual Studio 中編輯 Python 程式碼 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 79d7c18b672119b745258feee0f646dff96c1922
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: 0f2ecd6ca52a04e8813610c0f406251ef4604354
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="editing-python-code"></a>編輯 Python 程式碼
 
-開發人員在程式碼編輯器中會花上許多時間，因此，「適用於 Visual Studio 的 Python 工具」(PTVS) 提供可協助您更具生產力的功能，例如 IntelliSense 語法反白顯示、自動完成、簽章說明、方法覆寫及搜尋和瀏覽。 
+開發人員在程式碼編輯器中會花上許多時間，因此，「Visual Studio 中的 Python 支援」提供可協助您更具生產力的功能，例如 IntelliSense 語法反白顯示、自動完成、簽章說明、方法覆寫及搜尋和瀏覽。 
 
 本主題內容：
 
@@ -45,9 +45,9 @@ ms.lasthandoff: 03/07/2017
 - [程式碼片段](#code-snippets)
 - [巡覽程式碼](#navigating-your-code)
 
-如需在 Visual Studio 中編輯程式碼的一般文件，請參閱[在程式碼和文字編輯器中撰寫程式碼](../ide/writing-code-in-the-code-and-text-editor.md)。 另請參閱 [Visual Studio 中的大綱](../ide/outlining.md)，這有助您專注於特定的程式碼區段。 PTVS 支援使用 Visual Studio 物件瀏覽器 ([檢視] > [其他視窗] > [物件瀏覽器] 或 Ctrl + W、J) 來檢查每個模組中定義的類別，以及這些類別中定義的函式。 
+如需在 Visual Studio 中編輯程式碼的一般文件，請參閱[在程式碼和文字編輯器中撰寫程式碼](../ide/writing-code-in-the-code-and-text-editor.md)。 另請參閱 [Visual Studio 中的大綱](../ide/outlining.md)，這有助您專注於特定的程式碼區段。 Python 支援可讓您使用 Visual Studio 物件瀏覽器 ([檢視] > [其他視窗] > [物件瀏覽器] 或 Ctrl + W、J) 來檢查每個模組中定義的類別，以及這些類別中定義的函式。 
 
-如需編輯 Python 程式碼的簡介，請參閱[開始使用 PTVS 第 3 部：編輯 (英文)](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com，3 分鐘 48 秒)：
+如需編輯 Python 程式碼的簡介，請參閱 [Getting Started with Python in Visual Studio, Part 3: Editing](https://youtu.be/uZGZNEyyeKs?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (開始使用 Visual Studio 中的 Python 第 3 部：編輯) (youtube.com，3 分鐘 48 秒)：
 
 > [!VIDEO https://www.youtube.com/embed/uZGZNEyyeKs]
 
@@ -136,12 +136,12 @@ IntelliSense 提供[自動完成](#completions)、[簽章說明](#signature-help
 若要建立您自己的程式碼片段，請參閱[逐步解說︰建立程式碼片段 (英文)](https://docs.microsoft.com/en-us/visualstudio/ide/walkthrough-creating-a-code-snippet)。
 透過[建立程式碼片段](https://msdn.microsoft.com/en-us/library/ms165394.aspx)可自訂程式碼片段，並透過...匯入 
 
-如果您寫了出色的程式碼片段並想與人分享，請隨意張貼在 Gist 中並[聯絡我們](https://github.com/Microsoft/PTVS/issues)。 也許我們在未來的 PTVS 版本中可以將它加入。
+如果您寫了出色的程式碼片段並想與人分享，請隨意張貼在 Gist 中並[聯絡我們](https://github.com/Microsoft/PTVS/issues)。 也許我們在未來的 Visual Studio 版本中可以納入這些片段。
 
 
 ## <a name="navigating-your-code"></a>巡覽程式碼
 
-PTVS 提供幾種快速瀏覽您的程式碼 (包括有提供原始程式碼的程式庫) 的方式︰[導覽列](#navigation-bar)、[移至定義](#go-to-definition)、[巡覽至](#navigate-to)、[尋找所有參考](#find-all-references)及[物件瀏覽器](#object-browser)。
+Visual Studio 中的 Python 支援提供幾種快速瀏覽程式碼 (以及有提供原始程式碼的程式庫) 的方式︰[導覽列](#navigation-bar)、[移至定義](#go-to-definition)、[巡覽至](#navigate-to)以及[尋找所有參考](#find-all-references)，如下所述。 您也可以使用 Visual Studio 的[物件瀏覽器](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser)。
 
 ### <a name="navigation-bar"></a>巡覽列
 

@@ -2,7 +2,7 @@
 title: "修改 Visual Studio 2017 | Microsoft Docs"
 description: "了解如何逐步修改 Visual Studio。"
 ms.custom: H1Hack27Feb2017
-ms.date: 03/27/2017
+ms.date: 04/06/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,9 +34,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 9e635a28d3338bcf518a0aec69c476280eedf6e2
-ms.openlocfilehash: 183f5761e0b3159412d1da6bb4f30d716a4c41db
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
+ms.openlocfilehash: dc52353b476d38b7c069aa4acd95ceaa260717c4
+ms.lasthandoff: 04/06/2017
 
 ---
 # <a name="modify-visual-studio-2017-by-adding-or-removing-workloads-and-components"></a>透過新增或移除工作負載和元件來修改 Visual Studio 2017
@@ -72,9 +72,12 @@ ms.lasthandoff: 03/27/2017
 
 如果您不打算使用好用的 [工作負載] 功能來自訂 Visual Studio 安裝，請從 Visual Studio 安裝程式選擇 [個別元件] 選項，選取所需的設定，然後依照提示進行。  
 
+## <a name="get-support"></a>取得支援
+有時可能會發生一些問題。 如果您的 Visual Studio 安裝失敗，請參閱[針對 Visual Studio 2017 安裝和升級失敗進行疑難排解](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures)知識庫文章，以取得疑難排解提示。
 
 ## <a name="see-also"></a>請參閱  
 * [安裝 Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)
+* [更新 Visual Studio](update-visual-studio.md)
 * [解除安裝 Visual Studio 2017](uninstall-visual-studio.md)
 * [如何回報在使用 Visual Studio 2017 時發生的問題](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
 

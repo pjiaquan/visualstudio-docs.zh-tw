@@ -1,42 +1,58 @@
 ---
 title: "使用填充碼將應用程式與其他組件隔離，方便進行單元測試 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-devops-test"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-devops-test
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
 caps.latest.revision: 12
-ms.author: "mlearned"
-manager: "douge"
-caps.handback.revision: 12
----
-# 使用填充碼將應用程式與其他組件隔離，方便進行單元測試
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+ms.author: douge
+manager: douge
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+translationtype: Human Translation
+ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
+ms.openlocfilehash: 6dfb5758833d9ecda1a6ac378eb3f5069cc80561
+ms.lasthandoff: 04/04/2017
 
-**填充碼類型**是 Microsoft Fakes 架構兩項技術的其中一個，讓您輕鬆地隔離待側元件與環境。  填充碼會將指向特定方法的呼叫轉向至您撰寫來做為測試一部分的程式碼。  有許多方法會取決於外部條件傳回不同的結果，不過填充碼會受您的測試所控制，並且可在每個呼叫中傳回一致的結果。  這可讓您更容易撰寫測試。  
+---
+# <a name="using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing"></a>使用填充碼將應用程式與其他組件隔離，方便進行單元測試
+**填充碼類型**是 Microsoft Fakes 架構兩項技術的其中一個，讓您輕鬆地隔離受測元件與環境。 填充碼會將指向特定方法的呼叫轉向至您撰寫來做為測試一部分的程式碼。 有許多方法會取決於外部條件傳回不同的結果，不過填充碼會受您的測試所控制，並且可在每個呼叫中傳回一致的結果。 這可讓您更容易撰寫測試。  
   
- 使用填充碼來隔離您的程式碼以及不屬於方案的組件。  若要互相隔離方案的元件，我們建議您使用虛設常式。  
+ 使用填充碼來隔離您的程式碼以及不屬於方案的組件。 若要互相隔離方案的元件，我們建議您使用虛設常式。  
   
- 如需概觀和快速入門指南，請參閱[使用 Microsoft Fakes 在測試期間隔離程式碼](../test/isolating-code-under-test-with-microsoft-fakes.md)  
+ 如需概觀和快速入門指南，請參閱[使用 Microsoft Fakes 在測試期間隔離程式碼](../test/isolating-code-under-test-with-microsoft-fakes.md)。  
   
- **需求**  
+ **Requirements**  
   
 -   Visual Studio 企業版  
   
- 請參閱[視訊 \(1 小時 16 分\)：在 Visual Studio 2012 中以 Fakes 測試無法測試的程式碼](http://go.microsoft.com/fwlink/?LinkId=261837)  
+ 請參閱 [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837) (影片 (1 小時 16 分鐘)：在 Visual Studio 2012 中使用 Fakes 測試不可測試的程式碼)  
   
-## 本主題內容  
+## <a name="in-this-topic"></a>本主題內容  
  您在這個主題將學習：  
   
- [範例：Y2K Bug](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Example__The_Y2K_bug)  
+ [範例：Y2K bug](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Example__The_Y2K_bug)  
   
  [如何使用填充碼](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Fakes_requirements)  
   
--   [加入 Fakes 組件](#AddFakes)  
+-   [新增 Fakes 組件](#AddFakes)  
   
 -   [使用 ShimsContext](#ShimsContext)  
   
@@ -48,7 +64,7 @@ caps.handback.revision: 12
   
 -   [執行個體方法 (針對所有執行個體)](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Instance_methods__for_all_instances_)  
   
--   [執行個體方法 (針對某一個執行階段之個體)](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Instance_methods__for_one_instance_)  
+-   [執行個體方法 (針對某一個執行階段執行個體)](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Instance_methods__for_one_instance_)  
   
 -   [建構函式](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Constructors)  
   
@@ -86,9 +102,9 @@ public static class Y2KChecker {
   
 ```  
   
- 測試這個方法會特別有問題，因為此程式依賴 `DateTime.Now`，這是一種取決於電腦時鐘、環境相依且不具決定性的方法。  此外，`DateTime.Now` 是靜態屬性，因此不能在這裡使用虛設常式類型。  這個問題是單元測試中隔離問題的根源：直接呼叫資料庫應用程式開發介面、與 Web 服務進行通訊等的程式，一直難以進行單元測試，因為其邏輯取決於環境。  
+ 測試這個方法會特別有問題，因為此程式依賴 `DateTime.Now`，這是一種取決於電腦時鐘、環境相依且不具決定性的方法。 此外，`DateTime.Now` 是靜態屬性，因此不能在這裡使用虛設常式類型。 這個問題是單元測試中隔離問題的根源：直接呼叫資料庫應用程式開發介面、與 Web 服務進行通訊等的程式，一直難以進行單元測試，因為其邏輯取決於環境。  
   
- 這是應該使用填充碼類型的情況。  填充碼類型提供一個機制，將所有 .NET 方法繞道至使用者定義的委派。  填充碼類型是由 Fakes 產生器以程式碼產生的，並使用我們稱為填充碼類型的委派來指定新的方法實作。  
+ 這是應該使用填充碼類型的情況。 填充碼類型提供一個機制，將所有 .NET 方法繞道至使用者定義的委派。 填充碼類型是由 Fakes 產生器以程式碼產生的，並使用我們稱為填充碼類型的委派來指定新的方法實作。  
   
  下列測試顯示如何使用填充碼類型 `ShimDateTime`，提供 DateTime.Now 的自訂實作：  
   
@@ -106,18 +122,18 @@ using (ShimsContext.Create()
   
 ##  <a name="BKMK_Fakes_requirements"></a> 如何使用填充碼  
   
-###  <a name="AddFakes"></a> 加入 Fakes 組件  
+###  <a name="AddFakes"></a> 新增 Fakes 組件  
   
-1.  在 \[方案總管\] 中，展開單元測試專案的 \[**參考**\]。  
+1.  在方案總管中，展開單元測試專案的 [參考]。  
   
-    -   如果您在 Visual Basic 中工作，必須先選取 \[方案總管\] 工具列中的 \[**顯示所有檔案**\]，才能看見 \[參考\] 清單。  
+    -   如果您在 Visual Basic 中工作，必須先選取方案總管工具列中的 [顯示所有檔案]，才能看見 [參考] 清單。  
   
-2.  選取包含您要用於建立填充碼之類別定義的組件。  例如，如果您要填充日期時間，請選取 System.dll。  
+2.  選取包含您要用於建立填充碼之類別定義的組件。 例如，如果您要填充日期時間，請選取 System.dll。  
   
-3.  在捷徑功能表上選擇 \[**加入 Fakes 組件**\]。  
+3.  在捷徑功能表上，選擇 [新增 Fakes 組件]。  
   
 ###  <a name="ShimsContext"></a> 使用 ShimsContext  
- 在單元測試架構中使用填充碼類型時，您必須包裝 `ShimsContext` 中的測試程式碼，藉此控制填充碼的存留期。  如果我們不要求這樣做，您的填充碼可能會持續存在，直到 AppDomain 關閉為止。  建立 `ShimsContext` 的最簡單方式為使用靜態 `Create()` 方法，如下列程式碼所示：  
+ 在單元測試架構中使用填充碼類型時，您必須包裝 `ShimsContext` 中的測試程式碼，藉此控制填充碼的存留期。 如果我們不要求這樣做，您的填充碼可能會持續存在，直到 AppDomain 關閉為止。 建立 `ShimsContext` 的最簡單方式為使用靜態 `Create()` 方法，如下列程式碼所示：  
   
 ```c#  
 //unit test code  
@@ -130,10 +146,10 @@ public void Y2kCheckerTest() {
   
 ```  
   
- 請務必適當處置每個填充碼內容。  根據經驗法則，請一律呼叫 `using` 陳述式內的 `ShimsContext.Create`，以確保適當清除已註冊的填充碼。  例如，您可能會註冊測試方法的填充碼，將 `DateTime.Now` 方法取代成永遠都會傳回 2000 年 1 月 1 日的委派。  如果您忘記清除在測試方法中註冊的填充碼，則測試回合的其餘部分一定會傳回 2000 年 1 月 1 日做為 DateTime.Now 的值。  這可能會讓人感到意外和混淆。  
+ 請務必適當處置每個填充碼內容。 根據經驗法則，請一律呼叫 `using` 陳述式內的 `ShimsContext.Create`，以確保適當清除已註冊的填充碼。 例如，您可能會註冊測試方法的填充碼，將 `DateTime.Now` 方法取代成永遠都會傳回 2000 年 1 月 1 日的委派。 如果您忘記清除在測試方法中註冊的填充碼，則測試回合的其餘部分一定會傳回 2000 年 1 月 1 日做為 DateTime.Now 的值。 這可能會讓人感到意外和混淆。  
   
 ###  <a name="WriteShims"></a> 撰寫含填充碼的測試  
- 在您的測試程式碼中，請插入您要假造的方法之*「繞道」*\(Detour\)。  例如:  
+ 在您的測試程式碼中，請插入您要假造之方法的「繞道」。 例如:   
   
 ```c#  
 [TestClass]  
@@ -195,17 +211,17 @@ End Class
   
  填充碼類別名稱是在原始類型名稱前面加上 `Fakes.Shim` 而構成。  
   
- 填充碼藉由將*「繞道」*\(Detour\) 插入至待測應用程式的程式碼中來運作。  只要原始方法的呼叫發生，Fakes 系統就會執行繞道，因此呼叫的是您的填充程式碼，而不是呼叫實際的方法。  
+ 填充碼藉由將「繞道」插入至受測應用程式的程式碼中來運作。 只要原始方法的呼叫發生，Fakes 系統就會執行繞道，因此呼叫的是您的填充程式碼，而不是呼叫實際的方法。  
   
- 請注意繞道會在執行階段建立和刪除。  一定要在 `ShimsContext` 的生命週期內建立繞道。  在處置繞道的時候，會移除您在繞道作用時建立的任何填充碼。  最好的做法是在 `using` 陳述式內進行。  
+ 請注意繞道會在執行階段建立和刪除。 一定要在 `ShimsContext` 的生命週期內建立繞道。 在處置繞道的時候，會移除您在繞道作用時建立的任何填充碼。 最好的做法是在 `using` 陳述式內進行。  
   
- 您可能會看到建置錯誤，指出 Fakes 命名空間不存在。  當有其他的編譯錯誤時，有時候會出現這個錯誤。  請修正其他錯誤，該錯誤也將消失。  
+ 您可能會看到建置錯誤，指出 Fakes 命名空間不存在。 當有其他的編譯錯誤時，有時候會出現這個錯誤。 請修正其他錯誤，該錯誤也將消失。  
   
 ##  <a name="BKMK_Shim_basics"></a> 不同方法類型的填充碼  
  填充碼類型可讓您用自己的委派取代所有 .NET 方法，包含靜態方法或非虛擬方法。  
   
 ###  <a name="BKMK_Static_methods"></a> 靜態方法  
- 要附加填充碼到靜態方法的屬性放置於填充碼類型中。  每個屬性都只有一個 Setter 可以用來附加委派至目標方法。  例如，給定一個具有 `MyMethod` 靜態方法的 `MyClass` 類別：  
+ 要附加填充碼到靜態方法的屬性放置於填充碼類型中。 每個屬性都只有一個 Setter 可以用來附加委派至目標方法。 例如，給定一個具有 `MyMethod` 靜態方法的 `MyClass` 類別：  
   
 ```c#  
 //code under test  
@@ -223,8 +239,8 @@ public static class MyClass {
 ShimMyClass.MyMethod = () =>5;  
 ```  
   
-###  <a name="BKMK_Instance_methods__for_all_instances_"></a> 執行個體方法 \(針對所有執行個體\)  
- 與靜態方法類似，執行個體方法可針對所有執行個體填充。  附加這些填充碼的屬性放置在名為 AllInstances 的巢狀類型以避免混淆。  例如，給定一個具有 `MyMethod` 執行個體方法的 `MyClass` 類別：  
+###  <a name="BKMK_Instance_methods__for_all_instances_"></a> 執行個體方法 (針對所有執行個體)  
+ 與靜態方法類似，執行個體方法可針對所有執行個體填充。 附加這些填充碼的屬性放置在名為 AllInstances 的巢狀類型以避免混淆。 例如，給定一個具有 `MyMethod` 執行個體方法的 `MyClass` 類別：  
   
 ```c#  
 // code under test  
@@ -259,8 +275,8 @@ public class ShimMyClass : ShimBase<MyClass> {
   
  請注意在這種情況下，Fakes 會將執行階段執行個體做為委派的第一個引數傳遞。  
   
-###  <a name="BKMK_Instance_methods__for_one_instance_"></a> 執行個體方法 \(針對某一個執行階段之個體\)  
- 根據呼叫的接收器，執行個體方法可以由不同的委派來填充。  這可讓相同的執行個體方法對於每種類型的執行個體具有不同行為。  設定這些填充碼的屬性是此填充碼類型本身的執行個體方法。  每一個具現化的填充碼類型也與已填充類型之未經處理的執行個體相關聯。  
+###  <a name="BKMK_Instance_methods__for_one_instance_"></a> 執行個體方法 (針對某一個執行階段執行個體)  
+ 根據呼叫的接收器，執行個體方法可以由不同的委派來填充。 這可讓相同的執行個體方法對於每種類型的執行個體具有不同行為。 設定這些填充碼的屬性是此填充碼類型本身的執行個體方法。 每一個具現化的填充碼類型也與已填充類型之未經處理的執行個體相關聯。  
   
  例如，給定一個具有 `MyMethod` 執行個體方法的 `MyClass` 類別：  
   
@@ -320,7 +336,7 @@ MyClass instance = shim; // implicit cast retrieves the runtime
 ```  
   
 ###  <a name="BKMK_Constructors"></a> 建構函式  
- 也可以填充建構函式，用來將填充碼類型附加到未來的物件。  會將每個建構函式公開為此填充碼類型中的靜態方法建構函式。  例如，給定一個具有接受整數之建構函式的 `MyClass` 類別：  
+ 也可以填充建構函式，用來將填充碼類型附加到未來的物件。 會將每個建構函式公開為此填充碼類型中的靜態方法建構函式。 例如，給定一個具有接受整數之建構函式的 `MyClass` 類別：  
   
 ```c#  
 // code under test  
@@ -332,7 +348,7 @@ public class MyClass {
 }  
 ```  
   
- 我們設定此建構函式的填充碼類型，使得不論在此建構函式中的值為多少，當值 Getter 被叫用時，每個未來的執行個體都會傳回 \-5：  
+ 我們設定此建構函式的填充碼類型，使得不論在此建構函式中的值為多少，當值 Getter 被叫用時，每個未來的執行個體都會傳回 -5：  
   
 ```c#  
 // unit test code  
@@ -343,7 +359,7 @@ ShimMyClass.ConstructorInt32 = (@this, value) => {
 };  
 ```  
   
- 請注意每個填充碼類型都會公開兩個建構函式。  在需要新執行個體時，應使用預設建構函式；而將已填充的執行個體當做引數的建構函式，只應該用在建構函式填充碼：  
+ 請注意每個填充碼類型都會公開兩個建構函式。 在需要新執行個體時，應使用預設建構函式；而將已填充的執行個體當做引數的建構函式，只應該用在建構函式填充碼：  
   
 ```c#  
 // unit test code  
@@ -413,13 +429,13 @@ public class ShimMyBase : ShimBase<MyBase> {
 ```  
   
 ###  <a name="BKMK_Static_constructors"></a> 靜態建構函式  
- 填充碼類型會公開靜態方法 `StaticConstructor`，藉此填充類型的靜態建構函式。  因為靜態建構函式只能執行一次，您必須在存取該類型的任何成員之前，確認已設定填充碼。  
+ 填充碼類型會公開靜態方法 `StaticConstructor`，藉此填充類型的靜態建構函式。 因為靜態建構函式只能執行一次，您必須在存取該類型的任何成員之前，確認已設定填充碼。  
   
 ###  <a name="BKMK_Finalizers"></a> 完成項  
  完成項在 Fakes 中並不支援。  
   
 ###  <a name="BKMK_Private_methods"></a> 私用方法  
- Fakes 程式碼產生器會建立私用方法的填充碼屬性，該方法具有只能在這個簽章中可見的類型，亦即  參數類型和傳回類型為可見的。  
+ Fakes 程式碼產生器會建立私用方法的填充碼屬性，該方法具有只能在這個簽章中可見的類型，亦即 參數類型和傳回型別為可見的。  
   
 ###  <a name="BKMK_Binding_interfaces"></a> 繫結介面  
  當已填充的類型實作介面時，程式碼產生器會發出允許同時繫結該介面所有成員的方法。  
@@ -458,11 +474,11 @@ public class ShimMyClass : ShimBase<MyClass> {
 ```  
   
 ##  <a name="BKMK_Changing_the_default_behavior"></a> 變更預設行為  
- 每個產生的填充碼類別均會保留一個 `IShimBehavior` 介面的執行個體 \(透過 `ShimBase<T>.InstanceBehavior` 屬性\)。  每當用戶端呼叫沒有明確填充的執行個體成員時，便會使用此行為。  
+ 每個產生的填充碼類別均會保留一個 `IShimBehavior` 介面的執行個體 (透過 `ShimBase<T>.InstanceBehavior` 屬性)。 每當用戶端呼叫沒有明確填充的執行個體成員時，便會使用此行為。  
   
- 如果尚未明確設定此行為，則會使用靜態 `ShimsBehaviors.Current` 屬性所傳回的執行個體。  根據預設，這個屬性傳回的行為會擲回 `NotImplementedException` 例外狀況。  
+ 如果尚未明確設定此行為，則會使用靜態 `ShimsBehaviors.Current` 屬性所傳回的執行個體。 根據預設，這個屬性傳回的行為會擲回 `NotImplementedException` 例外狀況。  
   
- 您隨時可以設定任何填充碼執行個體的 `InstanceBehavior` 屬性，藉以變更行為。  例如，下列程式碼片段會改變此填充碼為沒有任何動作或將傳回類型之預設值傳回的行為：  
+ 您隨時可以設定任何填充碼執行個體的 `InstanceBehavior` 屬性，藉以變更行為。 例如，下列程式碼片段會改變此填充碼為沒有任何動作或將傳回類型之預設值傳回的行為：  
   
 ```c#  
 // unit test code  
@@ -472,7 +488,7 @@ shim.InstanceBehavior = ShimsBehaviors.DefaultValue;
   
 ```  
   
- 也可以針對所有已填充的執行個體 \(其中尚未藉由設定靜態 `ShimsBehaviors.Current` 屬性來明確設定 `InstanceBehavior` 屬性\) 對此行為全域變更：  
+ 也可以針對所有已填充的執行個體 (其中尚未藉由設定靜態 `ShimsBehaviors.Current` 屬性來明確設定 `InstanceBehavior` 屬性) 對此行為全域變更：  
   
 ```c#  
 // unit test code  
@@ -495,11 +511,11 @@ ShimMyClass.BehaveAsNotImplemented();
   
 ```  
   
-##  <a name="BKMK_Concurrency"></a> 並行  
- 填充碼類型適用於在 AppDomain 中的所有執行緒，且沒有執行緒相似性。  如果您打算使用可支援並行的測試執行器，這會是項重要的事實：涉及填充碼類型的測試不能同時執行。  這個屬性不是由 Fakes 執行階段強制設定的。  
+##  <a name="BKMK_Concurrency"></a>並行  
+ 填充碼類型適用於在 AppDomain 中的所有執行緒，且沒有執行緒相似性。 如果您打算使用可支援並行的測試執行器，這會是項重要的事實：涉及填充碼類型的測試不能同時執行。 這個屬性不是由 Fakes 執行階段強制設定的。  
   
 ##  <a name="BKMK_Calling_the_original_method_from_the_shim_method"></a> 從填充碼方法呼叫原始方法  
- 假設我們驗證完傳遞給方法的檔案名稱之後，要在檔案系統實際寫入文字。  在這種情況下，我們可能會想要在填充碼方法中呼叫原始方法。  
+ 假設我們驗證完傳遞給方法的檔案名稱之後，要在檔案系統實際寫入文字。 在這種情況下，我們可能會想要在填充碼方法中呼叫原始方法。  
   
  解決這個問題的第一個方式為使用委派和 `ShimsContext.ExecuteWithoutShims()` 包裝原始方法的呼叫，如下列程式碼所示：  
   
@@ -543,12 +559,13 @@ ShimFile.WriteAllTextStringString = shim;
 ##  <a name="BKMK_Limitations"></a> 限制  
  填充碼在來自 .NET 基底類別庫 **mscorlib** 和 **System** 的類型上並非全部都能使用。  
   
-## 外部資源  
+## <a name="external-resources"></a>外部資源  
   
-### 指引  
- [使用 Visual Studio 2012 測試持續傳遞 \- 第 2 章：單元測試：測試內部](http://go.microsoft.com/fwlink/?LinkID=255188) \(英文\)  
+### <a name="guidance"></a>指引  
+ [使用 Visual Studio 2012 測試持續傳遞 - 第 2 章：單元測試：測試內部](http://go.microsoft.com/fwlink/?LinkID=255188)  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [使用 Microsoft Fakes 在測試期間隔離程式碼](../test/isolating-code-under-test-with-microsoft-fakes.md)   
- [Peter Provost 的部落格：Visual Studio 2012 填充碼](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)   
- [視訊 \(1 小時 16 分\)：在 Visual Studio 2012 中以 Fakes 測試無法測試的程式碼](http://go.microsoft.com/fwlink/?LinkId=261837)
+ [Peter Provost’s blog: Visual Studio 2012 Shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)  (Peter Provost 部落格︰Visual Studio 2012 填充碼)  
+ [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837) (影片 (1 小時 16 分鐘)：在 Visual Studio 2012 中使用 Fakes 測試不可測試的程式碼)
+

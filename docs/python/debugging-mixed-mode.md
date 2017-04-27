@@ -1,7 +1,7 @@
 ---
-title: "適用於 Visual Studio 的 Python 工具中的混和模式偵錯 | Microsoft Docs"
+title: "Visual Studio 中的 Python 混和模式偵錯 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: ddbac5b8ed52e6ed7afae7e7b04dc2fa15f7a0c2
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: bdc621831893f907beba7ec5ad503fe4d96c0042
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 03/27/2017
 
 - [合併的呼叫堆疊](#combined-call-stack)
 - [在 Python 和原生程式碼之間逐步執行](#stepping-between-python-and-native-code)
-- [原生程式碼中的 PyObject 值檢視](#pyobject-values-in-native-code)
+- [原生程式碼中的 PyObject 值檢視](#pyobject-values-view-in-native-code)
 - [Python 程式碼中的原生值檢視](#native-values-view-in-python-code)
 
 ### <a name="combined-call-stack"></a>合併的呼叫堆疊
@@ -153,7 +153,7 @@ static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {
 - 不支援的功能︰條件式中斷點、偵錯互動式視窗及跨平台遠端偵錯。
 - 即時運算視窗︰可以使用，但僅有其中一小部分的功能，包括此處所列的所有限制。
 - 支援的 Python 版本︰僅限 CPython 2.7 和 3.3 及更新版本。
-- Visual Studio Shell︰使用 PTVS 搭配 Visual Studio Shell 時 (例如，如果您使用整合式安裝程式安裝它)，Visual Studio 無法開啟 C++ 專案，而針對 C++ 檔案的編輯體驗僅如同使用基本文字編輯器。 不過，Shell 搭配偵錯工具視窗中的原始程式碼、逐步執行到原生程式碼及 C++ 運算式評估，可完整支援 C/C++ 偵錯和混合模式偵錯。
+- Visual Studio Shell︰搭配使用 Python 和 Visual Studio Shell 時 (例如使用整合式安裝程式進行安裝時)，Visual Studio 無法開啟 C++ 專案，且針對 C++ 檔案的編輯體驗僅如同使用基本文字編輯器。 不過，Shell 搭配偵錯工具視窗中的原始程式碼、逐步執行到原生程式碼及 C++ 運算式評估，可完整支援 C/C++ 偵錯和混合模式偵錯。
 - 檢視和擴充物件︰在 [區域變數 (Locals)] 和 [監看式 (Watch)] 偵錯工具的工具視窗中檢視 Python 物件時，混合模式偵錯工具只會顯示物件的結構。 它不會自動評估屬性，或顯示計算的屬性。 對於集合，它只會顯示內建集合類型的元素 (`tuple`、`list``dict``set`)。 自訂集合類型不會視覺化為集合，除非它們繼承自某些內建的集合類型。
 - 運算式評估：請參閱下文。
 

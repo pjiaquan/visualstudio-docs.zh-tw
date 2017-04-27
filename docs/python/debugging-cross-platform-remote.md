@@ -1,7 +1,7 @@
 ---
-title: "使用適用於 Visual Studio 的 Python 工具進行跨平台遠端偵錯 | Microsoft Docs"
+title: "Visual Studio 中的 Python 跨平台遠端偵錯 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/4/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 7634da4bdc2b0186f410acb4eaf57a70ddea3e91
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
+ms.openlocfilehash: df4d74d9fe884f3aff1998f4b0b38dbff6d1359f
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="remotely-debugging-python-code"></a>對 Python 程式碼進行遠端偵錯
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 可在 Windows 電腦的本機或遠端啟動 Python 應用程式並進行偵錯 (請參閱[遠端偵錯](../debugger/remote-debugging.md))。 它也可在其他作業系統、裝置或使用 [ptvsd 程式庫](https://pypi.python.org/pypi/ptvsd)的 Python 實作 (不同於 CPython) 上進行遠端偵錯。
+Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式並進行偵錯 (請參閱[遠端偵錯](../debugger/remote-debugging.md))。 它也可在其他作業系統、裝置或使用 [ptvsd 程式庫](https://pypi.python.org/pypi/ptvsd)的 Python 實作 (不同於 CPython) 上進行遠端偵錯。
 
 使用 ptvsd 時，進行偵錯的 Python 程式碼會裝載 Visual Studio 可以附加到的偵錯伺服器。 這需要稍微修改您的程式碼以匯入和啟用伺服器，並可能需要遠端電腦上的網路或防火牆組態允許 TCP 連線。
 
@@ -45,47 +45,59 @@ ms.lasthandoff: 03/10/2017
 
 > [!VIDEO https://www.youtube.com/embed/y1Qq7BrV6Cc]
 
+## <a name="setting-up-a-linux-machine"></a>設定 Linux 電腦
+
+若要遵循這個逐步解說，您需要下列項目：
+
+- 執行 Python 的遠端電腦，作業系統為是 MAC 或 Linux。
+- 已開啟上述電腦的防火牆連接埠 5678 (輸入)，其為遠端偵錯的預設值。
+
+您可以輕鬆地建立 [Azure 上的 Linux 虛擬機器](https://docs.microsoft.com/azure/virtual-machines/linux/creation-choices)，並透過 Windows [使用遠端桌面進行存取](https://docs.microsoft.com/azure/virtual-machines/linux/use-remote-desktop)。 適用於 VM 的 Ubuntu 預設會安裝 Python，因此是很方便使用的選項；否則，請參閱[安裝您所選的 Python 解譯器](python-environments.md#selecting-and-installing-python-interpreters)上的清單，以取得其他的 Python 下載位置。
+
+如需建立 Azure VM 防火牆規則的詳細資訊，請參閱[使用 Azure 入口網站對 Azure 中的 VM 開啟連接埠](https://docs.microsoft.com/azure/virtual-machines/windows/nsg-quickstart-portal)。
+
 ## <a name="preparing-the-script-for-debugging"></a>準備偵錯指令碼
 
-1. 在遠端電腦上使用下列程式碼建立 Python 檔案︰
+1. 在遠端電腦上，使用下列程式碼建立名稱為 `guessing-game.py` 的 Python 檔案︰
 
   ```python
-  import random
+    import random
 
-  guesses_made = 0
-  name = raw_input('Hello! What is your name?\n')
-  number = random.randint(1, 20)
-  print 'Well, {0}, I am thinking of a number between 1 and 20.'.format(name)
+    guesses_made = 0
+    name = input('Hello! What is your name?\n')
+    number = random.randint(1, 20)
+    print('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
 
-  while guesses_made < 6:
-      guess = int(raw_input('Take a guess: '))
-      guesses_made += 1
-      if guess < number:
-          print 'Your guess is too low.'
-      if guess > number:
-          print 'Your guess is too high.'
-      if guess == number:
-          break
-  if guess == number:
-      print 'Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
-  else:
-      print 'Nope. The number I was thinking of was {0}'.format(number)
+    while guesses_made < 6:
+    guess = int(input('Take a guess: '))
+    guesses_made += 1
+    if guess < number:
+        print('Your guess is too low.')
+    if guess > number:
+        print('Your guess is too high.')
+    if guess == number:
+        break
+    if guess == number:
+    print('Good job, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made))
+    else:
+    print('Nope. The number I was thinking of was {0}'.format(number))
   ```
  
-1. 使用 `pip install ptvsd`，將 `ptvsd` 封裝安裝到您的環境。
+1. 使用 `pip3 install ptvsd`，將 `ptvsd` 封裝安裝到您的環境。 (注意：建議您將 ptvsd 的安裝版本記錄起來，以免需要進行疑難排解；[ptvsd 清單](https://pypi.python.org/pypi/ptvsd)中也會顯示可用的版本)。
 
-1. 盡早在指令碼中的其他程式碼之前加入下列程式碼，以啟用遠端偵錯。 (雖然不是嚴格要求，但在呼叫 `enable_attach` 函式前，無法對繁衍 (Spawn) 的任何背景執行緒進行偵錯。)
+1. 盡早在 `guessing-game.py` 中的其他程式碼之前加入下列程式碼，以啟用遠端偵錯。 (雖然不是嚴格要求，但在呼叫 `enable_attach` 函式前，無法對繁衍 (Spawn) 的任何背景執行緒進行偵錯。)
 
    ```python
    import ptvsd
-   ptvsd.enable_attach(secret='my_secret')
+   ptvsd.enable_attach('my_secret')
    ```
 
-   傳遞給 `enable_attach` 的 `secret` 參數用來限制執行中指令碼的存取。 在附加時，您必須在 Visual Studio 中指定它，否則將拒絕連線。 若要停用它並允許任何人連線，請使用 `enable_attach(secret=None)`。
+   第一個傳遞至 `enable_attach` 的引數(稱為「密碼」) 會限制存取執行指令碼，您必須在附加遠端偵錯工具時輸入此密碼  (您也可以使用 `enable_attach(secret=None)`，允許任何人連線，但並不建議這麼做)。
 
-1. 在遠端電腦上儲存檔案並啟動指令碼。 請注意，`enable_attach` 的呼叫會在背景執行，並等待連入連線。 如有需要，可以在 `enable_attach` 之後呼叫 `wait_for_attach` 函式來封鎖程式，直到偵錯工具附加為止。
+1. 請儲存檔案，然後執行 `python3 guessing-game.py`。 `enable_attach` 的呼叫會在背景執行，並等待您與程式互動時的連入連線。 如有需要，可以在 `enable_attach` 之後呼叫 `wait_for_attach` 函式來封鎖程式，直到偵錯工具附加為止。
 
-除了 `enable_attach` 和`wait_for_attach` 以外，ptvsd 也提供協助程式函式 `break_into_debugger`，其在偵錯工具附加時可做為程式設計的中斷點。 還有一個 `is_attached` 函式會在偵錯工具附加時傳回 `True` (請注意，在呼叫其他 `ptvsd` 之前，不需檢查這個結果)。
+> [!Tip]
+> 除了 `enable_attach` 和`wait_for_attach` 以外，ptvsd 也提供協助程式函式 `break_into_debugger`，其在偵錯工具附加時可做為程式設計的中斷點。 還有一個 `is_attached` 函式會在偵錯工具附加時傳回 `True` (請注意，在呼叫其他 `ptvsd` 之前，不需檢查這個結果)。
 
 ## <a name="attaching-remotely-from-python-tools"></a>從 Python 工具遠端附加
 
@@ -93,50 +105,94 @@ ms.lasthandoff: 03/10/2017
 
 1. 在本機電腦上建立遠端檔案的複本，然後在 Visual Studio 中開啟它。 檔案所在位置並不重要，但其名稱應符合將附加到的遠端電腦上的指令碼名稱。
 
-1. 選取 [偵錯 (Debug)] > [附加至處理序 (Attach to Process)] 以開啟 [附加至處理序 (Attach to Process)] 對話方塊。
+1. (選擇性) 若要讓本機電腦具有適用於 ptvsd 的 IntelliSense，請將 ptvsd 套件安裝到您的 Python 環境中。
 
-1. 將 [傳輸 (Transport)] 設為 [Python 遠端偵錯 (Python remote debugging)] 。
+1. 選取 [偵錯] > [附加至處理序]。
 
-1. 在 [限定詞 (Qualifier)] 欄位中輸入遠端電腦的位址，然後按 Enter。 這樣應該會列出該電腦上的可用處理序︰
+1. 在隨即顯示的 [附加至處理序] 對話方塊中，將 [連線類型] 設為 [Python remote (ptvsd)] (Python 遠端 (ptvsd)) (在舊版 Visual Studio 中，這些選項名稱為 [傳輸] 和 [Python 遠端偵錯])。
 
-![輸入限定詞並列出處理序](media/remote-debugging-qualifier.png)
+1. 在 [連線目標] 欄位 (舊版為 [限定詞]) 中，輸入 `tcp://<secret>@<ip_address>:5678`，其中 `<secret>` 是將 `enable_attach` 傳入 Python 程式碼的字串，`<ip_address>` 是遠端電腦的明確位址或名稱 (如 myvm.cloudapp.net)，而 `:5678` 是遠端偵錯的連接埠號碼。 
 
-1. 這個階段的錯誤通常是密碼不符、`ptvsd` 版本與 PTVS 使用的不符或無法建立連線。 無法連線的常見原因之一，是遠端電腦的防火牆封鎖偵錯伺服器連接埠 (預設值為 5678) 開啟。 您可以重新設定防火牆，或使用不同的連接埠；後者可透過在 `address` 參數的 `enable_attach` 呼叫中明確地指定它來完成，例如︰
+1. 按 Enter，即可填入該電腦上可用的 ptvsd 處理序清單：
 
-  ```python
-  ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))
-  ```
+    ![輸入連線目標，並列出處理序](media/remote-debugging-qualifier.png)
 
-  位址格式與標準 Python 模組通訊端針對 `AF_INET` 類型的通訊端使用的相同；如需詳細資訊，請參閱其[文件 (英文)](http://docs.python.org/3/library/socket.html#socket-families)。 
+    填入此清單之後，如果您剛好在遠端電腦上啟動另一個程式，請選取 [重新整理] 按鈕。
 
-1. 當處理序出現在清單時，連按兩下它以進行連接。 Visual Studio 會顯示其偵錯工具，指令碼則持續執行。 針對上述範例指令碼，輸入數字將會叫用中斷點︰
+1. 選取要偵錯的處理序，再選取 [附加]，或按兩下處理序。
+
+1. Visual Studio 即會切換至偵錯模式，而遠端電腦仍會繼續執行指令碼，並提供所有一般[偵錯](debugging.md)功能。 例如，在 `if guess < number:` 行上設定中斷點，然後切換到遠端電腦，並輸入另一種猜測。 進行上述作業之後，本機電腦的 Visual Studio 會在該中斷點停駐，並顯示本機變數等等：
 
     ![已叫用中斷點](media/remote-debugging-breakpoint-hit.png)
 
-1. 此時您可以使用所有的一般 PTVS 偵錯功能。 
+1. 當您停止偵錯時，Visual Studio 會中斷連結程式，而遠端電腦仍會繼續執行該程式。 ptvsd 也會繼續接聽以便附加偵錯工具，因此您可以隨時將其重新附加至處理序。
 
-1. 當您停止偵錯時，Visual Studio 會中斷連結您的指令碼，但指令碼將繼續在遠端電腦上執行。 偵錯伺服器也會繼續在其背景執行緒上執行，因此之後您可以使用相同的程序重新附加到處理序。
+1. 如果您停止遠端程式，Visual Studio 不會自動中斷連結偵錯工具，但 
+
+### <a name="connection-troubleshooting"></a>連線疑難排解
+
+1. 請確定您已針對 [連線類型] 選取 [Python remote (ptvsd)] (Python 遠端 (ptvsd)) (舊版則選取 [傳輸] 的 [Python 遠端偵錯])。
+1. 請檢查 [連線目標] (或 [限定詞]) 中的密碼是否完全符合遠端程式碼中的密碼。
+1. 請檢查 [連線目標] (或 [限定詞]) 中的 IP 位址是否完全符合遠端程式碼中的 IP 位址。
+1. 請檢查遠端電腦上是否已開啟遠端偵錯連接埠，以及連接埠尾碼中是否包含連線目標，例如 `:5678`。
+    - 如果您需要使用不同的連接埠，可以在 `enable_attach` 呼叫中使用 `address` 引數進行指定，如同在 `ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))` 中一樣。 在此情況下，請開啟防火牆中的特定連接埠。
+1. 請檢查 `pip3 list` 所傳回的遠端電腦 ptvsd 安裝版本，是否符合您在 Visual Studio 中使用的 Python 工具版本 (如下表所示)。 如果有必要，請更新遠端電腦上的 ptvsd。
+
+    | Visual Studio 版本 | Python 工具/ptvsd 版本 |
+    | --- | --- |
+    | 2017 | 3.0.0 |
+    | 2015 | 2.2.6 |
+    | 2013 | 2.2.2 |
+    | 2012, 2010 | 2.1 |
 
 
 ## <a name="securing-the-debugger-connection-with-ssl"></a>使用 SSL 保護偵錯工具連線
 
-根據預設，與 PTVS 遠端偵錯伺服器的連線未受到任何方式的保護；擁有密碼的所有人都可以連線，並以純文字傳遞所有的資料。 因此，網路上其他人可以窺探資料，或甚至執行攔截式 (MITM) 攻擊。 為避免在透過不安全的網路或網際網路偵錯時發生這種情況，偵錯伺服器支援 SSL。 
+根據預設，與 ptvsd 遠端偵錯伺服器的連線只有受到密碼的保護，並會以純文字傳遞所有的資料。 如需更安全的連線，ptvsd 支援 SSL，您可依下列方式設定︰
 
-若要使用 SSL 保護通道，您將需要 SSL 憑證。 您可以自行產生自我簽署的憑證，如 [Python 標準模組的文件 (英文)`ssl` ](http://docs.python.org/3/library/ssl.html#self-signed-certificates) 所述。 為避免 MITM 攻擊，這類產生的憑證也必須加入到執行 PTVS 的 Windows 電腦上的 CA 根存放區。 這項作業可以使用憑證管理員 (certmgr.msc) 完成，如[如何匯出憑證和/或私密金鑰？(英文)](https://answers.microsoft.com/en-us/windows/forum/windows_10-security/how-do-i-export-certificates-andor-private-keys/7722900a-e848-4076-bc50-9e2f5e3c66ac) 所述。 請注意，您必須有一個匯入用的個別憑證檔案 (不要與私密金鑰合併在一個檔案中)。 
+1. 在遠端電腦上，使用 openssl 來產生個別的自我簽署憑證和金鑰檔案：
+    
+    ```bash
+    openssl req -new -x509 -days 365 -nodes -out cert.cer -keyout cert.key
+    ```
 
-產生及註冊憑證和私密金鑰檔之後，您必須更新指令碼中的 `enable_attach` 呼叫才能使用它們。 這項作業是透過 `certfile` 和 `keyfile` 參數完成，而這些參數對標準 Python 函式 `ssl.wrap_socket` 而言具有相同的意義。 例如，如果憑證檔案的名稱是 `my_cert.cer`，金鑰檔案的名稱是 `my_cert.key`，請使用︰ 
+    當 openssl 出現提示時，請依據您用以連接的項目，在 [一般名稱] 中使用主機名稱或 IP 位址 
 
-```python
-ptvsd.enable_attach(secret='my_secret', certfile='my_cert.cer', keyfile='my_cert.key')
-```
+    (如需詳細資訊，請參閱 Python `ssl` 模組文件中的 [Self-signed certificates](http://docs.python.org/3/library/ssl.html#self-signed-certificates) (自我簽署的憑證)。 請注意，這些文件中的命令只會產生單一合併檔案)。
 
-附加程序與前述相同，唯一不同的是在 [限定詞 (Qualifier)] 中不使用 `tcp://` 配置，改用 `tcps://`： 
+1. 在程式碼中，使用檔名作為值，將 `enable_attach` 的呼叫修改為包含 `certfile` 和 `keyfile` 引數 (這些引數與標準 `ssl.wrap_socket`Python 函式具有相同的意義)：
 
-![選擇使用 SSL 進行遠端偵錯傳輸](media/remote-debugging-qualifier-ssl.png)
+    ```python
+    ptvsd.enable_attach(secret='my_secret', certfile='cert.cer', keyfile='cert.key')
+    ```
+    
+    您也可以在本機電腦上的程式碼檔案進行相同變更，但這個程式碼並不會實際執行，因為不是絕對必要。    
 
-如果您沒有將憑證加入 CA 根存放區，將會出現警告訊息︰ 
+1. 重新啟動遠端電腦上的 Python 程式，使其準備好開始偵錯。
 
-![SSL 憑證警告](media/remote-debugging-ssl-warning.png)
+1. 將憑證新增至安裝 Visual Studio 之 Windows 電腦上的受信任根 CA，以確保通道安全：
 
-您可以選擇略過此訊息並繼續進行偵錯；通道仍然會加密以防止竊聽，但忽略該警告會導致 MITM 攻擊的可能性。
+    1. 將遠端電腦的憑證檔案複製到本機電腦。
+    1. 開啟 [控制台] 並瀏覽至 [系統管理工具] > [Manage computer certificates] (管理電腦憑證)。
+    1. 在出現的視窗中，展開左側的 [受信任的根憑證授權單位]，以滑鼠右鍵按一下 [憑證]，然後選取 [所有工作] > [匯入...]。
+    1. 瀏覽並選取從遠端電腦複製的 `.cer` 檔案，然後按一下所有對話方塊以完成匯入。
+
+1. 現在，將 `tcps://` 作為 [連線目標] (或 [限定詞]) 的通訊協定，以在 Visual Studio 中重複附加程序，如先前所述。
+
+    ![選擇使用 SSL 進行遠端偵錯傳輸](media/remote-debugging-qualifier-ssl.png)
+
+### <a name="warnings"></a>警告
+
+透過 SSL 連線時，Visual Studio 會提示您潛在的憑證問題，如下所述。 您可以略過警告並繼續進行，但即使通道仍會加密以防竊聽，依然可能受到攔截攻擊。
+
+1. 如果您看到如下「遠端憑證不受信任」的警告，就表示您未正確將憑證新增至信任的根 CA。 檢查這些步驟，並再試一次。
+
+    ![受信任的 SSL 憑證警告](media/remote-debugging-ssl-warning.png)
+
+1. 如果您看到如下「遠端憑證名稱與主機名稱不相符」的警告，表示您在建立憑證時，未使用適當的主機名稱或 IP 位址作為 [一般名稱]。
+
+    ![SSL 憑證主機名稱警告](media/remote-debugging-ssl-warning2.png)
+
+> [!Warning]
+> 目前，如果您忽略這些警告的話，Visual Studio 2017 Preview 將會停止回應。 請務必在嘗試連線之前，修正所有問題。
 

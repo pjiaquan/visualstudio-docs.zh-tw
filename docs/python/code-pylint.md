@@ -1,7 +1,7 @@
 ---
-title: "在適用於 Visual Studio 的 Python 工具中使用 PyLint | Microsoft Docs"
+title: "使用 Visual Studio 中的 PyLint | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 23650ba24f127b93dc52a3a93aa1126d67e5cf3e
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: c8bfaf9f20e7fecb3633ca101170b0f3e686aa53
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="using-pylint-to-check-python-code"></a>使用 PyLint 檢查 Python 程式碼
 
-[PyLint (英文)](https://www.pylint.org/) 已整合到 Visual Studio，適用於 Python 專案，它是一種廣泛使用的工具，可檢查 Python 程式碼中的錯誤，有助於撰寫良好的 Python 程式碼模式。
+[PyLint](https://www.pylint.org/) 是一種廣泛使用的工具，可檢查 Python 程式碼中的錯誤，有助於撰寫良好的 Python 程式碼模式，因此 Visual Studio 已針對 Python 專案整合這項工具。
 
 只要在 [方案總管] 中以滑鼠右鍵按一下 Python 專案，並選取 [Python] > [執行 PyLint]：
 

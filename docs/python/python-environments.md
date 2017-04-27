@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 69740c73cc133e08254fc546d2b59885270725f2
-ms.lasthandoff: 03/10/2017
+ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
+ms.openlocfilehash: 1f8f68e36f94aaf253d304edaa2360333b261be3
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -89,6 +89,11 @@ Visual Studio 中的 Python 工作負載可讓您輕鬆管理多個 Python 環�
 >
 > ![[Python Environments (Python 環境)] 視窗展開檢視](media/environments-expanded-view.png)
 
+> [!Note]
+> 雖然 Visual Studio 會遵守「系統-站台-套件」選項，但未提供從 Visual Studio 內變更它的方式。
+
+### <a name="creating-an-environment-for-an-existing-interpreter"></a>為現有的解譯器建立環境
+
 Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器，但如果解譯器不是以標準方式安裝，它就有可能會找不到該解譯器。 在這種情況下，您可以依照下列方式，將 Visual Studio 直接指向解譯器：
 
 1. 在「環境視窗」中選取 [+ Custom (+ 自訂)]，這會建立一個新環境並開啟 [[Configure (設定)] 索引標籤](#configure-tab) (下面會說明)。
@@ -100,9 +105,6 @@ Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器�
 1. 選取 [Auto Detect (自動偵測)] 來讓 Visual Studio 完成其餘欄位，或是手動完成它們。
 1. 選取 [Apply (套用)] 來儲存環境。
 1. 如果您需要移除環境，請在 [Configure (設定)] 索引標籤上選取 [Remove (移除)]。
-
-> [!Note]
-> 雖然 Visual Studio 會遵守「系統-站台-套件」選項，但未提供從 Visual Studio 內變更它的方式。
 
 ### <a name="overview-tab"></a>Overview (概觀) 索引標籤
 

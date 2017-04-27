@@ -1,7 +1,7 @@
 ---
-title: "在適用於 Visual Studio 的 Python 工具中重構程式碼 | Microsoft Docs"
+title: "在 Visual Studio 中重構 Python 程式碼 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 4/10/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -29,15 +29,15 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: b0d84db6a16861fb9554af2a644423f906784748
-ms.openlocfilehash: dc51f41277c91288c0812cb5c22f48d827d741aa
-ms.lasthandoff: 03/07/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: ea69604524010ab794a4de0e85aea1e5fd680ac4
+ms.lasthandoff: 04/10/2017
 
 ---
 
 # <a name="refactoring-python-code"></a>重構 Python 程式碼
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 提供數個可自動轉換和清除原始程式碼的命令︰
+Visual Studio 提供數個可自動轉換和清除 Python 原始程式碼的命令︰
 
 - [重新命名](#rename)會重新命名選取的類別、方法或變數名稱
 - [擷取方法](#extract-method)會從選取的程式碼建立新方法
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/07/2017
 
 ## <a name="add-import"></a>加入匯入
 
-當您將插入點放在缺少類型資訊的識別項時，PTVS 會提供智慧標籤 (程式碼左邊的燈泡圖示)，其命令會加入必要的 `import` 或 `from ... import` 陳述式︰
+當您將插入點放在缺少類型資訊的識別項時，Visual Studio 會提供智慧標籤 (程式碼左邊的燈泡圖示)，其命令會加入必要的 `import` 或 `from ... import` 陳述式︰
 
 ![加入匯入的智慧標籤](media/code-refactor-add-import-1.png)
 
@@ -80,23 +80,23 @@ ms.lasthandoff: 03/07/2017
 
 ![加入匯入的結果](media/code-refactor-add-import-2.png)
 
-PTVS 會嘗試篩選出未實際定義於模組中的成員，例如已匯入另一個模組，但不是執行匯入之模組子系的模組。 比方說，許多模組使用 `import sys` 而非 `from xyz import sys`，因此即使模組遺漏不包括 `sys` 的 `__all__` 成員，PTVS 也不會針對從其他模組匯入 `sys` 提供自動完成。
+Visual Studio 會嘗試篩選出未實際定義於模組中的成員，例如已匯入另一個模組，但不是執行匯入之模組子系的模組。 比方說，許多模組使用 `import sys` 而非 `from xyz import sys`，因此即使模組遺漏的 `__all__` 成員不含 `sys`，也不會完成匯入其他模組的 `sys`。
 
-同樣地，PTVS 會篩選從其他模組或內建的命名空間匯入的函式。 例如，如果模組從 `sys` 模組匯入 `settrace` 函式，則理論上您可以從該模組將它匯入。 但最好直接使用 `import settrace from sys`，PTVS 才會具體提供該陳述式。
+同樣地，Visual Studio 會篩選從其他模組或內建命名空間匯入的函式。 例如，如果模組從 `sys` 模組匯入 `settrace` 函式，則理論上您可以從該模組將它匯入。 但最好直接使用 `import settrace from sys`，Visual Studio 才會具體提供該陳述式。
 
-最後，如果某項目會因為上述規則被排除，但卻含有其他會包含的值 (例如，因為已在模組中指派名稱的值)，PTVS 仍會排除匯入。 這會假設不應該匯出值，因為它定義在另一個模組中，因此其他的指派可能是空的值，也不會匯出。
+最後，如果某項目因為上述規則被排除，但卻具有其他會包含的值 (例如，因為已在模組中指派名稱的值)，Visual Studio 仍會排除匯入。 這會假設不應該匯出值，因為它定義在另一個模組中，因此其他的指派可能是空的值，也不會匯出。
 
 <a name="remove-imports"</a>
 ## <a name="remove-unused-imports"></a>移除未使用的匯入
 
-撰寫程式碼時，對於完全未使用的模組，很容易得到 `import` 陳述式。 因為 PTVS 會分析您的程式碼，它可以自動判斷 `import` 陳述式是否有必要，方法是查看是否在範圍內使用了匯入的名稱 (陳述式即出現在該範圍下方)。
+撰寫程式碼時，對於完全未使用的模組，很容易得到 `import` 陳述式。 由於 Visual Studio 會分析您的程式碼，因此可以查看範圍內是否使用了匯入的名稱 (陳述式即出現在該範圍下方)，以自動判斷 `import` 陳述式是否有必要。
 
 以滑鼠右鍵按一下編輯器中的任意處並選取 [移除匯入]，這樣會提供選項讓您從 [所有範圍] 或僅從 [目前的範圍] 移除：
 
 ![[移除匯入] 功能表](media/code-refactor-remove-imports-1.png)
 
-PTVS 會接著對程式碼進行適當的變更︰
+Visual Studio 即會對程式碼進行適當的變更：
 
 ![移除匯入的結果](media/code-refactor-remove-imports-2.png)
 
-請注意，PTVS 不考慮控制流程；在 `import` 陳述式之前使用名稱，會視為實際上使用該名稱。 PTVS 也會忽略所有 `from __future__` 匯入、在類別定義內執行的匯入，以及來自 `from ... import *` 陳述式的匯入。
+請注意，Visual Studio 不考慮控制流程；如果您在 `import` 陳述式之前使用名稱，即視同實際使用該名稱。 Visual Studio 也會忽略所有 `from __future__` 匯入、在類別定義內執行的匯入，以及來自 `from ... import *` 陳述式的匯入。

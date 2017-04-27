@@ -29,9 +29,9 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 translationtype: Human Translation
-ms.sourcegitcommit: 46846db26bee30841e6cb35913d533b512d01ba0
-ms.openlocfilehash: 730207e42f42c0cd5d1b78dc558e58267343d186
-ms.lasthandoff: 03/27/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: 002c77b27f7283ecd28d7ec5470b0ed44b2bb7a4
+ms.lasthandoff: 04/10/2017
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/27/2017
 
 本主題會逐步建置適用於 CPython 的 C++ 延伸模組，計算雙曲線正切函數，並從 Python 程式碼呼叫它。 為了示範效能差異，您將先以 Python 建立和測試常式。
 
-這裡採用的方法是針對標準 CPython 延伸模組，如 [Python 文件](https://docs.python.org/e/c-api/)中所述。 此方法與其他方法之間的比較，描述於本主題結尾的[替代方法](#alternative-approaches)。
+這裡採用的方法是針對標準 CPython 延伸模組，如 [Python 文件](https://docs.python.org/3/c-api/)中所述。 此方法與其他方法之間的比較，描述於本主題結尾的[替代方法](#alternative-approaches)。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -231,7 +231,7 @@ ms.lasthandoff: 03/27/2017
 
 1. 如果您使用 Visual Studio 2017，請執行 Visual Studio 安裝程式，然後依序選取 [修改]、[個別元件] > [編譯器、建置工具和執行階段] > [Visual C++ 2015.3 v140 工具組]。 這是因為 Python (適用於 Windows) 本身是使用 Visual Studio 2015 (14.0 版) 所建置，並預期在透過此處所述方法建置延伸模組時，這些工具可供使用。
 
-1. 在 C++ 專案中建立名為 `setup.py` 的檔案，方法是以滑鼠右鍵按一下專案、選取 [新增] > [新增項目...]*、搜尋 "Python" 並選取 [Python 檔案]**、將它命名為 setup.py，然後選取 [確定]**。 當檔案出現在編輯器中時，將下列程式碼貼入其中︰
+1. 在 C++ 專案中建立名為 `setup.py` 的檔案，方法是以滑鼠右鍵按一下專案，選取 *[新增] > [新增項目...]，再搜尋 "Python" 並選取 [Python 檔案]，將它命名為 setup.py，然後選取 [確定]。 當檔案出現在編輯器中時，將下列程式碼貼入其中︰
 
     ```python
     from distutils.core import setup, Extension, DEBUG
@@ -284,7 +284,7 @@ Visual Studio 中的 Python 支援包括能夠[同時偵錯 Python 和 C++ 程�
 
 | 方法 | 年分 | 代表使用者 | 正面意見 | 反面意見 |
 | --- | --- | --- | --- | --- |
-| 適用於 CPython 的 C/C++ 延伸模組 | 1991 | 標準程式庫 | [大量文件與教學課程](https://docs.python.org/e/c-api/)。 完全控制。 | 編譯、可攜性、參考管理。 高度 C 知識。 |
+| 適用於 CPython 的 C/C++ 延伸模組 | 1991 | 標準程式庫 | [大量文件與教學課程](https://docs.python.org/3/c-api/)。 完全控制。 | 編譯、可攜性、參考管理。 高度 C 知識。 |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | 一次產生許多語言的繫結。 | 如果 Python 是唯一的目標，負荷會過大。 |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | 不需編譯、廣泛可用。 | 存取與變更 C 結構麻煩又容易出錯。 |
 | Cython | 2007 | [gevent](http://www.gevent.org/)、[kivy](https://kivy.org/) | 類似 Python。 高度成熟。 高效能。 | 編譯、新的語法和工具鏈。 |

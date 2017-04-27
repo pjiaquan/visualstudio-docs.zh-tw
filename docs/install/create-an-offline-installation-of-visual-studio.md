@@ -2,7 +2,7 @@
 title: "建立 Visual Studio 2017 的離線安裝程式 | Microsoft Docs"
 description: "了解如何建立 Visual Studio 的離線安裝程式。"
 ms.custom: 
-ms.date: 03/21/2017
+ms.date: 04/05/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,9 +34,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 5b6334c38a6c058f274498c06f8e07c934931910
-ms.openlocfilehash: 563c78a49eb55886b1ddbd4f437951c99c6568e5
-ms.lasthandoff: 03/22/2017
+ms.sourcegitcommit: 4e33dc3ebb32569b547aa9bcb6db9a15dbe4fc21
+ms.openlocfilehash: fda1a4fbfebd856312174fe24ff161b0e9d04bb9
+ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="create-an-offline-installer-for-visual-studio-2017"></a>建立 Visual Studio 2017 的離線安裝程式
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2017
 - 針對 Visual Studio Professional，請執行： <br> ```vs_professional.exe --layout c:\vs2017offline```
 - 針對 Visual Studio Community，請執行： <br> ```vs_community.exe --layout c:\vs2017offline```
 
-如需更多範例，請參閱此頁面上的[如何自訂您的離線安裝程式](#how-to-customize-your-offline- installer)一節。
+如需更多範例，請參閱此頁面上的[如何自訂您的離線安裝程式](#how-to-customize-your-offline-installer)一節。
 
 ## <a name="install-from-the-offline-installation-folder"></a>從離線安裝資料夾安裝
 請現在或稍後執行離線安裝；您可以自行決定。 但當您要執行此操作時，請依照下列步驟執行。
@@ -98,6 +98,7 @@ ms.lasthandoff: 03/22/2017
 
 | 問題       | 項目                   | 方案 |
 | ----------- | ---------------------- | -------- |
+| 您從 Visual Studio 安裝程式收到錯誤訊息，指出：「安裝已完成但有警告」，而且 Windows 模擬器接著無法安裝。 | Windows 10 模擬器 | 開啟 Visual Studio 的離線安裝資料夾，巡覽至子資料夾 "Win10_Emulator_10.0.15063,version=10.0.15063.12,chip=x64"，然後執行 EmulatorSetup.exe 來安裝 Windows 模擬器。 |
 | 您收到有關無法安裝某些元件和套件的警告訊息。  | Android SDK 安裝程式 (API 層級) | 如果您想要包含 Android SDK (API 層級) 套件，則在您建立離線安裝程式時，必須有網際網路連線。 如果您是在受限制的網路上，則必須允許存取下列 URL： <br><br> - http://dl.google.com:443 <br> - http://dl-ssl.google.com:443 <br>  - https://dl-ssl.google.com/android/repository/*<br><br>如需如何解決可能 Proxy 設定問題的詳細資訊，請參閱 [Visual Studio install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) (受 Proxy 保護的 Visual Studio 安裝失敗 (Android SDK 安裝程式)) 部落格文章。  |  
 | 使用者沒有檔案的存取權。 | 權限 (ACL) | 請務必在您共用離線安裝「之前」調整權限 (ACL)，讓它們將「讀取權」授與其他使用者。 |
 | 無法安裝新的工作負載、元件或語言。  | `--layout`  | 如果您要從某個部分配置安裝，請確定您能夠存取網際網路，然後選取先前配置中沒有的工作負載、元件或語言。 |
