@@ -2,7 +2,7 @@
 title: "安裝 Visual Studio 2017 | Microsoft Docs"
 description: "了解如何逐步安裝 Visual Studio。"
 ms.custom: 
-ms.date: 04/03/2017
+ms.date: 04/06/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -37,9 +37,9 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: af9699b63fdfb81a274affb78856817520c38b05
-ms.openlocfilehash: 47688935cec36db174c3a0c424b1705ae47c6118
-ms.lasthandoff: 04/03/2017
+ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
+ms.openlocfilehash: 059dd2068c5aa0d55f94f293d8430a1f401354ba
+ms.lasthandoff: 04/06/2017
 
 ---
 # <a name="install-visual-studio-2017"></a>安裝 Visual Studio 2017
@@ -76,7 +76,7 @@ ms.lasthandoff: 04/03/2017
 
 1.  在 [安裝 Visual Studio] 畫面中找到您想要的工作負載。  
 
-  ![Visual Studio 2017 安裝程式對話方塊](media/vs2017-workloads.PNG "安裝 Visual Studio 2017")
+  ![Visual Studio 2017 安裝程式對話方塊](media/vs2017-workloads.PNG "安裝 Visual Studio 工作負載")
 
      例如，選擇 .NET 桌面開發工作負載。 它隨附預設核心編輯器，其中包括超過 20 種語言的基本程式碼編輯支援、能夠從任何資料夾開啟及編輯程式碼而不需要專案，以及整合的原始程式碼控制。  
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 04/03/2017
 
 如果您不打算使用好用的 [工作負載] 功能來自訂 Visual Studio 安裝，請從 Visual Studio 安裝程式按一下 [個別元件] 選項，選取所需的設定，然後依照提示進行。
 
-  ![Visual Studio 2017 - 安裝個別元件](media/vs2017-workloads.PNG "安裝 Visual Studio 的個別元件")
+  ![Visual Studio 2017 - 安裝個別元件](media/vs2017-components.PNG "安裝 Visual Studio 的個別元件")
 
 ## <a name="install-language-packs"></a>安裝語言套件
 
@@ -107,7 +107,10 @@ ms.lasthandoff: 04/03/2017
 
 ## <a name="see-also"></a>請參閱  
 * [修改 Visual Studio 2017](modify-visual-studio.md)
+* [更新 Visual Studio](update-visual-studio.md)
 * [解除安裝 Visual Studio 2017](uninstall-visual-studio.md)
 * [Visual Studio 系統管理員指南](visual-studio-administrator-guide.md)
+* [建立 Visual Studio 2017 的離線安裝程式](create-an-offline-installation-of-visual-studio.md)
+* [使用命令列參數安裝 Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) 
 * [如何回報在使用 Visual Studio 2017 時發生的問題](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
 
