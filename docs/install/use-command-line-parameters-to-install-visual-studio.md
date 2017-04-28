@@ -1,7 +1,7 @@
 ---
 title: "使用命令列參數安裝 Visual Studio | Microsoft Docs"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 04/06/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -32,16 +32,16 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 translationtype: Human Translation
-ms.sourcegitcommit: 2a6555eb9c0a88b1533428cf2aa932b3fc4960ec
-ms.openlocfilehash: e8ddcebccc5a8a949c75a33de6732d42134e6445
-ms.lasthandoff: 03/30/2017
+ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
+ms.openlocfilehash: 09c6971e21e48d250e3a9869860459fd8cbbb50f
+ms.lasthandoff: 04/10/2017
 
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>使用命令列參數來安裝 Visual Studio 2017
-當您從命令提示字元安裝 Visual Studio 2017 時，可以使用各種命令列參數來控制或自訂安裝。 您可以從命令列：
-- 使用預先選取的特定選項開始安裝 
-- 自動化安裝程序
-- 建立安裝檔案的快取 (配置)，以供稍後使用。 
+當您從命令提示字元安裝 Visual Studio 2017 時，可以使用各種命令列參數來控制或自訂安裝。 您可以從命令列執行下列動作：
+- 使用預先選取的特定選項開始安裝。
+- 自動化安裝程序。
+- 建立安裝檔案的快取 (配置)，以供稍後使用。
 
 命令列選項會搭配安裝程式啟動載入器使用，這是起始下載程序的小型檔案 (約 1 MB)。 當您從 Visual Studio 網站下載時，啟動載入器是第一個啟動的可執行檔。 您可以從下列連結，取得適用於您要安裝之產品版本最新版啟動載入器的直接連結：
 
@@ -54,11 +54,12 @@ ms.lasthandoff: 03/30/2017
 
 >  語法：`vs_enterprise.exe [command] <options>...`
 
-(根據您要安裝的產品版本適當地取代 `vs_enterprise.exe`)
+(根據您要安裝的產品版本，適當地取代 `vs_enterprise.exe`。 如需範例，請參閱[命令列參數範例](command-line-parameter-examples.md)頁面)。
+
 
 | **命令** | **說明** |
-| ----------------------- | --------------- | 
-| (空白) | 安裝產品。 | 
+| ----------------------- | --------------- |
+| (空白) | 安裝產品。 |
 | ```modify``` | 修改所安裝的產品。 |
 | ```update``` | 更新所安裝的產品。 |
 | ```repair``` | 修復所安裝的產品。 |
@@ -108,7 +109,6 @@ ms.lasthandoff: 03/30/2017
 | de-DE | 德文 |
 | zh-TW | 英文 |
 | es-ES | 西班牙文 |
-| cs-CZ | 捷克文 |
 | fr-FR | 法文 |
 | it-IT | 義大利文 |
 | ja-JP | 日文 |
@@ -123,17 +123,19 @@ ms.lasthandoff: 03/30/2017
 
 ## <a name="error-codes"></a>錯誤碼
 根據作業的結果，`%ERRORLEVEL%` 環境變數將會設定為下列其中一個值：
+
 | **值** | **結果** |
 | --------- | ---------- |
 | 0 | 作業成功完成 |
 | 3010 | 作業成功完成，但安裝需要重新開機才能使用 |
 | 其他 | 發生失敗狀況 - 請檢查記錄檔以取得詳細資訊 |
 
-每個作業會在 `%TEMP%` 目錄中產生幾個記錄檔，以指出安裝進度。 依日期排序資料夾，然後分別針對啟動載入器、安裝程式應用程式和安裝程式引擎尋找開頭為 `dd_bootstrapper`、`dd_client` 和 `dd_setup` 的檔案。 
+每個作業會在 `%TEMP%` 目錄中產生幾個記錄檔，以指出安裝進度。 依日期排序資料夾，然後分別針對啟動載入器、安裝程式應用程式和安裝程式引擎尋找開頭為 `dd_bootstrapper`、`dd_client` 和 `dd_setup` 的檔案。
 
 ## <a name="see-also"></a>請參閱
 
- * [安裝 Visual Studio](install-visual-studio.md)
+ * [安裝 Visual Studio 2017](install-visual-studio.md)
  * [建立 Visual Studio 2017 的離線安裝](create-an-offline-installation-of-visual-studio.md)
- * [回報 Visual Studio 的問題](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
+ * [Visual Studio 2017 安裝的命令列參數範例](command-line-parameter-examples.md)
+ * [回報 Visual Studio 2017 的問題](../ide/how-to-report-a-problem-with-visual-studio-2017.md)
 
