@@ -129,8 +129,3 @@
 ##### [選取規則集對話方塊 (舊版)](select-rule-set-dialog-box-legacy.md)
 ##### [主題組態對話方塊 (舊版)](theme-configuration-dialog-box-legacy.md)
 ##### [選項對話方塊、工作流程設計工具、佈景主題 (舊版)](themes-workflow-designer-options-dialog-box-legacy.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
