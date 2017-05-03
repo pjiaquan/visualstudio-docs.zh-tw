@@ -37,4 +37,4 @@ caps.handback.revision: 7
  這些限制都不適用於選擇實作無限制執行緒的 [IActiveScriptSite](../winscript/reference/iactivescriptsite.md) 介面的無限制執行緒物件模型的主機。  這類主應用程式可以從任何執行緒的 [IActiveScript](../winscript/reference/iactivescript.md) 介面，，不受限制。  
   
 ## 請參閱  
- [\<PAVE OVER\> Microsoft Windows 指令碼介面 \- 簡介](../Topic/%3CPAVE%20OVER%3E%20Microsoft%20Windows%20Script%20Interfaces%20-%20Introduction.md)
+ [\<PAVE OVER\> Microsoft Windows 指令碼介面 \- 簡介](http://msdn.microsoft.com/library/3d10169f-2984-49ef-90c6-dd89c97f1dd6)

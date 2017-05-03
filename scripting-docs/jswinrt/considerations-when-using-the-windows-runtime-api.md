@@ -22,7 +22,7 @@ caps.handback.revision: 8
 您可以在 JavaScript 中使用 Windows 執行階段應用程式開發介面的幾乎每一個項目。  不過，Windows 執行階段項目的 JavaScript 表示的某些層面是您應該記住的。  
   
 > [!IMPORTANT]
->  如需以 C\+\+、C\# 或 Visual Basic 建立 Windows 執行階段元件以及在 JavaScript 中使用這些元件的詳細資訊，請參閱[建立 Windows 執行階段元件](../Topic/Creating%20Windows%20Runtime%20Components.md)。  
+>  如需以 C\+\+、C\# 或 Visual Basic 建立 Windows 執行階段元件以及在 JavaScript 中使用這些元件的詳細資訊，請參閱[建立 Windows 執行階段元件](http://msdn.microsoft.com/library/9a6b8f0a-7d5e-40a0-a9c5-a59b4908e133)。  
   
 ## Windows 執行階段型別的 JavaScript 表示的特殊案例  
   

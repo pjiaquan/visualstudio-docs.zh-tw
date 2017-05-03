@@ -43,7 +43,7 @@ caps.handback.revision: 28
   
 -   如需 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)]應用程式開發介面的詳細資訊，請參閱 [Windows 執行階段和 Windows Library for JavaScript 的應用程式開發介面參考](http://go.microsoft.com/fwlink/p/?LinkID=250938)。  
   
- Visual Studio 中的 JavaScript 編輯器會提供 IntelliSense 支援。  如需詳細資訊，請參閱 [JavaScript IntelliSense](../Topic/JavaScript%20IntelliSense.md)。  
+ Visual Studio 中的 JavaScript 編輯器會提供 IntelliSense 支援。  如需詳細資訊，請參閱 [JavaScript IntelliSense](~/ide/javascript-intellisense.md)。  
   
 ## 在本節中  
  [版本資訊](../../javascript/reference/javascript-version-information.md)  

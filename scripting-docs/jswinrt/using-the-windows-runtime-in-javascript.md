@@ -30,7 +30,7 @@ caps.handback.revision: 13
  如需參考文件，請參閱 [Windows Runtime reference](http://msdn.microsoft.com/zh-tw/8fe97dbf-8cd4-435f-b481-9e83d0519f9e)。  該文件提供 JavaScript 以及 C\+\+、C\# 和 Visual Basic 的程式碼範例。  
   
 ## 以 C\+\+、C\# 或 Visual Basic 撰寫 Windows 執行階段元件  
- 如需撰寫可在 JavaScript 中使用之 Windows 執行階段元件的指示和方針，請參閱 [建立 Windows 執行階段元件](../Topic/Creating%20Windows%20Runtime%20Components.md)。  
+ 如需撰寫可在 JavaScript 中使用之 Windows 執行階段元件的指示和方針，請參閱 [建立 Windows 執行階段元件](http://msdn.microsoft.com/library/9a6b8f0a-7d5e-40a0-a9c5-a59b4908e133)。  
   
 ## Windows 執行階段功能的大小寫慣例  
  在 JavaScript 中的 Windows 執行階段功能大小寫慣例與其他語言稍有不同：  

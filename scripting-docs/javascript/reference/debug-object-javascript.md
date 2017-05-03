@@ -37,7 +37,7 @@ Debug.function
 ## 備註  
  您不必讓 Debug 物件執行個體化。 呼叫 `function` 就可以存取其所有屬性和方法。  
   
- 還有其他方式可以偵錯 Internet Explorer 和 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式。 在 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式中，`Debug` 物件的 `write` 和 `writeln` 函式會在執行階段於 Visual Studio 的 \[輸出\] 視窗中顯示字串。 如需偵錯 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式的詳細資訊，請參閱[在 Visual Studio 中偵錯應用程式](../Topic/Debug%20Store%20apps%20in%20Visual%20Studio.md)。  
+ 還有其他方式可以偵錯 Internet Explorer 和 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式。 在 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式中，`Debug` 物件的 `write` 和 `writeln` 函式會在執行階段於 Visual Studio 的 \[輸出\] 視窗中顯示字串。 如需偵錯 [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] 應用程式的詳細資訊，請參閱[在 Visual Studio 中偵錯應用程式](~/debugger/debug-store-apps-in-visual-studio.md)。  
   
  若要偵錯 Internet Explorer 指令碼，您必須安裝指令碼偵錯工具，且指令碼必須在偵錯模式中執行。 Internet Explorer 8 和更新版本都附有 [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] 偵錯工具。 如果使用舊版的 Internet Explorer，請參閱[如何：從 Internet Explorer 啟用和啟動指令碼偵錯](http://go.microsoft.com/fwlink/?LinkId=133801)。  
   
