@@ -1,0 +1,66 @@
+---
+title: "如何：將自訂 XML 組件加入至文件層級自訂 | Microsoft Docs"
+ms.custom: ""
+ms.date: "02/02/2017"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "office-development"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "VB"
+  - "CSharp"
+helpviewer_keywords: 
+  - "文件層級自訂 [Visual Studio 中的 Office 程式開發]，自訂 XML 組件"
+  - "Office 文件 [Visual Studio 中的 Office 程式開發]，自訂 XML 組件"
+  - "Word [Visual Studio 中的 Office 程式開發]，自訂 XML 組件"
+  - "Excel [Visual Studio 中的 Office 程式開發]，自訂 XML 組件"
+  - "自訂 XML 組件 [Visual Studio 中的 Office 程式開發]，加入"
+  - "文件 [Visual Studio 中的 Office 程式開發]，自訂 XML 組件"
+ms.assetid: e305a3d6-3a0e-4e72-ab8c-6a87a3590068
+caps.latest.revision: 27
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 26
+---
+# 如何：將自訂 XML 組件加入至文件層級自訂
+  您可以在文件層級自訂中建立自訂 XML 組件，將 XML 資料儲存在 Microsoft Office Excel 活頁簿或 Microsoft Office Word 文件中。 如需詳細資訊，請參閱[自訂 XML 組件概觀](../vsto/custom-xml-parts-overview.md)。  
+  
+ [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
+  
+> [!NOTE]  
+>  Visual Studio 不提供 Microsoft Office PowerPoint 的文件層級專案。 如需使用 VSTO 增益集將自訂 XML 組件加入 PowerPoint 簡報的相關資訊，請參閱[如何：使用 VSTO 增益集將自訂 XML 組件加入文件中](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)。  
+  
+### 將自訂 XML 組件加入至 Excel 活頁簿  
+  
+1.  將新的 <xref:Microsoft.Office.Core.CustomXMLPart> 物件加入至活頁簿中的 <xref:Microsoft.Office.Core.CustomXMLParts> 集合。<xref:Microsoft.Office.Core.CustomXMLPart> 包含您要儲存在活頁簿中的 XML 字串。  
+  
+     [!code-csharp[Trin_AddCustomXmlPartExcelDocLevel#1](../snippets/csharp/VS_Snippets_OfficeSP/Trin_AddCustomXmlPartExcelDocLevel/CS/ThisWorkbook.cs#1)]
+     [!code-vb[Trin_AddCustomXmlPartExcelDocLevel#1](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_AddCustomXmlPartExcelDocLevel/VB/ThisWorkbook.vb#1)]  
+  
+2.  將 `AddCustomXmlPartToWorkbook` 方法加入 Excel 文件層級專案中的 `ThisWorkbook` 類別。  
+  
+3.  從專案中的其他程式碼呼叫方法。 例如，若要在使用者開啟活頁簿時建立自訂 XML 組件，請從 `ThisWorkbook_Startup` 事件處理常式呼叫方法。  
+  
+### 將自訂 XML 組件加入至 Word 文件  
+  
+1.  將新的 <xref:Microsoft.Office.Core.CustomXMLPart> 物件加入至文件中的 <xref:Microsoft.Office.Core.CustomXMLParts> 集合。<xref:Microsoft.Office.Core.CustomXMLPart> 包含您要儲存在文件中的 XML 字串。  
+  
+     [!code-csharp[Trin_AddCustomXmlPartWordDocLevel#1](../snippets/csharp/VS_Snippets_OfficeSP/Trin_AddCustomXmlPartWordDocLevel/CS/ThisDocument.cs#1)]
+     [!code-vb[Trin_AddCustomXmlPartWordDocLevel#1](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_AddCustomXmlPartWordDocLevel/VB/ThisDocument.vb#1)]  
+  
+2.  將 `AddCustomXmlPartToDocument` 方法加入 Word 文件層級專案中的 `ThisDocument` 類別。  
+  
+3.  從專案中的其他程式碼呼叫方法。 例如，若要在使用者開啟文件時建立自訂 XML 組件，請從 `ThisDocument_Startup` 事件處理常式呼叫方法。  
+  
+## 穩固程式設計  
+ 為了簡單起見，這個範例使用定義為方法中區域變數的 XML 字串。 通常，您應從外部來源取得 XML，例如檔案或資料庫。  
+  
+## 請參閱  
+ [自訂 XML 組件概觀](../vsto/custom-xml-parts-overview.md)   
+ [如何：使用 VSTO 增益集將自訂 XML 組件加入文件中](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)  
+  
+  
