@@ -10,6 +10,8 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
+		"sharepoint/**",
+		"vsto/**",
 			"code-quality/**",
 			"csharp-ide/**",
 			"data-tools/**",
