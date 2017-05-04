@@ -1,0 +1,50 @@
+---
+title: "JsGetExternalData 函式 | Microsoft Docs"
+ms.custom: ""
+ms.date: "01/18/2017"
+ms.prod: "windows-client-threshold"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "reference"
+f1_keywords: 
+  - "jsrt/JsGetExternalData"
+helpviewer_keywords: 
+  - "JsGetExternalData 函式"
+ms.assetid: 1919e1da-3ea7-4269-a5fb-a3be06bd029b
+caps.latest.revision: 12
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+caps.handback.revision: 12
+---
+# JsGetExternalData 函式
+從外部物件擷取資料。  
+  
+## 語法  
+  
+```  
+STDAPI_(JsErrorCode) JsGetExternalData(  
+   _In_ JsValueRef object,  
+   _Out_ void **externalData  
+);  
+```  
+  
+#### 參數  
+ `object`  
+ 外部物件。  
+  
+ `externalData`  
+ 儲存在物件中的外部資料。  如果沒有外部資料儲存在物件中，可以是 null。  
+  
+## 傳回值  
+ 如果作業成功，則為 `JsNoError` 碼，否則為失敗碼。  
+  
+## 備註  
+ 需要使用中指令碼內容。  
+  
+## 需求  
+ **標頭：**jsrt.h  
+  
+## 請參閱  
+ [參考 \(JavaScript 執行階段\)](../chakra-hosting/reference-javascript-runtime.md)
