@@ -39,7 +39,7 @@ caps.handback.revision: 47
   
 1.  在 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 中開啟 Word 文件層級專案，同時在設計工具中開啟文件。  
   
-2.  開啟 \[資料來源\] 視窗，並從資料庫建立資料來源。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md)。  
+2.  開啟 \[資料來源\] 視窗，並從資料庫建立資料來源。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](~/data-tools/how-to-connect-to-data-in-a-database.md)。  
   
 3.  將想要的欄位從 \[資料來源\] 視窗拖曳至您的文件。  
   
@@ -52,11 +52,11 @@ caps.handback.revision: 47
   
 -   封裝連接到資料庫之資料表的具類型資料集。  如需詳細資訊，請參閱 [使用 Visual Studio 中的資料集](../data-tools/dataset-tools-in-visual-studio.md)。  
   
--   將控制項連接至具類型資料集的 <xref:System.Windows.Forms.BindingSource>。  如需詳細資訊，請參閱 [BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)。  
+-   將控制項連接至具類型資料集的 <xref:System.Windows.Forms.BindingSource>。  如需詳細資訊，請參閱 [BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)。  
   
 -   將具類型資料集連接至資料庫的 TableAdapter。  如需詳細資訊，請參閱 [TableAdapter 概觀](/visual-studio/data-tools/tableadapter-overview)。  
   
--   TableAdapterManager 用於協調資料集中的表格配接器，以啟用階層式更新。  如需詳細資訊，請參閱[階層式更新](../data-tools/hierarchical-update.md)和 [TableAdapterManager 概觀](../Topic/TableAdapterManager%20Overview.md)。  
+-   TableAdapterManager 用於協調資料集中的表格配接器，以啟用階層式更新。  如需詳細資訊，請參閱[階層式更新](../data-tools/hierarchical-update.md)和 [TableAdapterManager 概觀](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)。  
   
  當您執行專案時，控制項會顯示資料來源中的第一筆記錄。  您可以使用 <xref:System.Windows.Forms.BindingSource>，讓使用者捲動資料列。  
   
@@ -74,6 +74,6 @@ caps.handback.revision: 47
  [如何：從主控制項中使用資料更新資料來源](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
  [使用在 Office 方案概觀中的本機資料庫檔案](../vsto/using-local-database-files-in-office-solutions-overview.md)   
  [連接至 Windows Form 應用程式中的資料](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)  
+ [BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)  
   
   

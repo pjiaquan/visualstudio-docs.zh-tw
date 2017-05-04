@@ -31,7 +31,7 @@ caps.handback.revision: 55
  控制項的堆疊順序，視執行窗格是垂直還是水平停駐而定。  
   
 > [!NOTE]  
->  如果使用者在執行階段調整執行窗格的大小，則您可以設定控制項調整大小以與執行窗格相符。  您可以使用 Windows Form 控制項的 <xref:System.Windows.Forms.Control.Anchor%2A> 屬性，將控制項錨定至執行窗格。  如需詳細資訊，請參閱[如何：錨定 Windows Form 上的控制項](../Topic/How%20to:%20Anchor%20Controls%20on%20Windows%20Forms.md)。  
+>  如果使用者在執行階段調整執行窗格的大小，則您可以設定控制項調整大小以與執行窗格相符。  您可以使用 Windows Form 控制項的 <xref:System.Windows.Forms.Control.Anchor%2A> 屬性，將控制項錨定至執行窗格。  如需詳細資訊，請參閱[如何：錨定 Windows Form 上的控制項](http://msdn.microsoft.com/library/59ea914f-fbd3-427a-80fe-decd02f7ae6d)。  
   
 > [!NOTE]  
 >  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置：  您所擁有的 Visual Studio 版本和使用的設定決定了這些項目。  如需詳細資訊，請參閱[Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/zh-tw/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  

@@ -191,7 +191,7 @@ caps.handback.revision: 57
   
 -   將儲存格繫結至資料表中多個資料行，而不是一個資料欄位。  如需詳細資訊，請參閱[逐步解說：文件層級專案中的複雜資料繫結](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)。  
   
--   使用 <xref:System.Windows.Forms.BindingNavigator> 控制項，以捲動記錄。  如需詳細資訊，請參閱[如何：使用 Windows Form BindingNavigator 控制項巡覽資料](../Topic/How%20to:%20Navigate%20Data%20with%20the%20Windows%20Forms%20BindingNavigator%20Control.md)。  
+-   使用 <xref:System.Windows.Forms.BindingNavigator> 控制項，以捲動記錄。  如需詳細資訊，請參閱[如何：使用 Windows Form BindingNavigator 控制項巡覽資料](http://msdn.microsoft.com/library/0e5d4f34-bc9b-47cf-9b8d-93acbb1f1dbb)。  
   
 ## 請參閱  
  [將資料繫結至 Office 方案中的控制項](../vsto/binding-data-to-controls-in-office-solutions.md)   

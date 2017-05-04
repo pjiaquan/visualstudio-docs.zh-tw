@@ -77,9 +77,9 @@ caps.handback.revision: 13
   
     ```  
   
-     如需如何在 C\# 專案中建立建置後事件的詳細資訊，請參閱 [如何：指定建置事件 &#40;C&#35;&#41;](../Topic/How%20to:%20Specify%20Build%20Events%20(C%23).md)。  
+     如需如何在 C\# 專案中建立建置後事件的詳細資訊，請參閱 [如何：指定建置事件 &#40;C&#35;&#41;](~/ide/how-to-specify-build-events-csharp.md)。  
   
-     如需如何在 Visual Basic 專案中建立建置後事件的詳細資訊，請參閱 [如何：指定建置事件 &#40;C&#35;&#41;](../Topic/How%20to:%20Specify%20Build%20Events%20(C%23).md)。  
+     如需如何在 Visual Basic 專案中建立建置後事件的詳細資訊，請參閱 [如何：指定建置事件 &#40;C&#35;&#41;](~/ide/how-to-specify-build-events-csharp.md)。  
   
 ##  <a name="Publish"></a> 使用 Windows Installer 發行 Office 方案  
  如果使用 Windows Installer 發行方案，在載入 VSTO 增益集時，Visual Studio 2010 Tools for Office Runtime 會略過下列步驟。  

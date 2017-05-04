@@ -42,7 +42,7 @@ caps.handback.revision: 32
   
 -   封送處理  
   
- 如需多執行緒處理的一般資訊，請參閱[元件中的多執行緒](../Topic/Multithreading%20in%20Components.md)。  
+ 如需多執行緒處理的一般資訊，請參閱[元件中的多執行緒](http://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)。  
   
  Office 會在主 STA 中執行。  了解這點的含意後，就可以了解如何搭配 Office 使用多個執行緒。  
   
@@ -68,16 +68,16 @@ caps.handback.revision: 32
  [!code-csharp[Trin_VstcoreCreatingExcel#5](../snippets/csharp/VS_Snippets_OfficeSP/Trin_VstcoreCreatingExcel/CS/ThisWorkbook.cs#5)]
  [!code-vb[Trin_VstcoreCreatingExcel#5](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_VstcoreCreatingExcel/VB/ThisWorkbook.vb#5)]  
   
- 如需詳細資訊，請參閱[Managed Threading Best Practices](../Topic/Managed%20Threading%20Best%20Practices.md)。  
+ 如需詳細資訊，請參閱[Managed Threading Best Practices](http://msdn.microsoft.com/library/e51988e7-7f4b-4646-a06d-1416cee8d557)。  
   
 ## 非強制回應表單  
  非強制回應表單允許在顯示表單的同時，與應用程式之間進行某種互動。  使用者與表單互動，而表單毋需關閉，即可與應用程式互動。  Office 物件模型支援 Managed 非強制回應表單，但是，不應該在背景執行緒上使用。  
   
 ## 請參閱  
- [元件中的多執行緒](../Topic/Multithreading%20in%20Components.md)   
- [Managed Threading](../Topic/Managed%20Threading.md)   
- [執行緒 &#40;C&#35; 和 Visual Basic&#41;](../Topic/Threading%20(C%23%20and%20Visual%20Basic).md)   
- [Using Threads and Threading](../Topic/Using%20Threads%20and%20Threading.md)   
+ [元件中的多執行緒](http://msdn.microsoft.com/library/2fc31e68-fb71-4544-b654-0ce720478779)   
+ [Managed Threading](http://msdn.microsoft.com/library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)   
+ [執行緒 &#40;C&#35; 和 Visual Basic&#41;](http://msdn.microsoft.com/library/552f6c68-dbdb-4327-ae36-32cf9063d88c)   
+ [Using Threads and Threading](http://msdn.microsoft.com/library/9b5ec2cd-121b-4d49-b075-222cf26f2344)   
  [設計和建立 Office 方案](../vsto/designing-and-creating-office-solutions.md)  
   
   

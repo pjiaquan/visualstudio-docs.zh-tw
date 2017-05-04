@@ -77,8 +77,8 @@ caps.handback.revision: 35
   
 ## 請參閱  
  [SharePoint 詳細架構開發](http://go.microsoft.com/fwlink/?LinkID=182103)   
- [ASP.NET 網頁概觀](../Topic/ASP.NET%20Web%20Forms%20Pages%20Overview.md)   
- [ASP.NET Web 網頁語法概觀](../Topic/ASP.NET%20Web%20Forms%20Page%20Syntax%20Overview.md)   
+ [ASP.NET 網頁概觀](http://msdn.microsoft.com/library/52fa0455-41ea-4315-8208-2861d1527da2)   
+ [ASP.NET Web 網頁語法概觀](http://msdn.microsoft.com/library/09074b20-ece9-46fa-bc8f-ab2595ed2c02)   
  [以程式設計 ASP.NET Web 網頁](http://msdn.microsoft.com/zh-tw/5626c661-8057-4de8-b658-c2e35ed4b4c9)  
   
   

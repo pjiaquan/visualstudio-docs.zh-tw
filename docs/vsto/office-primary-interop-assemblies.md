@@ -106,7 +106,7 @@ caps.handback.revision: 43
 |Microsoft Visual Basic for Applications Extensibility 5.3|Microsoft.Vbe.Interop.dll|  
   
 ### 繫結重新導向組件  
- 當您在全域組件快取中安裝及註冊 Office PIA 時 \(使用 Office 或是安裝 PIA 的可轉散發套件\)，只會在全域組件快取中安裝繫結重新導向組件。 這些組件可確保執行階段載入的是正確版本的主要 Interop 組件。 例如，當參考 [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] 組件的方案會在具有相同主要 Interop 組件之 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 版本的電腦上執行時，繫結重新導向組件會指示 [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] 執行階段載入 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 版本的主要 Interop 組件。 如需詳細資訊，請參閱[如何：啟用和停用自動繫結重新導向](../Topic/How%20to:%20Enable%20and%20Disable%20Automatic%20Binding%20Redirection.md)。  
+ 當您在全域組件快取中安裝及註冊 Office PIA 時 \(使用 Office 或是安裝 PIA 的可轉散發套件\)，只會在全域組件快取中安裝繫結重新導向組件。 這些組件可確保執行階段載入的是正確版本的主要 Interop 組件。 例如，當參考 [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] 組件的方案會在具有相同主要 Interop 組件之 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 版本的電腦上執行時，繫結重新導向組件會指示 [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] 執行階段載入 [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] 版本的主要 Interop 組件。 如需詳細資訊，請參閱[如何：啟用和停用自動繫結重新導向](http://msdn.microsoft.com/library/5fca42f3-bdce-4b81-a704-61e42c89d3ba)。  
   
 ## 請參閱  
  [如何：透過主要 Interop 組件以 Office 應用程式為目標](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   

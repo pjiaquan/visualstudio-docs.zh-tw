@@ -206,7 +206,7 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
   
  「無法載入自訂，因為無法建立應用程式定義域。」  
   
- Visual Studio 會使用融合 \(.NET Framework 組件載入器\)，在載入 Office 方案之前快取組件。  請確認 Visual Studio 可以寫入融合快取，然後再試一次。  如需詳細資訊，請參閱[陰影複製組件](../Topic/Shadow%20Copying%20Assemblies.md)。  
+ Visual Studio 會使用融合 \(.NET Framework 組件載入器\)，在載入 Office 方案之前快取組件。  請確認 Visual Studio 可以寫入融合快取，然後再試一次。  如需詳細資訊，請參閱[陰影複製組件](http://msdn.microsoft.com/library/de8b8759-fca7-4260-896b-5a4973157672)。  
   
 ### 使用 \[編輯後繼續\] 之後在文件層級專案中停止偵錯工具時發生錯誤  
  如果您在專案處於中斷模式時使用 \[編輯後繼續\] 來變更 Excel 或 Word 文件層級專案中的程式碼，並隨後停止偵錯工具，則可能會看到包含以下錯誤訊息的對話方塊。  

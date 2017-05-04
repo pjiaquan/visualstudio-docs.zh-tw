@@ -32,7 +32,7 @@ caps.handback.revision: 42
  每次將資料列加入繫結至資料的 <xref:Microsoft.Office.Tools.Excel.ListObject>，就會引發 <xref:Microsoft.Office.Tools.Excel.ListObject.BeforeAddDataBoundRow> 事件。 您可以處理這個事件以執行資料驗證。 例如，如果應用程式要求加入資料來源的員工年紀必須介於 18 至 65 歲之間，您可以先確認輸入的年齡落在該範圍內，再加入資料列。  
   
 > [!NOTE]  
->  除用戶端之外，亦請一律檢查伺服器上的使用者輸入。 如需詳細資訊，請參閱[安全用戶端應用程式](../Topic/Secure%20Client%20Applications.md)。  
+>  除用戶端之外，亦請一律檢查伺服器上的使用者輸入。 如需詳細資訊，請參閱[安全用戶端應用程式](http://msdn.microsoft.com/library/6239592e-fa7d-4dea-9f00-d296d0048b01)。  
   
 #### 在新資料列加入資料繫結的 ListObject 時驗證資料  
   

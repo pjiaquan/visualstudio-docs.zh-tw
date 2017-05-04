@@ -44,6 +44,6 @@ caps.handback.revision: 47
  [如何：以程式設計方式使用 Word 中的內建對話方塊](../vsto/how-to-programmatically-use-built-in-dialog-boxes-in-word.md)   
  [Word 物件模型概觀](../vsto/word-object-model-overview.md)   
  [Office 方案中的晚期繫結](../vsto/late-binding-in-office-solutions.md)   
- [反映 &#40;C&#35; 和 Visual Basic&#41;](../Topic/Reflection%20(C%23%20and%20Visual%20Basic).md)  
+ [反映 &#40;C&#35; 和 Visual Basic&#41;](http://msdn.microsoft.com/library/5d1d1bcf-08de-4d0b-97a8-912d17c00f26)  
   
   

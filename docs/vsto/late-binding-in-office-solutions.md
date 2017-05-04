@@ -68,7 +68,7 @@ caps.handback.revision: 48
  [Office 方案中的選擇性參數](../vsto/optional-parameters-in-office-solutions.md)   
  [使用動態類型 &#40;C&#35; 程式設計手冊&#41;](/dotnet/csharp/programming-guide/types/using-type-dynamic)   
  [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)   
- [反映 &#40;C&#35; 和 Visual Basic&#41;](../Topic/Reflection%20(C%23%20and%20Visual%20Basic).md)   
+ [反映 &#40;C&#35; 和 Visual Basic&#41;](http://msdn.microsoft.com/library/5d1d1bcf-08de-4d0b-97a8-912d17c00f26)   
  [設計和建立 Office 方案](../vsto/designing-and-creating-office-solutions.md)  
   
   

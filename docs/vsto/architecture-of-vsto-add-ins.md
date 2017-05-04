@@ -43,7 +43,7 @@ caps.handback.revision: 66
   
  組件會透過應用程式的主要 Interop 組件與應用程式的 COM 元件進行通訊。 如需詳細資訊，請參閱[Office 主要 Interop 組件](../vsto/office-primary-interop-assemblies.md)與[Office 方案開發概觀 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)。  
   
- 如果針對應用程式安裝多個 VSTO 增益集，則每一個 VSTO 增益集會在不同的應用程式定義域中載入。 這表示如果某個 VSTO 增益集運作失常，並不會導致其他 VSTO 增益集失敗。 此外，這樣有助於確保應用程式關閉後，所有 VSTO 增益集組件都會從記憶體中卸載。 如需應用程式定義域的詳細資訊，請參閱[應用程式定義域](../Topic/Application%20Domains.md)。  
+ 如果針對應用程式安裝多個 VSTO 增益集，則每一個 VSTO 增益集會在不同的應用程式定義域中載入。 這表示如果某個 VSTO 增益集運作失常，並不會導致其他 VSTO 增益集失敗。 此外，這樣有助於確保應用程式關閉後，所有 VSTO 增益集組件都會從記憶體中卸載。 如需應用程式定義域的詳細資訊，請參閱[應用程式定義域](http://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)。  
   
 > [!NOTE]  
 >  您使用 Visual Studio 中的 Office Developer Tools 建立的 VSTO 增益集，是設計為只在使用者啟動 Microsoft Office 主應用程式時使用。 如果是以程式設計的方式啟動應用程式 \(例如，使用 Automation\)，則該 VSTO 增益集可能無法如預期般運作。  

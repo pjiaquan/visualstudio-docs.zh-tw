@@ -220,7 +220,7 @@ caps.handback.revision: 39
 ## 手動建立 VSIX 套件  
  如果您想要手動建立用於 SharePoint 工具擴充功能的 VSIX 套件，請執行下列步驟：  
   
-1.  建立 extension.vsixmanifest 檔案、\[Content\_Types\].xml 和 VSIX 套件檔 \(.vsix file\)。  如需詳細資訊，請參閱[VSIX 套件的剖析](../extensibility/anatomy-of-a-vsix-package.md)與[如何：手動封裝擴充功能 &#40;VSIX 部署&#41;](../Topic/How%20to:%20Manually%20Package%20an%20Extension%20(VSIX%20Deployment).md)。  
+1.  建立 extension.vsixmanifest 檔案、\[Content\_Types\].xml 和 VSIX 套件檔 \(.vsix file\)。  如需詳細資訊，請參閱[VSIX 套件的剖析](../extensibility/anatomy-of-a-vsix-package.md)與[如何：手動封裝擴充功能 &#40;VSIX 部署&#41;](~/misc/how-to-manually-package-an-extension-vsix-deployment.md)。  
   
 2.  將擴充功能組件加入至 VSIX 套件。  如果擴充功能包含 SharePoint 命令，另請加入會對 VSIX 套件實作 SharePoint 命令的組件。  
   

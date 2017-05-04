@@ -73,7 +73,7 @@ caps.handback.revision: 37
   
 4.  如果您有 `AdventureWorksLT` 資料庫的現有連接，請選擇這個連接，然後按 \[下一步\]。  
   
-     否則，請按一下 \[新增連接\]，然後使用 \[加入連接\] 對話方塊建立新的連接。 如需詳細資訊，請參閱[如何：連接至資料庫中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md)。  
+     否則，請按一下 \[新增連接\]，然後使用 \[加入連接\] 對話方塊建立新的連接。 如需詳細資訊，請參閱[如何：連接至資料庫中的資料](~/data-tools/how-to-connect-to-data-in-a-database.md)。  
   
 5.  在 \[將連接字串儲存到應用程式組態檔\] 頁面上，按 \[下一步\]。  
   
@@ -146,6 +146,6 @@ caps.handback.revision: 37
  [將 Windows Form 控制項繫結至 Visual Studio 中的資料](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)   
  [使用在 Office 方案概觀中的本機資料庫檔案](../vsto/using-local-database-files-in-office-solutions-overview.md)   
  [連接至 Windows Form 應用程式中的資料](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)  
+ [BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)  
   
   

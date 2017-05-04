@@ -44,7 +44,7 @@ caps.handback.revision: 95
      \[**新增專案**\] 對話方塊隨即出現。  
   
     > [!NOTE]  
-    >  Office 專案的目標預設為 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]。  如需詳細資訊，請參閱 [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md)。  
+    >  Office 專案的目標預設為 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]。  如需詳細資訊，請參閱 [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)。  
   
 2.  在範本窗格中，您想要使用的語言節點下方，展開 \[Office\/SharePoint\]。  
   
@@ -95,7 +95,7 @@ caps.handback.revision: 95
      \[**新增專案**\] 對話方塊隨即出現。  
   
     > [!NOTE]  
-    >  Office 專案的目標預設為 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]。  如需詳細資訊，請參閱 [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md)。  
+    >  Office 專案的目標預設為 [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]。  如需詳細資訊，請參閱 [.NET Framework Client Profile](http://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1)。  
   
 2.  在範本窗格中，您想要使用的語言節點下方，展開 \[Office\/SharePoint\]。  
   

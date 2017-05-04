@@ -98,7 +98,7 @@ caps.handback.revision: 100
  您也可以撰寫程式碼來回應任何物件的事件，包括主控制項、應用程式或文件事件。  如需詳細資訊，請參閱[逐步解說：針對 NamedRange 控制項的事件進行程式設計](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)。  
   
 ## 在執行窗格將資料繫結至控制項  
- 執行窗格上的控制項和 Windows Form 上的控制項具有相同的資料繫結功能。  您可以將控制項繫結至資料來源，例如資料集、具類型資料集和 XML。  如需詳細資訊，請參閱[資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)。  
+ 執行窗格上的控制項和 Windows Form 上的控制項具有相同的資料繫結功能。  您可以將控制項繫結至資料來源，例如資料集、具類型資料集和 XML。  如需詳細資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
  您可以將執行窗格上的控制項和文件上的控制項繫結至相同的資料集。  例如，您可以在執行窗格的控制項和工作表的控制項之間，建立主要\/詳細資料關聯。  如需詳細資訊，請參閱[逐步解說：將資料繫結至 Excel 執行窗格上的控制項](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md)。  
   
@@ -124,7 +124,7 @@ caps.handback.revision: 100
  [!code-vb[Trin_VstcoreActionsPaneExcel#10](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_VstcoreActionsPaneExcel/VB/ThisWorkbook.vb#10)]  
   
 ## 錨定控制項  
- 如果使用者在執行階段調整執行窗格的大小，控制項大小可隨著執行窗格調整。  您可以使用 Windows Form 控制項的 <xref:System.Windows.Forms.Control.Anchor%2A> 屬性，將控制項錨定到執行窗格。  您也可以相同方式將 Windows Form 控制項錨定到使用者控制項。  如需詳細資訊，請參閱[如何：錨定 Windows Form 上的控制項](../Topic/How%20to:%20Anchor%20Controls%20on%20Windows%20Forms.md)。  
+ 如果使用者在執行階段調整執行窗格的大小，控制項大小可隨著執行窗格調整。  您可以使用 Windows Form 控制項的 <xref:System.Windows.Forms.Control.Anchor%2A> 屬性，將控制項錨定到執行窗格。  您也可以相同方式將 Windows Form 控制項錨定到使用者控制項。  如需詳細資訊，請參閱[如何：錨定 Windows Form 上的控制項](http://msdn.microsoft.com/library/59ea914f-fbd3-427a-80fe-decd02f7ae6d)。  
   
 ## 調整執行窗格大小  
  您不能直接變更 <xref:Microsoft.Office.Tools.ActionsPane> 的大小，因為 <xref:Microsoft.Office.Tools.ActionsPane> 內嵌在工作窗格中。  不過，您可設定代表工作窗格之 <xref:Microsoft.Office.Core.CommandBar> 的 <xref:Microsoft.Office.Core.CommandBar.Width%2A> 屬性，以程式設計方式變更工作窗格的寬度。  如果工作窗格以水平方式停駐或浮動，您可以變更其高度。  

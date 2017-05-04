@@ -41,12 +41,12 @@ caps.handback.revision: 33
   
 5.  按一下 \[**加入**\]。  
   
-6.  根據應用程式組態檔描述結構建立組態檔。  如需詳細資訊，請參閱[.NET Framework 的組態檔結構描述](../Topic/Configuration%20File%20Schema%20for%20the%20.NET%20Framework.md)。  
+6.  根據應用程式組態檔描述結構建立組態檔。  如需詳細資訊，請參閱[.NET Framework 的組態檔結構描述](http://msdn.microsoft.com/library/69003d39-dc8a-460c-a6be-e6d93e690b38)。  
   
  在 Office 專案中使用組態檔並沒有任何特殊考量。  
   
 ## 請參閱  
- [.NET Framework 的組態檔結構描述](../Topic/Configuration%20File%20Schema%20for%20the%20.NET%20Framework.md)   
+ [.NET Framework 的組態檔結構描述](http://msdn.microsoft.com/library/69003d39-dc8a-460c-a6be-e6d93e690b38)   
  [設計和建立 Office 方案](../vsto/designing-and-creating-office-solutions.md)   
  [部署 Office 方案](../vsto/deploying-an-office-solution.md)  
   

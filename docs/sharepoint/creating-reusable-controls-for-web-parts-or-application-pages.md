@@ -25,7 +25,7 @@ manager: "ghogen"
 caps.handback.revision: 19
 ---
 # 為 Web 組件或應用程式頁面建立可重複使用的控制項
-  在 Visual Studio 中，您可以為在 SharePoint 中執行的應用程式頁面和 Web 組件，建立可供其利用之自訂、可重複使用的控制項。  這些控制項被稱為使用者控制項 \(User Control\)。  如需使用者控制項的詳細資訊，請參閱[ASP.NET User Controls](../Topic/ASP.NET%20User%20Controls.md)。  
+  在 Visual Studio 中，您可以為在 SharePoint 中執行的應用程式頁面和 Web 組件，建立可供其利用之自訂、可重複使用的控制項。  這些控制項被稱為使用者控制項 \(User Control\)。  如需使用者控制項的詳細資訊，請參閱[ASP.NET User Controls](http://msdn.microsoft.com/library/5e601b3d-bb16-4dbe-9e35-7e92a34565ca)。  
   
 ## 建立使用者控制項  
  若要建立使用者控制項，請將 \[**使用者控制項**\] 加入至 \[**空的 SharePoint 專案**\]。  如需詳細資訊，請參閱[如何：為 SharePoint 應用程式頁面或 Web 組件建立使用者控制項](../sharepoint/how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md)。  
@@ -44,7 +44,7 @@ caps.handback.revision: 19
 ## 運用使用者控制項  
  在您將使用者控制項納入應用程式頁面或 Web 組件之前，這些控制項並不會出現在 SharePoint 中。  
   
- 若要在應用程式頁面中包含使用者控制項，請將 [@ Register](http://msdn.microsoft.com/zh-tw/66f34922-be41-4e36-9dc8-1774d85311d1) 指示詞加入至應用程式頁面，然後在頁面上的一個或多個內容預留位置內宣告此使用者控制項。  如需如何在標準 ASP.NET 網頁上完成此工作的範例，請參閱 [How to: Include a User Control in an ASP.NET Web Page](../Topic/How%20to:%20Include%20a%20User%20Control%20in%20an%20ASP.NET%20Web%20Page.md)。  
+ 若要在應用程式頁面中包含使用者控制項，請將 [@ Register](http://msdn.microsoft.com/zh-tw/66f34922-be41-4e36-9dc8-1774d85311d1) 指示詞加入至應用程式頁面，然後在頁面上的一個或多個內容預留位置內宣告此使用者控制項。  如需如何在標準 ASP.NET 網頁上完成此工作的範例，請參閱 [How to: Include a User Control in an ASP.NET Web Page](http://msdn.microsoft.com/library/7c3bfd74-846c-4b88-b1ef-45d75860af92)。  
   
  若要在 Web 組件中納入使用者控制項，請將使用者控制項加入至 Web 組件程式碼檔案中的 Web 組件 <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> 集合。  下列範例會將使用者控制項加入至 Web 組件的 <xref:System.Web.UI.WebControls.WebParts.Part.Controls%2A> 集合。  
   

@@ -48,7 +48,7 @@ caps.handback.revision: 85
   
  組件會透過應用程式的主要 Interop 組件與應用程式的 COM 元件進行通訊。 如需詳細資訊，請參閱[Office 主要 Interop 組件](../vsto/office-primary-interop-assemblies.md)與[Office 方案開發概觀 &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)。  
   
- 如果使用者同時開啟多個文件層級自訂，每個組件會在不同的應用程式定義域中載入。 這表示如果某個方案運作失常，並不會導致其他方案失敗。 文件層級自訂設計成搭配單一應用程式定義域中的單一文件使用， 而不是設計成跨文件進行通訊。 如需應用程式定義域的詳細資訊，請參閱[應用程式定義域](../Topic/Application%20Domains.md)。  
+ 如果使用者同時開啟多個文件層級自訂，每個組件會在不同的應用程式定義域中載入。 這表示如果某個方案運作失常，並不會導致其他方案失敗。 文件層級自訂設計成搭配單一應用程式定義域中的單一文件使用， 而不是設計成跨文件進行通訊。 如需應用程式定義域的詳細資訊，請參閱[應用程式定義域](http://msdn.microsoft.com/library/113a8bbf-6875-4a72-a49d-ca2d92e19cc8)。  
   
 > [!NOTE]  
 >  使用 Visual Studio 中的 Office Developer Tools 所建立的文件層級自訂，設計成只能在使用者啟動應用程式時使用。 如果是以程式設計的方式啟動應用程式 \(例如，使用 Automation\)，則該自訂可能無法如預期般運作。  

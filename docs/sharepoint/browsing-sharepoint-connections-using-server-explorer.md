@@ -54,7 +54,7 @@ caps.handback.revision: 19
 |[如何：新增或移除 SharePoint 連線](../sharepoint/how-to-add-or-remove-sharepoint-connections.md)|說明將新的 SharePoint 網站加入至 \[**伺服器總管**\] 中的 \[**SharePoint 連接**\] 節點所需的步驟。|  
   
 ## 請參閱  
- [伺服器總管](../Topic/Server%20Explorer.md)   
+ [伺服器總管](http://msdn.microsoft.com/library/4ea29b3b-bbb2-45e4-9082-eaf635c41c4d)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
   
   

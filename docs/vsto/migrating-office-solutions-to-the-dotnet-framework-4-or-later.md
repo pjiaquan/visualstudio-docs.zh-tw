@@ -40,7 +40,7 @@ caps.handback.revision: 54
   
 ## 請參閱  
  [設計和建立 Office 方案](../vsto/designing-and-creating-office-solutions.md)   
- [如何：以 .NET Framework 版本為目標](../Topic/How%20to:%20Target%20a%20Version%20of%20the%20.NET%20Framework.md)   
+ [如何：以 .NET Framework 版本為目標](~/ide/how-to-target-a-version-of-the-dotnet-framework.md)   
  [Office 方案的錯誤疑難排解](../vsto/troubleshooting-errors-in-office-solutions.md)   
  [Office 方案錯誤的其他支援](../vsto/additional-support-for-errors-in-office-solutions.md)  
   

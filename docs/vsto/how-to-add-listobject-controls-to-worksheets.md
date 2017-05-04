@@ -62,11 +62,11 @@ caps.handback.revision: 43
   
 #### 使用資料來源視窗  
   
-1.  開啟 \[資料來源\] 視窗並為您的專案建立資料來源。 如需詳細資訊，請參閱[如何：連接至資料庫中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md)。  
+1.  開啟 \[資料來源\] 視窗並為您的專案建立資料來源。 如需詳細資訊，請參閱[如何：連接至資料庫中的資料](~/data-tools/how-to-connect-to-data-in-a-database.md)。  
   
 2.  將資料表從 \[資料來源\] 視窗拖曳至您的工作表。  
   
-     繫結至資料的 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項隨即加入工作表。 如需詳細資訊，請參閱[資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)。  
+     繫結至資料的 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項隨即加入工作表。 如需詳細資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
 ##  <a name="runtimedoclevel"></a> 在文件層級專案中，於執行階段加入 ListObject 控制項  
  您可以在執行階段，以動態方式加入 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項。 如此可讓您建立主控制項，以回應事件。 當工作表關閉時，動態建立的清單物件不會保存為工作表中的主控制項。 如需詳細資訊，請參閱[在執行階段將控制項加入至 Office 文件](../vsto/adding-controls-to-office-documents-at-run-time.md)。  

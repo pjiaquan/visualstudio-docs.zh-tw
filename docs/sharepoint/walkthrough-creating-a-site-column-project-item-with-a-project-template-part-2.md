@@ -53,7 +53,7 @@ caps.handback.revision: 53
   
  了解下列概念有助於完成此逐步解說 \(但非必要\)：  
   
--   Visual Studio 中的專案和項目範本專用的精靈。  如需詳細資訊，請參閱 [如何：搭配專案範本使用精靈](../Topic/How%20to:%20Use%20Wizards%20with%20Project%20Templates.md)和 <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 介面。  
+-   Visual Studio 中的專案和項目範本專用的精靈。  如需詳細資訊，請參閱 [如何：搭配專案範本使用精靈](~/extensibility/how-to-use-wizards-with-project-templates.md)和 <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> 介面。  
   
 -   SharePoint 中的網站欄。  如需詳細資訊，請參閱 [Columns](http://go.microsoft.com/fwlink/?LinkId=183547)。  
   
@@ -121,7 +121,7 @@ caps.handback.revision: 53
   
 3.  確定目標 Framework 設定為 .NET Framework 4.5，而不是 .NET Framework 4.5 Client Profile。  
   
-     如需詳細資訊，請參閱[如何：以 .NET Framework 版本為目標](../Topic/How%20to:%20Target%20a%20Version%20of%20the%20.NET%20Framework.md)。  
+     如需詳細資訊，請參閱[如何：以 .NET Framework 版本為目標](~/ide/how-to-target-a-version-of-the-dotnet-framework.md)。  
   
 4.  開啟\[**ProjectTemplateWizard**專案節點的捷徑功能表，選擇 \[**加入**\]，然後選擇 \[**新增項目**\]。  
   
@@ -168,7 +168,7 @@ caps.handback.revision: 53
   
 13. 如果開發 Visual Basic 專案，請使用 \[**專案設計工具**\] 將 ProjectTemplateWizard 命名空間匯入專案中。  
   
-     如需詳細資訊，請參閱[如何：加入或移除匯入的命名空間 &#40;Visual Basic&#41;](../Topic/How%20to:%20Add%20or%20Remove%20Imported%20Namespaces%20(Visual%20Basic).md)。  
+     如需詳細資訊，請參閱[如何：加入或移除匯入的命名空間 &#40;Visual Basic&#41;](~/ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)。  
   
 #### 若要設定 SharePointCommands 專案  
   
@@ -551,6 +551,6 @@ caps.handback.revision: 53
  [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
  [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
  [Visual Studio 範本結構描述參考](../extensibility/visual-studio-template-schema-reference.md)   
- [如何：搭配專案範本使用精靈](../Topic/How%20to:%20Use%20Wizards%20with%20Project%20Templates.md)  
+ [如何：搭配專案範本使用精靈](~/extensibility/how-to-use-wizards-with-project-templates.md)  
   
   

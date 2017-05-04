@@ -52,6 +52,6 @@ caps.handback.revision: 53
  [Word 物件模型概觀](../vsto/word-object-model-overview.md)   
  [Office 方案中的選擇性參數](../vsto/optional-parameters-in-office-solutions.md)   
  [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement)   
- [反映 &#40;C&#35; 和 Visual Basic&#41;](../Topic/Reflection%20(C%23%20and%20Visual%20Basic).md)  
+ [反映 &#40;C&#35; 和 Visual Basic&#41;](http://msdn.microsoft.com/library/5d1d1bcf-08de-4d0b-97a8-912d17c00f26)  
   
   

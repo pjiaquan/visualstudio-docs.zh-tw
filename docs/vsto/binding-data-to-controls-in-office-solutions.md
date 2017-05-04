@@ -34,7 +34,7 @@ caps.handback.revision: 69
   
  主控制項會擴充 Word 和 Excel 物件模型中的物件，例如 Word 中的內容控制項和 Excel 中的具名範圍。 如需詳細資訊，請參閱[主項目和主控制項概觀](../vsto/host-items-and-host-controls-overview.md)。  
   
- Windows Form 和主控制項都會使用 Windows Form 資料繫結模型，這個模型同時支援對資料集和資料表等資料來源執行「簡單資料繫結」\(simple data binding\) 和「複雜資料繫結」\(complex data binding\)。 如需 Windows Form 中資料繫結模型的完整資訊，請參閱[資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)。  
+ Windows Form 和主控制項都會使用 Windows Form 資料繫結模型，這個模型同時支援對資料集和資料表等資料來源執行「簡單資料繫結」\(simple data binding\) 和「複雜資料繫結」\(complex data binding\)。 如需 Windows Form 中資料繫結模型的完整資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
  ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[如何：使用 Excel 中的資料庫資料](http://go.microsoft.com/fwlink/?LinkID=130287)。  
   
@@ -53,7 +53,7 @@ caps.handback.revision: 69
 ## 複雜資料繫結  
  當控制項屬性繫結至多個資料項目時，例如資料表中的多個資料行，便存在複雜資料繫結。 Excel 的 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項是唯一支援複雜資料繫結的主控制項。 另外還有許多支援複雜資料繫結的 Windows Form 控制項，例如 <xref:System.Windows.Forms.DataGridView> 控制項。  
   
- 若要執行複雜資料繫結，請將控制項的 DataSource 屬性設定為複雜資料繫結所支援的資料來源物件。 例如，<xref:Microsoft.Office.Tools.Excel.ListObject> 控制項的 <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> 屬性可以繫結至資料表中的多個資料行。 資料表中的所有資料會顯示在 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項中，而且當資料表中的資料變更時，<xref:Microsoft.Office.Tools.Excel.ListObject> 也會變更。 如需可用於複雜資料繫結的資料來源清單，請參閱 [Windows Form 支援的資料來源](../Topic/Data%20Sources%20Supported%20by%20Windows%20Forms.md)。  
+ 若要執行複雜資料繫結，請將控制項的 DataSource 屬性設定為複雜資料繫結所支援的資料來源物件。 例如，<xref:Microsoft.Office.Tools.Excel.ListObject> 控制項的 <xref:Microsoft.Office.Tools.Excel.ListObject.DataSource%2A> 屬性可以繫結至資料表中的多個資料行。 資料表中的所有資料會顯示在 <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項中，而且當資料表中的資料變更時，<xref:Microsoft.Office.Tools.Excel.ListObject> 也會變更。 如需可用於複雜資料繫結的資料來源清單，請參閱 [Windows Form 支援的資料來源](http://msdn.microsoft.com/library/3d2c43f6-462b-4d35-9c86-13e9afe012e1)。  
   
  下列程式碼範例會建立具有兩個 <xref:System.Data.DataTable> 物件的 <xref:System.Data.DataSet>，並將資料填入其中一個資料表。 然後程式碼會將 <xref:Microsoft.Office.Tools.Excel.ListObject> 繫結至含有資料的資料表。 這是示範 Excel 文件層級專案的範例。  
   
@@ -63,7 +63,7 @@ caps.handback.revision: 69
  如需示範複雜資料繫結的逐步解說，請參閱[逐步解說：文件層級專案中的複雜資料繫結](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md) \(文件層級專案\) 和[逐步解說：VSTO 增益集專案中的複雜資料繫結](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md) \(VSTO 增益集專案\)。  
   
 ## 在文件和活頁簿中顯示資料  
- 在文件層級專案中，您可以輕鬆地使用 \[資料來源\] 視窗將資料繫結控制項加入文件或活頁簿，與用於 Windows Form 的方法相同。 如需使用 \[資料來源\] 視窗的詳細資訊，請參閱[將 Windows Form 控制項繫結至 Visual Studio 中的資料](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)和[資料來源視窗](../Topic/Data%20Sources%20Window.md)。  
+ 在文件層級專案中，您可以輕鬆地使用 \[資料來源\] 視窗將資料繫結控制項加入文件或活頁簿，與用於 Windows Form 的方法相同。 如需使用 \[資料來源\] 視窗的詳細資訊，請參閱[將 Windows Form 控制項繫結至 Visual Studio 中的資料](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)和[資料來源視窗](http://msdn.microsoft.com/library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)。  
   
 ### 從資料來源視窗拖曳控制項  
  當您從 \[資料來源\] 視窗將某個物件拖曳到文件時，文件上會建立控制項。 所建立的控制項類型取決於您繫結的是單一資料行，還是多個資料行。  
@@ -103,8 +103,8 @@ caps.handback.revision: 69
   
 ## 請參閱  
  [如何：使用 Excel 中的資料庫資料](http://go.microsoft.com/fwlink/?LinkID=130287)   
- [資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)   
- [如何：在 Windows Form 上建立簡單繫結控制項](../Topic/How%20to:%20Create%20a%20Simple-Bound%20Control%20on%20a%20Windows%20Form.md)   
+ [資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)   
+ [如何：在 Windows Form 上建立簡單繫結控制項](http://msdn.microsoft.com/library/3bcaded8-0f1a-4cc0-8830-f59be253bf4e)   
  [將 Windows Form 控制項繫結至 Visual Studio 中的資料](../Topic/Binding%20Windows%20Forms%20controls%20to%20data%20in%20Visual%20Studio.md)   
  [儲存資料集中的資料](../Topic/Saving%20data%20back%20to%20the%20database.md)   
  [如何：使用 TableAdapter 更新資料](../data-tools/update-data-by-using-a-tableadapter.md)   

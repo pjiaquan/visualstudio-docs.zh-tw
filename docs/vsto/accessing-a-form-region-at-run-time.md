@@ -71,7 +71,7 @@ caps.handback.revision: 22
   
  若要啟用區域程式碼檔案之外控制項表單的存取，請在表單區域程式碼檔案中建立屬性以傳回該控制項。  
   
- 如需如何在 C\# 中建立屬性的詳細資訊，請參閱[如何：宣告及使用讀寫屬性 &#40;C&#35; 程式設計指南&#41;](../Topic/How%20to:%20Declare%20and%20Use%20Read%20Write%20Properties%20(C%23%20Programming%20Guide).md)。  
+ 如需如何在 C\# 中建立屬性的詳細資訊，請參閱[如何：宣告及使用讀寫屬性 &#40;C&#35; 程式設計指南&#41;](http://msdn.microsoft.com/library/a4962fef-af7e-4c4b-a929-4ae4d646ab8a)。  
   
  如需如何在 Visual Basic 中建立屬性的詳細資訊，請參閱[不在組建中：如何：將欄位和屬性加入類別](http://msdn.microsoft.com/zh-tw/ae53f61b-3abc-413e-8931-703c5f5e8fc2)。  
   

@@ -28,7 +28,7 @@ caps.handback.revision: 17
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
- 如果您手動使用了資訊清單產生和編輯工具 \(mage.exe 和 mageui.exe\) 編輯應用程式和部署資訊清單，則必須先重新簽署資訊清單，才能使用資訊清單。  如需詳細資訊，請參閱[如何：重新簽署應用程式和部署資訊清單](../Topic/How%20to:%20Re-sign%20Application%20and%20Deployment%20Manifests.md)。  
+ 如果您手動使用了資訊清單產生和編輯工具 \(mage.exe 和 mageui.exe\) 編輯應用程式和部署資訊清單，則必須先重新簽署資訊清單，才能使用資訊清單。  如需詳細資訊，請參閱[如何：重新簽署應用程式和部署資訊清單](~/deployment/how-to-re-sign-application-and-deployment-manifests.md)。  
   
 ## 使用憑證進行簽署  
  憑證是一種檔案，這個檔案包含方案發行者 \(Publisher\) 的唯一金鑰和識別 \(Identity\)。  您可以向憑證授權單位購買憑證，也可以自行建立憑證並讓憑證授權單位簽署該憑證。  

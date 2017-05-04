@@ -34,7 +34,7 @@ caps.handback.revision: 39
   
 ### 若要將 Web 服務的資料填入文件層級專案  
   
-1.  開啟 \[資料來源\] 視窗並為您的專案建立服務資料來源。 如需詳細資訊，請參閱[如何：連接至服務中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Service.md)。  
+1.  開啟 \[資料來源\] 視窗並為您的專案建立服務資料來源。 如需詳細資訊，請參閱[如何：連接至服務中的資料](~/data-tools/how-to-connect-to-data-in-a-service.md)。  
   
 2.  將想要的資料表或欄位從 \[資料來源\] 視窗拖曳至您的文件。  
   

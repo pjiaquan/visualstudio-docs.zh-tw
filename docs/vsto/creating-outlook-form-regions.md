@@ -135,7 +135,7 @@ caps.handback.revision: 41
   
  若要在 Visual Basic 專案中處理事件，請從 \[程式碼編輯器\] 頂端的方法名稱清單選取事件。  
   
- 若要在 C\# 專案中處理事件，請在 <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> 方法中訂閱控制項事件。  如需詳細資訊，請參閱[如何：訂閱及取消訂閱事件 &#40;C&#35; 程式設計手冊&#41;](../Topic/How%20to:%20Subscribe%20to%20and%20Unsubscribe%20from%20Events%20(C%23%20Programming%20Guide).md)。  
+ 若要在 C\# 專案中處理事件，請在 <xref:Microsoft.Office.Tools.Outlook.FormRegionControl.FormRegionShowing> 方法中訂閱控制項事件。  如需詳細資訊，請參閱[如何：訂閱及取消訂閱事件 &#40;C&#35; 程式設計手冊&#41;](http://msdn.microsoft.com/library/6319f39f-282c-4173-8a62-6c4657cf51cd)。  
   
  您可以在表單區域 Factory 類別的 `InitializeManifest` 方法中變更表單區域屬性。  
   

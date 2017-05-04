@@ -53,7 +53,7 @@ caps.handback.revision: 51
   
 -   從 \[資料來源\] 視窗。  
   
-     您可以從 \[資料來源\] 視窗將 <xref:Microsoft.Office.Tools.Word.Bookmark> 控制項拖曳至文件。 當您想要在同一時間將控制項繫結至資料時，這會很有用。 您可以用加入 Windows Form 控制項的方式，從 \[資料來源\] 視窗加入主控制項。 如需詳細資訊，請參閱[資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)。  
+     您可以從 \[資料來源\] 視窗將 <xref:Microsoft.Office.Tools.Word.Bookmark> 控制項拖曳至文件。 當您想要在同一時間將控制項繫結至資料時，這會很有用。 您可以用加入 Windows Form 控制項的方式，從 \[資料來源\] 視窗加入主控制項。 如需詳細資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   

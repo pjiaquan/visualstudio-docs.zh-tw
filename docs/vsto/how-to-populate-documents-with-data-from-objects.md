@@ -39,7 +39,7 @@ caps.handback.revision: 39
   
 #### 若要加入資料物件  
   
--   開啟 \[資料來源\] 視窗，並從物件建立資料來源。 如需詳細資訊，請參閱[如何：連接至物件中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md)。  
+-   開啟 \[資料來源\] 視窗，並從物件建立資料來源。 如需詳細資訊，請參閱[如何：連接至物件中的資料](http://msdn.microsoft.com/library/862fd351-0f4d-4220-9743-6103b87dc24b)。  
   
 ## 將資料物件連接至 BindingSource  
  在文件層級專案中，您可以在設計階段將控制項加入文件，並將控制項繫結至資料。  
@@ -75,6 +75,6 @@ caps.handback.revision: 39
  [如何：將資料庫的資料填入文件](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [如何：從主控制項中使用資料更新資料來源](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)   
  [連接至 Windows Form 應用程式中的資料](/visual-studio/data-tools/connecting-to-data-in-windows-forms-applications)   
- [BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)  
+ [BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)  
   
   

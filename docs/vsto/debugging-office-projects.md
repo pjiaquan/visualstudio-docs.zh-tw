@@ -54,7 +54,7 @@ caps.handback.revision: 48
  當您開始偵錯 Office 專案時，F10 和 F11 的行為與開始偵錯其他 Visual Basic 或 C\# 專案時並不相同。 在 Visual Basic 或 C\# 專案中，偵錯工具會在 main 函式上停止；在 Office 專案中，Visual Studio 並不能控制 Office 應用程式的 main 函式。 不過在偵錯期間，F10 和 F11 的功能與在 Visual Basic 和 C\# 專案中相同。  
   
 ## 顯示例外狀況  
- 由於 Managed 程式碼與 Unmanaged 程式碼的互動方式，Visual Studio 不會顯示 Microsoft Office 應用程式所擲回的錯誤。 例如，如果使用 Visual Studio 中的 Office 開發工具建立的 VSTO 增益集擲回例外狀況，Microsoft Office 應用程式會繼續執行，而不會顯示錯誤。 若要查看這些錯誤，請設定偵錯工具在發生 Common Language Runtime 例外狀況時中斷。 如需詳細資訊，請參閱[如何：當擲回例外狀況時中斷](../Topic/How%20to:%20Break%20When%20an%20Exception%20is%20Thrown.md)。  
+ 由於 Managed 程式碼與 Unmanaged 程式碼的互動方式，Visual Studio 不會顯示 Microsoft Office 應用程式所擲回的錯誤。 例如，如果使用 Visual Studio 中的 Office 開發工具建立的 VSTO 增益集擲回例外狀況，Microsoft Office 應用程式會繼續執行，而不會顯示錯誤。 若要查看這些錯誤，請設定偵錯工具在發生 Common Language Runtime 例外狀況時中斷。 如需詳細資訊，請參閱[如何：當擲回例外狀況時中斷](~/misc/how-to-break-when-an-exception-is-thrown.md)。  
   
  如果您設定偵錯工具在發生 Common Language Runtime 例外狀況時中斷，所有例外狀況現在會中斷偵錯工具，包括您已處理的例外狀況，以及一些來自執行階段本身之前幾個可能發生的例外狀況，這些例外狀況可能與專案無關。 每個專案中都會出現歸因於找不到 msosec 的錯誤，不過您可以放心地加以忽略。 這些 msosec 例外狀況不會影響您的方案。  
   

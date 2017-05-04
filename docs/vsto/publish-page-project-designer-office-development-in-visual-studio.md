@@ -99,7 +99,7 @@ caps.handback.revision: 27
  **發行語言**  
  這個選項會設定 Microsoft 軟體授權條款的語言，並將語言套件包含在必要條件清單中。 它不會影響自訂的語言。 安裝程式中的語言取決於 Visual Studio 已安裝的語言。  
   
- 如需如何變更**發行語言**的詳細資訊，請參閱[如何：變更 ClickOnce 應用程式的發行語言](../Topic/How%20to:%20Change%20the%20Publish%20Language%20for%20a%20ClickOnce%20Application.md)。  
+ 如需如何變更**發行語言**的詳細資訊，請參閱[如何：變更 ClickOnce 應用程式的發行語言](~/deployment/how-to-change-the-publish-language-for-a-clickonce-application.md)。  
   
  **發行版本**  
  設定自訂的版本號碼。 當版本號碼變更時，應用程式會以更新的形式發行。 在建置程序期間，會針對每個版本建立新的資料夾，以避免覆寫先前發行的版本。 發行版本的每個部分 \(**主要**、**次要**、**組建**、**修訂**\) 最多可包含 5 個數字。  

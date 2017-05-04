@@ -60,7 +60,7 @@ caps.handback.revision: 23
 ## 執行階段的協助工具  
   
 ### Office 文件上的 Windows Form 控制項  
- Windows Form 控制項會公開可及性屬性，以提供有關控制網頁可及性 \(如螢幕助讀員\) 的資訊。  當控制項位於文件層級自訂中的 Office 文件上時，您便可利用這些協助工具屬性。  如需詳細資訊，請參閱[為 Windows Form 上的控制項提供可及性資訊](../Topic/Providing%20Accessibility%20Information%20for%20Controls%20on%20a%20Windows%20Form.md)。  
+ Windows Form 控制項會公開可及性屬性，以提供有關控制網頁可及性 \(如螢幕助讀員\) 的資訊。  當控制項位於文件層級自訂中的 Office 文件上時，您便可利用這些協助工具屬性。  如需詳細資訊，請參閱[為 Windows Form 上的控制項提供可及性資訊](http://msdn.microsoft.com/library/887dee6f-5059-4d57-957d-7c6fcd4acb10)。  
   
  不過，當 Windows Form 控制項裝載到 Excel 活頁簿或 Word 文件上時，協助工具會在執行階段受到一些限制：  
   

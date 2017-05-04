@@ -38,7 +38,7 @@ caps.handback.revision: 38
   
 1.  在 Visual Studio 中開啟 Excel 文件層級專案，並在設計工具中開啟工作表。  
   
-2.  開啟 \[**資料來源**\] 視窗，並建立專案的資料來源。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md)。  
+2.  開啟 \[**資料來源**\] 視窗，並建立專案的資料來源。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](~/data-tools/how-to-connect-to-data-in-a-database.md)。  
   
 3.  將您想要的欄位或資料表從 \[**資料來源**\] 視窗拖曳至工作表。  
   
@@ -55,11 +55,11 @@ caps.handback.revision: 38
   
 -   具型別資料集，可封裝您透過資料庫連接的資料表。  如需詳細資訊，請參閱[使用 Visual Studio 中的資料集](../data-tools/dataset-tools-in-visual-studio.md)。  
   
--   <xref:System.Windows.Forms.BindingSource>，可將控制項連接至具型別資料集。  如需詳細資訊，請參閱[BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)。  
+-   <xref:System.Windows.Forms.BindingSource>，可將控制項連接至具型別資料集。  如需詳細資訊，請參閱[BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)。  
   
 -   TableAdapter，可將具型別資料集連接至資料庫。  如需詳細資訊，請參閱[TableAdapter 概觀](/visual-studio/data-tools/tableadapter-overview)。  
   
--   TableAdapterManager，可用來協調資料集中的資料表配接器以啟用階層式更新。  如需詳細資訊，請參閱[階層式更新](../data-tools/hierarchical-update.md)與[TableAdapterManager 概觀](../Topic/TableAdapterManager%20Overview.md)。  
+-   TableAdapterManager，可用來協調資料集中的資料表配接器以啟用階層式更新。  如需詳細資訊，請參閱[階層式更新](../data-tools/hierarchical-update.md)與[TableAdapterManager 概觀](http://msdn.microsoft.com/library/33076d42-6b41-491a-ac11-6c6339aea650)。  
   
  當您執行專案時，控制項會顯示資料來源中的第一筆資料錄。  您可以使用 <xref:System.Windows.Forms.BindingSource>，讓使用者可以捲動資料錄。  
   

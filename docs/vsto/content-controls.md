@@ -155,7 +155,7 @@ caps.handback.revision: 64
  如需將 Office 解決方案中的主控制項繫結至資料的概觀，請參閱[將資料繫結至 Office 方案中的控制項](../vsto/binding-data-to-controls-in-office-solutions.md)。  
   
 ### 使用 Windows Form 資料繫結模型  
- 大部分的內容控制項支援 Windows Form 使用的簡易資料繫結模型。  簡易資料繫結表示控制項是繫結至單一資料元素，例如資料表中資料行的值。  如需詳細資訊，請參閱[資料繫結和 Windows Form](../Topic/Data%20Binding%20and%20Windows%20Forms.md)。  
+ 大部分的內容控制項支援 Windows Form 使用的簡易資料繫結模型。  簡易資料繫結表示控制項是繫結至單一資料元素，例如資料表中資料行的值。  如需詳細資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
  在文件層級專案中，您可以使用 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 的 \[資料來源\] 視窗，將資料繫結至內容控制項。  如需如何在文件中加入資料繫結內容控制項的詳細資訊，請參閱[如何：將資料庫的資料填入文件](../vsto/how-to-populate-documents-with-data-from-a-database.md)與[如何：將物件的資料填入文件](../vsto/how-to-populate-documents-with-data-from-objects.md)。  
   

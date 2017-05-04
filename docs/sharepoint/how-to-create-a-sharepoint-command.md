@@ -30,7 +30,7 @@ caps.handback.revision: 21
   
 1.  建立具有下列配置的類別庫專案：  
   
-    -   將 .NET Framework 3.5 做為目標。  如需選取目標架構的詳細資訊，請參閱 [如何：以 .NET Framework 版本為目標](../Topic/How%20to:%20Target%20a%20Version%20of%20the%20.NET%20Framework.md)。  
+    -   將 .NET Framework 3.5 做為目標。  如需選取目標架構的詳細資訊，請參閱 [如何：以 .NET Framework 版本為目標](~/ide/how-to-target-a-version-of-the-dotnet-framework.md)。  
   
     -   將 AnyCPU 或 x64 平台做為目標。  類別庫專案的預設目標平台是 AnyCPU。  如需選取目標平台的詳細資訊，請參閱 [NIB: How to: Optimize an Application for a Specific CPU Type](http://msdn.microsoft.com/zh-tw/294a75d2-4279-4b72-8298-2bea05be907a)。  
   
@@ -53,7 +53,7 @@ caps.handback.revision: 21
   
     -   它可以擁有傳回值，但這是選擇性的。  
   
-    -   第二個參數和傳回值的型別必須是能夠由 Windows Communication Foundation \(WCF\) 序列化的型別。  如需詳細資訊，請參閱[資料合約序列化程式支援的型別](../Topic/Types%20Supported%20by%20the%20Data%20Contract%20Serializer.md)和[使用 XmlSerializer 類別](../Topic/Using%20the%20XmlSerializer%20Class.md)。  
+    -   第二個參數和傳回值的型別必須是能夠由 Windows Communication Foundation \(WCF\) 序列化的型別。  如需詳細資訊，請參閱[資料合約序列化程式支援的型別](http://msdn.microsoft.com/library/7381b200-437a-4506-9556-d77bf1bc3f34)和[使用 XmlSerializer 類別](http://msdn.microsoft.com/library/c680602d-39d3-44f1-bf22-8e6654ad5069)。  
   
     -   方法可以具有任何可視性 \(**public**、**internal** 或 **private**\)，且可以是靜態或非靜態。  
   

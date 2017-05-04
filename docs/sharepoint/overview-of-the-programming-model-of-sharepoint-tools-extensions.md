@@ -27,7 +27,7 @@ caps.handback.revision: 54
   在 Visual Studio 中建立 SharePoint 工具的延伸模組時，您會從實作 SharePoint 工具公開的一或多個擴充性介面開始。  在大部分情況下，您也會使用 SharePoint 工具所提供的其他類型，在您的延伸模組中實作功能。  在某些情況下，您也可以使用 Visual Studio 和 SharePoint 所提供的其他物件模型中的類型。  您必須了解每個物件模型的用途，並了解如何將它們搭配使用，為 SharePoint 工具建立延伸模組。  
   
 ## 藉由實作擴充性介面來擴充 SharePoint 工具  
- Visual Studio 使用 .NET Framework 4 中的 Managed Extensibility Framework \(MEF\)，為 SharePoint 工具提供擴充性模型。  MEF 是 API \(在 System.ComponentModel.Composition 組件中實作\)，可讓應用程式公開擴充性點，並在執行階段探索及載入擴充功能。  如需 MEF 的詳細資訊，請參閱 [Managed Extensibility Framework &#40;MEF&#41;](../Topic/Managed%20Extensibility%20Framework%20(MEF).md)。  
+ Visual Studio 使用 .NET Framework 4 中的 Managed Extensibility Framework \(MEF\)，為 SharePoint 工具提供擴充性模型。  MEF 是 API \(在 System.ComponentModel.Composition 組件中實作\)，可讓應用程式公開擴充性點，並在執行階段探索及載入擴充功能。  如需 MEF 的詳細資訊，請參閱 [Managed Extensibility Framework &#40;MEF&#41;](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde)。  
   
  若要擴充 SharePoint 工具，請實作 Visual Studio 所公開的一個或多個擴充性介面。  您也必須視需要對您的介面實作套用 <xref:System.ComponentModel.Composition.ExportAttribute> 和其他 SharePoint 工具特定屬性。  下表列出您可以實作以擴充 SharePoint 工具的介面。  
   
@@ -75,7 +75,7 @@ caps.handback.revision: 54
   
  Visual Studio 自動化物件模型的主要部分是在 EnvDTE.dll 組件中定義。  EnvDTE80.dll、EnvDTE90.dll、EnvDTE100.dll 和 EnvDTE110.dll 組件提供分別在 Visual Studio 2005、Visual Studio 2008、Visual Studio 2010 和 [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] 中推出的其他功能。  這些組件隨附於 Visual Studio。  
   
- 如需自動化物件模型的詳細資訊，請參閱[擴充 Visual Studio 環境](../Topic/Extending%20the%20Visual%20Studio%20Environment.md)和[Automation 與擴充性參考](../Topic/Automation%20and%20Extensibility%20Reference.md)。  
+ 如需自動化物件模型的詳細資訊，請參閱[擴充 Visual Studio 環境](http://msdn.microsoft.com/library/4173a963-7ac7-4966-9bb7-e28a9d9f6792)和[Automation 與擴充性參考](http://msdn.microsoft.com/library/93112562-db21-4188-9383-ed19ad79bddf)。  
   
 ### Visual Studio Integration 物件模型  
  整合物件模型提供了 API 可讓您藉由建立 *VSPackage* 將功能加入至 Visual Studio。  VSPackage 是模組，藉由提供自訂功能，例如工具視窗、編輯器、設計工具、服務和專案來擴充 Visual Studio IDE。  

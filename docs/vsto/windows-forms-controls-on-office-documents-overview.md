@@ -152,7 +152,7 @@ caps.handback.revision: 75
  [在執行階段將控制項加入至 Office 文件](../vsto/adding-controls-to-office-documents-at-run-time.md)   
  [主項目和主控制項概觀](../vsto/host-items-and-host-controls-overview.md)   
  [執行窗格概觀](../vsto/actions-pane-overview.md)   
- [Windows Form 控制項](../Topic/Windows%20Forms%20Controls.md)   
+ [Windows Form 控制項](http://msdn.microsoft.com/library/f050de8f-4ebd-4042-94b8-edf9a1dbd52a)   
  [Office 文件上的 Windows Form 控制項限制](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)   
  [如何：將 Windows Form 控制項加入至 Office 文件](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)   
  [如何：在工作表儲存格中調整控制項的大小](../vsto/how-to-resize-controls-within-worksheet-cells.md)   

@@ -291,7 +291,7 @@ caps.handback.revision: 50
 ## 請參閱  
  [在執行階段存取功能區](../vsto/accessing-the-ribbon-at-run-time.md)   
  [功能區概觀](../vsto/ribbon-overview.md)   
- [Language\-integrated Query \(LINQ\)](../Topic/LINQ%20(Language-Integrated%20Query).md)   
+ [Language\-integrated Query \(LINQ\)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d)   
  [如何：開始自訂功能區](../vsto/how-to-get-started-customizing-the-ribbon.md)   
  [功能區設計工具](../vsto/ribbon-designer.md)   
  [逐步解說：使用功能區設計工具建立自訂的索引標籤](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   

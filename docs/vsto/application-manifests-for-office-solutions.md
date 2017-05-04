@@ -28,12 +28,12 @@ caps.handback.revision: 40
   
 |項目|描述|屬性|  
 |--------|--------|--------|  
-|[&#60;assembly&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3Cassembly%3E%20Element%20(ClickOnce%20Application).md)|必要項。 最上層項目。|`manifestVersion`|  
-|[&#60;assemblyIdentity&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3CassemblyIdentity%3E%20Element%20(ClickOnce%20Application).md)|必要項。 識別 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 應用程式的主要組件。|`name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `language`|  
-|[&#60;trustInfo&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3CtrustInfo%3E%20Element%20(ClickOnce%20Application).md)|識別應用程式安全性需求。|無|  
-|[&#60;entryPoint&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3CentryPoint%3E%20Element%20(ClickOnce%20Application).md)|必要項。 識別執行的應用程式程式碼進入點。|`name`<br /><br /> `dependencyName`<br /><br /> `customHostSpecified`|  
-|[&#60;dependency&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3Cdependency%3E%20Element%20(ClickOnce%20Application).md)|必要項。 識別執行應用程式所需的每個相依性。 選擇性地識別需要預先安裝的組件。|無|  
-|[&#60;file&#62; 項目 &#40;ClickOnce 應用程式&#41;](../Topic/%3Cfile%3E%20Element%20(ClickOnce%20Application).md)|必要項。 識別應用程式所使用的每個非組件檔案。 可以包含與檔案相關聯的元件物件模型 \(COM\) 隔離資料。|`name`<br /><br /> `size`|  
+|[&#60;assembly&#62; 項目 &#40;ClickOnce 應用程式&#41;](~/deployment/assembly-element-clickonce-application.md)|必要項。 最上層項目。|`manifestVersion`|  
+|[&#60;assemblyIdentity&#62; 項目 &#40;ClickOnce 應用程式&#41;](~/deployment/assemblyidentity-element-clickonce-application.md)|必要項。 識別 [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] 應用程式的主要組件。|`name`<br /><br /> `version`<br /><br /> `publicKeyToken`<br /><br /> `processorArchitecture`<br /><br /> `language`|  
+|[&#60;trustInfo&#62; 項目 &#40;ClickOnce 應用程式&#41;](~/deployment/trustinfo-element-clickonce-application.md)|識別應用程式安全性需求。|無|  
+|[&#60;entryPoint&#62; 項目 &#40;ClickOnce 應用程式&#41;](~/deployment/entrypoint-element-clickonce-application.md)|必要項。 識別執行的應用程式程式碼進入點。|`name`<br /><br /> `dependencyName`<br /><br /> `customHostSpecified`|  
+|[&#60;dependency&#62; 項目 &#40;ClickOnce 應用程式&#41;](~/deployment/dependency-element-clickonce-application.md)|必要項。 識別執行應用程式所需的每個相依性。 選擇性地識別需要預先安裝的組件。|無|  
+|[&#60;file&#62; 項目 &#40;ClickOnce 應用程式&#41;](http://msdn.microsoft.com/library/56e3490c-eed5-4841-b1bf-eefe778b6ac9)|必要項。 識別應用程式所使用的每個非組件檔案。 可以包含與檔案相關聯的元件物件模型 \(COM\) 隔離資料。|`name`<br /><br /> `size`|  
   
  Office 方案的應用程式資訊清單在 `co.v1` 命名空間中具有下列項目。  
   
@@ -70,7 +70,7 @@ caps.handback.revision: 40
 |[&#60;vstoRuntime&#62; 項目 &#40;Visual Studio 中的 Office 程式開發&#41;](../vsto/vstoruntime-element-office-development-in-visual-studio.md)|必要項。 描述 Office 方案支援的特定 Visual Studio Tools for Office Runtime 版本。|`release`<br /><br /> `version`<br /><br /> `supportUrl`|  
   
 ## 備註  
- 您可以手動編輯 Office 方案中的應用程式和部署資訊清單。 之後必須使用資訊清單產生和編輯工具 \(mage.exe 和 mageui.exe\)，重新簽署應用程式和部署資訊清單。 如需詳細資訊，請參閱[如何：重新簽署應用程式和部署資訊清單](../Topic/How%20to:%20Re-sign%20Application%20and%20Deployment%20Manifests.md)。  
+ 您可以手動編輯 Office 方案中的應用程式和部署資訊清單。 之後必須使用資訊清單產生和編輯工具 \(mage.exe 和 mageui.exe\)，重新簽署應用程式和部署資訊清單。 如需詳細資訊，請參閱[如何：重新簽署應用程式和部署資訊清單](~/deployment/how-to-re-sign-application-and-deployment-manifests.md)。  
   
 ## 檔案位置  
  每個方案版本都會有特定的應用程式資訊清單。 因此，應用程式資訊清單應該與部署資訊清單分開儲存。[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 會將版本特定檔案，放在以發行資料夾之 \[應用程式檔案\] 子目錄中相關聯版本命名的子目錄中。  

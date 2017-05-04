@@ -22,7 +22,7 @@ manager: "ghogen"
 caps.handback.revision: 24
 ---
 # 在 Office 方案中使用 WPF 控制項
-  雖然 Visual Studio 中使用 Office 開發工具所建立的解決方案設計成直接使用 Windows Form 控制項，您也可以在解決方案中使用 WPF 控制項。  Windows Presentation Foundation \(WPF\) 是 Windows Form 設計使用者介面的替代方式。  WPF 使用稱為 Extensible Application Markup Language \(XAML\) 的標記語言，提供納入 UI、媒體和文件新技術。  如需詳細資訊，請參閱 [Visual Studio 2015 中的 WPF 簡介](../Topic/Introduction%20to%20WPF%20in%20Visual%20Studio%202015.md)。  
+  雖然 Visual Studio 中使用 Office 開發工具所建立的解決方案設計成直接使用 Windows Form 控制項，您也可以在解決方案中使用 WPF 控制項。  Windows Presentation Foundation \(WPF\) 是 Windows Form 設計使用者介面的替代方式。  WPF 使用稱為 Extensible Application Markup Language \(XAML\) 的標記語言，提供納入 UI、媒體和文件新技術。  如需詳細資訊，請參閱 [Visual Studio 2015 中的 WPF 簡介](http://msdn.microsoft.com/library/582a314e-e23d-4144-b45b-acbbd5579252)。  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
@@ -98,21 +98,21 @@ caps.handback.revision: 24
 ## WPF 資源  
  如需在 Windows Form 控制項和表單上裝載 WPF 控制項的架構和設計問題的詳細資訊，請參閱下列主題：  
   
--   [Windows Form 和 WPF 互通性輸入架構](../Topic/Windows%20Forms%20and%20WPF%20Interoperability%20Input%20Architecture.md)  
+-   [Windows Form 和 WPF 互通性輸入架構](http://msdn.microsoft.com/library/0eb6f137-f088-4c5e-9e37-f96afd28f235)  
   
--   [Windows Form 和 WPF 屬性對應](../Topic/Windows%20Forms%20and%20WPF%20Property%20Mapping.md)  
+-   [Windows Form 和 WPF 屬性對應](http://msdn.microsoft.com/library/999d8298-9c04-467d-a453-86e41002057d)  
   
--   [WPF 和 Windows Form 互通](../Topic/WPF%20and%20Windows%20Forms%20Interoperation.md)  
+-   [WPF 和 Windows Form 互通](http://msdn.microsoft.com/library/9e8aa6b6-112c-4579-98d1-c974917df499)  
   
--   [Windows Form 控制項和對等 WPF 控制項](../Topic/Windows%20Forms%20Controls%20and%20Equivalent%20WPF%20Controls.md)  
+-   [Windows Form 控制項和對等 WPF 控制項](http://msdn.microsoft.com/library/8a157e6b-8054-46db-a5cf-a78966acc7a1)  
   
  如需在設計階段於 Visual Studio 的 Windows Form 控制項和表單中加入 WPF 控制項的詳細資訊，請參閱下列主題：  
   
--   [逐步解說：在設計階段建立 Windows Form 的新 WPF 內容](../Topic/Walkthrough:%20Creating%20New%20WPF%20Content%20on%20Windows%20Forms%20at%20Design%20Time.md)  
+-   [逐步解說：在設計階段建立 Windows Form 的新 WPF 內容](http://msdn.microsoft.com/library/2e92d8e8-f0e4-4df7-9f07-2acf35cd798c)  
   
--   [逐步解說：在設計階段排列 Windows Form 的 WPF 內容](../Topic/Walkthrough:%20Arranging%20WPF%20Content%20on%20Windows%20Forms%20at%20Design%20Time.md)  
+-   [逐步解說：在設計階段排列 Windows Form 的 WPF 內容](http://msdn.microsoft.com/library/5efb1c53-1484-43d6-aa8a-f4861b99bb8a)  
   
--   [逐步解說：設定 WPF 內容的樣式](../Topic/Walkthrough:%20Styling%20WPF%20Content.md)  
+-   [逐步解說：設定 WPF 內容的樣式](http://msdn.microsoft.com/library/e574aac7-7ea4-4cdb-8034-bab541f000df)  
   
 ## 請參閱  
  [Office UI 自訂](../vsto/office-ui-customization.md)   

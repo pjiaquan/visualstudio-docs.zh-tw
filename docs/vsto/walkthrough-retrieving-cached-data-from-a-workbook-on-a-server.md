@@ -102,7 +102,7 @@ caps.handback.revision: 34
   
 5.  如果您有現有的 AdventureWorksLT 資料庫連接，請選擇此連接，再按 \[**下一步**\]。  
   
-     否則，請按一下 \[**新增連接**\]，並使用 \[**加入連接**\] 對話方塊建立新連接。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](../Topic/How%20to:%20Connect%20to%20Data%20in%20a%20Database.md)。  
+     否則，請按一下 \[**新增連接**\]，並使用 \[**加入連接**\] 對話方塊建立新連接。  如需詳細資訊，請參閱[如何：連接至資料庫中的資料](~/data-tools/how-to-connect-to-data-in-a-database.md)。  
   
 6.  在 \[**Save the Connection String to the Application Configuration File**\] 頁面中，按 \[**Next**\]。  
   

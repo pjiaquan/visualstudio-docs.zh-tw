@@ -95,11 +95,11 @@ caps.handback.revision: 14
   
  在 VSPackage 中，您可以使用下列其中一個方法要求 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 物件：  
   
--   衍生自 <xref:Microsoft.VisualStudio.Shell.Package> 類別之 Managed VSPackage 的 <xref:System.IServiceProvider.GetService%2A> 方法。  如需詳細資訊，請參閱 [如何: 取得服務](../Topic/How%20to:%20Get%20a%20Service.md)。  
+-   衍生自 <xref:Microsoft.VisualStudio.Shell.Package> 類別之 Managed VSPackage 的 <xref:System.IServiceProvider.GetService%2A> 方法。  如需詳細資訊，請參閱 [如何: 取得服務](~/extensibility/how-to-get-a-service.md)。  
   
--   靜態 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 方法。  如需詳細資訊，請參閱 [如何：使用 GetGlobalService](../Topic/How%20to:%20Use%20GetGlobalService.md)。  
+-   靜態 <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> 方法。  如需詳細資訊，請參閱 [如何：使用 GetGlobalService](~/misc/how-to-use-getglobalservice.md)。  
   
- 在可以存取 <xref:EnvDTE80.DTE2> 物件的 Visual Studio 擴充功能中，您可以使用 <xref:Microsoft.VisualStudio.Shell.ServiceProvider> 物件的 <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> 方法，要求 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 物件。  如需詳細資訊，請參閱 [如何：從 DTE 物件取得服務](../Topic/How%20to:%20Get%20a%20Service%20from%20the%20DTE%20Object.md)。  
+ 在可以存取 <xref:EnvDTE80.DTE2> 物件的 Visual Studio 擴充功能中，您可以使用 <xref:Microsoft.VisualStudio.Shell.ServiceProvider> 物件的 <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> 方法，要求 <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> 物件。  如需詳細資訊，請參閱 [如何：從 DTE 物件取得服務](~/misc/how-to-get-a-service-from-the-dte-object.md)。  
   
 ### 範例  
  下列程式碼範例示範如何在 Visual Studio 增益集中擷取專案服務。  若要使用這個程式碼，請在增益集專案中的 `Connect` 類別中執行該程式碼。  `_applicationObject` 物件是在增益集專案中自動產生的，這個物件是 <xref:EnvDTE80.DTE2> 介面的執行個體。  
@@ -109,15 +109,15 @@ caps.handback.revision: 14
   
  這個範例需要：  
   
--   Visual Studio 增益集專案。  如需詳細資訊，請參閱 [如何：建立增益集](../Topic/How%20to:%20Create%20an%20Add-In.md)。  
+-   Visual Studio 增益集專案。  如需詳細資訊，請參閱 [如何：建立增益集](http://msdn.microsoft.com/library/50be56d2-e3a5-4cd2-8569-2a0666b268ce)。  
   
 -   Microsoft.VisualStudio.OLE.Interop、Microsoft.VisualStudio.Shell 和 Microsoft.VisualStudio.SharePoint 組件的參考資料。  
   
 ## 請參閱  
  [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md)   
- [如何：建立增益集](../Topic/How%20to:%20Create%20an%20Add-In.md)   
- [如何: 取得服務](../Topic/How%20to:%20Get%20a%20Service.md)   
- [如何：從 DTE 物件取得服務](../Topic/How%20to:%20Get%20a%20Service%20from%20the%20DTE%20Object.md)   
- [如何：搭配專案範本使用精靈](../Topic/How%20to:%20Use%20Wizards%20with%20Project%20Templates.md)  
+ [如何：建立增益集](http://msdn.microsoft.com/library/50be56d2-e3a5-4cd2-8569-2a0666b268ce)   
+ [如何: 取得服務](~/extensibility/how-to-get-a-service.md)   
+ [如何：從 DTE 物件取得服務](~/misc/how-to-get-a-service-from-the-dte-object.md)   
+ [如何：搭配專案範本使用精靈](~/extensibility/how-to-use-wizards-with-project-templates.md)  
   
   

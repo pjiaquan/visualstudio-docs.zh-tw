@@ -98,7 +98,7 @@ caps.handback.revision: 52
   
 1.  呼叫控制項之 <xref:System.Windows.Forms.BindingSource> 的 <xref:System.Windows.Forms.BindingSource.EndEdit%2A> 方法。  
   
-     當您在設計階段將資料繫結控制項加入文件或活頁簿時，會自動產生 <xref:System.Windows.Forms.BindingSource>。<xref:System.Windows.Forms.BindingSource> 會將控制項連接到專案中的具類型資料集。 如需詳細資訊，請參閱[BindingSource 元件概觀](../Topic/BindingSource%20Component%20Overview.md)。  
+     當您在設計階段將資料繫結控制項加入文件或活頁簿時，會自動產生 <xref:System.Windows.Forms.BindingSource>。<xref:System.Windows.Forms.BindingSource> 會將控制項連接到專案中的具類型資料集。 如需詳細資訊，請參閱[BindingSource 元件概觀](http://msdn.microsoft.com/library/be838caf-fcb0-4b68-827f-58b2c04b747f)。  
   
      下列程式碼範例假設您的專案包含名為 `customersBindingSource` 的 <xref:System.Windows.Forms.BindingSource> 。  
   
