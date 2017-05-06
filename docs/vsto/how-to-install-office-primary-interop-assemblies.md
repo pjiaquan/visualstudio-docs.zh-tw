@@ -1,5 +1,5 @@
 ---
-title: "如何：安裝 Office 主要 Interop 組件 | Microsoft Docs"
+title: "如何：安裝 Office 主要 Interop 組件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

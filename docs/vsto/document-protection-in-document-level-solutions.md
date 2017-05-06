@@ -1,5 +1,5 @@
 ---
-title: "文件層級方案的文件保護 | Microsoft Docs"
+title: "文件層級方案的文件保護"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

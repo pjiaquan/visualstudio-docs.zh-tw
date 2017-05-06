@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：建立並偵錯 SharePoint 工作流程方案 | Microsoft Docs"
+title: "逐步解說：建立並偵錯 SharePoint 工作流程方案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

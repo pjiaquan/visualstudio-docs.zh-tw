@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式將文件屬性填入 Word 表格 | Microsoft Docs"
+title: "如何：以程式設計方式將文件屬性填入 Word 表格"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用功能區設計工具建立自訂的索引標籤 | Microsoft Docs"
+title: "逐步解說：使用功能區設計工具建立自訂的索引標籤"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

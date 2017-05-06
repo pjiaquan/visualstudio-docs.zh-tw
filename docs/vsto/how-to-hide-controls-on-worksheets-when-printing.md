@@ -1,5 +1,5 @@
 ---
-title: "如何：列印時隱藏工作表的控制項 | Microsoft Docs"
+title: "如何：列印時隱藏工作表的控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

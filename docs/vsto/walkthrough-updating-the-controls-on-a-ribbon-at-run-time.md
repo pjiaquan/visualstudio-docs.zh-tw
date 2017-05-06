@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在執行階段更新功能區中的控制項 | Microsoft Docs"
+title: "逐步解說：在執行階段更新功能區中的控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

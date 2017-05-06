@@ -1,5 +1,5 @@
 ---
-title: "如何：在功能區顯示開發人員索引標籤 | Microsoft Docs"
+title: "如何：在功能區顯示開發人員索引標籤"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

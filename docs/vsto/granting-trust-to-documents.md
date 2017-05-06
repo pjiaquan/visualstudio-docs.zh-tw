@@ -1,5 +1,5 @@
 ---
-title: "授與信任給文件 | Microsoft Docs"
+title: "授與信任給文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

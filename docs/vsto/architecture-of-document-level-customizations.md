@@ -1,5 +1,5 @@
 ---
-title: "文件層級自訂的架構 | Microsoft Docs"
+title: "文件層級自訂的架構"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

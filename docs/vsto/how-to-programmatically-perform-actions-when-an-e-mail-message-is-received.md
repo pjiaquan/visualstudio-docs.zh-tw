@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在收到電子郵件訊息時執行動作 | Microsoft Docs"
+title: "如何：以程式設計方式在收到電子郵件訊息時執行動作"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Outlook 表單區域中的自訂動作 | Microsoft Docs"
+title: "Outlook 表單區域中的自訂動作"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

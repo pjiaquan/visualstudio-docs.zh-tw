@@ -1,5 +1,5 @@
 ---
-title: "在執行階段將控制項加入至 Office 文件 | Microsoft Docs"
+title: "在執行階段將控制項加入至 Office 文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

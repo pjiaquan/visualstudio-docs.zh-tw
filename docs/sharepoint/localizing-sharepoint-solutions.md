@@ -1,5 +1,5 @@
 ---
-title: "當地語系化 SharePoint 方案 | Microsoft Docs"
+title: "當地語系化 SharePoint 方案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

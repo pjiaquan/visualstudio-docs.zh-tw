@@ -1,5 +1,5 @@
 ---
-title: "驗證及偵錯 SharePoint 程式碼 | Microsoft Docs"
+title: "驗證及偵錯 SharePoint 程式碼"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

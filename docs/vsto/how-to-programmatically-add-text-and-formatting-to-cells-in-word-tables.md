@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在 Word 表格的儲存格中加入文字和格式 | Microsoft Docs"
+title: "如何：以程式設計方式在 Word 表格的儲存格中加入文字和格式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

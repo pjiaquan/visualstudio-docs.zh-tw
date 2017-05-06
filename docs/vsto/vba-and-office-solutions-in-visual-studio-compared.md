@@ -1,5 +1,5 @@
 ---
-title: "VBA 和 Office 方案 (在 Visual Studio 中) 比較 | Microsoft Docs"
+title: "VBA 和 Office 方案 (在 Visual Studio 中) 比較"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

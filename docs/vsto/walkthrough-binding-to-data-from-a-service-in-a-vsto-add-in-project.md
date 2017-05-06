@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在 VSTO 增益集專案中繫結至服務資料 | Microsoft Docs"
+title: "逐步解說：在 VSTO 增益集專案中繫結至服務資料"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

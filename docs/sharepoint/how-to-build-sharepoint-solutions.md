@@ -1,5 +1,5 @@
 ---
-title: "如何：建置 SharePoint 案 | Microsoft Docs"
+title: "如何：建置 SharePoint 案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

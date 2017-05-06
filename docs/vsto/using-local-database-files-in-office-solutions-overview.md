@@ -1,5 +1,5 @@
 ---
-title: "使用在 Office 方案概觀中的本機資料庫檔案 | Microsoft Docs"
+title: "使用在 Office 方案概觀中的本機資料庫檔案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

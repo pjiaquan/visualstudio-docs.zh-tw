@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：建立可顯示 SharePoint 之 OData 的 Silverlight Web 組件 | Microsoft Docs"
+title: "逐步解說：建立可顯示 SharePoint 之 OData 的 Silverlight Web 組件"
 ms.custom: ""
 ms.date: "02/22/2017"
 ms.prod: "visual-studio-dev14"

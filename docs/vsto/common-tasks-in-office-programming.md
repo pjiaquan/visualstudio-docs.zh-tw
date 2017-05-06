@@ -1,5 +1,5 @@
 ---
-title: "Office 程式設計的一般工作 | Microsoft Docs"
+title: "Office 程式設計的一般工作"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

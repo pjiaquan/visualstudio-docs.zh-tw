@@ -1,5 +1,5 @@
 ---
-title: "主項目和主控制項的程式設計限制 | Microsoft Docs"
+title: "主項目和主控制項的程式設計限制"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

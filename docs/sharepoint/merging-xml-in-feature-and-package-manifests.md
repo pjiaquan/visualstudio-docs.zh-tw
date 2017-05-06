@@ -1,5 +1,5 @@
 ---
-title: "合併功能和封裝資訊清單中的 XML | Microsoft Docs"
+title: "合併功能和封裝資訊清單中的 XML"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

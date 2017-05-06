@@ -1,5 +1,5 @@
 ---
-title: "自訂文件屬性概觀 | Microsoft Docs"
+title: "自訂文件屬性概觀"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

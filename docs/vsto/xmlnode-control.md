@@ -1,5 +1,5 @@
 ---
-title: "XMLNode 控制項 | Microsoft Docs"
+title: "XMLNode 控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

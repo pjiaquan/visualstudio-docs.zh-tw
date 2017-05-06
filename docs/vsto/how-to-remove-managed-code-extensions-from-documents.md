@@ -1,5 +1,5 @@
 ---
-title: "如何：從文件移除 Managed 程式碼擴充 | Microsoft Docs"
+title: "如何：從文件移除 Managed 程式碼擴充"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

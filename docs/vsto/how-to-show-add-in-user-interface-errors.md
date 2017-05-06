@@ -1,5 +1,5 @@
 ---
-title: "如何：顯示增益集使用者介面錯誤 | Microsoft Docs"
+title: "如何：顯示增益集使用者介面錯誤"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

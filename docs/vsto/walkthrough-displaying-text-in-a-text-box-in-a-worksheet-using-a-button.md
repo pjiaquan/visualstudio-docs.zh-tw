@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用按鈕在工作表的文字方塊中顯示文字 | Microsoft Docs"
+title: "逐步解說：使用按鈕在工作表的文字方塊中顯示文字"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

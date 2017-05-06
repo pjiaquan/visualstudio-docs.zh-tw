@@ -1,5 +1,5 @@
 ---
-title: "如何：在工作表儲存格中調整控制項的大小 | Microsoft Docs"
+title: "如何：在工作表儲存格中調整控制項的大小"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

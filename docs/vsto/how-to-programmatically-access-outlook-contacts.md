@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式存取 Outlook 連絡人 | Microsoft Docs"
+title: "如何：以程式設計方式存取 Outlook 連絡人"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "如何：新增與移除其他組件 | Microsoft Docs"
+title: "如何：新增與移除其他組件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

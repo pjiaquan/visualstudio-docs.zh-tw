@@ -1,5 +1,5 @@
 ---
-title: "如何：將功能區設計工具的功能區匯出到功能區 XML | Microsoft Docs"
+title: "如何：將功能區設計工具的功能區匯出到功能區 XML"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

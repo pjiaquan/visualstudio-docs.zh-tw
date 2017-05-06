@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在工作表儲存格中顯示字串 | Microsoft Docs"
+title: "如何：以程式設計方式在工作表儲存格中顯示字串"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "如何：將 XMLNode 控制項加入至 Word 文件 | Microsoft Docs"
+title: "如何：將 XMLNode 控制項加入至 Word 文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

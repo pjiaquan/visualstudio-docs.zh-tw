@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式快取 Office 文件的資料來源 | Microsoft Docs"
+title: "如何：以程式設計方式快取 Office 文件的資料來源"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

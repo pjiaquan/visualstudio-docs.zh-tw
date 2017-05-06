@@ -1,5 +1,5 @@
 ---
-title: "如何：使用 MSBuild 目標自訂 SharePoint 方案套件 | Microsoft Docs"
+title: "如何：使用 MSBuild 目標自訂 SharePoint 方案套件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

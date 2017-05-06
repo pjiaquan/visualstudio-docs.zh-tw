@@ -1,5 +1,5 @@
 ---
-title: "Office 文件上的 Windows Forms 控制項概觀 | Microsoft Docs"
+title: "Office 文件上的 Windows Forms 控制項概觀"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

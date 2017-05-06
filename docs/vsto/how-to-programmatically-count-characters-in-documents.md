@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式計算文件中的字元數 | Microsoft Docs"
+title: "如何：以程式設計方式計算文件中的字元數"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

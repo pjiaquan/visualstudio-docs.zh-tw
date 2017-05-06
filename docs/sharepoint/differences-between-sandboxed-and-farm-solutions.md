@@ -1,5 +1,5 @@
 ---
-title: "沙箱化方案與伺服器陣列方案之間的差異 | Microsoft Docs"
+title: "沙箱化方案與伺服器陣列方案之間的差異"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

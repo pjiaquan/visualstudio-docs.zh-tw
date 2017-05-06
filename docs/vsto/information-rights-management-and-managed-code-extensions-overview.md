@@ -1,5 +1,5 @@
 ---
-title: "資訊版權管理和 Managed 程式碼擴充概觀 | Microsoft Docs"
+title: "資訊版權管理和 Managed 程式碼擴充概觀"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：從現有的 SharePoint 網站匯入項目 | Microsoft Docs"
+title: "逐步解說：從現有的 SharePoint 網站匯入項目"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

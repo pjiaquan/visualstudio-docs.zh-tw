@@ -1,5 +1,5 @@
 ---
-title: "剖析 SharePoint 應用程式的效能 | Microsoft Docs"
+title: "剖析 SharePoint 應用程式的效能"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

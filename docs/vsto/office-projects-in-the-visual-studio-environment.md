@@ -1,5 +1,5 @@
 ---
-title: "在 Visual Studio 環境下的 Office 專案 | Microsoft Docs"
+title: "在 Visual Studio 環境下的 Office 專案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

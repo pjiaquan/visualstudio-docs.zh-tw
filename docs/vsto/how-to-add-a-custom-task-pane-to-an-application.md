@@ -1,5 +1,5 @@
 ---
-title: "如何：在應用程式中加入自訂工作窗格 | Microsoft Docs"
+title: "如何：在應用程式中加入自訂工作窗格"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

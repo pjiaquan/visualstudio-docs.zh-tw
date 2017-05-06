@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在 Word 執行窗格將資料繫結至控制項 | Microsoft Docs"
+title: "逐步解說：在 Word 執行窗格將資料繫結至控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

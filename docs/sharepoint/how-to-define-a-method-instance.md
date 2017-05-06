@@ -1,5 +1,5 @@
 ---
-title: "如何：定義方法執行個體 | Microsoft Docs"
+title: "如何：定義方法執行個體"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

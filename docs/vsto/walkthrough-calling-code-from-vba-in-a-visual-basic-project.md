@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在 Visual Basic 專案中呼叫 VBA 的程式碼 | Microsoft Docs"
+title: "逐步解說：在 Visual Basic 專案中呼叫 VBA 的程式碼"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

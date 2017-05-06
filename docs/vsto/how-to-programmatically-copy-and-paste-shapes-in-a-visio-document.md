@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在 Visio 文件中複製並貼上圖形 | Microsoft Docs"
+title: "如何：以程式設計方式在 Visio 文件中複製並貼上圖形"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

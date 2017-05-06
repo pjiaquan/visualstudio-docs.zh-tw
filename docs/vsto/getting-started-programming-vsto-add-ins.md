@@ -1,5 +1,5 @@
 ---
-title: "VSTO 增益集程式設計入門 | Microsoft Docs"
+title: "VSTO 增益集程式設計入門"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

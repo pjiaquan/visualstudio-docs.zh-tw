@@ -1,5 +1,5 @@
 ---
-title: "VSTO 增益集的登錄項目 | Microsoft Docs"
+title: "VSTO 增益集的登錄項目"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

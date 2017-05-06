@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用 IntelliTrace 偵錯 SharePoint 應用程式 | Microsoft Docs"
+title: "逐步解說：使用 IntelliTrace 偵錯 SharePoint 應用程式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

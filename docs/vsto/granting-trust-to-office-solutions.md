@@ -1,5 +1,5 @@
 ---
-title: "授與信任給 Office 方案 | Microsoft Docs"
+title: "授與信任給 Office 方案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

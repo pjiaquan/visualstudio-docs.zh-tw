@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式從收件匣中擷取未讀取的訊息 | Microsoft Docs"
+title: "如何：以程式設計方式從收件匣中擷取未讀取的訊息"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

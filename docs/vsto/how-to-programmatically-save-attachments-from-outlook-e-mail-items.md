@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式從 Outlook 電子郵件項目儲存附件 | Microsoft Docs"
+title: "如何：以程式設計方式從 Outlook 電子郵件項目儲存附件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

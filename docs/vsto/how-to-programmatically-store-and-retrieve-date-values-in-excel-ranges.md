@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在 Excel 範圍中儲存和擷取日期值 | Microsoft Docs"
+title: "如何：以程式設計方式在 Excel 範圍中儲存和擷取日期值"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

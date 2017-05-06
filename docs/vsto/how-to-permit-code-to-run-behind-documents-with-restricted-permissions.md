@@ -1,5 +1,5 @@
 ---
-title: "如何：允許程式碼在具有限制使用權限的文件背後執行 | Microsoft Docs"
+title: "如何：允許程式碼在具有限制使用權限的文件背後執行"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

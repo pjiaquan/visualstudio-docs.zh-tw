@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用專案範本建立網站資料行專案項目 (第 2 部分) | Microsoft Docs"
+title: "逐步解說：使用專案範本建立網站資料行專案項目 (第 2 部分)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

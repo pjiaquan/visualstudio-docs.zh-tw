@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在執行階段於 VSTO 增益集中，將控制項加入文件 | Microsoft Docs"
+title: "逐步解說：在執行階段於 VSTO 增益集中，將控制項加入文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

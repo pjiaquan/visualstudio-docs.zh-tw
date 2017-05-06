@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式將圖形加入至 Visio 文件 | Microsoft Docs"
+title: "如何：以程式設計方式將圖形加入至 Visio 文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

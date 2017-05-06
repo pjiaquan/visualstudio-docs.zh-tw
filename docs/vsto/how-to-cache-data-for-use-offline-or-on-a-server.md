@@ -1,5 +1,5 @@
 ---
-title: "如何：快取資料供離線使用或於伺服器上使用 | Microsoft Docs"
+title: "如何：快取資料供離線使用或於伺服器上使用"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

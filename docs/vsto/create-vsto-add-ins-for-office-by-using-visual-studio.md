@@ -1,5 +1,5 @@
 ---
-title: "使用 Visual Studio 建立適用於 Office 的 VSTO 增益集 | Microsoft Docs"
+title: "使用 Visual Studio 建立適用於 Office 的 VSTO 增益集"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

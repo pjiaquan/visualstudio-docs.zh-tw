@@ -1,5 +1,5 @@
 ---
-title: "如何：快取受密碼保護文件中的資料 | Microsoft Docs"
+title: "如何：快取受密碼保護文件中的資料"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

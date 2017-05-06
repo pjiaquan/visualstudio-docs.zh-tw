@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：匯入自訂主版頁面及包含影像的網站頁面 | Microsoft Docs"
+title: "逐步解說：匯入自訂主版頁面及包含影像的網站頁面"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

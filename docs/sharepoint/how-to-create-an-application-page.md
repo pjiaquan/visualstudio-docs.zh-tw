@@ -1,5 +1,5 @@
 ---
-title: "如何：建立應用程式頁面 | Microsoft Docs"
+title: "如何：建立應用程式頁面"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "功能區設計工具 | Microsoft Docs"
+title: "功能區設計工具"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

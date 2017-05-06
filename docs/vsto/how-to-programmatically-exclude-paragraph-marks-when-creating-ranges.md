@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在建立範圍時排除段落標記 | Microsoft Docs"
+title: "如何：以程式設計方式在建立範圍時排除段落標記"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

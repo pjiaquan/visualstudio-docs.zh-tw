@@ -1,5 +1,5 @@
 ---
-title: "Office 方案中的晚期繫結 | Microsoft Docs"
+title: "Office 方案中的晚期繫結"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

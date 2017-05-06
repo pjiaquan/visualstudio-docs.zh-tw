@@ -1,5 +1,5 @@
 ---
-title: "發行精靈 (Visual Studio 中的 Office 程式開發) | Microsoft Docs"
+title: "發行精靈 (Visual Studio 中的 Office 程式開發)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

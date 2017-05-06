@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：在執行階段於 VSTO 增益集專案中，將控制項加入工作表中 | Microsoft Docs"
+title: "逐步解說：在執行階段於 VSTO 增益集專案中，將控制項加入工作表中"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

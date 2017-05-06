@@ -1,5 +1,5 @@
 ---
-title: "Excel 文件層級自訂的程式設計入門 | Microsoft Docs"
+title: "Excel 文件層級自訂的程式設計入門"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

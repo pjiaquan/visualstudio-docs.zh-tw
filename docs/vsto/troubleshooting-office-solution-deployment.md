@@ -1,5 +1,5 @@
 ---
-title: "Office 方案部署疑難排解 | Microsoft Docs"
+title: "Office 方案部署疑難排解"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

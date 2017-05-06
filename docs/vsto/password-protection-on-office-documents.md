@@ -1,5 +1,5 @@
 ---
-title: "Office 文件上的密碼保護 | Microsoft Docs"
+title: "Office 文件上的密碼保護"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

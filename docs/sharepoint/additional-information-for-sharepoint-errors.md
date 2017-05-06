@@ -1,5 +1,5 @@
 ---
-title: "SharePoint 錯誤的其他相關資訊 | Microsoft Docs"
+title: "SharePoint 錯誤的其他相關資訊"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "如何：將自訂 XML 組件加入至文件層級自訂 | Microsoft Docs"
+title: "如何：將自訂 XML 組件加入至文件層級自訂"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

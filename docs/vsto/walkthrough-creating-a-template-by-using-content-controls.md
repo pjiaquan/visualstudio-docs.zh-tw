@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用內容控制項建立範本 | Microsoft Docs"
+title: "逐步解說：使用內容控制項建立範本"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

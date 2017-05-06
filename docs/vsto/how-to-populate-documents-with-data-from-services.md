@@ -1,5 +1,5 @@
 ---
-title: "如何：將服務的資料填入文件 | Microsoft Docs"
+title: "如何：將服務的資料填入文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "使用資料夾 | Microsoft Docs"
+title: "使用資料夾"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

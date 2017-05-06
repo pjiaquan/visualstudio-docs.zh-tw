@@ -1,5 +1,5 @@
 ---
-title: "Office 方案逐步解說中的資料 | Microsoft Docs"
+title: "Office 方案逐步解說中的資料"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

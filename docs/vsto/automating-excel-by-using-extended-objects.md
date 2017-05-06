@@ -1,5 +1,5 @@
 ---
-title: "使用擴充物件自動化 Excel | Microsoft Docs"
+title: "使用擴充物件自動化 Excel"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

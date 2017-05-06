@@ -1,5 +1,5 @@
 ---
-title: "Excel 方案的全球化與當地語系化 | Microsoft Docs"
+title: "Excel 方案的全球化與當地語系化"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

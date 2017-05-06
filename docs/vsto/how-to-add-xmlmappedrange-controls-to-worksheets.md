@@ -1,5 +1,5 @@
 ---
-title: "如何：將 XMLMappedRange 控制項加入至工作表 | Microsoft Docs"
+title: "如何：將 XMLMappedRange 控制項加入至工作表"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

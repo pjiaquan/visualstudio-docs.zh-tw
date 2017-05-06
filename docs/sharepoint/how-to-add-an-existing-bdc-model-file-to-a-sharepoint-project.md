@@ -1,5 +1,5 @@
 ---
-title: "如何：將現有的 BDC 模型檔案加入至 SharePoint 專案 | Microsoft Docs"
+title: "如何：將現有的 BDC 模型檔案加入至 SharePoint 專案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

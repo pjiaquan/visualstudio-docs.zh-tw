@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：從 VBA 呼叫 VSTO 增益集的程式碼 | Microsoft Docs"
+title: "逐步解說：從 VBA 呼叫 VSTO 增益集的程式碼"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

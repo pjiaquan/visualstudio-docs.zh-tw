@@ -1,5 +1,5 @@
 ---
-title: "如何：使用 VSTO 增益集將自訂 XML 組件加入文件中 | Microsoft Docs"
+title: "如何：使用 VSTO 增益集將自訂 XML 組件加入文件中"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

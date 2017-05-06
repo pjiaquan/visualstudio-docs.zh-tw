@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用選項按鈕更新工作表中的圖表 | Microsoft Docs"
+title: "逐步解說：使用選項按鈕更新工作表中的圖表"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

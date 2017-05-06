@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：建立自訂站台工作流程活動 | Microsoft Docs"
+title: "逐步解說：建立自訂站台工作流程活動"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：建立基本網站定義專案 | Microsoft Docs"
+title: "逐步解說：建立基本網站定義專案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

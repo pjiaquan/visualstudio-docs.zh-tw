@@ -1,5 +1,5 @@
 ---
-title: "EnsureVSTOComponent 函式 | Microsoft Docs"
+title: "EnsureVSTOComponent 函式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

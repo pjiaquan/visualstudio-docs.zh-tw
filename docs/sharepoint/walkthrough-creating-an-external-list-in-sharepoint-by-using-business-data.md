@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用商務資料在 SharePoint 中建立外部清單 | Microsoft Docs"
+title: "逐步解說：使用商務資料在 SharePoint 中建立外部清單"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

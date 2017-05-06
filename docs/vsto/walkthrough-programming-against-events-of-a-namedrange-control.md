@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：針對 NamedRange 控制項的事件進行程式設計 | Microsoft Docs"
+title: "逐步解說：針對 NamedRange 控制項的事件進行程式設計"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

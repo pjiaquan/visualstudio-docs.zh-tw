@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在 Word 中設定搜尋選項 | Microsoft Docs"
+title: "如何：以程式設計方式在 Word 中設定搜尋選項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

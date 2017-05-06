@@ -1,5 +1,5 @@
 ---
-title: "將資料繫結至 Office 方案中的控制項 | Microsoft Docs"
+title: "將資料繫結至 Office 方案中的控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

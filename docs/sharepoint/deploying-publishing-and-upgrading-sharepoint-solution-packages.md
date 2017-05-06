@@ -1,5 +1,5 @@
 ---
-title: "部署、發行和升級 SharePoint 方案套件 | Microsoft Docs"
+title: "部署、發行和升級 SharePoint 方案套件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

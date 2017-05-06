@@ -1,5 +1,5 @@
 ---
-title: "在 VSTO 增益集的執行階段中擴充 Word 文件和 Excel 活頁簿 | Microsoft Docs"
+title: "在 VSTO 增益集的執行階段中擴充 Word 文件和 Excel 活頁簿"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

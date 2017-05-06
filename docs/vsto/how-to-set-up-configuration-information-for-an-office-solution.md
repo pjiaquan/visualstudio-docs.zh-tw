@@ -1,5 +1,5 @@
 ---
-title: "如何：設定 Office 方案的組態資訊 | Microsoft Docs"
+title: "如何：設定 Office 方案的組態資訊"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "如何：從文件屬性中讀取及寫入 | Microsoft Docs"
+title: "如何：從文件屬性中讀取及寫入"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

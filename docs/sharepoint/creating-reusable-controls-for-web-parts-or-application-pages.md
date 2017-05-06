@@ -1,5 +1,5 @@
 ---
-title: "為 Web 組件或應用程式頁面建立可重複使用的控制項 | Microsoft Docs"
+title: "為 Web 組件或應用程式頁面建立可重複使用的控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

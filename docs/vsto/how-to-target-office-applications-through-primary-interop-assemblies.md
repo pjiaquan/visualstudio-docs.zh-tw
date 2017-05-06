@@ -1,5 +1,5 @@
 ---
-title: "如何：透過主要 Interop 組件以 Office 應用程式為目標 | Microsoft Docs"
+title: "如何：透過主要 Interop 組件以 Office 應用程式為目標"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

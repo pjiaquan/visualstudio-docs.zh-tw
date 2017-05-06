@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Office Runtime 的組件 | Microsoft Docs"
+title: "Visual Studio Tools for Office Runtime 的組件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

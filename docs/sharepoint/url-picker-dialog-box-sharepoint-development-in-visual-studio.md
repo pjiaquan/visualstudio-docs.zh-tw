@@ -1,5 +1,5 @@
 ---
-title: "URL 選擇器對話方塊 (Visual Studio 中的 SharePoint 開發) | Microsoft Docs"
+title: "URL 選擇器對話方塊 (Visual Studio 中的 SharePoint 開發)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

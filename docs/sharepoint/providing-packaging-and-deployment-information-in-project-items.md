@@ -1,5 +1,5 @@
 ---
-title: "提供專案項目中的封裝和部署資訊 | Microsoft Docs"
+title: "提供專案項目中的封裝和部署資訊"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

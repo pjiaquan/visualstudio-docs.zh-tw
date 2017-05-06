@@ -1,5 +1,5 @@
 ---
-title: "如何：加入專案輸出參考 | Microsoft Docs"
+title: "如何：加入專案輸出參考"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

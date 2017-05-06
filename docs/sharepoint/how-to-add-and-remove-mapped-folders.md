@@ -1,5 +1,5 @@
 ---
-title: "如何：新增與移除對應的資料夾 | Microsoft Docs"
+title: "如何：新增與移除對應的資料夾"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

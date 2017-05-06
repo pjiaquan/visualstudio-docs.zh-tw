@@ -1,5 +1,5 @@
 ---
-title: "如何：設定內含清單的安全性 | Microsoft Docs"
+title: "如何：設定內含清單的安全性"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

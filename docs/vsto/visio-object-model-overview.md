@@ -1,5 +1,5 @@
 ---
-title: "Visio 物件模型概觀 | Microsoft Docs"
+title: "Visio 物件模型概觀"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

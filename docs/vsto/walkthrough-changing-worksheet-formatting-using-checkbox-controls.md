@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用 CheckBox 控制項來變更工作表格式 | Microsoft Docs"
+title: "逐步解說：使用 CheckBox 控制項來變更工作表格式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

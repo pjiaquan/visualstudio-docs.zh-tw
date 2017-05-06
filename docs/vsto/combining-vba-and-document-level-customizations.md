@@ -1,5 +1,5 @@
 ---
-title: "合併 VBA 和文件層級自訂 | Microsoft Docs"
+title: "合併 VBA 和文件層級自訂"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

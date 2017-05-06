@@ -1,5 +1,5 @@
 ---
-title: "使用活頁簿 | Microsoft Docs"
+title: "使用活頁簿"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Office 程式開發範例和逐步解說 | Microsoft Docs"
+title: "Office 程式開發範例和逐步解說"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

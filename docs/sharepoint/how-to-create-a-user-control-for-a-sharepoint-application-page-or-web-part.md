@@ -1,5 +1,5 @@
 ---
-title: "如何：為 SharePoint 應用程式頁面或 Web 組件建立使用者控制項 | Microsoft Docs"
+title: "如何：為 SharePoint 應用程式頁面或 Web 組件建立使用者控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

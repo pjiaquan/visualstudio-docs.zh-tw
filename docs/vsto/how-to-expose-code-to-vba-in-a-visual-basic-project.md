@@ -1,5 +1,5 @@
 ---
-title: "如何：公開程式碼給 Visual Basic 專案中的 VBA | Microsoft Docs"
+title: "如何：公開程式碼給 Visual Basic 專案中的 VBA"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

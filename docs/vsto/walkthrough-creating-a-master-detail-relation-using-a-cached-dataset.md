@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用快取資料集來建立主從式關聯 | Microsoft Docs"
+title: "逐步解說：使用快取資料集來建立主從式關聯"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

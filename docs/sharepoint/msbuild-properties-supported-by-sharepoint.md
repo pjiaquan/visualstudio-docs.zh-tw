@@ -1,5 +1,5 @@
 ---
-title: "SharePoint 支援的 MSBuild 屬性 | Microsoft Docs"
+title: "SharePoint 支援的 MSBuild 屬性"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

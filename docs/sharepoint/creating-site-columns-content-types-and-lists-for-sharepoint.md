@@ -1,5 +1,5 @@
 ---
-title: "建立 SharePoint 的網站資料行、內容類型和清單 | Microsoft Docs"
+title: "建立 SharePoint 的網站資料行、內容類型和清單"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

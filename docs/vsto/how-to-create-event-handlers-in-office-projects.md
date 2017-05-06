@@ -1,5 +1,5 @@
 ---
-title: "如何：在 Office 專案中建立事件處理常式 | Microsoft Docs"
+title: "如何：在 Office 專案中建立事件處理常式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

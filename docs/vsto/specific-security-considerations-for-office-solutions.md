@@ -1,5 +1,5 @@
 ---
-title: "指定 Office 方案的安全性考量 | Microsoft Docs"
+title: "指定 Office 方案的安全性考量"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

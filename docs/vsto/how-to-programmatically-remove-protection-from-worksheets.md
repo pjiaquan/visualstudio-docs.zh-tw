@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式移除工作表的保護 | Microsoft Docs"
+title: "如何：以程式設計方式移除工作表的保護"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

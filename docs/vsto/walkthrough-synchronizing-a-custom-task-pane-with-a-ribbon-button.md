@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用功能區按鈕同步處理自訂工作窗格 | Microsoft Docs"
+title: "逐步解說：使用功能區按鈕同步處理自訂工作窗格"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

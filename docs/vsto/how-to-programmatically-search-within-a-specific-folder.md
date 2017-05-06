@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在特定資料夾中搜尋 | Microsoft Docs"
+title: "如何：以程式設計方式在特定資料夾中搜尋"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

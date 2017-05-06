@@ -1,5 +1,5 @@
 ---
-title: "圖表控制項 | Microsoft Docs"
+title: "圖表控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

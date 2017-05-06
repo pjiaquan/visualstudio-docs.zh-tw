@@ -1,5 +1,5 @@
 ---
-title: "如何：將 Managed 程式碼擴充附加至文件 | Microsoft Docs"
+title: "如何：將 Managed 程式碼擴充附加至文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

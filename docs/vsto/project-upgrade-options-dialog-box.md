@@ -1,5 +1,5 @@
 ---
-title: "選項對話方塊、專案升級 | Microsoft Docs"
+title: "選項對話方塊、專案升級"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

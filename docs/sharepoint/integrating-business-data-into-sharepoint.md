@@ -1,5 +1,5 @@
 ---
-title: "將商業資料整合至 SharePoint | Microsoft Docs"
+title: "將商業資料整合至 SharePoint"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

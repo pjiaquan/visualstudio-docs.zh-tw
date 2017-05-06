@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式擷取範圍中的開頭和結尾字元 | Microsoft Docs"
+title: "如何：以程式設計方式擷取範圍中的開頭和結尾字元"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

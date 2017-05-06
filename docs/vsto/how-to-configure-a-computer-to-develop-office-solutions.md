@@ -1,5 +1,5 @@
 ---
-title: "如何：設定電腦來開發 Office 方案 | Microsoft Docs"
+title: "如何：設定電腦來開發 Office 方案"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

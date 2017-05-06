@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：VSTO 增益集專案中的複雜資料繫結 | Microsoft Docs"
+title: "逐步解說：VSTO 增益集專案中的複雜資料繫結"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

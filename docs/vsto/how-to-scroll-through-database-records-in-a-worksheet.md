@@ -1,5 +1,5 @@
 ---
-title: "如何：在工作表中捲動資料庫記錄 | Microsoft Docs"
+title: "如何：在工作表中捲動資料庫記錄"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

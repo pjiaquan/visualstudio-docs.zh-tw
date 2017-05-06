@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：將 SharePoint Designer 可重複使用的工作流程匯入 Visual Studio | Microsoft Docs"
+title: "逐步解說：將 SharePoint Designer 可重複使用的工作流程匯入 Visual Studio"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

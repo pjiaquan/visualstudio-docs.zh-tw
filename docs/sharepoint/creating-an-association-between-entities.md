@@ -1,5 +1,5 @@
 ---
-title: "建立實體之間的關聯 | Microsoft Docs"
+title: "建立實體之間的關聯"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

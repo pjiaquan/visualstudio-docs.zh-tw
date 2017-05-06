@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式將檔案附加至 Outlook 電子郵件項目 | Microsoft Docs"
+title: "如何：以程式設計方式將檔案附加至 Outlook 電子郵件項目"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

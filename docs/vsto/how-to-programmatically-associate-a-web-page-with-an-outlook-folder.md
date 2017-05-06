@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式使網頁與 Outlook 資料夾產生關聯 | Microsoft Docs"
+title: "如何：以程式設計方式使網頁與 Outlook 資料夾產生關聯"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

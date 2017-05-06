@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：從執行窗格將文字插入文件 | Microsoft Docs"
+title: "逐步解說：從執行窗格將文字插入文件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

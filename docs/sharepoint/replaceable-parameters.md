@@ -1,5 +1,5 @@
 ---
-title: "可置換的參數 | Microsoft Docs"
+title: "可置換的參數"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

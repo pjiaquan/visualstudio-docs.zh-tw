@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：部署專案工作清單定義 | Microsoft Docs"
+title: "逐步解說：部署專案工作清單定義"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

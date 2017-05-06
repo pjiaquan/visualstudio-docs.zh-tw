@@ -1,5 +1,5 @@
 ---
-title: "全域存取 Office 專案中的物件 | Microsoft Docs"
+title: "全域存取 Office 專案中的物件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

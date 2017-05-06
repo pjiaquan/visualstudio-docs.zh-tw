@@ -1,5 +1,5 @@
 ---
-title: "提升 VSTO 增益集的效能 | Microsoft Docs"
+title: "提升 VSTO 增益集的效能"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "自訂 InfoPath 的功能區 | Microsoft Docs"
+title: "自訂 InfoPath 的功能區"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

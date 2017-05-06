@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用關聯與初始化表單建立工作流程 | Microsoft Docs"
+title: "逐步解說：使用關聯與初始化表單建立工作流程"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

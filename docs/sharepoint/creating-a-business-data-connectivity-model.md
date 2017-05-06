@@ -1,5 +1,5 @@
 ---
-title: "建立商務資料連接模型 | Microsoft Docs"
+title: "建立商務資料連接模型"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

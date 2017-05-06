@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計的方式來執行 Excel 計算功能 | Microsoft Docs"
+title: "如何：以程式設計的方式來執行 Excel 計算功能"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

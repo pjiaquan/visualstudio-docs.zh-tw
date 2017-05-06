@@ -1,5 +1,5 @@
 ---
-title: "如何：為特定的清單執行個體建立事件接收器 | Microsoft Docs"
+title: "如何：為特定的清單執行個體建立事件接收器"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "在 Office 文件中保存動態控制項 | Microsoft Docs"
+title: "在 Office 文件中保存動態控制項"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

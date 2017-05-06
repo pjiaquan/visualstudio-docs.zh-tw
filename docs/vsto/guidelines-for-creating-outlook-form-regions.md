@@ -1,5 +1,5 @@
 ---
-title: "建立 Outlook 表單區域的方針 | Microsoft Docs"
+title: "建立 Outlook 表單區域的方針"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

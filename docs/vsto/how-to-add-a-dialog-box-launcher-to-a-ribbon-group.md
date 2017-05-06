@@ -1,5 +1,5 @@
 ---
-title: "如何：在功能區群組中加入對話方塊啟動程式 | Microsoft Docs"
+title: "如何：在功能區群組中加入對話方塊啟動程式"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

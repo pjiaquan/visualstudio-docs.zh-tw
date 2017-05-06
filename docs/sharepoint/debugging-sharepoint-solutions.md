@@ -1,5 +1,5 @@
 ---
-title: "對 SharePoint 方案進行偵錯 | Microsoft Docs"
+title: "對 SharePoint 方案進行偵錯"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

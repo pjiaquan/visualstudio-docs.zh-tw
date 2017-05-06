@@ -1,5 +1,5 @@
 ---
-title: "如何：加入特定搜尋方法 | Microsoft Docs"
+title: "如何：加入特定搜尋方法"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

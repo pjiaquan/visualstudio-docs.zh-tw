@@ -1,5 +1,5 @@
 ---
-title: "撰寫 Office 方案中的程式碼 | Microsoft Docs"
+title: "撰寫 Office 方案中的程式碼"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

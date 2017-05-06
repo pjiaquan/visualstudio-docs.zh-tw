@@ -1,5 +1,5 @@
 ---
-title: "如何：將 ListObject 欄對應到資料 | Microsoft Docs"
+title: "如何：將 ListObject 欄對應到資料"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

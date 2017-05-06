@@ -1,5 +1,5 @@
 ---
-title: "Office 方案在 Visual Studio 中的架構 | Microsoft Docs"
+title: "Office 方案在 Visual Studio 中的架構"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

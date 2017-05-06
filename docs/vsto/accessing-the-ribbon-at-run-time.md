@@ -1,5 +1,5 @@
 ---
-title: "在執行階段存取功能區 | Microsoft Docs"
+title: "在執行階段存取功能區"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

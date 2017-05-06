@@ -1,5 +1,5 @@
 ---
-title: "建立 SharePoint 的網頁 | Microsoft Docs"
+title: "建立 SharePoint 的網頁"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "文件層級自訂程式設計 | Microsoft Docs"
+title: "文件層級自訂程式設計"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

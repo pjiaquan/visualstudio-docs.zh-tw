@@ -1,5 +1,5 @@
 ---
-title: "如何：在 Outlook 增益集專案中加入表單區域 | Microsoft Docs"
+title: "如何：在 Outlook 增益集專案中加入表單區域"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

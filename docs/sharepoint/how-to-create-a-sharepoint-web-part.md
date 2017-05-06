@@ -1,5 +1,5 @@
 ---
-title: "如何：建立 SharePoint Web 組件 | Microsoft Docs"
+title: "如何：建立 SharePoint Web 組件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

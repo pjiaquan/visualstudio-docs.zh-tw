@@ -1,5 +1,5 @@
 ---
-title: "讓表單區域與 Outlook 訊息類別產生關聯 | Microsoft Docs"
+title: "讓表單區域與 Outlook 訊息類別產生關聯"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

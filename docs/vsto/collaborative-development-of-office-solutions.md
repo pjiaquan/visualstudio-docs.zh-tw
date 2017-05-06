@@ -1,5 +1,5 @@
 ---
-title: "Office 方案的共同開發 | Microsoft Docs"
+title: "Office 方案的共同開發"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

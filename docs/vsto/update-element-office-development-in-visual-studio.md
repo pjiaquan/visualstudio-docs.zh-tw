@@ -1,5 +1,5 @@
 ---
-title: "&lt;update&gt; 元素 (Visual Studio 中的 Office 程式開發) | Microsoft Docs"
+title: "&lt;update&gt; 元素 (Visual Studio 中的 Office 程式開發)"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式摺疊文件的範圍或選取的範圍 | Microsoft Docs"
+title: "如何：以程式設計方式摺疊文件的範圍或選取的範圍"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

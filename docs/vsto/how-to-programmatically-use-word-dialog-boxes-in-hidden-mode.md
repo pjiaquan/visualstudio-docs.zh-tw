@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式在隱藏模式中使用 Word 對話方塊 | Microsoft Docs"
+title: "如何：以程式設計方式在隱藏模式中使用 Word 對話方塊"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

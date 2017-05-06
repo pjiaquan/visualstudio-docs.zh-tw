@@ -1,5 +1,5 @@
 ---
-title: "如何：以程式設計方式建立自訂資料夾項目 | Microsoft Docs"
+title: "如何：以程式設計方式建立自訂資料夾項目"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

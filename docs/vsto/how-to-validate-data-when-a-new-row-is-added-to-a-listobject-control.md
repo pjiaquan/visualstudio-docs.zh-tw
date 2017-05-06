@@ -1,5 +1,5 @@
 ---
-title: "如何：將新資料列加入 ListObject 控制項時驗證資料 | Microsoft Docs"
+title: "如何：將新資料列加入 ListObject 控制項時驗證資料"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

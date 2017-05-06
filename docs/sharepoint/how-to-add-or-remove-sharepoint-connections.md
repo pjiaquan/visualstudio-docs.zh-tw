@@ -1,5 +1,5 @@
 ---
-title: "如何：新增或移除 SharePoint 連線 | Microsoft Docs"
+title: "如何：新增或移除 SharePoint 連線"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

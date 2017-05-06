@@ -1,5 +1,5 @@
 ---
-title: "逐步解說：使用設計工具建立 SharePoint 的 Web 組件 | Microsoft Docs"
+title: "逐步解說：使用設計工具建立 SharePoint 的 Web 組件"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"

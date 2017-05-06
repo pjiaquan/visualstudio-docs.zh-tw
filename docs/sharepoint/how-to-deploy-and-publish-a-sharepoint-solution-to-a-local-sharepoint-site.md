@@ -1,5 +1,5 @@
 ---
-title: "如何：將 SharePoint 方案部署和發行至本機 SharePoint 網站 | Microsoft Docs"
+title: "如何：將 SharePoint 方案部署和發行至本機 SharePoint 網站"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.prod: "visual-studio-dev14"
