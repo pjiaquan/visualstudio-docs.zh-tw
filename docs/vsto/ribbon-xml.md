@@ -1,0 +1,142 @@
+---
+title: "功能區 XML"
+ms.custom: ""
+ms.date: "02/02/2017"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "office-development"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "VSTO.Ribbon.RibbonXMLItem"
+dev_langs: 
+  - "VB"
+  - "CSharp"
+helpviewer_keywords: 
+  - "自訂功能區，XML"
+  - "自訂功能區，XML"
+  - "功能區 [Visual Studio 中的 Office 程式開發]，XML"
+  - "回呼方法"
+  - "自訂功能區，顯示"
+  - "自訂功能區，定義行為"
+  - "XML [Visual Studio 中的 Office 程式開發]，功能區"
+  - "自訂功能區，定義行為"
+  - "功能區 [Visual Studio 中的 Office 程式開發]，自訂"
+  - "自訂功能區，顯示"
+ms.assetid: a5945667-40e8-4191-9f1e-71c18ec30a2e
+caps.latest.revision: 35
+author: "kempb"
+ms.author: "kempb"
+manager: "ghogen"
+caps.handback.revision: 34
+---
+# 功能區 XML
+  \[功能區 \(XML\)\] 項目可讓您使用 XML 自訂功能區。 如果您想要以 \[功能區 \(視覺化設計工具\)\] 項目不支援的方式自訂功能區，請使用 \[功能區 \(XML\)\] 項目。 如需您可以對每個項目進行的比較，請參閱 `GetCustomUI`。  
+  
+ `GetCustomUI`  
+  
+## 將功能區 \(XML\) 項目加入至專案  
+ 您可以從 \[加入新項目\]`ribbon` 對話方塊，將 \[功能區 \(XML\)\]`GetCustomUI` 項目加入至任何 Office 專案。 Visual Studio 會自動將下列檔案加入您的專案中：  
+  
+-   功能區 XML 檔。 這個檔案會定義功能區使用者介面 \(UI\)。 請使用這個檔案加入 UI 項目，例如索引標籤、群組和控制項。 如需詳細資訊，請參閱本主題稍後的功能區 XML 檔案參考`GetCustomUI`。  
+  
+-   功能區程式碼檔案。 此檔案內含「功能區類別」`GetCustomUI`\(ribbon class\)。 這個類別具有您在 \[加入新項目\]`ribbon` 對話方塊中為 \[功能區 \(XML\)\]`GetCustomUI` 項目所指定的名稱。 Microsoft Office 應用程式使用此類別的執行個體來載入自訂功能區。 如需詳細資訊，請參閱本主題稍後的功能區類別參考`GetCustomUI`。  
+  
+ 根據預設，這些檔案會在功能區的 \[增益集\]`GetCustomUI` 索引標籤中加入自訂群組。  
+  
+## 在 Microsoft Office 應用程式中顯示自訂功能區  
+ 將 \[功能區 \(XML\)\]`GetCustomUI` 項目加入專案之後，必須將程式碼加入 ThisAddin`ribbon`、**ThisWorkbook** 或 **ThisDocument** 類別，這些類別會覆寫 CreateRibbonExtensibilityObject 方法並將功能區 XML 類別傳回至 Office 應用程式。  
+  
+ 下列程式碼範例將覆寫 `GetCustomUI` 方法並傳回名為 MyRibbon 的功能區 XML 類別。  
+  
+ [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../snippets/csharp/VS_Snippets_OfficeSP/Trin_Ribbon_Custom_Tab_XML/CS/ThisAddIn.cs#1)]
+ [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_Ribbon_Custom_Tab_XML/VB/ThisAddIn.vb#1)]  
+  
+## 定義自訂功能區的行為  
+ 您可以建立「回呼方法」`GetCustomUI`\(callback method\) 來回應使用者動作 \(例如，按一下功能區上的按鈕\)。 回呼方法和 Windows Forms 控制項中的事件非常類似，但回呼方法是由 UI 項目中 XML 的屬性所識別。 請在功能區類別中撰寫方法，接著控制項便會呼叫與屬性值名稱相同的方法。 例如，您可以建立當使用者按一下功能區按鈕時所呼叫的回呼方法。 建立回呼方法需要執行兩個步驟：  
+  
+-   在程式碼中識別回呼方法的功能區 XML 檔案中，將屬性指派給控制項。  
+  
+-   在功能區類別中定義回呼方法。  
+  
+> [!NOTE]  
+>  Outlook 還需要另一個步驟。 如需詳細資訊，請參閱`GetCustomUI`。  
+  
+ 如需示範如何從功能區自動化應用程式的逐步解說，請參閱 `GetCustomUI`。  
+  
+### 將回呼方法指派給控制項  
+ 若要將回呼方法指派給功能區 XML 檔中的控制項，請加入指定回呼方法類型及方法名稱的屬性。 例如，下列項目會定義擁有名為 `ribbon` 之 `GetCustomUI` 回呼方法的切換按鈕。  
+  
+```  
+<toggleButton id="toggleButton1" onAction="OnToggleButton1" />  
+```  
+  
+ 當使用者執行與特定控制項相關聯的主要工作時，便會呼叫 `GetCustomUI`。 例如，當使用者按一下切換按鈕時，便會呼叫該按鈕的 `GetCustomUI` 回呼方法。  
+  
+ 您在屬性中指定的方法可以具有任何名稱。 但必須符合您在功能區程式碼檔案中定義之方法的名稱。  
+  
+ 您可以將許多不同類型的回呼方法指定給功能區控制項。 如需每個控制項可用之回呼方法的完整清單，請參閱技術文件自訂開發人員適用的 Office \(2007\) 功能區使用者介面 \(第三部分，共三部分\)`GetCustomUI`。  
+  
+###  <a name="CallBackMethods"></a> 定義回呼方法  
+ 請在功能區程式碼檔案的功能區類別中定義回呼方法。 回呼方法具有幾項需求：  
+  
+-   必須將其宣告為公用。  
+  
+-   其名稱必須符合您指派給功能區 XML 檔中控制項之回呼方法的名稱。  
+  
+-   其簽章必須符合相關功能區項目適用之回呼方法類型的簽章。  
+  
+ 如需功能區控制項回呼方法簽章的完整清單，請參閱技術文件自訂開發人員適用的 Office \(2007\) 功能區使用者介面 \(第三部分，共三部分\)`GetCustomUI`。 Visual Studio 不會針對您在功能區程式碼檔案中建立的回呼方法提供 IntelliSense 支援。 如果您建立的回呼方法不符合有效的簽章，雖然程式碼會進行編譯，但是當使用者按一下控制項時，並不會產生任何反應。  
+  
+ 所有的回呼方法都有 `GetCustomUI` 參數，代表呼叫該方法的控制項。 您可以使用這個參數，對多個控制項重複使用相同的回呼方法。 下列程式碼範例示範的 `GetCustomUI` 回呼方法會根據使用者所按下的控制項，執行不同的工作。  
+  
+ [!code-csharp[Trin_RibbonOutlookBasic#2](../snippets/csharp/VS_Snippets_OfficeSP/Trin_RibbonOutlookBasic/CS/Ribbon1.cs#2)]
+ [!code-vb[Trin_RibbonOutlookBasic#2](../snippets/visualbasic/VS_Snippets_OfficeSP/Trin_RibbonOutlookBasic/VB/Ribbon1.vb#2)]  
+  
+##  <a name="RibbonDescriptorFile"></a> 功能區 XML 檔案參考  
+ 您可以在功能區 XML 檔案中加入項目和屬性來定義自訂功能區。 根據預設，功能區 XML 檔包含下列 XML。  
+  
+```  
+<?xml version="1.0" encoding="UTF-8"?> <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad"> <ribbon> <tabs> <tab idMso="TabAddIns"> <group id="MyGroup" label="My Group"> </group> </tab> </tabs> </ribbon> </customUI>  
+```  
+  
+ 下表描述功能區 XML 檔中的預設項目。  
+  
+|項目|描述|  
+|--------|--------|  
+|**customUI**|代表 VSTO 增益集專案中的自訂功能區。|  
+|**ribbon**|代表功能區。|  
+|**tabs**|代表一組功能區索引標籤。|  
+|**tab**|代表單一功能區索引標籤。|  
+|**group**|代表功能區索引標籤上的控制項群組。|  
+  
+ 這些項目都擁有指定自訂功能區外觀和行為的屬性。 下表描述功能區 XML 檔中的預設屬性。  
+  
+|屬性|父項目|描述|  
+|--------|---------|--------|  
+|**onLoad**|**customUI**|識別應用程式載入功能區時所呼叫的方法。|  
+|**idMso**|**tab**|識別要顯示在功能區中的內建索引標籤。|  
+|**id**|**group**|識別群組。|  
+|**label**|**group**|指定出現在群組上的文字。|  
+  
+ 功能區 XML 檔案中的預設項目和屬性是可用項目和屬性的小型子集。 如需可用項目和屬性的完整清單，請參閱技術文件自訂開發人員適用的 Office \(2007\) 功能區使用者介面 \(第二部分，共三部分\)`GetCustomUI`。  
+  
+##  <a name="RibbonExtensionClass"></a> 功能區類別參考  
+ Visual Studio 會在功能區程式碼檔中產生功能區類別。 將功能區上控制項的回呼方法加入至這個類別。 這個類別會實作 `GetCustomUI` 介面。  
+  
+ 下表描述此類別中的預設方法。  
+  
+|方法|描述|  
+|--------|--------|  
+|`GetCustomUI`|傳回功能區 XML 檔案的內容。 Microsoft Office 應用程式會呼叫這個方法，以取得定義自訂功能區使用者介面的 XML 字串。 這個方法會實作 `GetCustomUI` 方法。 **Note:**  `GetCustomUI` 應當只能為傳回功能區 XML 檔案的內容而實作，而不應用來初始化 VSTO 增益集。 具體而言，您不應嘗試在 `GetCustomUI` 實作中顯示對話方塊或其他視窗。 否則自訂功能區可能無法正確運作。 如果需要執行初始化 VSTO 增益集的程式碼，請將該程式碼加入至 `GetCustomUI` 事件處理常式。|  
+|`OnLoad`|將 `GetCustomUI` 參數指派給 `ribbon` 欄位。 Microsoft Office 應用程式會在載入自訂功能區時呼叫此方法。 您可以使用這個欄位動態更新自訂功能區。 如需詳細資訊，請參閱技術文件自訂開發人員適用的 Office \(2007\) 功能區使用者介面 \(第一部分，共三部分\)`GetCustomUI`。|  
+|`GetResourceText`|由 `GetCustomUI` 方法呼叫以取得功能區 XML 檔案的內容。|  
+  
+## 請參閱  
+ [功能區概觀](../vsto/ribbon-overview.md)   
+ [逐步解說：使用功能區 XML 建立自訂的索引標籤](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)   
+ [Office UI 自訂](../vsto/office-ui-customization.md)  
+  
+  

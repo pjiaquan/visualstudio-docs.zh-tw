@@ -1,0 +1,1 @@
+Internet Explorer 9 標準模式、Internet Explorer 10 標準模式、Internet Explorer 11 標準模式和 Windows 市集應用程式

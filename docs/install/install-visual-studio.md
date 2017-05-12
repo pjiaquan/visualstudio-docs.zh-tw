@@ -36,18 +36,19 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
 ms.openlocfilehash: 059dd2068c5aa0d55f94f293d8430a1f401354ba
+ms.contentlocale: zh-tw
 ms.lasthandoff: 04/06/2017
 
 ---
 # <a name="install-visual-studio-2017"></a>安裝 Visual Studio 2017
-歡迎使用安裝 Visual Studio 的新方式！ 在最新版本中，您可以更輕鬆地只選取和安裝所需的功能。我們已將 Visual Studio 的磁碟使用量降到最低，因此安裝速度比以往更快，對系統的影響也比以往更低。  
+歡迎使用安裝 Visual Studio 的新方式！ 在最新版本中，您可以更輕鬆地只選取和安裝所需的功能。我們已將 Visual Studio 的磁碟使用量降到最低，因此安裝速度比以往更快，對系統的影響也比以往更低。
 
  想要深入了解有哪些其他新功能嗎？ 請參閱[版本資訊](https://www.visualstudio.com/news/releasenotes/vs15-relnotes)。 如需我們如何重新設計安裝體驗的更深入資訊，請參閱部落格文章＜[Faster and leaner Visual Studio installer](https://blogs.msdn.microsoft.com/visualstudio/2016/04/01/faster-leaner-visual-studio-installer/)＞(更快速精簡的 Visual Studio 安裝程式) 和＜[Anatomy of a low-impact Visual Studio installation](https://blogs.msdn.microsoft.com/visualstudio/2016/04/25/anatomy-of-a-low-impact-visual-studio-install/)＞(低影響 Visual Studio 安裝的分析)。  
 
- 準備要安裝了嗎？ 我們將逐步引導完成安裝。 我們現在就開始吧。  
+ 準備要安裝了嗎？ 我們將逐步引導完成安裝。 我們現在就開始吧。
 
 ## <a name="install-the-installer"></a>安裝安裝程式  
  當您下載 Visual Studio 2017 時，會收到一個啟動載入器檔案，此檔案會接著安裝新的輕量型安裝程式。 此新的安裝程式包含自訂安裝所需的所有項目。  

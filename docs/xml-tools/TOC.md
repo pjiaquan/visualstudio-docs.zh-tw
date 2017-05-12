@@ -60,8 +60,3 @@
 ### [XSLT 預設範本](xslt-default-templates.md)
 ### [偵錯工具使用者介面 (XSLT)](debugger-user-interface-xslt.md)
 ### [XSLT 分析工具](xslt-profiler.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

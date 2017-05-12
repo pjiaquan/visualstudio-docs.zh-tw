@@ -104,8 +104,3 @@
 #### [<Strings> 項目 (啟動載入器)](strings-element-bootstrapper.md)
 #### [<Schedules> 項目 (啟動載入器)](schedules-element-bootstrapper.md)
 ## [InstallShield 限量版](installshield-limited-edition.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
