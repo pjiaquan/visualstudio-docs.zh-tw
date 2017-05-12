@@ -3,10 +3,11 @@ layout: HubPage
 hide_bc: true
 title: "Visual Studio 文件"
 description: "了解如何使用 Visual Studio 2017 以您選擇的語言，為您的平台和裝置開發應用程式、服務及工具。"
-translationtype: Human Translation
-ms.sourcegitcommit: 06cdfb076120ffd7459a16b56c659bb86942cd7f
-ms.openlocfilehash: 5a8448dff45473fa40892fb07604759a9d015021
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 2831d252fbc9601e62c372ac3df7704e1dc65f2a
+ms.openlocfilehash: a8f12e3418da5ec6fe778d3a7eaed610c120a859
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 <div id="main" class="v2">
@@ -201,7 +202,7 @@ ms.lasthandoff: 03/31/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Python (預覽)</h3>
+                                                    <h3>Python</h3>
                                                     <p>使用包括 Django 和 Flask 在內的熟悉架構，針對 Python 應用程式進行互動式開發。</p>
                                                 </div>
                                             </div>
@@ -247,6 +248,25 @@ ms.lasthandoff: 03/31/2017
                                     </div>
                                 </a>
                             </li>                            
+                            <li>        
+                                <a href="https://go.microsoft.com/fwlink/?linkid=834748">        
+                                  <div class="cardSize">        
+                                    <div class="cardPadding">        
+                                      <div class="card">        
+                                        <div class="cardImageOuter">        
+                                          <div class="cardImage bgdAccent1 cardScaleImage">        
+                                            <img data-scaleimage="./images/vs_web-6.svg" src="./images/vs_web-6.svg" alt="" />        
+                                        </div>        
+                                        </div>        
+                                          <div class="cardText">        
+                                            <h3>資料科學和分析應用程式</h3>        
+                                            <p>語言和工具，可用來建立資料科學應用程式，包括 Python、R 和 F# 在內。</p>        
+                                        </div>        
+                                      </div>        
+                                    </div>        
+                                  </div>        
+                                </a>        
+                            </li>
                             <li>
                                 <a href="https://go.microsoft.com/fwlink/?linkid=833075">
                                     <div class="cardSize">
@@ -287,7 +307,7 @@ ms.lasthandoff: 03/31/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>使用 .NET 的行動應用程式開發</h3>
+                                                    <h3>.NET 的行動裝置程式開發</h3>
                                                     <p>使用 Xamarin，建置 iOS、Android 或 Windows 的跨平台應用程式。</p>
                                                 </div>
                                             </div>
@@ -589,7 +609,7 @@ ms.lasthandoff: 03/31/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>資料</h3>
-                                                    <p>建立幾乎可以連線到所有資料庫產品或服務中，任何格式、任何位置 (本機電腦、區域網路、公用雲端、私人雲端或混合式雲端) 之資料的應用程式。</p>
+                                                    <p>建立連線到任何資料庫或服務，及任何位置 (本機或雲端) 的資料應用程式。 </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -731,7 +751,7 @@ ms.lasthandoff: 03/31/2017
                                             </div>
                                             <div class="cardText">
                                                 <a href="https://go.microsoft.com/fwlink/?linkid=833068">
-                                                    <h3>Python (預覽)</h3>
+                                                    <h3>Python</h3>
                                                     <p>動態、物件導向的高階程式設計語言，經常用於快速應用程式開發。</p>
                                                 </a>
                                             </div>
