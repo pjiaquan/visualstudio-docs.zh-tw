@@ -1,127 +1,144 @@
 ---
-title: "Visual Studio 的動畫 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Visual Studio 的動畫 |Microsoft 文件"
+ms.custom: 
+ms.date: 04/26/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
 caps.latest.revision: 2
-ms.author: "gregvanl"
-manager: "ghogen"
-caps.handback.revision: 2
----
-# Visual Studio 的動畫
-[!INCLUDE[vs2017banner](../../code-quality/includes/vs2017banner.md)]
+ms.author: gregvanl
+manager: ghogen
+translation.priority.mt:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Machine Translation
+ms.sourcegitcommit: 9524ecc3cadef58821fba857de8e82e59eea9b43
+ms.openlocfilehash: b36b5e35758ad10109328d6f001e043ad7dcbe15
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/04/2017
 
-## 動畫的基本概念  
+---
+# <a name="animations-for-visual-studio"></a>Visual Studio 的動畫
+## <a name="animation-fundamentals"></a>動畫的基本概念  
   
-### 在 Visual Studio 中的動畫最佳作法  
- 請遵循這些規則，以確保在 Visual Studio IDE 一致且方便使用的動畫樣式。  
+### <a name="animation-best-practices-in-visual-studio"></a>在 Visual Studio 中的動畫最佳作法  
+請遵循這些規則，以確保 Visual Studio IDE 一致且方便使用動畫樣式。  
   
--   **是選擇性的。**限制為特定用途的動畫。  
+-   **是選擇性的。** 限制具有特定用途的動畫。  
   
--   **計時和速度是非常重要** 以確保轉換覺得快速且自然:  
+-   **計時和速度是非常重要**以確保轉換覺得快速和自然︰  
   
-    -   完成動畫的轉換內一個半秒 \(500 毫秒為單位\)。  
+    -   二分之一秒 （500 毫秒） 內完成動畫進行轉換。  
   
-    -   必須快速它們不會中斷使用者的工作流程會經常發生的動畫。  
+    -   需要快速它們不會中斷使用者的工作流程會經常發生的動畫。 監看在迴圈中的動畫，以及調整計時，直到它享受。 
   
-    -   動畫不應該如此快或太突兀，很難了解，但不是這麼慢，它會使一個耐心不足以完成轉換。  
+    -   不應該是動畫，因此快或突兀，很難了解，但不是如此慢，它會使其中一個耐完成轉換。  
   
-    -   使用變數計時強調重要性。 比方說，當瀏覽類別圖表上的項目序列，加快項目之間的轉換，然後專注於重要的項目變慢。  
+    -   使用變數的執行時間來強調重要性。 例如，當瀏覽類別圖表上的項目序列，加快項目之間的轉換，然後專注於重要的項目變慢。  
   
--   **使用漸進式非線性簡化** 到另一個狀態，讓平靜和自然的  
+-   **使用漸進式非線性 easing**從一個狀態到另一個，讓平靜和自然的。  
   
--   如果可能的話， **停留使用精巧的動畫** 指出在滑鼠互動項目。  
+-   如果可能的話，**暫留時顯示使用精巧的動畫**表示在滑鼠互動項目。  
   
--   如果您依賴動畫功能，您再 **能用來將它們關閉** 本機 \(適用於所有的功能\) 中的選項為 **工具 \> 選項** \] 對話方塊。  
+-   如果您依賴動畫的功能，然後**提供一種機制以將其關閉**本機 （為所有的功能） 中的選項為**工具 > 選項**對話方塊。  
   
--   **一次應該只有一個動畫** 傳達出一段資訊。  
+-   **只有一個動畫應該會發生一次**而且傳達的資訊只在一個片段。 多個物件移動，或嘗試傳遞多個項目可能會造成混淆。 
   
--   **請務必微妙的地方。**在大部分情況下動畫不必要求使用者的注意力其用途。 在計時、 排序和行為稍有變更可能會大幅影響的觀感，而且可以有效和無效的動畫之間的差異。  
+-   **請務必微妙的地方。** 在大部分情況下，動畫不必要求使用者注意到有其用途。 在時間、 順序和行為稍有變更可能會大幅影響感覺，而且可以有效和無效的動畫之間的差異。  
   
--   當使用動畫來吸引某樣東西， **確定值得中斷使用者**的一。  
+-   當使用動畫吸引使用者注意到某樣東西，**確定值得中斷使用者**的定型的想法。  
   
--   **時顯示進度或狀態** 透過動畫:  
+-   **顯示進度或狀態時**透過動畫︰  
   
-    -   停止程序不會逐步引導時顯示進度移動。  
+    -   停止顯示基礎程序時不逐步引導進行移動。 
   
-    -   不確定處理序區別確定處理序。  
+    -   不確定處理序區別確定處理程序。  
   
     -   請確定動畫具有可識別完成與失敗的狀態。  
   
-    -   最小化效果的動畫，顯示狀態，並確定它們有真正的價值的實際使用的其他資訊提供使用。 範例包括暫時性的狀態變更和緊急狀況  
+    -   最小化效果的動畫顯示的狀態，並確定它們有實際值的實際使用的其他資訊提供使用。 範例包括暫時性的狀態變更及緊急事件  
   
-#### 不這麼做:  
+#### <a name="animation-donts"></a>動畫準則︰
   
--   使用小型移動 \(移動中佔空間很小\)、 偏好淡和變動移動物件。  
+-   請勿使用小型的移動 （移動較小的耗用量）。 偏好淡化，並透過移動物件變更。  
   
--   使用透過螢幕畫面的大型區域的動畫。 不論大小，這種動畫是轉移給使用者。  
+-   請勿使用實際螢幕面積大型區域上發生的動畫。 不論大小，這種樣式是動畫的令人分心給使用者。  
   
--   使用不與使用者目前致力於物件或互動的動畫。  
+-   不使用使用者目前為焦點的物件不相關或與其互動的動畫。  
   
--   使用需要使用者介入即可重設狀態，例如強制使用者回應閃爍的通知，以使其停止閃爍的動畫。 與其進行互動，以任何方式應該足以關閉它們。  
+-   請勿使用需要使用者介入即可重設的狀態，例如強制使用者回應閃爍的通知，以使其停止閃爍的動畫。 與其互動，以任何方式應該很足夠，關閉它們。  
   
- 如需有關這些最佳作法的應用程式的詳細資訊，請參閱 [動畫模式](../../extensibility/ux-guidelines/animations-for-visual-studio.md#BKMK_AnimationPatterns)。  
+如需有關這些最佳作法的應用程式的詳細資訊，請參閱[動畫模式](../../extensibility/ux-guidelines/animations-for-visual-studio.md#BKMK_AnimationPatterns)。  
   
-### 動畫度量  
+### <a name="animation-metrics"></a>動畫度量  
   
--   系統應該明顯地回應使用者手勢在小於 10 毫秒。  
+-   系統應該明顯地回應為小於 10 毫秒中的使用者手勢。  
   
--   動畫的轉換不應該超過 500 毫秒，才能完成。  
+-   動畫的轉換不應該花費超過 500 毫秒完成。  
   
--   補償需要較長時間的轉換方法之一是要分成兩個部分。例如，動畫的第一個部分可能是空白內容的容器 \(最多 500 毫秒\) 後面內容淡出效果加入至容器 \(最多 500 毫秒為單位\)。  
+-   為了彌補需要較長的時間轉換的方法之一是分成兩個部分。 例如，動畫的第一個部分可能是空內容的容器 （最多 500 毫秒），後面接著內容淡出到容器 （最多 500 毫秒為單位）。  
   
--   可計算的載入時間，是慣用行列式進度指示器 \(%完成進度指標\)。  
+-   可計算的載入時間，是慣用行列式進度列指示器 （百分比完成進度指標）。  
   
--   無法計算的載入時間，例如資料指標或內嵌的旋轉動畫 \(載入或使用指標\) 的忙碌指標是合適的。  
+-   無法計算的載入時間，如資料指標或內嵌的旋轉動畫 （載入或使用指標） 為忙碌指標是合適的。  
   
-### 為 communicator 的動畫  
- 在 Visual Studio UI 中，動畫只會當做通訊工具。  它用來進行通訊的各種不同的資訊，例如在 UI 中，結構化變更例如，當功能表開啟或關閉。 動畫可協助您視覺化複雜的系統，例如安裝進度的視覺效果的時間相關的行為，或用來吸引注意力警示和通知。  
+### <a name="animation-as-communicator"></a>為 communicator 動畫  
+在 Visual Studio UI 中，動畫只會當做通訊工具。  它用來通訊的各種資訊，像是結構已變更的 UI （例如，功能表就會開啟或關閉時）。 動畫可協助視覺化複雜的系統，例如安裝進度的視覺效果的時間相關的行為。 動畫也可用來吸引注意力警示和通知。  
   
- UI 動畫通常函式以四種方式: 視覺化，引起注意、 模擬，以及指出回應時間\/進度。  
+ UI 動畫通常函式以四種方式︰ 視覺化、 吸引注意、 模擬，和回應時間/進度指標。  
   
-#### 以視覺化方式檢視  
- 動畫可以強調 3d 物件的本質，方便使用者以視覺化方式檢視其空間的結構。 若要達到此目的，動畫可能需要轉動完整圓形中的物件速度很慢，來回開啟或使物件更接近並稍微增加其大小，以強調變換或焦點。  
+#### <a name="visualize"></a>以視覺化方式檢視  
+動畫可以強調 3d 物件的本質，並讓使用者更輕鬆地以視覺化方式檢視其空間的結構。 若要達成此目的，動畫可能需要啟動完整的圓形中的物件速度很慢，來回開啟或將接近的物件並稍微增加其大小，以強調換用 」 或 「 焦點。  
   
- 雖然三維物件可能會以移動使用者控制項 \(以程式設計方式或手動\) 設計工具應該事先判斷如何以最佳動畫提供最佳的了解物件的移動。 這個動畫可以程式化則會啟用使用者將游標放到物件，而使用者控制移動需要使用者了解如何管理物件。 限制單一軸或一次; 方向移動您可以調整、 旋轉，或翻譯，但不要同時執行多個。  
+雖然 3d 物件可能會移動與使用者控制項設計工具 （以程式設計方式或手動） 應該事先決定如何以最佳動畫顯示為提供最佳的了解物件的移動。 這動畫可以程式化，然後啟動使用者將游標放到物件，而由使用者控制移動需要使用者了解如何操作物件。 限制單一軸或一次; 方向移動可能是縮放、 旋轉，或翻譯，但不要同時執行多個。  
   
- 視覺化類別包含的部分資料、 關聯性、 狀態、 結構、 序列和時間。  
+視覺化類別包含的資料、 關聯性、 狀態、 層面結構、 順序和時間。  
   
-##### 資料  
- 說明複雜和變數的資訊:  
+##### <a name="data"></a>資料  
+說明複雜和變數的資訊︰  
   
--   資訊視覺效果，例如圖表和圖形間移動  
+-   移動資訊視覺效果，例如圖表及圖形  
   
--   序列中逐步執行、 導覽，且分頁  
+-   逐步執行順序、 導覽，以及分頁  
   
--   呼叫詳細資料、 指標，並反白顯示的特定資訊  
+-   呼叫詳細資料，指向，並反白顯示特定的資訊  
   
--   覆疊詳細資料和焦點的項目之上的其他資訊  
+-   覆疊詳細資料和焦點的項目之上的其他資訊
   
--   從一種結構化或組織表示變形到另一個  
+-   從結構化或組織的一種表示變形到另一個  
   
--   代表一段時間使用時間滑桿、 分疊快速導覽和傳輸控制項 \(播放、 停止和暫停\) 的變更。  
+-   代表一段時間使用時間滑桿、 j o g 快速滾輪和傳輸控制 」 （播放、 停止及暫停） 的變更 
   
-##### 關聯性  
+##### <a name="relationships"></a>關聯性  
   
--   說明如何項目相互關聯，或指定的項目與相關的項目。  
+-   說明如何項目相互關聯，或指定的項目與相關聯的項目
   
--   顯示階層和父系\-子系或同層級關聯性  
+-   顯示階層和父系-子系或同層級關聯性
   
--   一個項目會產生另一個  
+-   有一個項目會產生另一個
   
--   一個項目最小化，另一個項目  
+-   有一個項目降到最低，另一個項目
   
--   有行動網卡到另一個項目  
+-   有行動網卡到另一個項目
   
-##### 狀態  
+##### <a name="state"></a>狀態  
   
--   更新內容。  
+-   內容更新
   
 -   使用者焦點和選取範圍  
   
@@ -129,7 +146,7 @@ caps.handback.revision: 2
   
 -   錯誤  
   
-##### 結構  
+##### <a name="structure"></a>結構  
   
 -   樞紐分析一個節點上的結構  
   
@@ -137,284 +154,273 @@ caps.handback.revision: 2
   
 -   最小化和最大化，或展開和摺疊  
   
-##### 序列  
+##### <a name="sequence"></a>序列  
   
 -   投影片放映順序  
   
 -   翻閱圖片  
   
-##### 時間  
+##### <a name="time"></a>時間  
   
--   顯示一段時間，時間間隔和螢幕錄製影片的變更  
+-   隨著時間、 時間間隔和錄影畫面的顯示變更  
   
--   移至資源回收筒、 移除和取消復原  
+-   移至資源回收筒、 復原和取消復原  
   
 -   還原歷程記錄的狀態  
   
-#### 引起注意  
- 如果目標是要繪製單一項目從數個使用者的注意力，或提醒使用者的更新資訊，動畫可能適合。 例如，您的應用程式的起始頁可能採用投影片入定位在頁面載入之後開始使用\] 按鈕。  
+#### <a name="attract-attention"></a>吸引注意  
+如果目標是單一項目從數個使用者注意或警示使用者更新的資訊，動畫可能適合。 例如，您的應用程式起始頁可能會採用後在頁面載入的位置到投影片入門按鈕。  
   
- 一般而言，在螢幕上最後一個移動的項目會吸引使用者注意。  在一系列的動畫元素中，使用者的注意力將遵循的最後一個移動的物件。  
+因此，最後在螢幕上的移動項目會吸引使用者注意。  在一系列的動畫項目，使用者注意會遵循的最後一個移動的物件。  
   
-##### 警示  
+##### <a name="alert"></a>警示  
   
--   警告使用者，我們強調顯示進度  
+-   提醒使用者、 吸引、 顯示進度  
   
--   顯示的項目進行正確或不正確，或顯示進度或進行變更  
+-   顯示的項目進行正確或不正確，或顯示進度或正在進行的變更  
   
--   工作，例如尋找線上的詳細資訊，或了解目前工作期間提示使用者  
+-   工作，例如尋找線上的詳細資訊，或深入了解目前的工作過程中提示使用者  
   
-##### 通知  
+##### <a name="notifications"></a>通知  
   
 -   警示的錯誤狀況的相關使用者  
   
--   中斷使用者查看他們想要處理其他事情  
+-   中斷使用者看到他們想要處理其他事務  
   
--   輕輕通知使用者處理序已完成或變更，例如當下載完成時。  
+-   輕輕通知使用者處理序已完成，或變更，例如下載完成時。  
   
-#### 模擬  
- 這個類別涵蓋了 physicality 和維度。  
+#### <a name="simulate"></a>模擬  
+這個類別涵蓋了 physicality 和維度。  
   
--   說明物件均來自或它們移至的位置  
+-   說明物件來自何處，或在前往的位置  
   
 -   展開和摺疊或開啟和關閉  
   
--   移動瀏覽、 捲動和頁面會開啟  
+-   移動瀏覽、 捲動、 和頁面會開啟  
   
 -   堆疊和 z 順序  
   
--   旋轉木馬和 accordion 設定  
+-   浮動切換和 accordion 設定  
   
 -   翻轉和旋轉 UI  
   
-#### 回應與進度指標  
- 進度指標有幾個值得注意的優點:  
+#### <a name="response-and-progress-indicators"></a>回應與進度指標  
+進度指標有幾個值得注意的優點︰  
   
--   這兩個確定及不確定的進度指示器 reassure 的使用者，系統已不會當機，並在問題上運作。  
+-   同時確定及不確定的進度指示器 reassure 的使用者，系統不當機，並正致力於問題。  
   
--   確定指標給予的使用者了解程度沿著動作的進度，以及了解取得接近完成。  
+-   確定指標給的使用者的幅度沿著動作的意義上的進度，以及取得完成更接近的感覺。  
   
-##  <a name="BKMK_AnimationPatterns"></a> 動畫模式  
+##  <a name="BKMK_AnimationPatterns"></a>動畫模式  
   
-### 概觀  
- 在 Visual Studio 中的動畫的用意在於提供特定的函式，且不會妨礙使用者產能。 包含符合一般動畫特性:  
+### <a name="overview"></a>概觀  
+在 Visual Studio 中的動畫，旨在提供特定的函式不會影響使用者產能。 一般而言，在 Visual Studio 中的動畫應︰  
   
--   小又不礙眼  
+-   小型和不顯眼  
   
 -   自然且真實方式呈現  
   
--   微妙和同胞  
+-   細微和同胞  
   
--   快速又有效率地  
+-   快速又有效率  
   
--   鬆散、 不 hurried  
+-   比較不嚴謹、 不 hurried  
   
- 下圖顯示使用 Visual Studio 中的建議動畫樣式。 沒有動畫和精巧的動畫例如淡入\/淡出最常使用。 移動動畫例如擴大和縮減的有限的應用程式，X 和 Y 位置變更及旋轉。  
+下圖顯示動畫樣式，我們建議您針對 Visual Studio。 最常使用沒有動畫或難以察覺的動畫，像是淡入 / 淡出。 移動動畫像擴大和縮減的有限的應用程式，X 和 Y 位置變更和旋轉。 
   
- ![Recommended animation styles for Visual Studio](../../extensibility/ux-guidelines/media/1202-a_vsanimstyles.png "1202\-a\_VSAnimStyles")  
+![Visual Studio 的建議的動畫樣式](../../extensibility/ux-guidelines/media/1202-a_vsanimstyles.png "1202-a_VSAnimStyles")<br />Visual Studio 的建議動畫樣式
   
- **Visual Studio 的建議動畫樣式**  
+#### <a name="appear-and-disappear"></a>會出現並會消失  
+此模式中，項目切換從顯示出的檢視而不會轉換動畫。  
   
-#### 會出現與消失  
- 使用此模式時，項目從切換可見到外的檢視而不會轉換動畫:  
+![顯示和消失動畫](../../extensibility/ux-guidelines/media/1202-b_appearanddisappear.png "1202-b_AppearAndDisappear")<br />顯示和消失動畫  
   
- ![Appear&#47;Disappear animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-b_appearanddisappear.png "1202\-b\_AppearAndDisappear")  
+##### <a name="correct-usage"></a>正確使用方式  
+全新的 UI 項目需要立即出現或消失，讓使用者為以致於產生比都受到阻擋。 此外，緩慢的動畫可能認為效能拖曳，將不會發生的顯示和消失的樣式。  
   
-##### 正確使用方式  
- 全新的 UI 項目，必須立即出現或消失，讓使用者不會分心或受到阻擋。 此外，緩慢移動的動畫可能會認為效能拖曳，就不會出現與消失的樣式。  
+##### <a name="incorrect-usage"></a>使用方式不正確  
+案例中即會出現 UI 因此突然使用者擁有不知道發生了什麼事，而且將動畫加入可與關聯式的理解。  
   
-##### 使用方式不正確  
- 案例中即會出現 UI 因此突然使用者根本不知道發生了什麼事，並將動畫加入有助於了解內容。  
+##### <a name="animation-properties"></a>動畫屬性  
+時間延遲通常是零秒。  
   
-##### 動畫屬性  
- 延遲時間通常是零秒。  
+##### <a name="examples"></a>範例    
+-   自動隱藏工具視窗  
   
-##### 範例  
+-   鍵盤啟動編輯器 UI，像是 IntelliSense 和參數說明  
+  
+-   展開和-摺疊程式碼區域  
+  
+#### <a name="fade-in-and-fade-out"></a>淡入與淡  
+此模式中，UI 項目則是從不可見 （0%不透明） 轉換為可見 （100%不透明），反之亦然。  
+  
+![淡入與淡動畫](../../extensibility/ux-guidelines/media/1202-c_fadeinfadeout.png "1202-c_FadeInFadeOut")<br />淡入與淡動畫  
+  
+##### <a name="correct-usage"></a>正確使用方式  
+這是最常建議 UI 動畫。 它是將感興趣，而不會中斷流程微妙效果。 在某些情況下，使用者可能甚至不知道是動畫，察覺 smooth 及流送 UI 系統。  
+  
+##### <a name="animation-properties"></a>動畫屬性  
+  
+-   啟動不透明度︰ 淡的 0%，淡的 100%  
+  
+-   結束不透明度︰ 100%，淡入、 淡的 0%  
+  
+-   持續時間︰ 200 毫秒獨立、 100 毫秒組合動畫順序的一部分使用時  
+  
+-   Easing 樣式︰ 正弦 InOut  
+  
+##### <a name="examples"></a>範例  
   
 -   自動隱藏工具視窗  
   
--   鍵盤啟動編輯器 UI，例如 IntelliSense 和參數說明  
+-   功能表開啟和關閉  
   
--   展開\-和\-摺疊程式碼區域  
+-   背景和前景 索引標籤的轉換  
   
-#### 淡入與淡  
- 使用此模式時，UI 項目從看不到 \(0%不透明\) 的轉換或可見 \(100%不透明\):  
+#### <a name="color-blend-from-a-to-b"></a>從 A 到 B 的色彩混合  
+此模式中，UI 項目用來變更色彩的色彩 b。  
   
- ![Fade&#45;in&#47;Fade&#45;out animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-c_fadeinfadeout.png "1202\-c\_FadeInFadeOut")  
+![色彩 blend 動畫](../../extensibility/ux-guidelines/media/1202-d_colorblend.png "1202-d_ColorBlend")<br />色彩 blend 動畫  
   
-##### 正確使用方式  
- 這是最常建議 UI 動畫。 它是將感興趣，而不會中斷流程微妙效果。 在某些情況下，使用者甚至不知道有動畫，而且只要認定平滑的流動 UI 系統。  
+##### <a name="correct-usage"></a>正確使用方式  
+與時的 UI 項目從一個內容或狀態色彩變更為另一個動畫轉換。  
   
-##### 動畫屬性  
+##### <a name="animation-properties"></a>動畫屬性  
   
--   啟動不透明度: 淡的 0%、 100%，淡  
+-   開始色彩︰ 特定的 UI  
   
--   結束不透明度: 100%，淡入、 淡的 0%  
+-   結束色彩︰ 特定的 UI  
   
--   持續時間: 200 毫秒獨立 100 毫秒時做為組合動畫順序的一部分  
+-   持續時間︰ 200 毫秒獨立、 100 毫秒組合動畫順序的一部分使用時  
   
--   加\/減速樣式: 正弦 InOut  
+-   Easing 樣式︰ 正弦 InOut  
   
-##### 範例  
+##### <a name="examples"></a>範例  
   
--   自動隱藏工具視窗  
+-   文件視窗狀態轉換 (作用中，最後一個作用中、 與非作用中)  
   
--   開啟和關閉功能表  
+-   工具視窗狀態轉換 （專注於目標和未取得焦點）  
   
--   背景和前景\] 索引標籤的轉換  
+#### <a name="expand-and-contract"></a>擴大和縮減  
+此模式中，UI 項目會展開 X、 Y，或兩個方向。  
   
-#### 從 A 到 B 的色彩混合  
- 使用此模式時，UI 項目用來變更色彩的色彩 b:  
+![展開和收合動畫](../../extensibility/ux-guidelines/media/1202-e_expandcontract.png "1202-e_ExpandContract")<br />展開和收合動畫  
   
- ![Color blend animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-d_colorblend.png "1202\-d\_ColorBlend")  
+##### <a name="correct-usage"></a>正確使用方式  
+與 UI 項目大小從一個內容變更至另一個動畫轉換。  
   
-##### 正確使用方式  
- 與當 UI 項目從一個內容或狀態色彩變更成另一個動畫轉換。  
+##### <a name="animation-properties"></a>動畫屬性  
   
-##### 動畫屬性  
+-   X 小數位數: %或特定維度 （以像素為單位）  
   
--   開始色彩: 特定的 UI  
+-   Y 比例: %或特定維度 （以像素為單位）  
   
--   結束色彩: 特定的 UI  
+-   錨點位置︰ 通常左上角 （適用於由左到右的語言） 或 （適用於由右至左語言） 的右上方  
   
--   持續時間: 200 毫秒獨立 100 毫秒時做為組合動畫順序的一部分  
+-   持續時間︰ 200 毫秒獨立、 100 毫秒組合動畫順序的一部分使用時  
   
--   加\/減速樣式: 正弦 InOut  
+##### <a name="examples"></a>範例  
   
-##### 範例  
+-   架構總管面板會展開和摺疊  
   
--   文件視窗狀態轉換 \(作用中，最後一個作用中與非作用中\)  
+-   起始的頁項目展開和摺疊  
   
--   工具視窗狀態轉換 \(專注於目標和未取得焦點\)  
+#### <a name="x-y-position-change"></a>X，Y 位置變更  
+此模式中，UI 項目變更其 X 或 Y 位置，或兩者。  
   
-#### 擴大和縮減  
- 使用此模式時，X、 Y，或兩個方向擴展 UI 項目:  
+![X，Y 位置變更動畫](../../extensibility/ux-guidelines/media/1202-f_xypositionchange.png "1202-f_XYPositionChange")<br />X，Y 位置變更動畫  
   
- ![Expand&#47;Contract animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-e_expandcontract.png "1202\-e\_ExpandContract")  
+##### <a name="correct-usage"></a>正確使用方式  
+與 UI 項目從一個內容變更位置至另一個動畫的轉換。  
   
-##### 正確使用方式  
- 與當 UI 項目從一個內容大小變更為另一個動畫轉換。  
+##### <a name="animation-properties"></a>動畫屬性  
   
-##### 動畫屬性  
+-   啟動 X 和 Y 位置︰ 特定的 UI  
   
--   X 小數位數: %或特定維度 \(以像素為單位\)  
+-   結束的 X 和 Y 位置︰ 特定的 UI  
   
--   Y 比例: %或特定維度 \(以像素為單位\)  
+-   移動路徑︰ 無  
   
--   錨定位置: 通常左上角 \(適用於由左到右的語言\) 或 \(適用於由右至左語言\) 的右上方  
+-   持續時間︰ 200 毫秒獨立、 100 毫秒組合動畫順序的一部分使用時  
   
--   持續時間: 200 毫秒獨立 100 毫秒時做為組合動畫順序的一部分  
+-   Easing 樣式︰ 正弦 InOut  
   
-##### 範例  
+##### <a name="example"></a>範例  
+重新排列索引標籤  
   
--   架構總管面板展開和摺疊  
+#### <a name="rotate"></a>旋轉  
+此模式中，會旋轉的 UI 項目。  
   
--   起始的頁的項目展開和摺疊  
+![UI 項目旋轉動畫](../../extensibility/ux-guidelines/media/1202-g_rotate.png "1202-g_Rotate")<br />UI 項目旋轉動畫  
   
-#### X Y 位置變更  
- 使用此模式時，UI 項目變更其 X 或 Y 位置，或兩者:  
+##### <a name="correct-usage"></a>正確使用方式  
+僅針對不定微調進度列指示器。  
   
- ![X&#47;Y position change animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-f_xypositionchange.png "1202\-f\_XYPositionChange")  
+##### <a name="animation-properties"></a>動畫屬性  
   
-##### 正確使用方式  
- 與動畫的轉換時的 UI 項目從一個內容位置變更為另一個。  
+-   旋轉的角度︰ 360  
   
-##### 動畫屬性  
+-   旋轉中心︰ 中間的物件  
   
--   啟動 X 和 Y 位置: 特定的 UI  
+-   持續時間︰ 連續  
   
--   結束 X 和 Y 位置: 特定的 UI  
+##### <a name="example"></a>範例  
+不確定的進度指示器 （旋轉）  
   
--   移動路徑: 無  
+### <a name="common-shell-ui-actions-and-recommended-animations"></a>一般的殼層 UI 動作和建議的動畫  
   
--   持續時間: 200 毫秒獨立 100 毫秒時做為組合動畫順序的一部分  
+#### <a name="tab-open"></a>索引標籤上開啟  
+![索引標籤開啟動畫](../../extensibility/ux-guidelines/media/1202-h_tabopen.png "1202-h_TabOpen")<br />索引標籤開啟動畫  
+    
+-   樣式︰ 出現  
   
--   加\/減速樣式: 正弦 InOut  
+-   零秒持續時間︰  
+
+#### <a name="tab-close"></a>關閉索引標籤  
+![索引標籤關閉動畫](../../extensibility/ux-guidelines/media/1202-i_tabclose.png "1202-i_TabClose")<br />索引標籤關閉動畫  
   
-##### 範例  
- 重新排列索引標籤  
+-   Style: X 位置變更  
   
-#### 旋轉  
- 使用此模式時，會旋轉的 UI 項目:  
+-   持續時間︰ 200 毫秒  
   
- ![Rotate animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-g_rotate.png "1202\-g\_Rotate")  
+#### <a name="tab-reorder"></a>索引標籤重新排序  
+![Visual Studio 中的索引標籤重新排序動畫](../../extensibility/ux-guidelines/media/1202-j_tabreorder.png "1202-j_TabReorder")<br />索引標籤重新排序動畫
+
+-   Style: X 位置變更  
   
-##### 正確使用方式  
- 僅適用於不確定微調進度列指示器。  
+-   持續時間︰ 200 毫秒  
+    
+#### <a name="close-floating-document"></a>關閉浮動文件  
+![關閉浮動文件動畫](../../extensibility/ux-guidelines/media/1202-k_closefloatingdocument.png "1202-k_CloseFloatingDocument")<br />關閉浮動文件動畫  
+   
+-   樣式︰ 出現  
   
-##### 動畫屬性  
+-   持續時間︰ 200 毫秒   
+ 
+#### <a name="window-state-transition"></a>視窗狀態轉換  
+![視窗狀態轉換動畫](../../extensibility/ux-guidelines/media/1202-l_windowstatetransition.png "1202-l_WindowStateTransition")<br />視窗狀態轉換動畫  
+    
+-   Style︰ 若要與其他 windows 一致，讓定義文件關閉動畫目前的作業系統。  
   
--   旋轉的角度: 360  
+-   持續時間︰ 200 毫秒  
   
--   旋轉中心: 中間的物件  
+#### <a name="menu-open"></a>開啟功能表  
+![功能表開啟動畫](../../extensibility/ux-guidelines/media/1202-m_menuopen.png "1202-m_MenuOpen")<br />功能表開啟動畫  
+    
+-   樣式︰ 淡入  
   
--   持續時間: 連續  
+-   持續時間︰ 200 毫秒  
   
-##### 範例  
- 不確定的進度指示器 \(旋轉\)  
+#### <a name="menu-close"></a>關閉功能表  
+![功能表關閉動畫](../../extensibility/ux-guidelines/media/1202-n_menuclose.png "1202-n_MenuClose")<br />功能表關閉動畫  
+    
+-   樣式︰ 淡  
   
-### 一般的殼層 UI 動作和建議的動畫  
+-   持續時間︰ 200 毫秒  
   
-#### 索引標籤上開啟  
+#### <a name="auto-hide-tool-window-reveal"></a>自動隱藏工具視窗中顯示  
+![自動隱藏工具視窗中顯示動畫](../../extensibility/ux-guidelines/media/1202-o_autohidetoolwindowreveal.png "1202-o_AutoHideToolWindowReveal")<br />自動隱藏工具視窗中顯示動畫  
+
+-   樣式︰ 出現  
   
--   樣式: 顯示  
-  
--   零秒的持續時間:  
-  
- ![Tab open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-h_tabopen.png "1202\-h\_TabOpen")  
-  
-#### 關閉索引標籤  
-  
--   變更的樣式: X 位置  
-  
--   200 毫秒的持續時間:  
-  
- ![Tab close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-i_tabclose.png "1202\-i\_TabClose")  
-  
-#### 索引標籤重新排序  
-  
--   變更的樣式: X 位置  
-  
--   200 毫秒的持續時間:  
-  
- ![Tab reorder animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-j_tabreorder.png "1202\-j\_TabReorder")  
-  
-#### 關閉浮動文件  
-  
--   樣式: 顯示  
-  
--   200 毫秒的持續時間:  
-  
- ![Close floating document animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-k_closefloatingdocument.png "1202\-k\_CloseFloatingDocument")  
-  
-#### 視窗狀態轉換  
-  
--   樣式: 若要與其他 windows 一致，讓目前的作業系統文件關閉動畫的定義。  
-  
--   200 毫秒的持續時間:  
-  
- ![Window state transition animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-l_windowstatetransition.png "1202\-l\_WindowStateTransition")  
-  
-#### 開啟功能表  
-  
--   樣式: 淡入  
-  
--   200 毫秒的持續時間:  
-  
- ![Menu open animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-m_menuopen.png "1202\-m\_MenuOpen")  
-  
-#### 關閉功能表  
-  
--   樣式: 淡  
-  
--   200 毫秒的持續時間:  
-  
- ![Menu close animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-n_menuclose.png "1202\-n\_MenuClose")  
-  
-#### 自動隱藏工具視窗中顯示  
-  
--   樣式: 顯示  
-  
--   零秒的持續時間:  
-  
- ![Auto&#45;hide tool window animation in Visual Studio](../../extensibility/ux-guidelines/media/1202-o_autohidetoolwindowreveal.png "1202\-o\_AutoHideToolWindowReveal")
+-   零秒持續時間︰
