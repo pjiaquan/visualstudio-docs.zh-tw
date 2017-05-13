@@ -29,9 +29,10 @@ translation.priority.mt:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Machine Translation
+ms.translationtype: Machine Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 73039d6e9bf0db6b3deee00745e21660173f21c0
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -62,7 +63,7 @@ public sealed class BasicPackage : Package
  如果基於某些原因，這些方法都不成功在解除安裝延伸模組，您可以取消註冊 VSPackage 組件，從命令列如下︰  
   
 ```  
-<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg” /unregister <pathToVSPackage assembly>  
+<location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg" /unregister <pathToVSPackage assembly>  
 ```  
   
 ## <a name="see-also"></a>另請參閱  
