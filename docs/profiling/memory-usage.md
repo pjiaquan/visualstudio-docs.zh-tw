@@ -1,7 +1,7 @@
 ---
 title: "在 Visual Studio 中分析記憶體使用量 | Microsoft Docs"
 ms.custom: H1Hack27Feb2017
-ms.date: 11/04/2016
+ms.date: 04/25/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 697b8f5517ad9a953a04f920be39c9ef2cfa2558
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 137f6faa156d188afb99cafb2b1e9dbababdeb4f
+ms.openlocfilehash: a7de37fd82f94fdcef6f839884ea30c5c77061e5
+ms.contentlocale: zh-tw
+ms.lasthandoff: 04/28/2017
 
 ---
 # <a name="analyze-memory-usage"></a>分析記憶體使用量
@@ -47,7 +48,7 @@ ms.lasthandoff: 04/05/2017
   
  除了可以在 **記憶體使用量** 工具中收集任何時間的記憶體快照之外，您還可以使用 Visual Studio 偵錯工具，來控制調查效能問題時要如何執行應用程式。 設定中斷點、逐步偵錯、全部中斷和其他偵錯工具動作，都可以協助您將效能調查工作集中在最相關的程式碼路徑上。 在應用程式執行時進行那些動作，可排除您不感興趣之程式碼的干擾，並可大幅縮短診斷問題所需的時間。  
   
- 您也可以在偵錯工具外部使用記憶體工具。 請參閱[記憶體使用量 (不偵錯)](../profiling/memory-usage-without-debugging2.md)。  
+ 您也可以在偵錯工具外部使用記憶體工具。 請參閱 [Memory Usage without Debugging](../profiling/memory-usage-without-debugging2.md)。  
   
 > [!NOTE]
 >  **自訂配置器支援** 原生記憶體分析工具的運作方式是收集在執行階段所發出的配置 [ETW](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803\(v=vs.85\).aspx) 事件資料。  在來源層級已註釋 CRT 和 Windows SDK 中的配置器，以便擷取其配置資料。  如果您正在撰寫自己的配置器，則針對任何將指標傳回最新配置之堆積記憶體的函式，都可以使用 [__declspec](/cpp/cpp/declspec)(allocator) 來裝飾，如本範例中針對 myMalloc 所示：  
@@ -89,7 +90,7 @@ ms.lasthandoff: 04/05/2017
     ![擷取快照](../profiling/media/dbgdiag_mem_mixedtoolbar_takesnapshot.png "DBGDIAG_MEM_MixedToolbar_TakeSnapshot") 
      
      > [!TIP]
-     >  -   若要建立記憶體的比較基準，請考慮擷取偵錯工作階段開始時的快照。  
+     >  若要建立記憶體的比較基準，請考慮擷取偵錯工作階段開始時的快照。  
 
 6.  執行會叫用您的第一個中斷點的案例。
 
@@ -113,17 +114,15 @@ ms.lasthandoff: 04/05/2017
 -   [堆積大小 (差異)] 資料行顯示 .NET 和原生堆積中的位元組數目 
 
 當您擷取多個快照之後，摘要表的資料格會包含資料列快照與上一個快照之間的值變更。  
-  
-![記憶體摘要表儲存格](../profiling/media/dbgdiag_mem_summarytablecell.png "DBGDIAG_MEM_SummaryTableCell")  
 
 若要分析記憶體使用量，請按一下其中一個可以開啟記憶體使用量詳細報表的連結：  
 
--   若要檢視目前快照與先前快照之間差異的詳細資料，請選擇箭號左側的變更連結 (![記憶體使用量增加](../profiling/media/prof-tour-mem-usage-up-arrow.png "記憶體使用量增加"))。 紅色箭號表示記憶體使用量增加，綠色箭號表示減少)。
+-   若要檢視目前快照與先前快照之間差異的詳細資料，請選擇箭號左側的變更連結 (![記憶體使用量增加](../profiling/media/prof-tour-mem-usage-up-arrow.png "記憶體使用量增加"))。 紅色箭號表示記憶體使用量增加，綠色箭號表示減少。
 
     > [!TIP]
-    >  為了協助使用者更快速地識別記憶體問題，差異報表會以整體數目增加最多 ([物件 (差異)] 資料行中的變更連結)，或整體堆積大小增加最多 ([堆積大小 (差異)] 資料行中的變更連結) 的物件類型來分類。
+    >  為了協助使用者更快速地識別記憶體問題，差異報表會以整體數目增加最多 (按一下 [物件 (差異)] 資料行中的變更連結)，或整體堆積大小增加最多 (按一下 [堆積大小 (差異)] 資料行中的變更連結) 的物件類型來分類。
 
--   若只要檢視所選快照的詳細資料，請選取未變更連結。 
+-   若只要檢視所選快照的詳細資料，請按一下未變更連結。 
   
  報表會在個別的視窗中顯示。   
   
@@ -178,10 +177,10 @@ ms.lasthandoff: 04/05/2017
  ![原生類型差異檢視](../profiling/media/dbgdiag_mem_native_typesviewdiff.png "DBGDIAG_MEM_Native_TypesViewDiff")  
   
 ## <a name="blogs-and-videos"></a>部落格和影片  
- [Visual Studio 2015 中的診斷工具偵錯工具視窗 (英文)](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015.aspx)  
+ [Visual Studio 2015 中的診斷工具偵錯工具視窗](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/diagnostic-tools-debugger-window-in-visual-studio-2015.aspx)  
   
- [部落格：在 Visual Studio 2015 偵錯時的記憶體使用量工具 (英文)](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/13/memory-usage-tool-while-debugging-in-visual-studio-2015.aspx)  
+ [部落格：在 Visual Studio 2015 偵錯時的記憶體使用量工具](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/13/memory-usage-tool-while-debugging-in-visual-studio-2015.aspx)  
   
- [Visual C++ 部落格：VS2015 Preview 中的原生記憶體診斷 (英文)](http://blogs.msdn.com/b/vcblog/archive/2014/11/21/native-memory-diagnostics-in-vs2015-preview.aspx)  
+ [Visual C++ 部落格：VS2015 Preview 中的原生記憶體診斷](http://blogs.msdn.com/b/vcblog/archive/2014/11/21/native-memory-diagnostics-in-vs2015-preview.aspx)  
   
- [Visual C++ 部落格：Visual Studio 2015 CTP 的原生記憶體診斷工具 (英文)](http://blogs.msdn.com/b/vcblog/archive/2014/06/04/native-memory-diagnostic-tools-for-visual-studio-14-ctp1.aspx)
+ [Visual C++ 部落格：Visual Studio 2015 CTP 的原生記憶體診斷工具](http://blogs.msdn.com/b/vcblog/archive/2014/06/04/native-memory-diagnostic-tools-for-visual-studio-14-ctp1.aspx)

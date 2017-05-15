@@ -1,7 +1,7 @@
 ---
-title: "在適用於 Visual Studio 的 Python 工具中偵錯 | Microsoft Docs"
+title: "偵錯 Visual Studio 中的 Python | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,16 +28,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
-ms.openlocfilehash: 1d26ca1a464e2ec15c0d5d338a46b6fb1e7e1d65
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: e15edc1f2739cad0960619aa6cb4b089589eebd8
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="debugging-your-python-code"></a>對您的 Python 程式碼進行偵錯
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 為 Python 提供全面的偵錯體驗，包括附加至執行中處理序、在 [監看式] 和 [即時運算] 視窗中評估運算式、檢查區域變數、中斷點、逐步執行/跳離/不進入陳述式及設定下一個陳述式等。 
+Visual Studio 提供全面的 Python 偵錯體驗，包括附加至執行中處理序、在 [監看式] 和 [即時運算] 視窗中評估運算式、檢查區域變數、中斷點、逐步執行/跳離/不進入陳述式及設定下一個陳述式等。 
 
 如需偵錯的概觀，請參閱 [PTVS 入門，第 4 部分︰偵錯 (英文)](https://youtu.be/bO7wpzgy74A?list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff) (youtube.com，3 分 30 秒)。
 
@@ -58,7 +59,7 @@ ms.lasthandoff: 04/10/2017
 
 <a name="debugging-without-a-project"</a>
 > [!Tip]
-> PTVS 支援沒有專案的偵錯。 在 Visual Studio 中開啟獨立的 Python 檔案，於編輯器中按一下滑鼠右鍵，選取 [開始偵錯 (Start with Debugging)]，PTVS 就會在不使用引數的情況下，以全域預設環境啟動指令碼 (請參閱 [Python 環境](python-environments.md))。 但之後您就有完整的偵錯支援。
+> Visual Studio 中的 Python 支援在不使用檔案的情況下進行偵錯。 在開啟獨立 Python 檔案的情況下，於編輯器中按一下滑鼠右鍵，選取 [啟動並偵錯]，Visual Studio 就會在不使用引數的情況下，以全域預設環境啟動指令碼 (請參閱 [Python 環境](python-environments.md))。 但之後您就有完整的偵錯支援。
 >
 > 若要控制環境和引數，您必須建立程式碼專案。 您可以[從現有的 Python 程式碼](python-projects.md#creating-a-project-from-existing-files)輕鬆地執行這項操作。
 

@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
-ms.openlocfilehash: df4d74d9fe884f3aff1998f4b0b38dbff6d1359f
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: fa3d69cbb34a61a327d0b4c27430ff04b670a568
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -111,7 +112,10 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
 
 1. 在隨即顯示的 [附加至處理序] 對話方塊中，將 [連線類型] 設為 [Python remote (ptvsd)] (Python 遠端 (ptvsd)) (在舊版 Visual Studio 中，這些選項名稱為 [傳輸] 和 [Python 遠端偵錯])。
 
-1. 在 [連線目標] 欄位 (舊版為 [限定詞]) 中，輸入 `tcp://<secret>@<ip_address>:5678`，其中 `<secret>` 是將 `enable_attach` 傳入 Python 程式碼的字串，`<ip_address>` 是遠端電腦的明確位址或名稱 (如 myvm.cloudapp.net)，而 `:5678` 是遠端偵錯的連接埠號碼。 
+1. 在 [連線目標] 欄位 (舊版為 [限定詞]) 中，輸入 `tcp://<secret>@<ip_address>:5678`，其中 `<secret>` 是將 `enable_attach` 傳入 Python 程式碼的字串，`<ip_address>` 是遠端電腦的明確位址或名稱 (如 myvm.cloudapp.net)，而 `:5678` 是遠端偵錯的連接埠號碼。
+
+    > [!Warning]
+    > 如果透過公用網際網路連線，您應該改用 `tcps`，並遵循下列指示[使用 SSL 保護偵錯工具連線](#securing-the-debugger-connection-with-ssl)。
 
 1. 按 Enter，即可填入該電腦上可用的 ptvsd 處理序清單：
 
@@ -194,5 +198,5 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
     ![SSL 憑證主機名稱警告](media/remote-debugging-ssl-warning2.png)
 
 > [!Warning]
-> 目前，如果您忽略這些警告的話，Visual Studio 2017 Preview 將會停止回應。 請務必在嘗試連線之前，修正所有問題。
+> 目前，若不予理會這些警告，Visual Studio 2017 會停止回應。 請務必在嘗試連線之前，修正所有問題。
 

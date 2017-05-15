@@ -27,9 +27,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Machine Translation
+ms.translationtype: Machine Translation
 ms.sourcegitcommit: 08aabdfe0e268f93ef7723076375b7f65b15ccf3
 ms.openlocfilehash: b7cb109d11669f411b5ca3bdf3c4c32a63ac53a1
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -100,11 +101,11 @@ ms.lasthandoff: 02/22/2017
  若要測試使用案例 (例如「新增訂單項目」 (Add Item to Order)，測試方法可能會包括與下面類似的程式碼：  
   
 ```  
-Order order = … ; // set up an order  
+Order order = ... ; // set up an order  
 // Store prior state:  
 int countBefore = order.MenuItems.Count;   
 // Perform use case:  
-MenuItem chosenItem = …; // choose an item  
+MenuItem chosenItem = ...; // choose an item  
 AddItemToOrder (chosenItem, order);   
 // Verify part of postcondition:  
 int countAfter = order.MenuItems.Count;  
@@ -145,7 +146,7 @@ Assert (countAfter == countBefore = 1);
   
  從測試的觀點，需求模型可以視為測試的縮寫。 因此，務必維護測試與整個專案中模型之間的關聯性。  
   
-##  <a name="a-nameattachinga-attaching-test-cases-to-model-elements"></a><a name="Attaching"></a>將測試案例附加至模型項目  
+##  <a name="Attaching"></a>將測試案例附加至模型項目  
  如果您的專案使用 [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)]，則可以將測試連結至模型中的項目。 這可讓您快速找出需求中變更所影響的測試，並協助您追蹤已實現需求的範圍。  
   
  您可以將測試連結至所有類型的項目。 以下是一些範例：  

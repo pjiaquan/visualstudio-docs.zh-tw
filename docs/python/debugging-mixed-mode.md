@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 中的 Python 混和模式偵錯 | Microsoft Docs"
 ms.custom: 
-ms.date: 4/10/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,22 +28,26 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
-ms.openlocfilehash: bdc621831893f907beba7ec5ad503fe4d96c0042
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 919227fb624f4b6dc51e13ccadea8e2682b9816f
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="debugging-python-and-c-together"></a>同時對 Python 和 C++ 進行偵錯
 
-多數的標準 Python 偵錯工具都僅支援對 Python 程式碼進行偵錯。 不過，實際上在需要高效能或是需要能直接叫用平台 API 的情況下，會將 Python 搭配 C 或 C++ 使用 (範例請參閱[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md))。 Visual Studio (使用 Visual Studio 2.0 和更新版本的 Python 工具時) 可為 Python 和原生 C/C++ 提供整合式的同步混合模式偵錯，包含合併的呼叫堆疊、可在 Python 和機器碼及任一類型的程式碼中斷點之間逐步執行、可在原生框架查看物件的 Python 表示法，反之亦然︰
+多數的標準 Python 偵錯工具都僅支援對 Python 程式碼進行偵錯。 不過，實際上在需要高效能或是需要能直接叫用平台 API 的情況下，會將 Python 搭配 C 或 C++ 使用 (範例請參閱[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md))。 Visual Studio 為 Python 和原生 (C/C++) 提供整合式的同步混合模式偵錯，包含合併的呼叫堆疊、可在 Python 和原生程式碼及任一類型的程式碼中斷點之間逐步執行、可在原生框架查看物件的 Python 表示法，反之亦然︰
 
 ![混合模式偵錯](media/mixed-mode-debugging.png) 
 
 如需使用 Visual Studio 建置、測試原生 C 模組並進行偵錯的簡介，請參閱[深入探討︰建立原生模組 (英文)](https://youtu.be/D9RlT06a1EI) (youtube.com，9 分 9 秒)。
 
 > [!VIDEO https://www.youtube.com/embed/D9RlT06a1EI]
+
+> [!Note]
+> 適用於 Visual Studio 1.x 的 Python 工具不提供混合模式偵錯。
 
 ## <a name="enabling-mixed-mode-debugging"></a>啟用混合模式偵錯
 

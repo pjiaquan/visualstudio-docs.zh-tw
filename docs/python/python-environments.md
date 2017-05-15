@@ -1,7 +1,7 @@
 ---
-title: "Python Tools for Visual Studio 中的 Python 環境 | Microsoft Docs"
+title: "Visual Studio 中的 Python 環境 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,18 +28,26 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
-ms.openlocfilehash: 1f8f68e36f94aaf253d304edaa2360333b261be3
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 9140ca7549eefc3ac221f3ca0aa54fde482c8623
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="python-environments"></a>Python 環境
 
-Python 程式碼一律是在特定的 Python「環境」中執行，該環境是由解譯器、程式庫 (通常是「Python 標準程式庫」) 及一組已安裝的套件所組成。 這些一起決定了哪些語言建構和語法有效、您可存取什麼作業系統功能，以及您可以使用哪些套件。
+Visual Studio 中的 Python 可讓您輕鬆管理多個 Python 環境，以及針對不同的專案輕鬆在這些環境之間進行切換。 
 
-Visual Studio 中的 Python 工作負載可讓您輕鬆管理多個 Python 環境，以及針對不同的專案輕鬆在這些環境之間進行切換。 環境也包含環境之程式庫的 IntelliSense 資料庫，使得您只要在 Visual Studio 編輯器中輸入 `import` 之類的陳述式，就會自動顯示可用的程式庫清單及這些程式庫內的模組。
+注意︰如果您不熟悉 Visual Studio 中的 Python，請先參閱下列主題，因為本文的討論是以這些主題為基礎︰
+
+    - [在 Visual Studio 中使用 Python](python-in-visual-studio.md)
+    - [在 Visual Studio 中安裝 Python 支援](installation.md)
+
+一律執行 Python 程式碼的 Python「環境」，其由解譯器、程式庫 (通常是 Python 標準程式庫) 及一組已安裝的套件所組成。 這些一起決定了哪些語言建構和語法有效、您可存取什麼作業系統功能，以及您可以使用哪些套件。
+
+在 Visual Studio 中，環境也包含環境程式庫的 IntelliSense 資料庫，因此您只要在 Visual Studio 編輯器中鍵入 `import` 之類的陳述式，就會自動顯示可用的程式庫清單及這些程式庫內的模組。
 
 通常，開發人員都僅使用單一全域 Python 環境，但其他人員會需要管理多個全域環境、專案特定環境，也可能需要管理虛擬環境，如本主題所述：
 
@@ -57,7 +65,7 @@ Visual Studio 中的 Python 工作負載可讓您輕鬆管理多個 Python 環�
 
 ## <a name="selecting-and-installing-python-interpreters"></a>選取並安裝 Python 解譯器
 
-除了 Visual Studio 2017 預覽版之外，Python 解譯器並未隨附 Python 支援，因此您必須安裝下列其中之一，才能執行您的程式碼。 一般而言，Visual Studio 會自動偵測新安裝的解譯器，並為它們設定環境。 如果情況並非如此，請參閱下面的[為現有的解譯器建立環境](#creating-an-environment-for-an-existing-interpreter)。
+除了 Visual Studio 2017 之外，Python 解譯器並未隨附 Python 支援，因此您必須安裝下列其中之一，才能執行您的程式碼。 一般而言，Visual Studio 會自動偵測新安裝的解譯器，並為它們設定環境。 如果情況並非如此，請參閱下面的[為現有的解譯器建立環境](#creating-an-environment-for-an-existing-interpreter)。
 
 | 解譯器 | 描述 | 
 | --- | --- | 
@@ -82,7 +90,7 @@ Visual Studio 中的 Python 工作負載可讓您輕鬆管理多個 Python 環�
 
 ![[Python Environments (Python 環境)] 視窗](media/environments-default-view.png)
 
-在上述範例中，已安裝 Python 3.4 (32 位元 CPython) 及 32 位元和 64 位元版本的 IronPython。 以粗體顯示的預設環境是 Python 3.4，將會用於所有新的專案。 如果未看到列出任何環境，即表示您已安裝 Python Tools for Visual Studio 但尚未安裝 Python 解譯器 (請參閱上面的[選取並安裝 Python 解譯器](#selecting-and-installing-python-interpreters))。
+上例顯示 Python 3.4 (32 位元 CPython) 已隨 32 位元和 64 位元版本的 IronPython 2.7 安裝。 在本例中，以粗體顯示的預設環境是 Python 3.4，會用於所有新的專案。 如果未看到列出任何環境，即表示您已安裝 Visual Studio 2015 或更舊版本的 Python Tools for Visual Studio，但尚未安裝 Python 解譯器 (請參閱上述的[選取並安裝 Python 解譯器](#selecting-and-installing-python-interpreters))。 
 
 > [!Tip]
 > 當 *[Python Environments (Python 環境)] 視窗變窄時 (如以上所示)，環境會列在上方，而各種索引標籤會列在下方。 不過，如果將視窗展開到足夠的寬度，您就會看到可能較方便您使用的寬型檢視。

@@ -26,9 +26,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
 ms.openlocfilehash: 5778e6b7c4a93c2d03ff00fcaaaf5a25807b0a00
+ms.contentlocale: zh-tw
 ms.lasthandoff: 04/04/2017
 
 ---
@@ -217,7 +218,7 @@ ms.lasthandoff: 04/04/2017
   
 3.  在 [流程] 頁面上，展開 [自動化測試]、[測試來源]、[回合設定]。 選取 **.runsettings** 檔案。  
   
-    -   *但是會出現 [測試組件] 而非 [測試來源]。當我嘗試設定 [回合設定] 欄位時，我只能選取 .testsettings 檔案。*  
+    -   *但是會出現 **[測試組件]** 而非 **[測試來源]**。當我嘗試設定 [回合設定] 欄位時，我只能選取 .testsettings 檔案。*  
   
          在 [自動化測試] 下選取 [測試組件]，然後選擇該行結尾的 [...]。 在 [新增/編輯測試回合] 對話方塊中，將 [測試執行器] 設為 [Visual Studio 測試執行器]。  
   

@@ -1,7 +1,7 @@
 ---
-title: "適用於 Visual Studio 的 Python 工具的單元測試 | Microsoft Docs"
+title: "Visual Studio 中的 Python 單元測試 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: adf122a478b29674dc2924dcf7d42972a5a3f52e
-ms.openlocfilehash: 878bd0baaa0e08a31274645213b222bf6faeb412
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 2597583912c7694495617c53839f41aa13cda871
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -39,13 +40,13 @@ ms.lasthandoff: 04/10/2017
 
 單元測試是測試應用程式中其他程式碼單元 (通常是隔離的函數、類別等) 的程式碼片段。 應用程式通過所有單元測試之後，您至少可以確定其低階功能皆能正確運作。
 
-在設計程式時，Python 會廣泛地使用單元測試來驗證案例。 適用於 Visual Studio 的 Python 工具 (PTVS) 包含在開發程序的內容內針對單元測試進行探索、執行及偵錯的支援，您將不需要個別執行它們。
+在設計程式時，Python 會廣泛地使用單元測試來驗證案例。 Visual Studio 中的 Python 支援包含在開發程序的內容內針對單元測試進行探索、執行及偵錯的支援，您不需要個別執行它們。
 
 本主題提供搭配 Python 的 Visual Studio 中的單元測試功能簡介。 如需單元測試的整體詳細資訊，請參閱[對程式碼進行單元測試](../test/unit-test-your-code.md)。
 
 ## <a name="discovering-and-viewing-tests"></a>探索及檢視測試
 
-依照慣例，PTVS 會將測試辨識為名稱以 "test" 開頭的方法。 若要查看此結果，請執行下列步驟：
+依照慣例，Visual Studio 會將測試辨識為名稱以 "test" 開頭的方法。 若要查看此結果，請執行下列步驟：
 
 1. 開啟在 Visual Studio 中載入的 [Python 專案](python-projects.md)，以滑鼠右鍵按一下專案，選取[新增] > [新增項目...]，然後選取 [Python 單元測試]，再選取 [新增]。
 
@@ -98,13 +99,13 @@ ms.lasthandoff: 04/10/2017
 
 ## <a name="debugging-tests"></a>偵錯測試
 
-因為單元測試是程式碼片段，它們和其他程式碼一樣會具有錯誤，並在某些情況下需要以偵錯工具執行，使您可以設定中斷點、檢視變數並逐步檢視程式碼。 PTVS 也提供診斷工具
+因為單元測試是程式碼片段，它們和其他程式碼一樣會具有錯誤，並在某些情況下需要以偵錯工具執行，使您可以設定中斷點、檢視變數並逐步檢視程式碼。 Visual Studio 也提供診斷工具
 
 若要開始偵錯，請在程式碼中設定初始中斷點，然後在 [測試總管] 中以滑鼠右鍵按一下測試 (或一系列測試)，然後選取 [偵錯選取的測試]。 Visual Studio 將會以和針對應用程式程式碼一樣的方式，啟動 Python 偵錯工具。
 
 ![對測試進行偵錯](media/unit-test-debugging.png)
 
-視您的 PTVS 版本而定 (請參閱[功能比較表](python-in-visual-studio.md#features-matrix))，您也可以使用 [分析選取之測試的程式碼涵蓋範圍] 和 [程式碼剖析測試] 命令。
+視您的 Visual Studio 版本而定 (請參閱[功能比較表](python-in-visual-studio.md#features-matrix))，您也可以使用 [分析選取之測試的程式碼涵蓋範圍] 和 [程式碼剖析測試] 命令。
 
 ### <a name="known-issues"></a>已知問題
 

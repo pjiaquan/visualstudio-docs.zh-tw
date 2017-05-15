@@ -1,7 +1,7 @@
 ---
-title: "適用於 Visual Studio 的 Python 工具的 Web 專案範本 | Microsoft Docs"
+title: "Visual Studio 中的 Python Web 專案範本 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,16 +28,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 2375c0c3b1a692d03d8790e400e3fea606355831
-ms.lasthandoff: 03/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 20edb7a53adf400fba94556e659b4215a0060c1b
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="python-web-project-templates"></a>Python Web 專案範本
 
-適用於 Visual Studio 的 Python 工具 (PTVS) 包括以諸如 Bottle、Django 和 Flask 等架構開發 Web 專案的支援。 這包括專案範本和偵錯啟動器，您可以設定以處理各種架構。 不過，PTVS 不包含架構本身，您必須以滑鼠右鍵按一下專案並選取 [Python] > [安裝/升級架構...] 來額外安裝它們。
+Visual Studio 的 Python 支援包括以諸如 Bottle、Django 和 Flask 等架構開發 Web 專案的支援。 這包括專案範本和偵錯啟動器，您可以設定以處理各種架構。 不過，Visual Studio 不包含架構本身，您必須以滑鼠右鍵按一下專案並選取 [Python] > [Install/upgrade framework...] (安裝/升級架構...) 來個別安裝它們。
 
 每個範本 (透過 [檔案] > [新增] > [專案] 存取) 會搭配隨機選取的本機連接埠啟動 Web 伺服器，於偵錯期間開啟您的預設瀏覽器，並允許直接發佈至 [Microsoft Azure](http://www.azure.com)。 針對 Bottle、Flask 和 Django 有提供範本，而且您可以針對其他架構 (例如 Pyramid) 使用一般的 [Web 專案] 範本。
 
@@ -59,7 +60,7 @@ Bottle、Flask 和 Django 範本各自都包含一個含有一些頁面及靜態
 
 ## <a name="debugging"></a>偵錯
 
-當啟動 Web 專案進行偵錯時，PTVS 會在本機啟動 Web 伺服器，然後開啟預設瀏覽器並移至該位址及連接埠。 若要指定其他選項，請以滑鼠右鍵按一下專案，選取 [屬性]，並選取 [Web 啟動器] 索引標籤：
+當啟動 Web 專案進行偵錯時，Visual Studio 會在本機啟動網頁伺服器，然後開啟預設瀏覽器並移至該位址及連接埠。 若要指定其他選項，請以滑鼠右鍵按一下專案，選取 [屬性]，並選取 [Web 啟動器] 索引標籤：
 
   ![一般 Web 範本的 Web 啟動器屬性](media/template-web-launcher-properties.png)
 
@@ -67,7 +68,7 @@ Bottle、Flask 和 Django 範本各自都包含一個含有一些頁面及靜態
 
 - **搜尋路徑**、**指令碼引數**、**解譯器引數**和**解譯器路徑**：這些與[一般偵錯](debugging.md)所使用的相同
 - **啟動 URL**：指定將在瀏覽器中開啟的 URL。 預設值為 `localhost`。
-- **連接埠號碼**：在未於 URL 中指定連接埠的情況下，要使用的連接埠 (PTVS 預設會自動選取一個)。 這可讓您覆寫 `SERVER_PORT` 環境變數的預設值，該預設值是範本用來設定本機偵錯伺服器要接聽的連接埠。
+- **連接埠號碼**：在未於 URL 中指定連接埠的情況下，要使用的連接埠 (Visual Studio 預設會自動選取一個)。 這可讓您覆寫 `SERVER_PORT` 環境變數的預設值，該預設值是範本用來設定本機偵錯伺服器要接聽的連接埠。
 
 [執行伺服器命令] 和 [偵錯伺服器命令] 群組中的屬性 (下圖所示的為後者) 會決定 Web 伺服器的啟動方式。 因為許多架構要求使用目前專案外部的指令碼，您可以在這裡設定指令碼，而啟始模組的名稱可以當作參數傳遞。
 
@@ -94,7 +95,7 @@ Bottle Web 專案範本包括會執行必要設定的未定案程式碼。 不�
     - **命令**：`bottle` (模組)
     - **引數**：`--debug --bind=%SERVER_HOST%:%SERVER_PORT% {StartupModule}:app`
 
-使用 PTVS 進行偵錯時，不建議使用 `--reload` 選項。
+使用 Visual Studio 進行偵錯時，不建議使用 `--reload` 選項。
 
 ### <a name="sample-pyramid-configuration"></a>範例 Pyramid 設定
 

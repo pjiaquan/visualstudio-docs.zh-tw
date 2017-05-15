@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
-ms.openlocfilehash: 002c77b27f7283ecd28d7ec5470b0ed44b2bb7a4
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: f8a0bef07667e5f876473c966ed3d14a1b84dd0b
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -49,11 +50,14 @@ ms.lasthandoff: 04/10/2017
 
 ## <a name="prerequisites"></a>必要條件
 
-本逐步解說是針對 Visual Studio 2017 Preview 所撰寫，並且具有**使用 C++ 的桌面開發**和 **Python 開發**工作負載，及其預設選項 (例如使用 Python 3.6 作為預設解譯器)。 在 **Python 開發**工作負載中，也請核取 **Python 原生開發工具**右邊的方塊，它會設定本主題中所述的大部分選項。 (這個選項也會自動包含 C++ 工作負載。)
+本逐步解說是針對 Visual Studio 2017 所撰寫，並且具有**使用 C++ 的桌面開發**和 **Python 開發**工作負載，及其預設選項 (例如使用 Python 3.6 作為預設解譯器)。 在 **Python 開發**工作負載中，也請核取 **Python 原生開發工具**右邊的方塊，它會設定本主題中所述的大部分選項。 (這個選項也會自動包含 C++ 工作負載。) 
 
 ![選取 Python 原生開發工具選項](media/cpp-install-native.png)
 
 如需詳細資料，請參閱[為 Visual Studio 安裝 Python 支援](installation.md)，包括使用 Visual Studio 的其他版本。 如果您分別安裝 Python，請務必在安裝程式的 [進階選項] 下，選取 [下載偵錯符號] 和 [下載偵錯二進位檔案]。 如此可確保如果您選擇進行偵錯組建，您可以使用必要的偵錯程式庫。
+
+> [!Note]
+> Python 也可透過包含 64 位元的 Anaconda 3 (含最新版 CPython) 和預設 [Python 原生開發工具] 選項的**資料科學和分析應用程式**工作負載取得。
 
 ## <a name="create-the-python-application"></a>建立 Python 應用程式
 
@@ -265,7 +269,7 @@ ms.lasthandoff: 04/10/2017
 
 ## <a name="debug-the-c-code"></a>偵錯 C++ 程式碼
 
-Visual Studio 中的 Python 支援包括能夠[同時偵錯 Python 和 C++ 程式碼](debugging-mixed-mode.md)。 若要親自體驗，請執行下列作業︰
+[Visual Studio 中的 Python 支援](installation.md)包括能夠[同時偵錯 Python 和 C++ 程式碼](debugging-mixed-mode.md)。 若要親自體驗，請執行下列作業︰
 
 1. 在方案總管中以滑鼠右鍵按一下 Python 專案、依序選取 [屬性]、[偵錯] 索引標籤，然後選取 [偵錯] > [啟用機器碼偵錯] 的選項。
 
