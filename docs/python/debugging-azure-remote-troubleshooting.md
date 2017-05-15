@@ -1,7 +1,7 @@
 ---
-title: "對使用適用於 Visual Studio 的 Python 工具進行的 Azure 遠端偵錯執行疑難排解 | Microsoft Docs"
+title: "對 Visual Studio 中的 Python 進行 Azure 遠端偵錯疑難排解 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: fcf44a3967c0bd391808c9f6b3a23f39aeff05fd
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: f9d9d1bc974e43cdd7d1da2a1468a9b7ef84f44b
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -46,7 +47,7 @@ ms.lasthandoff: 03/07/2017
 | 專案未使用偵錯組態部署。 | 以滑鼠右鍵按一下 [方案總管] 中的專案，然後選取 [發行] 以重新部署應用程式。 在 [設定] 索引標籤中，確定 [偵錯] 是選取的組態。 |
 | App Service 未執行。 | 從 Visual Studio 的 [伺服器總管] 或從 Azure 入口網站啟動它。 |
 | App Service 未設定網路通訊端。 | 移至 [Azure 入口網站](https://portal.azure.com)，瀏覽至您的 App Service，開啟 [設定] > [應用程式設定] 刀鋒視窗，將 [一般設定] > [Web 通訊端]設為 [開啟]，然後選取 [儲存]。 (請注意，此刀鋒視窗上顯示的 [偵錯] 選項*不*適用於 Python 偵錯。) |
-| `web.debug.config` 已修改為停用偵錯 Proxy。 | 刪除該檔案，重新發行專案至 App Service，在此期間適用於 Visual Studio 的 Python 工具會重新建立該檔案。 |
+| `web.debug.config` 已修改為停用偵錯 Proxy。 | 刪除該檔案，重新發行專案至 App Service，在此期間 Visual Studio 會重新建立該檔案。 |
 
 另請參閱：
 

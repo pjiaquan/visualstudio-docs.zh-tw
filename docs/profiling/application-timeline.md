@@ -28,13 +28,14 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 5455d9a16004fef1aec02fbaf856f336c67dfb05
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4c744284c198a645440494ee79ee0e722904fda5
+ms.openlocfilehash: b6fd9ebbd931604b12c772f4e2514c86f5c9dd70
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/04/2017
 
 ---
-# <a name="analyze-resource-consumption-and-ui-thread-acitivity-xaml"></a>分析資源耗用量和 UI 執行緒活動 (XAML)
+# <a name="analyze-resource-consumption-and-ui-thread-activity-xaml"></a>分析資源耗用量和 UI 執行緒活動 (XAML)
 使用 [應用程式時間軸]  程式碼剖析工具來找出並修正 XAML 應用程式中的應用程式互動相關效能問題。 此工具可透過提供應用程式資源耗用量的詳細檢視，來協助改善 XAML 應用程式的效能。 您可以分析應用程式準備 UI 畫面格 (版面配置和轉譯)、服務網路和磁碟要求，以及像是應用程式啟動、頁面載入和視窗大小調整等情況所花費的時間。  
   
  [應用程式時間軸]是可透過 [偵錯/效能分析工具] 命令啟動的工具之一。  
@@ -88,7 +89,7 @@ ms.lasthandoff: 03/07/2017
   
 2.  使用 [UI 執行緒使用率]  或 [視覺輸送量 (FPS)]  圖中的資訊，檢查 [時間軸詳細資料]  檢視中的詳細資料，找出任何明顯缺乏回應性的可能原因。  
   
-###  <a name="BKMK_Report_scenarios_categories_and_events"></a>報告情節、分類和事件  
+###  <a name="BKMK_Report_scenarios_categories_and_events"></a> 報告情節、分類和事件  
  [應用程式時間軸]  工具會顯示與 XAML 效能相關之情節、分類和事件的計時資料。  
   
 ###  <a name="BKMK_Diagnostic_session_timeline"></a>診斷工作階段時間軸  
@@ -108,7 +109,7 @@ ms.lasthandoff: 03/07/2017
   
  [ **視覺輸送量 (FPS)** ] 折線圖會顯示應用程式 UI 和撰寫執行緒上的每秒畫面格數 (FPS)。  
   
-###  <a name="BKMK_Timeline_details_"></a>時間軸詳細資料  
+###  <a name="BKMK_Timeline_details_"></a> 時間軸詳細資料  
  詳細資料檢視是您會花費大部分的時間分析報表之處。 其會顯示由 UI 架構子系統分類之應用程式 CPU 使用率的詳細檢視或耗用 CPU 系統的元件。  
   
  支援的事件如下：  
@@ -119,7 +120,7 @@ ms.lasthandoff: 03/07/2017
 |**版面配置**|在大型應用程式裡，螢幕上可能會同時顯示數千個項目。 這可能導致低 UI 畫面播放速率和對應不佳的應用程式回應性。 配置事件準確地判斷每個項目的成本配置 (也就是在排列、量值、ApplyTemplate、ArrangeOverride 和 ArrangeOverride 所花的時間)，並建置參與配置傳遞的視覺化樹狀結構。 您可以使用此視覺效果，來判斷哪些程式邏輯樹狀結構需要清除，或評估其他延遲機制以將配置傳遞最佳化。|  
 |**轉譯**|將 XAML 項目繪製到螢幕所花費的時間。|  
 |**I/0**|從本機磁碟或網路資源 (透過 [Microsoft Windows 網際網路 (WinINet) API](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385331.aspx)存取) 擷取資料所花費的時間。|  
-|**應用程式程式碼**|執行與剖析或配置不相關的應用程式 (使用者) 程式碼所花費的時間。|  
+|**App Code**|執行與剖析或配置不相關的應用程式 (使用者) 程式碼所花費的時間。|  
 |**XAML 其他**|執行 XAML 執行階段程式碼所花費的時間。|  
   
 > [!TIP]

@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 中的 Python 安裝 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,14 +28,15 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: e0a51155a42fb51244114da86a292381a7a28a21
-ms.lasthandoff: 03/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 9cdd87d81f0b0f4748a25c7bb87fb840e246854c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
-# <a name="installing-python-support-for-visual-studio"></a>為 Visual Studio 安裝 Python 支援
+# <a name="installing-python-support-in-visual-studio"></a>在 Visual Studio 中安裝 Python 支援
 
 若要為 Visual Studio 安裝 Python 支援，請遵循符合您 Visual Studio 版本之小節中的指示：
 
@@ -52,11 +53,14 @@ ms.lasthandoff: 03/27/2017
 
 ## <a name="visual-studio-2017"></a>Visual Studio 2017
 
-1. 安裝 [https://www.visualstudio.com/vs/preview 的 Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)。 **注意︰**這個 Preview 通道與 Visual Studio 2017 發行版本「相異」，並包含在未來 Visual Studio 2017 更新的開發中功能，包括 Python 支援。
+1. 從 [https://www.visualstudio.com/vs/](https://www.visualstudio.com/vs/) 安裝 Visual Studio 2017。
 
-1. 在預覽版安裝程式中，選取 [Web 與雲端] > [Python 開發] 工作負載：
+1. 在 Visual Studio 安裝程式中，選取 [Web 與雲端] > [Python 開發] 工作負載。
 
     ![Visual Studio 安裝程式中的 Python 開發工作負載](media/installation-python-workload.png)
+
+    > [!Note]
+    > **資料科學和分析應用程式**工作負載中也包含 Python。
 
 1. 在安裝程式的右側，選取 Python 解譯器，以及其他您想包含的相關工具。 例如，如果您計劃開發適用於 Python 的 C++ 延伸模組，請包括 [Python 原生開發工具] 選項。
 
@@ -88,7 +92,7 @@ ms.lasthandoff: 03/27/2017
 
 根據預設，系統會為電腦上的所有使用者安裝 Python 支援。
 
-針對 Visual Studio 2017，Python 工作負載會安裝在 `%ProgramFiles(x86)%\Microsoft Visual Studio\Preview\<VS_edition>Common7\IDE\Extensions\Microsoft\Python`，其中 &lt;VS_edition&gt; 將會是 Community、Professional 或 Enterprise。
+針對 Visual Studio 2017，Python 工作負載會安裝在 `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\<VS_edition>Common7\IDE\Extensions\Microsoft\Python`，其中 &lt;VS_edition&gt; 將會是 Community、Professional 或 Enterprise。
 
 針對 Visual Studio 2015 和更早版本，安裝路徑如下：
 
