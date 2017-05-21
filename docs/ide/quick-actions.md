@@ -1,7 +1,7 @@
 ---
 title: "快速動作 | Microsoft Docs"
 ms.custom: 
-ms.date: 03/10/2017
+ms.date: 05/08/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -10,8 +10,8 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.devlang: csharp
 ms.assetid: e173fb7d-c5bd-4568-ba0f-aa61913b3244
-author: BrianPeek
-ms.author: brpeek
+author: kempb
+ms.author: kempb
 manager: ghogen
 dev_langs:
 - CSharp
@@ -30,15 +30,16 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 46846db26bee30841e6cb35913d533b512d01ba0
-ms.openlocfilehash: 226e51ace56d51945cc380aaaf3450ae7dacf8e4
-ms.lasthandoff: 03/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 2831d252fbc9601e62c372ac3df7704e1dc65f2a
+ms.openlocfilehash: e59204427c8d7d1706ca6c85261733efdcbc440e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 # <a name="quick-actions"></a>快速動作
 
-[快速動作](refactoring-code-generation-quick-actions.md#quick-actions)可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  雖然有許多專門適用於 C# 或 Visual Basic 的快速動作，也有一些同時適用於 C# 和 Visual Basic 專案。  這些可以藉由當您的游標位於適當程式碼行時使用燈泡圖示 ![小燈泡圖示](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用。 when your cursor is on the appropriate line of code.
+[快速動作](refactoring-code-generation-quick-actions.md#quick-actions)可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  雖然有許多專門適用於 C# 或 Visual Basic 的快速動作，也有一些同時適用於 C# 和 Visual Basic 專案。  當您的游標位於適當程式碼行時，這些可以使用燈泡圖示 ![小燈泡圖示](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用 。
 
 如果有紅色曲線，而且 Visual Studio 有針對如何修正問題的建議，您就會看到燈泡。 例如，如果紅色曲線指出一個錯誤，當該錯誤有可用的修正時，便會出現燈泡。 針對任何語言，協力廠商都可以提供自訂診斷和建議，例如做為 SDK 的一部分，而 Visual Studio 燈泡會依據這些規則亮燈。  
 
@@ -105,7 +106,7 @@ switch(myEnum)
     case MyEnum.Item3:
         break;
     default:
-        break;    
+        break;
 }
 ```
 
@@ -313,7 +314,7 @@ Debug.WriteLine("Hello")
 ```
 
 ### <a name="convert-to-interpolated-string"></a>轉換成字串插值
-[字串插值](/dotnet/articles/csharp/language-reference/keywords/interpolated-strings)可以輕鬆表示含有內嵌變數的字串，類似於 **[String.Format](https://msdn.microsoft.com/library/system.string.format(v=vs.110).aspx)** 方法。  這個快速動作會辨識字串串連或使用 **String.Format** 的情況，並將使用方式變更為字串插值。
+[字串插值](/dotnet/articles/csharp/language-reference/keywords/interpolated-strings)可以輕鬆表示含有內嵌變數的字串，類似於 **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** 方法。  這個快速動作會辨識字串串連或使用 **String.Format** 的情況，並將使用方式變更為字串插值。
 
 ```CSharp
 // Before
@@ -339,5 +340,95 @@ Dim num as Integer = 3
 Dim s As String = $"My string with {num} in the middle"
 ```
 
+### <a name="remove-merge-conflict-markers"></a>移除合併衝突標記
+這些快速動作可讓您透過「採取變更」解決合併衝突，這樣會移除衝突的程式碼和標記。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 解決合併衝突](../ide/media/vside-refactoring-merge-conflicts.png)
+
+### <a name="add-null-checks-for-parameters"></a>新增參數的 Null 檢查
+這個快速動作可讓您在程式碼中新增檢查，以判斷參數是否為 Null。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 新增 Null 檢查](../ide/media/vside-refactoring-nullcheck.png)
+
+### <a name="constructor-generator-improvements"></a>建構函式產生器的增強功能
+當您建立建構函式時，這個快速動作可讓您選取要產生的屬性或欄位，或者您可以從空的內文產生建構函式。 您也可以使用它將參數從呼叫位置新增至現有的建構函式。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 產生建構函式](../ide/media/vside-refactoring-constructors.png)
+
+### <a name="remove-unused-variables"></a>移除未使用的變數
+這個快速動作可讓您移除已宣告但從未在程式碼中使用的變數。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 未使用的變數](../ide/media/vside-refactoring-unusedvars.png)
+
+### <a name="generate-overrides"></a>產生覆寫
+這個快速動作可讓您從類別或結構中的空白行建立覆寫。 [挑選成員] 對話方塊可讓您選擇要覆寫的成員。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 覆寫](../ide/media/vside-refactoring-overrides.png)
+
+![重構 - [覆寫] 對話方塊](../ide/media/vside-refactoring-overrides-dialog.png)
+
+### <a name="change-base-for-numeric-literals"></a>變更數值常值的基底
+這個快速動作可讓您將數值常值從一個基底數值系統轉換至另一個基底數值系統。 例如，您可以將數字變更為十六進位或二進位格式。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 變更基底](../ide/media/vside-refactoring-changebase1.png)
+
+![重構 - 變更基底](../ide/media/vside-refactoring-changebase2.png)
+
+### <a name="insert-digit-separators-into-literals"></a>將數字分隔符號插入到常值中
+這個快速動作可讓您將分隔符號字元加入到常值中。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+![重構 - 變更數字分隔符號](../ide/media/vside-refactoring-separators.png)
+
+### <a name="convert-if-construct-to-switch"></a>將 **if** 建構轉換為 **switch**
+這個快速動作可讓您將 **if-then-else** 建構轉換為 **switch** 建構。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
+
+```CSharp
+// Before
+if (obj is string s)
+{
+  Console.WriteLine("obj is a string: " + s);  
+}
+
+else if (obj is int i && i > 10)
+{
+  Console.WriteLine("obj is an int greater than 10");
+}
+
+// Convert to switch
+
+// After
+switch (obj)
+{
+  case string s:
+    Console.WriteLine("Obj is a string: " + s);
+    break;
+  case int i when i > 10:
+    Console.WriteLine("obj is an int greater than 10");
+    break;
+}
+```
+
+```VB
+' Before
+If TypeOf obj Is String s Then
+    Console.WriteLine("obj is a string: " + s)
+Else If TypeOf obj Is Integer i And i > 10 Then
+    Console.WriteLine("obj is an int greater than 10")
+End If
+
+' Convert to switch
+
+' After
+Select Case obj
+  Case String s
+    Console.WriteLine("Obj is a string: " + s)
+    Exit Sub
+  Case Integer i when i > 10
+    Console.WriteLine("obj is an int greater than 10")
+    Exit Sub
+End Select
+```
+
 # <a name="see-also"></a>另請參閱
 * [程式碼樣式及快速動作](code-styles-and-quick-actions.md)
+
