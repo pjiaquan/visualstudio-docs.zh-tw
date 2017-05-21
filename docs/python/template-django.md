@@ -1,7 +1,7 @@
 ---
-title: "適用於 Visual Studio 的 Python 工具的 Django Web 專案範本 | Microsoft Docs"
+title: "Visual Studio 中適用於 Python 的 Django Web 專案範本 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/8/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,18 +28,19 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 7f65641fbf15edfe16931badc19602a0fc773bff
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 4a5db2deb3633e8305dbf83cbe6ba8c0e3344c72
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="django-web-project-template"></a>Django Web 專案範本
 
-[Django (英文)](https://www.djangoproject.com/) 是高階的 Python 架構，專為快速、安全且可擴充的網頁程式開發所設計。 適用於 Visual Studio 的 Python 工具 (PTVS) 可提供專案範本來設定 Django 架構 Web 應用程式的結構。 若要在 Visual Studio 中使用範本，請選取 [檔案] > [新增] > [專案]，搜尋「Django」，然後選取 [Django Web 專案] 範本。 產生的專案會包含未定案程式碼，以及預設的 SQLite 資料庫。 [空白 Django Web 專案] 範本和上述範本相似，但不包含資料庫。
+[Django (英文)](https://www.djangoproject.com/) 是高階的 Python 架構，專為快速、安全且可擴充的網頁程式開發所設計。 Visual Studio 中的 Python 支援可提供專案範本來設定 Django 架構 Web 應用程式的結構。 若要在 Visual Studio 中使用範本，請選取 [檔案] > [新增] > [專案]，搜尋「Django」，然後選取 [Django Web 專案] 範本。 產生的專案會包含未定案程式碼，以及預設的 SQLite 資料庫。 [空白 Django Web 專案] 範本和上述範本相似，但不包含資料庫。
 
-PTVS 針對 Django 專案提供完整的 IntelliSense：
+Visual Studio 針對 Django 專案提供完整的 IntelliSense：
 
 - 傳入範本的內容變數：
 
@@ -56,7 +57,7 @@ PTVS 針對 Django 專案提供完整的 IntelliSense：
     ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
 
 
-PTVS 也針對 Django 專案提供完整的[偵錯支援](debugging.md)： 
+Visual Studio 也針對 Django 專案提供完整的[偵錯支援](debugging.md)： 
 
 ![中斷點](media/template-django-debugging.png)
 

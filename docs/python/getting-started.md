@@ -1,7 +1,7 @@
 ---
 title: "開始在 Visual Studio 中使用 Python | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/1/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -27,16 +27,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: 2659c1a3b1adfc3f462971205460942c5fe5171f
-ms.lasthandoff: 03/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 8001036077b8b14af80fabceafad5d3aff9b25f4
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="getting-started-with-python-in-visual-studio"></a>開始在 Visual Studio 中使用 Python
 
-一旦 Visual Studio 已安裝 Python 工作負載 (Visual Studio 2017) 或者適用於 Visual Studio 的 Python 工具 (Visual Studio 2015 與更早版本)，您就準備好探索 Python 開發體驗。
+一旦 Visual Studio 已安裝 Python 工作負載 (Visual Studio 2017) 或者適用於 Visual Studio 的 Python 工具 (Visual Studio 2015 與更早版本)，您就準備好探索 Python 開發體驗。 (若有需要，請參閱[安裝](installation.md))。
 
 在本逐步解說中，您將建立一個新的空白 Python 應用程式、選擇要使用的 Python 環境，然後開始撰寫一些程式碼，以在工作中查看 IntelliSense。 然後，您將短暫使用互動式 REPL 視窗建立更多程式碼，接著完成程式，並單獨執行程式或在偵錯工具中執行程式。
 
@@ -271,4 +272,5 @@ Visual Studio 中的 Python 支援包含一些[專案範本](python-projects.md)
 - Visual Studio 提供在遠端伺服器上偵錯您的應用程式的功能，如[跨平台遠端偵錯](debugging-cross-platform-remote.md)和 [Azure 遠端偵錯](debugging-azure-remote.md)中所述。
 - 您可以使用 [Visual Studio 程式碼剖析](profiling.md)評估您的 Python 程式碼的效能。
 - 以 Python 撰寫的單元測試會直接與 Visual Studio 測試總管整合，如[單元測試](unit-testing.md)中所討論。
+- [Microsoft Virtual Academy 上的免費 Python 課程](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
 

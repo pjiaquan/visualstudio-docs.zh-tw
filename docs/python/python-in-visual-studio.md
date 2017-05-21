@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 中的 Python | Microsoft Docs"
 ms.custom: 
-ms.date: 3/7/2017
+ms.date: 5/2/2017
 ms.prod: visual-studio-dev15
 ms.reviewer: 
 ms.suite: 
@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 06f5b9d2223ccb9cbbbff8f2960d89c8efbf05b2
-ms.openlocfilehash: 83a676c5f2f838b6920c5fafbe78dc9b49fbb4cb
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: c46c8b7a0d9ea1509dcda2ef711562b3cf95b259
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
@@ -39,7 +40,7 @@ ms.lasthandoff: 04/12/2017
 
 Python 是一種熱門的程式設計語言，不僅可靠、有彈性、容易學習、可在所有作業系統上免費使用，而且也受到強大的開發人員社群和許多免費程式庫支援。 Python 支援所有形式的開發，包括 Web 應用程式、Web 服務傳統型應用程式、指令碼及科學計算，並且許多大學、科學家、業餘開發人員及專業開發人員等都使用它。 您可以從 [python.org (英文)](https://www.python.org) 和[適用於初學者的 Python (英文)](https://www.python.org/about/gettingstarted/) 深入了解此語言。
 
-Visual Studio 可透過 Python 工作負載 (Visual Studio 2017) 和免費的 Python Tools for Visual Studio 延伸模組 (Visual Studio 2015 和更舊的版本) 支援適用於 Python 語言的[開放原始碼](https://github.com/Microsoft/ptvs)。 
+Visual Studio 可透過 Python 開發與資料科學工作負載 (Visual Studio 2017) 和免費的「適用於 Visual Studio 的 Python 工具」擴充功能 (Visual Studio 2015 和更舊的版本)，針對 Python 語言提供[開放原始碼 (英文)](https://github.com/Microsoft/ptvs) 支援。 
 
 請依照我們的[安裝指示](installation.md)來設定 Python 工作負載，然後使用以下連結來深入了解 Python 相關的功能，以及 Visual Studio 本身的功能。
 
@@ -75,7 +76,7 @@ Python 工作負載也包含 [Azure SDK for Python](azure-sdk-for-python.md)，�
 
 您可以下列版本的 Visual Studio 中安裝 Python 支援，如[安裝指南 (英文)](installation.md) 所述：
 
-- [Visual Studio 2017 Preview](https://www.visualstudio.com/vs/preview)
+- [Visual Studio 2017 (所有版本)](https://www.visualstudio.com/vs/)
 - [Visual Studio 2015 (所有版本)] (https://www.visualstudio.com/en-us/downloads/visual-studio-2015-downloads-vs)
 - [Visual Studio 2013 Community 版] (https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
 - [Visual Studio 2013 Express for Web (Update 2 或更新版本)](https://www.microsoft.com/en-us/download/details.aspx?id=44912)
@@ -202,4 +203,5 @@ Python 工作負載也包含 [Azure SDK for Python](azure-sdk-for-python.md)，�
 
 - [使用 PyKinect 以 Python 撰寫 Kinect 遊戲 (英文)](https://github.com/Microsoft/PTVS/wiki/PyKinect) (GitHub wiki)
 - [IIS 與 Python 之間的 WFastCGI 橋接 (英文)](https://pypi.python.org/pypi/wfastcgi) (python.org)
+- - [Microsoft Virtual Academy 上的免費 Python 課程](https://mva.microsoft.com/search/SearchResults.aspx#!q=python)
 

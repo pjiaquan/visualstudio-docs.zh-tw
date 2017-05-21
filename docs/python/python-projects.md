@@ -28,16 +28,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
-ms.openlocfilehash: eb3abd0f37e52f2b1db3793a5471b74a5e0c37ff
-ms.lasthandoff: 04/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 3190be68fbba464a84a7a25b2d829979944bdb1f
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 
 # <a name="python-projects"></a>Python 專案
 
-定義 Python 應用程式時，通常僅使用資料夾和檔案，但隨著應用程式變得越來越大，這可能會變得相當複雜，且可能牽涉到自動產生的檔案、Web 應用程式的 JavaScript 等。 為了協助管理此複雜性，您可以為 Python 應用程式建立 Visual Studio 專案。 Python 專案 (`.pyproj` 檔案) 會識別與您專案關聯的所有來源和內容檔案、包含每個檔案的建置資訊、維護要與來源控制系統整合的資訊，以及協助您將應用程式組織成邏輯元件。
+定義 Python 應用程式時，通常僅使用資料夾和檔案，但隨著應用程式變得越來越大，這可能會變得相當複雜，且可能牽涉到自動產生的檔案、Web 應用程式的 JavaScript 等。 為了協助管理此複雜性，您可以針對 Python 應用程式建立 Visual Studio 專案。 Python 專案 (`.pyproj` 檔案) 會識別與您專案關聯的所有來源和內容檔案、包含每個檔案的建置資訊、維護要與來源控制系統整合的資訊，以及協助您將應用程式組織成邏輯元件。
 
 此外，您一律是在 Visual Studio 的「方案」內管理專案，方案中可以包含任意數目、可能彼此參考的專案。 例如，Python 專案可以參考延伸模組的 C++ 專案，如此一來，當您開始對 Python 專案進行偵錯時，Visual Studio 將會自動建置 C++ 專案 (如有必要)。 (如需一般的討論，請參閱 [Visual Studio 中的方案和專案](../ide/solutions-and-projects-in-visual-studio.md))。
 
@@ -100,7 +101,7 @@ Visual Studio 提供您一些方法來建立 Python 專案，不論是從頭開�
 | IronPython Silverlight 網頁 | 一種使用 Silverlight 在瀏覽器中執行的 IronPython 專案。 應用程式的 Python 程式碼會以指令碼的形式包含在網頁中。 樣板指令碼標記會向下拖曳出一些 JavaScript 程式碼，這些程式碼會將在 Silverlight 內部執行的 IronPython 初始化，而您的 Python 程式碼便可從中與 DOM 互動。 |
 | IronPython Windows Forms 應用程式 | 一種使用 IronPython 的專案結構，其中是使用程式碼搭配 Windows Forms 來建立 UI。 應用程式會在不顯示主控台的情況下執行。 |
 | 背景應用程式 (IoT) | 支援將 Python 專案部署成在裝置上以背景服務的形式執行。 如需詳細資訊，請瀏覽 [Windows IoT 開發人員中心](https://dev.windows.com/en-us/iot)。 |
-| Python 延伸模組 | 如果您已在 Visual Studio 2017 Preview 中安裝 **Python 原生開發工具** 與 Python 工作負載 (請參閱[安裝](installation.md))，此範本會出現在 Visual C++。 它提供的 C++ 延伸模組 DLL 的核心結構，類似於[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md)中所述。 |
+| Python 延伸模組 | 如果您已在 Visual Studio 2017 中搭配 Python 工作負載安裝「Python 原生開發工具」(請參閱[安裝](installation.md))，此範本會出現在 Visual C++ 底下。 它提供的 C++ 延伸模組 DLL 的核心結構，類似於[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md)中所述。 |
 
 <a name="create-project-from-existing-files"</a>
 ### <a name="creating-a-project-from-existing-files"></a>從現有的檔案建立專案
