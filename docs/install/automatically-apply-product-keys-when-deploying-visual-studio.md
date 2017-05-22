@@ -1,8 +1,8 @@
 ---
 title: "在部署 Visual Studio 時自動套用產品金鑰 | Microsoft Docs"
 ms.custom: 
-ms.date: 3/10/2017
-ms.reviewer: 
+ms.date: 05/06/2017
+ms.reviewer: tims
 ms.suite: 
 ms.technology:
 - vs-ide-install
@@ -28,51 +28,52 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: af9699b63fdfb81a274affb78856817520c38b05
-ms.openlocfilehash: 36a774583f5125ecc09210c9ad5da15ec800f870
-ms.lasthandoff: 04/03/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 85576806818a6ed289c2f660f87b5c419016c600
+ms.openlocfilehash: 493ea235a3d89a04a4c6accfa491e622792e4397
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/10/2017
 
 ---
 # <a name="automatically-apply-product-keys-when-deploying-visual-studio"></a>在部署 Visual Studio 時自動套用產品金鑰
-您能以程式設計的方式套用您的產品金鑰，做為用來自動化部署 Visual Studio 的一部分指令碼。 產品金鑰能在 Visual Studio 安裝期間或完成安裝後，以程式設計方式設定在裝置上。  
+您能以程式設計的方式套用您的產品金鑰，做為用來自動化部署 Visual Studio 的一部分指令碼。 產品金鑰能在 Visual Studio 安裝期間或完成安裝後，以程式設計方式設定在裝置上。
 
-## <a name="apply-the-license-during-installation"></a>在安裝期間套用授權  
- 請使用 `--productKey` 參數以在進行 Visual Studio 安裝程序時套用產品金鑰。 此安裝程式參數可以與 `--quiet parameter` 參數搭配使用，以在已授權的狀態下為終端使用者安裝 Visual Studio。 若要使用 `--productKey` 參數，請開啟命令提示字元。 執行安裝程式 (例如 vs_enterprise.exe 或 vs_professional.exe)，然後使用包含或不含破折號的產品金鑰 (25 個字元) 來設定 `--productKey` 參數：  
+## <a name="apply-the-license-after-installation"></a>在安裝後套用授權
+ 您可以在目標電腦上以無訊息模式使用 `StorePID.exe` 公用程式，利用產品金鑰來啟用已安裝的 Visual Studio 版本。 `StorePID.exe` 是與 Visual Studio 2017 一起安裝的公用程式，其預設位置如下： <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
 
- 這是以 AAAAABBBBBCCCCCDDDDDEEEEEEE 產品金鑰安裝 Visual Studio 2015 Enterprise 的命令範例：  
+ 使用 System Center 代理程式或提高權限的命令提示字元，以較高的權限執行 `StorePID.exe`，後面再加上產品金鑰 (包含破折號) 和 Microsoft 產品代碼 (MPC)。 請務必包含產品金鑰的破折號。
 
- `vs_enterprise.exe [any other setup parameters] --productKey AAAAABBBBBCCCCCDDDDDDEEEEEE`  
+ ```
+ StorePID.exe [product key including the dashes] [MPC]
+ ```
 
-## <a name="apply-the-license-after-installation"></a>在安裝後套用授權  
- 您可以在目標電腦上以無訊息模式使用 storePID.exe 公用程式，使用產品金鑰來啟用已安裝的 Visual Studio 版本。 StorePID.exe 是隨 Visual Studio 一起安裝的公用程式，安裝位置在 **\<drive>:\\\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe**。  
+ 以下範例命令列可利用產品金鑰 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE` 來套用 Visual Studio 2017 Enterprise (其 MPC 為 08860) 的授權，並安裝於預設位置：
 
- 藉由使用 System Center 代理程式或提高權限的命令提示字元，後面加上 (包括破折號) 產品金鑰和 Microsoft 產品代碼 (MPC)，以較高的權限執行 StorePID.exe。 請務必包含產品金鑰的破折號！  
+ ```cmd
+ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+ ```
 
- `StorePID.exe [product key including the dashes] [MPC]`  
+ 下表列出每個 Visual Studio 版本的 MPC 代碼：
 
- 這是安裝 Visual Studio 2017 Enterprise 的範例命令列，其中 MPC 為 08860 且產品金鑰為 "AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE"：  
+| Visual Studio 版本                | MPC   |
+|--------------------------------------|-------|
+| Visual Studio Enterprise 2017        | 08860 |
+| Visual Studio Professional 2017      | 08862 |
+| Visual Studio Test Professional 2017 | 08866 |
 
- `C:\Program Files (x86)\Microsoft Visual Studio 15.0\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860`  
+如果 `StorePID.exe` 成功套用產品金鑰，將傳回值為 0 的 `%ERRORLEVEL%`。 如果發生錯誤，則會根據錯誤狀況傳回代碼：
 
- 下表列出每個 Visual Studio 版本的 MPC 代碼：  
+| 錯誤                     | 程式碼 |
+|---------------------------|------|
+| `PID_ACTION_SUCCESS`      | 0    |
+| `PID_ACTION_NOTINSTALLED` | 1    |
+| `PID_ACTION_INVALID`      | 2    |
+| `PID_ACTION_EXPIRED`      | 3    |
+| `PID_ACTION_INUSE`        | 4    |
+| `PID_ACTION_FAILURE`      | 5    |
+| `PID_ACTION_NOUPGRADE`    | 6    |
 
-|Visual Studio 版本 | MPC |  
-|---------------------------|---------|
-|Visual Studio Enterprise 2017|08860|  
-|Visual Studio Professional 2017|08862|  
-|Visual Studio Test Professional 2017|08866|
-|Visual Studio Enterprise 2015|07060|  
-|Visual Studio Professional 2015|07062|  
-|Visual Studio Test Professional 2015|07066|  
-|Visual Studio Ultimate 2013|06181|  
-|Visual Studio Premium 2013|06191|  
-|Visual Studio Professional 2013|06177|  
-|Visual Studio Test Professional 2013|06194|  
-
-如果 StorePID.exe 成功套用產品金鑰，會傳回 0。 如果遇到錯誤，則會傳回 1 到 6 的數字。  
-
-## <a name="see-also"></a>另請參閱  
+## <a name="see-also"></a>另請參閱
  * [安裝 Visual Studio](../install/install-visual-studio.md)
  * [建立 Visual Studio 的離線安裝](../install/create-an-offline-installation-of-visual-studio.md)
 
