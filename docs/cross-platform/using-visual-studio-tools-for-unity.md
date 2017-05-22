@@ -27,9 +27,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 65bcf9081699a793ddc1876fec266c8b3ed9ba90
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -145,7 +146,7 @@ ms.lasthandoff: 02/22/2017
  這個 Unity 執行個體執行所在的電腦或裝置名稱。  
   
  **Type**  
-如果這個 Unity 執行個體當做 Unity Editor 的一部分來執行，則為 [Editor]；如果這個 Unity 執行個體是獨立播放器，則為 [Player] ****。  
+如果這個 Unity 執行個體當做 Unity Editor 的一部分來執行，則為 [Editor]；如果這個 Unity 執行個體是獨立播放器，則為 [Player]。 ****  
   
  **連接埠**  
  這個 Unity 執行個體用於通訊之 UDP 通訊端的通訊埠編號。  
