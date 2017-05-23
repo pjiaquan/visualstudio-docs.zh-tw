@@ -42,8 +42,8 @@ Visual Studio 中的 Python 可讓您輕鬆管理多個 Python 環境，以及�
 
 注意︰如果您不熟悉 Visual Studio 中的 Python，請先參閱下列主題，因為本文的討論是以這些主題為基礎︰
 
-    - [在 Visual Studio 中使用 Python](python-in-visual-studio.md)
-    - [在 Visual Studio 中安裝 Python 支援](installation.md)
+- [在 Visual Studio 中使用 Python](python-in-visual-studio.md)
+- [在 Visual Studio 中安裝 Python 支援](installation.md)
 
 一律執行 Python 程式碼的 Python「環境」，其由解譯器、程式庫 (通常是 Python 標準程式庫) 及一組已安裝的套件所組成。 這些一起決定了哪些語言建構和語法有效、您可存取什麼作業系統功能，以及您可以使用哪些套件。
 
