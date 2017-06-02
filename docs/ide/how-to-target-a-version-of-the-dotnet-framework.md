@@ -30,9 +30,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
 ms.openlocfilehash: 7ebf1dfaa3753f1a1908b0327e8ed938115f1f13
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -48,7 +49,7 @@ ms.lasthandoff: 02/22/2017
   
 -   [變更目標版本](../ide/how-to-target-a-version-of-the-dotnet-framework.md#bkmk_existing)  
   
-##  <a name="a-namebkmknewa-targeting-a-version-when-you-create-a-project"></a><a name="bkmk_new"></a> 在建立專案時設定目標版本  
+##  <a name="bkmk_new"></a> 在建立專案時設定目標版本  
  當您建立專案時，做為目標的 .NET Framework 版本會決定您可以使用的範本。  
   
 > [!NOTE]
@@ -67,7 +68,7 @@ ms.lasthandoff: 02/22/2017
   
      範本清單只會顯示您所選 .NET Framework 版本支援的那些專案。  
   
-##  <a name="a-namebkmkexistinga-changing-the-target-version"></a><a name="bkmk_existing"></a> 變更目標版本  
+##  <a name="bkmk_existing"></a> 變更目標版本  
  您可以遵循下列順序變更 Visual Basic、Visual C# 或 Visual F# 專案中的目標 .NET Framework 版本。  
   
 #### <a name="to-change-the-targeted-version"></a>若要變更目標版本  
