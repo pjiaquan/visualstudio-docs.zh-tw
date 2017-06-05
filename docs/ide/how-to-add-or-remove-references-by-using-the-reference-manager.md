@@ -41,13 +41,14 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 1e73cc14de8a94b2e2ce631834e36b6bc30fa7a6
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
-# <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>How to: Add or Remove References By Using the Reference Manager
+# <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>如何：使用參考管理員新增或移除參考
 針對由您本身、Microsoft 或其他公司所開發的元件，您可以使用 [參考管理員] 對話方塊新增並管理這些元件的參考。 如果您正在開發通用 Windows app，您的專案會自動參考所有正確的 Windows SDK DLL。 如果您正在開發 .NET 應用程式，您的專案會自動參考 mscorlib.dll。 某些 .NET API 是在您手動加入的元件中公開。 您必須手動加入對 COM 元件或自訂元件的參考。  
 
 ## <a name="adding-and-removing-a-reference"></a>加入和移除參考  
