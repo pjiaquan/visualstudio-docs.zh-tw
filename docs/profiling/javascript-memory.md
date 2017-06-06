@@ -42,10 +42,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: e4be61999c3530698f90ea5381b980223791325f
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 24250d68042f77a653fe9ef36c743dd4f32ee57c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-javascript-memory-usage-in-uwp-apps"></a>分析 UWP App 中的 JavaScript 記憶體使用量
@@ -69,9 +70,9 @@ ms.lasthandoff: 03/07/2017
   
  [執行 JavaScript 記憶體分析器](#Run)   
  [檢查記憶體使用量](#Check)   
- [找出記憶體流失](#Isolate)   
+ [Isolate a memory leak](#Isolate)   
  [檢視即時記憶體使用量摘要](#LiveMemory)   
- [檢視快照摘要](#SnapshotSummary)   
+ [View a snapshot summary](#SnapshotSummary)   
  [檢視快照詳細資料](#SnapshotDetails)   
  [檢視快照差異](#SnapshotDiff)   
  [依主導者檢視物件](#FoldObjects)   
@@ -80,10 +81,10 @@ ms.lasthandoff: 03/07/2017
  [檢視共用物件參考](#References)   
  [顯示內建物件](#BuiltInValues)   
  [儲存診斷工作階段檔案](#Save)   
- [建立原始程式碼與記憶體使用量資料之間的關聯](#JSConsoleCommands)   
+ [Associate source code with memory usage data](#JSConsoleCommands)   
  [識別記憶體問題的提示](#Tips)  
   
-##  <a name="Run"></a>執行 JavaScript 記憶體分析器  
+##  <a name="Run"></a> 執行 JavaScript 記憶體分析器  
  當您在 Visual Studio 中開啟執行中的 Windows 市集應用程式或在執行 [!INCLUDE[win8](../debugger/includes/win8_md.md)] 或更新版本的電腦上安裝這些應用程式時，可以使用記憶體分析器。  
   
 #### <a name="to-run-the-memory-analyzer"></a>若要執行記憶體分析器  
@@ -122,7 +123,7 @@ ms.lasthandoff: 03/07/2017
   
 7.  若要檢視記憶體分析器收集的資料，請選擇 [ **擷取堆積快照**]。 請參閱本主題稍後的 [View a snapshot summary](#SnapshotSummary) 。  
   
-##  <a name="Check"></a>檢查記憶體使用量  
+##  <a name="Check"></a> 檢查記憶體使用量  
  您可以使用 JavaScript 記憶體分析器的不同檢視，嘗試識別記憶體流失。 如果您已經懷疑應用程式正在流失記憶體，請參閱 [Isolate a memory leak](#Isolate) 以了解建議的工作流程。  
   
  請使用下列檢視協助識別應用程式中的記憶體流失：  
@@ -141,7 +142,7 @@ ms.lasthandoff: 03/07/2017
   
 -   [檢視快照差異](#SnapshotDiff). 顯示快照之間的差異值。 這些檢視會顯示物件大小和物件計數的差異。  
   
-##  <a name="Isolate"></a>找出記憶體流失  
+##  <a name="Isolate"></a> Isolate a memory leak  
  下列步驟提供的工作流程，有助於您更有效地使用 JavaScript 記憶體分析器。 如果您懷疑應用程式有記憶體流失，這些步驟可能會很有用。 如需能協助您找出運作中應用程式發生記憶體流失問題的教學課程，請參閱[逐步解說：找出記憶體流失 (JavaScript)](../profiling/walkthrough-find-a-memory-leak-javascript.md)。  
   
 1.  在 Visual Studio 中開啟應用程式。  
@@ -205,9 +206,9 @@ ms.lasthandoff: 03/07/2017
   
 13. 若要查看差異檢視中物件的根項目是否為全域物件，以避免進行記憶體回收，請開啟物件的捷徑功能表，然後選擇 [在根檢視中顯示] 。 大量的物件可能被保留在記憶體中，因為它們是由根項目為全域物件的單一物件 (或幾個物件) 所參考。  
   
-14. 如果剩餘物件的檢視中有過多物件，請嘗試進一步找出發生記憶體流失的時段，然後重新擷取第三張快照。 若要進一步找出記憶體流失的問題，請使用 [Associate source code with memory usage data](#JSConsoleCommands)、[模擬器] [Associate source code with memory usage data](#JSConsoleCommands)、[模擬器] and other memory usage data available in the memory analyzer.  
+14. 如果剩餘物件的檢視中有過多物件，請嘗試進一步找出發生記憶體流失的時段，然後重新擷取第三張快照。 若要進一步找出記憶體流失的問題，請使用 [Associate source code with memory usage data](#JSConsoleCommands)、[模擬器] [Associate source code with memory usage data](#JSConsoleCommands)，以及記憶體分析器中提供的其他記憶體使用量資料。  
   
-##  <a name="LiveMemory"></a>檢視即時記憶體使用量摘要  
+##  <a name="LiveMemory"></a> 檢視即時記憶體使用量摘要  
  即時記憶體使用量摘要檢視可為執行中的應用程式提供記憶體使用量圖表，並提供所有快照摘要磚的集合。 在這個檢視中，您可以執行像是擷取快照、分析摘要資訊以及巡覽至其他檢視等基本工作。 停止收集資料時，記憶體圖表會隨即消失，您只會看到 [View a snapshot summary](#SnapshotSummary) 檢視。  
   
  記憶體圖表可讓您即時檢視應用程式的處理序記憶體，包括私用位元組、原生記憶體和 JavaScript 堆積。 記憶體圖表可讓您以捲動方式檢視處理序記憶體。 看起來如下：  
@@ -218,7 +219,7 @@ ms.lasthandoff: 03/07/2017
   
  記憶體圖表中顯示的某些記憶體是由 JavaScript 執行階段所配置。 您無法在應用程式中控制此記憶體使用量。 圖表中顯示的記憶體使用量會在您初次擷取快照時增加，之後每當您擷取一次快照，記憶體使用量會以最小幅度再增加一些。  
   
-##  <a name="SnapshotSummary"></a>檢視快照摘要  
+##  <a name="SnapshotSummary"></a> View a snapshot summary  
  若要擷取應用程式目前記憶體使用量狀態的快照，請選擇記憶體圖表中的 [ **擷取堆積快照** ]。 快照摘要磚會顯示在即時記憶體使用量摘要 (於應用程式執行期間顯示) 和快照摘要 (於應用程式停止時顯示) 中，可提供 JavaScript 堆積相關資訊以及詳細資料連結。 如果您擷取兩個以上的快照，則在任何相鄰的兩個快照中，後者會額外提供相較於前者的差異資料。  
   
 > [!NOTE]
@@ -244,7 +245,7 @@ ms.lasthandoff: 03/07/2017
   
 -   在擷取快照當時的螢幕擷取畫面。  
   
-##  <a name="SnapshotDetails"></a>檢視快照詳細資料  
+##  <a name="SnapshotDetails"></a> 檢視快照詳細資料  
  您可以在快照詳細資料檢視中，查看每個快照的記憶體使用量詳細資訊。  
   
  請從快照摘要檢視中選擇連結以查看快照詳細資料。 例如，堆積大小連結會開啟快照詳細資料，且其中預設會開啟類型檢視。  
@@ -312,22 +313,22 @@ ms.lasthandoff: 03/07/2017
 > [!TIP]
 >  建議您進行 [Isolate a memory leak](#Isolate) 中的步驟，然後使用剩餘的物件 [範圍]  篩選條件，協助您找出流失記憶體的物件。  
   
-##  <a name="FoldObjects"></a>依主導者檢視物件  
+##  <a name="FoldObjects"></a> 依主導者檢視物件  
  在 [類型] 和 [主導者] 檢視中，可以選擇是否要檢視摺疊在其主導者中的物件 (此為 [主導者] 索引標籤中的預設檢視)。 選取此檢視時，只有主導者會顯示在物件的最上層檢視中 (在最上層檢視中，會隱藏非全域物件的子物件)。對於某些應用程式而言，如此可減少不必要的資料，以釐清是哪些物件造成記憶體流失。  
   
  若要依主導者切換物件的檢視，請選擇 [依主導者摺疊在物件中]  按鈕。 ![將物件摺疊到其主導者](../profiling/media/js_mem_fold_objects.png "JS_Mem_Fold_Objects")  
   
  如需主導者的詳細資訊，請參閱 [檢視快照詳細資料](#SnapshotDetails).  
   
-##  <a name="Filter"></a>根據識別項來篩選資料  
+##  <a name="Filter"></a> 根據識別項來篩選資料  
  在 [主導者] 和 [類型] 檢視中，您可以搜尋特定識別項來篩選資料。 若要搜尋識別項，請在右上角的 [ **識別項篩選** ] 文字方塊中輸入識別項名稱。 當您開始輸入時，不包含所輸入字元的識別項會被篩選掉。  
   
  每個檢視都有自己的篩選條件，所以當您切換至其他檢視時，篩選條件並不會保留下來。  
   
-##  <a name="ShowInRootsView"></a>在物件樹狀結構中尋找物件  
+##  <a name="ShowInRootsView"></a> 在物件樹狀結構中尋找物件  
  在類型和主導者檢視中，您可以查看特定物件與 `Global` 物件的關聯性。 將不會對根項目為 `Global` 物件的物件進行記憶體回收。 您可以在 [根] 檢視中輕鬆找到已知物件，而不必搜尋整個 `Global` 物件樹狀結構。 若要這麼做，請在 [主導者] 或 [類型] 檢視中開啟物件的捷徑功能表，然後選擇 [ **在根檢視中顯示**]。  
   
-##  <a name="References"></a>檢視共用物件參考  
+##  <a name="References"></a> 檢視共用物件參考  
  類型和主導者檢視中的下方窗格包含顯示共用參考的物件參考清單。 當您在上方窗格中選擇物件，[物件] 參考清單隨即顯示指向該物件的所有物件。  
   
 > [!NOTE]
@@ -347,7 +348,7 @@ ms.lasthandoff: 03/07/2017
 ##  <a name="Save"></a> 儲存診斷工作階段檔案  
  診斷快照摘要及其關聯的詳細資料檢視會儲存為 .diagsession 檔案。 [**方案總管** ] 會在 [診斷工作階段] 資料夾中顯示之前的診斷工作階段。 在 [ **方案總管**] 中，您可以開啟先前的工作階段，或者刪除或重新命名這些檔案。  
   
-##  <a name="JSConsoleCommands"></a> 建立原始程式碼與記憶體使用量資料之間的關聯  
+##  <a name="JSConsoleCommands"></a> Associate source code with memory usage data  
  若要協助隔離發生記憶體問題的程式碼區段，請使用下列方法：  
   
 -   在詳細資料和差異檢視中尋找 DOM 項目的類別名稱和 ID。  
@@ -360,7 +361,7 @@ ms.lasthandoff: 03/07/2017
   
  您可以在原始程式碼中使用下列命令：  
   
--   `console.takeHeapSnapshot` 可用來擷取在 JavaScript 記憶體分析器中顯示的堆積快照。 這個命令是其中一個 [JavaScript 主控台命令](../debugger/javascript-console-commands.md)。  
+-   `console.takeHeapSnapshot` 可用來擷取在 JavaScript 記憶體分析器中顯示的堆積快照。 這個命令是其中一個 [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
 -   `performance.mark` 可用來設定使用者標記 (反轉三角形)，在應用程式執行期間，這個標記會顯示在摘要檢視中記憶體圖表的時間軸內。 這個命令會使用一個代表描述事件的字串引數，而且在記憶體圖表中以工具提示的方式呈現。 這段描述不能超過 100 個字元。  
   
@@ -402,7 +403,7 @@ if (performance && performance.mark) {
   
     -   部分物件可能會提供 `dispose` 方法和建議以供使用。 例如，當您呼叫清單的 `dispose` 方法時，應在 [WinJS.Binding.List](http://msdn.microsoft.com/library/windows/apps/Hh700774.aspx) 上呼叫 `createFiltered` ，然後離開頁面。  
   
-    -   您可能需要移除一個或多個事件接聽程式。 如需詳細資訊，請參閱[檢視 DOM 事件接聽程式](../debugger/view-dom-event-listeners.md)。  
+    -   您可能需要移除一個或多個事件接聽程式。 如需詳細資訊，請參閱 [View DOM event listeners](../debugger/view-dom-event-listeners.md)。  
   
 -   請觀賞 Build 2013 大會中關於 JavaScript 記憶體分析器的 [影片](http://channel9.msdn.com/Events/Build/2013/3-316) 。  
   

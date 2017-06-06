@@ -1,31 +1,48 @@
 ---
 title: "Visual Studio Tools for Unity 概觀 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- tgt-pltfrm-cross-plat
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: b4231bb9-45c4-4c77-ac3c-d05033b26393
 caps.latest.revision: 4
-author: "ghogen"
-ms.author: "ghogen"
-manager: "ghogen"
-caps.handback.revision: 4
----
-# Visual Studio Tools for Unity 概觀
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: ghogen
+ms.author: ghogen
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 2ae1ef56f40106321dd514b3e42e54be2afa7efd
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
+---
+# <a name="overview-of-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 概觀
 在本節中，您將進一步了解 Visual Studio Tools for Unity 所提供的功能，及如何使用這些功能更有效率地使用 Unity。  
   
- 透過 Visual Studio Tools for Unity \(*VSTU*\)，您可以使用 Visual Studio 以 C\# 撰寫遊戲和編輯器指令碼，然後使用其強大的偵錯工具來尋找及修正錯誤。  最新版的 VSTU 包含 Unity ShaderLab 著色器語言的語法著色、更佳的偵錯工具視覺化，以及 MonoBehavior 精靈的改良式程式碼產生。  VSTU 也會將您的 Unity 專案檔案、主控台訊息和啟動遊戲的功能整合到 Visual Studio 中，以便您可以在撰寫程式碼時，花較少的時間來切換 Unity Editor。  
+ 透過 Visual Studio Tools for Unity (*VSTU*)，您可以在 C# 中使用 Visual Studio 來撰寫遊戲和編輯器指令碼，然後使用其強大的偵錯工具來尋找及修正錯誤。 最新版的 VSTU 包含 Unity ShaderLab 著色器語言的語法著色、更佳的偵錯工具視覺化，以及 MonoBehavior 精靈的改良式程式碼產生。 VSTU 也會將您的 Unity 專案檔案、主控台訊息和啟動遊戲的功能整合到 Visual Studio 中，以便您可以在撰寫程式碼時，花較少的時間來切換 Unity Editor。  
   
  請繼續閱讀，以進一步了解這些功能。  
   
-## 與 Unity 整合  
- 如果您必須一直在 Unity Editor 和 Visual Studio 之間來回切換，Visual Studio Tools for Unity 就稱不上是提升產能的好工具。  因此，Visual Studio Tools for Unity 讓您不需要離開 Visual Studio，就能輕鬆繼續工作。  
+## <a name="integration-with-unity"></a>與 Unity 整合  
+ 如果您必須一直在 Unity Editor 和 Visual Studio 之間來回切換，Visual Studio Tools for Unity 就稱不上是提升產能的好工具。 因此，Visual Studio Tools for Unity 讓您不需要離開 Visual Studio，就能輕鬆繼續工作。  
   
 -   **Unity Project Explorer** 使用與 Unity Editor 相同的階層架構，在 Visual Studio 中顯示整個 Unity 專案。  
   
@@ -33,8 +50,8 @@ caps.handback.revision: 4
   
 -   您不需要切換回 Unity，只要按 F5 鍵，就能從 Visual Studio 開始偵錯您的遊戲。  
   
-## 高階偵錯  
- 不論是獨立執行或是在 Unity Editor 中執行，您都可以將 Visual Studio 的強大偵錯工具連接到 Unity 遊戲，對 C\# 指令碼和 DLL 進行偵錯。  您可以使用預期可從 Visual Studio 取得的所有偵錯功能。  
+## <a name="superior-debugging"></a>高階偵錯  
+ 不論是獨立執行或是在 Unity Editor 中執行，您都可以將 Visual Studio 的強大偵錯工具連接到 Unity 遊戲，對 C# 指令碼和 DLL 進行偵錯。 您可以使用預期可從 Visual Studio 取得的所有偵錯功能。  
   
 -   中斷點，包括條件式中斷點。  
   
@@ -46,25 +63,25 @@ caps.handback.revision: 4
   
  您甚至可以在網路上另一部機器正在執行 Unity 遊戲時，對遊戲進行偵錯。  
   
-## 產能  
- 除了 Visual Studio 撰寫及重構 C\# 程式碼的既有產能之外，Visual Studio Tools for Unity 還提供額外的產能功能給 Unity 開發人員。  
+## <a name="productivity"></a>產能  
+ 除了 Visual Studio 撰寫及重構 C# 程式碼的既有產能之外，Visual Studio Tools for Unity 還提供額外的產能功能給 Unity 開發人員。  
   
--   Unity ShaderLab 語言的語法著色可協助您在錯誤變成 Bug 之前，在著色器中找出這些錯誤。  只要在 Visual Studio 中開啟 ShaderLab 檔案即可。  
+-   Unity ShaderLab 語言的語法著色可協助您在錯誤變成 Bug 之前，在著色器中找出這些錯誤。 只要在 Visual Studio 中開啟 ShaderLab 檔案即可。  
   
--   MonoBehavior 精靈可讓您瀏覽 Unity 行為清單，並為您可能不熟悉的行為建立未定案程式碼。  按一下按鍵  CTRL\+SHIFT\+M。  
+-   MonoBehavior 精靈可讓您瀏覽 Unity 行為清單，並為您可能不熟悉的行為建立未定案程式碼。 按 CTRL+SHIFT+M。  
   
--   一旦您熟悉最常使用的 Unity 行為，Quick MonoBehavior 精靈便會將這些行為放在您可以隨時取得的位置。  按一下按鍵  CTRL\+ALT\+Q。  
+-   一旦您熟悉最常使用的 Unity 行為，Quick MonoBehavior 精靈便會將這些行為放在您可以隨時取得的位置。 按 CTRL+ALT+Q。  
   
--   從 Visual Studio 存取 Unity 文件。  請直接反白顯示您要了解的應用程式開發介面呼叫，然後按  CTRL\+ALT\+M、CTRL\+H。  
+-   從 Visual Studio 存取 Unity 文件。 請直接反白顯示您要了解的應用程式開發介面呼叫，然後按 CTRL+ALT+M、CTRL+H。  
   
 -   使用鍵盤快速鍵存取上述所有功能和其他功能。  
   
-## Visual Studio Tools for Unity 應用程式開發介面  
+## <a name="visual-studio-tools-for-unity-api"></a>Visual Studio Tools for Unity 應用程式開發介面  
  使用提供的應用程式開發介面自訂及擴充 Visual Studio Tools for Unity 的行為。  
   
--   Visual Studio Tools for Unity 會註冊記錄回呼，以便將 Unity 主控台串流至 Visual Studio。  如果您有記錄資訊的編輯器指令碼，您可以將這些指令碼插入相同的回呼，以將訊息傳送至 Visual Studio。  如需詳細資訊，請參閱「記錄回呼」範例。  
+-   Visual Studio Tools for Unity 會註冊記錄回呼，以便將 Unity 主控台串流至 Visual Studio。 如果您有記錄資訊的編輯器指令碼，您可以將這些指令碼插入相同的回呼，以將訊息傳送至 Visual Studio。 如需詳細資訊，請參閱「記錄回呼」範例。  
   
--   您可以使用 Unity 樣式回呼 ProjectFileGeneration，來變更 Visual Studio Tools for Unity 產生專案檔的方式。  如需詳細資訊，請參閱「產生專案檔」範例。  
+-   您可以使用 Unity 樣式回呼 ProjectFileGeneration，來變更 Visual Studio Tools for Unity 產生專案檔的方式。 如需詳細資訊，請參閱「產生專案檔」範例。  
   
-## 請參閱  
- [Unity 首頁](http://unity3d.com)
+## <a name="see-also"></a>另請參閱  
+ [Unity 首頁 (英文)](http://unity3d.com)

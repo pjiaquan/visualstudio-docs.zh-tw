@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 060dc127a1cc08dcf28a59feaa774b0094e42d56
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 3be7ff30658fc7e0de4cf04cab71fdae44b1b15e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="making-coded-ui-tests-wait-for-specific-events-during-playback"></a>讓自動程式化 UI 測試在播放期間等候特定事件
@@ -113,9 +114,9 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
   
  方法具有可採用明確逾時 (以毫秒為單位) 的多載。 不過，當等候作業導致控制項的隱含搜尋，或當應用程式忙碌時，實際的等候時間可能會超過指定的逾時。  
   
- 先前的函式功能強大且具有彈性，且幾乎可滿足所有條件。 不過，萬一這些方法都無法滿足您的需求，而且您需要在程式碼中編碼 <xref:Microsoft.VisualStudio.TestTools.UITesting.Playback.Wait%2A> 或 <xref:System.Threading.Thread.Sleep%2A> 時，建議您使用 Playback.Wait() 而非 Thread.Sleep() API。 這樣做的原因是：  
+ 先前的函式功能強大且具有彈性，且幾乎可滿足所有條件。 不過，萬一這些方法無法滿足您的需求，而且您需要在程式碼中編碼 <xref:Microsoft.VisualStudio.TestTools.UITesting.Playback.Wait%2A> 或 <xref:System.Threading.Thread.Sleep%2A> 時，建議您使用 Playback.Wait() 而非 Thread.Sleep() API。 這樣做的原因是：  
   
- 您可以使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.ThinkTimeMultiplier%2A> 屬性來修改睡眠狀態持續期間。 根據預設，此變數是 1，但是您可以增加或減少以變更整個程式碼的等候時間。 例如，如果您要特意透過慢速網路測試，或處於某些效能較慢的情況中，您可以在某個位置上將這個變數 (或甚至在組態檔中) 變為 1.5，在所有位置額外增加 50%。  
+ 您可以使用  <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.ThinkTimeMultiplier%2A> 屬性以修改睡眠的持續時間。 根據預設，此變數是 1，但是您可以增加或減少以變更整個程式碼的等候時間。 例如，如果您要特意透過慢速網路測試，或處於某些效能較慢的情況中，您可以在某個位置上將這個變數 (或甚至在組態檔中) 變為 1.5，在所有位置額外增加 50%。  
   
  檢查使用者取消\中斷作業時，Playback.Wait() 會在 for 迴圈的較小區塊中內部呼叫 Thread.Sleep() (在上述計算後)。 換句話說，Playback.Wait() 可讓您在等候結束，且睡眠無法或擲回例外狀況之前，取消播放。  
   
@@ -124,7 +125,7 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
   
  **指引**  
   
- 如需詳細資訊，請參閱[使用 Visual Studio 2012 測試持續傳遞 – 第 5 章：自動化系統測試 (英文)](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ 如需詳細資訊，請參閱 [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196) (使用 Visual Studio 2012 測試持續傳遞 - 第 5 章：自動化系統測試)。  
   
 ## <a name="see-also"></a>另請參閱  
  [使用使用者介面自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)   

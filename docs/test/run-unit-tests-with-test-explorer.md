@@ -29,10 +29,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: bcfa2bb3a1841f2d960580506b638edcf650ca9e
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b6b865f51ca12312ad439d059097c328576dfa4e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="run-unit-tests-with-test-explorer"></a>使用測試總管執行單元測試
@@ -41,7 +42,7 @@ ms.lasthandoff: 04/04/2017
 ##  <a name="BKMK_Contents"></a> 內容  
  [單元測試架構和測試專案](#BKMK_Unit_test_frameworks_and_test_projects)  
   
- [在測試總管中執行測試](#BKMK_Run_tests_in_Test_Explorer)  
+ [在 [測試總管] 中執行測試](#BKMK_Run_tests_in_Test_Explorer)  
   
  [檢視測試結果](#BKMK_View_test_results)  
   
@@ -49,7 +50,7 @@ ms.lasthandoff: 04/04/2017
   
  [建立自訂播放清單](#BKMK_Create_custom_playlists)  
   
- [對單元測試進行偵錯和分析](#BKMK_Debug_and_analyze_unit_tests)  
+ [偵錯和分析單元測試](#BKMK_Debug_and_analyze_unit_tests)  
   
  [外部資源](#BKMK_External_resources)  
   
@@ -158,7 +159,7 @@ ms.lasthandoff: 04/04/2017
   
  **Microsoft Managed 程式碼單元測試架構中的特性**  
   
- 您可在 Microsoft Managed 程式碼單元測試架構的 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> 屬性中，定義特性名稱/值組。 測試架構也包含下列預先定義的特性：  
+ Microsoft Managed 程式碼單元測試架構中，您可在 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute> 屬性中定義特性名稱/值組。 測試架構也包含下列預先定義的特性：  
   
 |特性|描述|  
 |-----------|-----------------|  

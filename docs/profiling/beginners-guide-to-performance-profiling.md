@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 效能分析的初級開發人員指南 | Microsoft Docs"
 ms.custom: H1Hack27Feb2017
-ms.date: 11/04/2016
+ms.date: 02/27/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -34,10 +34,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: fe329cd5395db3afae1c3f3e98bb6e480323e21f
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90b2481b0ec4f9387fe3a2c0b733a103e8c03845
+ms.openlocfilehash: 36770fe6fad52e33144f382446d7e851734f87c5
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/23/2017
 
 ---
 # <a name="beginners-guide-to-performance-profiling"></a>效能分析的初級開發人員指南
@@ -149,13 +150,13 @@ ms.lasthandoff: 03/07/2017
 
 ## <a name="BKMK_External_Code"></a>檢視外部程式碼
 
-外部程式碼是在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU Usage (CPU 使用量)] 工具會將使用者方法的外部函式，收集成一個 [External Code (外部程式碼)] 節點。
+外部程式碼是在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU 使用量] 工具會將使用者方法的外部函式，收集成一個 [外部程式碼] 節點。
   
 如果您想要檢視外部程式碼的呼叫路徑時，請從 [Filter (篩選)] 檢視清單中選擇 [Show External Code (顯示外部程式碼)]  ，然後選擇 [(Apply) 套用] 。  
   
 ![選擇 [Filter (篩選)]檢視，然後選擇 [Show External Code (顯示外部程式碼)]](../profiling/media/DiagToolsShowExternalCode.png "DiagToolsShowExternalCode")  
   
-請注意，許多外部程式碼呼叫鏈結都是深度巢狀的，因此 [函式名稱] 資料行的寬度可能會超出所有電腦監視器 (但不含最大的電腦監視器) 的顯示寬度。 發生此情況時，函式名稱會顯示為 […]。
+請注意，許多外部程式碼呼叫鏈結都是深度巢狀的，因此 [函式名稱] 資料行的寬度可能會超出所有電腦監視器 (但不含最大的電腦監視器) 的顯示寬度。 發生此情況時，函式名稱會顯示為 […]：
   
 使用搜尋方塊尋找您所尋找的節點，然後使用水平捲軸檢視資料。
 

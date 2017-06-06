@@ -28,10 +28,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 65bcf9081699a793ddc1876fec266c8b3ed9ba90
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 28bbc6d742a072f1305b0daed7720816492083fd
 ms.contentlocale: zh-tw
-ms.lasthandoff: 02/22/2017
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="using-visual-studio-tools-for-unity"></a>使用 Visual Studio Tools for Unity
@@ -94,7 +94,7 @@ ms.lasthandoff: 02/22/2017
   
      ![檢視 Unity 專案總管視窗。](../cross-platform/media/vstu_view_unity_project_explorer.png "vstu_view_unity_project_explorer")  
   
- Unity Project Explorer 使用與 Unity Editor 相同的方式，來顯示所有 Unity 專案檔和目錄。這不同於使用方案總管來巡覽 Unity 指令碼，方案總管只會包含您的指令碼檔案，並將這些檔案顯示為 Visual Studio Tools for Unity 所產生、用於組織檔案的專案和方案。 特別是在大型專案中，使用 Unity Project Explorer 通常更容易找到您要修改的指令碼；在 Visual Studio 中修改其他類型的檔案 (例如文字型組態檔) 也很輕鬆，您不需要將這些檔案加入 Visual Studio 方案的其中一個專案。  
+ Unity 專案總管使用與 [Unity 編輯器] 相同的方式，來顯示所有 Unity 專案檔和目錄。這不同於使用方案總管來巡覽 Unity 指令碼，方案總管只會包含您的指令碼檔案，並將這些檔案顯示為 Visual Studio Tools for Unity 所產生、用於組織檔案的專案和方案。 特別是在大型專案中，使用 Unity Project Explorer 通常更容易找到您要修改的指令碼；在 Visual Studio 中修改其他類型的檔案 (例如文字型組態檔) 也很輕鬆，您不需要將這些檔案加入 Visual Studio 方案的其中一個專案。  
   
 ### <a name="unity-error-list"></a>Unity 錯誤清單  
  您可以在 Visual Studio 連接到 Unity 執行個體時，於 Visual Studio 中檢視來自 Unity 主控台的訊息。 其中包括來自 Unity 的錯誤和警告。 這些訊息會顯示在 Visual Studio 的 [錯誤清單] 視窗中；來自 Unity 的錯誤訊息會顯示在 [錯誤] 索引標籤上，警告訊息會顯示在 [警告] 索引標籤上，而其他訊息 (例如使用 Debug.Log Unity API 傳送的訊息) 則會顯示在 [訊息] 索引標籤上。  

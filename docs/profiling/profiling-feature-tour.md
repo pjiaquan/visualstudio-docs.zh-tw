@@ -1,7 +1,7 @@
 ---
 title: "分析功能導覽 | Microsoft Docs"
-ms.custom: 
-ms.date: 02/03/2016
+ms.custom: H1HackMay2017
+ms.date: 05/18/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -30,13 +30,14 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 2beee9df6c4897d1fa7d55502a7ed277a1eb6046
-ms.openlocfilehash: 4a64d7385009b6d502fc20acfbead4b49323fa4f
-ms.lasthandoff: 03/21/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 90b2481b0ec4f9387fe3a2c0b733a103e8c03845
+ms.openlocfilehash: a219a09f96b34a434a3bf1103e560104c294eb96
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/23/2017
 
 ---
-# <a name="profiling-feature-tour"></a>分析功能導覽
+# <a name="feature-tour-of-profiling-in-visual-studio"></a>Visual Studio 中的分析功能導覽
 
 Visual Studio 提供各種不同的分析工具，可協助您依據應用程式類型來診斷不同類型的效能問題。
 
@@ -176,7 +177,7 @@ JavaScript 記憶體工具和其他應用程式類型提供的記憶體使用量
 |[效能總管](../profiling/performance-explorer.md)|是|no|是 (對 ASP.NET Core 則否)|  
 |[IntelliTrace](../debugger/intellitrace.md)|僅限 .NET Enterprise|僅限 .NET Enterprise|僅限 .NET Enterprise|
 |[網路使用量](../profiling/network-usage.md)|no|是|no| 
-|[HTML UI 回應性](../profiling/html-ui-responsiveness.md)|no|對 HTML 為是，對 XAML 為否|no|  
+|[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|對 HTML 為是，對 XAML 為否|no|  
 |[JavaScript 記憶體](../profiling/javascript-memory.md)|no|對 HTML 為是，對 XAML 為否|no|  
 
 ## <a name="see-also"></a>另請參閱  

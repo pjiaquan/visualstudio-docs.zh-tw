@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: b4c56d1428506de5998f4f430239422d72df9a44
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: a737c447bc97738c6e8f5285f672e9964578061b
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="getting-started-with-wpf"></a>WPF 使用者入門
@@ -45,7 +46,7 @@ Windows Presentation Foundation (WPF) 是建立桌面用戶端應用程式的 UI
 |我該如何設計應用程式 UI？|[在 Visual Studio 和 Blend for Visual Studio 中設計 XAML](../designers/designing-xaml-in-visual-studio.md)|  
 |剛開始使用 .NET 嗎？|[.NET Framework 概觀](https://msdn.microsoft.com/en-us/library/zw4w595w\(v=vs.140\).aspx)<br /><br /> [應用程式基本概念](http://msdn.microsoft.com/Library/653da4ba-3752-4d1f-a08a-de017dc86ecc)<br /><br /> [Visual C# 和 Visual Basic 使用者入門](https://msdn.microsoft.com/en-us/library/dd492171\(v=vs.140\).aspx)|  
 |WPF 的相關詳細資訊...|[WPF 簡介](../designers/introduction-to-wpf.md)<br /><br /> [XAML 概觀 (WPF)](https://msdn.microsoft.com/en-us/library/ms752059\(v=vs.100\).aspx)<br /><br /> [控制項](https://msdn.microsoft.com/en-us/library/bb613551\(v=vs.100\).aspx)<br /><br /> [資料繫結概觀](https://msdn.microsoft.com/en-us/library/ms752347\(v=vs.100\).aspx)<br /><br /> [WPF 資料繫結與 LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)|  
-|您是 Windows Form 開發人員嗎？|[Windows Forms 控制項和對等 WPF 控制項](https://msdn.microsoft.com/en-us/library/ms750559\(v=vs.100\).aspx)<br /><br /> [WPF 和 Windows Forms 互通的支援案例](https://msdn.microsoft.com/en-us/library/ms751797\(v=vs.100\).aspx)|  
+|您是 Windows Form 開發人員嗎？|[Windows Form 控制項和對等 WPF 控制項](https://msdn.microsoft.com/en-us/library/ms750559\(v=vs.100\).aspx)<br /><br /> [WPF 和 Windows Forms 互通的支援案例](https://msdn.microsoft.com/en-us/library/ms751797\(v=vs.100\).aspx)|  
   
 ## <a name="see-also"></a>另請參閱  
  [類別庫 (WPF)](https://msdn.microsoft.com/en-us/library/ms753307\(v=vs.100\).aspx)   

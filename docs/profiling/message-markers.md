@@ -1,30 +1,48 @@
 ---
 title: "訊息標記 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.cv.markers.message"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.cv.markers.message
 ms.assetid: 721f40ca-5af2-4a01-b8b6-2b90f6cb7f89
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 13
----
-# 訊息標記
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 0fa95a9a7ff262f03608d5b076a45220d2b56fec
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
-訊息標記表示記錄輸出。  訊息是由特定的執行緒在特定時間發行的字串。  您可以匯出訊息至文字檔以搭配其他工具使用。  您可以放置一個訊息的指標在 \[並行視覺化檢視\] 以檢視訊息字串。  然後您可以在 [標記報告](../profiling/markers-report.md)中檢視所有訊息的標記。下圖將顯示一個訊息的標記。  
+---
+# <a name="message-markers"></a>訊息標記
+訊息標記表示記錄檔輸出。 訊息是由特定執行緒在特定時間發出的字串。 您可以將訊息匯出成文字檔，以便與其他工具搭配使用。 您可以將指標放在並行視覺化檢視中的訊息上，以檢視訊息字串。 您可以檢視在[標記報告](../profiling/markers-report.md)中檢視所有訊息標記。  下圖顯示訊息標記。  
   
-## 訊息彙總資料標記  
- 有時候多個訊息在"並行視覺化檢視"下發生的非常相近，因此不能被個別繪製。  發生這種情況時，表示基礎訊息的 *訊息彙總標記* 會顯示。  當您停留指標在這些圖示的其中一個時，工具提示會顯示基礎訊息的訊息數目。  若要檢視此訊息，請放大。如果您一直放大和仍然取得彙總資料標記，即可檢視在 [標記報告](../profiling/markers-report.md)內的基本訊息。  
+## <a name="message-aggregation-markers"></a>訊息彙總標記  
+ 有時多個訊息發生的位置太靠近並行視覺化檢視中的另一個標記，以至於無法個別繪製。 發生這種情況時，會顯示一個表示基礎訊息的灰色「訊息彙總標記」。 當您將指標放在這些圖示的其中一個時，工具提示會顯示所代表基礎訊息的數目。 若要檢視訊息，請予以放大。  如果您縮放到最大後仍然出現彙總標記，您可以在[標記報告](../profiling/markers-report.md)中檢視基礎訊息。  
   
-## 請參閱  
- [並行視覺化檢視中的標記](../profiling/concurrency-visualizer-markers.md)   
+## <a name="see-also"></a>另請參閱  
+ [並行視覺化檢視標記](../profiling/concurrency-visualizer-markers.md)   
  [並行視覺化檢視 SDK](../profiling/concurrency-visualizer-sdk.md)

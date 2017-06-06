@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: f78e2b713e75c5601a07907e7f717db92571568b
-ms.openlocfilehash: b9e8ab5432e5c546776a61b364c0886d9f96c096
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 48b5010ae161b2ce6ad22513afbca4a8e5fe82d3
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>使用 Visual Studio 的 Xamarin 建置具有原生 UI 的應用程式
@@ -41,7 +42,7 @@ ms.lasthandoff: 02/22/2017
   
  您將會執行下列步驟來建置應用程式：  
   
--   [設定方案](#solution)  
+-   [設立方案](#solution)  
   
 -   [撰寫共用的資料服務程式碼](#dataservice)  
   
@@ -64,11 +65,11 @@ ms.lasthandoff: 02/22/2017
 >      -   [Hello, Android](https://developer.xamarin.com/guides/android/getting_started/hello,android/) (單一畫面的簡單應用程式)  
 >     -   [Hello, Android 多重畫面](https://developer.xamarin.com/guides/android/getting_started/hello,android_multiscreen/) (可瀏覽不同畫面的應用程式)  
 >     -   [Android Fragment 逐步解說](http://developer.xamarin.com/guides/android/platform_features/fragments/fragments_walkthrough/) (用於主要/詳細資料畫面及其他項目)  
->     -   [嗨，iOS (英文)](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)  
->     -   [嗨，iOS 多重畫面 (英文)](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS_multiscreen/)  
+>     -   [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)  
+>     -   [Hello, iOS 多重畫面](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS_multiscreen/)  
 > -   具有 Xamarin.Forms (共用 UI) 的 Xamarin 應用程式  
 >   
->      -   [嗨，Xamarin.Forms (英文)](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
+>      -   [Hello, Xamarin.Forms](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms/quickstart/)  
 >     -   [嗨，Xamarin.Forms 多重畫面 (英文)](https://developer.xamarin.com/guides/cross-platform/xamarin-forms/getting-started/hello-xamarin-forms-multiscreen/)  
   
 ##  <a name="solution"></a> 設定方案  
@@ -76,7 +77,7 @@ ms.lasthandoff: 02/22/2017
   
 1.  在 Visual Studio 中，建立新的**空的應用程式 (原生可攜式)** 方案，並將其命名為 **WeatherApp**。 您可以在搜尋欄位中輸入**原生可攜式**，就能輕鬆找到這個範本。  
   
-     如果找不到，則可能必須安裝 Xamarin，或是啟用 Visual Studio 2015 功能，請參閱[設定與安裝](../cross-platform/setup-and-install.md)。  
+     如果找不到，可能必須安裝 Xamarin，或是啟用 Visual Studio 2015 功能。請參閱[設定和安裝](../cross-platform/setup-and-install.md)。  
   
 2.  按一下 [確定] 建立解決方案後，您會擁有數個個別專案：  
   
@@ -110,14 +111,14 @@ ms.lasthandoff: 02/22/2017
   
 5.  建置方案，並確認沒有任何建置錯誤。  
   
-##  <a name="dataservice"></a> 撰寫共用的資料服務程式碼  
+##  <a name="dataservice"></a> 寫入共用的資料服務程式碼  
  您可以在 **WeatherApp (可攜式)** 專案中撰寫可攜式類別庫 (PCL) 程式碼，進而跨所有平台共用。 系統會在 iOS、Android 和 Windows Phone 專案所建置的應用程式封裝中自動包含 PCL。  
   
  下列步驟接著會將程式碼新增至 PCL，以存取並儲存該天氣服務的資料：  
   
 1.  若要執行此範例，您必須先在 [http://openweathermap.org/appid](http://openweathermap.org/appid)註冊免費 API 金鑰。  
   
-2.  以滑鼠右鍵按一下 **WeatherApp** 專案，然後選取 [新增] > [類別...]。 在 [加入新項目]  對話方塊中，將檔案命名為 **Weather.cs**。 您將使用此類別儲存天氣資料服務的資料。  
+2.  以滑鼠右鍵按一下 **WeatherApp** 專案，然後選取 [新增] > [類別]。 在 [加入新項目]  對話方塊中，將檔案命名為 **Weather.cs**。 您將使用此類別儲存天氣資料服務的資料。  
   
 3.  以下列程式碼取代整個 **Weather.cs** 的內容：  
   
@@ -244,7 +245,7 @@ ms.lasthandoff: 02/22/2017
   
 ### <a name="design-the-look-and-feel-of-your-app"></a>設計應用程式的外觀與風格  
   
-1.  在 [方案總管]**中**，依序展開 [WeatherApp.Droid]>[資源]>[配置] 資料夾，然後開啟 [Main.axml]。 這會在視覺化設計工具中開啟檔案 (如果出現 Java 相關錯誤，請參閱此[部落格文章](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9))。  
+1.  在 [方案總管] **中**，依序展開 [WeatherApp.Droid]>[資源]>[配置] 資料夾，然後開啟 [Main.axml]。 這會在視覺化設計工具中開啟檔案 (如果出現 Java 相關錯誤，請參閱此[部落格文章](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9))。  
   
     > [!TIP]
     >  專案中還有許多其他檔案。 探索這些檔案已超出本主題的範圍。但若您需要深入了解 Android 專案的結構，請參閱 xamarin.com 上「嗨 Android」主題的[第 2 部分深入探討 (英文)](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/)。  
@@ -298,7 +299,7 @@ ms.lasthandoff: 02/22/2017
   
     |屬性|值|  
     |--------------|-----------|  
-    |**text**|**Zip Code (郵遞區號)**|  
+    |**文字**|**郵遞區號**|  
     |**id**|`@+id/ZipCodeLabel`|  
     |**layout_marginLeft**|`10dp`|  
     |**layout_marginTop**|`5dp`|  
@@ -344,7 +345,7 @@ ms.lasthandoff: 02/22/2017
     |屬性|值|  
     |--------------|-----------|  
     |**id**|`@+id/weatherBtn`|  
-    |**text**|**Get Weather**|  
+    |**文字**|**獲知天氣**|  
     |**layout_marginLeft**|`20dp`|  
     |**layout_alignBottom**|`@id/zipCodeEntry`|  
     |**width**|`165dp`|  
@@ -662,4 +663,4 @@ ms.lasthandoff: 02/22/2017
 ## <a name="see-also"></a>另請參閱  
  [Xamarin 開發人員網站 (英文)](http://developer.xamarin.com/)   
  [Windows 開發人員中心](https://dev.windows.com/en-us)   
- [Swift 與 C# 的快速參考海報 (英文)](http://aka.ms/scposter)
+ [Swift 與 C# 的快速參考海報](http://aka.ms/scposter)

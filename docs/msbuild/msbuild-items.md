@@ -29,10 +29,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 3ba7680d46345f2b49019659c715cfb418933d39
-ms.openlocfilehash: cba81e0eee6a0ce278c65e8952e75b23a6ebf3cc
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 754cec0effaaa0cf68cf1a4bbc4d536dbdcf0298
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="msbuild-items"></a>MSBuild 項目
@@ -138,7 +139,7 @@ MSBuild 項目是建置系統的輸入，通常代表檔案。 項目 (Item) 會
 </ItemGroup>  
 ```  
   
- `Exclude` 屬性只會影響包含這兩者之 Item 項目 (Element) 中由 `Include` 屬性所加入的項目 (Item)。 下列範例不會排除 Form1.cs 檔，這是在前一個 Item 項目中加入的檔案。  
+ `Exclude` 屬性只會影響包含這兩者之 Item 項目 (Element) 中由 `Include` 屬性所加入的項目 (Item)。 下列範例不會排除 Form1.cs 檔，這是在前一個 Item 項目中新增的檔案。  
   
 ```xml  
 <Compile Include="*.cs" />  

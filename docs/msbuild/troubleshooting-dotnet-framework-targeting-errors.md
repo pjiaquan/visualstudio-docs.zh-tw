@@ -36,17 +36,18 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 79460291e91f0659df0a4241e17616e55187a0e2
-ms.openlocfilehash: f3ddafbe0dd5c0fcec9a2c092b50ad3538c11361
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 23510bfb61028db6d62912066bc6f4756e8ec37e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="troubleshooting-net-framework-targeting-errors"></a>疑難排解 .NET Framework 目標錯誤
 本主題說明可能因參考問題造成的 MSBuild 錯誤，以及如何解決這些錯誤。  
   
 ## <a name="you-have-referenced-a-project-or-assembly-that-targets-a-different-version-of-the-net-framework"></a>您參考了以不同 .NET Framework 版本為目標的專案或組件  
- 您可以建立以不同版本 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 為目標的專案或組件為參考的應用程式。 例如，您可以建立目標為 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔的應用程式，但參考目標為 .NET Framework 2.0 的組件。 不過，如果您建立的專案是是以舊版的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 為目標，就無法將該專案中的參考設定為以 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔或 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 本身為目標的專案或組件。 若要解決這個錯誤，請確定您應用程式的目標設定檔，與應用程式所參考之專案或組件的目標設定檔相容。  
+ 您可以建立以不同版本 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 為目標的專案或組件為參考的應用程式。 例如，您可以建立目標為 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔的應用程式，但參考目標為 .NET Framework 2.0 的組件。 不過，如果您建立的專案是以舊版的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 為目標，就無法將該專案中的參考設定為以 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔或 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 本身為目標的專案或組件。 若要解決這個錯誤，請確定您應用程式的目標設定檔，與應用程式所參考之專案或組件的目標設定檔相容。  
   
 ## <a name="you-have-re-targeted-a-project-to-a-different-version-of-the-net-framework"></a>您將專案的目標重定為不同版本的 .NET Framework  
  如果您變更應用程式的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 目標版本，Visual Studio 會變更一些參考，但您可能要手動更新某些參考。 例如，如果您變更應用程式將目標設定為 [!INCLUDE[net_v35SP1_long](../msbuild/includes/net_v35sp1_long_md.md)]，且該應用程式有依賴 [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] 用戶端設定檔的資源或設定，就可能發生其中一個前述的錯誤。  

@@ -27,10 +27,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 7cd8ed6aea56b5f59abbbf96709af3d42d2857c5
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: a5d365df024b8847fbbd9df4be1aa7053f6f7634
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="create-a-unit-test-project"></a>建立單元測試專案
@@ -41,7 +42,7 @@ ms.lasthandoff: 02/22/2017
   
 ## <a name="to-create-a-unit-test-project"></a>建立單元測試專案：  
   
-1.  在 [檔案]  功能表上，選擇 [新增]  ，然後選擇 [專案]  (鍵盤 Ctrl + Shift + N)。  
+1.  在 [檔案]  功能表上，選擇 [新增]  ，然後選擇 [專案] \(鍵盤 Ctrl + Shift + N)。  
   
 2.  在 [新增專案] 對話方塊中，展開 [已安裝] 節點，選擇您想要用於測試專案的語言，然後選擇 [測試]。  
   

@@ -27,10 +27,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 1694abeb37e7fa0e5766dfda16a05bd5e7895885
-ms.openlocfilehash: 7d8f95b62fcf7f32b972e0d9b64a0175f7d1f47c
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 969024cd3e3db42d05e2b163b3d8a674493d8aba
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="test-windows-uwp-and-81-phone-apps-with-coded-ui-tests"></a>使用自動程式碼 UI 測試來測試 Windows UWP 和 8.1 Phone 應用程式
@@ -83,7 +84,7 @@ ms.lasthandoff: 04/05/2017
   
 ## <a name="deploy-the-windows-phone-app"></a>部署 Windows Phone 應用程式  
   
-1.  您必須部署應用程式，自動程式碼 UI 測試才能對應應用程式的控制項。  
+1.  您必須部署應用程式，自動程式化 UI 測試才能對應應用程式的控制項。  
   
      ![部署 Windows Phone App](../test/media/cuit_phone_deploy.png "CUIT_Phone_Deploy")  
   
@@ -105,7 +106,7 @@ ms.lasthandoff: 04/05/2017
   
      ![使用交叉線工具產生自動程式化 UI 測試](../test/media/cuit_phone_howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
   
-3.  使用交叉線工具選取應用程式，然後複製應用程式的 [AutomationId]  屬性值，稍後將使用此值啟動測試中的應用程式。  
+3.  使用交叉線工具選取應用程式，然後複製應用程式的 **AutomationId** 屬性值，稍後將使用此值啟動測試中的應用程式。  
   
      ![複製 App 的 AutomationId 值](../test/media/cuit_phone_getautomationid.png "CUIT_Phone_GetAutomationId")  
   
@@ -308,7 +309,7 @@ ms.lasthandoff: 04/05/2017
   
      ![使用 [測試總管] 建置並執行測試](../test/media/cuit_phone_runtestexplorer.png "CUIT_Phone_RunTestExplorer")  
   
-     Windows Phone 應用程式隨即啟動，點選按鈕的動作已完成，並且系統會使用 Assert 方法填入及驗證文字方塊的 Text 屬性。  
+     Windows Phone 應用程式隨即啟動，點選按鈕的動作已完成，且系統會使用 Assert 方法填入及驗證文字方塊的 Text 屬性。  
   
      ![執行 Winodws Phone 測試](../test/media/cuit_phone_runtestexplorerrunning.png "CUIT_Phone_RunTestExplorerRunning")  
   
@@ -339,7 +340,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
  ![選取模擬器版本或實體裝置](../test/media/cuit_phone_testtarget.png "CUIT_Phone_TestTarget")  
   
-### <a name="q-why-dont-i-see-the-option-to-record-my-coded-ui-test-in-the-generate-code-for-a-coded-ui-test-dialog"></a>問：為什麼在 [產生自動程式碼 UI 測試的程式碼] 對話方塊中看不到錄製自動程式碼 UI 測試的選項？  
+### <a name="q-why-dont-i-see-the-option-to-record-my-coded-ui-test-in-the-generate-code-for-a-coded-ui-test-dialog"></a>問：為什麼在 [產生自動程式化 UI 測試的程式碼] 對話方塊中看不到錄製自動程式化 UI 測試的選項？  
  **答**：Windows Phone 應用程式不支援錄製選項。  
   
 ### <a name="q-can-i-create-a-coded-ui-test-for-my-windows-phone-apps-based-on-winjs-silverlight-or-html5"></a>問：我可以為以 WinJS、Silverlight 或 HTML5 為基礎的 Windows Phone 應用程式建立自動程式碼 UI 測試嗎？  
@@ -370,7 +371,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
 ### <a name="q-can-i-run-a-coded-ui-test-on-my-windows-phone-app-from-the-command-line"></a>問：我可以在 Windows Phone 應用程式上從命令列執行自動程式碼 UI 測試嗎？  
  **答**：可以，您可以使用 runsettings 檔案指定要執行測試的目標裝置。 例如:   
   
- **vstest.console.exe “pathToYourCodedUITestDll” /settings:devicetarget.runsettings**  
+ **vstest.console.exe "pathToYourCodedUITestDll" /settings:devicetarget.runsettings**  
   
  範例 runsettings 檔案：  
   

@@ -34,10 +34,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 078576d6e1988bf1cefbb09646ea44f61085f5cf
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 7a873df77756e5a957d327049566c8e0db1f3a8a
+ms.openlocfilehash: f1f9931e6e7c8dda4cb74f407901f41467c690cc
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/12/2017
 
 ---
 # <a name="msbuild-reserved-and-well-known-properties"></a>MSBuild 保留和已知屬性
@@ -64,6 +65,7 @@ ms.lasthandoff: 02/22/2017
 |`MSBuildProjectFile`|專案檔的完整檔名，包括副檔名，例如 MyApp.proj。|保留|  
 |`MSBuildProjectFullPath`|專案檔的絕對路徑和完整檔名，包括副檔名，例如 C:\MyCompany\MyProduct\MyApp.proj。|保留|  
 |`MSBuildProjectName`|專案檔的檔案名稱，不包括副檔名，例如 MyApp。|保留|  
+|`MSBuildRuntimeType`|目前執行的執行階段類型。 已在 MSBuild 15 中引入。 在 MSBuild 15 之前可能未定義值，而 `Full` 指出 MSBuild 是在傳統型 .NET Framework 上執行、`Core` 指出 MSBuild 是在 .NET Core 上執行，或 `Mono` 指出 MSBuild 是在 Mono 上執行。|保留|  
 |`MSBuildStartupDirectory`|呼叫 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 所在資料夾的絕對路徑。 使用這個屬性就可以在專案樹狀結構中建置特定點之下的所有項目，而不需要在每個目錄中建立 dirs.proj 檔案。 而您只會有一個專案，例如 c:\traversal.proj，如下所示：<br /><br /> `<Project ...>     <ItemGroup>         <ProjectFiles              Include="$            (MSBuildStartupDirectory)            **\*.csproj"/>     </ItemGroup>     <Target Name="build">         <MSBuild             Projects="@(ProjectFiles)"/>     </Target> </Project>`<br /><br /> 若要在樹狀結構中的任何點進行建置，請輸入：<br /><br /> `msbuild c:\traversal.proj`<br /><br /> 不要在這個屬性中包含結尾的反斜線。|保留|  
 |`MSBuildThisFile`|`MSBuildThisFileFullPath` 的檔案名稱和副檔名部分。|保留|  
 |`MSBuildThisFileDirectory`|`MSBuildThisFileFullPath` 的目錄部分。<br /><br /> 在路徑中包含結尾的反斜線。|保留|  

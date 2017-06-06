@@ -1,50 +1,53 @@
 ---
 title: "如何：匯出包含預乘 Alpha 的材質 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 05348afa-f079-4f53-a05b-ecd91d13adab
 caps.latest.revision: 4
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-caps.handback.revision: 4
----
-# 如何：匯出包含預乘 Alpha 的材質
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: BrianPeek
+ms.author: brpeek
+manager: ghogen
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b7b38036fafe64a86a132253b2597cd6d59eec6c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
-影像內容管線可以從來源影像產生預乘 Alpha 材質。  這些比不包含預乘 Alpha 的材質更容易使用且更強固。  
+---
+# <a name="how-to-export-a-texture-that-has-premultiplied-alpha"></a>如何：匯出包含預乘 Alpha 的材質
+影像內容管線可以從來源影像產生預乘 Alpha 的材質。 這些使用起來可以更簡單，且比起不包含預乘 Alpha 的材質更穩固。  
   
- 本文件示範下列活動:  
+ 本文件示範下列活動︰  
   
--   設定要由影像內容管線處理的來源影像。  
+-   設定要由「影像內容管線」處理的來源影像。  
   
--   設定影像內容管線，使它產生預先相乘的 alpha。  
+-   設定影像內容管線以產生預乘 Alpha。  
   
-## 預乘 Alpha  
- 預乘 Alpha 提供多項優於傳統非預乘 Alpha 的好處，因為前者會將材質的色彩比重 \(其加入至場景的色彩\) 從其透光度 \(允許底下色彩通透出來的數量\) 分離，使光線與實體材料的真實互動呈現得更理想。  使用預乘 Alpha 的一些優點包括：  
+## <a name="premultiplied-alpha"></a>預乘 Alpha  
+ 預乘 Alpha 提供了許多優於傳統非預乘 Alpha 的優點，因為它更能代表實體物質與真實世界光線的互動，方法是將材質的色彩比重 (它新增至場景的色彩) 與半透明性 (它允許透出來的基礎色彩量) 分開。 使用預乘 Alpha 的一些優點包括︰  
   
--   在關聯作業中使用預先相乘的 Alpha; 混合多個半透明材質的結果相同，無論材質的混合順序如何。  
+-   使用預乘 Alpha 透明混色是關聯的作業。混用多種半透明材質的結果是相同的，而不論材質的混合順序。  
   
--   由於混合預先相乘的 Alpha 的關聯性，因此可以簡化多通道產生半透明物件的程序。  
+-   由於使用預乘 Alpha 透明混色的關聯本質，半透明物件的多階段呈現便簡化了。  
   
--   使用預先相乘的 Alpha 時，純粹加法混合 \(藉由將 alpha 設為零\) 和線性插補混合可以同時達成。  例如，在物件系統中，累加的混合火物件可使用線性插補混合成半透明煙霧物件。  沒有預乘 Alpha，您必須分開繪製火粒子與煙霧粒子，然後在繪製呼叫之間修改呈現狀態。  
+-   藉由使用預乘 Alpha，純粹加色法透明混色 (將 Alpha 設定為零) 和線性插補透明混色可以同時達成。 比方說，在粒子系統中，加色法透明混色的火粒子可能會變成使用線性插補透明混色的半透明煙霧粒子。 若沒有預乘 Alpha，您將必須分別繪製火粒子與煙霧粒子，並修改繪製呼叫之間的呈現狀態。  
   
--   使用預乘 Alpha 壓縮的材質，其品質會比不使用時的品質還要高，這些材質不會顯示可能在混合不使用預乘 Alpha 的材質時發生變色邊緣 \(或「光圈效果」\)。  
+-   使用預乘 Alpha 的材質壓縮品質會比不使用的材質高，而且它們不會表現出變色的邊緣，或稱「光環效果」(當您將不使用預乘 Alpha 的材質透明混色時可能會產生此結果)。  
   
-#### 若要建立使用預乘 Alpha 的紋理  
+#### <a name="to-create-a-texture-that-uses-premultiplied-alpha"></a>建立使用預乘 Alpha 的材質  
   
-1.  從基本材質開始。  載入現有影像檔，或建立影像檔，如 [如何：建立基本材質](../Topic/How%20to:%20Create%20a%20Basic%20Texture.md)中所述。  
+1.  從基本材質著手。 載入現有的影像檔案，或遵循[如何：建立基本材質](../designers/how-to-create-a-basic-texture.md)所述，建立影像檔案。  
   
-2.  設定材質檔案，以便由影像內容管線處理。  在 \[**方案總管**\] 中，開啟材質檔案的捷徑功能表，然後選擇 \[**屬性**\]。  在 \[**組態屬性**\]、\[**一般**\] 頁面上，將 \[**項目類型**\] 屬性設定為 \[**影像內容管線**\]。  確定 \[**內容**\] 屬性已設為 \[**是**\]，而且 \[**從組建排除**\] 設為 \[**否**\]，然後選擇 \[**套用**\] 按鈕。  \[**影像內容管線**\] 組態屬性頁面隨即出現。  
+2.  設定材質檔案，以便供「影像內容管線」處理。 在方案總管中，開啟材質檔案的捷徑功能表，然後選擇 [屬性]。 在 [組態屬性] > [一般] 頁面上，將 [項目類型] 屬性設定為 [影像內容管線]。 確定 [內容] 屬性是設定為 [是]，且 [從組建中排除] 是設定為 [否]，然後選擇 [套用] 按鈕。 此時會顯示 [影像內容管線] 組態屬性頁面。  
   
-3.  設定影像內容管線，使它產生預先相乘的 alpha。  在 \[**組態屬性**\]、\[**影像內容管線**\]、\[**一般**\] 頁面上，將 \[**轉換為預乘 Alpha 格式**\] 屬性設定為 \[**是 \(\/generatepremultipliedalpha\)**\]。  
+3.  設定影像內容管線以產生預乘 Alpha。 在 [組態屬性] > [影像內容管線] > [一般] 頁面上，將 [轉換成預乘 Alpha 格式] 屬性設定為 [是 (/generatepremultipliedalpha)]。  
   
-4.  選擇 \[**確定**\] 按鈕。  
+4.  選擇 [確定]  按鈕。  
   
- 當您建立專案時，影像內容管線會將來源影像從工作格式轉換為您指定的輸出格式 \(包括將影像轉換為預乘 Alpha 格式\)，而且結果複製到專案的輸出目錄。
+ 當您建置專案時，「影像內容管線」會將來源影像從工作格式轉換成您指定的輸出格式 (這包括將影像轉換成預乘 Alpha 格式)，然後將結果複製到專案的輸出目錄。

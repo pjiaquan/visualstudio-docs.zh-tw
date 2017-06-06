@@ -37,10 +37,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 79460291e91f0659df0a4241e17616e55187a0e2
-ms.openlocfilehash: f3f7d61bf46f318249dd3b54caee27998d7fd105
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 3184299feb0834dc7e3b6980f4f3fed87b99092c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="al-assembly-linker-task"></a>AL (組件連結器) 工作
@@ -52,14 +53,14 @@ AL 工作會包裝 AL.exe，這個工具會隨 [!INCLUDE[winsdklong](../deployme
 |參數|描述|  
 |---------------|-----------------|  
 |`AlgorithmID`|選擇性的 `String` 參數。<br /><br /> 指定雜湊多檔案組件中所有檔案的演算法，但包含組件資訊清單的檔案除外。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/algid` 選項的說明文件。|  
-|`BaseAddress`|選擇性的 `String` 參數。<br /><br /> 指定在執行階段，於使用者電腦上載入 DLL 的位址。 如果您指定 DLL 的基底位址，而不是讓作業系統重新找出處理序空間中的 DLL，應用程式載入的速度會更快。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 /base[address] 選項。|  
+|`BaseAddress`|選擇性的 `String` 參數。<br /><br /> 指定在執行期間將 DLL 載入使用者電腦上的目標位址。 如果您指定 DLL 的基底位址，而不是讓作業系統重新找出處理序空間中的 DLL，應用程式載入的速度會更快。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 /base[address] 選項。|  
 |`CompanyName`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`Company`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/comp[any]` 選項的說明文件。|  
 |`Configuration`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`Configuration`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/config[uration]` 選項的說明文件。|  
 |`Copyright`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`Copyright`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/copy[right]` 選項的說明文件。|  
 |`Culture`|選擇性的 `String` 參數。<br /><br /> 指定與組件相關聯的文化特性字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/c[ulture]` 選項的說明文件。|  
 |`DelaySign`|選擇性的 `Boolean` 參數。<br /><br /> 如果是 `true`，只會在組件中放置公開金鑰；如果是 `false`，即會完整簽署組件。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/delay[sign]` 選項的說明文件。|  
 |`Description`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`Description`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/descr[iption]` 選項的說明文件。|  
-|`EmbedResources`|選擇性的 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 在含有組件資訊清單的映像中嵌入指定的資源。 此工作會將資源檔的內容複製到映像。 傳遞給這個參數的項目可能具有已附加到它們的選擇性中繼資料，稱為 `LogicalName` 和 `Access`。 `LogicalName` 中繼資料可用來指定資源的內部識別項。  您可以將 `Access` 中繼資料設為 `private`，以便讓其他組件無法看見資源。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/embed[resource]` 選項的說明文件。|  
+|`EmbedResources`|選擇性 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 在含有組件資訊清單的映像中嵌入指定的資源。 此工作會將資源檔的內容複製到映像。 傳遞給這個參數的項目可能具有已附加到它們的選擇性中繼資料，稱為 `LogicalName` 和 `Access`。 `LogicalName` 中繼資料可用來指定資源的內部識別項。  您可以將 `Access` 中繼資料設為 `private`，以便讓其他組件無法看見資源。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/embed[resource]` 選項的說明文件。|  
 |`EvidenceFile`|選擇性的 `String` 參數。<br /><br /> 使用 `Security.Evidence` 的資源名稱，將指定的檔案嵌入組件中。<br /><br /> `Security.Evidence` 無法用於一般資源。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/e[vidence]` 選項。|  
 |`ExitCode`|選擇性 `Int32` 輸出唯讀參數。<br /><br /> 指定已執行命令提供的結束代碼。|  
 |`FileVersion`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`File Version`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/fileversion` 選項的說明文件。|  
@@ -67,7 +68,7 @@ AL 工作會包裝 AL.exe，這個工具會隨 [!INCLUDE[winsdklong](../deployme
 |`GenerateFullPaths`|選擇性的 `Boolean` 參數。<br /><br /> 讓工作使用錯誤訊息中所報告之任何檔案的絕對路徑。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/fullpaths` 選項。|  
 |`KeyContainer`|選擇性的 `String` 參數。<br /><br /> 指定保留金鑰組的容器。 這樣會藉由將公開金鑰插入組件資訊清單中的方式簽署組件 (為它指定強式名稱)。 工作接著將使用私密金鑰來簽署最終組件。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/keyn[ame]` 選項的說明文件。|  
 |`KeyFile`|選擇性的 `String` 參數。<br /><br /> 指定包含金鑰組或只有公開金鑰的檔案以簽署組件。 編譯器會將公開金鑰插入組件資訊清單中，然後使用私密金鑰簽署最終組件。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/keyf[ile]` 選項的說明文件。|  
-|`LinkResources`|選擇性的 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 將指定的資源檔連結至組件。 資源會變成組件的一部分，但不會複製檔案。 傳遞給這個參數的項目可能具有已附加到它們的選擇性中繼資料，稱為 `LogicalName`、`Target` 及 `Access`。 `LogicalName` 中繼資料可用來指定資源的內部識別項。 `Target` 中繼資料可以指定工作要將檔案複製到其中的路徑和檔案名稱，之後它會將這個新檔案編譯成組件。 您可以將 `Access` 中繼資料設為 `private`，以便讓其他組件無法看見資源。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/link[resource]` 選項的說明文件。|  
+|`LinkResources`|選擇性 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 將指定的資源檔連結至組件。 資源會變成組件的一部分，但不會複製檔案。 傳遞給這個參數的項目可能具有已附加到它們的選擇性中繼資料，稱為 `LogicalName`、`Target` 及 `Access`。 `LogicalName` 中繼資料可用來指定資源的內部識別項。 `Target` 中繼資料可以指定工作要將檔案複製到其中的路徑和檔案名稱，之後它會將這個新檔案編譯成組件。 您可以將 `Access` 中繼資料設為 `private`，以便讓其他組件無法看見資源。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/link[resource]` 選項的說明文件。|  
 |`MainEntryPoint`|選擇性的 `String` 參數。<br /><br /> 指定將模組轉換成可執行檔時，用來作為進入點之方法的完整名稱 (*class.method*)。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/main` 選項。|  
 |`OutputAssembly`|必要的 <xref:Microsoft.Build.Framework.ITaskItem> 輸出參數。<br /><br /> 指定此工作產生的檔案名稱。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/out` 選項。|  
 |`Platform`|選擇性的 `String` 參數。<br /><br /> 限制可以執行這個程式碼的平台，這個平台必須為下列其中之一：`x86`、`Itanium`、`x64` 或 `anycpu`。 預設為 `anycpu`。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/platform` 選項。|  
@@ -75,7 +76,7 @@ AL 工作會包裝 AL.exe，這個工具會隨 [!INCLUDE[winsdklong](../deployme
 |`ProductVersion`|選擇性的 `String` 參數。<br /><br /> 為組件中的 [`ProductVersion`] 欄位指定字串。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/productv[ersion]` 選項的說明文件。|  
 |`ResponseFiles`|選擇性的 `String[]` 參數。<br /><br /> 指定包含要傳遞至組件連結器之其他選項的回應檔。|  
 |`SdkToolsPath`|選擇性的 `String` 參數。<br /><br /> 指定 SDK 工具 (例如 resgen.exe) 的路徑。|  
-|`SourceModules`|選擇性的 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 一或多個要編譯到組件的模組。 模組將列在所產生組件的資訊清單中，且仍需依序散發和提供，才能載入組件。 傳遞到此參數的項目可能具有名為 `Target` 的其他中繼資料，以指定工作要將檔案複製到其中的路徑和檔案名稱，之後它會將這個新檔案編譯成組件。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 的說明文件。 此參數 (Parameter) 對應到傳遞至 Al.exe 的模組清單，但不含特定參數 (Switch)。|  
+|`SourceModules`|選擇性 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 一或多個要編譯到組件的模組。 模組將列在所產生組件的資訊清單中，且仍需依序散發和提供，才能載入組件。 傳遞到此參數的項目可能具有名為 `Target` 的其他中繼資料，以指定工作要將檔案複製到其中的路徑和檔案名稱，之後它會將這個新檔案編譯成組件。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 的說明文件。 此參數 (Parameter) 對應到傳遞至 Al.exe 的模組清單，但不含特定參數 (Switch)。|  
 |`TargetType`|選擇性的 `String` 參數。<br /><br /> 指定輸出檔的檔案格式：`library` (程式碼程式庫)、`exe` (主控台應用程式) 或 `win` (Windows 應用程式)。 預設為 `library`。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/t[arget]` 選項。|  
 |`TemplateFile`|選擇性的 `String` 參數。<br /><br /> 指定要從其中繼承所有組件中繼資料的組件，但不包括 [文化特性] 欄位。 指定的組件必須具有強式名稱。<br /><br /> 使用 `TemplateFile` 參數建立的組件會是附屬組件。 此參數對應到 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中的 `/template` 選項。|  
 |`Timeout`|選擇性的 `Int32` 參數。<br /><br /> 指定時間量 (以毫秒為單位)，在此時間量之後會終止工作可執行檔。 預設值是 `Int.MaxValue`，表示沒有逾時期間。|  
@@ -87,7 +88,7 @@ AL 工作會包裝 AL.exe，這個工具會隨 [!INCLUDE[winsdklong](../deployme
 |`Win32Resource`|選擇性的 `String` 參數。<br /><br /> 將 Win32 資源 (.res 檔案) 插入輸出檔中。 如需詳細資訊，請參閱 [Al.exe (組件連結器)](http://msdn.microsoft.com/Library/b5382965-0053-47cf-b92f-862860275a01) 中 `/win32res` 選項的說明文件。|  
   
 ## <a name="remarks"></a>備註  
- 除了上面所列的參數，此工作會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別的參數，而它本身是繼承自 <xref:Microsoft.Build.Utilities.ToolTask> 類別。 如需這些其他參數的清單及其說明，請參閱 [ToolTaskExtension 基底類別](../msbuild/tooltaskextension-base-class.md)。  
+ 除了上述所列的參數，此項工作還會繼承 <xref:Microsoft.Build.Tasks.ToolTaskExtension> 類別中的參數，而該類別本身又繼承 <xref:Microsoft.Build.Utilities.ToolTask> 類別。 如需這些其他參數的清單及其說明，請參閱 [ToolTaskExtension 基底類別](../msbuild/tooltaskextension-base-class.md)。  
   
 ## <a name="example"></a>範例  
  下列範例會使用指定的選項來建立組件。  

@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: bb13868209d29ee88aaca25d37bbe0041f49961b
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 8ef43b82ba8a9ca138872a152e8811174e20d1fe
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-cpu-usage"></a>分析 CPU 使用量
@@ -51,7 +52,7 @@ ms.lasthandoff: 03/07/2017
   
     -   在本機電腦上執行應用程式最適合重現已安裝應用程式的執行。  
   
-    -   如果您從遠端裝置收集資料，請在裝置上直接執行應用程式，而不是使用「遠端桌面連線」。  
+    -   如果您從遠端裝置收集資料，請在裝置上直接執行應用程式，而不是使用遠端桌面連接。  
   
     -   對於 Windows Phone 應用程式，直接從 [裝置] 收集資料會提供最精確的資料。  
   
@@ -61,13 +62,13 @@ ms.lasthandoff: 03/07/2017
   
      ![選擇 CPU 使用量](../profiling/media/cpuuse_lib_choosecpuusage.png "CPUUSE_LIB_ChooseCpuUsage")  
   
-4.  當應用程式啟動時，按一下 [取得最大數目]。 在顯示輸出之後等候約&1; 秒，然後選擇 [取得最大數目非同步]。 在按鈕點選之間等候，可讓您更輕鬆地隔離診斷報告中的按鈕點選常式。  
+4.  當應用程式啟動時，按一下 [取得最大數目]。 在顯示輸出之後等候約 1 秒，然後選擇 [取得最大數目非同步] 。 在按鈕點選之間等候，可讓您更輕鬆地隔離診斷報告中的按鈕點選常式。  
   
-5.  第二個輸出行出現之後，請選擇效能及診斷中樞中的 [停止收集]。  
+5.  第二個輸出行出現之後，請選擇效能和診斷中樞中的 [停止收集]  。  
   
  ![停止 CpuUsage 資料收集](../profiling/media/cpu_use_wt_stopcollection.png "CPU_USE_WT_StopCollection")  
   
- 「CPU 使用量」工具會分析資料，並顯示報告。  
+ CPU 使用量工具會分析資料，以及顯示報告。  
   
  ![CpuUsage 報表](../profiling/media/cpu_use_wt_report.png "CPU_USE_WT_Report")  
   
@@ -82,14 +83,14 @@ ms.lasthandoff: 03/07/2017
 |||  
 |-|-|  
 |![步驟 1](../profiling/media/procguid_1.png "ProcGuid_1")|CPU 使用量呼叫樹狀圖中的最上層節點是虛擬節點|  
-|![步驟 2](../profiling/media/procguid_2.png "ProcGuid_2")|在大部分的應用程式中，停用 [顯示外部程式碼] 選項時，第二層節點是一個含有系統和 Framework 程式碼的 [外部程式碼] 節點，而系統和 Framework 程式碼會啟動和停止應用程式、繪製 UI、控制執行緒排程，以及提供其他低階服務給應用程式。|  
+|![步驟 2](../profiling/media/procguid_2.png "ProcGuid_2")|在大部分的應用程式中，停用 [顯示外部程式碼]  選項時，第二層節點是一個含有系統和 Framework 程式碼的 [外部程式碼]  節點，而系統和 Framework 程式碼會啟動和停止應用程式、繪製 UI、控制執行緒排程，以及提供應用程式的其他低階服務。|  
 |![步驟 3](../profiling/media/procguid_3.png "ProcGuid_3")|第二層節點的子系是第二層系統和 Framework 程式碼所呼叫或建立的使用者程式碼方法和非同步常式。|  
-|![步驟 4](../profiling/media/procguid_4.png "ProcGuid_4")|方法的子節點只包含父系方法呼叫的資料。 停用 [顯示外部程式碼] 時，應用程式方法也可以包含 [外部程式碼] 節點。|  
+|![步驟 4](../profiling/media/procguid_4.png "ProcGuid_4")|某個方法的子節點只包含父系方法呼叫的資料。 停用 [顯示外部程式碼]  時，應用程式方法也可包含 [外部程式碼]  節點。|  
   
 ####  <a name="BKMK_External_Code"></a> 外部程式碼  
- 外部程式碼是在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU 使用量] 呼叫樹狀圖會將使用者方法的外部函式，收集成一個 [外部程式碼] 節點。  
+ 外部程式碼是在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU 使用量] 呼叫樹狀結構會將使用者方法的外部函式，收集成一個 [外部程式碼] 節點。  
   
- 當您想要檢視外部程式碼的呼叫路徑時，請從 [篩選檢視] 清單中選擇 [顯示外部程式碼] ，然後選擇 [套用]。  
+ 當您想要檢視外部程式碼的呼叫路徑時，請從 [篩選檢視]  清單中選擇 [顯示外部程式碼]  ，然後選擇 [套用] 。  
   
  ![選擇 [篩選檢視]，然後選擇 [ 顯示外部程式碼]](../profiling/media/cpu_use_wt_filterview.png "CPU_USE_WT_FilterView")  
   
@@ -97,7 +98,7 @@ ms.lasthandoff: 03/07/2017
   
  ![呼叫樹狀圖中的巢狀外部程式碼](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "CPU_USE_WT_ShowExternalCodeTooWide")  
   
- 使用搜尋方塊尋找您要尋找的節點，然後使用水平捲軸檢視資料：  
+ 使用搜尋方塊尋找您所尋找的節點，然後使用水平捲軸檢視資料：  
   
  ![搜尋巢狀外部程式碼](../profiling/media/cpu_use_wt_showexternalcodetoowide_found.png "CPU_USE_WT_ShowExternalCodeTooWide_Found")  
   
@@ -105,25 +106,25 @@ ms.lasthandoff: 03/07/2017
   
 |||  
 |-|-|  
-|**CPU 總計 (%)**|![總計 % 資料方程式](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> 在選取的時間範圍內，函式的呼叫和該函式所呼叫的函式所使用的應用程式 CPU 活動百分比。 請注意，這與「CPU 使用量」 時間軸圖表不同，後者會將時間範圍內的應用程式活動總計與可用的 CPU 容量總計進行比較。|  
+|**CPU 總計 (%)**|![總計 % 資料方程式](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> 在選取的時間範圍內，函式的呼叫和該函式所呼叫的函式所使用的應用程式 CPU 活動百分比。 請注意，這與 [CPU 使用率]  時間軸圖表不同，後者會將時間範圍內的應用程式活動總計與可用的 CPU 容量總計進行比較。|  
 |**自我 CPU (%)**|![自我 % 方程式](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> 在選取的時間範圍內，函式的呼叫所使用的應用程式 CPU 活動百分比 (不包括該函式所呼叫的函式活動)。|  
 |**CPU 總計 (毫秒)**|在選取的時間範圍內，函式的呼叫和該函式所呼叫的函式所花費的毫秒數。|  
 |**自我 CPU (毫秒)**|在選取的時間範圍內，函式的呼叫和該函式所呼叫的函式所花費的毫秒數。|  
 |**模組**|內含函式的模組名稱，或內含 [外部程式碼] 節點中的函式的模組數目。|  
   
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> CPU 使用量呼叫樹狀圖中的非同步函式  
- 當編譯器發現非同步方法時，它會建立隱藏的類別來控制方法的執行。 就概念而言，這個類別是包含編譯器所產生之函式清單的狀態機器，這些函式會以非同步方式呼叫原始方法的作業，以及正常運作所需的回呼、排程器和迭代器。 父方法呼叫原始方法時，執行階段會從父系的執行內容中移除該方法，並在可控制應用程式執行的系統和 Framework 程式碼內容中執行隱藏類別的方法。 非同步方法通常 (但不一定永遠) 會在一或多個不同的執行緒上執行。 這段程式碼會在「CPU 使用量」呼叫樹狀圖中，顯示為樹狀圖最上層節點正下方之 [外部程式碼] 節點的子系。  
+ 當編譯器發現非同步方法時，它會建立隱藏的類別來控制方法的執行。 就概念而言，這個類別是包含編譯器所產生之函式清單的狀態機器，這些函式會以非同步方式呼叫原始方法的作業，以及正常運作所需的回呼、排程器和 Iterator。 父方法呼叫原始方法時，執行階段會從父系的執行內容中移除該方法，並在可控制應用程式執行的系統和 Framework 程式碼內容中執行隱藏類別的方法。 非同步方法通常 (但不一定永遠) 會在一個或多個不同的執行緒上執行。 這段程式碼會在 [CPU 使用量] 呼叫樹狀圖中，顯示為樹狀圖最上層節點正下方之 [外部程式碼]  節點的子系。  
   
  若要在範例中查看此情況，請重新選取時間軸中的 `GetMaxNumberAsyncButton_Click` 區段。  
   
  ![GetMaxNumberAsyncButton&#95;Click 報表選取項目](../profiling/media/cpu_use_wt_getmaxnumberasync_selected.png "CPU_USE_WT_GetMaxNumberAsync_Selected")  
   
- [外部程式碼] 下的前兩個節點是狀態機器類別之編譯器產生的方法。 第三個節點是原始方法的呼叫。 展開產生的方法可顯示正在進行的作業。  
+ [外部程式碼]  下的前兩個節點是狀態機器類別之編譯器產生的方法。 第三個節點是原始方法的呼叫。 展開產生的方法可顯示正在進行的作業。  
   
  ![展開的 GetMaxNumberAsyncButton&#95;Click 呼叫樹狀圖](../profiling/media/cpu_use_wt_getmaxnumberasync_expandedcalltree.png "CPU_USE_WT_GetMaxNumberAsync_ExpandedCallTree")  
   
 -   `MainPage::GetMaxNumberAsyncButton_Click` 的功能很有限；它會管理工作值清單、計算結果的最大值，並顯示輸出。  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 會顯示排程和啟動將呼叫包裝至 `GetNumberAsync` 之 48 項工作所需的活動。  
+-   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 會顯示排程和啟動將呼叫包裝至 `GetNumberAsync`之 48 項工作所需的活動。  
   
--   `MainPage::<GetNumberAsync>b__b` 會顯示呼叫 `GetNumber` 之所有工作的活動。
+-   `MainPage::<GetNumberAsync>b__b` 會顯示呼叫 `GetNumber`之所有工作的活動。

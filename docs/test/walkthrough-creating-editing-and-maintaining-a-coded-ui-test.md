@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 75dc59de6446e4de3f1fa0522150eabcf800b24b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b7ef6829b8fca9f08b9c1fc526c975dad54f24d2
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="walkthrough-creating-editing-and-maintaining-a-coded-ui-test"></a>逐步解說：建立、編輯和維護自動程式化 UI 測試
@@ -156,7 +157,7 @@ ms.lasthandoff: 02/22/2017
   
 7.  選取 [錄製動作、編輯 UI 對應或加入判斷提示] 選項，然後選擇 [確定]。  
   
-     [UIMap – 自動程式化 UI 測試產生器] 隨即顯示，並將 Visual Studio 視窗最小化。  
+     [UIMap - 自動程式化 UI 測試產生器] 隨即顯示，並將 Visual Studio 視窗最小化。  
   
      如需對話方塊選項的詳細資訊，請參閱[建立自動程式化 UI 測試](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)。  
   
@@ -187,7 +188,7 @@ ms.lasthandoff: 02/22/2017
   
 14. 在 [方法名稱] 中輸入 **SimpleAppTest**，然後選擇 [加入和產生]。 自動程式化 UI 測試幾分鐘後會出現並加入至方案。  
   
-15. 關閉 [UIMap - 自動程式碼 UI 測試產生器]。  
+15. 關閉 [UIMap - 自動程式化 UI 測試產生器]。  
   
      CodedUITest1.cs 檔案隨即出現在 [程式碼編輯器] 中。  
   
@@ -306,7 +307,7 @@ ms.lasthandoff: 02/22/2017
   
      請注意，之前在這個程序中的這一行程式碼是使用 `UiStartButton`，這是重構前的 UIMap 名稱。  
   
-     若要修正此問題，您可以使用 [自動程式碼 UI 測試產生器] 將重構的控制項加入至 UIMap。 您可以將測試的程式碼更新為使用這個程式碼，如下一個程序所示。  
+     若要修正此問題，您可以使用 [自動程式碼 UI 測試產生器] 將重構的控制項加入至 UIMap。 您可以將測試的程式碼更新為使用這個程式碼，如下一個程序中所示。  
   
 ### <a name="map-refactored-control-and-edit-and-rerun-the-coded-ui-test"></a>對應重構的控制項以及編輯和重新執行自動程式化 UI 測試  
   
@@ -334,9 +335,9 @@ ms.lasthandoff: 02/22/2017
   
 8.  關閉 SimpleWPFApp.exe。  
   
-9. 關閉 [UIMap - 自動程式碼 UI 測試產生器]。  
+9. 關閉 [UIMap - 自動程式化 UI 測試產生器]。  
   
-     [UIMap - 自動程式碼 UI 測試產生器] 需幾秒鐘的時間處理 UI 控制項對應變更。  
+     [UIMap - 自動程式化 UI 測試產生器] 需幾秒鐘的時間處理 UI 控制項對應變更。  
   
 10. 在 [方案總管] 中，開啟 UIMap.Designer.cs 檔案。  
   
@@ -396,7 +397,7 @@ ms.lasthandoff: 02/22/2017
 ### <a name="faq"></a>常見問題集  
  [自動程式化 UI 測試常見問題集 - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  
   
- [自動程式化 UI 測試常見問題集 -&2;](http://go.microsoft.com/fwlink/?LinkID=230578)  
+ [自動程式化 UI 測試常見問題集 - 2](http://go.microsoft.com/fwlink/?LinkID=230578)  
   
 ### <a name="forum"></a>論壇  
  [Visual Studio 使用者介面自動化測試 (包括 CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  

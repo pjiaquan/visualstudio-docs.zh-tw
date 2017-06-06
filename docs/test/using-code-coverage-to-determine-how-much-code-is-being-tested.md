@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 86e3e1625cffabf3b64edd0da7307db7773adf4c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 90d4fec70dd131289f37d35f896d87c6e0843e83
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="using-code-coverage-to-determine-how-much-code-is-being-tested"></a>使用程式碼涵蓋範圍來決定所測試的程式碼數量
@@ -65,7 +66,7 @@ ms.lasthandoff: 02/22/2017
 >      如果使用 Unmanaged 程式碼 (機器碼)，請使用偵錯組建。  
 > -   請務必為每個組件產生 .pdb (符號) 檔。  
 >   
->  如果沒有得到預期的結果，請參閱[針對程式碼涵蓋範圍進行 疑難排解](../test/troubleshooting-code-coverage.md)。 。 更新程式碼後不要忘記再次執行程式碼涵蓋範圍。 修改程式碼後或執行測試時，並不會自動更新涵蓋範圍結果和程式碼著色。  
+>  如果沒有得到預期的結果，請參閱[針對程式碼涵蓋範圍進行疑難排解](../test/troubleshooting-code-coverage.md)。 。 更新程式碼後不要忘記再次執行程式碼涵蓋範圍。 修改程式碼後或執行測試時，並不會自動更新涵蓋範圍結果和程式碼著色。  
   
 ## <a name="reporting-in-blocks-or-lines"></a>區塊或行報告  
  程式碼涵蓋範圍以「區塊」(Block) 計算。 一個區塊是只有一個進入點及一個結束點的程式碼片段。  如果程式的控制流程在測試回合期間通過區塊，該區塊即屬於覆蓋的區塊。 區塊使用次數不會影響結果。  
@@ -263,7 +264,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
  您可以撰寫 .runsettings 檔案進一步控制執行程式碼範圍分析時選取的組件和項目。 例如，您可以排除特定種類的組件，而不需要在其類別中加入屬性。 如需詳細資訊，請參閱[自訂程式碼涵蓋範圍分析](../test/customizing-code-coverage-analysis.md)。  
   
 ## <a name="analyzing-code-coverage-in-the-build-service"></a>在組建服務中分析程式碼涵蓋範圍  
- 當您檢查程式碼時，您的測試會在組建伺服器上與其他小組成員的所有其他測試一起執行。 (如果您尚未設定此功能，請參閱[在組建流程中執行測試](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38)。)由於在組建服務分析程式碼覆蓋範圍可以針對整個專案的覆蓋範圍提供最新、最完整的分析結果，因此是非常有用的方法。 這項分析也包含自動化系統測試，和通常不會在開發電腦上執行的其他自動程式碼測試。  
+ 當您檢查程式碼時，您的測試會在組建伺服器上與其他小組成員的所有其他測試一起執行。 (如果您尚未設定此功能，請參閱[在建置流程中執行測試](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38)。)由於在組建服務上分析程式碼覆蓋範圍可以針對整個專案的覆蓋範圍提供最新、最完整的分析結果，因此是非常有用的方法。 這項分析也包含自動化系統測試，和通常不會在開發電腦上執行的其他自動程式碼測試。  
   
 1.  在 Team Explorer 中開啟 [組建]，然後新增或編輯組建定義。  
   
@@ -271,7 +272,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
      如果您有一個以上的測試來源定義，請針對每一個定義重複以上步驟。  
   
-    -   *但沒有名為 [回合設定檔類型]**的欄位。*  
+    -   但沒有名為 [回合設定檔類型]** 的欄位。  
   
          在 [自動化測試] 下，選取 [測試組件]，然後選擇行末的省略符號按鈕 [...]。 在 [加入/編輯測試回合] 對話方塊中，選擇 [測試執行器] 之下的 [Visual Studio 測試執行器]。  
   

@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: edb6c75d35f89df363a07eb24ba31e203bc6672e
-ms.openlocfilehash: 30261d8b75029bac15c9ab881d9f43c1a717d8cd
-ms.lasthandoff: 03/15/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b699132bf1a31d3ef9dc3ba5af3f99c22890c632
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 
@@ -102,7 +103,7 @@ Live Unit Testing 適用於下表所列的三種熱門單元測試架構。 其�
 
 ##    <a name="viewing-coverage-visualization-in-the-editor-as-you-type"></a>在輸入期間於編輯器中檢視涵蓋範圍的視覺效果
 
-一旦啟用之後，Live Unit Testing 就會更新 Visual Studio 編輯器中的每個程式碼行，以顯示單元測試是否會涵蓋您撰寫的程式碼，以及涵蓋該程式碼的測試是否順利通過。  下圖顯示顯示具有通過及失敗測試的程式碼行，以及不受測試涵蓋的程式碼行。 僅由通過的測試所涵蓋的程式碼行會以綠色的 “✓” 裝飾，由一或多個失敗測試所涵蓋的程式碼行會以紅色 “🞩” 裝飾，而沒有受任何測試涵蓋的程式碼行則會以藍色 “” 裝飾。
+一旦啟用之後，Live Unit Testing 就會更新 Visual Studio 編輯器中的每個程式碼行，以顯示單元測試是否會涵蓋您撰寫的程式碼，以及涵蓋該程式碼的測試是否順利通過。  下圖顯示顯示具有通過及失敗測試的程式碼行，以及不受測試涵蓋的程式碼行。 僅由通過的測試所涵蓋的程式碼行會以綠色的 "✓" 裝飾，由一或多個失敗測試所涵蓋的程式碼行會以紅色 "🞩" 裝飾，而沒有受任何測試涵蓋的程式碼行則會以藍色 "" 裝飾。
 
   ![Image](./media/lut-codewindow.png)
 

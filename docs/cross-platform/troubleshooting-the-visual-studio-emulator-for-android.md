@@ -28,14 +28,15 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 2496311ad47149cc7d4ba62c54dbf5db98b8c3c6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 2b73f62b59c2106cdda090133013603e3dc887c6
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="troubleshooting-the-visual-studio-emulator-for-android"></a>Troubleshooting the Visual Studio Emulator for Android
-本主題所包含的資訊，可協助您解決使用 Visual Studio Emulator for Android 時可能遇到的問題。  
+本主題所包含的資訊，可協助您解決使用 Visual Studio 的 Android 模擬器時可能遇到的問題。  
   
 > [!WARNING]
 >  安裝模擬器時，安裝程式會檢查執行軟體的必要元件。 如果必要元件不存在，則會顯示警告，但安裝時不需要這些元件。  
@@ -46,15 +47,15 @@ ms.lasthandoff: 02/22/2017
   
 -   [無法安裝模擬器](#NoInstall)  
   
--   [無法連線到網域或公司網路上的網路目的地](#DomainNetwork)  
+-   [無法連接到網域或公司網路上的網路目的地](#DomainNetwork)  
   
--   [當網路設定需要手動進行時，無法連線到網路目的地](#ManualNetworkConfig)  
+-   [當網路設定需要手動進行時，無法連接到網路目的地](#ManualNetworkConfig)  
   
 -   [模擬器啟動很慢、因逾時而無法啟動，或應用程式部署失敗](#SlowStart)  
   
 -   [模擬器無法啟動](#NoStart2)  
   
--   [無法啟動模擬器 (第一次使用)](#NoStart)  
+-   [Emulator fails to start (first use)](#NoStart)  
   
 -   [安裝模擬器後無法啟動電腦](#NoBoot)  
   
@@ -79,7 +80,7 @@ ms.lasthandoff: 02/22/2017
 ##  <a name="BeforeYouStart"></a> 開始之前  
  開始進行疑難排解之前，檢閱下列主題可能會很有幫助：  
   
--   [Android 版 Visual Studio 模擬器的系統需求](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
+-   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
   
 ##  <a name="NoInstall"></a> 無法安裝模擬器  
  若您沒有安裝 Hyper-V，在嘗試安裝模擬器時，會看到下列訊息。 您必須有支援 HyperV 的電腦，並已加以啟用。  
@@ -89,9 +90,9 @@ ms.lasthandoff: 02/22/2017
 > [!NOTE]
 >  此訊息對 Visual Studio Emulator for Android 及 Windows Phone 模擬器皆適用。 Windows 8.1 和 Windows 10 都支援模擬器。  
   
- 若您看到此訊息，請檢查 [Android 版 Visual Studio 模擬器的系統需求](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)，以查看您是否可以執行模擬器。  
+ 若您看到此訊息，請檢查 [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) 以查看您是否可以執行模擬器。  
   
-##  <a name="DomainNetwork"></a> 無法連線到網域或公司網路上的網路目的地  
+##  <a name="DomainNetwork"></a> 無法連接到網域或公司網路上的網路目的地  
  Visual Studio Emulator for Android 以具有自己的 IP 位址的個別裝置形式出現在網路上。 該模擬器未加入 Windows 網域，並且不會與主機電腦共用網域或工作群組認證。  
   
  如果您的網路需要基本網路和網際網路連線的網域或工作群組授權，請連絡 IT 系統管理員以當做例外狀況來處理。 這個例外狀況可將您的開發電腦當做界限電腦，並接受來自未加入網域之網路裝置 (例如模擬器) 的連線。  
@@ -108,7 +109,7 @@ ms.lasthandoff: 02/22/2017
   
 4.  在 [網路] 頁面上，尋找實體位址項目。  
   
-##  <a name="ManualNetworkConfig"></a> 當網路設定需要手動進行時，無法連線到網路目的地  
+##  <a name="ManualNetworkConfig"></a> 當網路設定需要手動進行時，無法連接到網路目的地  
  若要從模擬器連接到網路目的地，您的網路必須符合下列需求：  
   
 -   DHCP。 模擬器需要 DHCP，因為它會將本身設定為網路上具有自己的 IP 位址的個別裝置。  
@@ -151,18 +152,18 @@ ms.lasthandoff: 02/22/2017
   
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")  
   
-     若設定不正確，且您正使用 Windows 10，您可以嘗試 [使用 netcfg –d 命令重新安裝網路裝置](http://windows.microsoft.com/en-us/windows-10/fix-network-connection-issues) (第 6 章節)。  
+     若設定不正確，且您正使用 Windows 10，您可以嘗試[使用 netcfg -d 命令重新安裝網路裝置](http://windows.microsoft.com/en-us/windows-10/fix-network-connection-issues) (第 6 節)。  
   
 -   如果這些步驟都無法解決問題，請參閱 [Emulator fails to start (first use)](#NoStart) ，以取得可能干擾模擬器之協力廠商軟體的詳細資訊。  
   
-##  <a name="NoStart"></a> 無法啟動模擬器 (第一次使用)  
+##  <a name="NoStart"></a> Emulator fails to start (first use)  
  如果模擬器未啟動，請進行下列工作來找出並修正問題。  
   
 -   確定符合最低硬體需求且 BIOS 設定正確無誤。  
   
      模擬器和 Windows 8 Hyper-V 需要支援第二層位址轉譯 (SLAT) 的 64 位元處理器。 針對 Intel，您基本上需要 Core i3、i5 或 i7 處理器 (或多個 Xeon 中的其中一個)。 AMD 晶片清單可在 [這裡](http://support.amd.com/en-us)取得。  
   
-    1.  確定您的電腦符合[系統需求](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)。  
+    1.  確定您的電腦符合 [系統需求](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)。  
   
     2.  確認 [SLAT 工具](https://slatstatuscheck.codeplex.com/) 回報您的電腦支援 SLAT。  
   
@@ -314,7 +315,7 @@ ms.lasthandoff: 02/22/2017
  Google Play 服務的程式庫未隨附模擬器。 但模擬器支援可刷新之 zip 檔案的拖放安裝。  
   
 ##  <a name="DragAndDrop"></a> 無法拖放檔案、APK 或可刷新的 zip 檔案  
- 當您將檔案拖放到畫面上時，模擬器會使用 ADB.exe 來協助傳輸檔案。 如果您在嘗試拖放檔案時發生錯誤，可能表示模擬器並未連接到 ADB.exe。 若要解決此問題，請遵循 [Visual Studio 在嘗試將應用程式部署至模擬器時遇遭困難，或模擬器未作為偵錯目標出現在其他 IDE 中](#ADB)的步驟。  
+ 當您將檔案拖放到畫面上時，模擬器會使用 ADB.exe 來協助傳輸檔案。 如果您在嘗試拖放檔案時發生錯誤，可能表示模擬器並未連接到 ADB.exe。 若要解決，請遵循 [Visual Studio 在嘗試將應用程式部署至模擬器時遇遭困難，或模擬器未作為偵錯目標出現在其他 IDE 中](#ADB)取得。  
   
 ##  <a name="Resolution"></a> 螢幕擷取畫面的解析度不正確  
  如果您使用 [其他工具]  視窗中的 [螢幕擷取畫面] 索引標籤取得螢幕擷取畫面，但所產生的影像不是預期的大小，您可能需要調整螢幕的縮放比例，再選擇 [擷取] 。 模擬器會以您主機電腦螢幕的螢幕解析度，來取得螢幕擷取畫面。  

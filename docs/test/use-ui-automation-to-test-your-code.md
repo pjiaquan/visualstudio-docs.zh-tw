@@ -36,10 +36,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 753a39940ba32052cff14460f007a8f8a2d191dd
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 0719aac1c8a0b59b34234aeeee8ec0a3ce418168
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="use-ui-automation-to-test-your-code"></a>使用 UI 自動化來測試您的程式碼
@@ -87,7 +88,7 @@ ms.lasthandoff: 02/22/2017
   
      自動程式化 UI 測試必須包含在自動程式化 UI 測試專案中。 如果您還沒有自動程式化 UI 測試專案，請予以建立。 在 [方案總管] 的方案捷徑功能表上，依序選擇 [加入] 和 [新增專案]，然後選取 [Visual Basic] 或 [Visual C#]。 接著，依序選擇 [測試] 和 [自動程式化 UI 測試]。  
   
-    -   *我看不到 [自動程式化 UI 測試]**專案範本。*  
+    -   我看不到 [自動程式化 UI 測試] 專案範本。  
   
          您使用的 Visual Studio 版本可能不支援自動程式化 UI 測試。 若要建立自動程式化 UI 測試，您必須使用 Visual Studio Enterprise。  
   
@@ -166,7 +167,7 @@ ms.lasthandoff: 02/22/2017
   
 8.  **執行測試**。  
   
-     使用 [測試總管]，或開啟測試方法中的捷徑功能表，然後選擇 [執行測試]。 如需如何執行測試的詳細資訊，請參閱[使用測試總管執行單元測試](../test/run-unit-tests-with-test-explorer.md)以及本主題結尾[後續動作](#VerifyCodeUsingCUITWhatsNext)小節中的*執行自動程式化 UI 測試的其他選項*。  
+     使用 [測試總管]，或開啟測試方法中的捷徑功能表，然後選擇 [執行測試]。 如需如何執行測試的詳細資訊，請參閱[使用測試總管執行單元測試](../test/run-unit-tests-with-test-explorer.md)以及本主題結尾[後續動作](#VerifyCodeUsingCUITWhatsNext)節中的*執行自動程式化 UI 測試的其他選項*。  
   
  本主題中的其餘各節提供此程序中各步驟的更多詳細資料。  
   
@@ -184,7 +185,7 @@ ms.lasthandoff: 02/22/2017
 -   ![必要條件](../test/media/prereq.png "Prereq") 您可以加入測試清除方法 (透過 [TestCleanup] 屬性予以識別)，此方法會在每個測試方法結束時執行程式碼。 例如，可以從 TestCleanup 方法呼叫關閉應用程式的方法。  
   
 ###  <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> 驗證 UI 控制項的屬性  
- 您可以使用**自動程式化 UI 測試產生器**，將使用者介面 (UI) 控制項加入至您測試的 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>，或者為針對使用 UI 控制項判斷提示的驗證方法產生程式碼。  
+ 您可以使用 [自動程式化 UI 測試產生器] 將使用者介面 (UI) 控制項加入測試的 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>，或產生可使用 UI 控制項判斷提示之驗證方法的程式碼。  
   
  若要產生 UI 控制項的判斷提示，請選擇自動程式化 UI 測試產生器中的 [加入判斷提示] 工具，並將它拖曳至受測試應用程式上想要驗證是否正確的控制項。 有方塊括住控制項時，請放開滑鼠。 此控制類別碼會立即在 `UIMap.Designer.cs` 檔案中建立。  
   
@@ -196,11 +197,11 @@ ms.lasthandoff: 02/22/2017
   
  ![自動程式化 UI 測試屬性](../test/media/codedui_2.png "CodedUI_2")  
   
--   *我在選取應用程式中的控制項時看不到任何屬性，或者在 UI 控制項對應中看不到該控制項。*  
+-   我在選取應用程式中的控制項時看不到任何屬性，或者在 UI 控制項對應中看不到該控制項。  
   
      在應用程式程式碼中，您想要驗證的控制項必須要有唯一的 ID (例如 HTML ID 屬性) 或 WPF UId。 您可能需要更新應用程式程式碼以加入這些 ID。  
   
- 接下來，開啟想要驗證之 UI 控制項的屬性的捷徑功能表，然後指向 [加入判斷提示]。 在 [加入判斷提示] 對話方塊中，選取判斷提示的**比較子** (例如 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A>)，然後在 [比較值] 中輸入判斷提示的值。  
+ 接下來，開啟想要驗證之 UI 控制項的屬性的捷徑功能表，然後指向 [加入判斷提示]。 在 [新增判斷提示] 對話方塊中，選取您判斷提示的 [比較子] (例如 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A>)，然後在 [比較值] 中輸入您判斷提示的值。  
   
  ![自動程式化 UI 測試判斷提示](../test/media/codedui_3.png "CodedUI_3")  
   
@@ -381,7 +382,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
     public partial class UIMap // Same partial class  
     {  
       /// <summary>  
-      /// Add two numbers – parameterized version  
+      /// Add two numbers - parameterized version  
       /// </summary>  
       public void AddTwoNumbers(int firstNumber, int secondNumber)  
       { ...   // Code modified to use parameters.  
@@ -408,21 +409,21 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
  **存取 UI 測試控制項的動作**  
   
- 若要在 UI 測試控制項上測試動作，例如按一下滑鼠或鍵盤動作，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse> 和 <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard> 類別中的方法：  
+ 若要對 UI 測試控制項執行動作 (例如按一下滑鼠或鍵盤動作)，請在 <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse> 和 <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard> 類別中使用方法：  
   
--   若要執行滑鼠導向動作，例如滑鼠點選，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click%2A>。  
+-   若要執行滑鼠導向的動作 (例如按一下滑鼠)，請在 UI 測試控制項上使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click%2A>。  
   
      `Mouse.Click(buttonCancel);`  
   
--   若要執行鍵盤導向動作，例如輸入編輯控制項，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A>。  
+-   若要執行滑鼠導向的動作 (例如按一下滑鼠)，請在 UI 測試控制項上使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A>。  
   
      `Keyboard.SendKeys(textBoxDestination, @"C:\Temp\Output.txt");`  
   
  **存取 UI 測試控制項的屬性**  
   
- 若要取得和設定 UI 控制項特定屬性值，您可以直接取得或設定控制項屬性的值，或者以您想要取得或設定的特定屬性名稱來使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A?displayProperty=fullName> 和 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A?displayProperty=fullName> 方法。  
+ 若要取得和設定 UI 控制項特定屬性值，您可以直接取得或設定控制項屬性值，也可以搭配使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A?displayProperty=fullName> 和 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A?displayProperty=fullName> 方法與您想要取得或設定的特定屬性名稱。  
   
- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 會傳回物件，該物件可以接著轉換為適當的 <xref:System.Type>。 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> 接受物件做為屬性值。  
+ <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 會傳回物件，接著可以將物件轉換為適當的 <xref:System.Type>。 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> 會接受屬性值的物件。  
   
 ##### <a name="to-get-or-set-properties-from-ui-test-controls-directly"></a>直接從 UI 測試控制項取得或設定屬性  
   
@@ -437,9 +438,9 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   若要從控制項取得屬性值，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>。  
   
--   若要指定要取得控制項的屬性，請在每個控制項中使用 `PropertyNames` 類別的適當字串，做為 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 的參數。  
+-   若要指定要取得的控制項的屬性，請將來自每個控制項中 `PropertyNames` 類別的適當字串當成 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 的參數使用。  
   
--   <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 會傳回適當的資料類型，但此傳回值會轉換為 <xref:System.Object>。 傳回的 <xref:System.Object> 必須轉換為適當的類型。  
+-   <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> 會傳回適當的資料類型，但是此傳回值會轉換為 <xref:System.Object>。 傳回 <xref:System.Object> 接著必須轉換為適當的類型。  
   
      範例：  
   
@@ -447,9 +448,9 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 ##### <a name="to-set-properties-for-ui-test-controls"></a>設定 UI 測試控制項的屬性  
   
--   若要設定控制項的屬性，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>。  
+-   若要設定控制項中的屬性，請使用 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>。  
   
--   若要指定要設定控制項的屬性，請使用 `PropertyNames` 類別的適當字串做為 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> 的第一個參數，而屬性值做為第二個參數。  
+-   若要指定要設定的控制項的屬性，請將來自 `PropertyNames` 類別的適當字串當成 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> 的第一個參數使用，而屬性值當成第二個參數使用。  
   
      範例：  
   
@@ -458,7 +459,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ###  <a name="debugging"></a> 偵錯  
  您可以使用自動程式化 UI 測試記錄來分析自動程式化 UI 測試。 自動程式碼 UI 測試記錄會篩選和錄製您自動程式碼 UI 測試執行的重要資訊。 記錄的格式可讓您快速偵錯問題。 如需詳細資訊，請參閱[使用自動程式化 UI 測試記錄分析自動程式化 UI 測試](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md)。  
   
-##  <a name="VerifyCodeUsingCUITWhatsNext"></a> 後續步驟  
+##  <a name="VerifyCodeUsingCUITWhatsNext"></a>後續步驟  
  **執行自動程式化 UI 測試的其他選項：**您可以直接從 Visual Studio 執行自動程式化 UI 測試 (如本主題前面所述)。 此外，您可以從 [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] 或 [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] 執行自動化 UI 測試。 與其他自動化測試不同，如果自動化自動程式化 UI 測試，則在您執行程式碼 UI 測試時，其必須與桌面進行互動。  
   
 -   [如何：從 Microsoft Visual Studio 執行測試](http://msdn.microsoft.com/Library/1a1207a9-2a33-4a1e-a1e3-ddf0181b1046)  
@@ -493,7 +494,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ### <a name="faq"></a>常見問題集  
  [自動程式化 UI 測試常見問題集 - 1](http://go.microsoft.com/fwlink/?LinkID=230576)  
   
- [自動程式化 UI 測試常見問題集 -&2;](http://go.microsoft.com/fwlink/?LinkID=230578)  
+ [自動程式化 UI 測試常見問題集 - 2](http://go.microsoft.com/fwlink/?LinkID=230578)  
   
 ### <a name="forum"></a>論壇  
  [Visual Studio 使用者介面自動化測試 (包括 CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)  

@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 7d726441c2d6953bd7b50451bec7fff05d5d71b0
-ms.openlocfilehash: 2511f1076450848dfc75584edc97950fd4279c7b
-ms.lasthandoff: 03/10/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 8d52ad780eb8aa29132626644d581d3a5b6e66b4
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 
@@ -49,7 +50,7 @@ Visual Studio 支援在使用 CPython 型解譯器時分析 Python 應用程式�
 
 如需概觀說明，請參閱下列內容
 
-如需逐步解說示範，請觀看[使用適用於 Visual Studio 的 Python 工具進行分析 (英文)](http://www.youtube.com/watch?v=K-KqkFkp55k) 影片 (8 分&52; 秒)。
+如需逐步解說示範，請觀看[使用適用於 Visual Studio 的 Python 工具進行分析 (英文)](http://www.youtube.com/watch?v=K-KqkFkp55k) 影片 (8 分 52 秒)。
 
 > [!VIDEO https://www.youtube.com/embed/K-KqkFkp55k]
 

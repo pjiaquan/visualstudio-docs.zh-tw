@@ -30,21 +30,23 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: bfe3001ddefaba1220174fecbf8e484fe4987efd
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: d284309b0243f8d551d06c53d50d5df5de8f3f3c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="install-visual-c-for-cross-platform-mobile-development"></a>Install Visual C++ for Cross-Platform Mobile Development
-[Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink/p/?LinkId=536383) 是包含在 Visual Studio 2015 中的可安裝元件。 它包含了跨平台的 Visual Studio 範本，並會安裝跨平台工具和 SDK 以便迅速開始使用，讓您不需要自行尋找、下載與設定。 您可以使用 Visual Studio 中的這些工具來輕鬆建立、編輯、偵錯和測試跨平台專案。 本主題描述如何安裝必要的工具和協力廠商軟體，以使用 Visual Studio 開發跨平台應用程式。 如需元件概觀，請參閱 [Visual C++ 跨平台行動開發 (英文)](http://go.microsoft.com/fwlink/p/?LinkId=536387)  
+[Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink/p/?LinkId=536383) 是包含在 Visual Studio 2015 中的可安裝元件。 它包含了跨平台的 Visual Studio 範本，並會安裝跨平台工具和 SDK 以便迅速開始使用，讓您不需要自行尋找、下載與設定。 您可以使用 Visual Studio 中的這些工具來輕鬆建立、編輯、偵錯和測試跨平台專案。 本主題描述如何安裝必要的工具和協力廠商軟體，以使用 Visual Studio 開發跨平台應用程式。 如需元件概觀，請參閱 [Visual C++ 跨平台行動開發](http://go.microsoft.com/fwlink/p/?LinkId=536387)  
   
  [需求](#Requirements)   
  [取得工具](#GetTheTools)   
  [安裝工具](#InstallTheTools)   
- [安裝 iOS 工具](#InstallForiOS)   
+ [Install tools for iOS](#InstallForiOS)   
  [手動安裝或更新相依項目](#ThirdParty)  
   
-##  <a name="a-namerequirementsa-requirements"></a><a name="Requirements"></a> 需求  
+##  <a name="Requirements"></a> 需求  
   
 -   如需安裝需求，請參閱 [Visual Studio 2015 系統需求](https://www.visualstudio.com/visual-studio-2015-system-requirements-vs)。  
   
@@ -59,10 +61,10 @@ ms.openlocfilehash: bfe3001ddefaba1220174fecbf8e484fe4987efd
   
 -   建置 iOS 的程式碼需要 Apple ID、iOS 開發人員計劃帳戶，以及可在 OS X Mavericks 或更新版本中執行 [Xcode 6](http://go.microsoft.com/fwlink/p/?LinkId=536387) 或更新版本的 Mac 電腦。 如需簡單的安裝步驟，請參閱 [Install tools for iOS](#InstallForiOS)。  
   
-##  <a name="a-namegetthetoolsa-get-the-tools"></a><a name="GetTheTools"></a> 取得工具  
+##  <a name="GetTheTools"></a> 取得工具  
  適用於跨平台行動裝置開發的 Visual C++ 是隨附於 Visual Studio Community、Professional 及 Enterprise 版本中的可安裝元件。 若要取得 Visual Studio，請移至 [Visual Studio 2015 下載](http://go.microsoft.com/fwlink/p/?linkid=517106)頁面，並下載 Visual Studio 2015 Update 2 或更新版本。  
   
-##  <a name="a-nameinstallthetoolsa-install-the-tools"></a><a name="InstallTheTools"></a> 安裝工具  
+##  <a name="InstallTheTools"></a> 安裝工具  
  Visual Studio 2015 的安裝程式包含安裝 Visual C++ for Cross-Platform Mobile Development 的選項。 這會安裝必要的 C++ 語言工具、適用於 Visual Studio 的範本和元件、Android 組建和偵錯所需的 GCC 和 Clang 工具組元件，以及與 Mac 通訊的 iOS 開發元件。 它也會安裝支援 iOS 和 Android 應用程式開發所需的所有協力廠商工具和軟體開發套件。 大多數協力廠商工具是 Android 平台支援所需的開放原始碼軟體。  
   
 -   建置以 Android 平台為目標的 C++ 程式碼需要 Android 原生開發套件 (NDK)。  
@@ -99,10 +101,10 @@ ms.openlocfilehash: bfe3001ddefaba1220174fecbf8e484fe4987efd
   
 5.  開啟 Visual Studio。 如果這是您第一次執行 Visual Studio，可能需要一些時間來設定和登入。 當 Visual Studio 就緒時，請在 [工具]  功能表中依序選取 [擴充功能和更新] 、[更新] 。 如果有適用於 Visual C++ for Cross-Platform Mobile Development 或 Microsoft Visual Studio Emulator for Android 的 Visual Studio 更新，請加以安裝。  
   
-##  <a name="a-nameinstallforiosa-install-tools-for-ios"></a><a name="InstallForiOS"></a> 安裝 iOS 工具  
- 您可以使用 Visual C++ for Cross-Platform Mobile Development 編輯、偵錯 iOS 程式碼並將其部署至 iOS 模擬器或 iOS 裝置，但由於授權限制，必須在 Mac 上遠端建置程式碼。 若要使用 Visual Studio 建置並執行 iOS 應用程式，您必須在 Mac 上安裝及設定遠端代理程式。 如需詳細的安裝指示、必要條件及組態選項，請參閱[安裝和設定工具以使用 iOS 進行建置](../cross-platform/install-and-configure-tools-to-build-using-ios.md)。 如果您不是針對  iOS 進行建置，可以略過此步驟。  
+##  <a name="InstallForiOS"></a> Install tools for iOS  
+ 您可以使用 Visual C++ for Cross-Platform Mobile Development 編輯、偵錯 iOS 程式碼並將其部署至 iOS 模擬器或 iOS 裝置，但由於授權限制，必須在 Mac 上遠端建置程式碼。 若要使用 Visual Studio 建置並執行 iOS 應用程式，您必須在 Mac 上安裝及設定遠端代理程式。 如需詳細的安裝指示、必要條件及組態選項，請參閱 [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)。 如果您不是針對  iOS 進行建置，可以略過此步驟。  
   
-##  <a name="a-namethirdpartya-install-or-update-dependencies-manually"></a><a name="ThirdParty"></a> 手動安裝或更新相依項目  
+##  <a name="ThirdParty"></a> 手動安裝或更新相依項目  
  如果您在安裝 Visual C++ Mobile Development 選項時，決定不要安裝一或多個使用 Visual Studio 安裝程式的協力廠商相依項目，可使用 [Install the tools](#InstallTheTools)中的步驟於稍後安裝。 您也可以獨立於 Visual Studio 安裝或更新這些項目。  
   
 > [!CAUTION]
@@ -150,9 +152,4 @@ ms.openlocfilehash: bfe3001ddefaba1220174fecbf8e484fe4987efd
   
 ## <a name="see-also"></a>另請參閱  
  [安裝和設定工具以使用 iOS 進行建置](../cross-platform/install-and-configure-tools-to-build-using-ios.md)   
- [Visual C++ 跨平台行動開發 (英文)](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
+ [Visual C++ 跨平台行動開發](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)

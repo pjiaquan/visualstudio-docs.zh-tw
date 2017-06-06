@@ -36,10 +36,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 570915111874202930ee9ad6d5066fc6761b54d2
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 47596188b7e415840ee45a97aff2076bd4d887bd
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="msbuild-command-line-reference"></a>MSBuild 命令列參考
@@ -66,7 +67,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |/ignoreprojectextensions: `extensions`|/ignore: `extensions`|決定要建置哪個專案檔後，請忽略指定的副檔名。 使用分號或逗號分隔多個副檔名，如下列範例所示：<br /><br /> `/ignoreprojectextensions:.vcproj,.sln`|  
 |/maxcpucount[:`number`]|/m[:`number`]|指定要在建置時使用的並行處理最大數目。 如果您未包含此參數，預設值為 1。 如果您包含此參數但未指定值，MSBuild 將會使用電腦上的處理器最大數目。 如需詳細資訊，請參閱[同時建置多個專案](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)。<br /><br /> 下列範例會指示 MSBuild 使用三個 MSBuild 處理程序來建置，這可在同一時間建置三個專案：<br /><br /> `msbuild myproject.proj /maxcpucount:3`|  
 |/noautoresponse|/noautorsp|不要自動包含任何 MSBuild.rsp 檔案。|  
-|/nodeReuse:`value`|/nr:`value`|啟用或停用 MSBuild 節點的重複使用功能。 您可以指定下列值：<br /><br /> -   **True**。 組建完成後保留節點，以便後續組建可以加以使用 (預設值)。<br />-   **False**。 在組建完成後不保留節點。<br /><br /> 對應至執行中專案的節點。 如果您包含 **/maxcpucount** 參數，就能同時執行多個節點。|  
+|/nodeReuse:`value`|/nr:`value`|啟用或停用 MSBuild 節點的重複使用功能。 您可以指定下列值：<br /><br /> -   **True**。 組建完成後保留節點，以便後續組建可以加以使用 (預設值)。<br />-   **False**。 在組建完成後不保留節點。<br /><br /> 節點對應至執行中專案。 如果您包含 **/maxcpucount** 參數，就能同時執行多個節點。|  
 |/nologo||不要顯示程式啟始資訊或著作權訊息。|  
 |/preprocess[:`filepath`]|/pp[:`filepath`]|由內嵌在組建期間匯入的所有檔案，並標上其界限標記，藉此建立單一彙總的專案檔。 您可以使用此參數更輕鬆地判斷正在匯入哪些檔案、從哪裡匯入檔案，以及哪些檔案形成組建。 使用這個參數時，並不會建置專案。<br /><br /> 如果您指定 `filepath`，則彙總的專案檔會是檔案的輸出。 否則，輸出會顯示在主控台視窗中。<br /><br /> 如需如何使用 `Import` 項目來將專案檔插入另一個專案檔的相關資訊，請參閱 [Import 項目 (MSBuild)](../msbuild/import-element-msbuild.md) 和[如何：在多個專案檔中使用相同的目標](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md)。|  
 |/property:`name`=`value`|/p:`name`=`value`|設定或覆寫所指定的專案層級屬性，其中 `name` 是屬性名稱，而 `value` 是屬性值。 分別指定每個屬性，或使用分號或逗號分隔多個屬性，如下列範例所示：<br /><br /> `/property:WarningLevel=2;OutDir=bin\Debug`|  

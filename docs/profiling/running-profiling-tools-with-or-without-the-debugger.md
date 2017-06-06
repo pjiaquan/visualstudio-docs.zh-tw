@@ -13,10 +13,11 @@ caps.latest.revision: 8
 author: mikejo5000
 ms.author: mikejo
 manager: ghogen
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 2cfcc962e41d67995f1e1e04b787a49edfbbfbf6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 8d0cc37019b04d6f734d6bd604c0ddd948b6dc9f
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="running-profiling-tools-with-or-without-the-debugger"></a>使用或不使用偵錯工具來執行程式碼剖析工具
@@ -37,7 +38,7 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
 3.  您是否需要精確的量測效能或可接受約略數字？  
   
-     偵錯組建缺少「版本」組建提供的某些最佳化功能，例如內嵌函數呼叫和常數、清除未用的程式碼路徑，以及無法採用偵錯工具所用的方式儲存變數。 偵錯工具本身由於需要執行特定作業進行偵錯 (例如攔截例外和模組載入事件)，因此效能時有差異。 基於以上原因，偵錯工具整合工具的效能數字表現精確度範圍僅為數十毫秒。 具非偵錯工具的「版本」設定其效能數字會更加精確。  
+     偵錯組建缺少「版本」組建提供的某些最佳化功能，例如內嵌函式呼叫和常數、清除未用的程式碼路徑，以及無法採用偵錯工具所用的方式來儲存變數。 偵錯工具本身由於需要執行特定作業進行偵錯 (例如攔截例外和模組載入事件)，因此效能時有差異。 基於以上原因，偵錯工具整合工具的效能數字表現精確度範圍僅為數十毫秒。 具非偵錯工具的「版本」設定其效能數字會更加精確。  
   
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a>偵錯時收集程式碼剖析資料  
  下列章節說明本機偵錯。 您可以在稍後的各節裡，了解在裝置上偵錯或遠端偵錯。  
@@ -75,7 +76,7 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
 1.  在 Visual Studio 中開啟專案。  
   
-2.  在 [偵錯] 功能表上選擇 [效能分析工具...](快速鍵：Alt + F2).  
+2.  在 [偵錯] 功能表上選擇 [效能分析工具...]\(快速鍵：Alt + F2).  
   
 3.  在診斷啟動頁面上，選擇要在工作階段中執行的一項或多項工具。 只有適用於該專案類型、作業系統與程式設計語言的工具才會顯示。 當您選擇一項診斷工具時，將會停用無法在相同診斷工作階段中執行的工具選項。 以下是 C# Windows 通用應用程式中可能會有的選項：  
   

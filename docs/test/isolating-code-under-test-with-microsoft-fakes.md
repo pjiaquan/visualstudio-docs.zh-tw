@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: acc2f3de7000e438829486b23b9652cb8d34db26
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 3941968fa0e2e6205c94076f555c8366f009d4c0
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="isolating-code-under-test-with-microsoft-fakes"></a>使用 Microsoft Fakes 在測試期間隔離程式碼
@@ -92,7 +93,7 @@ Microsoft Fakes 會以「虛設常式」或「填充碼」取代應用程式的�
   
 2.  **新增 Fakes 組件**  
   
-    1.  在 [方案總管] 中展開測試專案的參考清單。 如果在 Visual Basic 中工作，您必須選擇 [顯示所有檔案] 才能看到參考清單。  
+    1.  在方案總管中，展開測試專案的參考清單。 如果在 Visual Basic 中工作，您必須選擇 [顯示所有檔案] 才能看到參考清單。  
   
     2.  選取定義介面 (例如 IStockFeed) 之組件的參考。 在此參考的捷徑功能表上，選擇 [新增 Fakes 組件]。  
   
@@ -180,7 +181,7 @@ Microsoft Fakes 會以「虛設常式」或「填充碼」取代應用程式的�
   
 1.  **新增 Fakes 組件**  
   
-     在 [方案總管] 中開啟單元測試專案的參考，並且選取包含要假造之方法的組件參考。 在本範例中，`DateTime` 類別是在 **System.dll** 中。  若要查看 Visual Basic 專案中的參考，請選擇 [顯示所有檔案]。  
+     在方案總管中開啟單元測試專案的參考，並且選取包含要假造之方法的組件參考。 在本範例中，`DateTime` 類別是在 **System.dll** 中。  若要查看 Visual Basic 專案中的參考，請選擇 [顯示所有檔案]。  
   
      選擇 [新增 Fakes 組件]。  
   
@@ -245,7 +246,7 @@ Microsoft Fakes 會以「虛設常式」或「填充碼」取代應用程式的�
     End Class  
     ```  
   
-     填充碼類別名稱是在原始類型名稱前面加上 `Fakes.Shim` 而構成。 方法名稱後面要加上參數名稱。 (您不必將任何組件參考加入 System.Fakes。)  
+     填充碼類別名稱是在原始類型名稱前面加上 `Fakes.Shim` 而構成。 方法名稱後面要加上參數名稱。 (您不必將任何組件參考加入 System.Fakes)。  
   
  上述範例使用靜態方法的填充碼。 若要使用填充碼做為執行個體方法，請在類型名稱和方法名稱之間撰寫 `AllInstances`：  
   
@@ -253,7 +254,7 @@ Microsoft Fakes 會以「虛設常式」或「填充碼」取代應用程式的�
 System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...  
 ```  
   
- (沒有任何 'System.IO.Fakes' 組件可參考。 此命名空間是填充碼建立處理序所產生的。 但您可以按照一般方式使用 ‘using’ 或 ‘Import’。)  
+ (沒有任何 'System.IO.Fakes' 組件可參考。 此命名空間是填充碼建立處理序所產生的。 但您可以按照一般方式使用 'using' 或 'Import')。  
   
  您也可以為特定執行個體、建構函式和屬性建立填充碼。 如需詳細資訊，請參閱[使用填充碼將應用程式與其他組件隔離，方便進行單元測試](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)。  
   

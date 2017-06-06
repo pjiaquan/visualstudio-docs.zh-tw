@@ -27,10 +27,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: b01ab828f06a13f3f8e4c7b9c72e2f05da409840
-ms.openlocfilehash: 00c6e3dc4d7d1ed56d8cb196aad466cdeb7feb50
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: d353d8a0a41ad487191b79aa68f26585cf9902b4
 ms.contentlocale: zh-tw
-ms.lasthandoff: 04/14/2017
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="setup-and-install"></a>設定和安裝
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/14/2017
   
 1.  建議︰執行 Windows 8 或更新版本的實體 Windows 電腦 (不是 VM)，以取得最佳的 Android 模擬器效能。 (我們是否曾提到您需要實體電腦，而不是 VM？)  
   
-2.  您可以使用 Windows 7 或舊版電腦，在此情況下，您將使用 Android 版的 Xamarin Player 做為模擬器。 
+2.  您可以使用 Windows 7 或舊版電腦，在此情況下，您將使用 Android 版的 Xamarin Player 作為模擬器。 
     
 3. 不論是何種組態，您一律都能在連接的實體裝置上直接執行應用程式。  
   
@@ -72,15 +72,15 @@ ms.lasthandoff: 04/14/2017
   
     1.  如已安裝 Visual Studio 2017，請從 [開始] 功能表執行 **Visual Studio 安裝程式**。
   
-2.  在安裝程式中，按一下 [啟動]  _旁的_ [其他選項] (三橫條圖示) 按鈕，然後選擇 [修改]。  
+2.  在安裝程式中，按一下 [啟動]  _旁的_ [其他選項]\(三橫條圖示) 按鈕，然後選擇 [修改]。  
   
      ![在 Visual Studio 安裝中選擇 [修改] 選項](../cross-platform/media/cross-plat-xamarin-setup-1a.png "跨平台 Xamarin 設定 1")  
   
 3.  核取下列方塊：  
   
-    1.  [行動裝置與遊戲] > [使用 .NET 的行動應用程式開發]。 這樣做也會自動選取 [常用工具及軟體開發套件] 下的各種 Android 工具。 此選項應該也會更新任何現有的 Xamarin 安裝。  
+    1.  [行動裝置與遊戲] > [使用 .NET 進行行動開發]。 這樣做也會自動選取 [常用工具及軟體開發套件] 下的各種 Android 工具。 此選項應該也會更新任何現有的 Xamarin 安裝。  
   
-         ![在 [Gaming and Mobile Development] (遊戲與行動裝置開發) 下選取 [行動裝置開發] 選項](../cross-platform/media/cross-plat-xamarin-setup-2a.png "跨平台 Xamarin 設定 2")  
+         ![選取 [遊戲與行動開發] 下的 [行動開發] 選項](../cross-platform/media/cross-plat-xamarin-setup-2a.png "跨平台 Xamarin 設定 2")  
   
     2. (選擇性) [Windows] > [通用 Windows 平台開發]。 這包括安裝模擬器映像的選項，需要較長的時間下載；您可以稍後隨時返回 Visual Studio 安裝程式以新增這些選項。 
   
@@ -100,6 +100,6 @@ ms.lasthandoff: 04/14/2017
   
 3.  遵循 [安裝和設定 Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com) 上的指示，下載並安裝 Xamarin。  
   
-4.  當您在 Windows 和 Mac 電腦上完成安裝 Xamarin 之後，請依照[連線到 Mac (英文)](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) 上的指示執行，如此就能在 Windows 電腦上透過 Visual Studio 使用 iOS 和 Mac。  
+4.  當您在 Windows 和 Mac 電腦上完成安裝 Xamarin 之後，請遵循[連線到 Mac](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/) (xamarin.com) 上的指示執行，如此就能在 Windows 電腦上透過 Visual Studio 使用 iOS 和 Mac。  
   
      請注意，這兩部電腦必須位於相同的區域網路中。
