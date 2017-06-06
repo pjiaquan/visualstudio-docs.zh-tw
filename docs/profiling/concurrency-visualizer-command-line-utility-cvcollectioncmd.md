@@ -1,21 +1,41 @@
 ---
 title: "並行視覺化檢視命令列公用程式 (CVCollectionCmd) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.cv.performance.cvcollectioncmd"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.cv.performance.cvcollectioncmd
 ms.assetid: 476601be-1608-4014-af15-5aba6ccbed1c
 caps.latest.revision: 21
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 21
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: da79533a7a40b6e1b79c66f023beba2c1162bd08
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="concurrency-visualizer-command-line-utility-cvcollectioncmd"></a>並行視覺化檢視命令列公用程式 (CVCollectionCmd)
 您可以使用並行視覺化檢視命令列公用程式 (CVCollectionCmd.exe) 從命令列收集追蹤，以便在 Visual Studio 的並行視覺化檢視中進行檢視。 此工具可在未安裝 Visual Studio 的電腦上使用。  
@@ -40,7 +60,7 @@ caps.handback.revision: 21
   
 |選項|描述|參數|傳回值|  
 |------------|-----------------|----------------|-------------------|  
-|查詢|傳回是否可以開始收集。|無|0，表示準備開始收集。<br /><br /> 1，表示收集已在進行中。<br /><br /> 2，表示收集不在進行中，但已啟用一個或多個所需的 [ETW](http://msdn.microsoft.com/Library/ac99a063-e2d2-40cc-b659-d23c2f783f92) 工作階段。|  
+|查詢|傳回是否可以開始收集。|無|0，表示準備開始收集。<br /><br /> 1，表示收集已在進行中。<br /><br /> 2，表示收集不在進行中，但已啟用一或多個所需的 [ETW](http://msdn.microsoft.com/Library/ac99a063-e2d2-40cc-b659-d23c2f783f92) 工作階段。|  
 |啟動|在並行視覺化檢視下執行指定的處理序。|可執行檔的路徑。|0，表示執行成功。<br /><br /> 1，表示執行失敗，因為無法啟動目標應用程式。<br /><br /> 13，表示執行失敗，因為 CVCollectionCmd 沒有足夠的權限可寫入指定的輸出目錄。|  
 |附加|開始收集系統範圍追蹤；如果指定處理序，則附加至該處理序。|無。|0，表示附加成功。<br /><br /> 1，表示附加失敗，因為指定的處理序無效或模稜兩可。<br /><br /> 13，表示附加失敗，因為 CVCollectionCmd 沒有足夠的權限可寫入指定的輸出目錄。|  
 |中斷連結|停止收集。|無。|0，表示中斷連結成功。<br /><br /> 1，表示中斷連結失敗，因為目前正在收集。<br /><br /> 2，表示中斷連結失敗，因為無法停止收集。|  
@@ -54,7 +74,7 @@ caps.handback.revision: 21
  如果您使用 CVCollectionCmd 收集追蹤並想自訂收集設定，請使用組態檔指定這些設定。  
   
 > [!NOTE]
->  當您使用 Visual Studio 收集追蹤時，不要直接修改組態檔。  請改用 [[進階設定](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md)] 對話方塊來修改設定。  
+>  當您使用 Visual Studio 收集追蹤時，不要直接修改組態檔。  請改用 [[進階設定]](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) 對話方塊來修改設定。  
   
  若要修改收集設定，請在您要執行 CVCollectionCmd 公用程式的電腦上建立組態檔。 您可以從頭開始建立組態檔，也可以從已安裝 Visual Studio 的電腦上複製組態檔，再進行修改。 檔案名稱為 `UserConfig.xml` ，並位在 [Local AppData]  資料夾中。 當您執行公用程式時，請搭配 Launch、Attach 或 Analyze 命令使用 Config 選項。  在與 Config 選項相關聯的參數中，指定組態檔的路徑。  
   
@@ -150,8 +170,3 @@ caps.handback.revision: 21
 </LocalConfig>  
   
 ```
-
-
-<!--HONumber=Feb17_HO4-->
-
-

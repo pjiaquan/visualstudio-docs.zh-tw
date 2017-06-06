@@ -1,19 +1,39 @@
 ---
-title: "Designing XAML in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "在 Visual Studio 中設計 XAML | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 4
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: e832941dd00fa81bea1566f17504fe7e27c41a48
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="designing-xaml-in-visual-studio"></a>在 Visual Studio 中設計 XAML
 Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 XAML 型 Windows 桌面、Web、 [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx)和 [Windows 市集](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) 應用程式建立更吸引人的使用者介面和豐富的媒體體驗。 兩者共用一組常用的設計和工具視窗以及 XAML 編輯器，但是 Blend for Visual Studio 提供更進階工作的其他設計工具，例如動畫和行為。  
@@ -32,7 +52,7 @@ Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 X
   
 -   **XAML IntelliSense：** 兩者的 IDE 都支援您預期之所有來自 IntelliSense 的通用功能，包括陳述式完成、支援一般編輯器作業，像是註解和格式化程式碼，以及巡覽至資源、繫結和程式碼。  
   
--   **基本偵錯功能：** 您現在可以在 Blend 中偵錯，包括在程式碼中設定中斷點來執行中的偵錯應用程式。 若要與 Visual Studio 維持一致的偵錯經驗，Blend for Visual Studio 包含大部分的 Visual Studio 偵錯視窗和工具列。 進階偵錯功能，例如診斷和程式碼分析，只能在 Visual Studio 中使用。 請參閱 [Visual Studio 偵錯](../debugger/debugging-in-visual-studio.md)。  
+-   **基本偵錯功能：** 您現在可以在 Blend 中偵錯，包括在程式碼中設定中斷點來執行中的偵錯應用程式。 為了維持與 Visual Studio 一致的偵錯體驗，Blend for Visual Studio 包含大部分的 Visual Studio 偵錯視窗和工具列。 進階偵錯功能，例如診斷和程式碼分析，只能在 Visual Studio 中使用。 請參閱 [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)。  
   
 -   **檔案重新載入經驗：** 您可以在 Blend for Visual Studio 或 Visual Studio 中編輯 XAML 檔案，當您在已編輯的檔案之間切換時，會讓它們自動重新載入。 若要降低工作流程中斷，您現在可以在 [檔案重新載入] 對話方塊中設定您的檔案重新載入喜好。  
   
@@ -42,7 +62,7 @@ Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 X
   
 -   **常見的 [方案總管]：** [方案總管] 會提供您的專案和其檔案的組織化檢視，而且也已準備好存取與其相關聯的命令。 使用 [方案總管]，使用大型企業專案更加輕鬆。 請參閱[解決方案和專案](../ide/solutions-and-projects-in-visual-studio.md)。  
   
--   **Team Explorer：** 您可以使用 [Team Explorer] 管理您具有 GIT 或 TFS 儲存機制的專案，有助於團隊共同作業。 請參閱[在 Team Explorer 中工作 (Work in Team Explorer)](http://msdn.microsoft.com/Library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02)。  
+-   **Team Explorer：** 您可以使用 [Team Explorer] 管理您具有 GIT 或 TFS 儲存機制的專案，有助於團隊共同作業。 請參閱 [在 Team Explorer 中工作](http://msdn.microsoft.com/Library/fd7a5cf7-7916-4fa0-b5e6-5a83cf377a02)。  
   
 -   **NuGet：** 可以管理在 Visual Studio 和 Blend for Visual Studio 中的 NuGet 封裝。 NuGet 是 .NET Framework 的封裝管理員，簡化了從方案安裝與移除封裝。  
   
@@ -59,8 +79,3 @@ Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 X
 |**將 UI 連接到資料**|您可以從資源 (例如 SQL Server 資料庫、WCF 或 Web 服務、物件或 SharePoint 清單) 建立資料來源，然後將資料來源繫結至 UI 控制項。<br /><br /> 設計階段資料必須以手動方式建立才能獲得互動式的設計體驗。|輕鬆建立範例資料以用於原型設計和測試。 準備好時切換到即時資料。<br /><br /> Blend for Visual Studio 的資料產生功能相當傑出 (您可以輕鬆地即時加入名稱、數字、URL、相片)，為您節省許多時間。<br /><br /> 對於即時資料，您可以將 UI 控制項繫結至 XML 檔案，或任何 CLR 資料來源。|[顯示資料](../designers/display-data-in-blend.md)|  
   
  如需進階的 XAML 設計工具詳細資訊，請參閱 [使用 Blend for Visual Studio 建立 UI](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

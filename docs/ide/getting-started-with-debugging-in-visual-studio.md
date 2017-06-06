@@ -27,9 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 9226dacfa63287857c09e5c6945363ccafadc2c7
+ms.contentlocale: zh-tw
+ms.lasthandoff: 02/22/2017
 
 ---
 # <a name="getting-started-with-debugging-in-visual-studio"></a>Visual Studio 中的使用者偵錯入門
@@ -126,7 +128,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
 
  ![Visual Studio 燈泡預覽](../ide/media/vs_ide_gs_debug_light_bulb_preview_changes.PNG "Vs_ide_gs_debug_light_bulb_preview_changes")  
 
- 只要程式碼分析器判斷有修正、重構或改善程式碼的機會，即可使用燈泡。 按一下任何一行程式碼，再按一下滑鼠右鍵開啟操作功能表，然後選取 [快速選項] (或者同樣地，如果您偏重效率，請按 Ctrl+.)。 如果有可用的區域重構或改善選項，就會顯示它們；否則，`No quick options available here` 訊息會顯示在 IDE 的左下角邊框。  
+ 只要程式碼分析器判斷有修正、重構或改善程式碼的機會，即可使用燈泡。 按一下任何一行程式碼，再按一下滑鼠右鍵開啟操作功能表，然後選取 [快速選項]\ (或者同樣地，如果您偏重效率，請按 Ctrl+.)。 如果有可用的區域重構或改善選項，就會顯示它們；否則，`No quick options available here` 訊息會顯示在 IDE 的左下角邊框。  
 
  ![Visual Studio 燈泡「無選項」文字](../ide/media/vs_ide_gs_debug_light_bulb_no_options.PNG "Vs_ide_gs_debug_light_bulb_no_options")  
 
@@ -208,9 +210,4 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
  [偵錯設定和準備](../debugger/debugger-settings-and-preparation.md)   
  [偵錯 64 位元應用程式](../debugger/debug-64-bit-applications.md)   
  [偵錯工具基礎](../debugger/debugger-basics.md)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

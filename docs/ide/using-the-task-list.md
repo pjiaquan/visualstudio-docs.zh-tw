@@ -35,9 +35,10 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 01e8f3cc1bbcc2bc4b2fc94df1dad7d248b67290
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -58,12 +59,12 @@ ms.lasthandoff: 02/22/2017
   
 -   [捷徑](../ide/using-the-task-list.md#shortcuts)  
   
-##  <a name="a-nametasklistwindowa-the-task-list-window"></a><a name="taskListWindow"></a> 工作清單視窗  
+##  <a name="taskListWindow"></a> 工作清單視窗  
  當 [工作清單]  開啟時，會出現在應用程式視窗的底部。  
   
 #### <a name="to-open-the-task-list"></a>開啟工作清單  
   
--   在 [檢視] 功能表上，選擇 [工作清單] (鍵盤：Ctrl+\\、T)。  
+-   在 [檢視] 功能表上，選擇 [工作清單]\(鍵盤：Ctrl+\\、T)。  
   
      ![[工作清單] 視窗](../ide/media/vs2015_task_list.png "vs2015_task_list")  
   
@@ -81,12 +82,12 @@ ms.lasthandoff: 02/22/2017
   
 -   將任一個資料行標頭拖曳到想要的位置。  
   
-##  <a name="a-nameusertasksa-user-tasks"></a><a name="userTasks"></a> 使用者工作  
+##  <a name="userTasks"></a> 使用者工作  
  已移除 Visual Studio 2015 的使用者工作功能。 當您開啟的方案有 Visual Studio 2013 和較早的 Visual Studio 2015 版本之使用者工作資料，.suo 檔案中的使用者工作資料不會受影響，但使用者工作不會在工作清單中顯示。  
   
  如果您想要繼續存取及更新您的使用者工作資料，您應該在 Visual Studio 2013 中開啟專案，並將任何使用者工作的內容複製到您的慣用的專案管理工具 (例如 Team Foundation Server)。  
   
-##  <a name="a-nametokenscommentsa-tokens-and-comments"></a><a name="tokensComments"></a> 語彙基元和註解  
+##  <a name="tokensComments"></a> 語彙基元和註解  
  程式碼中的註解前方會有一個註解標記，而預先定義的語彙基元也會出現在 [ **工作清單** ] 視窗中。 例如，下列 C# 註解有三個不同的部分：  
   
 -   註解資料標記 (`//`)  
@@ -101,7 +102,7 @@ ms.lasthandoff: 02/22/2017
   
  因為 `TODO` 是預先定義的語彙基元，此註解會顯示為清單中的 `TODO` 工作。  
   
-###  <a name="a-namecustomtokensa-custom-tokens"></a><a name="customTokens"></a> 自訂語彙基元  
+###  <a name="customTokens"></a> 自訂語彙基元  
  根據預設，Visual Studio 包含下列語彙基元：HACK、TODO、UNDONE、NOTE。 這些語彙基元不區分大小寫。  
   
  您也可以建立自己的自訂語彙基元。  
@@ -120,7 +121,7 @@ ms.lasthandoff: 02/22/2017
   
 4.  在 [ **優先權** ] 下拉式清單中，選擇新語彙基元的預設優先權。 選擇 [ **加入** ] 按鈕。  
   
-###  <a name="a-namecppcommentsa-c-todo-comments"></a><a name="cppComments"></a> C++ TODO 註解  
+###  <a name="cppComments"></a> C++ TODO 註解  
  根據預設，[工作清單]  視窗中會顯示 C++ TODO 註解。 您可以變更此行為。  
   
 ##### <a name="to-turn-off-c-todo-comments"></a>若要關閉 C++ TODO 註解  
@@ -131,7 +132,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  在 [C/C++] 下方，選擇 [檢視] ，然後將 [列舉註解工作]  設定為 **False**。  
   
-##  <a name="a-nameshortcutsa-shortcuts"></a><a name="shortcuts"></a> 捷徑  
+##  <a name="shortcuts"></a> 捷徑  
  *捷徑* 是在 [工作清單] 內所追蹤程式碼中的書籤；它的圖示與一般書籤不同。 按兩下 [ **工作清單** ] 中的捷徑可移至程式碼中對應的位置。  
   
  ![Visual Studio 工作清單捷徑圖示](../ide/media/vs2015_task_list_bookmark.png "vs2015_task_list_bookmark")  

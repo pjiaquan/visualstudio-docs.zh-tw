@@ -29,14 +29,14 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 137f6faa156d188afb99cafb2b1e9dbababdeb4f
-ms.openlocfilehash: a7de37fd82f94fdcef6f839884ea30c5c77061e5
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b2308ef41ea8068c153d286f58dcf8ac4c581ddd
 ms.contentlocale: zh-tw
-ms.lasthandoff: 04/28/2017
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-memory-usage"></a>分析記憶體使用量
-當您進行偵錯時，您可以使用與偵錯工具整合的 **記憶體使用量** 診斷工具，來找出記憶體遺漏和記憶體使用沒有效率等問題。 記憶體使用量工具可讓您擷取 Managed 和原生記憶體堆積的一個或多個 *「快照」* (Snapshot)。 您可以收集 .NET、原生或混合模式 (.NET 和原生) 應用程式的快照。  
+當您進行偵錯時，您可以使用與偵錯工具整合的 [記憶體使用量] 診斷工具，來找出記憶體遺漏和記憶體使用沒有效率等問題。 記憶體使用量工具可讓您擷取 Managed 和原生記憶體堆積的一個或多個 *「快照」* (Snapshot)。 您可以收集 .NET、原生或混合模式 (.NET 和原生) 應用程式的快照。  
   
 -   您可以分析一份快照，了解物件類型對於記憶體使用的相對影響，並找出應用程式中無效率使用記憶體的程式碼。  
   
@@ -72,7 +72,7 @@ ms.lasthandoff: 04/28/2017
 
      ![顯示診斷工具](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
-5.  按一下 [偵錯/開始偵錯] (或工具列上的 [開始] 或 **F5**)。
+5.  按一下 [偵錯/開始偵錯]\(或工具列上的 [開始] 或 **F5**)。
 
      當應用程式完成載入時，會出現 [Diagnostics Tools (診斷工具)] 的 [Summary (摘要)] 檢視。
 

@@ -28,10 +28,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 9885f3cff76b9c5e1d053550be80c4b68cf9de1b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 2c4cb515c4442b3c48c42f47f9116e9ff536a5f4
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="creating-a-data-driven-coded-ui-test"></a>建立資料驅動自動程式化 UI 測試
@@ -78,7 +79,7 @@ ms.lasthandoff: 02/22/2017
   
      [測試總管] 視窗中會顯示測試結果，而測試結果顯示測試成功還是失敗。 若要開啟 [測試總管] 視窗，請從 [測試] 功能表中選擇 [視窗]，然後選擇 [測試總管]。  
   
-6.  因為資料來源也可以用於判斷提示參數值 (測試用來確認預期的值)；讓我們加入判斷提示來驗證兩個數字的總和是否正確。 將游標放在上面顯示的測試方法中，開啟操作功能表，然後依序選擇 [產生自動程式化 UI 測試的程式碼] 和 [使用自動程式化 UI 測試產生器]。  
+6.  因為資料來源也可以用於判斷提示參數值 (測試用來確認預期的值)；讓我們新增判斷提示來驗證兩個數字的總和是否正確。 將游標放在上面顯示的測試方法中，開啟操作功能表，然後依序選擇 [產生自動程式化 UI 測試的程式碼] 和 [使用自動程式化 UI 測試產生器]。  
   
      對應計算機中顯示總和的文字控制項。  
   
@@ -127,7 +128,7 @@ ms.lasthandoff: 02/22/2017
   
      ![將資料填入 .CSV 檔案](../test/media/cuit_datadriven_adddatatocsvfile.png "CUIT_dataDriven_AddDataToCSVFile")  
   
-3.  務必使用正確的編碼來儲存 .csv 檔案。 在 [檔案] 功能表上，選擇 [進階儲存選項]，然後選擇 [Unicode (UTF-8 無簽章) - 字碼頁 65001] 做為編碼。  
+3.  務必使用正確的編碼來儲存 .csv 檔案。 在 [檔案] 功能表上，選擇 [進階儲存選項]，然後選擇 [Unicode (UTF-8 無簽章) - 字碼頁 65001] 作為編碼。  
   
 4.  .csv 檔案必須複製至輸出目錄，否則無法執行測試。 使用 [屬性] 視窗來複製它。  
   
@@ -135,7 +136,7 @@ ms.lasthandoff: 02/22/2017
   
      現在，我們已經建立了資料集，讓我們將資料繫結至測試。  
   
-#### <a name="step-3--add-data-source-binding"></a>步驟 3 - 加入資料來源繫結  
+#### <a name="step-3---add-data-source-binding"></a>步驟 3 - 新增資料來源繫結  
   
 1.  若要繫結資料來源，請在測試方法正上方的現有 `DataSource` 屬性內加入 `[TestMethod]` 屬性。  
   
@@ -163,7 +164,7 @@ ms.lasthandoff: 02/22/2017
   
      接下來，我們會將測試設定成使用資料來源檔案中的值。  
   
-#### <a name="step-4--use-the-data-in-the-coded-ui-test"></a>步驟 4 - 使用自動程式碼 UI 測試中的資料  
+#### <a name="step-4---use-the-data-in-the-coded-ui-test"></a>步驟 4 - 使用自動程式化 UI 測試中的資料  
   
 1.  將 `using Microsoft.VisualStudio.TestTools.UITesting.WinControls` 加入至 CodedUITest.cs 檔案的頂端：  
   
@@ -212,7 +213,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  儲存組態。  
   
-#### <a name="step-5--run-the-data-driven-test"></a>步驟 5 - 執行資料驅動測試  
+#### <a name="step-5---run-the-data-driven-test"></a>步驟 5 - 執行資料驅動測試  
   
 1.  重新執行測試，確認測試現在是資料驅動。  
   
@@ -220,7 +221,7 @@ ms.lasthandoff: 02/22/2017
   
  **指引**  
   
- 如需詳細資訊，請參閱[使用 Visual Studio 2012 測試持續傳遞 – 第 2 章：單元測試：內部測試 (英文)](http://go.microsoft.com/fwlink/?LinkID=255188) 和[使用 Visual Studio 2012 測試持續傳遞 – 第 5 章：自動化系統測試 (英文)](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ 如需詳細資訊，請參閱 [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188) (使用 Visual Studio 2012 測試持續傳遞 – 第 2 章：單元測試：內部測試) 和 [Testing for Continuous Delivery with Visual Studio 2012 - Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196) (使用 Visual Studio 2012 測試持續傳遞 – 第 5 章：自動化系統測試)  
   
 ## <a name="q--a"></a>問與答  
   

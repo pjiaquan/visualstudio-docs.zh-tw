@@ -30,10 +30,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 0b25d326d103c5da3b09b79d3a574734debed071
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 89694c49fdd115064d1ebe9f5dfe910b77548a76
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="advanced-settings-dialog-box-concurrency-visualizer"></a>進階設定對話方塊 (並行視覺化檢視)
@@ -79,7 +80,7 @@ ms.lasthandoff: 02/22/2017
   
  在 [名稱] 欄位中，輸入描述提供者所產生之事件類型的名稱。  在 [GUID] 欄位中，輸入與此提供者相關聯的 GUID (GUID 會與每個 ETW 提供者產生關聯)。  
   
- (選擇性) 您可以指定是否要根據類別或重要性層級，篩選出來自此提供者的事件。  您可以使用類別欄位，根據並行視覺化檢視 SDK 類別進行篩選。  若要這樣做，請輸入以逗號分隔的類別字串或類別範圍。  這會指定要在目前提供者中顯示的事件類別。  如果您加入 <xref:System.Diagnostics.Tracing.EventSource> 提供者，就能使用 [類別] 欄位，依 ETW 關鍵字來篩選。  由於關鍵字是位元遮罩，因此，您能使用以逗號分隔的整數字串來指定要在遮罩中設定哪些位元。 例如，"1,2" 會設定第一個和第二個位元，而這會轉譯為十進位的 6。  
+ (選擇性) 您可以指定是否要根據類別或重要性層級，篩選出來自此提供者的事件。  您可以使用類別欄位，根據並行視覺化檢視 SDK 類別進行篩選。  若要這樣做，請輸入以逗號分隔的類別字串或類別範圍。  這會指定要在目前提供者中顯示的事件類別。  如果您新增 <xref:System.Diagnostics.Tracing.EventSource> 提供者，就能使用 [類別] 欄位，依 ETW 關鍵字來篩選。  由於關鍵字是位元遮罩，因此，您能使用以逗號分隔的整數字串來指定要在遮罩中設定哪些位元。 例如，"1,2" 會設定第一個和第二個位元，而這會轉譯為十進位的 6。  
   
  您可以使用重要性層級清單來篩選出重要性或 ETW 層級小於指定值的事件。  
   

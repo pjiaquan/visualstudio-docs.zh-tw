@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
-ms.openlocfilehash: 2af148cb8367ea3a584ac8e028c8167e4ad6123b
-ms.lasthandoff: 04/06/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 7aa8de1116409f30cf1a0cd2fd689c03c2242724
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="change-log-visual-studio-tools-for-unity"></a>變更記錄 (Visual Studio Tools for Unity)
@@ -760,7 +761,7 @@ Visual Studio Tools for Unity 變更記錄。
   
 -   已修正 Bug UVS-11：協同程式中的區域變數。  
   
-## <a name="11--beta-release"></a>1.1 - Beta 版  
+## <a name="11---beta-release"></a>1.1 - Beta 版  
  發行日期：2014 年 10 月 9 日  
   
 ## <a name="1013"></a>1.0.13  
@@ -963,6 +964,6 @@ Visual Studio Tools for Unity 變更記錄。
   
 -   修正 UnityScript 和 Boo 的 [Asset] 資料夾內的 DLL 完成。  
   
-## <a name="10--initial-release"></a>1.0 - 初始版本  
+## <a name="10---initial-release"></a>1.0 - 初始版本  
  發行日期：2012 年 8 月 22 日
 

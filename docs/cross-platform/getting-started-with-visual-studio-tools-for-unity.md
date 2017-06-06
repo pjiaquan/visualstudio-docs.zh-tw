@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 762fe231d277d4d9731581f2f51b21fb747358aa
-ms.openlocfilehash: 9830dbce40647453a5b7223de1873029405be9b1
-ms.lasthandoff: 04/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: a923d3fa962ee826d86a1c6946ae87a469b728d6
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="getting-started-with-visual-studio-tools-for-unity"></a>Visual Studio Tools for Unity 使用者入門
@@ -87,7 +88,7 @@ ms.lasthandoff: 04/07/2017
 
  如果您是 Unity 新手，請從基本教學課程的小型專案開始。 請瀏覽 Unity Learn 頁面，尋找您可以開始使用的範例專案，以及您可以學習如何使用 Unity 建置自己的遊戲課程。 Unity Learn 頁面提供幾個容易遵循之不同遊戲的教學課程。  
 
- [教學課程 – Unity Learn 頁面 (英文)](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials - Unity Learn page](http://unity3d.com/learn/tutorials/modules) (教學課程 – Unity Learn 頁面)  
 
 #### <a name="2---configure-unity-editor-to-use-visual-studio-tools-for-unity"></a>2 - 設定 Unity Editor 使用 Visual Studio Tools for Unity  
  若要讓您的專案能使用 Visual Studio Tools for Unity，只要將 Visual Studio 設定做為其外部指令碼編輯器。 在 Unity 編輯器中，在主功能表上選擇 **[編輯]、[喜好設定]**；然後在 [Unity 喜好設定]  對話方塊中，選擇 [外部工具] 。 接下來，將 [外部指令碼編輯器]  屬性設為您想要使用的 Visual Studio 版本 (必須安裝這版 Visual Studio 的 Visual Studio Tools for Unity)，並確定已設定 [編輯器附加]  屬性。  
@@ -109,7 +110,7 @@ ms.lasthandoff: 04/07/2017
 
  如果您是 Unity 新手，請從基本教學課程的小型專案開始。 請瀏覽 Unity Learn 頁面，尋找您可以開始使用的範例專案，以及您可以學習如何使用 Unity 建置自己的遊戲課程。 Unity Learn 頁面提供幾個容易遵循之不同遊戲的教學課程。  
 
- [教學課程 – Unity Learn 頁面 (英文)](http://unity3d.com/learn/tutorials/modules)  
+ [Tutorials - Unity Learn page](http://unity3d.com/learn/tutorials/modules) (教學課程 – Unity Learn 頁面)  
 
 #### <a name="2---configure-unity-editor-to-use-visual-studio-tools-for-unity"></a>2 - 設定 Unity Editor 使用 Visual Studio Tools for Unity  
  如果您從現有的專案開始，或在建立專案時未匯入 Visual Studio Tools unitypackage，則需要立即匯入 unitypackage。 在 Unity 編輯器主功能表上，選擇 [資產]、[匯入封裝]、[Visual Studio 2015 Tools]  (您應該會看到已安裝之 Visual Studio 版本的選項)。  

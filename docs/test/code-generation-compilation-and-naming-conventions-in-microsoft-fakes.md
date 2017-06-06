@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 2aff9b2c34bf8897adc7edee3a1205317258fc0f
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 5acc74abd56b128bf9df708ab7c0f3451c6eb270
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="code-generation-compilation-and-naming-conventions-in-microsoft-fakes"></a>Microsoft Fakes 中的程式碼產生、編譯和命名慣例
@@ -40,15 +41,32 @@ ms.lasthandoff: 02/22/2017
 -   Visual Studio 企業版  
   
 ##  <a name="BKMK_In_this_topic"></a>本主題內容  
- [程式碼產生和編譯](#BKMK_Code_generation_and_compilation)  
   
--   [設定 Stub 的程式碼產生](#BKMK_Configuring_code_generation_of_stubs) • [類型篩選](#BKMK_Type_filtering) • [設定具象類別及虛擬方法的 Stub](#BKMK_Stubbing_concrete_classes_and_virtual_methods) • [內部類型](#BKMK_Internal_types) • [最佳化建置時間](#BKMK_Optimizing_build_times) • [避免組件名稱發生衝突](#BKMK_Avoiding_assembly_name_clashing)  
+-   [程式碼產生和編譯](#BKMK_Code_generation_and_compilation)  
   
- [Fakes 命名慣例](#BKMK_Fakes_naming_conventions)  
+-   [設定 Stub 的程式碼產生](#BKMK_Configuring_code_generation_of_stubs)
   
--   [填充碼類型和 Stub 類型命名慣例](#BKMK_Shim_type_and_stub_type_naming_conventions) • [填充碼委派屬性或 Stub 委派欄位命名慣例](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions) • [參數類型命名慣例](#BKMK_Parameter_type_naming_conventions) • [遞迴規則](#BKMK_Recursive_rules)  
+-   [類型篩選](#BKMK_Type_filtering)
   
- [外部資源](#BKMK_External_resources)  
+-   [設定具象類別及虛擬方法的 Stub](#BKMK_Stubbing_concrete_classes_and_virtual_methods)
+  
+-   [內部類型](#BKMK_Internal_types)
+  
+-   [最佳化建置時間](#BKMK_Optimizing_build_times)
+  
+-   [避免組件名稱發生衝突](#BKMK_Avoiding_assembly_name_clashing)  
+  
+-   [Fakes 命名慣例](#BKMK_Fakes_naming_conventions)  
+  
+-   [填充碼類型和 Stub 類型命名慣例](#BKMK_Shim_type_and_stub_type_naming_conventions)
+  
+-   [填充碼委派屬性或 Stub 委派欄位命名慣例](#BKMK_Shim_delegate_property_or_stub_delegate_field_naming_conventions)
+  
+-   [參數類型命名慣例](#BKMK_Parameter_type_naming_conventions)
+  
+-   [遞迴規則](#BKMK_Recursive_rules)  
+  
+-   [外部資源](#BKMK_External_resources)  
   
 -   [指引](#BKMK_Guidance)  
   
@@ -125,7 +143,7 @@ ms.lasthandoff: 02/22/2017
 ```  
   
 ###  <a name="BKMK_Internal_types"></a> 內部類型  
- Fakes 程式碼產生器會針對所產生之 Fakes 組件的可見類型產生填充碼和虛設常式類型。 若要讓 Fakes 和測試組件看見填充組件的內部類型，請將 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> 屬性加入至填充組件程式碼，讓產生的 Fakes 組件和測試組件能夠看見。 以下為範例：  
+ Fakes 程式碼產生器會針對所產生之 Fakes 組件的可見類型產生填充碼和虛設常式類型。 若要讓 Fakes 和測試組件看見填充組件的內部類型，請將 <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> 屬性加入填充組件的程式碼，以提供可視性給所產生的 Fakes 組件和測試組件。 以下為範例：  
   
 ```c#  
 // FileSystem\AssemblyInfo.cs  
@@ -273,7 +291,7 @@ attribute of the Assembly element in the .fakes:
   
 -   會轉換並串連**參數類型**名稱。  
   
--   除非有多載模稜兩可的情況，否則會忽略**傳回類型**。 如果是這種情況，則傳回型別將會附加在名稱結尾。  
+-   除非有多載模稜兩可的情況，否則會忽略**傳回型別**。 如果是這種情況，則傳回型別將會附加在名稱結尾。  
   
 ###  <a name="BKMK_Parameter_type_naming_conventions"></a> 參數類型命名慣例  
   
@@ -285,7 +303,7 @@ attribute of the Assembly element in the .fakes:
 |**陣列類型**`T[]`|`TArray`|  
 |**多維陣列**類型 `T[ , , ]`|`T3`|  
 |**指標**類型 `T*`|`TPtr`|  
-|**泛型類型**`T<R1, …>`|`TOfR1`|  
+|**泛型類型**`T<R1, ...>`|`TOfR1`|  
 |類型 `C<TType>` 的**泛型類型引數**`!i`|`Ti`|  
 |方法 `M<MMethod>` 的**泛型方法引數**`!!i`|`Mi`|  
 |**巢狀類型**`N.T`|會附加 `N`，後接 `T`|  

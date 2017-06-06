@@ -33,10 +33,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 9ff0dfb7330f70bb66597127347c8375f2c4c9ea
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: baf1e18c56587b071aaa25fd522e3aa1b27a0b30
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="memory-usage-without-the-debugger"></a>記憶體使用量 (不使用偵錯工具)
@@ -75,7 +76,7 @@ ms.lasthandoff: 03/07/2017
  若要停止監控工作階段而不建立報表，只需關閉診斷視窗。 若要在擷取記憶體快照時產生報表，請選擇 [停止]。  
   
 ##  <a name="BKMK_Take_snapshots_to_analyze_the_memory_state_of_your_app"></a>擷取應用程式記憶體狀態的快照  
- 如果您發現想要調查的記憶體問題，可以在診斷工作階段期間擷取快照，在特定時刻擷取記憶體內的物件。 由於應用程式使用大量且許多類型的物件，您可能會想專注分析單一案例。 在記憶體問題出現之前先取得基準快照、第一次出現問題之後擷取另一張快照，並且如果您能重複案例便再額外擷取一或多張快照，也是不錯的作法。  
+ 如果您發現想要調查的記憶體問題，可以在診斷工作階段期間擷取快照，在特定時刻擷取記憶體內的物件。 由於應用程式使用大量且許多類型的物件，您可能會想專注分析單一案例。 在記憶體問題出現之前先取得基準快照、第一次出現問題之後擷取另一張快照，並且如果您能重複案例便再額外擷取一或多張快照，也是不錯的做法。  
   
  若要收集快照，請開始新的診斷工作階段。 想要擷取記憶體資料時，選擇 [擷取快照]。 若要產生報表，請選擇 [停止]。  
   

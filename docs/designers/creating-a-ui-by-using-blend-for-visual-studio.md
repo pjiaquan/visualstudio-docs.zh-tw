@@ -1,21 +1,40 @@
 ---
 title: "使用 Blend for Visual Studio 建立 UI | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "Blend.Start.Dev12"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- Blend.Start.Dev12
 ms.assetid: efd12263-cc2d-4081-a2bb-9a2cc17c442c
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 29
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: f880816f383712f87624467c9ed3b45a1c2ccb8c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="creating-a-ui-by-using-blend-for-visual-studio"></a>使用 Blend for Visual Studio 建立 UI
 Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx) 及 [Windows 市集](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx)應用程式。 它提供與 Visual Studio 相同的基本 XAML 設計體驗，並新增可處理動畫和表現方式等進階工作的視覺化設計工具。  
@@ -37,7 +56,7 @@ Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[W
   
 -   [[屬性] 面板導覽](#Properties)  
   
-##  <a name="a-nametoolsa-tour-of-the-tools-panel"></a><a name="Tools"></a>[工具] 面板導覽  
+##  <a name="Tools"></a>[工具] 面板導覽  
  您可以使用 Blend for Visual Studio 中的 [工具] 面板來建立及修改應用程式中的物件。 您可以選取工具，然後使用滑鼠在畫板上繪製以建立物件。  
   
  ![[工具] 面板](../designers/media/blend5toolspanel.png "Blend5Toolspanel")  
@@ -53,8 +72,8 @@ Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[W
   
  **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [工具列](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4)。  
   
-##  <a name="a-nameassetsa-tour-of-the-assets-panel"></a><a name="Assets"></a>[資產] 面板導覽  
- 您可以在 [資產] 面板中找到所有控制項，這個面板類似 Visual Studio 中的 [工具箱]。 除了控制項之外，您還會在 [資產] 面板中找到可加入畫板的所有項目，包括樣式、媒體、行為和效果。  
+##  <a name="Assets"></a>[資產] 面板導覽  
+ 您可以在 [資產] 面板中找到所有控制項，這個面板類似 Visual Studio 中的 [工具箱]。 除了控制項之外，您還會在 [資產] 面板中找到可新增至畫板的所有項目，包括樣式、媒體、行為和效果。  
   
  ![[資產] 面板](../designers/media/blend5_assets_panel.png "Blend5_Assets_panel")  
   
@@ -66,7 +85,7 @@ Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[W
 |![](../designers/media/b1_4.png "B1_4")|**樣式**：顯示資源字典中所包含的所有樣式。|  
 |![](../designers/media/b1_5.png "B1_5")|**描述**：檢視所選的資產分類或子分類的描述。|  
   
-##  <a name="a-nameobjectsa-tour-of-the-objects-and-timeline-panel"></a><a name="Objects"></a>[物件與時間軸] 面板導覽  
+##  <a name="Objects"></a>[物件與時間軸] 面板導覽  
  使用這個面板可依所需在畫板上組織物件以製作動畫。  
   
  ![動畫模式中的 [物件與時間軸] 面板](../designers/media/b5_object_timeline_animation.png "b5_object_timeline_animation")  
@@ -90,7 +109,7 @@ Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[W
 |![](../designers/media/b1_15.png "B1_15")|**時間軸縮放**：設定時間軸的縮放解析度。 放大可讓您更詳細地編輯動畫，而縮小則可顯示更長時間內所發生的概況詳情。 如果放大後無法在所要的時間點上設定主要畫面格，請驗證貼齊解析度是否設定得夠高。|  
 |![圖說文字 16](../designers/media/b5_label_16.png "b5_label_16")|**時間軸組合區域**：檢視時間軸，並拖曳主要畫面格或使用其捷徑功能表以使其來回移動。|  
   
-##  <a name="a-namepropertiesa-tour-of-the-properties-panel"></a><a name="Properties"></a>[屬性] 面板導覽  
+##  <a name="Properties"></a>[屬性] 面板導覽  
  使用此面板可檢視和修改物件的屬性。 您也可以直接在畫板上設定屬性。 如果這麼做，屬性變更將反映在 [屬性] 面板中。  
   
  ![[屬性] 面板](../designers/media/blend5_properties_panel.png "Blend5_properties_panel")  
@@ -124,8 +143,3 @@ Blend for Visual Studio 可協助您設計 XAML 型的 Windows 桌面、Web、[W
  [製作物件動畫](../designers/animate-objects-in-xaml-designer.md)   
  [繪製圖案與路徑](../designers/draw-shapes-and-paths.md)   
  [在 Visual Studio 和 Blend for Visual Studio 中設計 XAML](../designers/designing-xaml-in-visual-studio.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

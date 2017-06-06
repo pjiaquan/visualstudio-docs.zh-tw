@@ -32,14 +32,15 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 8ce2ccc55a53d03b72f0d1d81c206b2b9a980eed
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 11ae1d653bc34ccb9c8fd8834d134b7212bc4f9a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="walkthrough-creating-and-running-unit-tests-for-windows-store-apps"></a>逐步解說：針對 Windows 市集應用程式建立和執行單元測試
-Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]應用程式的單元測試支援，並包含 Visual C#、Visual Basic 和 Visual C++ 的單元測試程式庫範本。  
+Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式的單元測試支援，並包含 Visual C#、Visual Basic 和 Visual C++ 的單元測試程式庫範本。  
   
 > [!TIP]
 >  如需開發 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式的詳細資訊，請參閱 [Windows 市集應用程式入門](http://go.microsoft.com/fwlink/?LinkID=241410)。  
@@ -67,12 +68,12 @@ Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/w
   
      [新增專案] 對話方塊隨即顯示。  
   
-2.  在 [範本] 下，選擇您要用來建立單元測試的程式設計語言，然後選擇相關聯的 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]單元測試程式庫。 例如，依序選擇 [ **Visual C#** ]、[ **Windows 市集**] 和 [ **單元測試程式庫 (Windows 市集應用程式)**]。  
+2.  在 [範本] 下，選擇您要用來建立單元測試的程式設計語言，然後選擇相關聯的 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 單元測試程式庫。 例如，依序選擇 [ **Visual C#** ]、[ **Windows 市集**] 和 [ **單元測試程式庫 (Windows 市集應用程式)**]。  
   
     > [!NOTE]
     >  Visual Studio 包含 Visual C#、Visual Basic 和 Visual C++ 的單元測試程式庫範本。  
   
-3.  (選擇性) 在 [名稱] 文字方塊中，輸入 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]單元測試專案要使用的名稱。  
+3.  (選擇性) 在 [ **名稱** ] 文字方塊中，輸入 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]單元測試專案要使用的名稱。  
   
 4.  (選擇性) 在 [ **位置** ] 文字方塊中輸入路徑，或是選取 [ **瀏覽** ] 按鈕，以修改要建立專案的路徑。  
   
@@ -89,9 +90,9 @@ Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/w
 ##  <a name="CreateAndRunUnitTestWin8Tailored_Manifest"></a> 編輯單元測試專案的資訊清單  
  您可能需要編輯單元測試專案的資訊清單，以便提供執行應用程式所需的功能。  
   
-#### <a name="to-edit-the-unit-test-projects-windows-store-application-manifest-file"></a>若要編輯單元測試專案的 Windows 市集應用程式資訊清單檔案  
+#### <a name="to-edit-the-unit-test-projects-windows-store-application-manifest-file"></a>編輯單元測試專案的 Windows 市集應用程式資訊清單檔案  
   
-1.  在 [方案總管] 中，於新的 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 單元測試專案中，以滑鼠右鍵按一下 Package.appxmanifest 檔案並選擇 [開啟]。  
+1.  在 [方案總管] 中，於新的 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 單元測試專案中，以滑鼠右鍵按一下 Package.appxmanifest 檔案並選擇 [ **開啟**]。  
   
      資訊清單設計工具隨即顯示，可供編輯。  
   
@@ -100,7 +101,7 @@ Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/w
 3.  在 [ **功能**] 底下的清單中，選取您要讓單元測試及其所測試之程式碼具有的功能。 例如，如果單元測試需要且測試中的程式碼必須有存取網際網路的能力時，則選擇 [ **網際網路** ] 核取方塊。  
   
     > [!NOTE]
-    >  您選取的功能應該只包含讓 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]單元測試正常運作的功能。 這些功能沒有必要包含不屬於要測試之 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]應用程式的功能，並且通常應該是指定給受測 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]應用程式的其中一組功能。  
+    >  您選取的功能應該只包含讓 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 單元測試正常運作的功能。 這些功能沒有必要包含不屬於要測試之 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]應用程式的功能，並且通常應該是指定給受測 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]應用程式的其中一組功能。  
   
      如需有關資訊清單設計工具的詳細資訊，請參閱[使用資訊清單設計工具設定 Windows 8.1 應用程式套件](http://msdn.microsoft.com/Library/24c58b7f-9c6d-41c3-b385-c1e8497d5b2d)。  
   
@@ -155,7 +156,7 @@ Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/w
 ## <a name="external-resources"></a>外部資源  
   
 ### <a name="videos"></a>影片  
- [Channel 9：針對使用 XAML 建置的 Windows 市集應用程式進行單元測試 (英文)](http://go.microsoft.com/fwlink/?LinkId=226285)  
+ [Channel 9：Unit testing your Windows Store apps built using XAML (單元測試使用 XAML 建置的 Windows 市集應用程式)](http://go.microsoft.com/fwlink/?LinkId=226285)  
   
 ### <a name="forums"></a>論壇  
  [Visual Studio 單元測試](http://go.microsoft.com/fwlink/?LinkId=224477)  

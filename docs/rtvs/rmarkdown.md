@@ -1,0 +1,86 @@
+---
+title: "使用 Visual Studio R 工具的 R Markdown | Microsoft Docs"
+ms.custom: 
+ms.date: 4/28/2017
+ms.prod: visual-studio-dev15
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- devlang-r
+ms.tgt_pltfrm: 
+ms.topic: article
+ms.assetid: 3ac955b2-b6e1-4d32-b1a4-2882c93311fc
+caps.latest.revision: 1
+author: kraigb
+ms.author: kraigb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 7a873df77756e5a957d327049566c8e0db1f3a8a
+ms.openlocfilehash: 972abfcfda570d66b1b15b25b16e68157fc73b81
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/12/2017
+
+---
+
+# <a name="creating-r-markdown-documents"></a>建立 R Markdown 文件
+
+R Markdown (請參閱 [rmarkdown.rstudio.com](https://rmarkdown.rstudio.com/)) 是一種文件格式，可將 R 中的分析變成高品質的文件、報表、簡報和儀表板。
+
+Visual Studio R 工具提供 R Markdown 項目範本、編輯器支援 (包括編輯器中處理 R 程式碼的 IntelliSense)，以及檔案產生功能。
+
+使用 R Markdown：
+
+1. 關閉 Visual Studio。
+1. (僅限一次) 從 [pandoc.org](http://pandoc.org/installing.html) 安裝 pandoc。
+1. 重新啟動 Visual Studio，應該會挑選 pandoc 安裝。
+1. 安裝 `knitr` 和 `rmarkdown` 套件，這可在[互動視窗](interactive-repl.md)中執行：
+
+    ```R
+    install.packages("knitr")
+    install.packages("rmarkdown")
+
+    ```
+1. 建立新的 R Markdown 檔案：使用 [檔案] > [新增] 功能表命令，從清單中選取 [R Markdown]，或以滑鼠右鍵按一下方案總管中的專案，然後選取 [新增 R Markdown] (或 [新增] > [新增項目...]，然後從清單中選取 [R Markdown])。
+
+1. 新檔案的預設內容如下︰
+
+    ~~~markdown
+    ---
+    title: "Untitled"
+    output: html_document
+    ---
+    
+    This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and Microsoft Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+    
+    When you click the **R Tools | Publish | Preview** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+    
+    ```{r}
+    summary(cars)
+    ```
+    
+    You can also embed plots, for example:
+    
+    ```{r, echo=FALSE}
+    plot(cars)
+    ```
+    
+    Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+    
+    ~~~
+
+1. 在編輯期間的任何時間，以滑鼠右鍵按一下編輯器，選取 [預覽]，其有 [HTML]、[PDF] 和 [Microsoft Word] 選項。 在該預覽中，您可將檔案另存為您選擇的合適格式。
+

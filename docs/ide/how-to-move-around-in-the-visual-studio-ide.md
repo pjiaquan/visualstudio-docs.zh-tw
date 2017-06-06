@@ -36,9 +36,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 1480f7ded802d89ec3d76d97ebfa7153bda0a597
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -67,7 +68,7 @@ ms.lasthandoff: 02/22/2017
   
  您亦可使用 [IDE 瀏覽器]、編輯器的 [使用中的檔案] 清單或 [Windows] 對話方塊，切換至編輯器中已開啟的特定檔案而忽略上次存取檔案的時間。  
   
- [IDE 瀏覽器] 運作方式十分類似 Windows 應用程式切換器。 其僅可使用快速鍵來存取，而無法透過功能表使用。 您可使用兩個命令存取 [IDE 瀏覽器] (如下所示)，以依據所需的循環瀏覽順序，循環瀏覽檔案。  
+ [IDE 瀏覽器] 運作方式十分類似 Windows 應用程式切換器。 其僅可使用快速鍵來存取，而無法透過功能表使用。 您可使用兩個命令存取 [IDE 瀏覽器]\(如下所示)，以依據所需的循環瀏覽順序，循環瀏覽檔案。  
   
  ![Visual Studio IDE 導覽器](../ide/media/vs2015_ide_navigator.png "VS2015_IDE_Navigator")  
   

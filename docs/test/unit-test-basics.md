@@ -29,14 +29,15 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: 8d08dc2578390db8dedd535cfb27261ea71d73cc
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 67f42e3a79d30254d3f5942b3fc9938957d5ff99
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="unit-test-basics"></a>單元測試基本概念
-藉由建立及執行單元測試，檢查您的程式碼是否如預期般執行。 這之所以稱為單元測試，是因為您將程式功能分解成離散的可測試行為，這些行為能做為個別的 *「單位」*(unit) 加以測試。 Visual Studio [測試總管] 提供富彈性又有效率的方式來執行單元測試，並可在 Visual Studio 中檢視結果。 Visual Studio 會安裝 Managed 程式碼和原生程式碼適用的 Microsoft 單元測試架構。 請使用 *「單元測試架構」* (unit testing framework) 來建立單元測試並加以執行，然後報告這些測試的結果。 當您進行變更來測試程式碼是否仍正常運作時，請重新執行單元測試。 當您使用 Visual Studio Enterprise 版時，可以在每次建置後自動執行測試。  
+藉由建立及執行單元測試，檢查您的程式碼是否如預期般執行。 這之所以稱為單元測試，是因為您將程式功能分解成離散的可測試行為，這些行為能作為個別的「單位」加以測試。 Visual Studio [測試總管] 提供富彈性又有效率的方式來執行單元測試，並可在 Visual Studio 中檢視結果。 Visual Studio 會安裝 Managed 程式碼和原生程式碼適用的 Microsoft 單元測試架構。 請使用 *「單元測試架構」* (unit testing framework) 來建立單元測試並加以執行，然後報告這些測試的結果。 當您進行變更來測試程式碼是否仍正常運作時，請重新執行單元測試。 當您使用 Visual Studio Enterprise 版時，可以在每次建置後自動執行測試。  
   
  當單元測試是軟體開發工作流程中不可或缺的一部分時，就能對您的程式碼品質發揮最大的作用。 一旦您撰寫函式或其他應用程式程式碼區塊，就會建立單元測試，以便驗證該程式碼的行為是否對應於輸入資料的標準、界限和不正確情況，並檢查程式碼所做的任何明確或隱含假設。 藉由 *「測試驅動式開發」*(test driven development)，您可在撰寫程式碼之前先建立單元測試，以便將單元測試做為設計文件和功能規格。  
   
@@ -52,7 +53,7 @@ ms.lasthandoff: 04/04/2017
   
 -   [撰寫您的測試](#BKMK_Writing_your_tests)  
   
--   [在測試總管中執行測試](#BKMK_Running_tests_in_Test_Explorer)  
+-   [在 [測試總管] 中執行測試](#BKMK_Running_tests_in_Test_Explorer)  
   
 -   [執行測試並加以檢視](#BKMK_Running_and_viewing_tests_from_the_Test_Explorer_toolbar)  
   
@@ -131,7 +132,7 @@ public void Withdraw(double amount)
   
  單元測試專案通常會反映單一程式碼專案的結構。 在 MyBank 範例中，您可以將名為 `AccountsTests` 和 `BankDbTests` 的兩個單元測試專案加入 `MyBanks` 方案中。 這些測試專案名稱可隨意命名，不過最好採用標準命名慣例。  
   
- **將單元測試專案新增至方案：**  
+ **將單元測試專案加入方案：**  
   
 1.  在 [檔案]  功能表上，選擇 [新增]  ，然後選擇 [專案]  (鍵盤 Ctrl + Shift + N)。  
   
@@ -233,7 +234,7 @@ public void My_Test ()
 }  
 ```  
   
-##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> 在測試總管中執行測試  
+##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> 在 [測試總管] 中執行測試  
  在建置測試專案後，這些測試便會出現在 [測試總管] 中。 如果沒有看到 [測試總管]，請選擇 Visual Studio 功能表上的 [測試]  ，接著選擇 [Windows] ，然後選擇 [測試總管] 。  
   
  ![單元測試總管](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
@@ -283,7 +284,7 @@ public void My_Test ()
   
 2.  在 [測試總管] 中選取測試方法，然後從捷徑功能表中選擇 [偵錯所選測試]  。  
   
- 進一步了解[偵錯單元測試](../debugger/debugging-in-visual-studio.md)的詳細資料。  
+ 進一步了解 [偵錯單元測試](../debugger/debugging-in-visual-studio.md)的詳細資料。  
   
  **問：如果我使用 TDD，要如何從我的測試產生程式碼？**  
   
@@ -323,7 +324,7 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
   
  資料表中一個資料列執行一次屬性的方法。 如果任何反覆項目失敗，[測試總管] 會報告該方法的測試失敗。 該方法的測試結果詳細資料窗格會向您顯示每個資料列通過/失敗狀態的方法。  
   
- 深入了解[資料驅動的單元測試](../test/how-to-create-a-data-driven-unit-test.md)。  
+ 深入了解 [資料驅動的單元測試](../test/how-to-create-a-data-driven-unit-test.md)。  
   
  **問：是否可以檢視我的單元測試已測試了多少程式碼？**  
   
@@ -351,9 +352,9 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
   
  在這兩種方法中，您可以對相依性方法使用呼叫所產生的委派，以指定您要讓測試方法執行的行為。  
   
- 深入了解[使用 Microsoft Fakes 隔離單元測試方法](../test/isolating-code-under-test-with-microsoft-fakes.md)。  
+ 深入了解 [使用 Microsoft Fakes 隔離單元測試方法](../test/isolating-code-under-test-with-microsoft-fakes.md)。  
   
- **問︰是否可以使用其他單元測試架構來建立單元測試？**  
+ **問：是否可以使用其他單元測試架構搭配 IntelliTest？**  
   
  **答：**可以，請遵循[尋找並安裝其他架構](../test/install-third-party-unit-test-frameworks.md)中的步驟。 重新啟動 Visual Studio 之後，重新開啟方案以建立您的單元測試，然後在這裡選取您已安裝的架構：  
   

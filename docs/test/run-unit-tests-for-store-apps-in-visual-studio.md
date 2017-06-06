@@ -26,9 +26,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
 ms.openlocfilehash: 4ecdcce4d45b15e6574ca70044249e4d32776fdd
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -110,7 +111,7 @@ ms.lasthandoff: 02/22/2017
 -   測試失敗時的堆疊追蹤。  
   
 ###  <a name="BKMK_Viewing_the_source_code_of_a_test_method"></a>檢視測試方法的原始程式碼  
- 若要在 Visual Studio 編輯器中顯示測試方法的原始程式碼，請選取該測試，然後選擇捷徑功能表上的 [開啟測試] (鍵盤：F12)。  
+ 若要在 Visual Studio 編輯器中顯示測試方法的原始程式碼，請選取該測試，然後選擇捷徑功能表上的 [開啟測試]\(鍵盤：F12)。  
   
 ##  <a name="BKMK_Organizing_the_test_list"></a>組織測試清單  
   

@@ -26,10 +26,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: 6dfb5758833d9ecda1a6ac378eb3f5069cc80561
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 1d64aafdb107e0398c25f6efed7203524c111f18
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing"></a>使用填充碼將應用程式與其他組件隔離，方便進行單元測試
@@ -46,7 +47,7 @@ ms.lasthandoff: 04/04/2017
  請參閱 [Video (1h16): Testing Un-testable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837) (影片 (1 小時 16 分鐘)：在 Visual Studio 2012 中使用 Fakes 測試不可測試的程式碼)  
   
 ## <a name="in-this-topic"></a>本主題內容  
- 您在這個主題將學習：  
+ 您在這個主題中將學習：  
   
  [範例：Y2K bug](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md#BKMK_Example__The_Y2K_bug)  
   
@@ -539,7 +540,7 @@ ShimFile.WriteAllTextStringString = (fileName, content) => {
 ShimsDelegates.Action<string, string> shim = null;  
 shim = (fileName, content) => {  
   try {  
-    Console.WriteLine("enter”);  
+    Console.WriteLine("enter");  
     // remove shim in order to call original method  
     ShimFile.WriteAllTextStringString = null;  
     File.WriteAllText(fileName, content);  

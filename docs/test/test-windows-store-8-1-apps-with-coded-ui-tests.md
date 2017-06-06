@@ -27,10 +27,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: b40df6e53321efa72081166a1c77d0f3accf914e
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 806c1b22718a26e02916ada853372df4f11fb6cd
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="test-windows-uwp-and-81-store-apps-with-coded-ui-tests"></a>使用自動程式碼 UI 測試來測試 Windows UWP 和 8.1 市集應用程式
@@ -301,7 +302,7 @@ ms.lasthandoff: 04/04/2017
   
      ![從 [測試總管] 執行自動程式化 UI 測試](../test/media/cuit_windowsstoreapp_runtest.png "CUIT_WindowsStoreApp_RunTest")  
   
-     即會啟動 Windows 市集應用程式、完成點選按鈕的動作，以及填入文字方塊的 [文字] 屬性並使用 assert 方法進行驗證。  
+     即會啟動 Windows 市集應用程式、完成點選按鈕的動作，以及填入文字方塊的 Text 屬性並使用 assert 方法進行驗證。  
   
      ![執行自動程式化 UI 測試](../test/media/cuit_windowsstoreapp_running.png "CUIT_WindowsStoreApp_Running")  
   
@@ -311,7 +312,7 @@ ms.lasthandoff: 04/04/2017
   
 ## <a name="q--a"></a>問與答  
   
-#### <a name="q-why-dont-i-see-the-option-to-record-my-coded-ui-test-in-the-generate-code-for-a-coded-ui-test-dialog"></a>問：為什麼在 [產生自動程式碼 UI 測試的程式碼] 對話方塊中看不到錄製自動程式碼 UI 測試的選項？**  
+#### <a name="q-why-dont-i-see-the-option-to-record-my-coded-ui-test-in-the-generate-code-for-a-coded-ui-test-dialog"></a>問：為什麼在 [產生自動程式化 UI 測試的程式碼] 對話方塊中看不到錄製自動程式化 UI 測試的選項？  
   
 **答**：Windows 市集應用程式不支援錄製的選項。  
   

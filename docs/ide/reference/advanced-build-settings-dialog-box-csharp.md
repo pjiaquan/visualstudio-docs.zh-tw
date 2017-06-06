@@ -31,9 +31,10 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
 ms.openlocfilehash: 82ec5d2db35da72beb017e15d1c271f751b5f56b
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -57,7 +58,7 @@ ms.lasthandoff: 02/22/2017
  如需詳細資訊，請參閱 [/langversion (C# 編譯器選項)](/dotnet/csharp/language-reference/compiler-options/langversion-compiler-option)。  
   
  **報告內部編譯器錯誤**  
- 指定是否要向 Microsoft 報告編譯器錯誤。 如果設定為 [提示] (預設值)，您會在發生內部編譯器錯誤時收到提示，讓您選擇以電子方式將錯誤報告傳送給 Microsoft。 如果設定為 [傳送]，則會自動傳送錯誤報告。 如果設定為 [佇列]，則會將錯誤報告排入佇列。 如果設定為 [無]，則會以編譯器的文字輸出報告錯誤。 如需詳細資訊，請參閱 [/errorreport (C# 編譯器選項)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option)。  
+ 指定是否要向 Microsoft 報告編譯器錯誤。 如果設定為 [提示]\(預設值)，您會在發生內部編譯器錯誤時收到提示，讓您選擇以電子方式將錯誤報告傳送給 Microsoft。 如果設定為 [傳送]，則會自動傳送錯誤報告。 如果設定為 [佇列]，則會將錯誤報告排入佇列。 如果設定為 [無]，則會以編譯器的文字輸出報告錯誤。 如需詳細資訊，請參閱 [/errorreport (C# 編譯器選項)](/dotnet/csharp/language-reference/compiler-options/errorreport-compiler-option)。  
   
  **檢查算術溢位/反向溢位**  
  指定不在 [checked](/dotnet/csharp/language-reference/keywords/checked) 或 [unchecked](/dotnet/csharp/language-reference/keywords/unchecked) 關鍵字範圍內，且會產生超出該資料類型範圍之值的整數算術運算式，是否會導致執行階段例外狀況。如需詳細資訊，請參閱 [/checked (C# 編譯器選項)](/dotnet/csharp/language-reference/compiler-options/checked-compiler-option)。  

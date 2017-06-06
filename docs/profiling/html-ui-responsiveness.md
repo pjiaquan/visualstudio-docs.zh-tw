@@ -39,10 +39,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 618aaec3a0ae735560d14bea43cc2b08bd9e5445
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 90fed413835f118e59bc32f0b94cb62a40baaca1
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-html-ui-responsiveness-in-universal-windows-apps"></a>分析通用 Windows App 中 HTML UI 的回應性
@@ -83,13 +84,13 @@ ms.lasthandoff: 03/07/2017
   
 4.  當您啟動 UI 回應性分析工具時，使用者帳戶控制視窗可能會要求您提供執行 Visual Studio ETW Collector.exe 的權限。 選擇 [ **是**]。  
   
-     與應用程式互動，以測試相關的效能案例。 如需詳細的工作流程，請參閱[隔絕 UI 回應性問題](#Workflow)和[隔絕視覺輸送量問題](#IsolateVisualThroughput)。  
+     與應用程式互動，以測試相關的效能案例。 如需詳細的工作流程，請參閱 [找出 UI 回應性問題](#Workflow) 和 [Isolate a visual throughput problem](#IsolateVisualThroughput)。  
   
 5.  按 Alt+Tab 切換至 Visual Studio。  
   
 6.  若要停止分析應用程式並檢視分析工具蒐集的資料，請選擇 [ **停止收集**]。  
   
-##  <a name="IsolateAnIssue"></a> 隔絕問題  
+##  <a name="IsolateAnIssue"></a> 找出問題  
  下列章節提供可協助您找出效能問題的建議。 如需如何利用範例效能測試應用程式來找出效能問題並加以修正的逐步說明，請參閱[逐步解說：改善 UI 回應性 (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md)。  
   
 ###  <a name="Workflow"></a> 隔絕 UI 回應性問題  
@@ -103,7 +104,7 @@ ms.lasthandoff: 03/07/2017
   
 3.  切換至 Visual Studio (按 Alt+Tab)，然後停止您的應用程式 (Shift+F5)。  
   
-4.  您也可以選擇使用[可供分析的標記程式碼](#ProfileMark)，在程式碼中新增使用者標記。  
+4.  選擇性地將使用者標記加入程式碼，請使用 [標記程式碼以供分析](#ProfileMark)。  
   
     > [!TIP]
     >  當您檢視分析工具資料時，使用者標記可以協助您識別回應性問題。 例如，您可以在造成回應性問題的程式碼區段的開頭和結尾加入使用者標記。  
@@ -145,16 +146,16 @@ ms.lasthandoff: 03/07/2017
     > [!TIP]
     >  分析工具中大部分的有用資訊都會出現在時間軸詳細資料圖表中。  
   
-12. 在 CPU 使用率或視覺輸送量 (FPS) 圖表中選取區域後，選擇 [ **放大** ]\(按鈕或內容功能表) 以取得詳細資訊。 圖形的時間軸會變成只顯示選取的時段。  
+12. 在 CPU 使用率或視覺輸送量 (FPS) 圖表中選取區域後，選擇 [ **放大** ] (按鈕或內容功能表) 以取得詳細資訊。 圖形的時間軸會變成只顯示選取的時段。  
   
 13. 放大時，請選取 CPU 使用率或視覺輸送量圖形的一部分。 確定選取範圍時，分析工具下方窗格的時間軸詳細資料圖形會變成只顯示選取的時段。  
   
-###  <a name="IsolateVisualThroughput"></a> 隔絕視覺輸送量問題  
+###  <a name="IsolateVisualThroughput"></a> Isolate a visual throughput problem  
  CPU 使用率超量期間可能會導致畫面播放速率降低或不一致。 如果您開發多媒體應用程式和遊戲，視覺輸送量圖表可能會比 CPU 使用率圖表提供更重要的資料。  
   
  若要找出視覺輸送量問題，請依照上一節中所述的步驟執行，但是使用視覺輸送量圖表做為其中一個關鍵資料點。  
   
-###  <a name="ProfileMark"></a> 可供分析的標記程式碼  
+###  <a name="ProfileMark"></a> 標記程式碼以供分析  
  為有助於釐清與圖形中出現的資料相關聯之應用程式碼區段，您可以在應用程式中加入函式呼叫，指示分析工具在執行函式時，於時間軸上插入使用者標記 (倒三角形)。 您加入的任何使用者標記，都會出現在 CPU 使用率圖表、視覺輸送量圖表和時間軸詳細資料圖表的時間軸中。  
   
  若要加入使用者標記，請將下列程式碼加入至應用程式。 這個範例會使用 "getting data" 做為事件的描述。  
@@ -169,7 +170,7 @@ if (performance && performance.mark) {
  當您將滑鼠指標停留在使用者標記上時，事件的描述會顯示為工具提示。 您可以視需要加入任意數目的使用者標記。  
   
 > [!NOTE]
->  `console.timeStamp` (Chrome 命令) 也會顯示成使用者標記。  
+>  `console.timeStamp`(Chrome 命令) 也會顯示成使用者標記。  
   
  下圖顯示具有單一使用者標記和其工具提示的診斷尺規。  
   
@@ -325,20 +326,20 @@ if (performance.mark && performance.measure) {
 ##  <a name="SaveSession"></a> 儲存診斷工作階段  
  在 Visual Studio 中，當您關閉與診斷工作階段相關聯的索引標籤時，可以儲存診斷工作階段。 已儲存的工作階段可以在稍後重新開啟。  
   
-##  <a name="ProfilerEvents"></a> 分析工具參考  
+##  <a name="ProfilerEvents"></a> Profiler event reference  
  在 UI 回應性分析工具中，分析工具事件已分類和色彩標示。 這些是事件分類：  
   
--   **載入。** 指出當應用程式第一次載入時，花在擷取應用程式資源和剖析 HTML 和 CSS 的時間。 這可能包括網路要求。  
+-   **載入中：** 指出當應用程式第一次載入時，花在擷取應用程式資源和剖析 HTML 和 CSS 的時間。 這可能包括網路要求。  
   
--   **指令碼處理。** 指出花在剖析及執行 JavaScript 的時間。 這包括 DOM 事件、計時器、指令碼評估和動畫畫面格工作。 它包含使用者程式碼和程式庫程式碼。  
+-   **指令碼：** 指出花在剖析及執行 JavaScript 的時間。 這包括 DOM 事件、計時器、指令碼評估和動畫畫面格工作。 它包含使用者程式碼和程式庫程式碼。  
   
--   **GC。** 指出花在記憶體回收的時間。  
+-   **GC：** 指出花在記憶體回收的時間。  
   
--   **設定樣式。** 指出花在剖析 CSS 以及計算項目展示和配置的時間。  
+-   **樣式：** 指出花在剖析 CSS 以及計算項目展示和配置的時間。  
   
--   **轉譯。** 指出花在繪製螢幕的時間。  
+-   **正在轉譯：** 指出花在繪製螢幕的時間。  
   
--   **影像解碼。** 指出花在解壓縮及解碼影像的時間。  
+-   **影像解碼中：** 指出花在解壓縮及解碼影像的時間。  
   
  對於指令碼和樣式分類，UI 回應性分析工具可能會在時間軸詳細資料圖形中提供您可採取動作的資料。 如果您將指令碼問題識別為問題，可以搭配 UI 回應性分析工具來執行 CPU 取樣分析工具。 或者，您也可以使用 Visual Studio 函式分析工具取得詳細資料。 如需詳細資訊，請參閱 [JavaScript 記憶體](../profiling/javascript-memory.md)。  
   
@@ -356,7 +357,7 @@ if (performance.mark && performance.measure) {
 |DOM 事件|正在處理指令碼|已發生且執行 DOM 事件。<br /><br /> DOM 事件 (例如 `context` 或  `DOMContentLoaded` ) 的 `click`屬性顯示在括號中。|  
 |事件接聽程式|正在處理指令碼|已呼叫且執行事件接聽程式。|  
 |媒體查詢接聽程式|正在處理指令碼|已註冊的媒體查詢失效，因而會執行其相關聯的接聽程式。|  
-|變動觀察者|正在處理指令碼|一或多個受觀察的 DOM 元素已修改，因而會執行 MutationObserver 的關聯回呼。|  
+|變動觀察者|正在處理指令碼|一或多個受觀察的 DOM 項目已修改，因而會執行 MutationObserver 的關聯回呼。|  
 |指令碼評估|正在處理指令碼|在 DOM 中找到新的 SCRIPT 項目，而且嘗試剖析和執行指令碼。|  
 |計時器|正在處理指令碼|排程計時器已過，這會導致執行其關聯的回呼函式。|  
 |Windows 執行階段非同步回呼函式|正在處理指令碼|觸發 `Promise` 回呼函式的非同步作業，已經由 Windows 執行階段物件完成。|  

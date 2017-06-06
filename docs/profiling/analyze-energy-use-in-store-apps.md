@@ -33,10 +33,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 22eb436711a7539a63f0d4198b4cd176890af3d0
-ms.openlocfilehash: 6871e525345ae5c1ffc79e0126e47176bedbe110
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 28a8636db753eb71a90cb89f921f58b97aabdc59
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-energy-use-in-store-apps"></a>分析市集應用程式中的能源利用
@@ -147,11 +148,11 @@ if (performance && performance.mark) {
 |![步驟 5](../profiling/media/procguid_6.png "ProcGuid_6")|[ **資源 (開啟/關閉)**  ] 圖形提供網路能源成本的詳細資料。 [ **網路** ] 橫條圖表示網路連接開啟的時間。 [ **資料傳輸** ] 子橫條圖是應用程式透過網路接收或傳送資料的時間。|  
 |![步驟 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|[ **用電量摘要** ] 會顯示所選時間軸中 CPU、網路活動和螢幕顯示器使用的能源總計比例。|  
   
- **分析能源分析資料**  
+ **若要分析能源分析資料**  
   
  尋找資源用電量尖峰的區域。 將尖峰區與應用程式的功能產生關聯。 然後使用時間軸上的時間軸控制列放大該區域。 如果您將焦點放在網路使用方式，請展開 [ **資源 (開啟/關閉)** ] 圖形的 [ **網路**  ] 節點，比較網路連接開啟時間與應用程式透過連接接收或傳輸資料的時間。 減少在非必要時開啟網路，是非常有效的最佳化方式。  
   
-##  <a name="BKMK_Optimize_energy_use"></a> 將能源利用最佳化  
+##  <a name="BKMK_Optimize_energy_use"></a> 最佳化能源利用  
  除了傳輸資料之外，網路連線初始化、維護及關閉連線都會產生能源成本。 某些網路在資料已傳送或接收後仍然保持連線一段時間，以便讓更多資料透過單一連線傳輸。 您可以使用 [ **資源 (開啟/關閉)** ] 窗格檢查應用程式與連接互動的方式。  
   
  ![資源 &#40;開&#47;關&#41; 窗格](../profiling/media/energyprof_resources.png "ENERGYPROF_Resources")  
@@ -164,8 +165,8 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> 其他資源  
   
--   在 Windows 開發人員中心，[C#/VB/C++ 和 XAML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) 及 [JavaScript 和 HTML](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) 的**連線狀態和成本管理**章節，描述了提供網路連線資訊的 Windows API，這些資訊可讓您的應用程式用來減少網路流量的成本。  
+-   Windows 開發人員中心有關 **C#/VB/C++ 和 XAML** 和 [JavaScript 和 HTML](http://msdn.microsoft.com/en-us/0ee0b706-8432-4d49-9801-306ed90764e1) 的 [連線狀態和成本管理](http://msdn.microsoft.com/en-us/372afa6a-1c7c-4657-967d-03a77cd8e933) 章節中，描述了提供網路連線資訊的 Windows API，這些資訊可讓您的應用程式用來減少網路流量的成本。  
   
-     Windows 市集應用程式適用的 Visual Studio 模擬器可讓您模擬網路資訊 API 的資料連接屬性。 請參閱[在模擬器中執行 Windows 市集應用程式](../debugger/run-windows-store-apps-in-the-simulator.md)  
+     Windows 市集應用程式適用的 Visual Studio 模擬器可讓您模擬網路資訊 API 的資料連接屬性。 請參閱 [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   
 -   [JavaScript 函式計時]  和 [CPU 使用量]  工具可以協助您降低因為沒有效率的函式所造成的 CPU 負載。 請參閱[分析 CPU 使用量](../profiling/analyze-cpu-usage-in-a-windows-universal-app.md)。

@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 60d05761993a4bd7547d83274e103de1b5c30b34
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 44110390bcddc67d86dcfcc81c2d5961e346ccf7
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-network-usage-in-uwp-apps"></a>分析 UWP App 的網路使用量
@@ -91,5 +92,5 @@ Visual Studio 的 [網路] 診斷工具會收集使用 [Windows.Web.Http 應用�
   
 ## <a name="see-also"></a>另請參閱  
  [使用或不使用偵錯工具執行程式碼剖析工具](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
- [Visual Studio 部落格︰Visual Studio 的網路檢查簡介 (英文)](http://go.microsoft.com/fwlink/?LinkId=535022)   
- [Channel 9 影片︰ VS 診斷工具 - 新的網路分析工具 (英文)](http://channel9.msdn.com/Series/ConnectOn-Demand/206)
+ [Visual Studio blog: Introducing Visual Studio's network inspector](http://go.microsoft.com/fwlink/?LinkId=535022) (Visual Studio 部落格︰Visual Studio 的網路檢查簡介)  
+ [Channel 9 Video: VS Diagnostics tools - New Network Profiler](http://channel9.msdn.com/Series/ConnectOn-Demand/206) (Channel 9 影片︰VS 診斷工具 - 新的網路分析工具)

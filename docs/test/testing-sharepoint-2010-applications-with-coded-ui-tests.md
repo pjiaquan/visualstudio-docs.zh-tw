@@ -27,21 +27,22 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: b55b2ffdc3c5bd0ec0fb1b1b556a8f343aab1844
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 7ab8ce7199fec306a0f50344619200266a2261b8
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="testing-sharepoint-2010-applications-with-coded-ui-tests"></a>使用自動程式化 UI 測試來測試 SharePoint 2010 應用程式
 在 SharePoint 應用程式中包含自動程式碼 UI 測試，可讓您驗證整個應用程式 (包括其 UI 控制項) 是否正常運作。 自動程式碼 UI 測試也可以驗證使用者介面中的值和邏輯。  
   
- **Requirements**  
+ **需求**  
   
 -   Visual Studio 企業版  
   
 ## <a name="what-else-should-i-know-about-coded-ui-tests"></a>有關自動程式碼 UI 測試，還有什麼是我應該知道的?  
- 若要深入了解使用自動程式化 UI 測試的優點，請參閱[使用使用者介面自動化測試程式碼](../test/use-ui-automation-to-test-your-code.md)和[使用 Visual Studio 2012 測試持續傳遞 - 第 5 章：自動化系統測試 (英文)](http://go.microsoft.com/fwlink/?LinkID=255196)。  
+ 若要深入了解使用自動程式化 UI 測試的優點，請參閱[使用使用者介面自動化測試程式碼](../test/use-ui-automation-to-test-your-code.md)和[使用 Visual Studio 2012 測試持續傳遞 - 第 5 章：自動化系統測試](http://go.microsoft.com/fwlink/?LinkID=255196)。  
   
  **備註**  
   
@@ -50,12 +51,12 @@ ms.lasthandoff: 02/22/2017
 -   ![必要條件](../test/media/prereq.png "Prereq") SharePoint 應用程式中不支援 Visio 和 PowerPoint 2010 控制項。  
   
 ## <a name="creating-a-coded-ui-test-for-your-sharepoint-app"></a>建立 SharePoint 應用程式的自動程式碼 UI 測試  
- 為您的 SharePoint 2010 應用程式[建立自動程式化 UI 測試](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate)的方式，與為其他類型應用程式建立測試的方式相同。 所有控制項都可在 Web 編輯介面上錄製和播放。 選取分類和 Web 組件的介面都是標準的 Web 控制項。  
+ 為您的 SharePoint 2010 應用程式[建立自動程式碼 UI 測試](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) 的方式，與為其他類型應用程式建立測試的方式相同。 所有控制項都可在 Web 編輯介面上錄製和播放。 選取分類和 Web 組件的介面都是標準的 Web 控制項。  
   
  ![SharePoint 網頁組件](../test/media/cuit_sharepoint.png "CUIT_SharePoint")  
   
 > [!NOTE]
->  如果您正在錄製動作，請在產生程式碼之前驗證動作。 由於有多個行為與滑鼠停留相關聯，因此它預設為開啟狀態。 從您的自動程式碼 UI 測試中移除多餘的停留動作時務必小心。 您可以編輯用於測試的程式碼來進行這項作業，或是使用[自動程式化 UI 測試編輯器](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)。  
+>  如果您正在錄製動作，請在產生程式碼之前驗證動作。 由於有多個行為與滑鼠停留相關聯，因此它預設為開啟狀態。 從您的自動程式碼 UI 測試中移除多餘的停留動作時務必小心。 您可以編輯用於測試的程式碼來進行這項作業，或是使用 [自動程式碼 UI 測試編輯器](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)。  
   
 ## <a name="including-testing-of-office-2010-controls-within-your-sharepoint-app"></a>在 SharePoint 應用程式中包含 Office 2010 控制項的測試  
  若要在 SharePoint 應用程式中啟用某些 Office 2010 Web 組件的自動化，則必須稍微修改程式碼。  
@@ -64,7 +65,7 @@ ms.lasthandoff: 02/22/2017
 >  不支援 Visio 和 PowerPoint 2010 控制項。  
   
 ### <a name="excel-2010-cell-controls"></a>Excel 2010 儲存格控制項  
- 若要包括 Excel 儲存格控制項，您必須在自動程式碼 UI 測試的程式碼中進行一些變更。  
+ 若要包括 Excel 儲存格控制項，您必須在自動程式化 UI 測試的程式碼中進行一些變更。  
   
 > [!WARNING]
 >  若在任何 Excel 儲存格中輸入文字，後面接著方向鍵動作，則這類動作無法正確錄製。 使用滑鼠選取儲存格。  
@@ -145,16 +146,16 @@ uiGridKeyboardInputEdit.Text=value;
 ## <a name="external-resources"></a>外部資源  
   
 ### <a name="blogs"></a>部落格  
- [使用 Visual Studio 2012 進行 SharePoint 2010 UI 測試 (英文)](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)  
+ [使用 Visual Studio 2012 進行 SharePoint 2010 UI 測試](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)  
   
- [了解自動程式化 UI 測試中 Silverlight 控制項的搜尋邏輯 (英文)](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/understanding-the-search-logic-for-silverlight-controls-in-coded-ui-test.aspx)  
+ [了解自動程式碼 UI 測試中 Silverlight 控制項的搜尋邏輯](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/understanding-the-search-logic-for-silverlight-controls-in-coded-ui-test.aspx)  
   
- [擷取 Silverlight 控制項的屬性 (英文)](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/fetching-property-of-a-silverlight-control.aspx)  
+ [擷取 Silverlight 控制項的屬性](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/fetching-property-of-a-silverlight-control.aspx)  
   
- [自動程式化 UI 測試的內容索引 (英文)](http://blogs.msdn.com/b/mathew_aniyan/archive/2010/02/11/content-index-for-coded-ui-test.aspx)  
+ [自動程式碼 UI 測試的內容索引](http://blogs.msdn.com/b/mathew_aniyan/archive/2010/02/11/content-index-for-coded-ui-test.aspx)  
   
 ### <a name="guidance"></a>指引  
- [使用 Visual Studio 2012 測試持續傳遞 - 第 5 章：自動化系統測試 (英文)](http://go.microsoft.com/fwlink/?LinkID=255196)  
+ [使用 Visual Studio 2012 測試持續傳遞 - 第 5 章：自動化系統測試](http://go.microsoft.com/fwlink/?LinkID=255196)  
   
 ### <a name="forum"></a>論壇  
  [Visual Studio ALM + Team Foundation Server 部落格 (英文)](http://go.microsoft.com/fwlink/?LinkID=254496)  

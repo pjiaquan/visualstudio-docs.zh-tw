@@ -27,10 +27,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ab78b6b8eaa8156ed2c8a807b1d8a80e75afa84
-ms.openlocfilehash: 5778e6b7c4a93c2d03ff00fcaaaf5a25807b0a00
+ms.sourcegitcommit: 90b2481b0ec4f9387fe3a2c0b733a103e8c03845
+ms.openlocfilehash: 01dc224a571144744028e98153df1c525c461156
 ms.contentlocale: zh-tw
-ms.lasthandoff: 04/04/2017
+ms.lasthandoff: 05/23/2017
 
 ---
 # <a name="customizing-code-coverage-analysis"></a>自訂程式碼涵蓋範圍分析
@@ -155,17 +155,17 @@ ms.lasthandoff: 04/04/2017
 ### <a name="other-ways-to-include-or-exclude-elements"></a>包含或排除項目的其他方法  
  如需範例，請參閱[本主題結尾處的範例](#sample)。  
   
--   `ModulePath` – 組件檔案路徑指定的組件。  
+-   `ModulePath` - 組件檔案路徑指定的組件。  
   
--   `CompanyName` – 會依 Company 屬性比對組件。  
+-   `CompanyName` - 會依 Company 屬性比對組件。  
   
--   `PublicKeyToken` – 會依公開金鑰語彙基元比對已簽署的組件。 舉例來說，若要比對所有 Visual Studio 元件和副檔名，請使用 `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`。  
+-   `PublicKeyToken` - 會依公開金鑰語彙基元比對已簽署的組件。 舉例來說，若要比對所有 Visual Studio 元件和副檔名，請使用 `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`。  
   
--   `Source` – 依原始檔案路徑名稱的定義方式比對項目。  
+-   `Source` - 依原始檔案路徑名稱的定義方式比對項目。  
   
--   `Attribute` – 比對附加特定屬性的項目。 指定屬性的完整名稱，包括名稱結尾的「屬性」。  
+-   `Attribute` - 比對附加特定屬性的項目。 指定屬性的完整名稱，包括名稱結尾的「屬性」。  
   
--   `Function` – 依完整名稱比對程序、函式或方法。  
+-   `Function` - 依完整名稱比對程序、函式或方法。  
   
  **比對函式名稱**  
   
@@ -285,7 +285,7 @@ Included items must then not match any entries in the exclude list to remain inc
             <!-- Match attributes on any code element: -->  
             <Attributes>  
               <Exclude>  
-                <!—Don't forget "Attribute" at the end of the name -->  
+                <!-- Don't forget "Attribute" at the end of the name -->  
                 <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>  
                 <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>  
                 <Attribute>^System\.Runtime\.CompilerServices.CompilerGeneratedAttribute$</Attribute>  

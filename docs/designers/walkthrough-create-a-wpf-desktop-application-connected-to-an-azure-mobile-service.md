@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: df243cc90a27f971c4e57eb6f9f6a251513d8fb2
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 7716a0e9249c67760ae7b31160dcae89b77b9ca7
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service"></a>逐步解說：建立連接至 Azure 行動服務的 WPF 桌面應用程式
@@ -79,16 +80,16 @@ ms.lasthandoff: 02/22/2017
      必要的參考即會加入 **方案總管**。  
   
     > [!NOTE]
-    >  如果您不同意授權條款，請選擇 [我拒絕]  按鈕。 這樣一來，您將無法完成此逐步解說的其餘部分。  
+    >  如果您不同意授權條款，請選擇 [我拒絕] 按鈕。 這樣一來，您將無法完成此逐步解說的其餘部分。  
   
 ## <a name="create-the-user-interface"></a>建立使用者介面  
- 下一步是建立應用程式的使用者介面。 首先您要建立可重複使用的使用者控制項，其會顯示兩個窗格並排的標準版面配置。 您要將使用者控制項加入主應用程式視窗，並加入控制項以輸入和顯示資料，然後撰寫程式碼來定義與行動服務後端的互動。  
+ 下一步是建立應用程式的使用者介面。 首先您要建立可重複使用的使用者控制項，其會顯示兩個窗格並排的標準版面配置。 您要將使用者控制項新增至主應用程式視窗，並新增控制項以輸入和顯示資料，然後撰寫程式碼來定義與行動服務後端的互動。  
   
 #### <a name="to-add-a-user-control"></a>若要加入使用者控制項  
   
 1.  在 **方案總管**中，開啟 [WPFQuickStart]  節點的捷徑功能表，然後依序選擇 [加入] 和 [新增資料夾] 。  
   
-2.  將資料夾命名為 `Common`。  
+2.  將資料夾命名為 `Common`註冊免費試用帳戶。  
   
 3.  開啟 [Common]  資料夾的捷徑功能表，然後依序選擇 [加入] 和 [使用者控制項] 。  
   
@@ -222,10 +223,10 @@ ms.lasthandoff: 02/22/2017
   
 1.  在 **方案總管**中，開啟 **MainWindow.xaml** 檔。  
   
-2.  **重要事項**： 這個步驟只適用於 C#。 如果您使用 Visual Basic，請跳至下一個步驟。 在設計工具下方窗格中，找到 `xmlns:local=”clr-namespace:WPFQuickStart”` 行，並將它取代成下列 XAML 程式碼：  
+2.  **重要事項**： 這個步驟只適用於 C#。 如果您使用 Visual Basic，請跳至下一個步驟。 在設計工具下方窗格中，找到 `xmlns:local="clr-namespace:WPFQuickStart"` 行，並將它取代成下列 XAML 程式碼：  
   
     ```xaml  
-    xmlns:local=”clr-namespace:WPFQuickStart.Common”  
+    xmlns:local="clr-namespace:WPFQuickStart.Common"  
     ```  
   
 3.  在 [新增專案]  視窗中，展開 [通用] **Common** 分類節點並選擇 [標題]  屬性，然後輸入 `WPF Todo List` 按下 **Enter** 鍵。  
@@ -304,7 +305,7 @@ ms.lasthandoff: 02/22/2017
      ![設計工具中的 MainWindow](../designers/media/wpfquickstart2.PNG "WPFQuickStart2")  
   
     > [!NOTE]
-    >  遵循接下來的幾個程序時，您可能會在開啟的 [錯誤清單]  中看到一些錯誤。 別擔心；一旦完成其餘的程序後，這些錯誤就會消失。  
+    >  遵循接下來的幾個程序時，您可能會在開啟的 [錯誤清單]  中看到一些錯誤。 別擔心，一旦完成其餘的程序後，這些錯誤就會消失。  
   
 6.  在 **方案總管**中，展開 [MainWindow.xaml]  節點並開啟 **MainWindow.xaml.cs** 檔或 **MainWindow.xaml.vb** 檔。  
   
@@ -502,16 +503,16 @@ ms.lasthandoff: 02/22/2017
   
      這會將服務的 URL 設為 *https://wpfquickstart01.azure-mobile.net/*。  
   
-4.  在 [資料庫]  清單中，選擇資料庫選項。 由於這個應用程式應該不常使用，您可以選擇 [建立免費的 20MB SQL 資料庫]  選項，或選擇已與訂閱相關聯的免費資料庫。  
+4.  在 [資料庫]  清單中，選擇資料庫選項。 由於這個應用程式應該不常使用，所以您可以選擇 [建立免費的 20MB SQL 資料庫] 選項，或選擇已與訂閱建立關聯的免費資料庫。  
   
-5.  在 [區域]  清單中，選擇您要部署行動服務的資料中心，然後選擇 [下一步] \(向右箭號) 按鈕。  
+5.  在 [區域]  清單中，選擇您要部署行動服務的資料中心，然後選擇 [下一步]  (向右箭號) 按鈕。  
   
     > [!NOTE]
     >  針對這項服務，您要使用預設 [後端]  設定與 [JavaScript] 。  
   
-6.  如果您要建立新的資料庫，請在 [指定資料庫設定]  頁面上的 [伺服器]  清單中選擇 [新的 SQL 資料庫伺服器] ，輸入您的 **SQL 登入名稱** 和 **密碼**，然後選擇 [完成]\ (勾選記號) 按鈕。  
+6.  如果您要建立新的資料庫，請在 [指定資料庫設定]  頁面上的 [伺服器]  清單中選擇 [新的 SQL 資料庫伺服器] ，輸入您的 **SQL 登入名稱** 和 **密碼**，然後選擇 [完成]  (勾選記號) 按鈕。  
   
-7.  如果您選擇現有的資料庫，請在 [資料庫設定]  頁面上，輸入您的 **登入密碼** ，然後選擇 [完成] \(勾選記號) 按鈕。  
+7.  如果您選擇現有的資料庫，請在 [資料庫設定]  頁面上，輸入您的 **登入密碼** ，然後選擇 [完成]  (勾選記號) 按鈕。  
   
      建立行動服務的程序隨即開始。 程序完成時，狀態會變更為 [就緒]  ，您即可移至下一個步驟。  
   
@@ -519,7 +520,7 @@ ms.lasthandoff: 02/22/2017
   
 9. 在 [管理存取金鑰]  對話方塊中，複製 **應用程式金鑰**，  
   
-     以便在下一個程序使用。  
+     以便在下一個程序中使用。  
   
 #### <a name="to-create-a-table"></a>若要建立資料表  
   
@@ -531,7 +532,7 @@ ms.lasthandoff: 02/22/2017
   
 #### <a name="to-add-a-declaration-for-the-mobile-service"></a>若要加入行動服務的宣告  
   
-1.  返回 Visual Studio。 在 **方案總管**中，展開 [App.xaml]\ (C#) 或 [Application.xaml] \(Visual Basic) 節點並開啟 **App.xaml.cs** 檔或 **App.xaml.vb** 檔。  
+1.  返回 Visual Studio。 在 **方案總管**中，展開 [App.xaml]  (C#) 或 [Application.xaml]  (Visual Basic) 節點並開啟 **App.xaml.cs** 檔或 **App.xaml.vb** 檔。  
   
 2.  在程式碼編輯器中，將 `using` 或 **Imports** 指示詞加入檔案的頂端：  
   
@@ -559,7 +560,7 @@ ms.lasthandoff: 02/22/2017
      此程式碼可讓應用程式存取 Microsoft Azure 上執行的行動服務。  
   
 ## <a name="test-the-application"></a>測試應用程式  
- 這樣就行了 – 您已建立可存取 Azure 行動服務的 WPF 桌面應用程式。 現在只需執行應用程式並查看它的運作情況。  
+ 這樣就行了 - 您已建立可存取 Azure 行動服務的 WPF 桌面應用程式。 現在只需執行應用程式並查看它的運作情況。  
   
 #### <a name="to-run-the-application"></a>若要執行應用程式  
   

@@ -35,14 +35,15 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
 ms.openlocfilehash: 989bc338e0cb8c49a2342d998e1e09e8f6b0eb9f
+ms.contentlocale: zh-tw
 ms.lasthandoff: 04/05/2017
 
 ---
 # <a name="output-window"></a>輸出視窗
-[輸出] 視窗可以顯示整合式開發環境 (IDE) 中各種功能的狀態訊息。 若要開啟 [輸出] 視窗，請在功能表列上選擇 [檢視/輸出] (或按一下 CTRL+ALT+O)。  
+[輸出] 視窗可以顯示整合式開發環境 (IDE) 中各種功能的狀態訊息。 若要開啟 [輸出] 視窗，請在功能表列上選擇 [檢視/輸出]\(或按一下 CTRL+ALT+O)。  
   
 > [!WARNING]
 >  在 Visual Studio Express 版本的 [檢視] 功能表上不會出現 [輸出] 視窗。 若要顯示它，請使用快速鍵 CTRL+ALT+O。  

@@ -29,10 +29,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: c0fa199f2ccbdc7b4e60b4295645ccf83792d435
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 8e829f0c69a777dcdcda75aa9305b9202748f23e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="analyze-cpu-usage-in-a-universal-windows-app-uwp"></a>分析通用 Windows App (UWP) 中的 CPU 使用量
@@ -73,7 +74,7 @@ ms.lasthandoff: 03/07/2017
   
      ![開始 CpuUsage 診斷工作階段](../profiling/media/cpu_use_wt_perfdiaghub.png "CPU_USE_WT_PerfDiagHub")  
   
-4.  當應用程式啟動時，按一下 [取得最大數目] 。 在顯示輸出之後等候約&1; 秒，然後選擇 [取得最大數目非同步] 。 在按鈕點選之間等候，可讓您更輕鬆地隔離診斷報告中的按鈕點選常式。  
+4.  當應用程式啟動時，按一下 [取得最大數目] 。 在顯示輸出之後等候約 1 秒，然後選擇 [取得最大數目非同步] 。 在按鈕點選之間等候，可讓您更輕鬆地隔離診斷報告中的按鈕點選常式。  
   
 5.  第二個輸出行出現之後，請選擇效能和診斷中樞中的 [停止收集]  。  
   
@@ -85,7 +86,7 @@ ms.lasthandoff: 03/07/2017
   
 ##  <a name="BKMK_Analyze_the_CPU_Usage_report"></a>分析 CPU 使用量報告  
   
-###  <a name="BKMK_CPU_utilization_timeline_graph">CPU 使用率時間軸圖形</a>  
+###  <a name="BKMK_CPU_utilization_timeline_graph"></a>CPU 使用率時間軸圖形  
  ![CPU 使用率 &#40;%&#41; 時間軸圖形](../profiling/media/cpu_use_wt_timelinegraph.png "CPU_USE_WT_TimelineGraph")  
   
  CPU 使用率圖形顯示應用程式的 CPU 活動 (以裝置上所有處理器核心之所有 CPU 時間的百分比表示)。 這份報告的資料收集自雙核心電腦。 兩個大型高峰代表兩個按鈕按一下的 CPU 活動。 `GetMaxNumberButton_Click` 在單一核心上同步執行，因此方法的圖形高度絕不會超出 50%。 `GetMaxNumberAsycButton_Click` 跨兩個核心非同步執行，讓其高峰更接近以使用兩個核心上的所有 CPU 資源。  
@@ -101,7 +102,7 @@ ms.lasthandoff: 03/07/2017
   
  ![GetMaxNumberAsyncButton&#95;Click 報告選取項目](../profiling/media/cpu_use_wt_getmaxnumberasync_selected.png "CPU_USE_WT_GetMaxNumberAsync_Selected")  
   
- 此方法完成的速度大約比 `GetMaxNumberButton_Click` 快&1; 秒，但是呼叫樹狀圖項目的意義較不明顯。  
+ 此方法完成的速度大約比 `GetMaxNumberButton_Click` 快 1 秒，但是呼叫樹狀圖項目的意義較不明顯。  
   
 ###  <a name="BKMK_The_CPU_Usage_call_tree"></a> CPU 使用量呼叫樹狀圖  
  若要開始了解呼叫樹狀圖資訊，請重新選取 `GetMaxNumberButton_Click` 區段，然後查看呼叫樹狀圖詳細資料。  
@@ -117,13 +118,13 @@ ms.lasthandoff: 03/07/2017
 |![步驟 4](../profiling/media/procguid_4.png "ProcGuid_4")|某個方法的子節點只包含父系方法呼叫的資料。 停用 [顯示外部程式碼]  時，應用程式方法也可包含 [外部程式碼]  節點。|  
   
 ####  <a name="BKMK_External_Code"></a> 外部程式碼  
- 外部程式碼包含在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU 使用量] 呼叫樹狀圖會將使用者方法的外部函式，收集成一個 [外部程式碼]  節點。  
+ 外部程式碼包含在系統和架構元件中由您撰寫之程式碼所執行的函式。 外部程式碼包含啟動和停止應用程式、繪製 UI、控制執行緒，以及將其他低階服務提供給應用程式的函式。 在大多數情況下，您對外部程式碼並不感興趣，因此 [CPU 使用量] 呼叫樹狀結構會將使用者方法的外部函式，收集成一個 [外部程式碼] 節點。  
   
  當您想要檢視外部程式碼的呼叫路徑時，請從 [篩選檢視]  清單中選擇 [顯示外部程式碼]  ，然後選擇 [套用] 。  
   
  ![選擇 [篩選檢視]，然後選擇 [ 顯示外部程式碼]](../profiling/media/cpu_use_wt_filterview.png "CPU_USE_WT_FilterView")  
   
- 請注意，許多外部程式碼呼叫鏈結都是深度巢狀的，因此 [函式名稱] 資料行的寬度可能會超出所有電腦監視器 (但不含最大的電腦監視器) 的顯示寬度。 發生此情況時，函式名稱會顯示為 […] ：  
+ 請注意，許多外部程式碼呼叫鏈結都是深度巢狀的，因此 [函式名稱] 資料行的寬度可能會超出所有電腦監視器 (但不含最大的電腦監視器) 的顯示寬度。 發生此情況時，函式名稱會顯示為 […]：  
   
  ![呼叫樹狀圖中的巢狀外部程式碼](../profiling/media/cpu_use_wt_showexternalcodetoowide.png "CPU_USE_WT_ShowExternalCodeTooWide")  
   
@@ -154,7 +155,7 @@ ms.lasthandoff: 03/07/2017
   
 -   `MainPage::GetMaxNumberAsyncButton_Click` 的功能很有限；它會管理工作值清單、計算結果的最大值，並顯示輸出。  
   
--   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 會顯示排程和啟動將呼叫包裝至 `GetNumberAsync` 之 48 項工作所需的活動。  
+-   `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` 會顯示排程和啟動將呼叫包裝至 `GetNumberAsync`之 48 項工作所需的活動。  
   
 -   `MainPage::<GetNumberAsync>b__b` 會顯示呼叫 `GetNumber` 之所有工作的活動。  
   

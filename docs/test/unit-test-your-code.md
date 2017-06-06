@@ -30,10 +30,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 91b3f224d92b9ace5df34cc74c8d7616b8458d6c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 1a47ab6e11e4c67713961078f125bb7abca23bb9
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="unit-test-your-code"></a>對程式碼進行單元測試
@@ -88,7 +89,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="external-resources"></a>外部資源  
   
 ### <a name="videos"></a>影片  
- [Channel 9：針對使用 XAML 建置的 Windows 市集應用程式進行單元測試 (英文)](http://go.microsoft.com/fwlink/?LinkId=226285)  
+ [Channel 9：Unit testing your Windows Store apps built using XAML (單元測試使用 XAML 建置的 Windows 市集應用程式)](http://go.microsoft.com/fwlink/?LinkId=226285)  
   
 ### <a name="forums"></a>論壇  
  [Visual Studio 單元測試](http://go.microsoft.com/fwlink/?LinkId=224477)  

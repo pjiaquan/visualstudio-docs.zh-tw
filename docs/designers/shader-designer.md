@@ -1,22 +1,42 @@
 ---
 title: "著色器設計工具 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.graphics.designer.effectdesigner"
-  - "vs.graphics.shaderdesigner"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.graphics.designer.effectdesigner
+- vs.graphics.shaderdesigner
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 caps.latest.revision: 32
-author: "BrianPeek"
-ms.author: "brpeek"
-manager: "ghogen"
-caps.handback.revision: 32
+author: BrianPeek
+ms.author: brpeek
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: af7472d5152babe2088ae3cc49caaf718a539878
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="shader-designer"></a>著色器設計工具
 本文件說明如何使用 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 著色器設計工具來建立、修改和匯出稱為「著色器」的自訂視覺效果。  
@@ -112,7 +132,7 @@ caps.handback.revision: 32
   
 -   在 [著色器設計工具模式] 工具列上，選擇您要的圖形。  
   
-####  <a name="a-namewwsmaterialparametersa-textures-and-material-parameters"></a><a name="WWS_MaterialParameters"></a> 紋理和材質參數  
+####  <a name="WWS_MaterialParameters"></a> 紋理和材質參數  
  許多著色器依賴紋理和材質屬性，產生應用程式中每一種物件的特有外觀。 若要查看著色器在應用程式中的外觀，您可以將用來轉譯預覽的紋理和材質屬性，設定為符合您可能會在應用程式中使用的紋理和參數。  
   
 ###### <a name="to-bind-a-different-texture-to-a-texture-register-or-to-modify-other-material-parameters"></a>將不同的紋理繫結至材質暫存器，或修改其他材質參數  
@@ -125,7 +145,7 @@ caps.handback.revision: 32
   
 |參數|屬性|  
 |---------------|----------------|  
-|**紋理 1** – **紋理 8**|**存取權**：                             [公用] 允許從模型編輯器設定此屬性，否則為 [私用]。<br /><br /> **檔名**：與這個材質暫存器相關聯的材質檔案完整路徑。|  
+|**紋理 1** - **紋理 8**|**存取權**：                             [公用] 允許從模型編輯器設定此屬性，否則為 [私用]。<br /><br /> **檔名**：與這個材質暫存器相關聯的材質檔案完整路徑。|  
 |**材質環境**|**存取權**：                             [公用] 允許從模型編輯器設定此屬性，否則為 [私用]。<br /><br /> **值**︰目前像素的擴散色彩，由間接或環境光源造成。|  
 |**材質擴散**|**存取權**：[公用] 允許從模型編輯器設定此屬性，否則為 [私用]。<br /><br /> **值**：色彩，描述目前像素如何使直接光源擴散。|  
 |**材質放射**|**存取權**：[公用] 允許從模型編輯器設定此屬性，否則為 [私用]。<br /><br /> **值**：目前像素的色彩比重，由自行提供的光源造成。|  
@@ -185,8 +205,3 @@ caps.handback.revision: 32
 |[使用 3D 資產來打造遊戲和應用程式](../designers/working-with-3-d-assets-for-games-and-apps.md)|提供 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 工具的概觀，您可用來搭配紋理及影像、3D 模型和著色器效果使用。|  
 |[影像編輯器](../designers/image-editor.md)|描述如何使用 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 影像編輯器來處理紋理和影像。|  
 |[模型編輯器](../designers/model-editor.md)|說明如何使用 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 模型編輯器來使用 3D 模型。|
-
-
-<!--HONumber=Feb17_HO4-->
-
-

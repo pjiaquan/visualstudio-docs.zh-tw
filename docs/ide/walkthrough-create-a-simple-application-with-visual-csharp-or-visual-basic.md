@@ -28,9 +28,10 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
 ms.openlocfilehash: 0a5c51b66cb7e5a88b9432c74432947ab94ae316
+ms.contentlocale: zh-tw
 ms.lasthandoff: 02/22/2017
 
 ---
@@ -48,12 +49,12 @@ ms.lasthandoff: 02/22/2017
 > [!NOTE]
 >  這個逐步解說是以 Visual Studio Professional 為基礎，提供您在建立這個逐步解說的專案時使用的 WPF 應用程式範本。 Visual Studio Express for Windows Desktop 也有提供該範本，不過，Visual Studio Express for Windows 和 Visual Studio Express for Web 則未提供。 如需如何使用 Visual Studio Express for Windows 的入門資訊，請參閱 [Windows 市集應用程式的開發人員中心](http://msdn.microsoft.com/windows/apps/br229519)。 如需如何使用 Visual Studio Express for Web 的入門資訊，請參閱 [Get Started with ASP.NET](http://www.asp.net/get-started)(開始使用 ASP.NET)。 此外，您的 Visual Studio 版本和使用的設定會決定某些使用者介面之項目的名稱和位置。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   
-##  <a name="a-namebkmkconfigureidea-configure-the-ide"></a><a name="BKMK_ConfigureIDE"></a> 設定 IDE  
+##  <a name="BKMK_ConfigureIDE"></a> 設定 IDE  
  當您第一次啟動 Visual Studio 時，Visual Studio 會提示您使用 Microsoft 服務帳戶 (MSA) 登入，請 [登入 Visual Studio](http://blogs.msdn.com/b/visualstudio/archive/2013/06/28/welcome-sign-in-to-visual-studio.aspx)。 您不一定要登入，可以稍後再進行。  
   
  在 Visual Studio 上市之後，您接下來就必須選擇一組可將預先定義的自訂套用到 IDE 的設定組合。 每個設定組合都是為了讓您更輕鬆地開發應用程式而精心設計的。  
   
- 這個逐步解說會假設您已套用 [一般開發設定] (它對 IDE 套用的自訂最少)。 如果您已經選擇 C# 或 Visual Basic (兩者都是很好的選擇)，則不需要變更您的設定。  如果您要變更您的設定，則可使用 [匯入和匯出設定精靈] 。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+ 這個逐步解說會假設您已套用 [一般開發設定]\(它對 IDE 套用的自訂最少)。 如果您已經選擇 C# 或 Visual Basic (兩者都是很好的選擇)，則不需要變更您的設定。  如果您要變更您的設定，則可使用 [匯入和匯出設定精靈] 。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   
  開啟 Visual Studio 之後，您可以看到工具視窗、功能表和工具列，以及主視窗空間。 工具視窗會停駐在應用程式視窗的左右端，同時 [ **快速啟動**]、功能表列和標準工具列則位於視窗的上方。 位於應用程式視窗中央的是 [ **起始頁**]。 當您載入方案或專案時，編輯器和設計工具會出現在 [起始頁]  所在的空間中。 在開發應用程式時，您大部分時間都會在此中央區域工作。  
   
@@ -85,7 +86,7 @@ ms.lasthandoff: 02/22/2017
   
  這個逐步解說的其餘部分使用的圖片色彩佈景主題是淺色佈景主題。 如需自訂 IDE 的詳細資訊，請參閱[在 Visual Studio 中自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   
-##  <a name="a-namebkmkcreateappa-create-a-simple-application"></a><a name="BKMK_CreateApp"></a> 建立簡單的應用程式  
+##  <a name="BKMK_CreateApp"></a> 建立簡單的應用程式  
   
 ### <a name="create-the-project"></a>建立專案  
  當您在 Visual Studio 中建立應用程式時，您需要先建立一個專案和一個方案。 在這個範例中，您將建立 Windows Presentation Foundation (WPF) 專案。  
@@ -263,7 +264,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  儲存應用程式。  
   
-##  <a name="a-namebkmkdebugtesta-debug-and-test-the-application"></a><a name="BKMK_DebugTest"></a> 偵錯和測試應用程式  
+##  <a name="BKMK_DebugTest"></a> 偵錯和測試應用程式  
  接下來，您會偵錯應用程式以尋找錯誤，並測試兩個訊息方塊是否都正確出現。 下列指示會告訴您如何建置和啟動偵錯工具，不過您稍後也可閱讀[建置 WPF 應用程式 (WPF)](http://msdn.microsoft.com/Library/a58696fd-bdad-4b55-9759-136dfdf8b91c) 和[偵錯 WPF](../debugger/debugging-wpf.md) 以取得詳細資訊。  
   
 ### <a name="find-and-fix-errors"></a>尋找和修正錯誤  

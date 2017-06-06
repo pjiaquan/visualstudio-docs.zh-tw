@@ -28,14 +28,15 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: f78e2b713e75c5601a07907e7f717db92571568b
-ms.openlocfilehash: 06a708113c86ca51a4ef98399b34b9dec8e90ccc
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 7e95cec543216f13de06d2c2b86bc08040d1a7fb
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="application-lifecycle-management-alm-with-unity-apps"></a>應用程式生命週期管理 (ALM) (含 Unity 應用程式)
-開發新型平台的應用程式比起只撰寫程式碼牽涉到更多活動。 這些稱為 DevOps (開發 + 作業) 的活動橫跨整個應用程式生命週期，包含計劃和追蹤工作、設計和實作程式碼、管理原始程式碼儲存機制、執行建置、管理持續整合和部署、測試 (包含單元測試和 UI 測試)、在開發和生產環境中執行各種形式的診斷，以及透過遙測和分析即時監視應用程式效能和使用者行為。  
+開發新型平台的應用程式比起只撰寫程式碼牽涉到更多活動。 這些稱為 DevOps (開發 + 作業) 的活動會橫跨應用程式的整個生命週期，包含計劃和追蹤工作、設計和實作程式碼、管理原始程式碼儲存機制、執行組建、管理持續整合和部署、測試 (包含單元測試和 UI 測試)、在開發和生產環境中執行各種形式的診斷，以及透過遙測和分析即時監視應用程式效能和使用者行為。  
   
  Visual Studio 以及 Visual Studio Team Services 和 Team Foundation Server 會一同提供各種 DevOps 功能，也稱為「應用程式生命週期管理」或 ALM。 其中許多項目都適用於跨平台專案 (包括使用 Unity 所建立的遊戲和沈浸式圖形化應用程式)，特別是使用 C# 做為指令碼語言時。 不過，因為 Unity 有其專屬開發環境和執行階段引擎，所以許多 ALM 功能不適用，如同其在 Visual Studio 中所建置的其他類型專案中亦不適用。  
   
@@ -109,7 +110,7 @@ ms.lasthandoff: 02/22/2017
 |測試管理員 (錄製和播放測試)|僅限 Windows 裝置及 Android 模擬器||  
 |程式碼涵蓋範圍|N/A|不適用，因為是在 Unity 內進行單元測試，而非 Visual Studio 內，請見下文。|  
 |[對程式碼進行單元測試](../test/unit-test-your-code.md)|在 Unity 內，而非 Visual Studio 內|Unity 提供專屬單元測試架構做為 [Unity 測試工具 (英文)](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store) 的一部分。 單元測試結果會在 Unity 內報告，但不會顯示在 Visual Studio 內。|  
-|[使用 UI 自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)|否|自動程式碼 UI 測試會依賴應用程式 UI 中的可讀取控制項；Unity 應用程式在本質上是圖形，因此，自動程式碼 UI 測試工具無法讀取內容。|  
+|[使用 UI 自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)|否|自動程式化 UI 測試會依賴應用程式 UI 中的可讀取控制項；Unity 應用程式在本質上是圖形，因此，自動程式化 UI 測試工具無法讀取內容。|  
   
 ## <a name="improve-code-quality"></a>改善程式碼品質  
  參考連結︰**[改善程式碼品質](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
@@ -132,7 +133,7 @@ ms.lasthandoff: 02/22/2017
 |上傳至應用程式存放區|Partial|您可以針對某些應用程式存放區，使用擴充功能來自動化此程序。  請參閱[適用於 Visual Studio Team Services 的擴充功能 (英文)](https://marketplace.visualstudio.com/VSTS)；例如[適用於 Google Play 的擴充功能 (英文)](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play)。|  
   
 ## <a name="monitor-with-hockeyapp"></a>使用 HockeyApp 監視  
- 參考連結︰**[使用 HockeyApp 監視 (英文)](https://www.hockeyapp.net/features/)**  
+ 參考連結︰ **[使用 HockeyApp 監視 (英文)](https://www.hockeyapp.net/features/)**  
   
 |功能|支援 Unity|其他註解|  
 |-------------|--------------------------|-------------------------|  

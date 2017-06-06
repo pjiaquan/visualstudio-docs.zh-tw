@@ -1,19 +1,39 @@
 ---
 title: "步驟 6：命名您的按鈕控制項 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 29
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 09ce424d13fd6fa2e6e511370f509dd54a7c1a1e
+ms.openlocfilehash: 9af9f76e799c39533785f9230be867ace4dbee6a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 02/22/2017
+
 ---
 # <a name="step-6-name-your-button-controls"></a>步驟 6：命名您的按鈕控制項
 表單上只有一個 PictureBox。 加入它時，IDE 會自動將它命名為 **pictureBox1**。 只有一個 CheckBox，名為 **checkBox1**。 接著，您將撰寫一些程式碼，該程式碼會參考 CheckBox 和 PictureBox。 因為這些控制項都只有一個，所以您在程式碼中看到 **pictureBox1** 或 **checkBox1** 時就知道它們代表的意義。  
@@ -57,7 +77,7 @@ caps.handback.revision: 29
 6.  若要再加入一個方法，在 [Windows Forms 設計工具] 中開啟 CheckBox 控制項的程式碼檔案，讓 IDE 加入 `checkBox1_CheckedChanged()` 方法。 每當使用者選取或清除核取方塊時就會呼叫該方法。  
   
     > [!NOTE]
-    >  在設計程式時，您通常會在程式碼編輯器和 [Windows Forms 設計工具] 之間移動。 IDE 可讓您在專案中輕鬆巡覽。 使用 [方案總管]  開啟 [Windows Forms 設計工具] (在 Visual C# 中按兩下 [Form1.cs]  或在 Visual Basic 中按兩下 [Form1.vb]  )，或是在功能表列上選擇 [檢視] 、[設計工具] 。  
+    >  在設計程式時，您通常會在程式碼編輯器和 [Windows Forms 設計工具] 之間移動。 IDE 可讓您在專案中輕鬆巡覽。 使用 [方案總管]  開啟 [Windows Forms 設計工具]\(在 Visual C# 中按兩下 [Form1.cs]  或在 Visual Basic 中按兩下 [Form1.vb]  )，或是在功能表列上選擇 [檢視] 、[設計工具] 。  
   
      下列顯示您在程式碼編輯器中看到的新程式碼。  
   
@@ -77,8 +97,3 @@ caps.handback.revision: 29
 -   若要移到下一個教學課程步驟，請參閱[步驟 7：將對話方塊元件新增至您的表單](../ide/step-7-add-dialog-components-to-your-form.md)。  
   
 -   若要回到上一個教學課程步驟，請參閱[步驟 5：將控制項新增至您的表單](../ide/step-5-add-controls-to-your-form.md)。
-
-
-<!--HONumber=Feb17_HO4-->
-
-

@@ -1,51 +1,68 @@
 ---
 title: "MSBuild 多目標概觀 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: eecbcd65-9fbc-4307-a321-46d3c3b79b12
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 10
----
-# MSBuild 多目標概觀
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 9c224e926024e99477c81fe4f8c533d59280074d
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
-使用 MSBuild，您可以將應用程式編譯為可在任何一個 .NET Framework 版本與任何一個系統平台上運行。  例如，您可以將應用程式編譯為在 .NET Framework 2.0 的 32\-bit 版上執行，並將同一個應用程式編譯為在 .NET Framework 4 的 64\-bit 版上執行。  
+---
+# <a name="msbuild-multitargeting-overview"></a>MSBuild 多目標概觀
+您可以使用 MSBuild，將應用程式編譯為在數個 .NET Framework 版本中的任一版上或數個系統平台中的任一個平台上執行。 例如，您可以將應用程式編譯為在 32 位元平台的 .NET Framework 2.0 上執行，也可以將同一個應用程式編譯為在 64 位元平台的 .NET Framework 4.5 上執行。  
   
 > [!IMPORTANT]
->  儘管名稱為「多目標」，專案只能一次以一種 framework 和一個平台為目標。  
+>  除了名稱「多目標」之外，專案一次只能以一個架構和一個平台為目標。  
   
- 這些是 MSBuild 的目標功能:  
+ 這些是一部分的 MSBuild 目標功能︰  
   
--   您可以開發以較舊版 .NET Framework \(例如 2.0、3.5 或 4 版\) 為目標的應用程式。  
+-   您可以開發以較舊版 .NET Framework (例如 2.0、3.5 或 4 版) 為目標的應用程式。  
   
--   您可以以 .NET Framework 以外的 Framework 為目標，例如 Silverlight Framework。  
+-   您可以將 .NET Framework 以外的架構作為目標，例如 Silverlight Framework。  
   
--   您可以以「*架構設定檔*」\(Framework Profile\) 為目標，這是預先定義的目標 Framework 子集。  
+-   您可以將「Framework 設定檔」當做目標，這是預先定義的目標 Framework 子集。  
   
--   如果 .NET Framework 有 Service Pack 已發行，您可以以它們為目標。  
+-   如果 .NET Framework 目前版本的 Service Pack 已發行，您可以將它當做目標。  
   
--   MSBuild 目標可保證應用程式只使用目標 Framework 與平台中提供的功能。  
+-   MSBuild 多目標可保證應用程式只使用目標 Framework 和平台中提供的功能。  
   
-## 目標 Framework 和平台。  
- *目標 Framework* 是專案建置後執行的 .NET Framework 版本，而 *目標平台* 是專案建置後執行的執行的平台。例如，您可能想要以在32 位元平台的 .NET Framework 2.0 能執行應用程式為目標，而此平台與 802x86 處理器系列 \(x86\) 相容。  目標 Framework 和目標平台的組合稱為 *目標內容*。  如需詳細資訊，請參閱[目標 Framework 和目標平台](../msbuild/msbuild-target-framework-and-target-platform.md)。  
+## <a name="target-framework-and-platform"></a>目標架構和平台  
+ 「目標架構」是建置專案以在其上執行的 .NET Framework 版本，而「目標平台」是建置專案以在其上執行的系統平台。  例如，您可能想要設定 .NET Framework 2.0 應用程式，在與 802x86 處理器系列 (x86) 相容的 32 位元平台上執行。 目標 Framework 和目標平台的組合稱為「目標內容」。 如需詳細資訊，請參閱[目標 Framework 和目標平台](../msbuild/msbuild-target-framework-and-target-platform.md)。  
   
-## Toolset \(ToolsVersion\)  
- 工具組收集用來建立應用程式的工具、工作和目標。  Toolset 包含編譯器 \(例如 csc.exe 和 vbc.exe\)、通用目標檔 \(microsoft.common.targets\) 以及通用工作檔 \(microsoft.common.tasks\)。  4.5 工具組可用來以 .NET Framework 2.0， 3.0， 3.5， 4 和 4.5 為對象。然而， MSBuild 2.0 Toolset 僅可用於 .NET Framework 2.0 。  如需詳細資訊，請參閱[Toolset \(ToolsVersion\)](../msbuild/msbuild-toolset-toolsversion.md)。  
+## <a name="toolset-toolsversion"></a>Toolset (ToolsVersion)  
+ 工具組會將工具、工作以及用來建立應用程式的目標收集在一起。 工具組包括 csc.exe 和 vbc.exe 這類編譯器、一般 targets 檔案 (microsoft.common.targets) 和一般 tasks 檔案 (microsoft.common.tasks)。 4.5 工具組可以用來以 .NET Framework 版本 2.0、3.0、3.5、4 和 4.5 為目標。 不過，2.0 工具組只能用來以 .NET Framework 版本 2.0 為目標。 如需詳細資訊，請參閱 [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)。  
   
-## 參考組件  
- Toolset 中指定的參考組件幫助您設計和建立應用程式。  這些參考組件不只啟用特定目標建置，而且只開放 Visual Studio IDE 中與目標相容的元件和功能。  如需詳細資訊，請參閱[在設計階段時解析組件](../msbuild/resolving-assemblies-at-design-time.md)。  
+## <a name="reference-assemblies"></a>參考組件  
+ 工具組中所指定的參考組件可協助您設計和建置應用程式。 這些參考組件不僅會啟用特定目標組建，也會將 Visual Studio IDE 中的元件和功能限制為與目標相容的元件和功能。 如需詳細資訊，請參閱[在設計階段時解析組件](../msbuild/resolving-assemblies-at-design-time.md)。  
   
-## 設定目標和工作  
- 您可以設定 MSBuild 目標和工作以跨處理序執行，讓您能用您現在執行的版本構建不同版本的內容。例如，在開發電腦上執行 64 位元的 .NET Framework 4.5 時，您能以 32 位元 .NET Framework 2.0 應用程式為建立目標。如需詳細資訊，請參閱[設定目標和工作](../msbuild/configuring-targets-and-tasks.md)。  
+## <a name="configuring-targets-and-tasks"></a>設定目標和工作  
+ 您可以設定 MSBuild 目標和工作以跨處理序方式隨 MSBuild 一起執行，如此您就能以視為與目前執行之內容不同的內容作為目標。  例如，您可以在開發電腦以具有 .NET Framework 4.5 的 64 位元平台執行時，以 32 位元 .NET Framework 2.0 應用程式為目標。 如需詳細資訊，請參閱[設定目標和工作](../msbuild/configuring-targets-and-tasks.md)。  
   
-## 疑難排解  
- 如果您嘗試參考不是目標內容的組件，您可能會遇到錯誤。  如需這些錯誤的詳細資訊和得知如何解決，請參閱 [疑難排解 .NET Framework 目標錯誤](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)。
+## <a name="troubleshooting"></a>疑難排解  
+ 如果您嘗試參考不屬於目標內容的組件，則可能會發生錯誤。 如需這些錯誤和其處理方式的詳細資訊，請參閱[針對 .NET Framework 目標錯誤進行疑難排解](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)。

@@ -13,10 +13,11 @@ caps.latest.revision: 11
 author: BrianPeek
 ms.author: brpeek
 manager: ghogen
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: fa78fa1e06619cd784831a47644e0092e6a9a0ab
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 77f610f9bf40cbd1ff840832203a78ccbaa3eeb2
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps"></a>如何：匯出材質以搭配 Direct2D 或 Javascipt 應用程式使用
@@ -51,7 +52,7 @@ ms.lasthandoff: 02/22/2017
   
 #### <a name="to-create-a-texture-thats-compatible-with-direct2d-rendering-conventions"></a>建立與 Direct2D 轉譯慣例相容的材質  
   
-1.  從基本材質著手。 載入現有的影像，或依照[如何：建立基本材質](../designers/how-to-create-a-basic-texture.md)所述，建立新影像。 若要支援以 .dds 格式支援區塊壓縮，請指定寬度和高度大小是 4 的倍數 (例如 100x100、128x128 或 256x192) 的材質。 由於不支援 Mipmap，因此材質不一定要是正方形，且大小不一定要是&2; 的乘冪。  
+1.  從基本材質著手。 載入現有的影像，或依照[如何：建立基本材質](../designers/how-to-create-a-basic-texture.md)所述，建立新影像。 若要支援以 .dds 格式支援區塊壓縮，請指定寬度和高度大小是 4 的倍數 (例如 100x100、128x128 或 256x192) 的材質。 由於不支援 Mipmap，因此材質不一定要是正方形，且大小不一定要是 2 的乘冪。  
   
 2.  設定材質檔案，以便供「影像內容管線」處理。 在 [方案總管] 中，開啟您剛建立之材質檔案的捷徑功能表，然後選擇 [屬性]。 在 [組態屬性] > [一般] 頁面上，將 [項目類型] 屬性設定為 [影像內容管線]。 確定 [內容] 屬性是設定為 [是]，且 [從組建中排除] 是設定為 [否]，然後選擇 [套用] 按鈕。 此時會顯示 [影像內容管線] 組態屬性頁面。  
   

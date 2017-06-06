@@ -27,10 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: e9a05d008f671fb79d6813a14c594b82f27697e3
-ms.openlocfilehash: 1613943840c79028e3c60db0f54a73243eb3948c
-ms.lasthandoff: 03/27/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: a2958c20bbfbd9f4f3d03946dbe230326894b1c1
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="gpu-usage"></a>GPU 使用量
@@ -51,7 +52,7 @@ ms.lasthandoff: 03/27/2017
  如需圖形診斷需求的詳細資訊，請參閱[使用者入門](../debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md)。  
   
 ## <a name="using-the-gpu-usage-tool"></a>使用 GPU 使用量工具  
- 使用 GPU 使用量工具執行應用程式時，Visual Studio 會建立一個診斷工作階段，可即時繪製應用程式轉譯效能和 GPU 使用率高階資訊的圖形。  
+ 使用 [GPU 使用量] 工具執行應用程式時，Visual Studio 會建立一個診斷工作階段，可即時繪製應用程式轉譯效能和 GPU 使用率高階資訊的圖形。  
   
 #### <a name="to-start-the-gpu-usage-tool"></a>啟動 GPU 使用量工具：  
   
@@ -84,7 +85,7 @@ ms.lasthandoff: 03/27/2017
   
      ![收集後，選取範圍以檢視詳細資料](media/gfx_diag_gpu_usage_select1.png "gfx_diag_gpu_usage_select1")  
   
-3.  在報告的下半部，選擇 [...按一下這裡以檢視該範圍的 GPU 使用量詳細資料] 訊息中的 [檢視詳細資料] 連結，以檢視您選取項目的詳細時間軸。  
+3.  在報告的下半部，選擇 [...click here to view details of GPU usage for that range] (...按一下這裡以檢視該範圍的 GPU 使用量詳細資料) 訊息中的 [檢視詳細資料] 連結，以檢視您選取項目的詳細時間軸。  
   
      ![收集後，已選取範圍](media/gfx_diag_gpu_usage_select2.png "gfx_diag_gpu_usage_select2")  
   
@@ -114,7 +115,7 @@ ms.lasthandoff: 03/27/2017
   
 |篩選控制項|描述|  
 |--------------------|-----------------|  
-|**Process**|您感興趣的處理序名稱。 在診斷工作階段期間使用 GPU 的所有處理序都包含在此下拉式清單中。 與此下拉式清單中處理序相關聯的色彩就是下面時間軸中執行緒活動的色彩。|  
+|**Process**|您感興趣的處理序名稱。 在診斷工作階段期間使用 GPU 的所有處理序都包含在此下拉式清單中。 與此下拉式清單中處理序建立關聯的色彩就是下面時間軸中執行緒活動的色彩。|  
 |**Thread**|您感興趣的執行緒 ID。 在多執行緒應用程式中，這可協助您找出您感興趣之處理序的特定執行緒。 在每個時間軸中會反白顯示與所選取執行緒相關聯的事件。|  
 |**顯示**|顯示其重新整理頻率的顯示器數目。**注意：**有些驅動程式可以設定成以單一大型虛擬顯示器形式來呈現多部實體顯示器。 您可能只會看到列出一個顯示器，即使電腦連接多部顯示器也是一樣。|  
 |**篩選**|您感興趣的關鍵字。 報告下半部中的事件僅會包括符合整個或局部關鍵字的事件。 您可以指定用分號 (;) 分隔的多個關鍵字。|  
@@ -157,8 +158,8 @@ ms.lasthandoff: 03/27/2017
   
 |Vendor|GPU 描述|需要驅動程式版本|  
 |------------|---------------------|-----------------------------|  
-|Intel®|第四代 Intel® 核心處理器 (‘Haswell’)<br /><br /> -   Intel® HD 圖形 (GT1)<br />-   Intel® HD 圖形 4200 (GT2)<br />-   Intel® HD 圖形 4400 (GT2)<br />-   Intel® HD 圖形 4600 (GT2)<br />-   Intel® HD 圖形 P4600 (GT2)<br />-   Intel® HD 圖形 P4700 (GT2)<br />-   Intel® HD 圖形 5000 (GT3)<br />-   Intel® Iris™ 圖形 5100 (GT3)<br />-   Intel® Iris™ Pro 圖形 5200 (GT3e)|-- (使用最新驅動程式)|  
-|AMD®|自 AMD Radeon™ HD 7000 系列之後的大部分項目 (排除 AMD Radeon™ HD 7350-7670)<br /><br /> 具備 Graphics Core Next (GCN) 架構的 AMD Radeon™ GPU、AMD FirePro™ GPU 和 AMD FirePro GPU 加速器。<br /><br /> 具備 Graphics Core Next (GCN) 架構的 AMD® E 系列和 AMD A 系列加速處理單位 (APU) (‘Kaveri’、‘Kabini’、‘Temash’、‘Beema’、‘Mullins’)|14.7 RC3 或更高版本|  
+|Intel®|第四代 Intel® 核心處理器 ("Haswell")<br /><br /> -   Intel® HD 圖形 (GT1)<br />-   Intel® HD 圖形 4200 (GT2)<br />-   Intel® HD 圖形 4400 (GT2)<br />-   Intel® HD 圖形 4600 (GT2)<br />-   Intel® HD 圖形 P4600 (GT2)<br />-   Intel® HD 圖形 P4700 (GT2)<br />-   Intel® HD 圖形 5000 (GT3)<br />-   Intel® Iris™ 圖形 5100 (GT3)<br />-   Intel® Iris™ Pro 圖形 5200 (GT3e)|-- (使用最新驅動程式)|  
+|AMD®|自 AMD Radeon™ HD 7000 系列之後的大部分項目 (排除 AMD Radeon™ HD 7350-7670)<br /><br /> 具備 Graphics Core Next (GCN) 架構的 AMD Radeon™ GPU、AMD FirePro™ GPU 和 AMD FirePro GPU 加速器。<br /><br /> 具備 Graphics Core Next (GCN) 架構的 AMD® E 系列和 AMD A 系列加速處理單位 (APU) ('Kaveri'、'Kabini'、'Temash'、'Beema'、'Mullins')|14.7 RC3 或更高版本|  
 |NVIDIA®|自 NVIDIA® GeForce® 400 系列之後的大部分項目。<br /><br /> 具備 Fermi™、Kepler™ 或 Maxwell™ 架構的 NVIDIA® GeForce® GPU、NVIDIA Quadro® GPU 和 NVIDIA® Tesla™ GPU 加速器。|343.37 或更高版本|  
   
  目前不支援多 GPU 組態 (例如 NVIDIA® SLI™ 和 AMD Crossfire™)。 支援混合式圖形安裝程式 (例如 NVIDIA® Optimus™ 和 AMD Enduro™)。  
