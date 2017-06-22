@@ -44,7 +44,7 @@ ms.lasthandoff: 03/03/2017
 # <a name="convert-dialog-box"></a>轉換對話方塊
 [轉換] 對話方塊可讓您選取轉換工具，以從舊的專案建立新的專案 (例如從 Visual Basic 6 專案建立 [!INCLUDE[vbprvblong](../../ide/reference/includes/vbprvblong_md.md)] 專案)。 您也可以使用 CodePlex 網站上提供的 [Visual Studio Project Converter](http://go.microsoft.com/fwlink/?LinkID=246465)，來升級舊版 Visual Studio 所建立的專案。  
   
- [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)].  
+ [!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
   
 ## <a name="opening-the-convert-dialog-box"></a>開啟轉換對話方塊  
   
