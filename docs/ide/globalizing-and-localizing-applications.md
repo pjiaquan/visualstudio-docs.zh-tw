@@ -34,18 +34,21 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 6d5beadf7ee6812a3318166adabbbe8e90716341
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 409becfa400b7275da07fd8ac0035660f8b941eb
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
-# <a name="globalizing-and-localizing-applications"></a>全球化和當地語系化應用程式
+# 全球化和當地語系化應用程式
+<a id="globalizing-and-localizing-applications" class="xliff"></a>
 如果您打算將應用程式散發給國際適用對象，您必須在設計和開發階段期間牢記下列幾項重點。 即使您不打算這麼做，這個簡單的前置工作，可讓您在未來版本的應用程式計劃有所變更時，更加事半功倍。 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 的內建服務可讓您使用 Visual Studio 的 Managed 開發功能，輕鬆開發單一應用程式，使其適應不同的地區設定。  
   
  Visual Studio 在設計之初就已設想到利用 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 內建的服務優勢，讓針對國際適用對象的開發作業更加輕鬆。 下列頁面有助您了解 Visual Studio 內建的國際化功能。  
   
-## <a name="in-this-section"></a>本章節內容  
+## 本章節內容
+<a id="in-this-section" class="xliff"></a>  
  [以 .NET Framework 為基礎的國際應用程式簡介](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  介紹使用 Visual Studio 和 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]，針對國際市場開發軟體的相關概念。  
   
@@ -55,7 +58,8 @@ ms.lasthandoff: 02/22/2017
  [全球化應用程式](../ide/globalizing-applications.md)  
  提供建立支援多種文化特性之應用程式的相關頁面連結。  
   
-## <a name="related-sections"></a>相關章節  
+## 相關章節
+<a id="related-sections" class="xliff"></a>  
  [全球化您的應用程式 (使用 JavaScript 和 HTML 的 Windows 市集應用程式)](http://go.microsoft.com/fwlink/?LinkId=258266)  
  包含做法主題和指導方針，有助您針對以 JavaScript 和 HTML 建置的 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式進行全球化和當地語系化作業。  
   
@@ -65,7 +69,7 @@ ms.lasthandoff: 02/22/2017
  [開發世界性的應用程式的最佳做法](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
  提供針對國際適用對象進行程式設計的背景資訊。  
   
- [類別庫概觀](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)  
+ [類別庫概觀](/dotnet/standard/class-library-overview)  
  介紹類別、介面和實值型別，以加速和最佳化開發過程並提供對系統功能的存取。  
   
  <xref:System.Globalization>  

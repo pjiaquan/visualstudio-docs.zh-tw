@@ -30,16 +30,19 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 4e23eb8ff0c1459c6dc5b9ac1928f8f7092c9a3e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 0616477123b4b2a08763a3871f42d67e06c1aa3a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
-# <a name="project-properties-reference"></a>專案屬性參考
+# 專案屬性參考
+<a id="project-properties-reference" class="xliff"></a>
 深入了解如何設定和自訂專案屬性。  
   
-## <a name="project-properties-pages"></a>專案屬性頁面  
+## 專案屬性頁面
+<a id="project-properties-pages" class="xliff"></a>  
   
 |標題|描述|  
 |-----------|-----------------|  
@@ -59,6 +62,6 @@ ms.lasthandoff: 02/22/2017
 |||  
 |||  
   
-## <a name="see-also"></a>另請參閱  
- [專案設計工具簡介](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
+## 另請參閱
+<a id="see-also" class="xliff"></a>  
  [專案和方案](../../ide/solutions-and-projects-in-visual-studio.md)
