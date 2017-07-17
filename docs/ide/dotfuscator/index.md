@@ -1,6 +1,6 @@
 ---
 title: Dotfuscator Community Edition (CE) | Microsoft Docs
-ms.date: 2017-05-10
+ms.date: 2017-06-22
 ms.prod: visual-studio-dev15
 ms.devlang: dotnet
 ms.technology:
@@ -33,21 +33,24 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 507ff049dae50698d86e1536ed21ab982da1af85
-ms.openlocfilehash: a4dd4e0f9a8f6c89452bc20e05139dfa5d062e0f
+ms.sourcegitcommit: 8ce85525f6af336682f6f8547c2f6c13dde73c8c
+ms.openlocfilehash: 15dd6127493b9977732fdb891a086f931e002459
 ms.contentlocale: zh-tw
-ms.lasthandoff: 02/22/2017
+ms.lasthandoff: 06/23/2017
 
 ---
 
-# <a name="dotfuscator-community-edition-ce"></a>Dotfuscator Community Edition (CE)
+# Dotfuscator Community Edition (CE)
+<a id="dotfuscator-community-edition-ce" class="xliff"></a>
 
-*PreEmptive Protection – Dotfuscator* 提供全方位的 .NET 應用程式保護，能輕鬆整合到您的安全軟體開發週期。 使用它來強化、保護及清理傳統型、行動裝置、伺服器和嵌入式應用程式，以協助保護商業機密和其他智慧財產 (IP)、減少盜版和仿冒，並防止竄改及未經授權的偵錯。
+*PreEmptive Protection - Dotfuscator* 可為 .NET 應用程式提供全方位的保護，而且很容易就能夠整合到您的軟體開發生命週期中。
+使用它來強化、保護及清理傳統型、行動裝置、伺服器和嵌入式應用程式，以協助保護商業機密和其他智慧財產 (IP)、減少盜版和仿冒，並防止竄改及未經授權的偵錯。
 Dotfuscator 不需要其他程式設計作業，甚至不需要存取原始程式碼，就可以在編譯的組件上執行。
 
 ![](media/header.svg)
 
-## <a name="why-protection-matters"></a>為何保護很重要
+## 為何保護很重要
+<a id="why-protection-matters" class="xliff"></a>
 
 保護您的「智慧財產」(IP) 非常重要。
 您的應用程式程式碼包含可視為智慧財產的設計和實作詳細資料。
@@ -61,12 +64,14 @@ Dotfuscator 可以在您的應用程式中插入[偵測、報告及回應未經�
 
 如需 Dotfuscator 如何整合到安全軟體開發週期的詳細資訊，請參閱 PreEmptive Solutions 的 [SDL 應用程式保護頁面][sdl-protection]。
 
-## <a name="about-dotfuscator-ce"></a>關於 Dotfuscator CE
+## 關於 Dotfuscator CE
+<a id="about-dotfuscator-ce" class="xliff"></a>
 
-您的 Microsoft Visual Studio 2017 包含 ***PreEmptive Protection - Dotfuscator* Community Edition** (又稱 Dotfuscator CE) 的免費授權。
+您的 Microsoft Visual Studio 2017 包含一份 ***PreEmptive Protection - Dotfuscator* Community Edition**，又稱為 Dotfuscator CE，可免費供個人使用。
 如需安裝隨附於 Visual Studio 2017 的 Dotfuscator CE 版本的詳細資訊，請參閱[安裝頁面][install]。
 
-Dotfuscator CE 針對開發人員、架構設計人員和測試人員提供多種[軟體保護及強化][software-protection]服務。 Dotfuscator CE 中包含的 [.NET Obfuscation][obfuscation] 及其他[應用程式保護][app-protection]功能的範例為：
+Dotfuscator CE 針對開發人員、架構設計人員和測試人員提供多種[軟體保護及強化][software-protection]服務。
+Dotfuscator CE 中包含的 [.NET Obfuscation][obfuscation] 及其他[應用程式保護][app-protection]功能的範例為：
 
 * *[重新命名][renaming]*識別項，使對編譯過的組件進行還原工程更困難。
 * *[反竄改][tamper]*會偵測遭竄改應用程式的執行、傳輸事件警示，以及終止遭竄改的工作階段。
@@ -81,7 +86,8 @@ Dotfuscator CE 提供現成的基本保護。
 註冊的 Dotfuscator CE 的使用者，以及 *PreEmptive Protection - Dotfuscator* Professional Edition (全球最先進的 [.NET Obfuscator][net-obfuscator]) 使用者，將能取得更多保護方法。
 如需增強 Dotfuscator 的相關資訊，請參閱[升級頁面][upgrades]。
 
-## <a name="getting-started"></a>快速入門
+## 快速入門
+<a id="getting-started" class="xliff"></a>
 
 若要開始從 Visual Studio 使用 Dotfuscator CE，請在 [快速啟動] (Ctrl+Q) 搜尋列中輸入 `dotfuscator`。
 
@@ -90,7 +96,8 @@ Dotfuscator CE 提供現成的基本保護。
 
 您也可以從 [preemptive.com 上的 Dotfuscator 下載頁面][download]取得最新版本的 Dotfuscator CE。
 
-## <a name="full-documentation"></a>完整文件
+## 完整文件
+<a id="full-documentation" class="xliff"></a>
 
 本頁面及其子頁面提供 Dotfuscator CE 功能的高階概觀，以及[安裝該工具的指示][install]。
 
@@ -98,7 +105,7 @@ Dotfuscator CE 提供現成的基本保護。
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
-[assemblies]: https://docs.microsoft.com/en-us/dotnet/articles/standard/assembly-format
+[assemblies]: https://docs.microsoft.com/en-us/dotnet/standard/assembly-format
 [software-protection]: https://www.preemptive.com/software-protection
 [obfuscation]: https://www.preemptive.com/obfuscation
 [app-protection]: https://www.preemptive.com/application-protection
@@ -110,18 +117,18 @@ Dotfuscator CE 提供現成的基本保護。
 [capabilities]: capabilities.md
 [upgrades]: upgrades.md
 
-[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
+[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
-[renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/obfuscation_renaming.html
+[renaming]: https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/checks_overview.html
-[tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/checks_tamper.html
-[debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/checks_debug.html
-[shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/checks_shelflife.html
+[checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
+[tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
+[debug]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
+[shelflife]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
 
-[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_exceptions.html
-[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_sessions.html
-[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/analytics_features.html
+[exceptions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_exceptions.html
+[sessions]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_sessions.html
+[features]: https://www.preemptive.com/dotfuscator/ce/docs/help/analytics_features.html
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/index.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
 
