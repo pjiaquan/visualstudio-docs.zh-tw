@@ -1,47 +1,65 @@
 ---
-title: "DA0007：避免使用例外狀況進行控制流程 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.performance.rules.DAExceptionsThrown"
-  - "vs.performance.7"
-  - "vs.performance.rules.DA0007"
-  - "vs.performance.DA0007"
+title: "DA0007：避免使用例外狀況控制流程 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-debug
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.performance.rules.DAExceptionsThrown
+- vs.performance.7
+- vs.performance.rules.DA0007
+- vs.performance.DA0007
 ms.assetid: ee8ba8b5-2313-46c9-b129-3f3a2a232898
 caps.latest.revision: 13
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "ghogen"
-caps.handback.revision: 13
----
-# DA0007：避免使用例外狀況進行控制流程
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: mikejo5000
+ms.author: mikejo
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: HT
+ms.sourcegitcommit: 63aad78bdc7df685ca3a73ec16a9cbc87b78151f
+ms.openlocfilehash: f61b97e24aca7788988b2e8bc2b2e3e838258c1a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/14/2017
 
+---
+# <a name="da0007-avoid-using-exceptions-for-control-flow"></a>DA0007：避免使用例外狀況進行控制流程
 |||  
 |-|-|  
 |規則 ID|DA0007|  
-|分類|.NET Framework 使用|  
-|程式碼剖析方法|全部|  
-|Message|持續有大量例外狀況擲回。  請考慮在程式邏輯中減少例外狀況的使用。|  
+|分類|.NET Framework 使用方式|  
+|分析方法|全部|  
+|訊息|一致地擲回大量例外狀況。 請考慮在程式邏輯中減少使用例外狀況。|  
 |訊息類型|警告|  
   
- 當您使用取樣、.NET 記憶體或資源爭用方法進行程式碼剖析時，必須至少收集 25 個範本才能觸發此規則。  
+ 當您使用取樣、.NET 記憶體或資源爭用方法進行分析時，必須至少收集 25 個樣本才能觸發此規則。  
   
-## 原因  
- 程式碼剖析資料中呼叫了高比率的 .NET Framework 例外狀況處理常式。  請考慮使用其他控制流程邏輯，以減少擲回的例外狀況數目。  
+## <a name="cause"></a>原因  
+ 在分析資料中呼叫高比率的 .NET Framework 例外處理常式。 請考慮使用其他控制流程邏輯，以減少擲回的例外狀況數量。  
   
-## 規則描述  
- 雖然使用例外狀況處理常式來攔截錯誤和會中斷程式執行的其他事件是良好的作法，使用例外狀況處理常式做為規則程式執行邏輯的部分，可能會耗費許多資源，而且應該盡量避免。  在大多數情況下，都應該只針對很少發生和非預期的情況使用例外狀況。  例外狀況不應在一般程式流程時用來傳回值。  在許多情況下，您可以藉由驗證值和使用條件式邏輯來暫止會造成問題之陳述式的執行，以避免引發例外狀況。  
+## <a name="rule-description"></a>規則描述  
+ 雖然使用例外處理常式來攔截中斷程式執行的錯誤和其他事件是一個好方法，但是在一般的程式執行邏輯中使用例外處理常式可能會很耗費資源，應予以避免。 在大部分情況下，最好只針對很少發生且未預期的情況使用例外狀況。 例外狀況不應該用來當做一般程式流程的一部分傳回值。 在許多情況下，您可以驗證值並使用條件式邏輯以暫止執行導致問題的陳述式，來避免引發例外狀況。  
   
- 如需詳細資訊請參閱在 MSDN 程式庫區段中， **Microsoft Patterns and Practices Improving .NET Application Performance and Scalability Chapter 5 — Improving Managed Code Performance**[例外狀況管理](http://go.microsoft.com/fwlink/?LinkID=177825)。  
+ 如需詳細資訊，請參閱 MSDN 上 **Microsoft Patterns and Practices** 文件庫中＜改進 .NET 應用程式效能和延展性＞(英文) 的＜第 5 章 - 改進 Managed 程式碼的效能＞(英文) 中的[例外狀況管理 (英文)](http://go.microsoft.com/fwlink/?LinkID=177825) 一節。  
   
-## 如何調查警告  
- 按兩下 \[錯誤清單\] 視窗中的訊息，即可巡覽至標記檢視。  尋找包含 \[**.NET CLR Exceptions\(@ProcessInstance\)\\\# of Exceps Thrown \/ sec**\] 度量的資料行。  判斷是否有特定的程式執行階段，其中例外狀況處理比其他階段更為頻繁。  使用取樣設定檔，嘗試識別經常產生例外狀況的 throw 陳述式和 try\/catch 區塊。  必要時，將邏輯加入至 catch 區塊，以協助您了解哪些例外狀況最常被處理。  請盡可能以簡單的流程控制邏輯或驗證程式碼，來取代經常執行的 throw 陳述式或 catch 區塊。  
+## <a name="how-to-investigate-a-warning"></a>如何調查警告  
+ 按兩下 [錯誤清單] 視窗中的訊息，瀏覽至 [標記] 檢視。 尋找包含 **.NET CLR Exceptions(@ProcessInstance)\\# of Exceps Thrown / sec** 度量的欄位。 判斷是否有特定的程式執行階段，當中的例外狀況處理比其他階段更頻繁。 使用取樣設定檔，嘗試識別 throw 陳述式以及產生頻繁例外狀況的 try/catch 區塊。 如果有必要，請在 catch 區塊中加入邏輯，協助您了解最常處理的例外狀況。 如果可行，請將經常執行的 throw 陳述式或 catch 區塊，取代為簡單的流程控制邏輯或驗證程式碼。  
   
- 例如，如果您發現自己的應用程式有處理頻繁的 DivideByZeroException 例外狀況，將邏輯加入程式以檢查具有零值的分母，就會改善應用程式的效能。
+ 例如，如果您發現應用程式經常處理 DivideByZeroException 例外狀況，在程式中加入邏輯來檢查分母是否有零值將可改善應用程式的效能。
