@@ -36,18 +36,21 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: b88c533d613d531a7dcc24e0610e2fb2a7a3d880
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8bf0b097be929b30627e0f1139c6e0b145933ab4
+ms.openlocfilehash: 5a8237e5c437878b22bd3c67a3a4ba2cdc3fa126
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/26/2017
 
 ---
-# <a name="prerequisites-dialog-box"></a>Prerequisites Dialog Box
+# Prerequisites Dialog Box
+<a id="prerequisites-dialog-box" class="xliff"></a>
 這個對話方塊可指定已安裝的必要條件元件、安裝方式，以及套件的安裝順序。  
   
  若要存取這個對話方塊，請選取方案總管中的專案節點，然後按一下 [專案] 功能表上的 [屬性]。 當 [ **專案設計工具** ] 出現時，請按一下 [ **發行** ] 索引標籤。 在 [發行] 頁面上，按一下 [必要條件]。 針對安裝專案，按一下 [專案] 功能表上的 [屬性]。 出現 [屬性頁] 對話方塊時，按一下 [必要條件]。  
   
-## <a name="uielement-list"></a>UIElement 清單  
+## UIElement 清單
+<a id="uielement-list" class="xliff"></a>  
   
 |項目|說明|  
 |-------------|-----------------|  
@@ -58,17 +61,18 @@ ms.lasthandoff: 04/05/2017
 |**從應用程式的相同位置下載必要條件**|指定從應用程式的相同位置安裝必要條件元件。 這個選項會將所有的必要條件套件複製到發行位置。 必要條件套件必須放在開發電腦上，這個選項才能正常運作。|  
 |**從下列位置下載必要條件**|指定從您選取的位置安裝必要條件元件。 您可以使用 [瀏覽] 按鈕來選取位置。|  
   
-## <a name="prerequisites-information"></a>必要條件資訊  
+## 必要條件資訊
+<a id="prerequisites-information" class="xliff"></a>  
  [必要條件] 對話方塊中顯示的必要條件元件，可能和以下所列的不同。 第一次開啟該對話方塊時，會自動設定**必要條件對話方塊**中所列的必要條件套件。 如果您接著變更專案的目標架構，您就必須手動選取必要條件以符合新的目標架構。  
   
 |項目|說明|  
 |-------------|-----------------|  
 |**.NET Framework 3.5 SP1**|這個套件會安裝下列項目：<br /><br /> -   .NET Framework 2.0、3.0 和 3.5 版。<br />-   支援 32 位元 (x86) 及 64 位元 (x64) 作業系統上的所有 .NET Framework 版本。<br />-   隨著這個套件一併安裝之每個 .NET Framework 版本的語言套件。<br />-   .NET Framework 2.0 及 3.0 的 Service Pack。<br /><br /> .NET Framework 3.0 隨附於 Windows Vista，.NET Framework 3.5 則隨附於 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。 所有針對 32 位元作業系統編譯，而且目標架構設定為 [.NET Framework 3.5] 的 Visual Basic 和 Visual C# 專案，以及針對 64 位元作業系統編譯的 Visual Basic 和 Visual C# 專案，都需要 .NET Framework 3.5  (不支援 IA64)。請注意，根據預設，Visual Basic 和 Visual C# 專案是針對任何 CPU 架構編譯。 如需詳細資訊，請參閱 [Visual Studio 多目標概觀](../../ide/visual-studio-multi-targeting-overview.md)、[轉散發 .NET Framework](http://msdn.microsoft.com/en-us/a18d0456-fd89-493e-97f4-756505bfe287) 和 [64 位元應用程式的部署必要條件](../../deployment/deploying-prerequisites-for-64-bit-applications.md)。<br /><br /> 這個項目預設為選取。|  
-|**.NET Framework 3.5 SP1 Client Profile**|.NET Framework Client Profile 是完整 .NET Framework 3.5 SP1 的子集，以用戶端應用程式為目標。 它提供了 Windows Presentation Foundation (WPF)、Windows Forms、Windows Communication Foundation (WCF) 以及 ClickOnce 功能的精簡子集。 這樣可以快速部署以 .NET Framework Client Profile 為目標的 WPF、Windows Form、WCF 及主控台應用程式。 如需詳細資訊，請參閱 [.NET Framework Client Profile](http://msdn.microsoft.com/Library/f0219919-1f02-4588-8704-327a62fd91f1)。|  
+|**.NET Framework 3.5 SP1 Client Profile**|.NET Framework Client Profile 是完整 .NET Framework 3.5 SP1 的子集，以用戶端應用程式為目標。 它提供了 Windows Presentation Foundation (WPF)、Windows Forms、Windows Communication Foundation (WCF) 以及 ClickOnce 功能的精簡子集。 這樣可以快速部署以 .NET Framework Client Profile 為目標的 WPF、Windows Form、WCF 及主控台應用程式。 如需詳細資訊，請參閱 [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile)。|  
 |**Microsoft .NET Framework 4 (x86 和 x64)**|這個套件會在 x86 和 x64 平台安裝 .NET Framework 4。<br /><br /> 如需詳細資訊，請參閱 [Visual Studio 多目標概觀](../../ide/visual-studio-multi-targeting-overview.md)、[轉散發 .NET Framework](http://msdn.microsoft.com/en-us/a18d0456-fd89-493e-97f4-756505bfe287) 和 [64 位元應用程式的部署必要條件](../../deployment/deploying-prerequisites-for-64-bit-applications.md)。<br /><br /> 這個項目預設為選取。|  
-|**Microsoft .NET Framework 4 Client Profile (x86 和 x64)**|.NET Framework 4 Client Profile 是完整 .NET Framework 4 的子集，以用戶端應用程式為目標。 它提供了 Windows Presentation Foundation (WPF)、Windows Forms、Windows Communication Foundation (WCF) 以及 ClickOnce 功能的精簡子集。 這樣可以快速部署以 .NET Framework 4 Client Profile 為目標的 WPF、Windows Form 及主控台應用程式。 如需詳細資訊，請參閱 [.NET Framework Client Profile](http://msdn.microsoft.com/Library/f0219919-1f02-4588-8704-327a62fd91f1)。|  
+|**Microsoft .NET Framework 4 Client Profile (x86 和 x64)**|.NET Framework 4 Client Profile 是完整 .NET Framework 4 的子集，以用戶端應用程式為目標。 它提供了 Windows Presentation Foundation (WPF)、Windows Forms、Windows Communication Foundation (WCF) 以及 ClickOnce 功能的精簡子集。 這樣可以快速部署以 .NET Framework 4 Client Profile 為目標的 WPF、Windows Form 及主控台應用程式。 如需詳細資訊，請參閱 [.NET Framework Client Profile](/dotnet/framework/deployment/client-profile)。|  
 |**Microsoft Office 2007 主要 Interop 組件**|這個套件會安裝 2007 Microsoft Office 產品的主要 Interop 組件。 主要 Interop 組件可讓 Managed 程式碼與 Microsoft Office 應用程式的 COM 物件模型互動。 如需詳細資訊，請參閱 [Office 主要 Interop 組件](/office-dev/office-dev/office-primary-interop-assemblies)。|  
-|**Microsoft Visual Basic PowerPacks 10.0 版**|Power Pack 是可協助您開發 Visual Basic 應用程式的增益集 (Add-In)、控制項、元件及工具。 這個版本包含可讓您列印 Windows Forms 內容的 <xref:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm> 元件，以及可讓 Visual Basic 6.0 Printer 程式碼在不修改之情況下執行的 Printer Compatibility Library。|  
+|**Microsoft Visual Basic PowerPacks 10.0 版**|Power Pack 是可協助您開發 Visual Basic 應用程式的增益集 (Add-In)、控制項、元件及工具。 這個版本包含可讓您列印 Windows Form 內容的 <xref:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm> 元件，以及可讓 Visual Basic 6.0 Printer 程式碼在不修改之情況下執行的 Printer Compatibility Library。|  
 |**Microsoft Visual F# Runtime for .NET 2.0**|這個套件會安裝 x86 和 x64 作業系統適用的 Visual F# 執行階段程式庫，此程式庫可支援函式程式設計，以及傳統物件導向程式設計與命令式 (程序式) 的程式設計。 如果應用程式或其元件是以 Visual F# 和 .NET Framework 2.0、.NET Framework 3.0 或 .NET Framework 3.5 撰寫的，必須先安裝這個套件。<br /><br /> 如需詳細資訊，請參閱 [F# 語言參考](http://msdn.microsoft.com/Library/16b706f8-b5f2-4ff7-b2c1-64df33cd6adf)。|  
 |**Microsoft Visual F# Runtime for .NET 4.0**|這個套件會安裝 x86 和 x64 作業系統適用的 Visual F# 執行階段程式庫，此程式庫可支援函式程式設計，以及傳統物件導向程式設計與命令式 (程序式) 的程式設計。 如果應用程式或其元件是以 Visual F# 和 .NET Framework 4 撰寫的，必須安裝這個套件。<br /><br /> 如需詳細資訊，請參閱 [F# 語言參考](http://msdn.microsoft.com/Library/16b706f8-b5f2-4ff7-b2c1-64df33cd6adf)。|  
 |**Microsoft Visual Studio 2010 Report Viewer**|本套件會安裝報表檢視器控制項，可以將大量的資料報表加入至 Windows Form 和 ASP.NET 應用程式。|  
@@ -81,7 +85,8 @@ ms.lasthandoff: 04/05/2017
 |**Windows Installer 3.1**|這個套件會安裝 Microsoft Windows Installer 可轉散發套件 3.1 版，以允許安裝 Windows Installer 安裝專案。 Windows Server 2003 SP1 (含) 以後版本都會預先安裝這個套件。<br /><br /> 這個項目預設為選取。|  
 |**Windows Installer 4.5**|這個套件會安裝 Microsoft Windows Installer 可轉散發套件 4.5 版，以允許安裝 Windows Installer 安裝專案。|  
   
-## <a name="see-also"></a>另請參閱  
+## 另請參閱
+<a id="see-also" class="xliff"></a>  
  [專案設計工具、發行頁面](../../ide/reference/publish-page-project-designer.md)   
  [應用程式部署必要條件](../../deployment/application-deployment-prerequisites.md)   
  [轉散發 .NET Framework](http://msdn.microsoft.com/en-us/a18d0456-fd89-493e-97f4-756505bfe287)   

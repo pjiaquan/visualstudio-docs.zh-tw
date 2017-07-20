@@ -28,10 +28,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 855dbb26932fbd1f5594c2b8714eac873d6f0408
-ms.openlocfilehash: cc55f091d91e98d82a9b4f2b51d2ff4da1936a9b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: HT
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 6b8097dca52bbc0ef867938841713df0c9018718
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/19/2017
 
 ---
 # <a name="introduction-to-wpf"></a>WPF 簡介
@@ -44,7 +45,7 @@ Windows Presentation Foundation (WPF) 可讓您建立具有豐富視覺效果之
  本概觀適用於初學者，內容涵蓋 WPF 的主要功能和概念。  
   
 ##  <a name="Programming_with_WPF"></a> 使用 WPF 進行程式設計  
- WPF 是以 .NET Framework 類型子集的形式存在，大部分位於 <xref:System.Windows> 命名空間中。 如果您之前使用過 ASP.NET 和 Windows Form 等 Managed 技術建置 .NET Framework 應用程式，應該很熟悉基本 WPF 程式設計功能：您可以具現化類別、設定屬性、呼叫方法及處理事件，全部透過您最愛的 .NET 程式設計語言來完成，例如 C# 或 Visual Basic。  
+ WPF 是以 .NET Framework 類型的子集來表示，大部分位於 <xref:System.Windows> 命名空間中。 如果您之前使用過 ASP.NET 和 Windows Form 等 Managed 技術建置 .NET Framework 應用程式，應該很熟悉基本 WPF 程式設計功能：您可以具現化類別、設定屬性、呼叫方法及處理事件，全部透過您最愛的 .NET 程式設計語言來完成，例如 C# 或 Visual Basic。  
   
  WPF 包含可增強屬性和事件的額外程式設計建構： [相依性屬性](https://msdn.microsoft.com/en-us/library/ms752914\(v=vs.100\).aspx) 和 [路由事件](https://msdn.microsoft.com/en-us/library/ms742806\(v=vs.100\).aspx)。  
   
@@ -76,7 +77,7 @@ Windows Presentation Foundation (WPF) 可讓您建立具有豐富視覺效果之
 </Window>  
 ```  
   
- 具體而言，這個 XAML 會分別使用 `Window` 和 `Button` 項目來定義一個視窗和一個按鈕。 每個項目都會透過屬性進行設定，例如 `Window` 項目的 `Title` 屬性可指定視窗的標題列文字。 在執行階段，WPF 會將標記中定義的項目和屬性轉換成 WPF 類別的執行個體。 例如， `Window` 元素會轉換成 <xref:System.Windows.Window> 類別的執行個體，其 <xref:System.Windows.Window.Title%2A> 屬性是 `Title` 屬性的值。  
+ 具體而言，這個 XAML 會分別使用 `Window` 和 `Button` 項目來定義一個視窗和一個按鈕。 每個項目都會透過屬性進行設定，例如 `Window` 項目的 `Title` 屬性可指定視窗的標題列文字。 在執行階段，WPF 會將標記中定義的項目和屬性轉換成 WPF 類別的執行個體。 例如， `Window` 項目會轉換成 <xref:System.Windows.Window> 類別的執行個體，其 <xref:System.Windows.Window.Title%2A> 屬性即為 `Title` 屬性的值。  
   
  下圖顯示上述範例中 XAML 所定義的使用者介面 (UI)。  
   
@@ -153,45 +154,45 @@ End Namespace
   
 ```  
   
- 在此範例中，程式碼後置會實作一個衍生自 <xref:System.Windows.Window> 類別的類別。 它使用 `x:Class` 屬性來建立標記與程式碼後置類別的關聯， 並從程式碼後置類別的建構函式呼叫 `InitializeComponent`，以合併標記中定義的 UI 與程式碼後置類別 (當系統建置您的應用程式時，會為您產生 `InitializeComponent`，因此您不需要手動實作)。`x:Class` 和 `InitializeComponent` 的組合可確保您的實作在每次建立時，都能正確地初始化。 程式碼後置類別也會針對按鈕的 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件實作事件處理常式。 當您按一下按鈕時，事件處理常式會呼叫 <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> 方法來顯示訊息方塊。  
+ 在這個範例中，程式碼後置會實作一個衍生自 <xref:System.Windows.Window> 類別的類別。 它使用 `x:Class` 屬性來建立標記與程式碼後置類別的關聯， 並從程式碼後置類別的建構函式呼叫 `InitializeComponent`，以合併標記中定義的 UI 與程式碼後置類別 (當系統建置您的應用程式時，會為您產生 `InitializeComponent`，因此您不需要手動實作)。`x:Class` 和 `InitializeComponent` 的組合可確保您的實作在每次建立時，都能正確地初始化。 程式碼後置類別也會針對按鈕的 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件實作事件處理常式。 當您按一下按鈕時，事件處理常式會呼叫 <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> 方法來顯示訊息方塊。  
   
  下圖顯示按下按鈕的結果。  
   
  ![訊息方塊](../designers/media/wpfintrofigure25.png "WPFIntroFigure25")  
   
 ##  <a name="Controls"></a> 控制項  
- 應用程式模型所傳遞的使用者體驗是已建構的控制項。 在 WPF 中，「控制項」是一個概括性的名詞，泛指裝載於視窗或頁面中、具有使用者介面並實作某種行為的一種 WPF 類別。  
+ 應用程式模型所傳遞的使用者體驗是已建構的控制項。 在 WPF 中，「控制項」是一個籠統的名詞，泛指裝載於視窗或頁面上之具有使用者介面並實作一些行為的某種 WPF 類別。  
   
- 如需詳細資訊，請參閱[控制項](http://msdn.microsoft.com/Library/3f255a8a-35a8-4712-9065-472ff7d75599)。  
+ 如需詳細資訊，請參閱 [控制項](/dotnet/framework/wpf/controls/index)。  
   
 ### <a name="wpf-controls-by-function"></a>依功能列出 WPF 控制項  
  以下列出內建 WPF 控制項。  
   
--   **按鈕**：<xref:System.Windows.Controls.Button> 和 <xref:System.Windows.Controls.Primitives.RepeatButton>。  
+-   **按鈕**： <xref:System.Windows.Controls.Button> 和 <xref:System.Windows.Controls.Primitives.RepeatButton>。  
   
--   **資料顯示**：<xref:System.Windows.Controls.DataGrid>、<xref:System.Windows.Controls.ListView> 及 <xref:System.Windows.Controls.TreeView>。  
+-   **資料顯示**： <xref:System.Windows.Controls.DataGrid>、 <xref:System.Windows.Controls.ListView>和 <xref:System.Windows.Controls.TreeView>。  
   
--   **資料顯示和選取**：<xref:System.Windows.Controls.Calendar> 和 <xref:System.Windows.Controls.DatePicker>。  
+-   **日期顯示和選取**： <xref:System.Windows.Controls.Calendar> 和 <xref:System.Windows.Controls.DatePicker>。  
   
--   **對話方塊**：<xref:Microsoft.Win32.OpenFileDialog>、<xref:System.Windows.Controls.PrintDialog> 及 <xref:Microsoft.Win32.SaveFileDialog>。  
+-   **對話方塊**： <xref:Microsoft.Win32.OpenFileDialog>、 <xref:System.Windows.Controls.PrintDialog>和 <xref:Microsoft.Win32.SaveFileDialog>。  
   
--   **數位筆跡**：<xref:System.Windows.Controls.InkCanvas> 和 <xref:System.Windows.Controls.InkPresenter>。  
+-   **數位筆跡**： <xref:System.Windows.Controls.InkCanvas> 和 <xref:System.Windows.Controls.InkPresenter>。  
   
--   **文件**：<xref:System.Windows.Controls.DocumentViewer>、<xref:System.Windows.Controls.FlowDocumentPageViewer>、<xref:System.Windows.Controls.FlowDocumentReader>、<xref:System.Windows.Controls.FlowDocumentScrollViewer> 及 <xref:System.Windows.Controls.StickyNoteControl>。  
+-   **文件**： <xref:System.Windows.Controls.DocumentViewer>、 <xref:System.Windows.Controls.FlowDocumentPageViewer>、 <xref:System.Windows.Controls.FlowDocumentReader>、 <xref:System.Windows.Controls.FlowDocumentScrollViewer>和 <xref:System.Windows.Controls.StickyNoteControl>。  
   
--   **輸入**：<xref:System.Windows.Controls.TextBox>、<xref:System.Windows.Controls.RichTextBox> 及 <xref:System.Windows.Controls.PasswordBox>。  
+-   **輸入**： <xref:System.Windows.Controls.TextBox>、 <xref:System.Windows.Controls.RichTextBox>和 <xref:System.Windows.Controls.PasswordBox>。  
   
--   **版面配置**：<xref:System.Windows.Controls.Border>、<xref:System.Windows.Controls.Primitives.BulletDecorator>、<xref:System.Windows.Controls.Canvas>、<xref:System.Windows.Controls.DockPanel>、<xref:System.Windows.Controls.Expander>、<xref:System.Windows.Controls.Grid>、<xref:System.Windows.Controls.GridView>、<xref:System.Windows.Controls.GridSplitter>、<xref:System.Windows.Controls.GroupBox>、<xref:System.Windows.Controls.Panel>、<xref:System.Windows.Controls.Primitives.ResizeGrip>、<xref:System.Windows.Controls.Separator>、<xref:System.Windows.Controls.Primitives.ScrollBar>、<xref:System.Windows.Controls.ScrollViewer>、<xref:System.Windows.Controls.StackPanel>、<xref:System.Windows.Controls.Primitives.Thumb>、<xref:System.Windows.Controls.Viewbox>、<xref:System.Windows.Controls.VirtualizingStackPanel>、<xref:System.Windows.Window> 及 <xref:System.Windows.Controls.WrapPanel>。  
+-   **版面配置**： <xref:System.Windows.Controls.Border>、 <xref:System.Windows.Controls.Primitives.BulletDecorator>、 <xref:System.Windows.Controls.Canvas>、 <xref:System.Windows.Controls.DockPanel>、 <xref:System.Windows.Controls.Expander>、 <xref:System.Windows.Controls.Grid>、 <xref:System.Windows.Controls.GridView>、 <xref:System.Windows.Controls.GridSplitter>、 <xref:System.Windows.Controls.GroupBox>、 <xref:System.Windows.Controls.Panel>、 <xref:System.Windows.Controls.Primitives.ResizeGrip>、 <xref:System.Windows.Controls.Separator>、 <xref:System.Windows.Controls.Primitives.ScrollBar>、 <xref:System.Windows.Controls.ScrollViewer>、 <xref:System.Windows.Controls.StackPanel>、 <xref:System.Windows.Controls.Primitives.Thumb>、 <xref:System.Windows.Controls.Viewbox>、 <xref:System.Windows.Controls.VirtualizingStackPanel>、 <xref:System.Windows.Window>和 <xref:System.Windows.Controls.WrapPanel>。  
   
--   **媒體**：<xref:System.Windows.Controls.Image>、<xref:System.Windows.Controls.MediaElement> 及 <xref:System.Windows.Controls.SoundPlayerAction>。  
+-   **媒體**： <xref:System.Windows.Controls.Image>、 <xref:System.Windows.Controls.MediaElement>和 <xref:System.Windows.Controls.SoundPlayerAction>。  
   
--   **功能表**：<xref:System.Windows.Controls.ContextMenu>、<xref:System.Windows.Controls.Menu> 及 <xref:System.Windows.Controls.ToolBar>。  
+-   **功能表**： <xref:System.Windows.Controls.ContextMenu>、 <xref:System.Windows.Controls.Menu>和 <xref:System.Windows.Controls.ToolBar>。  
   
--   **瀏覽**：<xref:System.Windows.Controls.Frame>、<xref:System.Windows.Documents.Hyperlink>、<xref:System.Windows.Controls.Page>、<xref:System.Windows.Navigation.NavigationWindow> 及 <xref:System.Windows.Controls.TabControl>。  
+-   **巡覽**： <xref:System.Windows.Controls.Frame>、 <xref:System.Windows.Documents.Hyperlink>、 <xref:System.Windows.Controls.Page>、 <xref:System.Windows.Navigation.NavigationWindow>和 <xref:System.Windows.Controls.TabControl>。  
   
--   **選取**：<xref:System.Windows.Controls.CheckBox>、<xref:System.Windows.Controls.ComboBox>、<xref:System.Windows.Controls.ListBox>、<xref:System.Windows.Controls.RadioButton> 及 <xref:System.Windows.Controls.Slider>。  
+-   **選取**： <xref:System.Windows.Controls.CheckBox>、 <xref:System.Windows.Controls.ComboBox>、 <xref:System.Windows.Controls.ListBox>、 <xref:System.Windows.Controls.RadioButton>和 <xref:System.Windows.Controls.Slider>。  
   
--   **使用者資訊**：<xref:System.Windows.Controls.AccessText>、<xref:System.Windows.Controls.Label>、<xref:System.Windows.Controls.Primitives.Popup>、<xref:System.Windows.Controls.ProgressBar>、<xref:System.Windows.Controls.Primitives.StatusBar>、<xref:System.Windows.Controls.TextBlock> 及 <xref:System.Windows.Controls.ToolTip>。  
+-   **使用者資訊**： <xref:System.Windows.Controls.AccessText>、 <xref:System.Windows.Controls.Label>、 <xref:System.Windows.Controls.Primitives.Popup>、 <xref:System.Windows.Controls.ProgressBar>、 <xref:System.Windows.Controls.Primitives.StatusBar>、 <xref:System.Windows.Controls.TextBlock>和 <xref:System.Windows.Controls.ToolTip>。  
   
 ##  <a name="Input_And_Commanding"></a> 輸入和命令  
  控制項最常用來偵測及回應使用者輸入。 [WPF 輸入系統](https://msdn.microsoft.com/en-us/library/ms754010\(v=vs.100\).aspx) 使用直接和路由事件來支援文字輸入、焦點管理和滑鼠定位。  
@@ -207,21 +208,21 @@ End Namespace
   
 -   <xref:System.Windows.Controls.Canvas>：子控制項會提供自己的版面配置。  
   
--   <xref:System.Windows.Controls.DockPanel>：子控制項會對齊面板的邊緣。  
+-   <xref:System.Windows.Controls.DockPanel>：子控制項會沿著面板邊緣對齊。  
   
 -   <xref:System.Windows.Controls.Grid>：子控制項會依資料列和資料行定位。  
   
--   <xref:System.Windows.Controls.StackPanel>：子控制項會以垂直或水平方式堆疊。  
+-   <xref:System.Windows.Controls.StackPanel>：子控制項會垂直或水平堆疊。  
   
 -   <xref:System.Windows.Controls.VirtualizingStackPanel>：子控制項會依水平或垂直方向，以單行顯示及排列。  
   
 -   <xref:System.Windows.Controls.WrapPanel>：子控制項會從左至右排序定位，並在目前這一行的控制項超出空間所允許的數目時，換至下一行。  
   
- 下列範例會使用 <xref:System.Windows.Controls.DockPanel> 來配置數個 <xref:System.Windows.Controls.TextBox> 控制項。  
+ 下列範例使用 <xref:System.Windows.Controls.DockPanel> 來配置多個 <xref:System.Windows.Controls.TextBox> 控制項：  
   
  [!code-xml[IntroToWPFSnippets#LayoutMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_1.xaml)]  
   
- <xref:System.Windows.Controls.DockPanel> 可讓子控制項 <xref:System.Windows.Controls.TextBox> 告訴它排列方式。 為了執行這項操作，<xref:System.Windows.Controls.DockPanel> 會實作對子控制項公開的 <xref:System.Windows.Controls.DockPanel.Dock%2A> 屬性，讓每個控制項都能指定停駐樣式。  
+ <xref:System.Windows.Controls.DockPanel> 可讓子 <xref:System.Windows.Controls.TextBox> 控制項指示排列方式。 為了執行這項操作， <xref:System.Windows.Controls.DockPanel> 會實作公開給子控制項的 <xref:System.Windows.Controls.DockPanel.Dock%2A> 屬性，讓每個控制項都能指定停駐樣式。  
   
 > [!NOTE]
 >  WPF 建構是由父控制項實作並可供子控制項使用的屬性，又稱為 [附加屬性](https://msdn.microsoft.com/en-us/library/ms749011\(v=vs.100\).aspx)。  
@@ -246,7 +247,7 @@ End Namespace
  [!code-vb[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/VisualBasic/introduction-to-wpf_2.vb)]
  [!code-cs[SimpleDataBindingSnippets#PersonClassCODE](../designers/codesnippet/CSharp/introduction-to-wpf_2.cs)]  
   
- 下列範例會將 <xref:System.Windows.Controls.TextBox> 繫結至自訂 `Person` 物件的執行個體。  
+ 下列標記會將 <xref:System.Windows.Controls.TextBox> 繫結至自訂 `Person` 物件的執行個體。  
   
  [!code-xml[SimpleDataBindingSnippets#DataBindingMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_3.xaml)]  
 [!code-xml[SimpleDataBindingSnippets#DataBindingMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_4.xaml)]  
@@ -255,7 +256,7 @@ End Namespace
  [!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
  [!code-cs[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]  
   
- 在這個範例中， `Person` 類別會在程式碼後置中具現化，並已設定為 `DataBindingWindow`的資料內容。 在標記中，<xref:System.Windows.Controls.TextBox> 的 <xref:System.Windows.Controls.TextBox.Text%2A> 屬性已繫結至 `Person.Name` 屬性 (使用"`{Binding ... }`" XAML 語法)。 這個 XAML 會指示 WPF 將 <xref:System.Windows.Controls.TextBox> 控制項繫結至儲存在視窗之 <xref:System.Windows.FrameworkElement.DataContext%2A> 屬性中的 `Person` 物件。  
+ 在這個範例中， `Person` 類別會在程式碼後置中具現化，並已設定為 `DataBindingWindow`的資料內容。 在標記中， <xref:System.Windows.Controls.TextBox.Text%2A> 的 <xref:System.Windows.Controls.TextBox> 屬性已繫結至 `Person.Name` 屬性 (使用"`{Binding ... }`" XAML 語法)。 這個 XAML 會指示 WPF 將 <xref:System.Windows.Controls.TextBox> 控制項繫結至儲存在視窗之 `Person` 屬性中的 <xref:System.Windows.FrameworkElement.DataContext%2A> 物件。  
   
  WPF 資料繫結引擎還提供其他支援，包括驗證、排序、篩選和群組。 此外，資料繫結可在標準 WPF 控制項所顯示的使用者介面不適用時，使用資料範本來建立繫結資料的自訂使用者介面。  
   
@@ -277,7 +278,7 @@ End Namespace
   
  ![橢圓形和矩形](../designers/media/wpfintrofigure4.PNG "WPFIntroFigure4")  
   
- 圖案有趣的一點是它不僅用於顯示，還可實作許多您預期控制項會有的功能，包括鍵盤和滑鼠輸入。 下列範例示範所要處理之 <xref:System.Windows.Shapes.Ellipse> 的 <xref:System.Windows.UIElement.MouseUp> 事件。  
+ 圖案有趣的一點是它不僅用於顯示，還可實作許多您預期控制項會有的功能，包括鍵盤和滑鼠輸入。 下列範例示範所要處理之 <xref:System.Windows.UIElement.MouseUp> 的 <xref:System.Windows.Shapes.Ellipse> 事件。  
   
  [!code-xml[IntroToWPFSnippets#HandleEllipseMouseUpEventMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_7.xaml)]  
   
@@ -295,7 +296,7 @@ End Namespace
   
  <xref:System.Windows.Shapes.Path> 物件可用來繪製封閉或開放的圖案、多個圖案，甚至是彎曲的圖案。  
   
- <xref:System.Windows.Media.Geometry> 物件可用來進行 2D 圖形資料的裁剪、叫用測試及轉譯。  
+ <xref:System.Windows.Media.Geometry> 物件可用來裁剪、叫用測試及轉譯 2D 圖形資料。  
   
  ![Path 的各種用法](../designers/media/wpfintrofigure5.PNG "WPFIntroFigure5")  
   
@@ -333,7 +334,7 @@ End Namespace
  如需詳細資訊，請參閱 [影像處理概觀](https://msdn.microsoft.com/en-us/library/ms748873\(v=vs.100\).aspx)。  
   
 ### <a name="video-and-audio"></a>視訊和音訊  
- <xref:System.Windows.Controls.MediaElement> 控制項既可播放視訊也可播放音訊，並有足夠的彈性成為自訂媒體播放程式的基礎。 下列 XAML 標記實作一個媒體播放程式。  
+ <xref:System.Windows.Controls.MediaElement> 控制項可播放視訊和音訊，而且有足夠的彈性可做為自訂媒體播放程式的基礎。 下列 XAML 標記實作一個媒體播放程式。  
   
  [!code-xml[IntroToWPFSnippets#MediaElementMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_9.xaml)]  
   
@@ -370,7 +371,7 @@ End Namespace
  因此，WPF 會提供各種不同的機制來建立唯一的使用者介面，包括控制項、觸發程序、控制項和資料範本、樣式、使用者介面資源，以及佈景主題和面板的豐富內容模型。  
   
 ### <a name="content-model"></a>內容模型  
- 大多數 WPF 控制項的主要用途在於顯示內容。 在 WPF 中，可構成控制項內容的項目類型和數目，稱為控制項的 *「內容模型」*(Content Model)。 有些控制項可能包含單一的內容項目和類型；例如 <xref:System.Windows.Controls.TextBox> 的內容是指派給 <xref:System.Windows.Controls.TextBox.Text%2A> 屬性的字串值。 下列範例會設定 <xref:System.Windows.Controls.TextBox> 的內容。  
+ 大多數 WPF 控制項的主要用途在於顯示內容。 在 WPF 中，可構成控制項內容的項目類型和數目，稱為控制項的 *「內容模型」*(Content Model)。 有些控制項可能包含單一內容類型的單一項目；例如， <xref:System.Windows.Controls.TextBox> 的內容是指派給 <xref:System.Windows.Controls.TextBox.Text%2A> 屬性的字串值。 下列範例會設定 <xref:System.Windows.Controls.TextBox>的內容。  
   
  [!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_10.xaml)]  
 [!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_11.xaml)]  
@@ -380,7 +381,7 @@ End Namespace
   
  ![包含文字的 TextBox 控制項](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")  
   
- 不過，其他控制項可能包含多個不同內容類型的項目；<xref:System.Windows.Controls.ContentControl.Content%2A> 屬性所指定的 <xref:System.Windows.Controls.Button> 內容可包含各種項目，包括版面配置控制項、文字、影像及圖案。 下列範例示範一個內容包含 <xref:System.Windows.Controls.DockPanel>、<xref:System.Windows.Controls.Label>、<xref:System.Windows.Controls.Border> 及 <xref:System.Windows.Controls.MediaElement> 的 <xref:System.Windows.Controls.Button>。  
+ 不過，其他控制項可能包含不同內容類型的多個項目； <xref:System.Windows.Controls.Button>屬性所指定的 <xref:System.Windows.Controls.ContentControl.Content%2A> 內容可包含各種項目，包括版面配置控制項、文字、影像和圖案。 下列範例示範具有內含 <xref:System.Windows.Controls.Button> 、 <xref:System.Windows.Controls.DockPanel>、 <xref:System.Windows.Controls.Label>和 <xref:System.Windows.Controls.Border>之內容的 <xref:System.Windows.Controls.MediaElement>。  
   
  [!code-xml[IntroToWPFSnippets#ButtonContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_13.xaml)]  
 [!code-xml[IntroToWPFSnippets#ButtonContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_14.xaml)]  
@@ -396,27 +397,27 @@ End Namespace
  雖然 XAML 標記的主要目的是要實作應用程式的外觀，您也可以使用 XAML 來實作某些方面的應用程式行為。 其中一個範例是使用觸發程序，根據使用者互動來變更應用程式的外觀。 如需詳細資訊，請參閱 [設定樣式和範本](https://msdn.microsoft.com/en-us/library/ms745683\(v=vs.100\).aspx)。  
   
 ### <a name="control-templates"></a>控制項範本  
- WPF 控制項的預設使用者介面通常是從其他控制項和圖案建構而來。 例如，<xref:System.Windows.Controls.Button> 是同時由 <xref:Microsoft.Windows.Themes.ButtonChrome> 和 <xref:System.Windows.Controls.ContentPresenter> 控制項組成。 <xref:Microsoft.Windows.Themes.ButtonChrome> 提供標準按鈕外觀，而 <xref:System.Windows.Controls.ContentPresenter> 則顯示 <xref:System.Windows.Controls.ContentControl.Content%2A> 屬性所指定按鈕的內容。  
+ WPF 控制項的預設使用者介面通常是從其他控制項和圖案建構而來。 例如， <xref:System.Windows.Controls.Button> 是由 <xref:Microsoft.Windows.Themes.ButtonChrome> 和 <xref:System.Windows.Controls.ContentPresenter> 控制項所組成。 <xref:Microsoft.Windows.Themes.ButtonChrome> 提供標準按鈕外觀，而 <xref:System.Windows.Controls.ContentPresenter> 則顯示 <xref:System.Windows.Controls.ContentControl.Content%2A> 屬性所指定的按鈕內容。  
   
- 有時候，控制項的預設外觀可能與應用程式的整體外觀不搭。 在這種情況下，您可以使用 <xref:System.Windows.Controls.ControlTemplate> 來變更控制項使用者介面的外觀，而不需變更其內容和行為。  
+ 有時候，控制項的預設外觀可能與應用程式的整體外觀不搭。 在這種情況下，您可以使用 <xref:System.Windows.Controls.ControlTemplate> 變更控制項使用者介面的外觀，而不需要變更其內容和行為。  
   
- 例如，下列範例示範如何使用 <xref:System.Windows.Controls.ControlTemplate> 來變更 <xref:System.Windows.Controls.Button> 的外觀。  
+ 例如，下列範例示範如何使用 <xref:System.Windows.Controls.Button> 來變更 <xref:System.Windows.Controls.ControlTemplate>的外觀。  
   
  [!code-xml[IntroToWPFSnippets#ButtonControlTemplateWindowMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_16.xaml)]  
   
  [!code-cs[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_17.cs)]
  [!code-vb[IntroToWPFSnippets#ButtonControlTemplateWindowCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_17.vb)]  
   
- 在這個範例中，預設按鈕使用者介面已被具有深藍色框線的 <xref:System.Windows.Shapes.Ellipse> 取代，並使用 <xref:System.Windows.Media.RadialGradientBrush> 填滿。 <xref:System.Windows.Controls.ContentPresenter> 控制項會顯示 <xref:System.Windows.Controls.Button> 的內容 "Click Me!" 按一下 <xref:System.Windows.Controls.Button> 時，仍然會隨著 <xref:System.Windows.Controls.Button> 控制項的預設行為引發 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件。 其結果如下圖所示。  
+ 在這個範例中，預設按鈕的使用者介面已取代成具有深藍色框線的 <xref:System.Windows.Shapes.Ellipse> ，並使用 <xref:System.Windows.Media.RadialGradientBrush>填滿。 <xref:System.Windows.Controls.ContentPresenter> 控制項會顯示 <xref:System.Windows.Controls.Button>的內容："Click Me!" 按下 <xref:System.Windows.Controls.Button> 之後，仍會引發 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件做為 <xref:System.Windows.Controls.Button> 控制項預設行為的一部分。 其結果如下圖所示。  
   
  ![橢圓形按鈕和第二個視窗](../designers/media/wpfintrofigure2.png "WPFIntroFigure2")  
   
 ### <a name="data-templates"></a>資料範本  
- 控制項範本可讓您指定控制項的外觀，而資料範本則可讓您指定控制項內容的外觀。 資料範本通常可用來增強繫結資料的顯示方式。 下圖顯示繫結至 `Task` 物件集合之 <xref:System.Windows.Controls.ListBox> 的預設外觀，其中每項工作都有名稱、描述及優先順序。  
+ 控制項範本可讓您指定控制項的外觀，而資料範本則可讓您指定控制項內容的外觀。 資料範本通常可用來增強繫結資料的顯示方式。 下圖顯示繫結至 <xref:System.Windows.Controls.ListBox> 物件集合之 `Task` 的預設外觀，其中每項工作都有名稱、描述和優先權。  
   
  ![具有預設外觀的清單方塊](../designers/media/wpfintrofigure18.png "WPFIntroFigure18")  
   
- 預設外觀是您可預期的 <xref:System.Windows.Controls.ListBox> 外觀。 不過，每項工作的預設外觀只包含工作名稱。 若要顯示工作名稱、描述及修先順序，則必須使用 <xref:System.Windows.DataTemplate> 來變更 <xref:System.Windows.Controls.ListBox> 控制項之繫結清單項目的預設外觀。 下列 XAML 會定義一個這類 <xref:System.Windows.DataTemplate>，藉由使用 <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> 屬性，即可將它套用至每項工作。  
+ 預設外觀是您可預期的 <xref:System.Windows.Controls.ListBox>外觀。 不過，每項工作的預設外觀只包含工作名稱。 若要顯示工作名稱、描述和優先權，則必須使用 <xref:System.Windows.Controls.ListBox> 變更 <xref:System.Windows.DataTemplate>控制項之繫結清單項目的預設外觀。 下列 XAML 會定義此 <xref:System.Windows.DataTemplate>，您可以使用 <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> 屬性將其套用至每項工作。  
   
  [!code-xml[IntroToWPFSnippets#DataTemplateMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_18.xaml)]  
 [!code-xml[IntroToWPFSnippets#DataTemplateMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_19.xaml)]  
@@ -427,19 +428,19 @@ End Namespace
   
  ![使用資料範本的清單方塊](../designers/media/wpfintrofigure19.png "WPFIntroFigure19")  
   
- 請注意，<xref:System.Windows.Controls.ListBox> 已保留其行為和整體外觀；只有清單方塊所要顯示內容的外觀已變更。  
+ 請注意， <xref:System.Windows.Controls.ListBox> 已保留其行為和整體外觀，只會變更清單方塊所要顯示的內容外觀。  
   
  如需詳細資訊，請參閱 [資料範本化概觀](https://msdn.microsoft.com/en-us/library/ms742521\(v=vs.100\).aspx)。  
   
 ### <a name="styles"></a>樣式  
- 樣式可讓開發人員和設計人員標準化其產品的特定外觀。 WPF 提供強式樣式模型，其基礎就是 <xref:System.Windows.Style> 元素。 下列範例會建立一個樣式，以將視窗上每個 <xref:System.Windows.Controls.Button> 的背景色彩設定為 `Orange`。  
+ 樣式可讓開發人員和設計人員標準化其產品的特定外觀。 WPF 提供強式樣式模型，其中的基礎就是 <xref:System.Windows.Style> 項目。 下列範例會建立一個樣式，以將視窗上每一個 <xref:System.Windows.Controls.Button> 的背景色彩設定為 `Orange`。  
   
  [!code-xml[IntroToWPFSnippets#StyleMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_22.xaml)]  
 [!code-xml[IntroToWPFSnippets#StyleMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_23.xaml)]  
 [!code-xml[IntroToWPFSnippets#StyleMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_24.xaml)]  
 [!code-xml[IntroToWPFSnippets#StyleMARKUP4](../designers/codesnippet/Xaml/introduction-to-wpf_25.xaml)]  
   
- 由於此樣式是以所有 <xref:System.Windows.Controls.Button> 控制項為目標，因此這個樣式會自動套用至視窗中的所有按鈕，如下圖所示。  
+ 由於這種樣式是以所有 <xref:System.Windows.Controls.Button> 控制項為目標，系統會將該樣式自動套用至視窗中的所有按鈕，如下圖所示。  
   
  ![兩個橙色按鈕](../designers/media/wpfintrofigure20.png "WPFIntroFigure20")  
   
@@ -448,23 +449,23 @@ End Namespace
 ### <a name="resources"></a>資源  
  應用程式中的控制項應該共用相同的外觀，可包含從字型和背景色彩，到控制項範本、資料範本和樣式的任何項目。 您可以使用 WPF 對使用者介面資源的支援，將這些資源封裝到單一位置以重複使用。  
   
- 下列範例會定義 <xref:System.Windows.Controls.Button> 和 <xref:System.Windows.Controls.Label> 共用的一般背景色彩。  
+ 下列範例會定義 <xref:System.Windows.Controls.Button> 和 <xref:System.Windows.Controls.Label>共用的一般背景色彩。  
   
  [!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_26.xaml)]  
 [!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_27.xaml)]  
 [!code-xml[IntroToWPFSnippets#ResourceWindowMARKUP3](../designers/codesnippet/Xaml/introduction-to-wpf_28.xaml)]  
   
- 這個範例使用 `Window.Resources` 屬性項目來實作背景色彩資源。 這項資源可供 <xref:System.Windows.Window> 的所有子系使用。 以下依其解析順序列出各種資源範圍，包括：  
+ 這個範例使用 `Window.Resources` 屬性項目來實作背景色彩資源。 這項資源可供 <xref:System.Windows.Window>的所有子系使用。 以下依其解析順序列出各種資源範圍，包括：  
   
 1.  個別控制項 (使用繼承的 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 屬性)。  
   
-2.  <xref:System.Windows.Window> 或 <xref:System.Windows.Controls.Page> (也是使用繼承的 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 屬性)。  
+2.  <xref:System.Windows.Window> 或 <xref:System.Windows.Controls.Page> (也使用繼承的 <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> 屬性)。  
   
 3.  <xref:System.Windows.Application> (使用 <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> 屬性)。  
   
  上述各種範圍可讓您彈性地定義及共用資源。  
   
- 除了直接將資源與特定範圍建立關聯之外，您還可以使用個別的 <xref:System.Windows.ResourceDictionary> 來封裝一或多項資源，以供在應用程式的其他組件中參考。 例如，下列範例會定義資源字典中的預設背景色彩。  
+ 除了直接建立資源與特定範圍的關聯之外，您還可以使用個別 <xref:System.Windows.ResourceDictionary> 封裝一或多項資源，以做為應用程式的其他組件來參考。 例如，下列範例會定義資源字典中的預設背景色彩。  
   
  [!code-xml[IntroToWPFSnippets#ResourceDictionaryMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_29.xaml)]  
 [!code-xml[IntroToWPFSnippets#ResourceDictionaryMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_30.xaml)]  
@@ -489,28 +490,28 @@ End Namespace
   
 -   **使用者控制項模型**： 自訂控制項衍生自 <xref:System.Windows.Controls.UserControl> ，並由一或多個其他控制項所組成。  
   
--   **控制項模型**： 自訂控制項衍生自 <xref:System.Windows.Controls.Control>，並可用來建置實作以將其行為與使用範本時的外觀區隔，與大多數 WPF 控制項非常類似。 與使用者控制項相比，衍生自 <xref:System.Windows.Controls.Control> 可讓您更自由地建立自訂使用者介面，但可能需要耗費更多心力。  
+-   **控制項模型**： 自訂控制項衍生自 <xref:System.Windows.Controls.Control> ，並使用範本來建置實作以區隔其行為和外觀，與大多數 WPF 控制項非常類似。 衍生自 <xref:System.Windows.Controls.Control> 比使用者控制項更能夠讓您自由地建立自訂使用者介面，但可能需要投入更多時間。  
   
--   **架構項目模型**： 當自訂控制項外觀是由自訂轉譯邏輯 (而不是範本) 所定義時，自訂控制項會衍生自 <xref:System.Windows.FrameworkElement>。  
+-   **架構項目模型**： 如果其外觀是由自訂轉譯邏輯 (而不是範本) 所定義，自訂控制項衍生自 <xref:System.Windows.FrameworkElement> 。  
   
- 下列範例示範衍生自 <xref:System.Windows.Controls.UserControl> 的自訂數值上下按鈕控制項。  
+ 下列範例示範衍生自 <xref:System.Windows.Controls.UserControl>的自訂數值上下按鈕控制項。  
   
  [!code-xml[IntroToWPFSnippets#UserControlMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_33.xaml)]  
   
  [!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/CSharp/introduction-to-wpf_34.cs)]
  [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]  
   
- 下一個範例說明將使用者控制項併入 <xref:System.Windows.Window> 所需的 XAML。  
+ 下一個範例說明將使用者控制項併入 <xref:System.Windows.Window>所需的 XAML。  
   
  [!code-xml[IntroToWPFSnippets#UserControlWindowMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_37.xaml)]  
   
- 下圖顯示 <xref:System.Windows.Window> 中所裝載的 `NumericUpDown` 控制項。  
+ 下圖顯示 `NumericUpDown` 中所裝載的 <xref:System.Windows.Window>控制項。  
   
  ![自訂使用者控制項](../designers/media/wpfintrofigure3.png "WPFIntroFigure3")  
   
  如需自訂控制項的詳細資訊，請參閱 [控制項撰寫概觀](https://msdn.microsoft.com/en-us/library/ms745025\(v=vs.100\).aspx)。  
   
-##  <a name="WPF_Best_Practices"></a> WPF 最佳做法  
+##  <a name="WPF_Best_Practices"></a> WPF 最佳作法  
  如同任何開發平台，您可以透過各種方式來使用 WPF，以取得想要的結果。 為了確保您的 WPF 應用程式提供所需的使用者體驗，並符合一般大眾的需求，已針對協助工具、全球化和當地語系化，以及效能提供了建議的最佳作法。 如需詳細資訊，請參閱下列主題：  
   
 -   [協助工具最佳作法](https://msdn.microsoft.com/en-us/library/aa350483\(v=vs.100\).aspx)協助工具最佳作法  

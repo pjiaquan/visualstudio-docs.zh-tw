@@ -44,13 +44,15 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 9328c347d548a03a536cea16bd5851817c03d5a2
-ms.openlocfilehash: 35ad2826fb25557d05be3548351aabd27e005cba
-ms.lasthandoff: 04/10/2017
+ms.translationtype: HT
+ms.sourcegitcommit: 359e1eb5df8f19774d352ace631802367b6dd8c9
+ms.openlocfilehash: 759ffc281b8c673f5987afc6512b225434b69dec
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/11/2017
 
 ---
-# <a name="javascript-intellisense"></a>JavaScript IntelliSense
+# JavaScript IntelliSense
+<a id="javascript-intellisense" class="xliff"></a>
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 提供現成可用的強大 JavaScript 編輯體驗。 由 TypeScript 型語言服務提供，Visual Studio 提供更豐富的 IntelliSense、支援最新的 JavaScript 功能，並改善如移至定義、重構及更多的生產力功能。
 
 > [!NOTE]
@@ -58,7 +60,8 @@ ms.lasthandoff: 04/10/2017
 
 如需一般之 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] IntelliSense 功能的詳細資訊，請參閱[使用 IntelliSense](../ide/using-intellisense.md)。 
 
-## <a name="whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd"></a>[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 的 JavaScript 語言服務新功能
+## [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 的 JavaScript 語言服務新功能
+<a id="whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd" class="xliff"></a>
 
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 中的 JavaScript IntelliSense 現在會顯示更多有關參數及成員清單的資訊。
 此項新資訊是由 TypeScript 語言服務提供，使用程式碼更容易了解的幕後靜態分析。
@@ -130,7 +133,7 @@ function Foo(param1) {
 
 ### <a name="TsDeclFiles"></a> 以 TypeScript 宣告檔案為基礎的 IntelliSense
 
-因為 JavaScript 和 TypeScript 現在是以相同的語言服務為基礎，所以能夠以更豐富的方式互動。 例如，可為 `.d.ts` 檔案中宣告的值提供 JavaScript IntelliSense ([更多資訊](https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Writing%20Definition%20Files.md))，而在 TypeScript 中宣告的介面和類別等類型，可提供 JsDoc 註解當作類型使用。 
+因為 JavaScript 和 TypeScript 現在是以相同的語言服務為基礎，所以能夠以更豐富的方式互動。 例如，可為 `.d.ts` 檔案中宣告的值提供 JavaScript IntelliSense ([更多資訊](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html))，而在 TypeScript 中宣告的介面和類別等類型，可提供 JsDoc 註解當作類型使用。 
 
 以下簡單示範 TypeScript 定義檔案 (透過介面) 向同一專案中的 JavaScript 檔案 (使用 JsDoc 標記) 提供此類的類型資訊。
 

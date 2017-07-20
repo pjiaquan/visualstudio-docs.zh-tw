@@ -50,7 +50,7 @@ ms.lasthandoff: 05/10/2017
  以下範例命令列可利用產品金鑰 `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE` 來套用 Visual Studio 2017 Enterprise (其 MPC 為 08860) 的授權，並安裝於預設位置：
 
  ```cmd
- C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+ "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
  ```
 
  下表列出每個 Visual Studio 版本的 MPC 代碼：

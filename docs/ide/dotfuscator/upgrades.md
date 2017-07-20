@@ -39,28 +39,32 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 507ff049dae50698d86e1536ed21ab982da1af85
-ms.openlocfilehash: eeabf6db465f57ab373c592b01a682ed6442800f
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8ce85525f6af336682f6f8547c2f6c13dde73c8c
+ms.openlocfilehash: 60ca38639f6523cdbace4efa4aa48b48d5e9a886
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/23/2017
 
 ---
 
-# <a name="upgrade-dotfuscator-community-edition-ce"></a>升級 Dotfuscator Community Edition (CE)
+# 升級 Dotfuscator Community Edition (CE)
+<a id="upgrade-dotfuscator-community-edition-ce" class="xliff"></a>
 
 Dotfuscator Community Edition (Dotfuscator CE) 為所有使用 Microsoft Visual Studio 的開發人員立即提供許多應用程式保護與強化功能。
 不過，使用者在升級其 Dotfuscator 版本之後，會有更多功能可用。
 
-## <a name="registering-dotfuscator-ce"></a>註冊 Dotfuscator CE
+## 註冊 Dotfuscator CE
+<a id="registering-dotfuscator-ce" class="xliff"></a>
 
 Dotfuscator CE 的已註冊使用者可存取額外的功能，例如[命令列支援][cli]，這可讓您輕鬆地將 Dotfuscator CE 整合到自動建置流程。
 
 註冊不但簡單快速，而且完全免費。
 若要註冊 Dotfuscator CE，請參閱[完整《Dotfuscator CE User Guide》(Dotfuscator CE 使用者指南) 之 ＜Getting Started＞(使用者入門) 頁面上的＜Registering Dotfuscator CE＞ (註冊 Dotfuscator CE) 一節][register-ce]。
 
-## <a name="dotfuscator-professional"></a>Dotfuscator Professional
+## Dotfuscator Professional
+<a id="dotfuscator-professional" class="xliff"></a>
 
-Dotfuscator Community Edition 提供基本層級的保護，而 ***PreEmptive Protection - Dotfuscator* Professional Edition** 則包含增強的混淆轉換和保護功能。
+Dotfuscator Community Edition 提供基本層級的保護，而 **_PreEmptive Protection - Dotfuscator_ Professional Edition** 則包含增強的混淆轉換和保護功能。
 它們包括：
 
 * 智慧財產權保護
@@ -91,7 +95,8 @@ Dotfuscator Professional 是業界標準 [.NET 混淆器][net-obfuscator]，適�
 如需 Dotfuscator Professional 之進階應用程式保護功能的詳細資訊，請前往 PreEmptive Solutions 的 [Dotfuscator 概觀頁面][product-about]並[與 Community Edition 進行比較][product-compare]。
 [您可以在 preemptive.com 要求取得完整支援的試用版][eval]。
 
-## <a name="see-also"></a>另請參閱
+## 另請參閱
+<a id="see-also" class="xliff"></a>
 
 [完整《Dotfuscator CE User Guide》(Dotfuscator CE 使用者指南) 中的本主題][full]
 
@@ -112,7 +117,8 @@ Dotfuscator Professional 是業界標準 [.NET 混淆器][net-obfuscator]，適�
 [product-about]: https://www.preemptive.com/products/dotfuscator/overview
 [product-compare]: https://www.preemptive.com/products/dotfuscator/compare-editions
 
-[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_cli.html
-[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html#register
+[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
+[register-ce]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html#register
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_upgrades.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
+

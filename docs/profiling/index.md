@@ -1,13 +1,17 @@
 ---
 layout: LandingPage
-title: "Visual Studio 中的分析"
-translationtype: Human Translation
-ms.sourcegitcommit: dac3cb1d7767c2ff76ac25f6a486ad30a8d54831
-ms.openlocfilehash: 06edcb5e4d6656b3b5c3441879bc48951b0585da
-ms.lasthandoff: 03/03/2017
+title: "使用 Visual Studio 分析您的應用程式"
+description: "了解如何使用 Visual Studio 2017，以您選擇的語來言分析應用程式、服務及工具的效能。"
+ms.technology: vs-ide-debug
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
+ms.openlocfilehash: 6b54253dadb80dd6881ba366b5bb466f4eae7706
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/30/2017
 
 ---
-#<a name="profiling-in-visual-studio"></a>Visual Studio 中的分析
+# Visual Studio 中的分析
+<a id="profiling-in-visual-studio" class="xliff"></a>
 
 程式碼剖析和診斷工具可協助您診斷記憶體和 CPU 使用量，以及其他應用程式層級的問題。 利用這些工具，您可以隨著您在偵錯工具中執行應用程式時間而累積資料 (例如變數值、函式呼叫和事件)。 您可以在執行程式碼時檢視應用程式在不同時間點的狀態。 
 

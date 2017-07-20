@@ -31,21 +31,25 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 0d8671ed0cad330a83482a84198ef397a3c4ad08
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: e77d5d86e16dd360759c8e289ad545efaa6a4870
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
-# <a name="globalizing-applications"></a>全球化應用程式
+# 全球化應用程式
+<a id="globalizing-applications" class="xliff"></a>
 「全球化」是針對多種文化特性，設計和開發軟體產品的程序。 本節同時適用於 Windows Forms 和 Web Forms 頁面。  
   
-## <a name="in-this-section"></a>本章節內容  
+## 本章節內容
+<a id="in-this-section" class="xliff"></a>  
  [全域 Windows Forms 和 Web Forms 的文化特性特定類別](../ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md)  
  根據文化特性設定，探討可格式化日期、時間、數字、貨幣和其他資訊的類別。  
   
-## <a name="related-sections"></a>相關章節  
- [全球化 Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)  
+## 相關章節
+<a id="related-sections" class="xliff"></a>  
+ [全球化 Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  提供全球化 Windows Forms 的 [說明] 頁連結。  
   
  [全球化和當地語系化](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  

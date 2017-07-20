@@ -33,20 +33,23 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: d4772671e61d2225a97ef5e36f24e6f8a4a45c35
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 9e45ed816d117a21ca680e101e0beaabb41da6d3
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
-# <a name="supplying-xml-code-comments"></a>提供 XML 程式碼註解
+# 提供 XML 程式碼註解
+<a id="supplying-xml-code-comments" class="xliff"></a>
 您可以將原始程式碼檔中的註解當成 IntelliSense 使用。 將 /doc 參數新增至 Visual Basic、C# 或 C++ 編譯器命令列時，會產生當成 IntelliSense 文件基礎的 .xml 檔案。  
   
- 如需在 Visual Basic 中撰寫程式碼的詳細資訊，請參閱[如何：在 Visual Basic 中建立 XML 文件](http://msdn.microsoft.com/Library/27b5b06c-09b9-496a-8245-f9542d846230)。  
+ 如需在 Visual Basic 中撰寫程式碼的詳細資訊，請參閱[如何：在 Visual Basic 中建立 XML 文件](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)。  
   
  如需在 C# 中撰寫程式碼的詳細資訊，請參閱 [XML 文件註解](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)。  
   
  如需在 C++ 中撰寫程式碼的詳細資訊，請參閱[註解](/cpp/cpp/comments-cpp)和 [XML 文件](/cpp/ide/xml-documentation-visual-cpp)。  
   
-## <a name="see-also"></a>另請參閱  
+## 另請參閱
+<a id="see-also" class="xliff"></a>  
  [使用 IntelliSense](../ide/using-intellisense.md)

@@ -32,25 +32,29 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: bb3fc61c821aa9412421c1e2ff9024465b078d1e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 45e9bb684e7f1f83c41b04dd4b9e9b3218df8358
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
-# <a name="targeting-a-specific-net-framework-version"></a>以特定的 .NET Framework 版本為目標
+# 以特定的 .NET Framework 版本為目標
+<a id="targeting-a-specific-net-framework-version" class="xliff"></a>
 在 Visual Studio 中，您可以指定要讓專案使用的目標 .NET Framework 版本或設定檔。 如果應用程式會在另一部電腦上執行，則該應用程式的目標 Framework 版本必須與該電腦上安裝的 Framework 版本相容。  
   
  本節的主題說明如何在專案中，以特定的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 版本為目標。  
   
-## <a name="in-this-section"></a>本章節內容  
+## 本章節內容
+<a id="in-this-section" class="xliff"></a>  
  [Visual Studio 多目標概觀](../ide/visual-studio-multi-targeting-overview.md)  
  提供 Visual Studio 中多目標功能的概觀。  
   
  [如何：以 .NET Framework 版本為目標](../ide/how-to-target-a-version-of-the-dotnet-framework.md)  
  詳細說明如何為 Visual Basic、Visual C# 或 Visual F# 專案指定特定的 [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]。  
   
-## <a name="related-sections"></a>相關章節  
+## 相關章節
+<a id="related-sections" class="xliff"></a>  
  [ASP.NET Web 專案的 .NET Framework 多目標](http://msdn.microsoft.com/Library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
  說明如何使用這一版 Visual Studio 來開發在舊版 .NET Framework 下執行的 Web 應用程式。  
   
@@ -60,5 +64,5 @@ ms.lasthandoff: 02/22/2017
  [專案設計工具、應用程式頁面 (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
  描述 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 專案之 [專案設計工具] 中的 [目標 Framework] 控制項。  
   
- [如何：修改目標 Framework 和平台工具組](http://msdn.microsoft.com/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)  
+ [如何：修改目標 Framework 和平台工具組](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)  
  說明如何變更 Visual C++ 專案的設定，來設定不同的 .NET Framework 目標版本以及使用不同的平台工具組。

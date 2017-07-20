@@ -30,19 +30,22 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 5c6c36ca969d5ca9ca3957a886ce45597159bc5c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: a41015624d9c64e053770707bf09b73d8606cb03
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
-# <a name="projects-and-solutions-options-dialog-box"></a>專案和方案、選項對話方塊
+# 專案和方案、選項對話方塊
+<a id="projects-and-solutions-options-dialog-box" class="xliff"></a>
 隨著專案的開發和建置，設定 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 專案資料夾的預設路徑，並決定 [輸出] 視窗、[工作清單] 和方案總管的預設行為。 若要存取這個對話方塊，請按一下 [工具]/[選項]，並展開 [專案和方案]，然後按一下 [一般]。  
   
 > [!NOTE]
->  根據您目前使用的設定或版本，您所看到的對話方塊可用選項，以及功能表命令的名稱和位置，可能會與 [說明] 中描述的有所不同。 撰寫這個說明網頁時，會考慮到 [一般開發設定]。 若要檢視或變更您的設定，請選擇 [工具] 功能表上的 [匯入和匯出設定]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  根據您目前使用的設定或版本，您所看到的對話方塊可用選項，以及功能表命令的名稱和位置，可能會與 [說明] 中描述的有所不同。 撰寫這個說明網頁時，會考慮到 [一般開發設定]。 若要檢視或變更您的設定，請選擇 [工具] 功能表上的 [匯入和匯出設定]。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
-## <a name="settings"></a>設定  
+## 設定
+<a id="settings" class="xliff"></a>  
  **專案位置**  
  設定要建立新專案和方案資料夾及目錄的預設位置。 許多對話方塊也會使用此選項所設定的位置當成資料夾起始點。 例如，[開啟專案] 對話方塊使用此位置當成 [我的專案] 捷徑。  
   
@@ -78,5 +81,6 @@ ms.lasthandoff: 02/22/2017
  **重新命名檔案時提示符號重新命名**  
  選取此選項時，會顯示訊息方塊，詢問是否 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 也應重新命名專案中所有對程式碼元素的參考。  
   
-## <a name="see-also"></a>另請參閱  
+## 另請參閱
+<a id="see-also" class="xliff"></a>  
  [選項對話方塊、專案和方案、建置並執行](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)

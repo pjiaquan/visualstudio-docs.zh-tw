@@ -42,17 +42,19 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 50f1d083b54ecc8418cac66086b40de8e3c69b73
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: e2852ef4eb48247a97fe513efc7cdecb89ec619a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
-# <a name="web-browser-environment-options-dialog-box"></a>選項對話方塊、環境、Web 瀏覽器
+# 選項對話方塊、環境、Web 瀏覽器
+<a id="web-browser-environment-options-dialog-box" class="xliff"></a>
 設定內部網頁瀏覽器和 Internet Explorer 的選項。 若要存取這個對話方塊，請按一下 [工具] 功能表中的 [選項]，展開 [環境] 資料夾，然後選取 [網頁瀏覽器]。  
   
 > [!NOTE]
->  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [工具] 功能表中選擇 [匯入和匯出設定]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [工具] 功能表中選擇 [匯入和匯出設定]。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
 > [!IMPORTANT]
 >  從 Web 開啟特定檔案或元件可能會在您的電腦上執行程式碼。  
@@ -78,7 +80,8 @@ ms.lasthandoff: 02/22/2017
 > [!NOTE]
 >  使用 [瀏覽方式] 對話方塊，以不同的外部網頁瀏覽器取代 Visual Studio 的內部網頁瀏覽器 (也就是某個版本的 Internet Explorer)。  
   
-## <a name="see-also"></a>另請參閱  
+## 另請參閱
+<a id="see-also" class="xliff"></a>  
  [環境選項對話方塊](../../ide/reference/environment-options-dialog-box.md)   
  [選項對話方塊、環境、一般](../../ide/reference/general-environment-options-dialog-box.md)   
  [HTML 設計工具](http://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)

@@ -75,25 +75,29 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 07dfd26933090708cf40adff5f7ceb4785686245
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 1d273749cc41eb975dc9f93329edf9a57aaae09a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
-# <a name="manage-external-tools"></a>管理外部工具
+# 管理外部工具
+<a id="manage-external-tools" class="xliff"></a>
 您可以使用 [工具]，從 Visual Studio 內部呼叫外部工具。 [工具] 功能表中有提供一些預設的工具，但您可以另外加入自己的可執行檔。  
 
-## <a name="tools-available-on-the-visual-studio-tools-menu"></a>Visual Studio [工具] 功能表上提供的工具
+## Visual Studio [工具] 功能表上提供的工具
+<a id="tools-available-on-the-visual-studio-tools-menu" class="xliff"></a>
  [工具] 功能表包含數個內建命令，例如：
 
 *  [延伸模組和更新] 可用來[管理 Visual Studio 延伸模組](finding-and-using-visual-studio-extensions.md)
 *  [程式碼片段管理員...] 可用來[組織程式碼片段](code-snippets.md#code-snippet-manager)
 *  [PreEmptive Protection - Dotfuscator] 可用來啟動 [Dotfuscator Community Edition (CE)](dotfuscator/index.md) (若[已安裝](dotfuscator/install.md)的話)
-*  [自訂...] 可用來[自訂功能表和工具列](how-to-customize-menus-and-toolbars-in-visual-studio)
+*  [自訂...] 可用來[自訂功能表和工具列](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 *  [選項...] 可用來[設定各種不同的 Visual Studio IDE 和其他工具選項](reference/options-dialog-box-visual-studio.md)
 
-## <a name="add-new-tools-to-the-tools-menu"></a>將新的工具新增至 [工具] 功能表 
+## 將新的工具新增至 [工具] 功能表
+<a id="add-new-tools-to-the-tools-menu" class="xliff"></a> 
  您可將外部工具加入 [工具] 功能表。 開啟 [外部工具...] 對話方塊，按一下 [加入]，然後填入資訊。 例如，下列輸入內容會讓 Windows 檔案總管的開啟位置，會是於 Visual Studio 中目前所開啟之檔案所在的目錄：  
   
 1.  標題：*Open File Location*
@@ -126,6 +130,7 @@ ms.lasthandoff: 04/05/2017
 |方案目錄|$(SolutionDir)|目前方案的目錄 (磁碟機 + 路徑)。|  
 |方案檔名|$(SolutionFileName)|目前方案的檔案名稱 (磁碟機 + 路徑 + 檔案名稱)。|  
 
-## <a name="see-also"></a>請參閱  
+## 請參閱
+<a id="see-also" class="xliff"></a>  
  [C/C++ 建置工具](/cpp/build/reference/c-cpp-build-tools)
 

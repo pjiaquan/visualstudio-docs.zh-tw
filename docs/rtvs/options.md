@@ -11,7 +11,7 @@ ms.tgt_pltfrm:
 f1_keywords:
 - vs.toolsoptionspages.r_tools
 - vs.toolsoptionspages.r_tools.advanced
-- VS.ToolsOptionsPages.R_Tools.%23150
+- vs.toolsoptionspages.r_tools.#150
 ms.topic: article
 ms.assetid: 554dc602-ecad-4cd0-8e6f-a60bb8a2328f
 caps.latest.revision: 1
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/12/2017
 
 ![Visual Studio 中的資料科學家視窗版面配置](media/installation-data-scientist-layout-result.png)
 
-> [!Important]        
+> [!Important]      
 > 若要在稍後還原其他 Visual Studio 設定，請先使用 [工具] > [匯入和匯出設定] 命令，並選取 [匯出選取的環境設定]，以及指定檔案名稱。 若要還原這些設定，請使用相同的命令，並選取 [匯入選取的環境設定]。 如果您變更資料科學家版面配置，並稍後想要還原，而不是直接使用 [資料科學設定] 命令，則也可以使用相同的命令。
 
 ## <a name="debugging"></a>偵錯
