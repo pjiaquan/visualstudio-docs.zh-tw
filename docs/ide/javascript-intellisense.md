@@ -1,7 +1,7 @@
 ---
 title: JavaScript IntelliSense | Microsoft Docs
 ms.custom: 
-ms.date: 11/04/2016
+ms.date: 06/28/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -51,8 +51,7 @@ ms.contentlocale: zh-tw
 ms.lasthandoff: 07/11/2017
 
 ---
-# JavaScript IntelliSense
-<a id="javascript-intellisense" class="xliff"></a>
+# <a name="javascript-intellisense"></a>JavaScript IntelliSense
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 提供現成可用的強大 JavaScript 編輯體驗。 由 TypeScript 型語言服務提供，Visual Studio 提供更豐富的 IntelliSense、支援最新的 JavaScript 功能，並改善如移至定義、重構及更多的生產力功能。
 
 > [!NOTE]
@@ -60,8 +59,7 @@ ms.lasthandoff: 07/11/2017
 
 如需一般之 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] IntelliSense 功能的詳細資訊，請參閱[使用 IntelliSense](../ide/using-intellisense.md)。 
 
-## [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 的 JavaScript 語言服務新功能
-<a id="whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd" class="xliff"></a>
+## <a name="whats-new-in-the-javascript-language-service-in-includevsdev15miscincludesvsdev15mdmd"></a>[!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 的 JavaScript 語言服務新功能
 
 [!include[vs_dev15](../misc/includes/vs_dev15_md.md)] 中的 JavaScript IntelliSense 現在會顯示更多有關參數及成員清單的資訊。
 此項新資訊是由 TypeScript 語言服務提供，使用程式碼更容易了解的幕後靜態分析。
