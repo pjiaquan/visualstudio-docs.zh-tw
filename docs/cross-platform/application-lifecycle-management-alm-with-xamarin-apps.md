@@ -29,10 +29,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 1464a7e654c68828e132e2d6973c9e558ebe23a5
+ms.sourcegitcommit: 6fbf89668d47d55d1d77a1d7f11765567fc73405
+ms.openlocfilehash: e5ed1f9b6771b489218d2c6118454f1070535b6d
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 05/26/2017
 
 ---
 # <a name="application-lifecycle-management-alm-with-xamarin-apps"></a>應用程式生命週期管理 (ALM) 與 Xamarin 應用程式
@@ -81,7 +81,7 @@ Xamarin 可讓您使用 C#、.NET 及 Visual Studio，來建置目標為 Android
 |-------------|----------------------------|-------------------------|  
 |[使用 Team Foundation 版本控制](http://msdn.microsoft.com/Library/1d629052-c65d-4c5d-81eb-eaa4413fe285)或 Visual Studio Team Services|是||  
 |[開始使用 Team Services 中的 Git (英文)](http://msdn.microsoft.com/Library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|是||  
-|[程式碼分析/改善程式碼品質 (參考、建議的變更等)](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|是||  
+|[改善程式碼品質](/visualstudio/test/improve-code-quality)|是||  
 |[尋找程式碼變更和其他記錄](../ide/find-code-changes-and-other-history-with-codelens.md)|是|除了跨越這些到執行階段仍未解析實作的平台特定界限以外。|  
 |[使用 Code Map 偵錯您的應用程式](../modeling/use-code-maps-to-debug-your-applications.md)|是||  
   
@@ -109,7 +109,7 @@ Xamarin 可讓您使用 C#、.NET 及 Visual Studio，來建置目標為 Android
 |[使用 UI 自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)|僅限 Windows|Visual Studio 的 UI 測試錄製器僅適用 Windows。 對於所有平台，請參閱 [Xamarin 測試錄製器 (英文)](https://www.xamarin.com/test-cloud/recorder)。|  
   
 ## <a name="improve-code-quality"></a>改善程式碼品質  
- 參考連結︰**[改善程式碼品質](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
+ 參考連結︰**[改善程式碼品質](/visualstudio/test/improve-code-quality)**  
   
 |功能|支援 Xamarin|其他註解|  
 |-------------|----------------------------|-------------------------|  

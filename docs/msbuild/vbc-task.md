@@ -38,10 +38,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 699ad120c95500e04d238270b8ac282ad0a8d288
+ms.sourcegitcommit: 11a9cee75f912c5fb31cf4a031644abe9c63d744
+ms.openlocfilehash: d376d2f99ccfddb2d96797fa2db0e1ef3872f34b
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 06/03/2017
 
 ---
 # <a name="vbc-task"></a>Vbc 工作
@@ -68,7 +68,7 @@ ms.lasthandoff: 05/13/2017
 |`Imports`|選擇性 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 從指定的項目集合匯入命名空間。 此參數對應至 vbc.exe 編譯器的 [/imports](/dotnet/visual-basic/reference/command-line-compiler/imports) 參數。|  
 |`KeyContainer`|選擇性的 `String` 參數。<br /><br /> 指定密碼編譯金鑰容器的名稱。 此參數對應至 vbc.exe 編譯器的 [/keycontainer](/dotnet/visual-basic/reference/command-line-compiler/keycontainer) 參數。|  
 |`KeyFile`|選擇性的 `String` 參數。<br /><br /> 指定包含密碼編譯金鑰的檔名。 如需詳細資訊，請參閱 [/keyfile](/dotnet/visual-basic/reference/command-line-compiler/keyfile)。|  
-|`LangVersion`|選擇性的 [String](assetId:///String?qualifyHint=False&autoUpgrade=True) 參數。<br /><br /> 指定語言版本，"9" 或 "10"。|  
+|`LangVersion`|選擇性的 <xref:System.String?displayProperty=fullName> 參數。<br /><br /> 指定語言版本，"9" 或 "10"。|  
 |`LinkResources`|選擇性 <xref:Microsoft.Build.Framework.ITaskItem>`[]` 參數。<br /><br /> 在輸出檔中建立 .NET Framework 資源的連結；不要將資源檔放置於輸出檔中。 此參數對應至 vbc.exe 編譯器的 [/linkresource](/dotnet/visual-basic/reference/command-line-compiler/linkresource) 參數。|  
 |`MainEntryPoint`|選擇性的 `String` 參數。<br /><br /> 指定包含 `Sub Main` 程序的類別或模組。 此參數對應至 vbc.exe 編譯器的 [/main](/dotnet/visual-basic/reference/command-line-compiler/main) 參數。|  
 |`ModuleAssemblyName`|選擇性的 `String` 參數。<br /><br /> 指定將包含此模組的組件。|  
