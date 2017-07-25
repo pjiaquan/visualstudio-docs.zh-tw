@@ -29,10 +29,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 3ba7680d46345f2b49019659c715cfb418933d39
-ms.openlocfilehash: ecfd08a410983561f3c1e761eb25302b6d9281c4
-ms.lasthandoff: 02/22/2017
+ms.translationtype: HT
+ms.sourcegitcommit: 6d25db4639f2c8391c1e32542701ea359f560178
+ms.openlocfilehash: 34c78f4573bc2b11e738c3722cefaa8e294287b5
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/18/2017
 
 ---
 # <a name="walkthrough-using-msbuild"></a>逐步解說：使用 MSBuild
@@ -454,7 +455,7 @@ $(PropertyName)
 1.  從程式碼編輯器，使用下列這一行來取代 Message 工作：  
   
     ```xml  
-    <Message Text="Compile item type contains @(XFiles)" />  
+    <Message Text="XFiles item type contains @(XFiles)" />  
     ```  
   
 2.  加入這個項目 (Item) 群組，緊接在 Import 項目 (Element) 之後：  
@@ -476,7 +477,7 @@ $(PropertyName)
 5.  檢查輸出結果， 您應該會看到下列這一行：  
   
     ```  
-    Compile item type contains Form1.cs;Program.cs;Properties/Resources.resx  
+    XFiles item type contains Form1.cs;Program.cs;Properties/Resources.resx  
     ```  
   
 ## <a name="item-metadata"></a>項目中繼資料  
@@ -596,3 +597,4 @@ $(PropertyName)
 ## <a name="see-also"></a>另請參閱
 [MSBuild 概觀](../msbuild/msbuild.md)  
  [MSBuild 參考](../msbuild/msbuild-reference.md)
+
