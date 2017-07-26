@@ -30,10 +30,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5581224b17a7b42f65b69f741f984a144d78fc26
-ms.openlocfilehash: f4ae98f4e9b7dbf4b1066120316ee5a167ae78f2
-ms.lasthandoff: 04/04/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 7e372d9d6d935ff40054b8ba3f7684bf5ea9c458
+ms.openlocfilehash: aa3d791afc574200157104145617ff6ad6139b68
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/22/2017
 
 ---
 # <a name="compiling-and-building-in-visual-studio"></a>在 Visual Studio 中編譯與建置
@@ -51,7 +52,7 @@ ms.lasthandoff: 04/04/2017
 |使用 Team Foundation Build|-  您可以自動化您的建置流程。 例如，您可以每晚或在每次簽入程式碼時建置一或多個專案。 您也可以在共用的組置伺服器上建置專案，而不是在開發電腦上建置。<br />- 您可以快速指定您想要建置的程式碼、想要執行的測試，和其他常見的選項。<br />- 您可以修改建置工作流程，並視需要建立建置活動執行深入自訂的工作。|[建置應用程式](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|  
   
 ## <a name="building-from-the-ide"></a>從 IDE 建置  
- 當您建立專案時，會定義它的預設組建組態，並指派方案組建組態給它以提供組建的內容。 方案組態會定義如何建立和部署方案中的專案。 專案組態是一組專案屬性，它們對於平台和組建類型 (例如，版本 Win32) 而言是唯一的。 您可以編輯這些預設組態，且可以建立自己的組態。 如需詳細資訊，請參閱[專案設計工具簡介](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)和 [NIB 如何：修改專案屬性和組態設定](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)。  
+ 當您建立專案時，會定義它的預設組建組態，並指派方案組建組態給它以提供組建的內容。 方案組態會定義如何建立和部署方案中的專案。 專案組態是一組專案屬性，它們對於平台和組建類型 (例如，版本 Win32) 而言是唯一的。 您可以編輯這些預設組態，且可以建立自己的組態。 如需詳細資訊，請參閱[管理專案和方案屬性](managing-project-and-solution-properties.md)。  
   
  您可以從 IDE 中執行下列其他工作︰  
   

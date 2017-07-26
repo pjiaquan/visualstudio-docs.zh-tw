@@ -33,10 +33,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 054126ddbdc9f0144983a1ef21fa43875699cbee
-ms.openlocfilehash: 4e042e3bbe96764f3d79137d2ee1a20e085ed23d
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 25704ab33e59ccea06d2234e3761b3a05106fcdd
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/13/2017
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 05/10/2017
 
 * 每個工作負載都有自己的小節 (後面接著工作負載識別碼)，以及一張工作負載可用元件的表格。
 * 安裝工作負載時，預設會安裝「必要」元件。 * 您也可以選擇安裝「建議」元件和「選擇性」元件。
-* 我們還新增了一個小節，當中列出不屬於任何工作負載的額外元件。
+* 我們還新增了一個章節，當中列出不屬於任何工作負載的額外元件。
 
 當您在 VSIX 資訊清單中設定相依性時，必須僅指定「元件識別碼」。 請使用此頁面上的表格來決定我們的最基本元件相依性。 在某些情況下，這可能意謂著您僅指定一個來自工作負載的元件。 在其他情況下，則可能意謂著您指定來自單一工作負載的多個元件，或來自多個工作負載的多個元件。 如需詳細資訊，請參閱[如何︰將擴充性專案移轉至 Visual Studio 2017 (英文)](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) 頁面。
 
@@ -101,7 +101,7 @@ Microsoft.Net.Component.4.5.2.TargetingPack | .NET Framework 4.5.2 目標套件 
 Microsoft.Net.Component.4.5.TargetingPack | .NET Framework 4.5 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | 建議
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | 建議
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.AppInsights.Tools | 開發人員分析工具 | 15.0.26323.1 | 建議
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 製作工具 | 15.0.26419.1 | 建議
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure 計算模擬器 | 15.0.26419.1 | 建議
@@ -167,7 +167,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 目標套件 
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 開發工具 | 15.0.26208.0 | 建議
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | 建議
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.AppInsights.Tools | 開發人員分析工具 | 15.0.26323.1 | 建議
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 製作工具 | 15.0.26419.1 | 建議
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure Libraries for .NET | 15.0.26208.0 | 建議
@@ -275,7 +275,7 @@ Microsoft.Net.Component.4.5.2.TargetingPack | .NET Framework 4.5.2 目標套件 
 Microsoft.Net.Component.4.5.TargetingPack | .NET Framework 4.5 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | 建議
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | 建議
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio 核心編輯器 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.DiagnosticTools | 程式碼剖析工具 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.EntityFramework | Entity Framework 6 工具 | 15.0.26208.0 | 建議
@@ -416,7 +416,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 目標套件 
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | Optional
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | Optional
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 開發工具 | 15.0.26208.0 | Optional
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | Optional
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | Optional
 Microsoft.VisualStudio.Component.Roslyn.Compiler | C# 與 Visual Basic Roslyn 編譯程式 | 15.0.26208.0 | Optional
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# 和 Visual Basic | 15.0.26208.0 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.10240 | Windows 10 SDK (10.0.10240.0) | 15.0.26208.0 | Optional
@@ -594,7 +594,7 @@ Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 15.0.26208.0 | 必要
 Microsoft.Net.Component.4.5.1.TargetingPack | .NET Framework 4.5.1 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | 建議
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | 建議
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | 建議
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.CloudExplorer | Cloud Explorer | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.CoreEditor | Visual Studio 核心編輯器 | 15.0.26208.0 | 建議
 Microsoft.VisualStudio.Component.DiagnosticTools | 程式碼剖析工具 | 15.0.26208.0 | 建議
@@ -736,7 +736,7 @@ Microsoft.Net.Component.4.6.1.TargetingPack | .NET Framework 4.6.1 目標套件 
 Microsoft.Net.Component.4.6.TargetingPack | .NET Framework 4.6 目標套件 | 15.0.26208.0 | Optional
 Microsoft.Net.Component.4.TargetingPack | .NET Framework 4 目標套件 | 15.0.26208.0 | Optional
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.6.1 開發工具 | 15.0.26208.0 | Optional
-Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 – 4.6 開發工具 | 15.0.26208.0 | Optional
+Microsoft.Net.ComponentGroup.TargetingPacks.Common | .NET Framework 4 - 4.6 開發工具 | 15.0.26208.0 | Optional
 Microsoft.VisualStudio.Component.AppInsights.Tools | 開發人員分析工具 | 15.0.26323.1 | 選擇性
 Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure 製作工具 | 15.0.26419.1 | 選擇性
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure Libraries for .NET | 15.0.26208.0 | 選擇性

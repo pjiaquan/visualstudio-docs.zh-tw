@@ -27,10 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 9044821c2bfee0dba8ffa91f3d91afd565b8d957
-ms.openlocfilehash: 9d5e8a86d71cf1f6aa47853b862a4668dea05633
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: b0ef009dae267ca566a41bad3d6f0a9ef81cb02b
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="step-9-try-other-features"></a>步驟 9：嘗試其他功能
@@ -58,7 +59,7 @@ ms.lasthandoff: 02/22/2017
 -   使戲局變大，可讓遊戲變得更困難。  
   
     > [!TIP]
-    >  您需要做的不僅是將資料列及資料行加入至 TableLayoutPanel，還需要考量您所建立的圖示數目。  
+    >  您需要做的不僅是將資料列及資料行新增至 TableLayoutPanel，還需要考量您所建立的圖示數目。  
   
 -   如果玩家的速度太慢回應而且並未在特定時間內及時選擇第二個圖示，則隱藏第一個圖示，可讓遊戲更具挑戰性。  
   

@@ -27,10 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 39319385995b4d282336adc295bf8b469094b0af
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 555a0f9b39d28166c0f414b1bcbf81c2a137d0ff
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="visual-c-intellisense"></a>Visual C++ Intellisense
@@ -85,7 +86,7 @@ ms.lasthandoff: 02/22/2017
   
 -   第 8 行上的 #else 分支呈現灰色，表示非使用中的區域，因為 __ANDROID\_\_ 針對 Android 專案而定義。  
   
--   位於第 11 行的問候語變數會使用識別碼 HELLO 進行初始化，即具有紫色波浪線。 這是因為目前非使用中的 iOS 專案中並未定義任何識別碼 HELLO。 在 Android 專案中時，第 11 行會進行編譯，但不位於 iOS 中。 由於這是共用程式碼，即使它在目前使用中的組態中編譯時您仍應該進行變更。  
+-   位於第 11 行的問候語變數會使用識別碼 HELLO 進行初始化，即具有紫色波浪線。 這是因為目前非使用中的 iOS 專案中並未定義任何識別碼 HELLO。 在 Android 專案中時，第 11 行會進行編譯，但在 iOS 中則否。 由於這是共用程式碼，即使它在目前使用中的組態中編譯時您仍應該進行變更。  
   
 -   第 12 行會在識別碼 BYE 具有紅色波浪線；此識別項不會在目前選取的使用中專案中定義。  
   

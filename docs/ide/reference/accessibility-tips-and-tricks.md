@@ -1,57 +1,76 @@
 ---
-title: "協助工具秘訣和訣竅 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "存取範圍 [Visual Studio]"
+title: "協助工具祕訣和訣竅 | Microsoft Docs"
+ms.custom: 
+ms.date: 06/27/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- accessibility [Visual Studio]
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 21
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
+ms.openlocfilehash: 837df3bb8da963fa12ee02b39d19509336873d21
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/30/2017
+
 ---
-# <a name="accessibility-tips-and-tricks"></a>協助工具秘訣和訣竅
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 包括內建協助工具功能，可讓您透過鍵盤輕鬆工作，以及使用螢幕助讀程式或其他輔助技術裝置。 本主題包括針對協助工具最佳化 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 的一些建議，以及一些實用快速鍵組合。  
-  
-> [!NOTE]
->  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [ **工具** ] 功能表中選取 [ **匯入和匯出設定** ]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
-  
+# <a name="accessibility-tips-and-tricks"></a>協助工具祕訣和訣竅
+Visual Studio 包括內建協助工具功能，可讓您透過鍵盤輕鬆工作，以及使用螢幕助讀程式或其他輔助技術裝置。 本主題包括針對協助工具最佳化 Visual Studio 的一些建議，以及一些實用快速鍵組合。 快速鍵組合可讓您使用鍵盤在 Visual Studio 中執行工作。
+
 ## <a name="save-your-ide-settings"></a>儲存 IDE 設定  
- 您可以儲存視窗配置、鍵盤對應配置和其他喜好設定，來自訂 IDE 體驗。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
-  
-## <a name="common-windows-shortcut-key-combinations"></a>通用 Windows 快速鍵組合  
- 您可以使用許多標準 Windows 快速鍵組合，在 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 內執行工作。 其中一些快速鍵組合包括：  
-  
-|描述|按鍵組合|  
-|-----------------|---------------------|  
-|開啟或關閉高對比|**左 ALT + 左 SHIFT + PRINT SCREEN**|  
-|選取或清除對話方塊中的核取方塊選項|**空格鍵**|  
-|顯示所選取項目的內容。 例如，如果選取表單，則會將焦點放在 [屬性視窗]，或者，如果選取專案，則會開啟 [屬性頁面] 對話方塊。|**ALT+ENTER**|  
-|顯示對話方塊內使用中清單 (例如下拉式清單) 中的項目|**ALT** + 向下鍵|  
-|在格線中顯示使用中下拉式清單內的項目|**SHIFT** + **ALT** + **向下鍵**|  
-  
-## <a name="hidden-visual-studio-shortcut-key-combinations"></a>隱藏的 Visual Studio 快速鍵組合  
- 某些功能的可用快速鍵不會出現在 [選項] 對話方塊的 [環境\鍵盤] 窗格中。 這些快速鍵組合包括下列項目：  
-  
+ 您可以儲存視窗配置、鍵盤對應配置和其他喜好設定，來自訂 IDE 體驗。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
+
+## <a name="accessing-toolbars"></a>存取工具列
+Visual Studio IDE 工具列的作用與許多工具視窗相同。 下列快速鍵組合可協助您進行存取。
+
 |功能|描述|按鍵組合|  
 |-------------|-----------------|---------------------|  
-|[工具箱] 視窗|在 [工具箱] 索引標籤之間移動|**CTRL** + **向上鍵**<br /><br /> 和<br /><br /> **CTRL** + **向下鍵**|  
-|[工具箱] 視窗|將控制項從 [工具箱] 新增至表單或設計工具|**ENTER**|  
-|選項對話方塊、環境、鍵盤|刪除 [按快速鍵] 選項中所輸入的按鍵組合|**退格鍵**|  
-|所有工具視窗|選取視窗工具列上的第一個按鈕|**SHIFT** + **ALT**|  
-|IDE 工具列|選取 [標準] 工具列上的第一個按鈕|**ALT**、**CTRL** + **TAB** **注意：**再按一次 **CTRL** + **TAB**，以選取下一個 IDE 工具列上的第一個按鈕。|  
-  
-## <a name="see-also"></a>另請參閱  
+|IDE 工具列|選取 [標準] 工具列上的第一個按鈕。|**ALT**、**CTRL** + **TAB**|  
+|工作視窗工具列|將焦點移至工具視窗中的工具列。 <br> <br> **注意：**這適用於大部分的工具視窗，但只限焦點在工具視窗中時。 此外，您必須先選擇 SHIFT 鍵再選擇 ALT 鍵。 在部分工具視窗 (例如 Team Explorer) 中，您必須先按住 SHIFT 鍵再選擇 ALT 鍵。|**SHIFT** + **ALT**|
+|工具列|移至下一個工具列中的第一個項目 (當工具列有焦點時)。|**CTRL** + **TAB**|
+
+## <a name="other-useful-shortcut-key-combinations"></a>其他實用快速鍵組合  
+有些其他實用快速鍵組合包括下列項目。
+
+|功能|描述|按鍵組合|  
+|-------------|-----------------|---------------------|  
+|IDE|開啟或關閉高對比。 <br> <br> **注意：**標準 Windows 捷徑|**左 ALT + 左 SHIFT + PRINT SCREEN**|  
+|對話方塊|選取或清除對話方塊中的核取方塊選項。 <br> <br> **注意：**標準 Windows 捷徑|**空格鍵**|  
+|操作功能表|開啟操作 (滑鼠右鍵) 功能表。 <br> <br> **注意：**標準 Windows 捷徑|**SHIFT** + **F10**|
+|Menus|使用其快速鍵來快速存取功能表項目。 選擇後接功能表中加底線字母的 **ALT** 鍵，來啟動命令。 例如，若要檢視 Visual Studio 中的 [開啟專案] 對話方塊，您將選擇 **ALT** + **F** + **O** + **P**。  <br><br> **注意：**標準 Windows 捷徑|**ALT** + **[字母]**|
+|[工具箱] 視窗|在 [工具箱] 索引標籤之間移動。|**CTRL** + **向上鍵**<br /><br /> 和<br /><br /> **CTRL** + **向下鍵**|  
+|[工具箱] 視窗|將控制項從 [工具箱] 新增至表單或設計工具。|**ENTER**|  
+|選項對話方塊、環境、鍵盤|刪除 [按快速鍵] 選項中所輸入的按鍵組合。|**退格鍵**|  
+
+> [!NOTE]
+>  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。  
+
+## <a name="see-also"></a>請參閱  
  [Visual Studio 的協助工具功能](../../ide/reference/accessibility-features-of-visual-studio.md)
 
+ [如何：在 Visual Studio 中自訂功能表和工具列](../../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 
-<!--HONumber=Feb17_HO4-->
-
+ [將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)
 

@@ -1,34 +1,54 @@
 ---
 title: "在 Visual Studio 中自訂視窗版面配置 | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.windows"
-  - "vs.environment"
-helpviewer_keywords: 
-  - "AutoHide 視窗"
-  - "自訂配置"
-  - "自訂視窗組態"
-  - "偵錯模式"
-  - "文件視窗 [Visual Studio]"
-  - "介面模式"
-  - "配置 [Visual Studio], 視窗管理"
-  - "MDI, 視窗介面模式"
-  - "多部監視器"
-  - "索引標籤式文件模式"
-  - "視窗 [Visual Studio], 管理"
+ms.custom: 
+ms.date: 01/23/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.windows
+- vs.environment
+helpviewer_keywords:
+- windows [Visual Studio], managing
+- custom window configurations
+- layout [Visual Studio], window management
+- document windows [Visual Studio]
+- interface modes
+- AutoHide windows
+- MDI, window interface modes
+- multiple monitors
+- Tabbed Document mode
+- debug mode
+- custom layouts
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 27
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 8ab795965dc205cd783f469d134d64fb2b5dacf6
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
+
 ---
 # <a name="customize-window-layouts-in-visual-studio"></a>在 Visual Studio 中自訂視窗版面配置
 在 Visual Studio 中，您可自訂視窗的位置、大小和行為，以建立最適合各種開發工作流程的視窗版面配置。 IDE 會記住您自訂的版面配置。 例如，若您變更 [方案總管]  的固定位置，然後再關閉 Visual Studio，則下次啟動時即使您在另一台電腦上操作，[方案總管]  亦會固定於相同位置。 您亦可命名和儲存自訂配置，然後使用單一命令切換各個配置。 例如，您可以建立一個編輯配置和一個偵錯配置，然後使用 [視窗] &#124; [套用視窗配置] 功能表命令在兩者間切換。  
@@ -53,7 +73,7 @@ caps.handback.revision: 27
  您可透過拖曳或使用 [自訂]  對話方塊，以排列工具列。 如需如何定位及自訂工具列的詳細資訊，請參閱[何：自訂功能表和工具列](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)。  
 
 ## <a name="arrange-and-dock-windows"></a>排列和固定視窗  
- 您可 *固定*文件視窗和工具視窗，以將其在 IDE 視窗框架內定位和調整大小，或是做為獨立於 IDE 的個別浮動視窗。 工具視窗可固定於 IDE 框架內的任一處；某些工具視窗可在編輯器框架中固定為索引視窗。 文件視窗可固定於編輯器框架內，且可依定位順序鎖定至目前的位置。 您可固定多個視窗，以將這些視窗一次「浮動定位」於 IDE 上方或外部。 您亦可隱藏或最小化工具視窗。  
+ 您可 *固定*文件視窗和工具視窗，以將其在 IDE 視窗框架內定位和調整大小，或是做為獨立於 IDE 的個別浮動視窗。 工具視窗可固定於 IDE 框架內的任一處；某些工具視窗可在編輯器框架中固定為索引視窗。 文件視窗可固定於編輯器框架內，且可依定位順序鎖定至目前的位置。 您可以停駐多個視窗，以將這些視窗一次「浮動定位」於 IDE 上方或外部。 您亦可隱藏或最小化工具視窗。  
 
  您可使用下列方式排列視窗：  
 
@@ -74,7 +94,7 @@ caps.handback.revision: 27
  您可透過拖曳、使用 [視窗]  功能表上的命令，或是在要排列的視窗標題列上按一下滑鼠右鍵，來排列工具和文件視窗。  
 
 > [!NOTE]
->  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置。 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置。 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../ide/personalizing-the-visual-studio-ide.md)。  
 
 ### <a name="dock-windows"></a>固定視窗  
  若您按一下並拖曳工具視窗的標題列，或是文件視窗的索引標籤，則會顯示輔助方塊。 執行拖曳作業時，若將滑鼠資料指標停駐於菱形的其中一個箭號上，則會顯示陰影區域指出當您立即放開滑鼠按鈕時的視窗固定位置。  
@@ -103,7 +123,7 @@ caps.handback.revision: 27
  ![自動隱藏](../ide/media/vs2015_auto_hide.png "vs2017_auto_hide")  
 
 > [!NOTE]
->  若要設定以個別或固定群組方式「自動隱藏」工具視窗，請在 [選項]  對話方塊中選取或清除 [自動隱藏按鈕僅對使用中的工具視窗生效]  。 如需詳細資訊，請參閱[一般、環境、選項對話方塊](../ide/reference/general-environment-options-dialog-box.md)。  
+>  若要設定以個別或固定群組方式「自動隱藏」工具視窗，請在 [選項]  對話方塊中選取或清除 [自動隱藏按鈕僅對使用中的工具視窗生效]  。 如需詳細資訊，請參閱 [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)。  
 
 > [!NOTE]
 >  視窗具有焦點時，可能會暫時顯示已啟用「自動隱藏」的工具視窗。 若要再次隱藏視窗，請選取目前視窗以外的項目。 當視窗失去焦點時，其即會自動隱藏。  
@@ -130,11 +150,11 @@ caps.handback.revision: 27
 
 ##### <a name="create-a-ui-project-and-customize-the-layout"></a>建立 UI 專案，並自訂配置。  
 
-1.  在 [新增專案]  對話方塊中，建立 Visual C# WPF 桌面應用程式，並為它任意命名。 假設這是我們要在使用者介面上進行的專案，所以我們想要將設計工具視窗的空間最大化，並將造成妨礙的其他工具視窗移開。  
+1.  在 [新增專案]  對話方塊中，建立 Visual C# WPF 桌面應用程式，並為它任意命名。 假設這是我們要在使用者介面上進行的專案，因此我們想要將設計工具視窗的空間最大化，並將造成妨礙的其他工具視窗移開。  
 
 2.  如果您有多個監視器，請將 [方案總管]  視窗和 [屬性]  視窗拉到第二個監視器。 在單一監視器系統上，嘗試關閉設計工具以外的所有視窗。  
 
-3.  按 **Ctrl + Alt + X** ，以顯示 [工具箱]。 如果視窗已固定，則將它拖曳，使其飄浮至您要將它定位的地方 (任一監視器上)。  
+3.  按 **Ctrl + Alt + X** ，以顯示 [工具箱]。 如果已停駐視窗，則拖曳它，使其飄浮至您要將它定位的地方 (任一監視器上)。  
 
 4.  按 F5 使 Visual Studio 處於偵錯模式。 依照您想要的方式，調整 [自動變數]、[呼叫堆疊] 和 [輸出] 偵錯視窗的位置。 您即將建立的配置將會套用至編輯模式和偵錯模式。  
 
@@ -146,9 +166,9 @@ caps.handback.revision: 27
 
 1.  將新的 **SQL Server 資料庫** 專案加入方案。  
 
-2.  在方案總管中，用滑鼠右鍵按一下新專案，並選擇 [在物件總管中檢視] 。 這樣會顯示 [SQL Server 物件總管]  視窗，可讓您存取資料表、檢視和資料庫中的其他物件。 您可以將此視窗設為浮動，或是保留固定狀態。 依照您想要的方式調整其他工具視窗。 為了增加真實度，您可以加入實際的資料庫，但在此逐步解說中不需這麼做。  
+2.  在方案總管中，用滑鼠右鍵按一下新專案，並選擇 [在物件總管中檢視] 。 這樣會顯示 [SQL Server 物件總管]  視窗，可讓您存取資料表、檢視和資料庫中的其他物件。 您可以將此視窗設為浮動，或是保留固定狀態。 依照您想要的方式調整其他工具視窗。 為了增加真實度，您可以新增實際資料庫，但在此逐步解說中不需這麼做。  
 
-3.  當配置呈現您想要的樣子時，從主要功能表選擇 [視窗] > [儲存視窗配置]。 將此配置命名為 "DB Project"。 (我們不用為此專案的偵錯模式擔心。)  
+3.  當配置呈現您想要的樣子時，從主要功能表選擇 [視窗] > [儲存視窗配置]。 將此配置命名為 "DB Project" (我們不用為此專案的偵錯模式配置擔心)。  
 
 ##### <a name="switch-between-the-layouts"></a>在配置之間切換  
 
@@ -175,9 +195,4 @@ caps.handback.revision: 27
 ## <a name="related-topics"></a>相關主題  
 
 [何：在 IDE 中四處移動](../ide/how-to-move-around-in-the-visual-studio-ide.md)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

@@ -1,6 +1,6 @@
 ---
 title: Dotfuscator Community Edition (CE) | Microsoft Docs
-ms.date: 2017-02-08
+ms.date: 2017-06-22
 ms.prod: visual-studio-dev15
 ms.devlang: dotnet
 ms.technology:
@@ -37,10 +37,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 507ff049dae50698d86e1536ed21ab982da1af85
-ms.openlocfilehash: 4831a41cc82ecb1030d61263f46b1d41ec0c37a1
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 8ce85525f6af336682f6f8547c2f6c13dde73c8c
+ms.openlocfilehash: fb5356632ecf8183945b1d50ba940ed05abcf96f
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/23/2017
 
 ---
 
@@ -60,7 +61,7 @@ Visual Studio 2017 推出新的低影響安裝體驗。
 
 1. 在 [快速啟動] (Ctrl + Q) 搜尋列中鍵入 `dotfuscator`。 <br/> <br/> ![](media/install_from_vs_12.png) <br/> <br/>
 2. 在 [快速啟動] 結果顯示畫面的「安裝」標題下，選取 [PreEmptive Protection - Dotfuscator (個別元件)]。
-  * 但若看到「功能表」標題下的 [工具] → [PreEmptive Protection - Dotfuscator]，則已安裝 Dotfuscator CE。 如需使用方式詳細資料，請參閱[完整 Dotfuscator CE 使用者指南的入門頁面][get-started]。
+  * 但若看到「功能表」標題下的 [工具] - [PreEmptive Protection - Dotfuscator]，則已安裝 Dotfuscator CE。 如需使用方式詳細資料，請參閱[完整 Dotfuscator CE 使用者指南的入門頁面][get-started]。
 3. [Visual Studio 安裝程式] 視窗即會啟動，預先設定安裝 Dotfuscator CE。
   * 您可能需要提供系統管理員認證才能繼續。
 4. 關閉所有 Visual Studio IDE 執行個體。 <br/> <br/> ![](media/install_from_vs_345.png) <br/> <br/>
@@ -87,13 +88,14 @@ Visual Studio 2017 推出新的低影響安裝體驗。
 
 ## <a name="see-also"></a>另請參閱
 
-[完整 Dotfuscator CE 使用者指南中的本主題][full]
+[完整《Dotfuscator CE User Guide》(Dotfuscator CE 使用者指南) 中的本主題][full]
 
 <!-- Copyright © 2017 PreEmptive Solutions, LLC -->
 
 [2017-install]: https://www.visualstudio.com/downloads/#vs-2017
-[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/gui_getstarted.html
+[get-started]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
 [download]: https://www.preemptive.com/products/dotfuscator/downloads
 
-[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/intro_install.html
+[full]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_install.html
+

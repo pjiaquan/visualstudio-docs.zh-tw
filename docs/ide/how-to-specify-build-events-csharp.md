@@ -1,66 +1,83 @@
 ---
 title: "如何：指定建置事件 (C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "建置事件 [Visual Studio]"
-  - "組建 [Visual Studio], 事件"
-  - "事件 [Visual Studio], 組建"
-  - "建置後事件"
-  - "建置前事件"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- pre-build events
+- events [Visual Studio], builds
+- post-build events
+- build events [Visual Studio]
+- builds [Visual Studio], events
 ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 19
----
-# 如何：指定建置事件 (C#)
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 3058bf7c6714f18291353224a192218c1b59a480
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
-請使用建置事件指定在開始執行建置前，或在建置結束後執行的命令。  只有在該建置成功地抵達建置程序中的這些點時，才會執行建置事件。  
+---
+# <a name="how-to-specify-build-events-c"></a>如何：指定建置事件 (C#)
+使用建置事件指定要在建置開始之前，或建置完成之後執行的命令。 只有在建置成功到達建置流程中的這些點時，建置事件才會執行。  
   
- 專案建置後，建置前事件會加入至名為 PreBuildEvent.bat 的檔案中，而建置後事件則會加入至名為 PostBuildEvent.bat 的檔案中。  如果您要確保執行錯誤檢查，請將您的錯誤檢查命令加入到建置步驟中。  
+ 建置專案時，建置前事件會新增至名為 PreBuildEvent.bat 的檔案，而建置後事件會新增至名為 PostBuildEvent.bat 的檔案。 如果您想要確保錯誤檢查，請將您自己的錯誤檢查命令新增至建置步驟。  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
-## 如何指定建置前和建置後事件  
+## <a name="how-to-specify-pre-build-and-post-build-events"></a>如何指定建置前和建置後事件  
   
-#### 若要指定建置事件  
+#### <a name="to-specify-a-build-event"></a>若要指定建置事件  
   
-1.  在 \[**方案總管**\] 中，選取您要指定建置事件的專案。  
+1.  在 [方案總管] 中，選取您想要指定建置事件的專案。  
   
-2.  在 \[**專案**\] 功能表上，按一下 \[**屬性**\]。  
+2.  在 [專案] 功能表上，按一下 [屬性]。  
   
-3.  選取 \[**建置事件**\] 索引標籤。  
+3.  選取 [建置事件] 索引標籤。  
   
-4.  在 \[**建置前事件命令列**\] 方塊中，指定建置事件的語法。  
-  
-    > [!NOTE]
-    >  如果專案是最新的且未觸發任何建置，則不會執行建置前事件。  
-  
-5.  在 \[**建置後事件命令列**\] 方塊中，指定建置事件的語法。  
+4.  在 [建置前事件命令列] 方塊中，指定建置事件的語法。  
   
     > [!NOTE]
-    >  在執行 .bat 檔的所有建置後命令之前加入 `call` 陳述式。  例如，`call C:\MyFile.bat` 或 `call C:\MyFile.bat call C:\MyFile2.bat`。  
+    >  如果專案是最新狀態，而且未觸發任何建置，則建置前事件不會執行。  
   
-6.  在 \[**執行建置後事件**\] 方塊中，指定在何種情況下要執行建置後事件。  
+5.  在 [建置後事件命令列] 方塊中，指定建置事件的語法。  
   
     > [!NOTE]
-    >  若要加入冗長的語法，或是從[建置前事件\/建置後事件命令列對話方塊](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)中選取任何建置巨集，請按一下省略符號按鈕 \(**...**\) 以顯示編輯方塊。  
+    >  在執行 .bat 檔案的所有建置命令前方，加入 `call` 陳述式。 例如，`call C:\MyFile.bat` 或 `call C:\MyFile.bat call C:\MyFile2.bat`。  
   
-     建置事件語法可包含命令提示字元上或 .bat 檔中任何有效的命令。  批次檔名稱前面應該加上 `call` 以確保所有的後續命令都會被執行。  
+6.  在 [執行建置後事件] 方塊中，指定要執行建置後事件的情況。  
   
-     **注意**：如果您的建置前或建置後事件未成功完成，可以用零 \(0，表示成功動作\) 以外的代碼結束事件動作來終止建置。  
+    > [!NOTE]
+    >  若要新增冗長的語法，或從[建置前事件/建置後事件命令列對話方塊](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)選取任何建置巨集，請按一下省略符號按鈕 (**...**) 來顯示編輯方塊。  
   
-## 範例：如何使用建置後事件變更資訊清單資訊  
- 下列程序將示範如何從建置後事件 \(專案目錄中的 .exe.manifest 檔案\) 呼叫 .exe 命令，以設定應用程式資訊清單中的最小作業系統版本。  最小作業系統版本是四段式的數字，例如：4.10.0.0。  如果要這麼做，命令會變更資訊清單的 `<dependentOS>` 區段：  
+     建置事件語法可以包含在命令提示字元或 .bat 檔案中的任何有效命令。 批次檔的名稱之前應該加上 `call` 以確保所有後續的命令都會執行。  
+  
+     **注意：**如果您的建置前或建置後事件未順利完成，您可以結束代碼不為零 (0) 的事件動作 (若為 0 表示動作成功)，以終止建置。  
+  
+## <a name="example-how-to-change-manifest-information-by-using-a-post-build-event"></a>範例：如何使用建置後事件變更資訊清單  
+ 下列程序示範如何使用從建置後事件呼叫的 .exe 命令 (專案目錄中的 .exe.manifest 檔案)，設定應用程式資訊清單中的最低作業系統版本。 最低作業系統版本是由四組號碼來表示，例如 4.10.0.0。 若要進行上述作業，請使用命令來變更資訊清單的 `<dependentOS>` 區段：  
   
 ```  
 <dependentOS>  
@@ -70,19 +87,19 @@ caps.handback.revision: 19
 </dependentOS>  
 ```  
   
-#### 若要建立 .exe 命令來變更應用程式資訊清單  
+#### <a name="to-create-an-exe-command-to-change-the-application-manifest"></a>建立 .exe 命令以變更應用程式資訊清單  
   
-1.  建立命令的主控台應用程式 \(Console Application\)。  在 \[**檔案**\] 功能表上指向 \[**新增**\]，然後按一下 \[**專案**\]。  
+1.  建立命令的主控台應用程式。 從 [檔案] 功能表，指向 [新增]，然後按一下 [專案]。  
   
-2.  在 \[**新增專案**\] 對話方塊中，展開 \[**Visual C\#**\]，按一下 \[**Windows**\]，然後再按一下 \[**主控台應用程式**\] 範本。  將專案命名為 `ChangeOSVersionCS`。  
+2.  在 [新增專案] 對話方塊中，展開 [Visual C#]、依序按一下 [Windows] 和 [主控台應用程式] 範本。 將專案命名為 `ChangeOSVersionCS`。  
   
-3.  在 Program.cs 中，將下行加入至位於在檔案開頭的其他 `using` 陳述式：  
+3.  在 Program.cs 中，將下面這行新增在檔案最上方的另一個 `using` 陳述式：  
   
     ```  
     using System.Xml;  
     ```  
   
-4.  在 `ChangeOSVersionCS` 命名空間中，以下列程式碼取代 `Program` 類別實作：  
+4.  在 `ChangeOSVersionCS` 命名空間中，將 `Program` 類別實作取代為下列程式碼：  
   
     ```  
     class Program  
@@ -134,56 +151,56 @@ caps.handback.revision: 19
     }  
     ```  
   
-     這個命令具有兩個引數：應用程式資訊清單的路徑 \(亦即，建置程序建立資訊清單的資料夾，通常為 Projectname.publish\) 及新的作業系統版本。  
+     命令接受兩個引數：應用程式資訊清單的路徑 (也就是建置程序建立資訊清單的資料夾，通常為 Projectname.publish)，以及新的作業系統版本。  
   
-5.  建置專案。  在 \[**建置**\] 功能表上，按一下 \[**建置方案**\]。  
+5.  建置專案。 在 [ **建置** ] 功能表上，按一下 [ **建置方案**]。  
   
-6.  將 .exe 檔案複製到目錄，例如：`C:\TEMP\ChangeOSVersionVB.exe`。  
+6.  將 .exe 檔案 (例如 `C:\TEMP\ChangeOSVersionVB.exe`) 複製到目錄。  
   
- 接著，在建置後事件中叫用這個命令，以修改應用程式資訊清單。  
+ 接下來，在建置後事件中叫用此命令，以修改應用程式資訊清單。  
   
-#### 叫用建置後事件以修改應用程式資訊清單  
+#### <a name="to-invoke-a-post-build-event-to-modify-the-application-manifest"></a>叫用建置後事件，以修改應用程式資訊清單  
   
-1.  針對要發行的專案建立 Windows 應用程式。  在 \[**檔案**\] 功能表上指向 \[**新增**\]，然後按一下 \[**專案**\]。  
+1.  針對要發行的專案，建立 Windows 應用程式。 從 [檔案] 功能表，指向 [新增]，然後按一下 [專案]。  
   
-2.  在 \[**新增專案**\] 對話方塊中，展開 \[**Visual C\#**\]，按一下 \[**Windows**\]，然後再按一下 \[**Windows Form 應用程式**\] 範本。  將專案命名為 `CSWinApp`。  
+2.  在 [新增專案] 對話方塊中，展開 [Visual C#]、依序按一下 [Windows] 和 [Windows Forms 應用程式] 範本。 將專案命名為 `CSWinApp`。  
   
-3.  在 \[**方案總管**\] 中選取專案之後，請在 \[**專案**\] 功能表上，按一下 \[**屬性**\]。  
+3.  選取方案總管中的專案，然後按一下 [專案] 功能表中的 [屬性]。  
   
-4.  在 \[專案設計工具\] 中，找到 \[**發行**\] 頁，並將 \[**發行位置**\] 設定為 `C:\TEMP\`。  
+4.  在 [專案設計工具] 中，找到 [發行] 頁面，然後將 [發行位置] 設為 `C:\TEMP\`。  
   
-5.  按一下 \[**立即發行**\]，發行專案。  
+5.  按一下 [Publish Now]\(立即發行)，即可發行專案。  
   
-     資訊清單檔案便會建置，並放置於 `C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest` 中。  如果要檢視資訊清單，請以滑鼠右鍵按一下檔案，按一下 \[**開啟方式**\]，選取 \[**從清單選取程式**\]，然後再按一下 \[**記事本**\]。  
+     隨即建立資訊清單檔並將其放入`C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest`。 若要檢視資訊清單，請以滑鼠右鍵按一下檔案、按一下 [開啟方式]、選取 [從清單中選取程式]，然後按一下 [記事本]。  
   
-     在檔案中搜尋 `<osVersionInfo>` 項目。  例如，版本可能為：  
+     在檔案中搜尋 `<osVersionInfo>` 項目。 例如，版本可能是：  
   
     ```  
     <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />  
     ```  
   
-6.  在 \[專案設計工具\] 中，按一下 \[**建置事件**\] 索引標籤，然後再按一下 \[**建置後進行編輯**\] 按鈕。  
+6.  在專案設計工具中，依序按一下 [建置事件] 索引標籤和 [建置後進行編輯] 按鈕。  
   
-7.  在 \[**建置後事件命令列**\] 方塊中，輸入下列命令：  
+7.  在 [建置後事件命令列] 文字方塊中，輸入下列命令：  
   
      `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`  
   
-     當建置專案時，這個命令會將應用程式資訊清單中的最小作業系統版本變更為 5.1.2600.0。  
+     當您建置專案時，此命令會將應用程式資訊清單中的最低作業系統版本變更為 5.1.2600.0。  
   
-     由於 `$(TargetPath)` 巨集表示建立可執行檔的完整路徑，因此 `$(TargetPath)`.manifest 將指定在 bin 目錄中所建立的應用程式資訊清單。  發行會將此資訊清單複製到前述所設定的發行位置。  
+     因為 `$(TargetPath)` 巨集會表達正在建立之可執行檔的完整路徑，所以 `$(TargetPath)`.manifest 將會指定在 bin 目錄中建立的應用程式資訊清單。 發行時，系統會將這份資訊清單複製到您先前設定的發行位置中。  
   
-8.  重新發行專案。  移至 \[**發行**\] 頁，然後按一下 \[**立即發行**\]。  
+8.  再次發行專案。 移至 [發行] 頁面，然後按一下 [Publish Now]\(立即發行)。  
   
-     重新檢視資訊清單。  若要檢視資訊清單，請開啟發行目錄並以滑鼠右鍵按一下檔案，按一下 \[**開啟方式**\]，選取 \[**從清單選取程式**\]，然後再按一下 \[**記事本**\]。  
+     再次檢視資訊清單。 若要檢視資訊清單，請開啟發行目錄，以滑鼠右鍵按一下檔案、按一下 [開啟方式]、選取 [從清單中選取程式]，然後按一下 [記事本]。  
   
-     版本資訊應該如下：  
+     現在，版本應讀為：  
   
     ```  
     <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />  
     ```  
   
-## 請參閱  
- [專案設計工具、建置事件 \(C\#\)](../ide/reference/build-events-page-project-designer-csharp.md)   
- [建置前事件\/建置後事件命令列對話方塊](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
- [如何：指定建置事件 \(Visual Basic\)](../Topic/How%20to:%20Specify%20Build%20Events%20\(Visual%20Basic\).md)   
- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+## <a name="see-also"></a>另請參閱  
+ [專案設計工具、建置事件 (C#)](../ide/reference/build-events-page-project-designer-csharp.md)   
+ [建置前事件/建置後事件命令列對話方塊](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+ [如何：指定建置事件 (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md)   
+ [編譯和建置](../ide/compiling-and-building-in-visual-studio.md)

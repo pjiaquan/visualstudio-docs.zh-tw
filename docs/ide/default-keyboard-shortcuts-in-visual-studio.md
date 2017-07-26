@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio 中的預設鍵盤快速鍵 | Microsoft Docs"
 ms.custom: 
-ms.date: 05/02/2017
+ms.date: 06/26/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -35,16 +35,18 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 4c744284c198a645440494ee79ee0e722904fda5
-ms.openlocfilehash: c3686170b93717c1e55d209a3f8bc8d2725c265d
+ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
+ms.openlocfilehash: b94ea904245695667a72eeaec251b3e85d37f691
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/30/2017
 
 ---
 # <a name="default-keyboard-shortcuts-in-visual-studio"></a>Visual Studio 中的預設鍵盤快速鍵
-只需選擇適當的鍵盤快速鍵，您就可以在 Visual Studio 中更輕鬆地存取各種命令和視窗。 本主題列出 [一般開發] 設定檔的預設捷徑，您可能已在已安裝的 Visual Studio 中選擇該設定檔。 不管您選擇哪一個設定檔，都可以開啟 [選項] 對話方塊、展開 [環境] 節點，然後選擇 [鍵盤] 來識別命令的捷徑。 您也可以為指定的命令指派不同的捷徑，以自訂捷徑。  
+如需鍵盤存取範圍的詳細資訊，請參閱[協助工具祕訣和訣竅](../ide/reference/accessibility-tips-and-tricks.md)和[如何：以獨佔模式使用鍵盤](../ide/reference/how-to-use-the-keyboard-exclusively.md)。
 
- 如需常用鍵盤快速鍵的清單和其他產能資訊，請參閱[秘訣和訣竅](../ide/tips-and-tricks-for-visual-studio.md)和[提高產能的秘訣](../ide/productivity-tips-for-visual-studio.md)。  
+只需選擇適當的鍵盤快速鍵，您就可以在 Visual Studio 中存取各種命令和視窗。 本主題列出 [一般開發] 設定檔的預設捷徑，您可能已在已安裝的 Visual Studio 中選擇該設定檔。 不管您選擇哪一個設定檔，都可以開啟 [選項] 對話方塊、展開 [環境] 節點，然後選擇 [鍵盤] 來識別命令的捷徑。 您也可以為指定的命令指派不同的捷徑，以自訂捷徑。
+
+ 如需常用鍵盤快速鍵的清單和其他生產力資訊，請參閱 [Visual Studio 中常用命令的預設鍵盤快速鍵](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)、[祕訣和訣竅](../ide/tips-and-tricks-for-visual-studio.md)和[提高生產力的祕訣](../ide/productivity-tips-for-visual-studio.md)。
 
  下表中的各個區段包含全域的命令，您可以在 Visual Studio 的任何位置使用鍵盤快速鍵存取這些命令：  
 

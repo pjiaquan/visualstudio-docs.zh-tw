@@ -33,10 +33,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 47cc71da3637ae7f3bdb7ff4b09451a87d546bff
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: e165ec6487a17819313dacd819ca1147b9953339
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="localizing-applications"></a>當地語系化應用程式
@@ -59,11 +60,11 @@ ms.lasthandoff: 02/22/2017
  [以 .NET Framework 為基礎的國際應用程式簡介](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  探討使用 Visual Basic 或 Visual C# 開發國際市場軟體的基本概念。  
   
- [全球化 Windows Forms](http://msdn.microsoft.com/Library/72f6cd92-83be-45ec-aa37-9cb8e3ebc3c5)  
+ [全球化 Windows Forms](/dotnet/framework/winforms/advanced/globalizing-windows-forms)  
  提供建立支援多種文化特性之 Windows 應用程式的相關頁面連結。  
   
  [全球化和當地語系化](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)  
  提供建立支援多種文化特性之 Web 應用程式的相關頁面連結。  
   
  [開發世界性的應用程式的最佳做法](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)  
- 提供針對國際市場使用者設計程式的相關資訊，例如設計問題和技術。
+ 提供適用於國際對象的程式設計相關資訊，例如設計問題和技術。

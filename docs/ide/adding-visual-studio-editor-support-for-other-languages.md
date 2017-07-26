@@ -19,10 +19,11 @@ caps.latest.revision: 13
 author: kempb
 ms.author: kempb
 manager: ghogen
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 1901f0dde22fb44ecf3d1b549505590125999700
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 65cb324c1a7ed91ad5209da7826a1899657a414f
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="adding-visual-studio-editor-support-for-other-languages"></a>新增其他語言的 Visual Studio 編輯器支援
@@ -81,7 +82,7 @@ ms.lasthandoff: 02/22/2017
   
  在 Windows 中，%userprofile% 會解析為路徑︰ c:\Users\\\<使用者名稱>。 如果您的系統上的 extensions 資料夾不存在，您必須建立它。 如果資料夾已存在，它會隱藏。  
   
- 如需如何建立 TextMate 文法的詳細資料，請參閱 [TextMate – Introduction to Language Grammars: How to add source code syntax highlighting embedded in HTML](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) (TextMate – 語言文法簡介︰如何新增內嵌於 HTML 的原始程式碼語法反白顯示) 和 [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle) (如何為 Textmate 組合建立語言文法及自訂佈景主題的附註)。  
+ 如需如何建立 TextMate 文法的詳細資料，請參閱 [TextMate - Introduction to Language Grammars: How to add source code syntax highlighting embedded in HTML](https://developmentality.wordpress.com/2011/02/08/textmate-introduction-to-language-grammars/) (TextMate - 語言文法簡介︰如何新增內嵌於 HTML 的原始程式碼語法反白顯示) 和 [Notes on how to create a Language Grammar and Custom Theme for a Textmate Bundle](https://benparizek.com/notebook/notes-on-how-to-create-a-language-grammar-and-custom-theme-for-a-textmate-bundle) (如何為 Textmate 組合建立語言文法及自訂佈景主題的附註)。  
   
 ## <a name="see-also"></a>另請參閱  
  [Visual Studio 2013 巡覽至增強功能](https://blogs.msdn.microsoft.com/mvpawardprogram/2013/10/22/visual-studio-2013-navigate-to-improvements/)   

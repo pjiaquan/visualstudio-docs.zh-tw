@@ -1,37 +1,54 @@
 ---
-title: "How to: Create Inheritance Between Types (Class Designer) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "vs.classdesigner.inheritanceline"
-helpviewer_keywords: 
-  - "inheritance, relationship defining"
-  - "relationships, defining inheritance"
+title: "如何：建立類型之間的繼承 (類別設計工具) | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- vs.classdesigner.inheritanceline
+helpviewer_keywords:
+- inheritance, relationship defining
+- relationships, defining inheritance
 ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 30
----
-# How to: Create Inheritance Between Types (Class Designer)
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: bd4969c26d1cc0043945189bd4da3acbf5792107
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
-若要使用 \[類別設計工具\] 在類別圖上建立兩個類型之間的繼承關係，請將基底類型連接至其衍生類型或其他類型。  您可以建立兩個類別之間的繼承關係、一個類別和一個介面之間的繼承關係，或兩個介面之間的繼承關係。  
+---
+# <a name="how-to-create-inheritance-between-types-class-designer"></a>如何：建立類型之間的繼承 (類別設計工具)
+若要使用 [類別設計工具] 在類別圖上建立兩個類型之間的繼承關係，請將基底類型連接至其衍生類型或其他類型。 您可以建立兩個類別之間的繼承關係、一個類別和一個介面之間的繼承關係，或兩個介面之間的繼承關係。  
   
-### 建立兩個類型之間的繼承  
+### <a name="to-create-an-inheritance-between-types"></a>建立兩個類型之間的繼承  
   
-1.  從 \[方案總管\] 的專案中開啟類別圖 \(.cd\) 檔。  
+1.  從 [方案總管] 的專案中開啟類別圖 (.cd) 檔。  
   
-     如果您還沒有類別圖，請先建立類別圖。  請參閱 [How to: Add Class Diagrams to Projects \(Class Designer\)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)。  
+     如果您還沒有類別圖，請先建立類別圖。 請參閱 [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)。  
   
-2.  在 \[工具箱\] 的 \[類別設計工具\] 下，按一下 \[繼承\]。  
+2.  在 [工具箱] 的 [類別設計工具] 下，按一下 [繼承]。  
   
 3.  在類別圖上，繪製所需類型之間的繼承線，從下列各項開始：  
   
@@ -41,15 +58,15 @@ caps.handback.revision: 30
   
     -   擴充中的介面到已擴充的介面  
   
-4.  \(選擇性\) 如果您有泛型類型的衍生類型，請按一下繼承線。  在 \[屬性\] 視窗中，將 \[類型引數\] 屬性設定為符合泛型類型所需的類型。  
+4.  (選擇性) 如果您有泛型類型的衍生類型，請按一下繼承線。 在 [屬性] 視窗中，將**型別引數**屬性設定為符合泛型型別所需的類型。  
   
     > [!NOTE]
-    >  如果父抽象類別至少包含一個抽象成員，則所有抽象成員都會實作為非抽象繼承類別。  請參閱 [Implementing Abstract Base Classes](../ide/refactoring-classes-and-types-class-designer.md#ImplementingAbstractBaseClasses)。  
+    >  如果父抽象類別至少包含一個抽象成員，則所有抽象成員都會實作為非抽象繼承類別。  
     >   
-    >  雖然您可以視覺化現有的泛型類型，不過無法建立新的泛型類型。  您也無法變更現有泛型類型的類型參數。  
+    >  雖然您可以視覺化現有的泛型類型，不過無法建立新的泛型類型。 您也無法變更現有泛型類型的型別參數。  
   
-## 請參閱  
+## <a name="see-also"></a>另請參閱  
  [繼承](/dotnet/csharp/programming-guide/classes-and-structs/inheritance)   
- [Inheritance Basics](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)   
- [How to: View Inheritance Between Types \(Class Designer\)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
- [Visual C\+\+ Classes in Class Designer](../ide/visual-cpp-classes-in-class-designer.md)
+ [繼承的基本概念](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)   
+ [如何：檢視類型之間的繼承 (類別設計工具)](../ide/how-to-view-inheritance-between-types-class-designer.md)   
+ [類別設計工具中的 Visual C++ 類別](../ide/visual-cpp-classes-in-class-designer.md)

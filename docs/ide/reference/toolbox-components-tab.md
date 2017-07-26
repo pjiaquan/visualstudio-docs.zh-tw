@@ -29,10 +29,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: a267468b7b23dd0d2ed6c43df6c63c78d862ddbb
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 3a1ae20e3aca94339621546ac69bbfffd3a75ab3
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="toolbox-components-tab"></a>元件索引標籤、工具箱
@@ -68,10 +69,10 @@ ms.lasthandoff: 02/22/2017
  建立可用來與訊息佇列互動的 <xref:System.Messaging.MessageQueue> 元件執行個體，包括從佇列中讀取訊息與將訊息寫入其中、處理交易，以及執行佇列管理工作。 如需詳細資訊，請參閱[使用訊息元件](http://msdn.microsoft.com/en-us/922dbac7-26f0-4e39-b666-ccfc184793d7)。  
   
  **PerformanceCounter**  
- 建立可用來與 Windows 效能計數器互動的 <xref:System.Diagnostics.PerformanceCounter> 元件執行個體，包括建立新的分類和執行個體、讀取計數器中的值，以及對計數器資料執行計算。 如需詳細資訊，請參閱[監視效能臨界值](http://msdn.microsoft.com/en-us/b8b44a55-31d0-4b45-9517-8c1b1e4fdc91)。  
+ 建立可用來與 Windows 效能計數器互動的 <xref:System.Diagnostics.PerformanceCounter> 元件執行個體，包括建立新的類別和執行個體、讀取計數器中的值，以及對計數器資料執行計算。 如需詳細資訊，請參閱[監視效能臨界值](http://msdn.microsoft.com/en-us/b8b44a55-31d0-4b45-9517-8c1b1e4fdc91)。  
   
  **Process**  
- 建立 <xref:System.Diagnostics.Process> 元件執行個體，以用來停止、啟動和操作與系統上的處理序相關聯的資料。 如需詳細資訊，請參閱[監視和管理 Windows 處理序](http://msdn.microsoft.com/en-us/a86bd4c1-b92c-49a0-8f32-61d67837b45e)。  
+ 建立 <xref:System.Diagnostics.Process> 元件執行個體，以用來停止、啟動和操作與系統上的處理序建立關聯的資料。 如需詳細資訊，請參閱[監視和管理 Windows 處理序](http://msdn.microsoft.com/en-us/a86bd4c1-b92c-49a0-8f32-61d67837b45e)。  
   
  **SerialPort**  
  建立 `System.IO.Ports.SerialPort` 元件執行個體，以提供同步和事件驅動的 I/O、Pin 和中斷狀態的存取權，以及序列驅動程式屬性的存取權。  
@@ -80,7 +81,7 @@ ms.lasthandoff: 02/22/2017
  建立可用來操作現有服務的 <xref:System.ServiceProcess.ServiceController> 元件執行個體，包括啟動和停止服務，以及將命令傳送給它們。 如需詳細資訊，請參閱[監視 Windows 服務](http://msdn.microsoft.com/en-us/4542ee3f-e052-4cb9-8726-58e9420de222)。  
   
  **Timer**  
- 建立 <xref:System.Windows.Forms.Timer> 元件執行個體，以用來將以時間為基礎的功能新增至 Windows 應用程式。 如需詳細資訊，請參閱 [Timer 元件](http://msdn.microsoft.com/Library/6700e534-6382-43d5-98ed-14205435fff7)。  
+ 建立 <xref:System.Windows.Forms.Timer> 元件執行個體，以用來將以時間為基礎的功能新增至 Windows 應用程式。 如需詳細資訊，請參閱 [Timer 元件](/dotnet/framework/winforms/controls/timer-component-windows-forms)。  
   
 > [!NOTE]
 >  還會有以系統為基礎的 <xref:System.Timers.Timer> 可以新增至 [工具箱]。這個 <xref:System.Timers.Timer> 已針對伺服器應用程式最佳化，而且 Windows Forms <xref:System.Windows.Forms.Timer> 最適合在 Windows Forms 上使用。  

@@ -28,13 +28,15 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: c0966f42efc54452d0f7cd11e19c6f82f7686474
-ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 65b94b58da1e06febb1c189ddff85f792fef1737
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="getting-started-with-c-in-visual-studio"></a>Visual Studio 中的 C++ 使用者入門
-完成這個逐步解說，您就能熟悉許多可在使用 Visual Studio 開發應用程式時運用的工具與對話方塊。 您將建立簡單的 "Hello, World" 型應用程式，同時進一步了解如何使用整合式開發環境 (IDE)。  
+完成這個逐步解說，您就能熟悉許多可在使用 Visual Studio 開發應用程式時運用的工具與對話方塊。 您將建立簡單的 "Hello, World" 型應用程式，同時深入了解如何使用整合式開發環境 (IDE)。  
   
  此主題包括下列章節：  
   
@@ -42,14 +44,14 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
   
  [建立簡單的應用程式](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_CreateApp)  
   
- [將程式碼新增到應用程式](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_AddCode)  
+ [將程式碼加入應用程式](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_AddCode)  
   
  [偵錯和測試應用程式](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_DebugTest)  
   
  [建置應用程式的發行版本](../ide/getting-started-with-cpp-in-visual-studio.md#BKMK_BuildRelease)  
   
-##  <a name="a-namebkmkconfigurea-sign-in-to-visual-studio"></a><a name="BKMK_Configure"></a> 登入 Visual Studio  
- 當您第一次啟動 Visual Studio 時，可以選擇使用例如 Live 或 Outlook 等 Microsoft 帳戶登入。 登入可讓您跨所有裝置同步處理設定。 如需詳細資訊，請參閱[登入 Visual Studio](../ide/signing-in-to-visual-studio.md)。  
+##  <a name="BKMK_Configure"></a> 登入 Visual Studio  
+ 當您第一次啟動 Visual Studio 時，可以選擇使用例如 Live 或 Outlook 等 Microsoft 帳戶登入。 登入可讓您跨所有裝置同步處理設定。 如需詳細資訊，請參閱 [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)。  
   
  圖 1：Visual Studio IDE  
   
@@ -57,7 +59,7 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
   
  開啟 Visual Studio 之後，您會看到 IDE 的三個基本部分：工具視窗、功能表和工具列，以及主視窗空間。 工具視窗停駐在應用程式視窗的左右側，同時 [快速啟動] 、功能表列和標準工具列則位於視窗上方。 位於應用程式視窗中央的是 [起始頁] 。 當您開啟方案或專案時，編輯器和設計工具就會出現在此空間中。 在開發應用程式時，您大部分時間都會在此中央區域工作。  
   
-##  <a name="a-namebkmkcreateappa-create-a-simple-application"></a><a name="BKMK_CreateApp"></a> 建立簡單的應用程式  
+##  <a name="BKMK_CreateApp"></a> 建立簡單的應用程式  
  在 Visual Studio 中建立應用程式時，必須先建立一個專案和一個方案。 在這個範例中，您將建立 Windows 主控台應用程式。  
   
 #### <a name="to-create-a-console-app"></a>若要建立主控台應用程式  
@@ -81,10 +83,10 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
   
  ![方案在方案總管中的所有檔案](../ide/media/c--ide_solutioncontents.png "C++IDE_SolutionContents")  
   
-##  <a name="a-namebkmkaddcodea-add-code-to-the-application"></a><a name="BKMK_AddCode"></a> 將程式碼新增到應用程式  
+##  <a name="BKMK_AddCode"></a> 將程式碼新增到應用程式  
  接下來，您將新增程式碼以在主控台視窗中顯示 "Hello" 文字。  
   
-#### <a name="to-display-hello-in-the-console-window"></a>若要在主控台視窗中顯示 "Hello"  
+#### <a name="to-display-hello-in-the-console-window"></a>在主控台視窗中顯示 "Hello"  
   
 1.  在 GreetingsConsoleApp.cpp 檔案中的 `return 0;` 行之前輸入空白行，然後輸入下列程式碼：  
   
@@ -107,7 +109,7 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
     using namespace std;  
     ```  
   
-     您可能已經注意到輸入程式碼時會出現方塊，其中提供您所輸入的字元的建議。 這個方塊是 C++ IntelliSense 的一部分，可提供編碼提示，包括列出類別或介面成員及參數資訊。 您也可以使用程式碼片段，也就是預先定義的程式碼區塊。 如需詳細資訊，請參閱[使用 IntelliSense](../ide/using-intellisense.md) 和[程式碼片段](../ide/code-snippets.md)。  
+     您可能已經注意到輸入程式碼時會出現方塊，其中提供您所輸入的字元的建議。 這個方塊是 C++ IntelliSense 的一部分，可提供編碼提示，包括列出類別或介面成員及參數資訊。 您也可以使用程式碼片段，也就是預先定義的程式碼區塊。 如需詳細資訊，請參閱 [Using IntelliSense](../ide/using-intellisense.md) 與 [Code Snippets](../ide/code-snippets.md)。  
   
      當您修正錯誤時， `cout` 底下的紅色曲線就會消失。  
   
@@ -115,7 +117,7 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
   
      ![修正 cout 錯誤的程式碼](../ide/media/c--ide_coutfix.png "C++IDE_CoutFix")  
   
-##  <a name="a-namebkmkdebugtesta-debug-and-test-the-application"></a><a name="BKMK_DebugTest"></a> 偵錯和測試應用程式  
+##  <a name="BKMK_DebugTest"></a> 偵錯和測試應用程式  
  您可以偵錯 GreetingsConsoleApp，看看 "Hello" 這個字是否出現在主控台視窗中。  
   
 #### <a name="to-debug-the-application"></a>若要進行應用程式偵錯  
@@ -144,10 +146,10 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
   
  如需詳細資訊，請參閱[主控台專案](../debugger/debugging-preparation-console-projects.md)。  
   
-##  <a name="a-namebkmkbuildreleasea-build-a-release-version-of-the-app"></a><a name="BKMK_BuildRelease"></a> 建置應用程式的發行版本  
+##  <a name="BKMK_BuildRelease"></a> 建置應用程式的發行版本  
  既然已經驗證應用程式的運作一切正常，您就可以準備其發行組建。  
   
-#### <a name="to-clean-the-solution-files-and-build-a-release-version"></a>若要清除方案檔案和建置發行版本  
+#### <a name="to-clean-the-solution-files-and-build-a-release-version"></a>清除方案檔案和建置發行版本  
   
 1.  從功能表列中，刪除在先前組建期間所建立的中繼檔和輸出檔。  
   
@@ -169,8 +171,3 @@ ms.openlocfilehash: 079c15ffcc9b51fc1f4630051c561f9f8ff7fb87
  [使用 Visual Studio 提高產能的秘訣](../ide/productivity-tips-for-visual-studio.md)   
  [Visual Studio 範例](../ide/visual-studio-samples.md)   
  [Visual Studio 使用者開發入門](../ide/get-started-developing-with-visual-studio.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

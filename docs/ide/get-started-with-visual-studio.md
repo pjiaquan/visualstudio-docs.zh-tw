@@ -31,15 +31,16 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: a42f5a30375192c89c9984e40ba0104da98d7253
-ms.openlocfilehash: 15f7678c7d0cba1afaa71e0443efc756880d99cc
-ms.lasthandoff: 03/07/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 078619c93e18fd25dfbc728d75835f5af58988fe
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="get-started-with-visual-studio"></a>Visual Studio 使用者入門
 
-Visual Studio 是用於開發應用程式的功能強大工具。 如果您尚未這麼做，請繼續進行，並下載和安裝 [Visual Studio](https://www.visualstudio.com/vs/)。 如需下載 Visual Studio 並以想要方式進行設定的詳細資訊，請觀看 [Getting Started with Visual Studio – Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) (Visual Studio 使用者入門 - 設定 IDE) 影片。
+Visual Studio 是用於開發應用程式的功能強大工具。 如果您尚未這麼做，請繼續進行，並下載和安裝 [Visual Studio](https://www.visualstudio.com/vs/)。 如需下載 Visual Studio 並以想要方式進行設定的詳細資訊，請觀看 [Getting Started with Visual Studio - Setting up your IDE](https://www.youtube.com/watch?v=xLCedknQkN0&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=1) (Visual Studio 使用者入門 - 設定 IDE) 影片。
 
 ## <a name="visual-studio-tour"></a>Visual Studio 導覽
 Visual Studio 有一組工具視窗、功能表和工具列，統稱為整合式開發環境或 IDE。 Visual Studio IDE 可協助您完成開發工作。 以下是您可能最常使用的 IDE 項目的快速概觀。
@@ -55,7 +56,7 @@ Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫
 
 ### <a name="solution-explorer"></a>底下提供說明，包括方案總管
 
-稱為「方案總管」的工具視窗會列出所有程式碼檔案。 方案總管透過將程式碼的檔案分組到方案和專案，以協助組織程式碼。 以粗體顯示的專案稱為「啟始專案」。 它是您啟動方案時執行的第一個程式碼。 您可以變更啟始專案。 如需詳細資訊，請觀看 [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) (Visual Studio 使用者入門 - IDE 的建置組塊) 影片。
+稱為「方案總管」的工具視窗會列出所有程式碼檔案。 方案總管透過將程式碼的檔案分組到方案和專案，以協助組織程式碼。 以粗體顯示的專案稱為「啟始專案」。 它是您啟動方案時執行的第一個程式碼。 您可以變更啟始專案。 如需詳細資訊，請觀看 [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) (Visual Studio 使用者入門 - IDE 的建置組塊) 影片。
 
 ![方案總管摺疊的節點](../ide/media/VSIDE_SolutionExplorer2_callouts.png)
 
@@ -79,7 +80,7 @@ Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫
 ### <a name="team-explorer"></a>Team Explorer
 **Team Explorer** 可讓您連線至原始檔控制工具 (例如 [Git](https://git-scm.com/) 和 [Team Foundation Version Control (TFVC)](https://www.visualstudio.com/en-us/docs/tfvc/overview)) 以在本機儲存程式碼，或將它與裝載服務的其他人共用。 您也可以使用它來追蹤工作等。
 
-如需詳細資訊，請觀看 [Getting Started with Visual Studio – Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) (Visual Studio 使用者入門 - IDE 的建置組塊) 和 [Getting Started with Visual Studio – Opening a project from Source Control](https://www.youtube.com/watch?v=pc9vX_4RGV4&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=3) (Visual Studio 使用者入門 - 從原始檔控制開啟專案) 影片。
+如需詳細資訊，請觀看 [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) (Visual Studio 使用者入門 - IDE 的建置組塊) 和 [Getting Started with Visual Studio - Opening a project from Source Control](https://www.youtube.com/watch?v=pc9vX_4RGV4&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=3) (Visual Studio 使用者入門 - 從原始檔控制開啟專案) 影片。
 
 ![Team Explorer](../ide/media/TeamExplorer.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "如何：使用參考管理員新增或移除參考 | Microsoft Docs"
 ms.custom: 
-ms.date: 11/04/2016
+ms.date: 06/21/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -42,10 +42,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 1e73cc14de8a94b2e2ce631834e36b6bc30fa7a6
+ms.sourcegitcommit: d2f4eba36e9069a35cf279ccf1c78f72a51d77a1
+ms.openlocfilehash: b2141a16d27725c54b3407e92151e0ed7afd745e
 ms.contentlocale: zh-tw
-ms.lasthandoff: 02/22/2017
+ms.lasthandoff: 06/23/2017
 
 ---
 # <a name="how-to-add-or-remove-references-by-using-the-reference-manager"></a>如何：使用參考管理員新增或移除參考
@@ -70,7 +70,7 @@ ms.lasthandoff: 02/22/2017
 -   瀏覽，包含 [最近] 子群組。  
 
 ## <a name="assemblies-tab"></a>組件索引標籤  
- [組件] 索引標籤會列出可供參考的所有 .NET Framework 組件。 [組件] 索引標籤不會列出全域組件快取 (GAC) 中的任何組件，因為 GAC 中的組件是執行階段環境的一部分。 如果您部署或複製的應用程式中包含在 GAC 中註冊之元件的參考，則不論 [複製到本機] 設定為何，該組件都不會隨著應用程式一起部署或複製。 如需詳細資訊，請參閱[專案參考](http://go.microsoft.com/fwlink/?LinkId=238512)。  
+ [組件] 索引標籤會列出可供參考的所有 .NET Framework 組件。 [組件] 索引標籤不會列出全域組件快取 (GAC) 中的任何組件，因為 GAC 中的組件是執行階段環境的一部分。 如果您部署或複製的應用程式中包含在 GAC 中註冊之元件的參考，則不論 [複製到本機] 設定為何，該組件都不會隨著應用程式一起部署或複製。 如需詳細資訊，請參閱[管理專案中的參考](../ide/managing-references-in-a-project.md)。  
 
  當您手動將參考加入任一個 EnvDTE 命名空間 (EnvDTE、EnvDTE80、EnvDTE90、EnvDTE90a 或 EnvDTE100) 的參考時，請在 [屬性] 視窗中將參考的 [內嵌 Interop 類型] 屬性設定成 False。 如果將此屬性設成 True，可能會導致組建問題，因為某些 EnvDTE 屬性是無法內嵌的。  
 
@@ -163,7 +163,7 @@ ms.lasthandoff: 02/22/2017
 
  在 [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] 中，如果專案的目標為 .NET Framework 4，而另一個專案的目標為舊版，則會建立檔案參考而不是專案參考。  
 
- 目標為 [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] 的專案無法將專案參考加入至目標為 .NET Framework 的專案，反之亦然。  
+ 目標為 [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] 的專案無法將專案參考新增至目標為 .NET Framework 的專案，反之亦然。  
 
 ## <a name="windows-tab"></a>Windows 索引標籤  
  [Windows] 索引標籤會列出 Windows 作業系統執行所在平台專用的 SDK。  
@@ -179,7 +179,7 @@ ms.lasthandoff: 02/22/2017
 ### <a name="core-subgroup"></a>核心子群組  
  [核心] 子群組會列出目標版本 Windows 的 SDK 中所有的 WinMD (針對 Windows 執行階段項目)。  
 
- [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式專案預設包含專案建立時，[!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK 中的所有 WinMD 參考。 在 Managed 專案中，方案總管 [參考] 資料夾下的唯讀節點表示整個 [!INCLUDE[win8](../debugger/includes/win8_md.md)] 的參考。 因此，[參考管理員] 中的 [核心] 群組不會列舉 [!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK 中的任何組件，而是會顯示訊息：「Windows SDK 已經被參考了。 請使用物件瀏覽器瀏覽 Windows SDK 中的參考」。  
+ [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式專案預設包含專案建立時，[!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK 中的所有 WinMD 參考。 在 Managed 專案中，方案總管 [參考] 資料夾下的唯讀節點表示整個 [!INCLUDE[win8](../debugger/includes/win8_md.md)] 的參考。 因此，[參考管理員] 中的 [核心] 子群組不會列舉 [!INCLUDE[win8](../debugger/includes/win8_md.md)] SDK 中的任何組件，而是會顯示訊息：「Windows SDK 已經被參考了。 請使用物件瀏覽器瀏覽 Windows SDK 中的參考」。  
 
  根據預設，在傳統型專案中，[核心] 子群組不會出現。 您可以開啟專案節點的捷徑功能表、選擇 [卸載專案]、加入下列程式碼片段，然後重新開啟專案 (在專案節點上選擇 [重新載入專案])，即可新增 Windows 執行階段。 當您叫用 [參考管理員] 對話方塊時，[核心] 子群組隨即出現。  
 
@@ -194,10 +194,10 @@ ms.lasthandoff: 02/22/2017
 ### <a name="extensions-subgroup"></a>擴充功能子群組  
  [擴充功能] 會列出擴充目標 Windows 平台的使用者 SDK。 這個索引標籤只會針對 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式專案顯示。 傳統型專案不會顯示這個索引標籤，因為這類專案只能使用第一方 .winmd 檔案。  
 
- SDK 是檔案集合，Visual Studio 會將這個集合視為單一元件。 在 [延伸模組] 索引標籤中，適用於叫用 [參考管理員] 對話方塊所在專案的 SDK 會以單一項目形式列出。 加入至專案時，Visual Studio 會使用所有 SDK 內容，因此使用者不需要採取任何進一步動作就可以在 IntelliSense、工具箱、設計工具、物件瀏覽器、組建、部署、偵錯和封裝中利用 SDK 內容。 如需如何在 [延伸模組] 索引標籤中顯示 SDK 的詳細資訊，請參閱[建立軟體開發套件](../extensibility/creating-a-software-development-kit.md)。  
+ SDK 是檔案集合，Visual Studio 會將這個集合視為單一元件。 在 [延伸模組] 索引標籤中，適用於叫用 [參考管理員] 對話方塊所在專案的 SDK 會以單一項目形式列出。 新增至專案時，Visual Studio 會使用所有 SDK 內容，因此使用者不需要採取任何進一步動作就可以在 IntelliSense、工具箱、設計工具、物件瀏覽器、組建、部署、偵錯和封裝中利用 SDK 內容。 如需如何在 [延伸模組] 索引標籤中顯示 SDK 的詳細資訊，請參閱[建立軟體開發套件](../extensibility/creating-a-software-development-kit.md)。  
 
 > [!NOTE]
->  如果專案參考的 SDK 取決於另一個 SDK，除非使用者手動加入另一個 SDK 的參考，否則 Visual Studio 不會使用另一個 SDK。 當使用者在 [延伸模組] 索引標籤上選擇 SDK 時，[參考管理員] 對話方塊除了列出 SDK 的名稱和版本之外，還會在詳細資料窗格中列出所有 SDK 相依性的名稱，藉此幫助使用者識別 SDK。 如果使用者未注意到相依性而只加入該 SDK，MSBuild 將會提示使用者加入相依性。  
+>  如果專案參考的 SDK 取決於另一個 SDK，則除非使用者手動新增另一個 SDK 的參考，否則 Visual Studio 不會使用另一個 SDK。 當使用者在 [延伸模組] 索引標籤上選擇 SDK 時，[參考管理員] 對話方塊除了列出 SDK 的名稱和版本之外，還會在詳細資料窗格中列出所有 SDK 相依性的名稱，藉此幫助使用者識別 SDK。 如果使用者未注意到相依性，而只新增該 SDK，MSBuild 將會提示使用者新增相依性。  
 
  如果專案類型不支援 [延伸模組]，這個索引標籤就不會出現在 [參考管理員] 對話方塊中。  
 
@@ -208,7 +208,7 @@ ms.lasthandoff: 02/22/2017
 
  您應該避免將檔案參考加入至同一方案中的其他專案輸出，因為這種做法可能會造成編譯錯誤。 請改用 [參考管理員] 對話方塊中的 [方案] 索引標籤來建立專案對專案間的參考。 這種做法能夠更有效的管理您在專案中所建立的類別庫，使得小組開發更為容易。 如需詳細資訊，請參閱[針對中斷參考進行疑難排解](../ide/troubleshooting-broken-references.md)。  
 
- 您無法瀏覽至 SDK，並將它加入至您的專案。 您只能瀏覽至檔案 (例如，組件或 .winmd)，並將它加入至專案。  
+ 您無法瀏覽至 SDK，並將它新增至您的專案。 您只能瀏覽至檔案 (例如，組件或 .winmd)，並將它加入至專案。  
 
  進行對 WinMD 的檔案參考時，預期的配置是將 <檔案名稱>.winmd、<檔案名稱>.dll 和 <檔案名稱>.pri 檔案全部放置在一起。 如果您在下列情境中參考 WinMD，會將不完整的檔案集合複製到專案輸出目錄中，因此造成建置和執行階段失敗發生。  
 
@@ -229,9 +229,8 @@ ms.lasthandoff: 02/22/2017
  [組件]、[COM]、[Windows] 和 [瀏覽] 各支援一個 [最近] 索引標籤，其中會列舉最近加入專案中的元件清單。  
 
 ## <a name="search"></a>搜尋  
- [參考管理員] 對話方塊中的搜尋列會在成為焦點的索引標籤上運作。 好比說，如果使用者在 [方案] 索引標籤成為焦點時於搜尋列中鍵入 "System"，除非方案擁有包含 "System" 的專案名稱，否則搜尋不會傳回任何結果。  
+ [參考管理員] 對話方塊中的搜尋列會在成為焦點的索引標籤上運作。 例如，如果使用者在 [方案] 索引標籤成為焦點時於搜尋列中鍵入 "System"，則除非方案擁有包含 "System" 的專案名稱，否則搜尋不會傳回任何結果。  
 
 ## <a name="see-also"></a>另請參閱  
- [NIB 如何：使用加入參考對話方塊加入或移除參考](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
  [管理專案中的參考](../ide/managing-references-in-a-project.md)
 

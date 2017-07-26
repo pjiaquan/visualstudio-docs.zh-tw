@@ -33,10 +33,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 9c9e9e8c63d69e797a28ce4f8b1ac0adcf074b77
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: aecc19cb20592940ab773322764e5383365b3865
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="options-text-editor-cc-advanced"></a>進階、C/C++、文字編輯器、選項
@@ -45,7 +46,7 @@ ms.lasthandoff: 04/05/2017
  若要存取這個頁面，請在 [選項] 對話方塊的左窗格中依序展開 [文字編輯器] 和 [C/C++]，然後選擇 [進階]。  
   
 > [!NOTE]
->  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
 ## <a name="browsingnavigation"></a>瀏覽/巡覽  
  在方案太大此種極少數情況之外，您應該永遠不要選擇這些選項，因為資料庫活動會耗用無法接受的系統資源量。  
@@ -134,7 +135,7 @@ ms.lasthandoff: 04/05/2017
  停用自動完成 `#include` 陳述式。  
   
  **在 #include 自動完成中使用正斜線**  
- 使用 "/" 時，觸發自動完成 `#include` 陳述式。 預設分隔符號為反斜線 ‘\’。 編譯器可以接受任一項，因此，請使用此選項來指定程式碼基底所使用的項目。  
+ 使用 "/" 時，觸發自動完成 `#include` 陳述式。 預設分隔符號為反斜線 ‘\'’。 編譯器可以接受任一項，因此，請使用此選項來指定程式碼基底所使用的項目。  
   
  **最大快取轉譯單位數目**  
  每次發出 IntelliSense 要求時將保持使用中的最大轉譯單位數目。 您指定的值必須介於 2 與 15 之間。 此數字與將執行的最大 VCPkgSrv.exe 處理序數目直接相關 (針對指定的 Visual Studio 執行個體)。 預設值為 2，但是，如果您有可用的記憶體，則可以增加此值，而且在 IntelliSense 上可能會有略佳的效能。  

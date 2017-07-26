@@ -30,10 +30,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 2587e4a10a4caa1192a0efc31448078db553dfb4
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: dc9e7534160b244850a94285587eab56d7805c10
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>逐步解說：建立多電腦建置環境
@@ -242,7 +243,7 @@ ms.lasthandoff: 04/05/2017
     >   
     >  此外，如果您想要在組建電腦上使用與主機電腦上所用不同的磁碟機代號，請務必變更要比對之登錄項目的值。  
   
-2.  在組建電腦上建立下列登錄項目。 所有項目都是字串 (登錄中的 Type == “REG_SZ”)。 將這些項目的值設定為主機電腦上可比較項目的相同值。  
+2.  在組建電腦上建立下列登錄項目。 所有項目都是字串 (登錄中的 Type == "REG_SZ")。 將這些項目的值設定為主機電腦上可比較項目的相同值。  
   
     -   %RegistryRoot%\\.NETFramework\v4.0.30319\AssemblyFoldersEx\VCMSBuild Public Assemblies@(Default)  
   
@@ -387,9 +388,9 @@ ms.lasthandoff: 04/05/2017
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 的每個執行個體變更  
   
-         為  
+         設為  
   
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll”。  
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll"。  
   
          先前的命名會依賴已進行 GAC 的組件。  
   
@@ -397,9 +398,9 @@ ms.lasthandoff: 04/05/2017
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 的每個執行個體變更  
   
-         為  
+         設為  
   
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll”。  
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll"。  
   
 4.  建立 .props 檔案 (例如 Partner.AutoImports.props)，並將該檔案放在含有專案之資料夾的根目錄中。 此檔案可用來設定變數，MSBuild 會使用這些變數來尋找各種資源。 如果變數不是由此檔案設定，則會由依賴登錄值的其他 .props 檔案和 .targets 檔案設定。 因為我們未設定任何登錄值，所以這些變數會是空白的，而且建置會失敗。 相反地，請將下列程式碼新增至 Partner.AutoImports.props：  
   
@@ -424,7 +425,7 @@ ms.lasthandoff: 04/05/2017
     </Project>  
     ```  
   
-5.  在每個專案檔中，於頂端的 `<Project Default Targets…>` 行之後新增下一行。  
+5.  在每個專案檔中，於頂端的 `<Project Default Targets...>` 行之後新增下一行。  
   
     ```  
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>  

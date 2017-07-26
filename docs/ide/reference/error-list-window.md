@@ -34,10 +34,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 11c0b7e3bf572aa99610acf6b218cccf360ed7ba
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: ee881a2ecb205ad01a1d8be6229947dd748cb2b7
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="error-list-window"></a>錯誤清單視窗
@@ -65,7 +66,7 @@ ms.lasthandoff: 02/22/2017
  若要排序清單，請按一下任何資料行標頭。 若要以另一個資料行來重新排序，請按住 SHIFT 鍵，然後按一下其他的資料行標頭。 若要選取要顯示和隱藏的資料行，請從捷徑功能表中選擇 [顯示行]。 若要變更已顯示的資料行順序，請將任一資料行標頭拖曳到左邊或右邊。  
   
 > [!NOTE]
->  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與此處所描述的不同。 如果要變更設定，請按一下 [工具]/[匯入和匯出設定]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與此處所描述的不同。 如果要變更設定，請按一下 [工具]/[匯入和匯出設定]。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
 ## <a name="error-list-filters"></a>錯誤清單篩選條件  
  在兩個下拉式方塊中有兩種篩選型別，一個位於工具列的右邊，一個位於工具列的左邊。 位於工具列左邊的下拉式清單會指定一組可使用的程式碼檔案 ([整個解決方案]、[開啟的文件]、[目前專案] 和 [目前文件])。  
@@ -81,7 +82,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  **目前文件**：顯示**編輯器**或方案總管中目前選取之文件的錯誤、警告和訊息。  
   
- 如果搜尋結果目前有套用篩選條件，篩選條件名稱會顯示在 [錯誤清單] 標題列中。 [錯誤]、[警告] 和 [訊息] 按鈕即會顯示目前出現的已篩選項目數和項目總數；例如，按鈕會顯示「x，共 Y 項錯誤」。 如果未套用任何篩選條件，標題列只顯示「錯誤清單」。  
+ 如果搜尋結果目前有套用篩選條件，篩選條件名稱會顯示在 [錯誤清單] 標題列中。 [錯誤]、[警告] 和 [訊息] 按鈕即會顯示目前出現的已篩選項目數和項目總數；例如，按鈕會顯示「x，共 Y 項錯誤」。 如果未套用任何篩選，標題列只會顯示「錯誤清單」。  
   
  位於工具列右邊的清單會指定是否要從組建 (從建置作業所產生的錯誤) 顯示錯誤，或從 IntelliSense (執行組建之前偵測到的錯誤) 顯示錯誤，或同時從兩者顯示錯誤。  
   
