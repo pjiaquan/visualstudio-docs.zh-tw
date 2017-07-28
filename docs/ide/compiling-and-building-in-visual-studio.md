@@ -1,7 +1,7 @@
 ---
 title: "在 Visual Studio 中編譯與建置 | Microsoft Docs"
 ms.custom: 
-ms.date: 11/04/2016
+ms.date: 7/14/2017
 ms.reviewer: 
 ms.suite: 
 ms.technology:
@@ -16,61 +16,48 @@ caps.latest.revision: 28
 author: kempb
 ms.author: kempb
 manager: ghogen
-translation.priority.ht:
-- cs-cz
-- de-de
-- es-es
-- fr-fr
-- it-it
-- ja-jp
-- ko-kr
-- pl-pl
-- pt-br
-- ru-ru
-- tr-tr
-- zh-cn
-- zh-tw
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 7e372d9d6d935ff40054b8ba3f7684bf5ea9c458
-ms.openlocfilehash: aa3d791afc574200157104145617ff6ad6139b68
+ms.translationtype: HT
+ms.sourcegitcommit: e48ebcafaca37505dbcc92bce682d0c6169004e1
+ms.openlocfilehash: 800fcd5ff96e9e6d05b79c4d6fc5ccf17ba3084b
 ms.contentlocale: zh-tw
-ms.lasthandoff: 06/22/2017
+ms.lasthandoff: 07/26/2017
 
 ---
+
 # <a name="compiling-and-building-in-visual-studio"></a>在 Visual Studio 中編譯與建置
-您可以在開發週期期間，經常地使用 Visual Studio 來建置應用程式，並建立組件和可執行程式。 藉由經常建置程式碼，您可以更早識別編譯時期錯誤，例如錯誤的語法、拼錯的關鍵字和類型不相符。 您也可以藉由經常建置和執行程式碼的偵錯版本，偵測並修正執行階段錯誤，例如邏輯錯誤和語意錯誤。  
-  
- 當您完整地開發並充分偵錯專案或方案時，就可以將其元件編譯在發行組建中。 根據預設，發行組建已最佳化，並設計成更小且執行速度比偵錯版本快。 如需詳細資訊，請參閱[逐步解說：建置應用程式](../ide/walkthrough-building-an-application.md)。  
-  
-## <a name="choosing-a-build-method"></a>選擇建置方法  
- 您可以在 IDE 中使用預設組建選項、在命令提示字元，或使用 Team Foundation Build 來建置應用程式。 每個選項都使用 MSBuild 作為基礎的技術，且每一種方法都具有特定的優點，如下表所示。  
-  
-|建置方法|優點|如需詳細資訊|  
-|------------------|--------------|--------------------------|  
-|使用 IDE|- 您可以更輕鬆地立即建立和執行組建。<br />- 您可以針對 C++ 和 C# 專案執行多處理器組建。<br />- 您可以自訂建置系統的某些層面。|[在 Visual Studio 中建置和清除專案與方案](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)|  
-|執行 MSBuild 命令列|- 您可以建置專案，而不需要安裝 Visual Studio。<br />- 您可以針對所有專案類型執行多處理器組建。<br />- 您可以自訂大部分的建置系統。|[MSBuild](../msbuild/msbuild.md)|  
-|使用 Team Foundation Build|-  您可以自動化您的建置流程。 例如，您可以每晚或在每次簽入程式碼時建置一或多個專案。 您也可以在共用的組置伺服器上建置專案，而不是在開發電腦上建置。<br />- 您可以快速指定您想要建置的程式碼、想要執行的測試，和其他常見的選項。<br />- 您可以修改建置工作流程，並視需要建立建置活動執行深入自訂的工作。|[建置應用程式](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692)|  
-  
-## <a name="building-from-the-ide"></a>從 IDE 建置  
- 當您建立專案時，會定義它的預設組建組態，並指派方案組建組態給它以提供組建的內容。 方案組態會定義如何建立和部署方案中的專案。 專案組態是一組專案屬性，它們對於平台和組建類型 (例如，版本 Win32) 而言是唯一的。 您可以編輯這些預設組態，且可以建立自己的組態。 如需詳細資訊，請參閱[管理專案和方案屬性](managing-project-and-solution-properties.md)。  
-  
- 您可以從 IDE 中執行下列其他工作︰  
-  
--   [變更組建輸出目錄](../ide/how-to-change-the-build-output-directory.md)。  
-  
--   [識別出相依於另一個專案的輸出，才能正確建置的專案](../ide/how-to-create-and-remove-project-dependencies.md)。  
-  
--   [變更組建記錄檔或組建輸出視窗中包含的資訊量](../ide/how-to-view-save-and-configure-build-log-files.md)。  
-  
--   [隱藏 Visual C#、Visual C++ 或 Visual Basic 的特定編譯器警告](../ide/how-to-suppress-compiler-warnings.md)。  
-  
--   [指定組建的自訂預先編譯和編譯後動作](../ide/specifying-custom-build-events-in-visual-studio.md)。  
-  
--   使用平行組建，以改善建置效能。 如需詳細資訊，請參閱[同時建置多個專案](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)或部落格文章 [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx) (調整 C++ 組建平行處理原則)。  
+
+執行建置便可在您開發週期的任何時間點，從原始程式碼建立組件及可執行應用程式。 不同專案類型 (如 Windows、ASP.NET、行動裝置及其他類型) 進行的建置流程大致上都很相似。 不同的程式語言 (如 C#、Visual Basic、C++ 和 F#) 也進行類似的建置流程。 
+
+經常建置程式碼讓您可以迅速識別編譯錯誤，例如語法不正確、關鍵字拼字錯誤和類型不相符。 時常建置和執行程式碼的偵錯版本也可讓您快速偵測並更正執行階段錯誤，像是邏輯錯誤和語意錯誤。  
+
+成功的組建在本質上驗證了應用程式的原始程式碼包含正確的語法，而且所有對程式庫、組件及其他元件的靜態參考均已解析。 如此會產生可執行的應用程式，不僅可在[偵錯環境](../debugger/index.md)中測試其正常運作，也可透過各種手動和自動測試來[驗證程式碼品質](../test/improve-code-quality.md)。 應用程式一經完整測試，您便可編譯發行版本以部署到您的客戶。 如需此流程的簡介，請參閱[逐步解說：建置應用程式](../ide/walkthrough-building-an-application.md)。  
+
+Visual Studio 產品系列中，您可採用三種方式建置應用程式：Visual Studio IDE、MSBuild 命令列工具和 Visual Studio Team Services 上的 Team Foundation Build：
+ 
+| 建置方法 | 優點 | 
+| --- |--- | --- |  
+| IDE |- 立即建立組建並在偵錯工具中加以測試。<br />- 對 C++ 和 C# 專案執行多處理器組建。<br />- 自訂建置系統的不同層面。 |
+| MSBuild 命令列| - 無須安裝 Visual Studio 即可建置專案。<br />- 對所有專案類型執行多處理器建置。<br />- 自訂建置系統大部分的區域。|
+| Team Foundation Build | - 將建置流程自動化，這是持續整合/持續傳遞管線的一部分。<br />- 在每個組建套用自動化的測試。<br />- 在建置流程採用幾乎不受限制的雲端式資源。<br />- 修改建置工作流程，以及建立建置活動以執行深入自訂的工作。|  
+
+本節文件進一步說明使用 IDE 的建置流程詳細資料。 如需其他方法的詳細資訊，請分別參閱 [MSBuild](../msbuild/msbuild.md) 和[持續整合及部署](https://www.visualstudio.com/docs/build/overview)。
+
+## <a name="overview-of-building-from-the-ide"></a>從 IDE 建置的概觀  
+
+當您建立專案時，Visual Studio 為專案及包含該專案的解決方案建立了預設組建組態。  這些組態定義了解決方案和專案建置及部署的方式。 對於目標平台 (例如 Windows 或 Linux) 和組建類型 (例如偵錯或發行)，專案組態更是獨特。 您可以自由編輯這些組態，也可視需要建立自己的組態。
+
+若要了解在 IDE 中建置的初步簡介，請參閱[逐步解說：建置應用程式](walkthrough-building-an-application.md)。  
+
+之後，請參閱[在Visual Studio 中建置和清除專案與方案](building-and-cleaning-projects-and-solutions-in-visual-studio.md)來了解可對流程自訂的不同層面。 自訂包括[變更輸出目錄](how-to-change-the-build-output-directory.md)、[指定自訂建置事件](specifying-custom-build-events-in-visual-studio.md)、[管理專案相依性](how-to-create-and-remove-project-dependencies.md)、[管理組建記錄檔](how-to-view-save-and-configure-build-log-files.md)和[隱藏編譯器警告](how-to-suppress-compiler-warnings.md)。
+
+您可以從中探索其他各種工作：
+- [了解建置組態](understanding-build-configurations.md)
+- [了解建置平台](understanding-build-platforms.md)
+- [管理專案和解決方案屬性](managing-project-and-solution-properties.md)。  
+- 使用 [C#](how-to-specify-build-events-csharp.md) 和 [Visual Basic](how-to-specify-build-events-visual-basic.md) 指定建置事件。 
+- [設定建置選項](reference/options-dialog-box-projects-and-solutions-build-and-run.md)
+- [平行建置多個專案](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [逐步解說：建置應用程式](../ide/walkthrough-building-an-application.md)   
- [了解組建組態](../ide/understanding-build-configurations.md)   
- [了解組建平台](../ide/understanding-build-platforms.md)   
- [建置 (編譯) 網站專案](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)   
- [如何：建立和移除專案相依性](../ide/how-to-create-and-remove-project-dependencies.md)
+
+- [建置 (編譯) 網站專案](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)   
