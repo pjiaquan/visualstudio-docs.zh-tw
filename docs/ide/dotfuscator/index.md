@@ -40,8 +40,7 @@ ms.lasthandoff: 06/23/2017
 
 ---
 
-# Dotfuscator Community Edition (CE)
-<a id="dotfuscator-community-edition-ce" class="xliff"></a>
+# <a name="dotfuscator-community-edition-ce"></a>Dotfuscator Community Edition (CE)
 
 *PreEmptive Protection - Dotfuscator* 可為 .NET 應用程式提供全方位的保護，而且很容易就能夠整合到您的軟體開發生命週期中。
 使用它來強化、保護及清理傳統型、行動裝置、伺服器和嵌入式應用程式，以協助保護商業機密和其他智慧財產 (IP)、減少盜版和仿冒，並防止竄改及未經授權的偵錯。
@@ -49,8 +48,7 @@ Dotfuscator 不需要其他程式設計作業，甚至不需要存取原始程�
 
 ![](media/header.svg)
 
-## 為何保護很重要
-<a id="why-protection-matters" class="xliff"></a>
+## <a name="why-protection-matters"></a>為何保護很重要
 
 保護您的「智慧財產」(IP) 非常重要。
 您的應用程式程式碼包含可視為智慧財產的設計和實作詳細資料。
@@ -64,8 +62,7 @@ Dotfuscator 可以在您的應用程式中插入[偵測、報告及回應未經�
 
 如需 Dotfuscator 如何整合到安全軟體開發週期的詳細資訊，請參閱 PreEmptive Solutions 的 [SDL 應用程式保護頁面][sdl-protection]。
 
-## 關於 Dotfuscator CE
-<a id="about-dotfuscator-ce" class="xliff"></a>
+## <a name="about-dotfuscator-ce"></a>關於 Dotfuscator CE
 
 您的 Microsoft Visual Studio 2017 包含一份 ***PreEmptive Protection - Dotfuscator* Community Edition**，又稱為 Dotfuscator CE，可免費供個人使用。
 如需安裝隨附於 Visual Studio 2017 的 Dotfuscator CE 版本的詳細資訊，請參閱[安裝頁面][install]。
@@ -86,8 +83,7 @@ Dotfuscator CE 提供現成的基本保護。
 註冊的 Dotfuscator CE 的使用者，以及 *PreEmptive Protection - Dotfuscator* Professional Edition (全球最先進的 [.NET Obfuscator][net-obfuscator]) 使用者，將能取得更多保護方法。
 如需增強 Dotfuscator 的相關資訊，請參閱[升級頁面][upgrades]。
 
-## 快速入門
-<a id="getting-started" class="xliff"></a>
+## <a name="getting-started"></a>快速入門
 
 若要開始從 Visual Studio 使用 Dotfuscator CE，請在 [快速啟動] (Ctrl+Q) 搜尋列中輸入 `dotfuscator`。
 
@@ -96,8 +92,7 @@ Dotfuscator CE 提供現成的基本保護。
 
 您也可以從 [preemptive.com 上的 Dotfuscator 下載頁面][download]取得最新版本的 Dotfuscator CE。
 
-## 完整文件
-<a id="full-documentation" class="xliff"></a>
+## <a name="full-documentation"></a>完整文件
 
 本頁面及其子頁面提供 Dotfuscator CE 功能的高階概觀，以及[安裝該工具的指示][install]。
 
