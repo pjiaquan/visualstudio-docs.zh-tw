@@ -34,10 +34,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: d95f62f61261c9c5c9af36e3bb2ee6fe66d63d2a
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6fbf89668d47d55d1d77a1d7f11765567fc73405
+ms.openlocfilehash: 4be8a1f36d81e2cb36d9daab9817f04d18ecb94a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/26/2017
 
 ---
 # <a name="application-page-project-designer-visual-basic"></a>Application Page, Project Designer (Visual Basic)
@@ -82,7 +83,7 @@ ms.lasthandoff: 02/22/2017
   
  針對 Web 應用程式專案，您必須指定 [類別庫]。  
   
- 如果您指定 [WinMD 檔案] 選項，則類型可以投影至任何 Windows 執行階段程式設計語言。 將專案的輸出封裝為 WinMD 檔案，即可使用多種語言來撰寫應用程式，並讓程式碼交互操作，如同您使用相同的語言來撰寫程式碼一樣。 您可以針對以 Windows 執行階段程式庫為目標的方案使用 [WinMD 檔案]選項，包括 [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] 應用程式。 如需詳細資訊，請參閱[在 C++ 和 Visual Basic 中建立 Windows 執行階段元件](http://go.microsoft.com/fwlink/?LinkId=231895)。  
+ 如果您指定 [WinMD 檔案] 選項，則類型可以投影至任何 Windows 執行階段程式設計語言。 將專案的輸出封裝為 WinMD 檔案，即可使用多種語言來撰寫應用程式，並讓程式碼交互操作，如同您使用相同的語言來撰寫程式碼一樣。 您可以針對以 Windows 執行階段程式庫為目標的方案使用 [WinMD 檔案]選項，包括 [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] 應用程式。 如需詳細資訊，請參閱[在 C++ 和 Visual Basic 中建立 Windows 執行階段元件](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic)。  
   
 > [!NOTE]
 >  Windows 執行階段可以投影類型，以使用它們的語言顯示為原生物件。 例如，與 Windows 執行階段互動的 JavaScript 應用程式會使用它作為一組 JavaScript 物件，而且 C# 應用程式會使用該程式庫作為 .NET 物件集合。 將專案的輸出封裝為 WinMD 檔案，即可利用 Windows 執行階段所使用的相同技術。  
@@ -97,7 +98,7 @@ ms.lasthandoff: 02/22/2017
   
  如果選取 [啟用應用程式架構]\(預設)，此清單的標題為 [啟動表單]，而且因為應用程式架構只支援啟動表單，而非物件，所以只會顯示表單。  
   
- 如果專案是 WPF 瀏覽器應用程式，此清單的標題為 [啟動 URI]，而且預設值為 **Page1.xaml**。 [啟動 URI] 清單可讓您指定應用程式在啟動時顯示的使用者介面資源 (XAML 項目)。 如需詳細資訊，請參閱 <xref:System.Windows.Application.StartupUri%2A>。  
+ 如果專案是 WPF 瀏覽器應用程式，此清單的標題為 [啟動 URI]，而且預設值為 **Page1.xaml**。 [啟動 URI] 清單可讓您指定應用程式在啟動時顯示的使用者介面資源 (XAML 項目)。 如需詳細資訊，請參閱<xref:System.Windows.Application.StartupUri%2A>。  
   
  如果清除 [啟用應用程式架構]，此清單會成為 [啟始物件]，並顯示具有 `Sub Main` 的表單和類別或模組。  
   
@@ -135,10 +136,10 @@ ms.lasthandoff: 02/22/2017
  選取此核取方塊，來指定使用者關閉其電腦時儲存的應用程式 `My.Settings` 設定。 會啟用預設設定。 如果停用此選項，您可以呼叫 `My.Settings.Save`，來手動儲存應用程式設定。  
   
  **驗證模式**  
- 選取 [Windows] (預設)，來指定使用 Windows 驗證來識別目前登入的使用者。 您可以使用 `My.User` 物件，在執行階段擷取這項資訊。 如果您要提供自己的程式碼來驗證使用者，而不是使用預設 Windows 驗證方法，請選取 [由應用程式定義]。  
+ 選取 [Windows]\(預設)，來指定使用 Windows 驗證來識別目前登入的使用者。 您可以使用 `My.User` 物件，在執行階段擷取這項資訊。 如果您要提供自己的程式碼來驗證使用者，而不是使用預設 Windows 驗證方法，請選取 [由應用程式定義]。  
   
  **程式關閉模式**  
- 選取 [啟動表單關閉時] (預設)，來指定應用程式在設為啟動表單的表單關閉時結束 (即使已開啟其他表單也是一樣)。 選取 [最後一個表單關閉時]，來指定應用程式在最後一個表單關閉時或者明確呼叫 `My.Application.Exit` 或 `End` 陳述式時結束。  
+ 選取 [啟動表單關閉時]\(預設)，來指定應用程式在設為啟動表單的表單關閉時結束 (即使已開啟其他表單也是一樣)。 選取 [最後一個表單關閉時]，來指定應用程式在最後一個表單關閉時或者明確呼叫 `My.Application.Exit` 或 `End` 陳述式時結束。  
   
  選取 [在明確關機時]，來指定應用程式在明確呼叫 `Shutdown` 時結束。  
   

@@ -9,6 +9,7 @@
 ## [命令列參數範例](command-line-parameter-examples.md)
 ## [建立 Visual Studio 的網路型安裝](create-a-network-installation-of-visual-studio.md)
 ## [在離線環境中安裝 Visual Studio 的特殊考量](install-visual-studio-in-offline-environment.md)
+## [將 Visual Studio 安裝在防火牆或 Proxy 伺服器後方](install-visual-studio-behind-a-firewall-or-proxy-server.md)
 ## [使用回應檔自動安裝 Visual Studio](automated-installation-with-response-file.md)
 ## [部署 Visual Studio 時會自動套用產品金鑰](automatically-apply-product-keys-when-deploying-visual-studio.md)
 ## [設定 Visual Studio 企業部署的預設值](set-defaults-for-enterprise-deployments.md)

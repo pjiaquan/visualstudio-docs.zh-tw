@@ -38,10 +38,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5658ecf52637a38bc3c2a5ad9e85b2edebf7d445
-ms.openlocfilehash: 4669932307d37593154e337265288919a1042f37
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: e4abacb0286de16c148076572e73043daed4d567
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="signing-page-project-designer"></a>專案設計工具、簽署頁
@@ -83,7 +84,7 @@ ms.lasthandoff: 02/22/2017
  [簽署組件] 核取方塊  
  選取這個核取方塊可簽署組件並建立強式名稱金鑰檔。 如需使用 [專案設計工具] 簽署組件的詳細資訊，請參閱[如何：簽署組件 (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)。  
   
- 這個選項會使用 [!INCLUDE[winsdklong](../../deployment/includes/winsdklong_md.md)] 所提供的 Al.exe 工具來簽署組件。 如需 Al.exe 的詳細資訊，請參閱[如何：使用強式名稱簽署組件](http://msdn.microsoft.com/Library/2c30799a-a826-46b4-a25d-c584027a6c67)。  
+ 這個選項會使用 [!INCLUDE[winsdklong](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name) 所提供的 Al.exe 工具。  
   
  [選擇強式名稱金鑰檔] 清單  
  可讓您指定用來簽署組件的新或現有強式名稱金鑰檔。 選取 [\<瀏覽...>]，以選取現有金鑰檔。  
@@ -98,10 +99,10 @@ ms.lasthandoff: 02/22/2017
  [僅延遲簽署] 核取方塊  
  選取這個核取方塊可啟用延遲簽署。  
   
- 請注意，延遲簽署專案將無法執行，也無法進行偵錯。 不過，您可以搭配使用 [Sn.exe (強式名稱工具)](http://msdn.microsoft.com/Library/c1d2b532-1b8e-4c7a-8ac5-53b801135ec6) 與 `-Vr` 選項，以在開發期間略過驗證。  
+ 請注意，延遲簽署專案將無法執行，也無法進行偵錯。 不過，您可以搭配使用 [Sn.exe (強式名稱工具)](/dotnet/framework/tools/sn-exe-strong-name-tool) 與 `-Vr` 選項，以在開發期間略過驗證。  
   
 > [!NOTE]
->  當您簽署組件時，不一定可以存取私密金鑰。 例如，組織可能會有開發人員無法每日存取的嚴密保護金鑰組。 公開金鑰可能可以使用，但只有少數人才能存取私密金鑰。 在這類情況下，您可以使用「延遲」或「部分簽署」提供公開金鑰，並將私密金鑰的新增延遲到交付組件時。  
+>  當您簽署組件時，不一定可以存取私密金鑰。 例如，組織可能會有嚴密保護的金鑰組，即使開發人員也沒有這類金鑰組的日常存取權。 公開金鑰可能可以使用，但只有少數人才能存取私密金鑰。 在這類情況下，您可以使用「延遲」或「部分簽署」提供公開金鑰，並將私密金鑰的新增延遲到交付組件時。  
   
 ## <a name="see-also"></a>另請參閱  
  [專案屬性參考](../../ide/reference/project-properties-reference.md)   
@@ -109,5 +110,5 @@ ms.lasthandoff: 02/22/2017
  [Managed 應用程式的強式名稱簽章](http://msdn.microsoft.com/en-us/5fef3490-c519-4363-94fd-8b1ad260dab5)   
  [如何：簽署應用程式和部署資訊清單](../../ide/how-to-sign-application-and-deployment-manifests.md)   
  [如何：簽署組件 (Visual Studio)](http://msdn.microsoft.com/en-us/f468a7d3-234c-4353-924d-8e0ae5896564)   
- [如何：使用強式名稱簽署組件](http://msdn.microsoft.com/Library/2c30799a-a826-46b4-a25d-c584027a6c67)   
+ [如何：使用強式名稱簽署組件](/dotnet/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name)   
  [強式名稱的組件](http://msdn.microsoft.com/Library/d4a80263-f3e0-4d81-9b61-f0cbeae3797b)

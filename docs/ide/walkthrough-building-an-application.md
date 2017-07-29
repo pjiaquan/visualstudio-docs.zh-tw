@@ -27,10 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 4f237be3ffdfe2bca52e885822a9fbfbbf97ba6a
-ms.openlocfilehash: 738e8c25509253872274a49303b2b02a8f7ba1a6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: dc4bcdcc11e357979641268ae77a8e39f8408f7a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="walkthrough-building-an-application"></a>逐步解說：建置應用程式
@@ -50,7 +51,7 @@ ms.lasthandoff: 02/22/2017
   
  [建立發行組建](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)  
   
-##  <a name="a-namebkmkinstallappa-install-the-sample-application"></a><a name="BKMK_installapp"></a> 安裝範例應用程式  
+##  <a name="BKMK_installapp"></a> 安裝範例應用程式  
  您將使用 [延伸模組和更新] 對話方塊，從 Microsoft 網站上的範例庫尋找並安裝[建置 WPF 應用程式簡介](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE)範例。 此範例庫提供各種範例專案和程式碼，可供您在規劃和開發應用程式時進行下載和檢閱。  
   
 #### <a name="to-install-the-sample-application"></a>安裝範例應用程式  
@@ -89,7 +90,7 @@ ms.lasthandoff: 02/22/2017
   
 4.  選擇 [確定]  按鈕。  
   
-##  <a name="a-namebkmkcreatebuildconfiga-create-a-custom-build-configuration"></a><a name="BKMK_CreateBuildConfig"></a> 建立自訂組建組態  
+##  <a name="BKMK_CreateBuildConfig"></a> 建立自訂組建組態  
  當您建立方案時，系統會自動為方案定義偵錯和發行組建組態以及其預設平台目標。 之後，您可以自訂這些組態或建立您自己的組態。 組建組態指定組建類型。 組建平台指定應用程式針對該組態的目標作業系統。 如需詳細資訊，請參閱[了解組建組態](../ide/understanding-build-configurations.md)、[了解組建平台](../ide/understanding-build-platforms.md)和 [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e) (偵錯和發行專案組態)。  
   
  您可以使用 [組態管理員] 對話方塊變更或建立組態和平台設定。 在此程序中，您將建立要測試的組建組態。  
@@ -122,7 +123,7 @@ ms.lasthandoff: 02/22/2017
   
  ![[標準] 工具列的 [方案組態] 選項](../ide/media/buildwalk_standardtoolbarsolutioncongfig.png "BuildWalk_StandardToolbarSolutionCongfig")  
   
-##  <a name="a-namebkmkbuildinga-build-the-application"></a><a name="BKMK_building"></a> 建置應用程式  
+##  <a name="BKMK_building"></a> 建置應用程式  
  接下來，您將使用自訂組建組態來建置方案。  
   
 #### <a name="to-build-the-solution"></a>若要建置方案  
@@ -139,7 +140,7 @@ ms.lasthandoff: 02/22/2017
   
  ![Visual C&#35; 輸出視窗](../ide/media/buildwalk_csharpbuildoutputwnd.png "BuildWalk_CsharpBuildOutputWnd")  
   
-##  <a name="a-namebkmkhidewarninga-hide-compiler-warnings"></a><a name="BKMK_hidewarning"></a> 隱藏編譯器警告  
+##  <a name="BKMK_hidewarning"></a> 隱藏編譯器警告  
  您可以在建置期間暫時隱藏特定警告訊息，以避免干擾建置輸出。  
   
 #### <a name="to-hide-a-specific-visual-c-warning"></a>隱藏特定 Visual C# 警告  
@@ -184,7 +185,7 @@ ms.lasthandoff: 02/22/2017
   
  如需詳細資訊，請參閱[如何︰隱藏編譯器警告](../ide/how-to-suppress-compiler-warnings.md)。  
   
-##  <a name="a-namebkmkoutputdetailsa-display-additional-build-details-in-the-output-window"></a><a name="BKMK_outputdetails"></a> 在輸出視窗中顯示其他組建詳細資料  
+##  <a name="BKMK_outputdetails"></a> 在輸出視窗中顯示其他組建詳細資料  
  您可以變更出現在 [輸出] 視窗中的建置流程相關資訊量。 建置詳細等級通常會設定為 [最小]，這表示 [輸出] 視窗只會顯示建置流程摘要，以及任何高優先順序警告或錯誤。 您可以使用[選項對話方塊、專案和方案、建置並執行](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)，來顯示有關組建的詳細資訊。  
   
 > [!IMPORTANT]
@@ -208,14 +209,14 @@ ms.lasthandoff: 02/22/2017
   
      例如，在 Visual C# 組建中，[/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) 選項會列出您稍早在本主題中所指定的警告碼 1762，以及其他三個警告。  
   
-     在 Visual Basic 組建中，[/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) 不包含要排除的特定警告，因此會不出現任何警告。  
+     在 Visual Basic 組建中，[/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) 不包含要排除的特定警告，因此不會出現任何警告。  
   
     > [!TIP]
     >  如果您選擇 Ctrl+F 鍵顯示 [尋找] 對話方塊，即可搜尋 [輸出] 視窗的內容。  
   
  如需詳細資訊，請參閱[如何：檢閱、儲存和設定建置記錄檔](../ide/how-to-view-save-and-configure-build-log-files.md)。  
   
-##  <a name="a-namebkmkreleasebuilda-create-a-release-build"></a><a name="BKMK_releasebuild"></a> 建立發行組建  
+##  <a name="BKMK_releasebuild"></a> 建立發行組建  
  您可以建置已針對交付最佳化的範例應用程式版本。 針對發行組建，您將指定在開始建置之前將可執行檔複製到網路共用。  
   
  如需詳細資訊，請參閱[如何：變更建置輸出目錄](../ide/how-to-change-the-build-output-directory.md)和[在 Visual Studio 中建置和清除專案與方案](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)。  
@@ -243,7 +244,7 @@ ms.lasthandoff: 02/22/2017
   
      ![[建置] 功能表上的 [建置方案] 命令](../ide/media/exploreide-buildsolution.png "ExploreIDE-BuildSolution")  
   
-#### <a name="to-specify-a-release-build-for-visual-c"></a>指定 Visual C 的發行組建# #
+#### <a name="to-specify-a-release-build-for-visual-c"></a>指定 Visual C# 的發行組建 #
   
 1.  開啟 [專案設計工具]。  
   
@@ -271,7 +272,7 @@ ms.lasthandoff: 02/22/2017
  恭喜︰您已成功完成本逐步解說。  
   
 ## <a name="see-also"></a>另請參閱  
- [逐步解說：建置專案 (C++)](http://msdn.microsoft.com/Library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)   
+ [逐步解說：建置專案 (C++)](/cpp/ide/walkthrough-building-a-project-cpp)   
  [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/en-us/b940abbd-178d-4570-b441-52914fa7b887) (ASP.NET Web 應用程式專案先行編譯概觀)   
  [逐步解說：使用 MSBuild](../msbuild/walkthrough-using-msbuild.md)
 

@@ -42,17 +42,18 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: ce6f346f77217e61d93879118610934422cdc642
-ms.lasthandoff: 04/05/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: f43b470f07e8b90c62d17c7905ad458a22d41ff1
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="building-and-cleaning-projects-and-solutions-in-visual-studio"></a>在 Visual Studio 中建置和清除專案與方案
 您可以使用本主題中的程序來建置、重建或清除所有或部分專案，或方案中的專案項目。 如需逐步教學課程，請參閱[逐步解說︰建置應用程式](../ide/walkthrough-building-an-application.md)。  
   
 > [!NOTE]
->  您 Visual Studio 版本中的 UI 可能不同於本主題所述，視您目前使用的設定而定。 若要變更設定，請開啟 [工具] 功能表，然後選擇 [匯入和匯出設定]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  您 Visual Studio 版本中的 UI 可能不同於本主題所述，視您目前使用的設定而定。 若要變更設定，請開啟 [工具] 功能表，然後選擇 [匯入和匯出設定]。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../ide/personalizing-the-visual-studio-ide.md)。  
   
 ### <a name="to-build-rebuild-or-clean-an-entire-solution"></a>建置、重建或清除整個方案  
   

@@ -1,81 +1,99 @@
 ---
-title: "如何：加入或移除匯入的命名空間 (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "加入匯入的命名空間"
-  - "匯入的命名空間 [Visual Studio]"
-  - "命名空間 [Visual Studio], 已匯入"
-  - "參考 [Visual Studio], 匯入的命名空間"
-  - "移除匯入的命名空間"
+title: "如何：新增或移除匯入的命名空間 (Visual Basic) | Microsoft Docs"
+ms.custom: 
+ms.date: 06/21/2017
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- adding imported namespaces
+- removing imported namespaces
+- namespaces [Visual Studio], imported
+- imported namespaces [Visual Studio]
+- references [Visual Studio], imported namespaces
 ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 11
----
-# 如何：加入或移除匯入的命名空間 (Visual Basic)
-[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d2f4eba36e9069a35cf279ccf1c78f72a51d77a1
+ms.openlocfilehash: f512673808ae3fab2fdcca39b58f77ca5df93e05
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/23/2017
 
-匯入命名空間允許您在程式碼中使用命名空間內的項目，而不用完全符合項目。  例如，如果要存取 `System.Messaging.MessageQueue` 類別 \(Class\) 中的 `Create` 方法，可以匯入 `System.Messaging` 命名空間 \(Namespace\)，並直接在程式碼中以 `MessageQueue.Create` 參考該項目。  
-  
- 匯入的命名空間可在 \[**專案設計工具**\] 的 \[**參考**\] 頁中加以管理。  在此對話方塊中所指定匯入的命名空間會直接傳遞到編譯器 \(`/imports`\)，並套用至您專案內的所有檔案。  請使用 `Imports` 陳述式，在單一原始程式碼檔內使用某一命名空間。  
-  
-### 若要加入匯入的命名空間  
-  
-1.  請在 \[**方案總管**\] 中，按兩下專案的 \[**我的專案**\] 節點。  
-  
-2.  在 \[**專案設計工具**\] 中，按一下 \[**參考**\] 索引標籤。  
-  
-3.  在 \[**匯入的命名空間**\] 清單中，選取您想要加入之命名空間的核取方塊。  
-  
+---
+# <a name="how-to-add-or-remove-imported-namespaces-visual-basic"></a>如何：加入或移除匯入的命名空間 (Visual Basic)
+匯入命名空間可讓您在程式碼中使用該命名空間中的項目，而不需要完全符合項目。 例如，如果您想要存取 `System.Messaging.MessageQueue` 類別中的 `Create` 方法，則可以匯入 `System.Messaging` 命名空間，而且只將程式碼中您需要的項目參照為 `MessageQueue.Create`。  
+
+ 匯入的命名空間是在 [專案設計工具] 的 [參考] 頁面上進行管理。 您在此對話方塊中所指定的匯入會直接傳遞至編譯器 (`/imports`)，並套用至您專案中的所有檔案。 使用 `Imports` 陳述式，以在單一原始程式碼檔中使用命名空間。  
+
+### <a name="to-add-an-imported-namespace"></a>新增匯入的命名空間  
+
+1.  在方案總管中，按兩下專案的 [我的專案] 節點。  
+
+2.  在 [專案設計工具] 中，按一下 [參考] 索引標籤。  
+
+3.  在 [匯入的命名空間] 清單中，選取您要新增之命名空間的核取方塊。  
+
     > [!NOTE]
-    >  為了要能夠被匯入，命名空間必須位於參考的元件之中。  如果命名空間沒有出現在清單中，您就需要加入包含該命名空間的元件的參考。  如需詳細資訊，請參閱[如何：使用加入參考對話方塊加入或移除參考](http://msdn.microsoft.com/zh-tw/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)。  
+    >  若要匯入，命名空間必須位在參考的元件中。 如果命名空間未出現在清單中，則您必須將參考新增至包含它的元件中。 如需詳細資訊，請參閱[管理專案中的參考](managing-references-in-a-project.md)。  
   
-### 若要移除匯入的命名空間  
-  
-1.  請在 \[**方案總管**\] 中，按兩下專案的 \[**我的專案**\] 節點。  
-  
-2.  在 \[**專案設計工具**\] 中，按一下 \[**參考**\] 索引標籤。  
-  
-3.  在 \[**匯入的命名空間**\] 清單中，清除您想要移除之命名空間的核取方塊。  
-  
-## 使用者匯入  
- 使用者匯入讓您能夠匯入命名空間內的特定類別，而非整個命名空間。  例如，您的應用程式可能具有 `Systems.Diagnostics` 命名空間的匯入，不過您對該命名空間中唯一有興趣的類別是 `Debug` 類別。  您可以將 `System.Diagnostics.Debug` 定義為使用者匯入，然後移除 `System.Diagnostics` 的匯入。  
-  
- 如果您在稍後改變主意並決定真正需要的是 `EventLog` 類別，也可以將 `System.Diagnostics.EventLog` 輸入為使用者匯入，並使用更新功能覆寫 `System.Diagnostics.Debug`。  
-  
-#### 若要加入使用者匯入  
-  
-1.  請在 \[**方案總管**\] 中，按兩下專案的 \[**我的專案**\] 節點。  
-  
-2.  在 \[**專案設計工具**\] 中，按一下 \[**參考**\] 索引標籤。  
-  
-3.  在 \[**匯入的命名空間**\] 清單底下的文字方塊中，輸入您想要匯入之命名空間的完整名稱 \(包括根命名空間\)。  
-  
-4.  按一下 \[**加入使用者匯入**\] 按鈕，將命名空間加入至 \[**匯入的命名空間**\] 清單中。  
-  
+### <a name="to-remove-an-imported-namespace"></a>移除匯入的命名空間  
+
+1.  在方案總管中，按兩下專案的 [我的專案] 節點。  
+
+2.  在 [專案設計工具] 中，按一下 [參考] 索引標籤。  
+
+3.  在 [匯入的命名空間] 清單中，清除您要移除之命名空間的核取方塊。  
+
+## <a name="user-imports"></a>使用者匯入  
+ 使用者匯入可讓您匯入命名空間內的特定類別，而不是整個命名空間。 例如，您的應用程式可能有 `Systems.Diagnostics` 命名空間的匯入，但該命名空間內您感興趣的唯一類別是 `Debug` 類別。 您可以將 `System.Diagnostics.Debug` 定義為使用者匯入，然後移除 `System.Diagnostics` 的匯入。  
+
+ 如果您稍後變更想法，並決定這實際上是您需要的 `EventLog` 類別，則可以輸入 `System.Diagnostics.EventLog` 作為使用者匯入，並使用更新功能來覆寫 `System.Diagnostics.Debug`。  
+
+#### <a name="to-add-a-user-import"></a>新增使用者匯入  
+
+1.  在方案總管中，按兩下專案的 [我的專案] 節點。  
+
+2.  在 [專案設計工具] 中，按一下 [參考] 索引標籤。  
+
+3.  在 [匯入的命名空間] 清單下方的文字方塊中，輸入您要匯入之命名空間的完整名稱 (包括根命名空間)。  
+
+4.  按一下 [新增使用者匯入] 按鈕，將命名空間新增至 [匯入的命名空間] 清單。  
+
     > [!NOTE]
-    >  如果命名空間符合已經存在於清單中的命名空間，\[**加入使用者匯入**\] 按鈕就會停用；您不能將相同的匯入加入兩次。  
-  
-#### 若要更新使用者匯入  
-  
-1.  請在 \[**方案總管**\] 中，按兩下專案的 \[**我的專案**\] 節點。  
-  
-2.  在 \[**專案設計工具**\] 中，按一下 \[**參考**\] 索引標籤。  
-  
-3.  在 \[**匯入的命名空間**\] 清單中，選取您想要變更的命名空間。  
-  
-4.  在 \[**匯入的命名空間**\] 清單底下的文字方塊中，輸入新命名空間的名稱。  
-  
-5.  按一下 \[**更新使用者匯入**\] 按鈕，更新在 \[**匯入的命名空間**\] 清單中的命名空間。  
-  
-## 請參閱  
+    >  如果命名空間符合清單中的現有命名空間，則會停用 [新增使用者匯入] 按鈕；您不能將匯入新增兩次。  
+
+#### <a name="to-update-a-user-import"></a>更新使用者匯入  
+
+1.  在方案總管中，按兩下專案的 [我的專案] 節點。  
+
+2.  在 [專案設計工具] 中，按一下 [參考] 索引標籤。  
+
+3.  在 [匯入的命名空間] 清單中，選取您要變更的命名空間。  
+
+4.  在 [匯入的命名空間] 清單下方的文字方塊中，輸入新命名空間的名稱。  
+
+5.  按一下 [更新使用者匯入] 按鈕，更新 [匯入的命名空間] 清單中的命名空間。  
+
+## <a name="see-also"></a>另請參閱  
  [管理專案中的參考](../ide/managing-references-in-a-project.md)
+

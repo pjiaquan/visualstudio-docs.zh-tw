@@ -28,10 +28,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 203cc6111870cbf3342fd84c5931a0dadc2bdde0
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: c7d4f4f00d8d89b77f18b2a1b355a445c05dfb6b
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="writing-unit-tests-for-cc-with-the-microsoft-unit-testing-framework-for-c"></a>使用適用於 C++ 的 Microsoft 單元測試架構撰寫適用於 C/C++ 的單元測試
@@ -414,6 +414,6 @@ ms.lasthandoff: 05/13/2017
  [使用 Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)   
  [Managed/Unmanaged 程式碼互通性概觀](http://msdn.microsoft.com/library/ms973872.aspx)   
  [偵錯機器碼](../debugger/debugging-native-code.md)   
- [逐步解說：建立和使用動態連結程式庫 (C++)](http://msdn.microsoft.com/Library/3ae94848-44e7-4955-bbad-7d40f493e941)   
+ [逐步解說：建立和使用動態連結程式庫 (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)   
  [匯入和匯出](/cpp/build/importing-and-exporting)
 

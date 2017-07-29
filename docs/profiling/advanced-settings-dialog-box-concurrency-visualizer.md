@@ -31,10 +31,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 89694c49fdd115064d1ebe9f5dfe910b77548a76
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: ae3359dc390dc5486d7de93a4b745f44fe7c0ae6
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="advanced-settings-dialog-box-concurrency-visualizer"></a>進階設定對話方塊 (並行視覺化檢視)
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/13/2017
  根據預設，由於通常不需針對原生處理器收集 CLR 事件，因此，只有在對 Managed 處理序進行程式碼剖析時，才會收集這類事件。  在某些情況下 (例如，當原生處理序裝載 CLR 時)，您可能必須針對原生處理序收集 CLR 事件。  如果是這種情況，請選取 [收集原生處理序] 核取方塊。  
   
 ### <a name="disable-rundown-events"></a>停用取消事件  
- CLR 會從下列兩個提供者產生事件︰執行階段和取消。  如果您想要收集 CLR 執行階段事件，但要避免收集取消事件，請選取 [停用取消事件] 核取方塊。  這可縮減因收集而產生的追蹤檔大小，但可能無法解析某些堆疊。 如需詳細資訊，請參閱 [CLR ETW 提供者](http://msdn.microsoft.com/Library/0beafad4-b2c8-47f4-b342-83411d57a51f)。  
+ CLR 會從下列兩個提供者產生事件︰執行階段和取消。  如果您想要收集 CLR 執行階段事件，但要避免收集取消事件，請選取 [停用取消事件] 核取方塊。  這可縮減因收集而產生的追蹤檔大小，但可能無法解析某些堆疊。 如需詳細資訊，請參閱 [CLR ETW 提供者](/dotnet/framework/performance/clr-etw-providers)。  
   
 ### <a name="sample-events"></a>取樣事件  
  您可以使用取樣事件來收集與執行緒執行相關聯的呼叫堆疊。 針對在目前處理序中執行的執行緒，大約每毫秒會收集這些事件一次。 如果您停用取樣事件的收集，就能縮減所收集的追蹤大小，但您無法檢視任何與執行緒執行相關聯的呼叫堆疊。  

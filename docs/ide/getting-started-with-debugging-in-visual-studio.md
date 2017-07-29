@@ -28,10 +28,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 9226dacfa63287857c09e5c6945363ccafadc2c7
+ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
+ms.openlocfilehash: fa857220def2da9b05f1bbed70e906034727b8af
 ms.contentlocale: zh-tw
-ms.lasthandoff: 02/22/2017
+ms.lasthandoff: 06/30/2017
 
 ---
 # <a name="getting-started-with-debugging-in-visual-studio"></a>Visual Studio 中的使用者偵錯入門
@@ -79,7 +79,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
 
  ![Visual Studio 輸出和錯誤清單](../ide/media/vs_ide_gs_debug_bad_build_error_list.PNG "Vs_ide_gs_debug_bad_build_error_list")  
 
- 在 [錯誤清單] 視窗中按一下錯誤行，然後跳至發生錯誤的行。 (或者，按一下右上方的 [快速啟動] 列，並輸入「行號」，然後按 Enter 鍵，來開啟行號。 這是到達 [選項] 視窗項目的最快速方式，您可以在其中開啟行號。 了解如何使用 [快速啟動] 列，並且替您省下很多的 UI 點選！)  
+ 在 [錯誤清單] 視窗中按一下錯誤行，然後跳至發生錯誤的行。 (或者，按一下右上方的 [快速啟動] 列，並鍵入「行號」，然後按 Enter 鍵，來開啟行號。 這是到達 [選項] 視窗項目的最快速方式，您可以在其中開啟行號。 了解如何使用 [快速啟動] 列，並且替您省下很多的 UI 點選！)  
 
  ![使用行號的 Visual Studio 編輯器](../ide/media/vs_ide_gs_debug_line_numbers.png "Vs_ide_gs_debug_line_numbers")  
 
@@ -87,7 +87,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
 
  使用 Ctrl+G 快速跳至發生錯誤的行號。  
 
- 錯誤會用紅色「波浪線」的底線加以識別。 如需其他詳細資料，請將滑鼠游標暫留在這上面。 請予以修正，然後它就會消失 (儘管您在修正時可能會導入新的錯誤)。 (這稱為「迴歸」。)  
+ 錯誤會用紅色「波浪線」的底線加以識別。 如需其他詳細資料，請將滑鼠游標暫留在這上面。 請予以修正，然後它就會消失 (儘管您在修正時可能會導入新的錯誤)。 (這稱為「迴歸」)。  
 
  ![Visual Studio 錯誤動態顯示](../ide/media/vs_ide_gs_debug_error_hover1.png "Vs_ide_gs_debug_error_hover1")  
 
@@ -160,7 +160,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
 
  ![Visual Studio 中斷點](../ide/media/vs_ide_gs_debug_breakpoint1.png "Vs_ide_gs_debug_breakpoint1")  
 
- 當程式碼中斷時，有標示的這行程式碼仍尚未執行。 此時，您或許想要執行標示有中斷點的程式碼指令，並查看其變更的值。 這稱為「逐步執行」程式碼。 如果所標示的程式碼為方法呼叫，您可以按 F11 逐步執行。 您也可以按 F10，讓這行程式碼「不進入函式」。 如需中斷點步驟動作的詳細資訊，請參閱[使用偵錯工具巡覽程式碼](../debugger/navigating-through-code-with-the-debugger.md)。  
+ 當程式碼中斷時，有標示的這行程式碼仍尚未執行。 此時，您或許想要執行標示有中斷點的程式碼指令，並查看其變更的值。 這稱為「逐步執行」程式碼。 如果所標示的程式碼為方法呼叫，您可以按 F11 逐步執行。 您也可以按 F10，讓這行程式碼「不進入函式」。 如需程式碼逐步執行的詳細資訊，請參閱[使用偵錯工具巡覽程式碼](../debugger/navigating-through-code-with-the-debugger.md)。  
 
  中斷點的常見用途包含：  
 
@@ -177,7 +177,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
 ### <a name="setting-conditional-breakpoints"></a>設定條件中斷點  
  如果在迴圈或遞迴中有中斷點，或是您有很多經常逐步執行的中斷點，請使用條件中斷點，以確保程式碼只在符合特定條件時暫停。 否則，您要按 F11 非常多次。  
 
- 當變數設定為特定值或傳遞特定的臨界值時，若要設定條件中斷點並暫停程式碼，請按一下邊界來設定中斷點，然後從出現的停留功能表中選取「齒輪」。  
+ 當變數設定為特定值或傳遞特定閾值時，若要設定條件中斷點並暫停程式碼，請按一下邊界來設定中斷點，然後從出現的停留功能表中選取「齒輪」。  
 
  ![Visual Studio 中斷點設定](../ide/media/vs_ide_gs_debug_breakpoint_settings.png "Vs_ide_gs_debug_breakpoint_settings")  
 
@@ -206,7 +206,7 @@ Visual Studio 提供一組強大的整合式專案建置和偵錯工具。 在�
  若要深入了解 Visual Studio 中的單元測試，以及了解它們如何協助您建立更高品質的程式碼，請參閱[單元測試基本概念](../test/unit-test-basics.md)。  
 
 ## <a name="see-also"></a>另請參閱  
- [Visual Studio 偵錯](../debugger/debugging-in-visual-studio.md)   
+ [偵錯工具功能導覽](../debugger/debugger-feature-tour.md)   
  [偵錯設定和準備](../debugger/debugger-settings-and-preparation.md)   
  [偵錯 64 位元應用程式](../debugger/debug-64-bit-applications.md)   
  [偵錯工具基礎](../debugger/debugger-basics.md)

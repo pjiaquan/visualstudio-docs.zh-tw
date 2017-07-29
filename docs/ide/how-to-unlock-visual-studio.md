@@ -1,19 +1,39 @@
 ---
 title: "如何解除鎖定 Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/23/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/23/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 8
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 4a1e79dbceb4c0cfd02dab4b3132190e44ac3273
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="how-to-unlock-visual-studio"></a>如何解除鎖定 Visual Studio
 您最多可以免費評估 Visual Studio 30 天。 當您登入 IDE 時，您可以將試用期延長 90 天。 若要繼續使用 Visual Studio，您可以透過下列方式解除鎖定 IDE：  
@@ -66,13 +86,8 @@ caps.handback.revision: 8
   
 1.  更新您的訂閱 若要查看您正在使用之授權的詳細資訊，請移至 [檔案] > [帳戶設定] 對話方塊，並查看對話方塊右側的授權資訊。  
   
-2.  如果您有與不同帳戶關聯的另一個訂閱，請按一下 [加入帳戶…] 連結，將該帳戶加入 [檔案] > [帳戶設定] 對話方塊左側的 [所有帳戶] 清單中。  
+2.  如果您有與不同帳戶關聯的另一個訂閱，請按一下 [新增帳戶] 連結，將該帳戶新增到 [檔案] > [帳戶設定] 對話方塊左側的 [所有帳戶] 清單。  
   
 ## <a name="see-also"></a>請參閱  
  [登入 Visual Studio](../ide/signing-in-to-visual-studio.md)
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

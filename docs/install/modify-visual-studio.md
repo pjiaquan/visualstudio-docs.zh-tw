@@ -33,10 +33,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
-ms.openlocfilehash: dc52353b476d38b7c069aa4acd95ceaa260717c4
-ms.lasthandoff: 04/06/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: f8d907587deb8e14e777d9c69f07da6d819143e5
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
 
 ---
 # <a name="modify-visual-studio-2017-by-adding-or-removing-workloads-and-components"></a>透過新增或移除工作負載和元件來修改 Visual Studio 2017
@@ -73,7 +74,7 @@ ms.lasthandoff: 04/06/2017
 如果您不打算使用好用的 [工作負載] 功能來自訂 Visual Studio 安裝，請從 Visual Studio 安裝程式選擇 [個別元件] 選項，選取所需的設定，然後依照提示進行。  
 
 ## <a name="get-support"></a>取得支援
-有時可能會發生一些問題。 如果您的 Visual Studio 安裝失敗，請參閱[針對 Visual Studio 2017 安裝和升級失敗進行疑難排解](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures)知識庫文章，以取得疑難排解提示。
+有時可能會發生一些問題。 如果您的 Visual Studio 安裝失敗，請參閱[針對 Visual Studio 2017 安裝和升級失敗進行疑難排解](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures)知識庫文章，以取得疑難排解祕訣。
 
 ## <a name="see-also"></a>請參閱  
 * [安裝 Visual Studio 2017](https://go.microsoft.com/fwlink/?linkid=833223)

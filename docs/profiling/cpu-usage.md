@@ -29,16 +29,16 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 8ef43b82ba8a9ca138872a152e8811174e20d1fe
+ms.sourcegitcommit: 795bf9746c4ae48ac04141a05ba56462ecb90482
+ms.openlocfilehash: 74e69f0d5d04192eb801f5e56e1a4ee6ca2cc57a
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 06/23/2017
 
 ---
 # <a name="analyze-cpu-usage"></a>分析 CPU 使用量
 當您需要調查應用程式的效能問題時，了解應用程式如何使用 CPU 是不錯的起點。 「CPU 使用量」工具顯示 CPU 花時間執行 Visual C++、Visual C#/Visual Basic 和 JavaScript 程式碼的地方。 從 Visual Studio 2015 Update 1 開始，您不需要離開偵錯工具，就可以看到依函式的 CPU 使用量明細。 您可以在偵錯時開啟和關閉 CPU 分析，並檢視執行停止時的結果，例如中斷點。  
   
-若要執行和管理診斷工作階段，您有幾個選項可以採用。 例如，您可以在本機或遠端電腦上，或在模擬器 (Simulator 或 Emulator) 中執行「CPU 使用量」 工具。 您可以分析在 Visual Studio 中開啟之專案的效能，附加至執行中的應用程式，或啟動從 Windows 市集安裝的應用程式。 如需詳細資訊，請參閱[搭配或不搭配偵錯工具來執行分析工具](../profiling/running-profiling-tools-with-or-without-the-debugger.md)。 如需分析 Windows 市集應用程式效能的逐步解說，請參閱[分析市集應用程式的 CPU 使用量](https://msdn.microsoft.com/en-us/library/windows/apps/dn641982.aspx)。 
+若要執行和管理診斷工作階段，您有幾個選項可以採用。 例如，您可以在本機或遠端電腦上，或在模擬器 (Simulator 或 Emulator) 中執行「CPU 使用量」 工具。 您可以分析在 Visual Studio 中開啟之專案的效能，附加至執行中的應用程式，或啟動從 Windows 市集安裝的應用程式。 如需詳細資訊，請參閱[搭配或不搭配偵錯工具來執行分析工具](../profiling/running-profiling-tools-with-or-without-the-debugger.md)。 如需分析 Windows 市集應用程式效能的逐步解說，請參閱[分析市集應用程式的 CPU 使用量](analyze-cpu-usage-in-a-windows-universal-app.md)。 
 
 此處，我們會說明如何收集並分析發行組建的 CPU 使用量。 若要在偵錯期間分析 CPU 使用量，請參閱[效能分析的初學者指南](../profiling/beginners-guide-to-performance-profiling.md)。 
   

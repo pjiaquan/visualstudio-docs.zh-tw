@@ -32,10 +32,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 9b29250916c91c98176585bbdb8c5a4018dbd6c7
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 9713f09b7379b14b9362e3853a910948935c501e
+ms.openlocfilehash: 3524c21503d0432d509c607ea157f3fe675b443d
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/31/2017
 
 ---
 # <a name="how-to-create-item-templates"></a>如何：建立項目範本
@@ -43,7 +44,7 @@ ms.lasthandoff: 02/22/2017
 
  此精靈會執行許多工作，為您建立基本範本，但在許多情況下，您將需要在匯出了範本之後手動修改.vstemplate 檔案。 例如，如果您想要在 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 應用程式專案的 [新增項目] 對話方塊中顯示項目，您必須執行一些額外的步驟。 本主題的[第二個程序](../ide/how-to-create-item-templates.md#modify_template)可協助您完成上述工作。  
 
- 若要將您的範本指定為只針對特定專案子類型顯示，例如 Office、資料庫或 Web，請參閱[本節](../ide/how-to-create-multi-file-item-templates.md#enable_templates)。  
+ 若要將您的範本指定為只針對特定專案子類型顯示，例如 Office、資料庫或 Web，請參閱[本節](#enable_templates)。  
 
  在某些情況下，您可能想要或需要從頭開始手動建立項目範本。 [第三個程序](../ide/how-to-create-item-templates.md#create_template)說明如何執行上述作業。  
 
@@ -80,11 +81,13 @@ ms.lasthandoff: 02/22/2017
 
 3.  在 Visual Studio 中開啟 .vstemplate 檔案。  
 
-4.  若為 Windows 8.1 市集 C#  專案，請在 .vstemplate 檔中的開頭和結尾 `<TemplateData>` 標記內，加入下列 XML：`<TemplateGroupID>WinRT-Managed</TemplateGroupID>`。  
+4.  若為 Universal Windows C# 專案，請在 .vstemplate 檔中的開頭 `<TemplateData>` 標記內，新增下列 XML：`<TemplateID>Microsoft.CSharp.Class</TemplateID>`。 
 
-     C + + Windows 8.1 市集專案使用 `WinRT-Native-6.3` 的值。 若為 Windows 10 及其他專案類型，請參閱 [TemplateGroupID 項目 (Visual Studio 範本)](../extensibility/templategroupid-element-visual-studio-templates.md)。  
+    若為 Windows 8.1 市集 C#  專案，請在 .vstemplate 檔中的開頭和結尾 `<TemplateData>` 標記內，加入下列 XML：`<TemplateGroupID>WinRT-Managed</TemplateGroupID>`。  
 
-     下列範例顯示已加入 XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` 程式行之後 .vstemplate 檔案的完整內容。 這個範例是 C# 專案專用的。 您可以修改 <ProjectTpe> 和 \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> 項目，來指定其他語言和專案類型。  
+    C + + Windows 8.1 市集專案使用 `WinRT-Native-6.3` 的值。 若為 Windows 10 及其他專案類型，請參閱 [TemplateGroupID 項目 (Visual Studio 範本)](../extensibility/templategroupid-element-visual-studio-templates.md)。  
+
+    下列範例顯示已加入 XML `<TemplateGroupID>WinRT-Managed</TemplateGroupID>` 程式行之後 .vstemplate 檔案的完整內容。 這個範例是 C# 專案專用的。 您可以修改 <ProjectTpe> 和 \< [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md)> 項目，來指定其他語言和專案類型。  
 
     ```xml  
     <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
@@ -116,8 +119,9 @@ ms.lasthandoff: 02/22/2017
  您現在可以使用 [新增項目] 對話方塊，將以這個範本為依據的項目新增至 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 專案。  
 
  如需參數名稱的詳細資訊，請參閱[範本參數](../ide/template-parameters.md)。  
-
-### <a name="to-enable-templates-for-specific-project-sub-types"></a>若要啟用特定專案子類型的範本  
+  
+ 
+### <a name="enable_templates"></a> 啟用特定專案子類型的範本  
 
 1.  開發環境可讓您使專案項目可從特定專案的 [加入項目] 對話方塊中取得。 使用此程序，可讓自訂項目可供 Windows、Web、Office 或資料庫專案使用。  
 

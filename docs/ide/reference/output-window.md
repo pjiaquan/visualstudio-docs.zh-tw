@@ -36,10 +36,10 @@ translation.priority.ht:
 - zh-cn
 - zh-tw
 ms.translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 989bc338e0cb8c49a2342d998e1e09e8f6b0eb9f
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 60636023fc506df5ed6e57d4f4d9c90e680ab607
 ms.contentlocale: zh-tw
-ms.lasthandoff: 04/05/2017
+ms.lasthandoff: 05/30/2017
 
 ---
 # <a name="output-window"></a>輸出視窗
@@ -75,7 +75,7 @@ ms.lasthandoff: 04/05/2017
   
  [命令視窗](../../ide/reference/command-window.md)中所叫用的某些 IDE 功能和命令會將其輸出傳遞給 [輸出] 視窗。 當您在[管理外部工具](../../ide/managing-external-tools.md)中選取 [使用輸出視窗] 選項時，會將一般顯示在 [命令提示字元] 視窗中且來自外部工具的輸出 (例如 .bat 和 .com 檔案) 傳送至 [輸出] 窗格。 許多其他種類的訊息也可以顯示在 [輸出] 窗格中。 例如，針對目標資料庫檢查預存程序中的 Transact-SQL 語法時，結果會顯示在 [輸出] 視窗中。  
   
- 您也可以透過程式設計方式撰寫自己的應用程式，以在執行階段將診斷訊息寫入 [輸出] 窗格。 若要這樣做，請在 .NET Framework Class Library 的 <xref:System.Diagnostics> 命名空間中使用 <xref:System.Diagnostics.Debug> 類別或 <xref:System.Diagnostics.Trace> 類別的成員。 建置方案或專案的偵錯組態時，<xref:System.Diagnostics.Debug> 類別的成員會顯示輸出；建置偵錯或發行組態時，<xref:System.Diagnostics.Trace> 類別的成員會顯示輸出。 如需詳細資訊，請參閱[輸出視窗中的診斷訊息](../../debugger/diagnostic-messages-in-the-output-window.md)。  
+ 您也可以透過程式設計方式撰寫自己的應用程式，以在執行階段將診斷訊息寫入 [輸出] 窗格。 若要執行此工作，請使用 .NET Framework 類別庫 <xref:System.Diagnostics> 命名空間的 <xref:System.Diagnostics.Debug> 類別或 <xref:System.Diagnostics.Trace> 類別成員。 建置方案或專案的偵錯組態時，<xref:System.Diagnostics.Debug> 類別的成員會顯示輸出；建置偵錯或發行組態時，<xref:System.Diagnostics.Trace> 類別的成員會顯示輸出。 如需詳細資訊，請參閱[輸出視窗中的診斷訊息](../../debugger/diagnostic-messages-in-the-output-window.md)。  
   
  在 [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] 中，您可以建立自訂建置步驟和建置事件，而其警告和錯誤會顯示並計入 [輸出] 窗格中。 您可以在輸出行上按 F1，以顯示適當的說明主題。 如需詳細資訊，請參閱[格式化自訂建置步驟或建置事件的輸出](/cpp/ide/formatting-the-output-of-a-custom-build-step-or-build-event)。  
   
@@ -87,4 +87,4 @@ ms.lasthandoff: 04/05/2017
  [如何：控制輸出視窗](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858)   
  [編譯和建置](../../ide/compiling-and-building-in-visual-studio.md)   
  [了解組建組態](../../ide/understanding-build-configurations.md)   
- [類別庫概觀](http://msdn.microsoft.com/Library/7e4c5921-955d-4b06-8709-101873acf157)
+ [類別庫概觀](/dotnet/standard/class-library-overview)

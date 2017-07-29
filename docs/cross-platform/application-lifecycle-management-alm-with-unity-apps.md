@@ -29,10 +29,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
-ms.openlocfilehash: 7e95cec543216f13de06d2c2b86bc08040d1a7fb
+ms.sourcegitcommit: 6fbf89668d47d55d1d77a1d7f11765567fc73405
+ms.openlocfilehash: de365cf073ed234ece1d9af56232a29b7ef8eec4
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/13/2017
+ms.lasthandoff: 05/26/2017
 
 ---
 # <a name="application-lifecycle-management-alm-with-unity-apps"></a>應用程式生命週期管理 (ALM) (含 Unity 應用程式)
@@ -77,7 +77,7 @@ ms.lasthandoff: 05/13/2017
 |-------------|--------------------------|-------------------------|  
 |[使用 Team Foundation 版本控制](http://msdn.microsoft.com/Library/1d629052-c65d-4c5d-81eb-eaa4413fe285)或 Visual Studio Team Services|是|就像任何其他專案一樣，Unity 專案就只是一組可放入版本控制系統的檔案，但此表格後面將會說明一些特殊考量。|  
 |[開始使用 Team Services 中的 Git (英文)](http://msdn.microsoft.com/Library/32f46ecd-1b03-4ef0-a9c4-8a120da2b03f)|是|請參閱表格後面的注意事項。|  
-|[程式碼分析/改善程式碼品質 (參考、建議的變更等)](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|是||  
+|[改善程式碼品質](/visualstudio/test/improve-code-quality)|是||  
 |[尋找程式碼變更和其他記錄](../ide/find-code-changes-and-other-history-with-codelens.md)|是||  
 |[使用 Code Map 偵錯您的應用程式](../modeling/use-code-maps-to-debug-your-applications.md)|是||  
   
@@ -113,7 +113,7 @@ ms.lasthandoff: 05/13/2017
 |[使用 UI 自動化來測試您的程式碼](../test/use-ui-automation-to-test-your-code.md)|否|自動程式化 UI 測試會依賴應用程式 UI 中的可讀取控制項；Unity 應用程式在本質上是圖形，因此，自動程式化 UI 測試工具無法讀取內容。|  
   
 ## <a name="improve-code-quality"></a>改善程式碼品質  
- 參考連結︰**[改善程式碼品質](http://msdn.microsoft.com/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)**  
+ 參考連結︰**[改善程式碼品質](/visualstudio/test/improve-code-quality)**  
   
 |功能|支援 Unity|其他註解|  
 |-------------|--------------------------|-------------------------|  

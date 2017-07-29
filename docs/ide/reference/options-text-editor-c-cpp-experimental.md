@@ -30,10 +30,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 47c39bd711b69efdb863d71f11e3e472054a3ce3
-ms.openlocfilehash: 889d538b732b360b475788ec6d67b47920703c73
-ms.lasthandoff: 04/06/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 77c4408fcd93a776468cf5fb23b3807a2b8d594d
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="options-text-editor-cc-experimental"></a>選項、文字編輯器、C/C++、實驗
@@ -44,7 +45,7 @@ ms.lasthandoff: 04/06/2017
  Visual Studio 2017 安裝提供這些功能。  
   
 > [!NOTE]
->  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
 ## <a name="enable-predictive-intellisense"></a>啟用預測性 Intellisense
 預測性 IntelliSense 會限制顯示在 IntelliSense 下拉式清單中的結果數，讓您只看到內容相關的結果。 例如，如果您輸入 <code>int x =</code> 並叫用 IntelliSense 下拉式清單，您只會看到整數或傳回整數的函式。 根據預設，會關閉預測性 IntelliSense。
@@ -59,7 +60,7 @@ ms.lasthandoff: 04/06/2017
   
 -   **加入 Using 命名空間/完整限定符號** - 類似上一個項目，但針對命名空間  
   
--   **新增遺漏分號**  
+-   **加入遺漏的分號**  
   
 -   **MSDN 說明** - 搜尋 MSDN 中的錯誤訊息  
   

@@ -1,19 +1,39 @@
 ---
 title: "登入 Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/23/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 01/23/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 28
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 8b1f56944190c60795d5bbd726388309caca7070
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="sign-in-to-visual-studio"></a>登入 Visual Studio
 只要透過登入此 IDE 來設定個人化帳戶，您就可以個人化和最佳化 Visual Studio 中的開發經驗。  
@@ -23,15 +43,15 @@ caps.handback.revision: 28
 
 -   從 Visual Studio Dev Essentials 方案**存取各種權益** ，包括免費軟體、訓練、支援和更多。 如需詳細資訊，請查看 [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) 。  
 
--   **同步處理您的 Visual Studio 設定** – 您自訂的設定，例如金鑰繫結、視窗配置和色彩佈景主題，會在您從任何裝置登入 Visual Studio 時立即套用。 請參閱 [Visual Studio 中的同步設定](../ide/synchronized-settings-in-visual-studio.md)。  
+-   **同步處理您的 Visual Studio 設定** - 您自訂的設定 (例如金鑰繫結、視窗配置和色彩佈景主題)，會在您從任何裝置登入 Visual Studio 時立即套用。 請查看 [Visual Studio 中的同步處理設定](../ide/synchronized-settings-in-visual-studio.md)。  
 
--   **永久地解除鎖定 Visual Studio Express 版本** – 只要您需要，即可以使用 Visual Studio Express 的任何版本，而不受限於 30 天的試用期。  
+-   **永久地解除鎖定 Visual Studio Express 版本** - 只要您需要，即可以使用 Visual Studio Express 的任何版本，而不受限於 30 天的試用期。  
 
 -   **解除鎖定 Visual Studio Community 版本** ，而不受限於 30 天的試用期。  
 
 -   **延長 Visual Studio 試用期** - 您可以額外使用 90 天的 Visual Studio Professional 或 Visual Studio Enterprise，而不受限於 30 天的試用期。  
 
--   **使用和 MSDN 或 VSO 訂閱相關聯的帳戶，就可以解除鎖定 Visual Studio**。 請參閱[如何解除鎖定 Visual Studio](../ide/how-to-unlock-visual-studio.md)。  
+-   **使用和 MSDN 或 VSO 訂閱相關聯的帳戶，就可以解除鎖定 Visual Studio**。 請參閱 [如何解除鎖定 Visual Studio](../ide/how-to-unlock-visual-studio.md)。  
 
 -   對於同一個帳戶不會再次提示輸入認證，即可在 IDE 中**自動連接到 Azure 和 Visual Studio Team Services 等服務** 。  
 
@@ -58,9 +78,4 @@ caps.handback.revision: 28
 4.  變更您想要的設定。  
 
 5.  當您完成時，請選擇 [ **儲存變更** ] 按鈕。
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

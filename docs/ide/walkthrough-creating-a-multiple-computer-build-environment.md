@@ -30,22 +30,23 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 2587e4a10a4caa1192a0efc31448078db553dfb4
-ms.lasthandoff: 04/05/2017
+ms.translationtype: HT
+ms.sourcegitcommit: dc7a0c10390de67b56a83d2824224bed24125db0
+ms.openlocfilehash: 702be191610ce05e91d081fed9c70a135c72c971
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/17/2017
 
 ---
 # <a name="walkthrough-creating-a-multiple-computer-build-environment"></a>逐步解說：建立多電腦建置環境
+
 您可以在組織內建立建置環境，方法是在主機電腦上安裝 Visual Studio，然後將各種檔案和設定複製到另一部電腦，以便該電腦可參與建置。 您不需要在另一部電腦上安裝 Visual Studio。  
   
- 本文件並不會授權在外部轉散發軟體，或將建置環境提供給第三方。  
+本文件並不會授權在外部轉散發軟體，或將建置環境提供給第三方。  
   
-||  
-|-|  
-|免責聲明<br /><br /> 本文件係依「原樣」提供。 雖然我們已測試過所述的步驟，但無法徹底測試每一種組態。 我們將試圖以學到的任何其他資訊，確保文件處於最新狀態。 本文件中所述之資訊與檢視 (包括 URL 及其他網站參考) 可能會隨時變更，恕不另行通知。 Microsoft 對本文提供之資訊，不作任何明示或暗示之保證。 貴用戶須自行承擔使用風險。<br /><br /> 本文件不提供　貴用戶任何 Microsoft 產品之智慧財產權的法定權利。 貴用戶可以複製本文件供內部參考之用。<br /><br /> 貴用戶沒有義務提供與本文件相關的任何建議、意見或其他意見反應 (「意見反應」) 給 Microsoft。 不過，貴用戶自願提供的任何意見反應可能會用於 Microsoft 產品以及相關規格或其他文件 (統稱為「Microsoft 供應項目」)，之後可能會由其他第三方用來開發自己的產品。 因此，如果　貴用戶針對本文件的任何版本提供 Microsoft 意見反應或套用意見反應的 Microsoft 供應項目，即表示　貴用戶同意：(a) Microsoft 可以在任何 Microsoft 供應項目中，自由地使用、重製、授權、散發或商業化意見反應；(b) 貴用戶也免費授權給第三方，這些權利僅限於讓其他產品使用或連接到納入意見反應的 Microsoft 產品之任何特定部分所需的專利權；以及 (c) 在下列情況下，貴用戶不會提供 Microsoft 任何意見反應，以授權或分享給任何第三方：(i) 貴用戶合理相信這些意見反應受限於任何第三方的任何專利、著作權或其他智慧財產權宣告或權利；或是 (ii) 受限於試圖要求納入或衍生自這類意見反應之任何 Microsoft 供應項目的授權條款，或其他 Microsoft 智慧財產權。|  
-  
- 本逐步解說已藉由在命令列上執行 MSBuild 及使用 Team Foundation Build，完成對下列作業系統的驗證。  
+> 免責聲明<br /><br /> 本文件係依「原樣」提供。 雖然我們已測試過所述的步驟，但無法徹底測試每一種組態。 我們將試圖以學到的任何其他資訊，確保文件處於最新狀態。 本文件中所述之資訊與檢視 (包括 URL 及其他網站參考) 可能會隨時變更，恕不另行通知。 Microsoft 對本文提供之資訊，不作任何明示或暗示之保證。 貴用戶須自行承擔使用風險。<br /><br /> 本文件不提供　貴用戶任何 Microsoft 產品之智慧財產權的法定權利。 貴用戶可以複製本文件供內部參考之用。<br /><br /> 貴用戶沒有義務提供與本文件相關的任何建議、意見或其他意見反應 (「意見反應」) 給 Microsoft。 不過，貴用戶自願提供的任何意見反應可能會用於 Microsoft 產品以及相關規格或其他文件 (統稱為「Microsoft 供應項目」)，之後可能會由其他第三方用來開發自己的產品。 因此，如果　貴用戶針對本文件的任何版本提供 Microsoft 意見反應或套用意見反應的 Microsoft 供應項目，即表示　貴用戶同意：(a) Microsoft 可以在任何 Microsoft 供應項目中，自由地使用、重製、授權、散發或商業化意見反應；(b) 貴用戶也免費授權給第三方，這些權利僅限於讓其他產品使用或連接到納入意見反應的 Microsoft 產品之任何特定部分所需的專利權；以及 (c) 在下列情況下，貴用戶不會提供 Microsoft 任何意見反應，以授權或分享給任何第三方：(i) 貴用戶合理相信這些意見反應受限於任何第三方的任何專利、著作權或其他智慧財產權宣告或權利；或是 (ii) 受限於試圖要求納入或衍生自這類意見反應之任何 Microsoft 供應項目的授權條款，或其他 Microsoft 智慧財產權。
+
+
+本逐步解說已藉由在命令列上執行 MSBuild 及使用 Team Foundation Build，完成對下列作業系統的驗證。  
   
 -   Windows 8 (x86 和 x64)  
   
@@ -242,7 +243,7 @@ ms.lasthandoff: 04/05/2017
     >   
     >  此外，如果您想要在組建電腦上使用與主機電腦上所用不同的磁碟機代號，請務必變更要比對之登錄項目的值。  
   
-2.  在組建電腦上建立下列登錄項目。 所有項目都是字串 (登錄中的 Type == “REG_SZ”)。 將這些項目的值設定為主機電腦上可比較項目的相同值。  
+2.  在組建電腦上建立下列登錄項目。 所有項目都是字串 (登錄中的 Type == "REG_SZ")。 將這些項目的值設定為主機電腦上可比較項目的相同值。  
   
     -   %RegistryRoot%\\.NETFramework\v4.0.30319\AssemblyFoldersEx\VCMSBuild Public Assemblies@(Default)  
   
@@ -387,9 +388,9 @@ ms.lasthandoff: 04/05/2017
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 的每個執行個體變更  
   
-         為  
+         設為  
   
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll”。  
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll"。  
   
          先前的命名會依賴已進行 GAC 的組件。  
   
@@ -397,9 +398,9 @@ ms.lasthandoff: 04/05/2017
   
          AssemblyName="Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 的每個執行個體變更  
   
-         為  
+         設為  
   
-         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll”。  
+         AssemblyFile="$(VCTargetsPath11)Microsoft.Build.CppTasks.Common.v110.dll"。  
   
 4.  建立 .props 檔案 (例如 Partner.AutoImports.props)，並將該檔案放在含有專案之資料夾的根目錄中。 此檔案可用來設定變數，MSBuild 會使用這些變數來尋找各種資源。 如果變數不是由此檔案設定，則會由依賴登錄值的其他 .props 檔案和 .targets 檔案設定。 因為我們未設定任何登錄值，所以這些變數會是空白的，而且建置會失敗。 相反地，請將下列程式碼新增至 Partner.AutoImports.props：  
   
@@ -424,7 +425,7 @@ ms.lasthandoff: 04/05/2017
     </Project>  
     ```  
   
-5.  在每個專案檔中，於頂端的 `<Project Default Targets…>` 行之後新增下一行。  
+5.  在每個專案檔中，於頂端的 `<Project Default Targets...>` 行之後新增下一行。  
   
     ```  
     <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Partner.AutoImports.props))\Partner.AutoImports.props"/>  

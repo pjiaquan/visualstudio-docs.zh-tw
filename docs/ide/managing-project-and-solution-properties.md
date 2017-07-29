@@ -27,10 +27,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: ca7c86466fa23fb21a932f26dc24e37c71cf29b4
-ms.openlocfilehash: 332ef0d4534d8f607a1b5d92038855ebd247657f
-ms.lasthandoff: 04/05/2017
+ms.translationtype: HT
+ms.sourcegitcommit: 359e1eb5df8f19774d352ace631802367b6dd8c9
+ms.openlocfilehash: 481153e7f3d609c56f313ff5ee9f3f1b511dc5ef
+ms.contentlocale: zh-tw
+ms.lasthandoff: 07/11/2017
 
 ---
 # <a name="managing-project-and-solution-properties"></a>管理專案和方案屬性
@@ -38,7 +39,7 @@ ms.lasthandoff: 04/05/2017
   
  ![專案操作功能表](../ide/media/vs2015_proj_prop_menu.gif "vs2015_proj_prop_menu")  
   
- 在專案樹狀本身，.NET 專案也具有屬性節點。  
+ 在專案樹狀結構本身，.NET 專案也可能具有屬性節點。  
   
  ![方案總管樹狀結構中的 [屬性] 節點](../ide/media/vs2015_props_se.png "VS2015_Props_SE")  
   
@@ -48,8 +49,8 @@ ms.lasthandoff: 04/05/2017
 ## <a name="project-properties"></a>專案屬性  
  [專案屬性] 會組織成群組，而且每個群組都具有其專屬屬性頁，並且頁面可能會因語言和專案類型不同而不同。  
   
-### <a name="c-and-visual-basic-projects"></a>C# 和 Visual Basic 專案  
- C# 和 Visual Basic 專案的屬性是公開在 [專案設計工具] 中。 下圖顯示 C# 中 WPF 專案的 [建置] 屬性頁：  
+### <a name="c-visual-basic-and-f-projects"></a>C#、Visual Basic 和 F# 專案  
+ C#、Visual Basic 和 F# 專案的屬性是公開在 [專案設計工具] 中。 下圖顯示 C# 中 WPF 專案的 [建置] 屬性頁：  
   
  ![Visual Studio 專案設計工具](../ide/media/vs2015_proppage_build.png "VS2015_PropPage_Build")  
   
@@ -67,3 +68,4 @@ ms.lasthandoff: 04/05/2017
   
 ## <a name="see-also"></a>另請參閱  
  [Visual Studio 中的方案和專案](../ide/solutions-and-projects-in-visual-studio.md)
+

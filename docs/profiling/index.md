@@ -3,15 +3,14 @@ layout: LandingPage
 title: "使用 Visual Studio 分析您的應用程式"
 description: "了解如何使用 Visual Studio 2017，以您選擇的語來言分析應用程式、服務及工具的效能。"
 ms.technology: vs-ide-debug
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
-ms.openlocfilehash: 6b54253dadb80dd6881ba366b5bb466f4eae7706
+ms.translationtype: HT
+ms.sourcegitcommit: 5c28e68b89f6583dc35a91b275693c11e0259dfd
+ms.openlocfilehash: e90fc5b4997acd7a9228e8132eb00f6f32ed2d3d
 ms.contentlocale: zh-tw
-ms.lasthandoff: 06/30/2017
+ms.lasthandoff: 07/13/2017
 
 ---
-# Visual Studio 中的分析
-<a id="profiling-in-visual-studio" class="xliff"></a>
+# <a name="profiling-in-visual-studio"></a>Visual Studio 中的分析
 
 程式碼剖析和診斷工具可協助您診斷記憶體和 CPU 使用量，以及其他應用程式層級的問題。 利用這些工具，您可以隨著您在偵錯工具中執行應用程式時間而累積資料 (例如變數值、函式呼叫和事件)。 您可以在執行程式碼時檢視應用程式在不同時間點的狀態。 
 
@@ -53,7 +52,7 @@ ms.lasthandoff: 06/30/2017
         </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/watch?v=e-3txyAFzmw">
+        <a href="https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling.md#video">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -63,7 +62,7 @@ ms.lasthandoff: 06/30/2017
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>觀看有關診斷工具的影片 (VS 2015)</h3>
+                        <h3>觀看診斷工具的相關影片</h3>
                     </div>
                 </div>
             </div>

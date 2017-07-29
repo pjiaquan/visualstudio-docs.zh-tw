@@ -31,10 +31,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: edc126208bb401c8dba9a6be722cbd0dbda21caf
-ms.openlocfilehash: 720048b861bfb208489a62340efca28ae88d1951
+ms.sourcegitcommit: 8bf0b097be929b30627e0f1139c6e0b145933ab4
+ms.openlocfilehash: 28c6a166a423b3341ae32676830861eaa78cb40d
 ms.contentlocale: zh-tw
-ms.lasthandoff: 04/22/2017
+ms.lasthandoff: 05/26/2017
 
 ---
 # <a name="what39s-new-in-visual-studio-2017"></a>Visual Studio 2017 的新功能
@@ -155,7 +155,7 @@ Visual Studio 正在移動其擴充功能 (同時也在處理協力廠商擴充�
 
 * **移至** (Ctrl+F12) &ndash; 會從任何基底類型或成員瀏覽至其各種實作。
 
-* **移至全部** (Ctrl+T 或 Ctrl+,) &ndash; 會直接瀏覽至任何檔案/類型/成員/符號宣告。 您可以篩選您的結果清單或使用查詢語法 (例如 “f searchTerm” 用於檔案，“t searchTerm” 用於類型等等)。
+* **移至全部** (Ctrl+T 或 Ctrl+,) &ndash; 會直接瀏覽至任何檔案/類型/成員/符號宣告。 您可以篩選您的結果清單或使用查詢語法 (例如 "f searchTerm" 用於檔案，"t searchTerm" 用於類型等等)。
 
  ![已改進的 [移至全部]](../ide/media/vs2017ide-navigation-go-to.png "已改進的 [移至全部] 功能範例")
 
@@ -203,7 +203,7 @@ Visual Studio 正在移動其擴充功能 (同時也在處理協力廠商擴充�
 
 ## <a name="see-also"></a>另請參閱  
 * [Visual C++ 的新功能](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
-* [C# 的新功能](https://docs.microsoft.com/en-us/dotnet/articles/csharp/csharp-7)  
+* [C# 的新功能](https://docs.microsoft.com/en-us/dotnet/csharp/csharp-7)  
 * [Team Foundation Server 的新功能](https://www.visualstudio.com/en-us/docs/whats-new)
 * [Visual Studio 版本資訊](https://www.visualstudio.com/news/vs2015-vs)
 

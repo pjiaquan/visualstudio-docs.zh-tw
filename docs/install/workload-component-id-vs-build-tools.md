@@ -32,10 +32,10 @@ translation.priority.mt:
 - pt-br
 - tr-tr
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 054126ddbdc9f0144983a1ef21fa43875699cbee
-ms.openlocfilehash: 1147438d12d754233f6205de4a5d37920cb5b66a
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: c8a3b886d32a2860a3b8acdd1cbb7d2830009dd4
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/13/2017
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 05/10/2017
 
 * 每個工作負載都有自己的小節 (後面接著工作負載識別碼)，以及一張工作負載可用元件的表格。
 * 安裝工作負載時，預設會安裝「必要」元件。 您也可以選擇安裝「建議」元件和「選擇性」元件。
-* 我們還新增了一個小節，當中列出不屬於任何工作負載的額外元件。
+* 我們還新增了一個章節，當中列出不屬於任何工作負載的額外元件。
 
 如需有關如何使用這些識別碼的詳細資訊，請參閱[使用命令列參數安裝 Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) 頁面。 而如需其他產品的工作負載和元件識別碼清單，請參閱 [Visual Studio 2017 工作負載和元件識別碼 (英文)](workload-and-component-ids.md) 頁面。
 

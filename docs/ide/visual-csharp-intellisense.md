@@ -31,10 +31,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 2ce4f6545e3497b829234a6f21983a406059d3e0
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 99f7756369fe4848fc5641009e95bbba23c95227
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="visual-c-intellisense"></a>Visual C# IntelliSense
@@ -53,7 +54,7 @@ ms.lasthandoff: 02/22/2017
   
 -   [擴充方法](#ExtensionMethods)  
   
- C# 中的完成清單也十分聰明，可以篩選掉不相關的語彙基元，並根據內容預先選取語彙基元。 如需詳細資訊，請參閱 [C# 中已篩選的完成清單](../misc/filtered-completion-lists-in-csharp.md)和 [C# 中預先選取的完成清單項目](../misc/pre-selected-completion-list-items-in-csharp.md)。  
+ C# 中的完成清單也十分聰明，可以篩選掉不相關的語彙基元，並根據內容預先選取語彙基元。 如需詳細資訊，請參閱[篩選後的完成清單](#filtered-completion-lists)。  
   
 ###  <a name="CodeSnippets"></a> 完成清單中的程式碼片段  
  Visual C# 完成清單包含程式碼片段，可以協助您在程式中輕鬆地插入預先定義的程式碼主體。 在完成清單中，程式碼片段會顯示為片段的 [Shortcut 項目 (IntelliSense 程式碼片段)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa)。  如需 Visual C# 中所提供之預設程式碼片段的詳細資訊，請參閱 [Visual C# 程式碼片段](../ide/visual-csharp-code-snippets.md)。  
@@ -65,18 +66,18 @@ ms.lasthandoff: 02/22/2017
  Visual C# 的完成清單包含範圍內的擴充方法。  
   
 > [!NOTE]
->  完成清單不會顯示 <xref:System.String> 物件的所有擴充方法。  
+>  完成清單不會顯示 <xref:System.String> 物件的所有擴充方法 。  
   
  擴充方法與執行個體方法使用不同的圖示。 如需清單圖示的清單，請參閱[類別檢視和物件瀏覽器圖示](../ide/class-view-and-object-browser-icons.md)。 當同名的執行個體方法與擴充方法都在範圍中時，完成清單會顯示擴充方法圖示。  
   
-### <a name="filtered-completion-lists"></a>篩選後的完成清單  
+### <a name="filtered-completion-lists"></a> 篩選後的完成清單  
  IntelliSense 會利用篩選條件，將不必要的成員從完成名單中移除。  
   
  Visual C# 會篩選針對下列項目所顯示的完成清單：  
   
 -   **介面與基底類別。** 在類別宣告基底和介面清單與條件約束清單中，IntelliSense 都會自動從介面和基底類別的完成清單移除項目。 例如，列舉不會出現在基底類別的完成清單中，因為列舉不能使用於基底類別。 基底類別的完成清單只包含介面和命名空間。 如果您在清單中選取一個項目，然後輸入一個逗號，IntelliSense 會將基底類別從清單中移除，因為 Visual C# 不支援多重繼承。 相同的行為也會發生在條件約束子句。  
   
--   **屬性**：當您將屬性套用至類型時，完成清單會經過篩選，讓清單只包括從含有這些類型之命名空間繼承而來的類型，例如 <xref:System.Attribute>。  
+-   **屬性**：當您將屬性套用至類型時，完成清單會經過篩選，讓清單只包括從含有這些類型的命名空間繼承而來之類型，例如 <xref:System.Attribute>。  
   
 -   `as` 及 `is` 運算子。  
   
@@ -85,6 +86,8 @@ ms.lasthandoff: 02/22/2017
 -   **物件初始設定式**：只有能夠初始化的成員會出現在完成清單中。  
   
 -   **new 關鍵字**：當您鍵入 `new` 然後按下空格鍵，完成清單隨即出現。 清單會根據您的程式碼內容，自動選取一個項目。 例如，完成清單中的項目會針對宣告及方法中的 return 陳述式自動選取項目。  
+  
+-   **enum 關鍵字**：當您在列舉指派的等號之後按空格鍵時，完成清單隨即出現。 清單會根據您的程式碼內容，自動選取一個項目。 例如，當您鍵入關鍵字 return 並執行宣告時，就會自動選取完成清單中的項目。  
   
 -   **as 及 is 運算子**：當您鍵入 `as` 或 `is` 關鍵字後按空格鍵，即會自動顯示篩選後的完成清單。  
   
@@ -112,7 +115,7 @@ ms.lasthandoff: 02/22/2017
  ![加入 using，智慧標籤展開的影像](../ide/media/addusesmartexp.gif "AddUseSmartExp")  
   
 ### <a name="organize-usings"></a>組合管理 Using  
- [組合管理 Using]**`extern` 選項會排序並移除** 和 `using` 宣告，但不變更原始程式碼的行為。 不必要且缺乏組織的 `using` 指示詞會使原始程式碼隨著時間而變得繁雜難以閱讀。 [組合管理 Using] 選項可移除未使用的 `using` 指示詞來精簡原始程式碼，並加以排序來改善可讀性。  
+ [組合管理 Using]**`extern` 選項會排序並移除**  和 `using` 宣告，但不變更原始程式碼的行為。 不必要且缺乏組織的 `using` 指示詞會使原始程式碼隨著時間而變得繁雜難以閱讀。 [組合管理 Using] 選項可移除未使用的 `using` 指示詞來精簡原始程式碼，並加以排序來改善可讀性。  
   
  若要查看 Visual Studio IDE 中的可用選項，請在 [編輯] 功能表上，指向 [IntelliSense]，然後指向 [組合管理 Using]。 IDE 提供下列選項來組合管理和移除 `usings` 指示詞：  
   
@@ -125,6 +128,8 @@ ms.lasthandoff: 02/22/2017
  在使用 [程式碼編輯器] 時，IntelliSense 提供您可自動實作抽象基底類別成員的選項。 一般而言，實作抽象基底類別的成員需要針對衍生類別中抽象基底類別的每個方法建立新的方法定義。 使用 IntelliSense，在類別宣告中輸入抽象基底類別的名稱後，就會顯示智慧標籤。 智慧標籤提供您自動實作基底類別方法的選項。  
   
  [實作抽象基底類別] 功能所產生的方法虛設常式是由定義在 MethodStub.snippet 檔案中的程式碼片段所模式化。 程式碼片段是可以修改的。 如需詳細資訊，請參閱[逐步解說：建立程式碼片段](../ide/walkthrough-creating-a-code-snippet.md)。  
+  
+<a name="generate-from-usage></a>  
   
 ### <a name="generate-from-usage"></a>使用時產生  
  [使用時產生] 功能可讓您直接使用類別和成員，而不需要先行定義。 您可以為任何想要使用但尚未定義的類別、建構函式、方法、屬性、欄位或列舉，產生虛設常式。 您可以產生新類型和成員，不用離開目前在程式碼中的位置。 這可將對工作流程的干擾降至最低。  
@@ -169,8 +174,6 @@ ms.lasthandoff: 02/22/2017
   
 > [!NOTE]
 >  使用 [檢視] 功能表上的 [向後巡覽] 命令 (CTRL+-)，返回事件連結陳述式。  
-  
- 下列工作示範 IntelliSense 如何自動連結名為 `button1_Click` 的事件處理常式和名為 `button1.Click` 的事件欄位。  
   
 ## <a name="see-also"></a>另請參閱  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

@@ -38,17 +38,18 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: d0d1bb04347f3b4ce4578a15acf8f9118a6ba02d
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 61a061b6a58b18451fc53c8d53f77889cc1ea253
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="options-text-editor-c-advanced"></a>進階、C#、文字編輯器、選項
 使用這個對話方塊來修改 Visual C# 的編輯器格式、程式碼重構和 XML 文件註解設定。 若要存取這個對話方塊，請按一下 [工具] 功能表上的 [選項]，並依序展開 [文字編輯器] 資料夾和 [C#]，然後按一下 [進階]。  
   
 > [!NOTE]
->  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [ **工具** ] 功能表中選取 [ **匯入和匯出設定** ]。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
+>  根據您目前使用的設定或版本，您所看到的對話方塊與功能表命令可能會與 [說明] 中描述的不同。 若要變更設定，請從 [ **工具** ] 功能表中選取 [ **匯入和匯出設定** ]。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../../ide/personalizing-the-visual-studio-ide.md)。  
   
 ## <a name="outlining"></a>大綱  
  檔案開啟時進入大綱模式  
@@ -91,7 +92,7 @@ ms.lasthandoff: 02/22/2017
   
 ## <a name="organize-usings"></a>組合管理 Using  
  排序 using 時先放置 'System' 指示詞  
- 選取此選項時，`System` using 指示詞會出現在其他 using 指示詞前面。 如需詳細資訊，請參閱[排序 Using](../../misc/sort-usings.md)。  
+ 選取此選項時，`System` using 指示詞會出現在其他 using 指示詞前面。 如需詳細資訊，請參閱 [Visual C# IntelliSense](../../ide/visual-csharp-intellisense.md#automatic-code-generation) 中的組合管理 using。  
   
 ## <a name="see-also"></a>另請參閱  
  [XML 文件註解](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)   

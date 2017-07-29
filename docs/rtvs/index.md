@@ -23,8 +23,7 @@ ms.lasthandoff: 07/12/2017
 
 ---
 
-# 在 Visual Studio 中使用 R
-<a id="working-with-r-in-visual-studio" class="xliff"></a>
+# <a name="working-with-r-in-visual-studio"></a>在 Visual Studio 中使用 R
 
 R 專供統計運算與圖形設計之用，是高可延伸性的語言及環境。 它是依據 GNU General Public License 免費散發、享有堅強的社群支援，且以能夠產生出版物水平的繪圖 (包括數學符號和公式) 而聞名。 您可以透過 [r-project.org (英文)](https://www.r-project.org/about.html) 和[簡介 R (英文)](https://cran.r-project.org/doc/manuals/r-release/R-intro.html) 深入了解 R。
 
@@ -53,8 +52,7 @@ Visual Studio R 工具 (RTVS) 為適用於 Visual Studio 2017 和 Visual Studio 
 
 > [!VIDEO https://www.youtube.com/embed/RcSDEfMgUvU]
 
-## 常見問題集
-<a id="frequently-asked-questions" class="xliff"></a>
+## <a name="frequently-asked-questions"></a>常見問題集
 
 **問：RTVS 是否可以搭配 Visual Studio Express 各版本使用？**
 
@@ -122,8 +120,7 @@ Visual Studio R 工具 (RTVS) 為適用於 Visual Studio 2017 和 Visual Studio 
 
 答： 否，Visual Studio 不支援從網路共用載入專案。
 
-## 將您的意見反應傳送給我們！
-<a id="send-us-your-feedback" class="xliff"></a>
+## <a name="send-us-your-feedback"></a>將您的意見反應傳送給我們！
 
 1. **GitHub 問題**：連絡 RTVS 小組的最佳方式，是[在 GitHub 上提出問題 (英文)](https://github.com/Microsoft/RTVS/issues)，或使用 [R 工具] > [意見反應] 功能表。
 

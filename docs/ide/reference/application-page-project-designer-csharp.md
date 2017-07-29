@@ -1,25 +1,45 @@
 ---
-title: "專案設計工具，應用程式頁 (C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
-  - "cs.ProjectPropertiesApplicationWPF"
-  - "cs.ProjectPropertiesApplication"
-helpviewer_keywords: 
-  - "專案設計工具，應用程式頁面"
-  - "專案設計工具中的應用程式頁"
+title: "專案設計工具、應用程式頁面 (C#) | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
+f1_keywords:
+- cs.ProjectPropertiesApplicationWPF
+- cs.ProjectPropertiesApplication
+helpviewer_keywords:
+- Project Designer, Application page
+- Application page in Project Designer
 ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
 caps.latest.revision: 56
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 56
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6fbf89668d47d55d1d77a1d7f11765567fc73405
+ms.openlocfilehash: 3f0056a62dc11c5584e38e9912ccd94f5b9e9b0e
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/26/2017
+
 ---
 # <a name="application-page-project-designer-c"></a>專案設計工具，應用程式頁 (C#)
 使用 [專案設計工具] 的 [應用程式] 頁面來指定專案的應用程式設定和屬性。  
@@ -56,7 +76,7 @@ caps.handback.revision: 56
   
  針對 Web 應用程式專案，您必須指定 [類別庫]。  
   
- 如果您指定 [WinMD 檔案] 選項，則類型可以投影至任何 Windows 執行階段程式設計語言。 將專案的輸出封裝為 WinMD 檔案，即可使用多種語言來撰寫應用程式，並讓程式碼交互操作，如同您使用相同的語言來撰寫程式碼一樣。 您可以針對以 Windows 執行階段程式庫為目標的方案指定此選項，包括 [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] 應用程式。 如需詳細資訊，請參閱[在 C++ 和 Visual Basic 中建立 Windows 執行階段元件](http://go.microsoft.com/fwlink/?LinkId=231895)。  
+ 如果您指定 [WinMD 檔案] 選項，則類型可以投影至任何 Windows 執行階段程式設計語言。 將專案的輸出封裝為 WinMD 檔案，即可使用多種語言來撰寫應用程式，並讓程式碼交互操作，如同您使用相同的語言來撰寫程式碼一樣。 您可以針對以 Windows 執行階段程式庫為目標的方案指定此選項，包括 [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] 應用程式。 如需詳細資訊，請參閱[在 C++ 和 Visual Basic 中建立 Windows 執行階段元件](/windows/uwp/winrt-components/creating-windows-runtime-components-in-csharp-and-visual-basic)。  
   
 > [!NOTE]
 >  Windows 執行階段可以投影類型，以使用它們的語言顯示為原生物件。 例如，與 Windows 執行階段互動的 JavaScript 應用程式會使用它作為一組 JavaScript 物件，而且 C# 應用程式會使用該程式庫作為 .NET 物件集合。 將專案的輸出封裝為 WinMD 檔案，即可利用 Windows 執行階段所使用的相同技術。  
@@ -82,7 +102,7 @@ caps.handback.revision: 56
  **圖示**  
  設定想要用來當作程式圖示的 .ico 檔案。 按一下省略符號按鈕以瀏覽現有圖形，或輸入您想要之檔案的名稱。 如需詳細資訊，請參閱 [/win32icon (C# 編譯器選項)](/dotnet/csharp/language-reference/compiler-options/win32icon-compiler-option)。 若要以程式設計方式存取此屬性，請參閱 <xref:VSLangProj.ProjectProperties.ApplicationIcon%2A>。  
   
- **資訊清單**  
+ **Manifest**  
  透過使用者帳戶控制 (UAC) 在 Windows Vista 上執行應用程式時，請選取資訊清單產生選項。 此選項可以包含下列值：  
   
 -   **用預設設定嵌入資訊清單**。 支援 Visual Studio 在 Windows Vista 上操作的一般方式，亦即將 `requestedExecutionLevel` 指定為 `AsInvoker`，以在應用程式可執行檔中嵌入安全性資訊。 這是預設選項。  
@@ -99,8 +119,3 @@ caps.handback.revision: 56
 ## <a name="see-also"></a>另請參閱  
 [管理應用程式屬性](../../ide/application-properties.md)  
  [撰寫 Office 方案中的程式碼](/office-dev/office-dev/writing-code-in-office-solutions)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

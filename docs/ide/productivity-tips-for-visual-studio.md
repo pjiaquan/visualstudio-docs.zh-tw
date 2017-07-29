@@ -1,19 +1,38 @@
 ---
 title: "使用 Visual Studio 提高產能的秘訣 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: ccc5e543-7dcf-465c-97dd-e133e869800c
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 26
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: cc0ac8b3418c725579b25712e14c373028fca339
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
+
 ---
 # <a name="productivity-tips-for-visual-studio"></a>使用 Visual Studio 提高產能的秘訣
 遵循下列提示，您可以在 Visual Studio 中更快速、有效率地撰寫、巡覽及偵錯程式碼。 如需常用鍵盤快速鍵的詳細資訊，請參閱[秘訣和訣竅](../ide/tips-and-tricks-for-visual-studio.md)。 如需更完整的清單，請參閱[識別及自訂鍵盤快速鍵](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)和[預設鍵盤快速鍵](../ide/default-keyboard-shortcuts-in-visual-studio.md)。  
@@ -32,7 +51,7 @@ caps.handback.revision: 26
   
  [管理檔案、工具列和視窗](../ide/productivity-tips-for-visual-studio.md#BKMK_Managing)  
   
-##  <a name="a-namebkmkaccessa-accessing-visual-studio-tools"></a><a name="BKMK_Access"></a> 存取 Visual Studio Tools  
+##  <a name="BKMK_Access"></a> 存取 Visual Studio Tools  
  如果釘選至 [開始] 畫面或工作列，您可以更輕鬆地存取開發人員命令提示字元或其他工具。  
   
 1.  從 [開始] 畫面，輸入 `Visual Studio Tools`，然後選擇 Enter 鍵。  
@@ -57,7 +76,7 @@ caps.handback.revision: 26
   
 3.  選擇 [釘選到 [開始] 畫面] 或 [釘選到工作列]。  
   
-##  <a name="a-namebkmkwritinga-writing-code"></a><a name="BKMK_Writing"></a> 撰寫程式碼  
+##  <a name="BKMK_Writing"></a> 撰寫程式碼  
  您可以使用下列功能，更快速地撰寫程式碼。  
   
 -   **使用範例應用程式**。 您可以從 MSDN Code Gallery 下載和安裝範例應用程式，來加速應用程式開發。 您也可以下載和探索該區域的範例套件，學習特定技術或程式設計概念。  
@@ -90,7 +109,7 @@ caps.handback.revision: 26
   
      若要在快顯視窗中開啟定義，請反白顯示項目，然後選取 Alt+F12 鍵，或者開啟項目的捷徑功能表，然後選擇 [查看定義]。 若要在不同的程式碼視窗中開啟定義，請開啟項目的捷徑功能表，然後選擇 [移至定義]。  
   
-##  <a name="a-namebkmknavigatinga-navigating-within-your-code"></a><a name="BKMK_Navigating"></a> 在您的程式碼中巡覽  
+##  <a name="BKMK_Navigating"></a> 在您的程式碼中巡覽  
  您可以利用各種技巧，更快速地尋找和移動至程式碼中的某個位置。  
   
 -   **將數行程式碼加入書籤**。 您可以利用書籤來快速地巡覽至檔案中的特定幾行程式碼。  
@@ -101,9 +120,9 @@ caps.handback.revision: 26
   
      若要存取這項功能，請在功能表列上依序選擇 [編輯] 和 [巡覽至]。  
   
--   **瀏覽程式碼的整體結構**。 在方案總管中，您可以搜尋和瀏覽專案中的類別及其類型和成員。 您也可以搜尋符號，檢閱方法的呼叫階層架構，尋找符號參考和執行其他工作。 如果您在方案總管中選擇程式碼項目，則會在 [預覽] 索引標籤中開啟相關聯的檔案，而游標會移至檔案中的項目。 如需詳細資訊，請參閱[檢視程式碼的結構](../ide/viewing-the-structure-of-code.md)。  
+-   **瀏覽程式碼的整體結構**。 在方案總管中，您可以搜尋和瀏覽專案中的類別及其類型和成員。 您也可以搜尋符號、檢閱方法的呼叫階層、尋找符號參考和執行其他工作。 如果您在方案總管中選擇程式碼項目，則會在 [預覽] 索引標籤中開啟相關聯的檔案，而游標會移至檔案中的項目。 如需詳細資訊，請參閱[檢視程式碼的結構](../ide/viewing-the-structure-of-code.md)。  
   
-##  <a name="a-namebkmkfindinga-finding-items-faster"></a><a name="BKMK_Finding"></a> 更快速地尋找項目  
+##  <a name="BKMK_Finding"></a> 更快速地尋找項目  
  除了篩選工具視窗的內容以顯示與您目前的工作有關的資訊以外，您可以在整個 IDE 中搜尋命令、檔案和選項。  
   
 -   **篩選工具視窗的內容**。 您可以搜尋 [工具箱]、[屬性] 視窗和方案總管許多這類工具視窗的內容，但只會顯示名稱包含您所指定字元的項目。  
@@ -118,10 +137,10 @@ caps.handback.revision: 26
   
      [快速啟動] 會顯示 [新增專案] 對話方塊、[新增項目] 對話方塊以及 [選項] 對話方塊中的 [專案和方案] 頁面的連結。 快速啟動結果也可以包含專案檔和工具視窗。  
   
-##  <a name="a-namebkmkdebugginga-debugging-code"></a><a name="BKMK_Debugging"></a> 偵錯程式碼  
+##  <a name="BKMK_Debugging"></a> 偵錯程式碼  
  偵錯可能會耗用大量的時間，但是下列的技巧可協助您加快處理它們。  
   
--   **在不同瀏覽器中測試相同頁面、應用程式或網站**。 當您偵錯程式碼時，可以輕鬆地切換包括 [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209) 在內的已安裝網頁瀏覽器，而不需要開啟 [瀏覽方式] 對話方塊。 您可以使用 [偵錯目標] 清單 (位於 [開始偵錯] 按鈕旁的 [標準] 工具列)，快速確認您偵錯或檢視頁面時所使用的瀏覽器。  
+-   **在不同瀏覽器中測試相同頁面、應用程式或網站**。 當您偵錯程式碼時，可以輕鬆地切換包括 [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209) 在內的已安裝網頁瀏覽器，而不需要開啟 [瀏覽方式] 對話方塊。 您可以使用 [偵錯目標] 清單 (位於 [開始偵錯] 按鈕旁的 [標準] 工具列)，快速確認在偵錯或檢視頁面時要使用哪一個瀏覽器。  
   
      ![選取網頁瀏覽器偵錯選項](../ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")  
   
@@ -141,14 +160,14 @@ caps.handback.revision: 26
   
      如需其他命令的詳細資訊，請參閱 [Visual Studio 命令別名](../ide/reference/visual-studio-command-aliases.md)。  
   
-##  <a name="a-namebkmkmanaginga-managing-files-toolbars-and-windows"></a><a name="BKMK_Managing"></a> 管理檔案、工具列和視窗  
+##  <a name="BKMK_Managing"></a> 管理檔案、工具列和視窗  
  您可能在開發應用程式的任何時候，同時處理多個程式碼檔案並且在數個工具視窗間移動。 您可以使用下列技巧來保持井然有序。  
   
 -   **讓您經常使用的檔案在編輯器中隨時可見**。 您可以將檔案適當地釘選在索引標籤井的左側，使這些檔案不論編輯器中開啟了多少檔案仍隨時可見。  
   
-     若要釘選檔案，請選擇檔案的索引標籤，然後選擇 [切換固定狀態] 按鈕。  
+     若要釘選檔案，請選擇檔案的索引標籤，然後選擇 [切換釘選狀態] 按鈕。  
   
--   **將文件和視窗移至其他監視器**。 如果您在開發應用程式時使用多個螢幕，您可以透過將開啟於編輯器中的檔案移至其他螢幕，更輕鬆地編輯應用程式的某個部分。 您也可以將偵錯工具視窗等工具視窗移至其他監視器，並將文件和工具視窗停駐在一起以建立「浮動定位」。 如需詳細資訊，請參閱[如何：排列和停駐視窗](../misc/how-to-arrange-and-dock-windows.md)。  
+-   **將文件和視窗移至其他監視器**。 如果您在開發應用程式時使用多個螢幕，您可以透過將開啟於編輯器中的檔案移至其他螢幕，更輕鬆地編輯應用程式的某個部分。 您也可以將工具視窗 (例如偵錯工具視窗) 移至其他螢幕，並將文件和工具視窗停駐在一起以建立「浮動定位」。 如需詳細資訊，請參閱[在 Visual Studio 中自訂視窗版面配置](../ide/customizing-window-layouts-in-visual-studio.md)。  
   
      您也可以建立另一個方案總管執行個體並移至其他監視器，更輕鬆地管理檔案。 若要建立另一個方案總管執行個體，請開啟方案總管中的捷徑功能表，然後選擇 [新增方案總管檢視]。  
   
@@ -159,8 +178,3 @@ caps.handback.revision: 26
  [如何：自訂功能表和工具列](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)   
  [逐步解說：建立簡單的應用程式](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
  [協助工具秘訣和訣竅](../ide/reference/accessibility-tips-and-tricks.md)
-
-
-<!--HONumber=Feb17_HO4-->
-
-

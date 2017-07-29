@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio IDE 功能導覽 | Microsoft Docs"
 ms.custom: 
-ms.date: 03/07/2017
+ms.date: 06/28/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,10 +26,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-translationtype: Human Translation
-ms.sourcegitcommit: 06cdfb076120ffd7459a16b56c659bb86942cd7f
-ms.openlocfilehash: c8276097c53ea49d223c43ada5511ab5d5f38036
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 669bc5894727c207691a7e37937f432d98fee8b1
+ms.openlocfilehash: 8d2c20b32201b3df85e5150828565eee84d66375
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/30/2017
 
 ---
 # <a name="visual-studio-ide-feature-tour"></a>Visual Studio IDE 功能導覽
@@ -142,7 +143,7 @@ Visual Studio 現在比以往更輕巧！ 新模組安裝程式可讓您選擇�
 
 ![偵錯](../ide/media/VSIDE_Tour_Debugging.png)
 
-在測試方面，Visual Studio 提供單元測試、IntelliTest、負載和效能測試等。 若要取得有關 Visual Studio 偵錯程序的更多詳細資料，請參閱[偵錯工具功能導覽](https://review.docs.microsoft.com/visualstudio/debugger/debugger-feature-tour?branch=mikejo-tour)。 若要深入了解測試，請參閱[測試工具](https://www.visualstudio.com/vs/testing-tools/)。 若要深入了解如何改善您應用程式的效能，請參閱[分析工具](https://docs.microsoft.com/visualstudio/profiling/profiling-tools)。
+在測試方面，Visual Studio 提供單元測試、IntelliTest、負載和效能測試等。 若要取得有關 Visual Studio 偵錯程序的更多詳細資料，請參閱[偵錯工具功能導覽](../debugger/debugger-feature-tour.md)。 若要深入了解測試，請參閱[測試工具](https://www.visualstudio.com/vs/testing-tools/)。 若要深入了解如何改善您應用程式的效能，請參閱[分析功能導覽](../profiling/profiling-feature-tour.md)。
 
 ## <a name="deploy-your-finished-application"></a>部署已完成的應用程式  
 當您的應用程式已準備就緒而可部署到使用者或客戶時，Visual Studio 會提供工具來執行部署，不論您是要部署到 Windows 市集、SharePoint 網站，還是透過 InstallShield 或 Windows Installer 技術來部署，都可以。 全部都可透過 IDE 來存取。 如需詳細資訊，請參閱[部署應用程式、服務和元件](../deployment/deploying-applications-services-and-components.md)。

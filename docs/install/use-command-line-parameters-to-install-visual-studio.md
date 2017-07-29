@@ -31,11 +31,11 @@ translation.priority.mt:
 - pl-pl
 - pt-br
 - tr-tr
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5b496e0de0a12c9f52c944ef9e768c82d9be783
-ms.openlocfilehash: 429d55b3d0050eb0743d4abf39c202ad1b8383b1
+ms.translationtype: HT
+ms.sourcegitcommit: 6d25db4639f2c8391c1e32542701ea359f560178
+ms.openlocfilehash: 90e19f6e693733162065754b441fb213fd0bd9f8
 ms.contentlocale: zh-tw
-ms.lasthandoff: 05/08/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 # <a name="use-command-line-parameters-to-install-visual-studio-2017"></a>使用命令列參數來安裝 Visual Studio 2017
@@ -71,8 +71,8 @@ ms.lasthandoff: 05/08/2017
 | `--installPath <dir>` | 要操作之執行個體的安裝目錄。 若是安裝命令，這是**選擇性的**，而且是執行個體的安裝位置。 若是其他命令，這是**必要的**，而且是先前安裝之執行個體的安裝位置。 |
 | `--addProductLang <language-locale>` | **選擇性**︰在安裝或修改作業期間，這會決定要安裝到產品的 UI 語言套件。 它可在命令列上出現多次，以新增多個語言套件。 如果不存在，安裝將會使用電腦地區設定。 如需詳細資訊，請參閱此頁面上的[語言地區設定清單](#list-of-language-locales)一節。|
 | `--removeProductLang <language-locale>` | **選擇性**︰在安裝或修改作業期間，這會決定要從產品移除的 UI 語言套件。 它可在命令列上出現多次，以新增多個語言套件。 如需詳細資訊，請參閱此頁面上的[語言地區設定清單](#list-of-language-locales)一節。|
-| `--add <one or more workload or component IDs>` | **選擇性**︰一或多個要新增的工作負載或元件識別碼。 安裝成品的必要元件，但不安裝建議或選用元件。 您可以使用 `--includeRecommended` 和/或 `--includeOptional`，以全域控制其他元件。 若要進行更精細的控制，可將 `;includeRecommended` 或 `;includeOptional` 附加到識別碼 (例如 `--add Workload1;includeRecommended` 或 `--add Workload2;includeRecommended;includeOptional`)。 如需詳細資訊，請參閱[工作負載和元件識別碼 (英文)](workload-and-component-ids.md) 頁面。|
-| `--remove <one or more workload or component IDs>` | **選擇性**︰一或多個要移除的工作負載或元件識別碼。 如需詳細資訊，請參閱[工作負載和元件識別碼 (英文)](workload-and-component-ids.md) 頁面。|
+| `--add <workload or component ID>` | **選擇性**：要新增的工作負載或元件識別碼。 安裝成品的必要元件，但不安裝建議或選用元件。 您可以使用 `--includeRecommended` 和/或 `--includeOptional`，以全域控制其他元件。 若要進行更精細的控制，可將 `;includeRecommended` 或 `;includeOptional` 附加到識別碼 (例如 `--add Workload1;includeRecommended` 或 `--add Workload2;includeRecommended;includeOptional`)。 如需詳細資訊，請參閱[工作負載和元件識別碼 (英文)](workload-and-component-ids.md) 頁面。 如有必要，您可以重複此選項。|
+| `--remove <workload or component ID>` | **選擇性**：要移除的工作負載或元件識別碼。 如需詳細資訊，請參閱[工作負載和元件識別碼 (英文)](workload-and-component-ids.md) 頁面。 如有必要，您可以重複此選項。|
 | `--in <path>` | **選擇性**︰回應檔的 URI 或路徑。  |
 | `--all` | **選擇性**︰是否要安裝產品的所有工作負載和元件。 |
 | `--allWorkloads` | **選擇性**︰安裝所有工作負載及其必要元件，但不安裝建議或選擇性元件。 |

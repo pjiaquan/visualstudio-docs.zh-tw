@@ -1,24 +1,43 @@
 ---
 title: "如何：建置包含資源的專案 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "資源檔，使用 MSBuild 編譯"
-  - "資源 [Visual Studio]，使用 MSBuild 編譯"
-  - "建置專案 [.NET Framework]"
-  - "MSBuild 中，使用資源建置專案"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-sdk
+ms.tgt_pltfrm: 
+ms.topic: article
+helpviewer_keywords:
+- resource files, compiling with MSBuild
+- resources [Visual Studio], compiling with MSBuild
+- projects [.NET Framework], building
+- MSBuild, building a project with resources
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 14
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- cs-cz
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- pl-pl
+- pt-br
+- ru-ru
+- tr-tr
+- zh-cn
+- zh-tw
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 3d32d11a430227800cb3ed53831a9565eb6adeb3
+ms.openlocfilehash: 641697cabee22a86e3b5ee7a360cbea154ead486
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/30/2017
+
 ---
 # <a name="how-to-build-a-project-that-has-resources"></a>如何：建置包含資源的專案
 如果您要建置專案的當地語系化版本，就必須將所有使用者介面項目分隔成適用於各種語言的資源檔。 如果專案只會使用字串，資源檔就能使用文字檔。 或者，您可以使用 .resx 檔案做為資源檔。  
@@ -39,7 +58,7 @@ caps.handback.revision: 14
 ## <a name="example"></a>範例  
  下列程式碼範例示範 `Output` 項目 (Element) 如何指定 `GenerateResource` 工作的 `OutputResources` 屬性將包含已編譯的資源檔 `alpha.resources` 和 `beta.resources`，而這兩個檔案將會置於 `Resources` 項目 (Item) 清單中。 藉由將這些 .resources 檔案識別為相同名稱的項目集合，您可以輕鬆地使用它們做為另一個工作的輸入，例如 [Csc](../msbuild/csc-task.md) 工作。  
   
- 此工作相當於使用 [Resgen.exe](http://msdn.microsoft.com/Library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4) 的 **/compile** 參數：  
+ 此工作相當於使用 [Resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator) 的 **/compile** 參數：  
   
  `Resgen.exe /compile alpha.resx,alpha.resources /compile beta.txt,beta.resources`  
   
@@ -80,9 +99,4 @@ caps.handback.revision: 14
 [ MSBuild](../msbuild/msbuild.md)  
  [GenerateResource 工作](../msbuild/generateresource-task.md)   
  [Csc 工作](../msbuild/csc-task.md)   
- [Resgen.exe (資源檔產生器)](http://msdn.microsoft.com/Library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)
-
-
-<!--HONumber=Feb17_HO4-->
-
-
+ [Resgen.exe (資源檔產生器)](/dotnet/framework/tools/resgen-exe-resource-file-generator)

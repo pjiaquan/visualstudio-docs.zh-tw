@@ -29,16 +29,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 83fbf12dce91f79d537b574ea9903af5d6e61d1f
-ms.openlocfilehash: 0cc24f68ddef374f539c299d87cede8a13fac1a2
-ms.lasthandoff: 02/28/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 795bf9746c4ae48ac04141a05ba56462ecb90482
+ms.openlocfilehash: afc044be4d63b7a292a6d94e360366913bd28883
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/23/2017
 
 ---
 
 # <a name="custom-native-etw-heap-events"></a>自訂原生 ETW 堆積事件
 
-Visual Studio 包含各種[分析與診斷工具](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools)，包括原生記憶體分析工具。  此分析工具會從堆積提供者攔截 [ETW 事件](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363668(v=vs.85).aspx)，並提供記憶體的配置與使用現況分析。  此工具預設只能分析透過標準 Windows 堆積所進行的配置，而不會顯示此原生堆積以外的任何配置。
+Visual Studio 包含各種[分析與診斷工具](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-tools)，包括原生記憶體分析工具。  此分析工具會從堆積提供者攔截 [ETW 事件](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-)，並提供記憶體的配置與使用現況分析。  此工具預設只能分析透過標準 Windows 堆積所進行的配置，而不會顯示此原生堆積以外的任何配置。
 
 在許多情況下，您可能想要使用自訂的堆積，以避免來自標準堆積的配置負荷。  比方說，您可以使用 [VirtualAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366887(v=vs.85).aspx)，將大量記憶體配置在應用程式或遊戲開頭，接著在該清單內管理自己的區塊。  在此案例中，記憶體分析工具只會查看該初始配置，而不會查看您在記憶體區塊內完成的自訂管理。  不過，使用自訂原生堆積 ETW 提供者時，您就可以讓工具了解您在標準堆積以外進行的任何配置。
 

@@ -29,10 +29,11 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 4166ed8bfa0234e1cc453bd045974b412f87ae42
-ms.openlocfilehash: a1a310aa6bf0e3d0042f35f5c49612f33b89fb61
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea9179ad37514ffad4876177b05150eecc22def
+ms.openlocfilehash: 6bf0181e49d8390eed8f750d16b706780d71f08a
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/24/2017
 
 ---
 # <a name="synchronize-your-settings-in-visual-studio"></a>在 Visual Studio 中同步處理設定
@@ -41,7 +42,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="synchronized-settings"></a>同步設定  
  預設會同步處理下列設定。  
 
--   開發設定 (您必須在第一次執行 Visual Studio 時選取一組設定，但是可以隨時變更選取範圍。 如需詳細資訊，請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3))。  
+-   開發設定 (您必須在第一次執行 Visual Studio 時選取一組設定，但是可以隨時變更選取範圍。 如需詳細資訊，請參閱[將 Visual Studio IDE 個人化](../ide/personalizing-the-visual-studio-ide.md))。  
 
 -   [工具] &#124; [選項] 頁面中的下列選項：  
 

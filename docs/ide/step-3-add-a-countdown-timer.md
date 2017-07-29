@@ -1,19 +1,39 @@
 ---
-title: "步驟 3：加入倒數計時器 | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "步驟 3：新增倒數計時器 | Microsoft Docs"
+ms.custom: 
+ms.date: 11/04/2016
+ms.reviewer: 
+ms.suite: 
+ms.technology:
+- vs-ide-general
+ms.tgt_pltfrm: 
+ms.topic: article
 ms.assetid: 62670a2b-efdc-45c6-9646-9b17eeb33dcb
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: "ghogen"
-caps.handback.revision: 23
+author: kempb
+ms.author: kempb
+manager: ghogen
+translation.priority.ht:
+- de-de
+- es-es
+- fr-fr
+- it-it
+- ja-jp
+- ko-kr
+- ru-ru
+- zh-cn
+- zh-tw
+translation.priority.mt:
+- cs-cz
+- pl-pl
+- pt-br
+- tr-tr
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 47057e9611b824c17077b9127f8d2f8b192d6eb8
+ms.openlocfilehash: 451635681519303b5e85b70788534e22af21707c
+ms.contentlocale: zh-tw
+ms.lasthandoff: 05/13/2017
+
 ---
 # <a name="step-3-add-a-countdown-timer"></a>步驟 3：加入倒數計時器
 在本教學課程的第三個部分中，您將加入倒數計時器來追蹤受測者可完成作答的剩餘秒數。  
@@ -25,8 +45,7 @@ caps.handback.revision: 23
   
 1.  加入名為 **timeLeft** 的整數變數，就像在前一個程序中所進行。 您的程式碼應該看起來與下列範例相同。  
   
-     [!code-vb[VbExpressTutorial3Step3#5](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_1.vb)]
-     [!code-cs[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]  
+     [!code-vb[VbExpressTutorial3Step3#5](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_1.vb)]  [!code-cs[VbExpressTutorial3Step3#5](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_1.cs)]  
   
      現在您需要實際計算秒數的方法，例如計時器，它會在經過您指定的時間後引發事件。  
   
@@ -44,8 +63,7 @@ caps.handback.revision: 23
   
 5.  將下列陳述式加入至新的事件處理常式方法。  
   
-     [!code-vb[VbExpressTutorial3Step3#6](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_2.vb)]
-     [!code-cs[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]  
+     [!code-vb[VbExpressTutorial3Step3#6](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_2.vb)]  [!code-cs[VbExpressTutorial3Step3#6](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_2.cs)]  
   
      根據您新增的項目，計時器會藉由判斷 **timeLeft** 整數變數是否大於 0，每秒檢查一次時間是否已結束。 如果是，表示仍有剩餘時間。 計時器會先將 timeLeft 減 1，然後更新 `timeLabel` 控制項的 [Text] 屬性，讓受測者看到還剩多少秒。  
   
@@ -54,7 +72,7 @@ caps.handback.revision: 23
      您已加入 `if else` 陳述式，讓程式知道如何做判斷。 `if else` 陳述式看起來如下。  
   
     > [!NOTE]
-    >  下列範例僅供參考，請不要將它加入您的專案中。  
+    >  下列範例僅供參考，請不要將它新增至您的專案。  
   
     ```vb  
     If (something that your program will check) Then  
@@ -81,8 +99,7 @@ caps.handback.revision: 23
   
      仔細查看您在 `else` 區塊中加入，用來顯示加法問題答案的陳述式。  
   
-     [!code-vb[VbExpressTutorial3Step3#24](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_3.vb)]
-     [!code-cs[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]  
+     [!code-vb[VbExpressTutorial3Step3#24](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_3.vb)]  [!code-cs[VbExpressTutorial3Step3#24](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_3.cs)]  
   
      `addend1 + addend2` 陳述式會將兩個變數中的值相加。 第一個部分 (`sum.Value`) 會使用 sum (總和) `NumericUpDown` 控制項的 [Value] 屬性來顯示正確答案。 稍後您會使用相同屬性檢查測驗的答案。  
   
@@ -90,8 +107,7 @@ caps.handback.revision: 23
   
 6.  將三行程式碼加入至 `StartTheQuiz()` 方法的結尾，使程式碼看起來如下。  
   
-     [!code-vb[VbExpressTutorial3Step3#7](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_4.vb)]
-     [!code-cs[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]  
+     [!code-vb[VbExpressTutorial3Step3#7](../ide/codesnippet/VisualBasic/step-3-add-a-countdown-timer_4.vb)]  [!code-cs[VbExpressTutorial3Step3#7](../ide/codesnippet/CSharp/step-3-add-a-countdown-timer_4.cs)]  
   
      現在，當測驗開始時，[timeLeft] 變數會設定為 30，而且 `timeLabel` 控制項的 [Text] 屬性會設定為 30 秒。 然後，`Timer` 控制項的 `Start()` 方法就會開始倒數計時 (測驗還不會檢查答案，這是下一個部分)。  
   
@@ -107,8 +123,3 @@ caps.handback.revision: 23
 -   若要移到下一個教學課程步驟，請參閱[步驟 4：新增 CheckTheAnswer() 方法](../ide/step-4-add-the-checktheanswer-parens-method.md)。  
   
 -   若要回到上一個教學課程步驟，請參閱[步驟 2：建立隨機加法問題](../ide/step-2-create-a-random-addition-problem.md)。
-
-
-<!--HONumber=Feb17_HO4-->
-
-

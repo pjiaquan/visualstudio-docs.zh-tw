@@ -27,16 +27,17 @@ translation.priority.ht:
 - tr-tr
 - zh-cn
 - zh-tw
-translationtype: Human Translation
-ms.sourcegitcommit: 5db97d19b1b823388a465bba15d057b30ff0b3ce
-ms.openlocfilehash: 3f4740d442a7ef24803d6360cdcc480d9d6fca84
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5b67a4c254e2410302997dee5ec36a2243c6ed11
+ms.openlocfilehash: 29db26d6c885b297ff3b8c39776c9fe59ca3ea05
+ms.contentlocale: zh-tw
+ms.lasthandoff: 06/10/2017
 
 ---
 # <a name="adding-references-using-nuget-versus-an-extension-sdk"></a>使用 NuGet 和擴充功能 SDK 兩種方式新增參考
 您可以使用 Visual Studio 的 NuGet 延伸模組或軟體開發套件 (SDK)，提供套件以在 Visual Studio 專案內使用。 藉由描述這兩個機制之間的差異與相似之處，本主題可以協助您選擇適合您工作的機制。  
   
--   NuGet 是開放原始碼套件管理系統，可簡化程式庫併入專案方案的程序。 如需詳細資訊，請參閱 [NuGet 概觀](http://go.microsoft.com/fwlink/?LinkId=254877)。  
+-   NuGet 是開放原始碼套件管理系統，可簡化程式庫併入專案方案的程序。 如需詳細資訊，請參閱 [NuGet 文件](http://docs.microsoft.com/nuget)。  
   
 -   SDK 是檔案集合，Visual Studio 會將這個集合視為單一參考項目。 [參考管理員] 對話方塊會列出所有與在您顯示該對話方塊時已開啟之專案相關的 SDK。 當您將 SDK 新增到專案時，可以透過 IntelliSense、[工具箱]、設計工具、[物件瀏覽器]、MSBuild、部署、偵錯和封裝，存取該 SDK 的所有內容。 如需 SDK 的詳細資訊，請參閱[建立軟體開發套件](../extensibility/creating-a-software-development-kit.md)。  
   
@@ -74,7 +75,7 @@ ms.lasthandoff: 02/22/2017
 |機制支援穩定和發行前版本的套件版本。|Y|SDK 支援將參考新增至多個版本。|Y||  
 |機制支援自動更新已安裝的套件。|Y|如果作為 VSIX 或部分 Visual Studio 自動更新寄送，SDK 會提供自動通知。|Y||  
 |機制中包含獨立的 .exe 檔案，以建立及使用套件。|Y|SDK 包含 MSBuild.exe。|Y||  
-|套件可以簽入至版本控制。|Y|您不能在文件節點之外簽入任何內容，這表示延伸模組 SDK 可能不會簽入。延伸模組 SDK 的大小可能很大。|Y||  
+|套件可以簽入至版本控制。|Y|您不能在文件節點之外簽入任何內容，這表示可能不會簽入延伸模組 SDK。延伸模組 SDK 的大小可能很大。|Y||  
 |您可以使用 PowerShell 介面來建立和使用套件。|Y (使用)、N (建立)|沒有工具可建立 SDK。 使用是在命令列上執行 MSBuild。|Y||  
 |您可以使用符號套件進行偵錯支援。|Y|如果您將 .pdb 檔案放在 SDK 中，檔案會自動被挑選。|Y||  
 |機制支援套件管理員自動更新。|N/A|SDK 因 MSBuild 而修改。|Y||  
