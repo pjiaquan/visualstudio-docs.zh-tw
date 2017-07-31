@@ -146,7 +146,7 @@ ms.lasthandoff: 05/13/2017
  這個 Unity 執行個體執行所在的電腦或裝置名稱。  
   
  **Type**  
-如果這個 Unity 執行個體當做 Unity Editor 的一部分來執行，則為 [Editor]；如果這個 Unity 執行個體是獨立播放器，則為 [Player]。 ****  
+如果這個 Unity 執行個體當做 Unity Editor 的一部分來執行，則為  **Editor**；如果這個 Unity 執行個體是獨立播放器，則為 **Player**。  
   
  **連接埠**  
  這個 Unity 執行個體用於通訊之 UDP 通訊端的通訊埠編號。  
