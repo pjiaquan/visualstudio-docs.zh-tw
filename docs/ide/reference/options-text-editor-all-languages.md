@@ -79,7 +79,7 @@ ms.lasthandoff: 05/24/2017
  顯示自動換行的視覺化圖像  
  選取時，會在長行換行至下一行之處顯示返回箭號指標。  
   
- ![LineBreakSymbol 螢幕擷取畫面](../../ide/reference/media/linebreak.gif "linebreak")  
+ ![LineBreakSymbol 螢幕擷取畫面](~/ide/reference/media/linebreak.gif "linebreak")  
   
  如果您不想顯示這些指示器，請清除這個選項。  
   

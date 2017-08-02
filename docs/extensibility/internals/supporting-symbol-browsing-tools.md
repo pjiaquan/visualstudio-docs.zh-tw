@@ -38,7 +38,7 @@ caps.handback.revision: 26
   
  下圖包含樣本的文件庫和 Visual Studio 的物件管理員之間的要求\/資料交換處理過程的關鍵項目。  在圖表中的介面是 managed 程式碼的應用程式的一部分。  
   
- ![程式庫和物件管理員之間的資料流程](../../extensibility/internals/media/callbrowserdiagram.gif "CallBrowserDiagram")  
+ ![程式庫和物件管理員之間的資料流程](~/extensibility/internals/media/callbrowserdiagram.gif "CallBrowserDiagram")  
   
  若要提供給專案經理，Visual Studio 的物件的符號的清單，您必須先登錄文件庫與 Visual Studio 的物件管理員藉由呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary%2A>方法。  註冊文件庫後，Visual Studio 的物件管理員會要求其相關功能的文件庫的資訊。  比方說，它要求程式庫旗標，並且支援類別，藉由呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleLibrary2.GetLibFlags2%2A>和<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleLibrary2.GetSupportedCategoryFields2%2A>方法。  有些時候，當其中一項工具從這個媒體櫃中，要求資料物件管理員要求最上層元件清單，藉由呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleLibrary2.GetList2%2A>方法。  在回應時，媒體櫃製造符號的清單，並公開 \(expose\) 至 Visual Studio 的物件管理員，透過<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2>介面。  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]物件管理員會決定多少個項目是清單中，藉由呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetItemCount%2A>方法。  下列的所有要求關聯至指定的項目在清單中，並提供每一個要求中的項目索引編號。  Visual Studio 物件管理員會進行型別、 存取範圍及其他屬性的項目上收集的資訊，藉由呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetCategoryField2%2A>方法。  
   

@@ -109,7 +109,7 @@ static void Main(string[] args) { int a, b, c, d; a = 1; b = 2; c = 3; d = 4; in
 ## 偵錯位置工具列  
  您可以使用 \[偵錯位置\] 工具列選取想要的函式、執行緒或處理序。 設定中斷點，並開始偵錯。 \(如果看不到此工具列，您可以按一下工具列區域的空白部分來啟用它。 您應該會看到一份工具列。選取 \[偵錯位置\]\)。 當遇到中斷點時，執行會停止而且您可以看到 \[偵錯位置\] 工具列，它是下列圖形的底端列：  
   
- ![DebugLocationToolbar](../debugger/media/debuglocationtoolbar.png "DebugLocationToolbar")  
+ ![DebugLocationToolbar](~/debugger/media/debuglocationtoolbar.png "DebugLocationToolbar")  
   
  您也可以按兩下 \[呼叫堆疊\] 視窗、\[執行緒\] 視窗，或 \[處理序\] 視窗中的項目，變更內容至不同的函式呼叫、執行緒或處理程序。  
   

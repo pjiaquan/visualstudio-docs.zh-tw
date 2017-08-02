@@ -52,18 +52,18 @@ ms.lasthandoff: 05/13/2017
 
      例如，在執行「Windows 10 年度更新版」的電腦上，選取 [開始]，然後捲動至字母 [V]，您就會看到它列為 [Visual Studio 安裝程式]。  
 
-     ![Visual Studio 安裝程式](media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
+     ![Visual Studio 安裝程式](~/install/media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
 
      >[!NOTE]
      在某些電腦上，Visual Studio 安裝程式可能會列在 **"M"** 字母下方，成為 [Microsoft Visual Studio 安裝程式]。
 
 2.  按一下或點選來啟動安裝程式，然後選取 [修改]。  
 
-     ![啟動或修改 Visual Studio](media/vs2017-modify.PNG "修改 Visual Studio 2017")  
+     ![啟動或修改 Visual Studio](~/install/media/vs2017-modify.PNG "修改 Visual Studio 2017")  
 
 3.  從 [工作負載] 畫面，選取或取消選取您想要安裝或解除安裝的工作負載。  
 
-    ![Visual Studio 2017 安裝程式對話方塊](media/vs2017-modify-workloads.PNG "在 Visual Studio 2017 中選擇工作負載")
+    ![Visual Studio 2017 安裝程式對話方塊](~/install/media/vs2017-modify-workloads.PNG "在 Visual Studio 2017 中選擇工作負載")
 
 4. 再次按一下或點選 [修改]。  
 

@@ -49,7 +49,7 @@ Projects
   
  專案自動化依照下圖中的路徑。  
   
- ![Visual Studio 專案物件](../../extensibility/internals/media/projectobjects.png "ProjectObjects")  
+ ![Visual Studio 專案物件](~/extensibility/internals/media/projectobjects.gif "ProjectObjects")  
 專案自動化  
   
  如果您不會實作`Project`物件時，環境仍會傳回泛型`Project`物件，其中包含專案的名稱。  

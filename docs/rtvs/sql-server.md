@@ -56,15 +56,15 @@ RTVS 支援將 SQL 查詢新增到 R 專案，讓您在不同的內容中反覆�
 
 若要新增 SQL 查詢檔案，請以滑鼠右鍵按一下方案總管中的專案，選取 [新增] > [新增項目...]，然後選取 [SQL 查詢] 檔案類型︰
 
-![將 SQL 查詢項目新增至專案](media/sql-add-item.png)
+![將 SQL 查詢項目新增至專案](~/rtvs/media/sql-add-item.png)
 
 這會在 Visual Studio 的 Transact-SQL 編輯器中開啟檔案，提供完整的 IntelliSense for SQL 及執行查詢的能力。 但要使用這些功能，您需要使用編輯器工具列的 [連線] 按鈕，或僅嘗試執行查詢 (Ctrl+Shift+E，也適用於選取)，連線到資料庫。 任一方式都會顯示 [連線] 對話方塊︰
 
-![SQL 連線對話方塊](media/sql-connection-dialog.png)
+![SQL 連線對話方塊](~/rtvs/media/sql-connection-dialog.png)
 
 一旦建立連線，您就可以執行查詢並查看結果︰
 
-![SQL 視窗查詢結果](media/sql-query-results.png)
+![SQL 視窗查詢結果](~/rtvs/media/sql-query-results.png)
 
 Transact-SQL 編輯器支援各種不同的其他功能，例如檢視查詢執行計劃、查詢偵錯工具。Transact-SQL 編輯器中有許多其他功能可用。 如需詳細資訊，請參閱[使用 Transact-SQL 編輯器，編輯和執行指令碼](https://msdn.microsoft.com/library/hh272706.aspx)。
 
@@ -86,11 +86,11 @@ Transact-SQL 編輯器支援各種不同的其他功能，例如檢視查詢執�
 
 1. 選取 [R 工具] > [資料] > [新增資料庫連線] 即會顯示 [連接屬性] 對話方塊，在此指定資料來源的名稱 (本例中為 SQL Server)、伺服器名稱、驗證模式以及資料庫名稱。 您可以選取 [測試連接] 先驗證您的輸入，再關閉對話。
  
-    ![SQL 連線對話方塊](media/sql-connection-string-dialog.png)
+    ![SQL 連線對話方塊](~/rtvs/media/sql-connection-string-dialog.png)
 
 1. 一旦您對有效的連線選取 [確定]，Visual Studio 就會在新的 `settings.R` 檔案中產生名為 `dbConnection` 的連接字串。 RTVS 自動將此檔案設為來源 (執行)，因此您可以立即使用 R 指令碼中的連接︰
 
-![SQL Settings.R 檔案](media/sql-settings-dot-r.png)
+![SQL Settings.R 檔案](~/rtvs/media/sql-settings-dot-r.png)
 
 ### <a name="write-and-test-a-sql-stored-procedure"></a>撰寫及測試 SQL 預存程序
 
@@ -98,7 +98,7 @@ Transact-SQL 編輯器支援各種不同的其他功能，例如檢視查詢執�
  
 RTVS 建立三個預存程序檔案：`.R` 檔案供 R 程式碼使用、`.Query.sql` 檔案供 SQL 程式碼使用，而 `.Template.sql` 檔案則結合兩者。 後面兩個會出現在方案總管中，作為 `.R` 檔案的子系︰
 
-![使用 R 之 SQL 預存程序的方案總管展開檢視](media/sql-solution-explorer-expanded.png)
+![使用 R 之 SQL 預存程序的方案總管展開檢視](~/rtvs/media/sql-solution-explorer-expanded.png)
 
 您會在 `StoredProcedure.R` (本例中) 撰寫 R 程式碼。 預設內容如下所示︰
 
@@ -126,7 +126,7 @@ OutputDataSet <- InputDataSet
 
 對 SQL 程式碼感到滿意後，只要將 `.sql` 檔案拖曳至 `.R` 檔案的開放式編輯器，您就可以輕鬆地將它與 R 程式碼整合在 `StoredProcedure.R` 中。 在下圖中，`StoredProcedure.Query.sql` 已拖曳至 `sqlQuery(channel, )` 的逗號後面的點：
 
-![將 SQL 檔案讀入 R 字串變數](media/sql-reference-sql-file-from-r.png)
+![將 SQL 檔案讀入 R 字串變數](~/rtvs/media/sql-reference-sql-file-from-r.png)
 
 如您所見，這個簡單的步驟會自動產生 R 程式碼以開啟 `.sql` 檔案，將其內容讀入字串，並將它傳遞給 RODBC 套件以傳送給 SQL Server。
 
@@ -167,7 +167,7 @@ WITH RESULT SETS ((medallion NVARCHAR(max), hack_license NVARCHAR(max)));
 1. 選取 [R 工具] > [資料] > [以選項發行...] 功能表命令。
 1. 在出現的對話方塊中，將 [發行到:] 變更為 [資料庫]、指定目標，然後選取 [發行]，RTVS 就會建置及發行預存程序︰
 
-    ![發行預存程序對話方塊](media/sql-publish-with-options.png)
+    ![發行預存程序對話方塊](~/rtvs/media/sql-publish-with-options.png)
 
 1. 若要在專案中發行所有預存程序，您也可以使用 [R 工具] > [資料] > [發行預存程序] 命令，以滑鼠右鍵按一下方案總管中的專案也可取得。
 

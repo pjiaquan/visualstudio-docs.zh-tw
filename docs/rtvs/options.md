@@ -45,7 +45,7 @@ ms.lasthandoff: 05/12/2017
  
 設定的存取方式是透過 [R 工具] > [選項] 功能表，或透過 [工具] > [選項] 並捲動到 [R 工具]：
  
-  ![R 工具的 [選項] 對話方塊](media/options-dialog.png)
+  ![R 工具的 [選項] 對話方塊](~/rtvs/media/options-dialog.png)
 
 下列各節描述此頁面上可用的不同選項。
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 05/12/2017
 
 另外還有一個特殊功能表項目 [R 工具] > [資料科學設定]，可使用針對資料科學家需求最佳化的版面配置來設定 Visual Studio IDE。 具體而言，此選項會開啟[互動式](interactive-repl.md)、[變數總管](variable-explorer.md)和[工作區](workspaces.md)視窗：
 
-![Visual Studio 中的資料科學家視窗版面配置](media/installation-data-scientist-layout-result.png)
+![Visual Studio 中的資料科學家視窗版面配置](~/rtvs/media/installation-data-scientist-layout-result.png)
 
 > [!Important]      
 > 若要在稍後還原其他 Visual Studio 設定，請先使用 [工具] > [匯入和匯出設定] 命令，並選取 [匯出選取的環境設定]，以及指定檔案名稱。 若要還原這些設定，請使用相同的命令，並選取 [匯入選取的環境設定]。 如果您變更資料科學家版面配置，並稍後想要還原，而不是直接使用 [資料科學設定] 命令，則也可以使用相同的命令。

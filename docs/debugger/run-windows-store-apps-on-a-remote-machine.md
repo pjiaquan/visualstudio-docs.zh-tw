@@ -23,7 +23,7 @@ caps.handback.revision: 43
 # 在遠端電腦上執行 Windows 市集應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![僅適用於 Windows](../debugger/media/windows_only_content.png "windows\_only\_content")  
+![僅適用於 Windows](~/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  Visual Studio 遠端工具應用程式可讓您從執行 Visual Studio 的第二部電腦，執行、偵錯、程式碼剖析及測試在一個裝置上執行的 Windows 市集應用程式。 當 Visual Studio 電腦不支援 Windows 市集應用程式專屬功能 \(如觸控、地理位置和實體方向\) 時，在遠端裝置上執行就特別有效。 本主題說明設定和啟動遠端工作階段的程序。  
   
@@ -147,7 +147,7 @@ caps.handback.revision: 43
 ##  <a name="BKMK_ConnectVS"></a> 設定 Visual Studio 專案進行遠端偵錯  
  您可在專案的屬性中指定要連接的遠端裝置。 此程序會因程式語言而有所差異。 您可以輸入遠端裝置的網路名稱，也可以從 \[選取遠端偵錯工具連接\] 對話方塊進行選取。  
   
- ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
+ ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](~/debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
   
  此對話方塊會列出 Visual Studio 電腦的區域子網路上的裝置，以及執行遠端偵錯工具的裝置。  
   
@@ -166,7 +166,7 @@ caps.handback.revision: 43
 4.  在 \[**遠端電腦**\] 方塊中輸入遠端裝置的網路名稱，或選擇 \[**尋找**\]，從 \[**選取遠端偵錯工具連接**\] 對話方塊選擇裝置。  
   
 ###  <a name="BKMK_Choosing_the_remote_device_for_JavaScript_and_C___projects"></a> 選擇 JavaScript 和 C\+\+ 專案的遠端裝置  
- ![用於遠端偵錯的 C&#43;&#43; 專案屬性](../debugger/media/vsrun_cpp_projprop_remote.png "VSRUN\_CPP\_ProjProp\_Remote")  
+ ![用於遠端偵錯的 C&#43;&#43; 專案屬性](~/debugger/media/vsrun_cpp_projprop_remote.png "VSRUN\_CPP\_ProjProp\_Remote")  
   
 1.  在 \[方案總管\] 中選取專案名稱，然後從捷徑功能表選擇 \[**屬性**\]。  
   

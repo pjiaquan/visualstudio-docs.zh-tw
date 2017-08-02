@@ -134,7 +134,7 @@ namespace Simple
   
  所產生的 Windows 應用程式資料夾結構看起來像這樣︰  
   
- ![SimpleSolution](../../extensibility/internals/media/simplesolution.png "SimpleSolution")  
+ ![SimpleSolution](~/extensibility/internals/media/simplesolution.png "SimpleSolution")  
   
  第一個且唯一\<專案 > 中的範本讀取的標記︰  
   

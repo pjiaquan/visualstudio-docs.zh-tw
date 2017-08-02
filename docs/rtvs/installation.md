@@ -63,7 +63,7 @@ Community、Professional 和 Enterprise 版本的 [Visual Studio 2015 Update 3 (
 1. 執行 Visual Studio 安裝程式。
 2. 選取 [資料科學與分析應用程式] 工作負載：
 
-    ![VS2017 中的資料科學與分析應用程式工作負載](media/installation-data-science-workload.png)
+    ![VS2017 中的資料科學與分析應用程式工作負載](~/rtvs/media/installation-data-science-workload.png)
 
 3. 在相同的工作負載名稱下方，於右側設定任何其他選項。 請注意，這個工作負載預設會包括 F# 和 Python 支援。 針對 R，您最少必須選取 [R 語言支援]、[R 開發工具的執行階段支援] 和 [Microsoft R Client]。
 

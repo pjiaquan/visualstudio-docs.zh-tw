@@ -51,7 +51,7 @@ caps.handback.revision: 78
 > [!NOTE]  
 >  有些工作無法使用功能區設計工具完成。  如需這些工作以及如何完成工作的詳細資訊，請參閱[功能區概觀](../vsto/ribbon-overview.md)。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[如何使用功能區設計工具自訂 Outlook 中的功能區？](http://go.microsoft.com/fwlink/?LinkID=130312)\(英文\)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何使用功能區設計工具自訂 Outlook 中的功能區？](http://go.microsoft.com/fwlink/?LinkID=130312)\(英文\)。  
   
 ## 將功能區 \(視覺化設計工具\) 項目加入至專案  
  若要使用功能區設計工具，請將新的 \[**功能區 \(視覺化設計工具\)**\] 項目加入至專案。  如需詳細資訊，請參閱[如何：開始自訂功能區](../vsto/how-to-get-started-customizing-the-ribbon.md)。  
@@ -109,7 +109,7 @@ caps.handback.revision: 78
   
 -   開啟 \[**索引標籤集合編輯器**\]，然後按一下 \[**加入**\]。  
   
-     若要開啟 \[**索引標籤集合編輯器**\]，請選取 \[**屬性**\] 視窗中的 \[**索引標籤**\] 屬性，然後按一下省略符號按鈕 ![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")。  
+     若要開啟 \[**索引標籤集合編輯器**\]，請選取 \[**屬性**\] 視窗中的 \[**索引標籤**\] 屬性，然後按一下省略符號按鈕 ![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")。  
   
  加入索引標籤之後，即可加入群組以包含控制項。  
   

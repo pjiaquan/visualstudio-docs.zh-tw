@@ -21,7 +21,7 @@ caps.handback.revision: 16
 
 簡化的內嵌時，會啟用在編輯器中 \(也就是與之前的子系\) 成為其文件檢視物件的父系[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]，以及<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane>介面的實作來處理其視窗的命令。  簡化的內嵌編輯器不能裝載使用中的控制項。  下圖顯示用來建立編輯器與簡化的嵌入的物件。  
   
- ![簡化的嵌入編輯器圖形](../extensibility/media/vssimplifiedembeddingeditor.png "vsSimplifiedEmbeddingEditor")  
+ ![簡化的嵌入編輯器圖形](~/extensibility/media/vssimplifiedembeddingeditor.gif "vsSimplifiedEmbeddingEditor")  
 使用簡化的內嵌編輯器  
   
 > [!NOTE]

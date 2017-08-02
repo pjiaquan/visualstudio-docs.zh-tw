@@ -57,15 +57,15 @@ Visual Studio R 工具 (RTVS) 可針對 R 量身打造 Visual Studio 編輯體�
 
 除了將程式碼的不同部分，例如字串、註解和關鍵字等著色，RTVS 也會醒目提示並啟用註解中的連結︰
 
-![R 程式碼的語法著色](media/editing-syntax-colors.png)
+![R 程式碼的語法著色](~/rtvs/media/editing-syntax-colors.png)
 
 若要自訂字型和某些醒目提示色彩，請選取 [工具] > [選項] 命令、巡覽至 [環境] > [字型和色彩]，然後變更 [顯示項目︰] 方塊中的 R 相關項目設定︰
 
-![R 程式碼的字型和色彩選項](media/editing-syntax-colors-options.png)
+![R 程式碼的字型和色彩選項](~/rtvs/media/editing-syntax-colors-options.png)
 
 Visual Studio 也會在編輯器中的語法錯誤加上底線︰
 
-![R 程式碼中的語法錯誤醒目提示](media/editing-syntax-error.png)
+![R 程式碼中的語法錯誤醒目提示](~/rtvs/media/editing-syntax-error.png)
 
 若要變更此行為，請參閱[編輯器選項](#editor-options)下的 [進階] > [語法檢查] 設定。
 
@@ -73,11 +73,11 @@ Visual Studio 也會在編輯器中的語法錯誤加上底線︰
 
 在您輸入程式碼時，RTVS 提供自動完成，如 [IntelliSense](code-intellisense.md) 頁面上所述。 它也會自動設定格式，例如大括弧和括弧的完成︰ 
 
-![內嵌格式化的動畫](media/editing-inline-formatting.gif)
+![內嵌格式化的動畫](~/rtvs/media/editing-inline-formatting.gif)
 
 輸入有許多參數的函式呼叫時，您經常會想要對齊參數，讓程式碼更容易閱讀。 RTVS 會記住您為參數設定的縮排，並針對接下來的數行自動套用該縮排︰
 
-![自動縮排的動畫](media/editing-auto-indentation.gif)
+![自動縮排的動畫](~/rtvs/media/editing-auto-indentation.gif)
 
 若要變更此行為，請參閱底下的 [定位點] 群組[編輯器選項](#editor-options)。
 
@@ -85,7 +85,7 @@ Visual Studio 也會在編輯器中的語法錯誤加上底線︰
 
 若要建立自己的區域，請將想要的程式碼圍上以 `---` 為結尾的註解。 程式碼左邊的小型 +/- 控制項，可讓您展開和摺疊區域︰
 
-![使用註解建立可摺疊區域](media/editing-collapsible-regions.gif)
+![使用註解建立可摺疊區域](~/rtvs/media/editing-collapsible-regions.gif)
  
 根據預設，Visual Studio 會在您按 Tab 鍵時插入空格。 您可以再次變更此行為，如[選項、文字編輯器、定位點](../ide/reference/options-text-editor-all-languages.md)所述。
 
@@ -99,7 +99,7 @@ Visual Studio 也會在編輯器中的語法錯誤加上底線︰
 
 從快顯功能表或 Alt + F12 叫用的 [查看定義]，會插入唯讀、可捲動區域，其中在函式呼叫下包含函式的原始程式碼︰
 
-![查看定義的動畫](media/editing-peek-definition.gif)
+![查看定義的動畫](~/rtvs/media/editing-peek-definition.gif)
 
 ## <a name="sending-code-to-the-interactive-window"></a>將程式碼傳送至互動式視窗
 
@@ -131,7 +131,7 @@ f <- function(a) { return(a + 1) }
 
 RTVS 提供使用函式參數名稱產生 [Roxygen](http://roxygen.org/) 註解的捷徑。 只要在函式定義上方的空白行上輸入 `###`︰
 
-![插入 Roxygen 註解的動畫](media/editing-roxygen-comments.gif)
+![插入 Roxygen 註解的動畫](~/rtvs/media/editing-roxygen-comments.gif)
 
 ## <a name="editor-options"></a>編輯器選項
 

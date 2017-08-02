@@ -37,7 +37,7 @@ caps.handback.revision: 29
 ## 新增專案對話方塊  
  所有您選取新的專案的專案類型時開始。 讓我們開始依序按一下 **新的專案** 上 **檔案** 功能表。**新的專案** 對話方塊隨即出現，看起來如下所示︰  
   
- ![新增專案對話方塊](../../extensibility/internals/media/newproject.png "NewProject")  
+ ![新增專案對話方塊](~/extensibility/internals/media/newproject.gif "NewProject")  
   
  讓我們仔細看。**專案類型** 樹狀目錄會列出您可以建立各種專案類型。 當您選取專案類型，如 **Visual C\# Windows**, ，您會看到您的應用程式範本的清單。**Visual Studio 安裝的範本** 由 Visual Studio 安裝，而且可供您電腦的任何使用者。 可以加入新的範本所建立，或收集 **我的範本** 和只提供給您。  
   
@@ -107,11 +107,11 @@ devenv /installvstemplates
   
  Visual Studio C\# 開發者設定，如 **專案類型** 樹狀結構看起來像這樣︰  
   
- ![專案類型](../../extensibility/internals/media/projecttypes.png "ProjectTypes")  
+ ![專案類型](~/extensibility/internals/media/projecttypes.png "ProjectTypes")  
   
  相對應的 ProjectTemplates 資料夾看起來像這樣︰  
   
- ![專案範本](../../extensibility/internals/media/projecttemplates.png "ProjectTemplates")  
+ ![專案範本](~/extensibility/internals/media/projecttemplates.png "ProjectTemplates")  
   
  當 **新的專案** 對話方塊隨即開啟， [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 周遊 ProjectTemplates 資料夾，並重新建立它的結構中 **專案類型** 樹狀目錄中的有一些變更︰  
   
@@ -209,7 +209,7 @@ devenv /installvstemplates
   
 1.  開啟 **新的專案** \] 對話方塊中，展開 \[ **Visual C\#** 專案節點。  
   
- ![MyProjectNode](../../extensibility/internals/media/myprojectnode.png "MyProjectNode")  
+ ![MyProjectNode](~/extensibility/internals/media/myprojectnode.png "MyProjectNode")  
   
  **MyProjectNode** 會顯示為子節點的 Visual C\# Windows 節點的下方。  
   

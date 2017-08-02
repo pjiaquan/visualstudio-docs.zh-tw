@@ -41,7 +41,7 @@ caps.handback.revision: 15
   
 2.  將兩個控制項加入至 Web 組件：文字方塊和按鈕。  分別將其名稱保留為預設值：TextBox1 和 Button1。  
   
-3.  將兩個項目加入至 Web 組件的 \[**安全控制項項目**\] 屬性。  若要進行此項操作，請選擇 \[**屬性**\] 視窗中 \[**安全控制項項目**\] 屬性旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
+3.  將兩個項目加入至 Web 組件的 \[**安全控制項項目**\] 屬性。  若要進行此項操作，請選擇 \[**屬性**\] 視窗中 \[**安全控制項項目**\] 屬性旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
   
      \[**安全控制項項目**\] 對話方塊隨即出現。  
   
@@ -77,7 +77,7 @@ caps.handback.revision: 15
   
 7.  在 \[**其他組件**\] 下，選擇 \[**加入**\] 按鈕，並從清單中選取 \[**加入現有組件**\]。  
   
-8.  在 \[**加入現有組件**\] 對話方塊中，選擇 \[**來源路徑**\] 旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
+8.  在 \[**加入現有組件**\] 對話方塊中，選擇 \[**來源路徑**\] 旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
   
 9. 選擇在步驟 1 中建立的 SharePoint 方案組件，然後選擇 \[**開啟**\] 按鈕。  
   

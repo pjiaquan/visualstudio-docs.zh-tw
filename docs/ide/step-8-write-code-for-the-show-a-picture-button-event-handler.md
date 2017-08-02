@@ -43,7 +43,7 @@ ms.lasthandoff: 05/13/2017
   
  IDE 提供一個功能強大的工具，稱為 IntelliSense，可幫助您撰寫程式碼。 當您輸入程式碼時，IDE 會根據您輸入的局部文字，開啟方塊來提供建議的完整程式碼。 它會嘗試判斷您接下來想要怎麼做，然後自動跳至您從清單中選擇的最後一個項目。 您可以利用向上或向下箭號在清單中移動，也可以繼續輸入字母來縮小選項範圍。 當您看到想要的選項時，選擇 TAB 鍵加以選取。 或者，如果不需要的話，您也可以忽略建議。  
   
- ![影片連結](../data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 4](http://go.microsoft.com/fwlink/?LinkId=205215) 或[教學課程 1：在 C# 中建立圖片檢視器 - 影片 4](http://go.microsoft.com/fwlink/?LinkId=205203)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![影片連結](~/data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 4](http://go.microsoft.com/fwlink/?LinkId=205215) 或[教學課程 1：在 C# 中建立圖片檢視器 - 影片 4](http://go.microsoft.com/fwlink/?LinkId=205203)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### <a name="to-write-code-for-the-show-a-picture-button-event-handler"></a>若要為顯示圖片按鈕事件處理常式撰寫程式碼  
   
@@ -56,7 +56,7 @@ ms.lasthandoff: 05/13/2017
   
 3.  [IntelliSense] 視窗應該會反白顯示 **if** 這個字 (如果沒有，請輸入小寫 `f`，這樣就會反白顯示)。請注意 [IntelliSense] 視窗旁邊很小的「工具提示」方塊，如何顯示描述 [if 陳述式的程式碼片段]。 (在 Visual Basic 中，該工具提示也會指出這是程式碼片段，只是說法稍微不同)。您要使用該程式碼片段，因此選擇 TAB 鍵將 **if** 插入至程式碼。 然後再次選擇 TAB 鍵，使用 **if** 程式碼片段 (如果您選擇其他位置造成 [IntelliSense] 視窗消失，請按退格鍵刪除 **i** 並重新鍵入，[IntelliSense] 視窗就會再次開啟)。  
   
-     ![Visual C&#35; 程式碼](../ide/media/express_highlighttrue.png "Express_HighlightTrue")  
+     ![Visual C&#35; 程式碼](~/ide/media/express_highlighttrue.png "Express_HighlightTrue")  
 Visual C# 程式碼  
   
 4.  接下來，您使用 IntelliSense 輸入更多程式碼，以開啟 [開啟檔案] 對話方塊。 如果使用者選擇 [確定] 按鈕，則 PictureBox 會載入使用者選取的檔案。 下列步驟顯示如何輸入程式碼，雖然步驟很多，但也只是輸入幾個按鍵而已。  
@@ -72,13 +72,13 @@ Visual C# 程式碼
         > [!NOTE]
         >  [IntelliSense] 視窗可以同時顯示屬性和方法。 若要判斷顯示的內容，請查看 [IntelliSense] 視窗中每個項目左方的圖示。 您在每個方法旁邊會看到方塊圖片，而在每個屬性旁邊會看到扳手 (或扳鉗) 的圖片。 每一個事件旁邊也會出現閃電圖示。 這些圖片如下所示。  
   
-         ![方法圖示](../ide/media/express_iconmethod.png "Express_IconMethod")  
+         ![方法圖示](~/ide/media/express_iconmethod.png "Express_IconMethod")  
 方法圖示  
   
-         ![屬性圖示](../ide/media/express_iconproperty.png "Express_IconProperty")  
+         ![屬性圖示](~/ide/media/express_iconproperty.png "Express_IconProperty")  
 屬性圖示  
   
-         ![事件圖示](../ide/media/express_iconevent.png "Express_IconEvent")  
+         ![事件圖示](~/ide/media/express_iconevent.png "Express_IconEvent")  
 事件圖示  
   
     4.  開始鍵入 `ShowDialog` (大小寫對 IntelliSense 而言不重要)。 `ShowDialog()` 方法會顯示 [開啟檔案] 對話方塊。 視窗反白顯示 **ShowDialog** 後，請選擇 TAB 鍵。 您也可以反白顯示 "ShowDialog" 並選擇 F1 鍵以取得其說明。  

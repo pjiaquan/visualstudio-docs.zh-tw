@@ -101,7 +101,7 @@ Visual Studio Emulator for Android 是以虛擬機器形式在 Hyper-V (Windows 
   
  若要檢查 RAM 和 Windows 的需求，請選擇 [控制台] 中的 [系統及安全性]，然後選擇 [系統]。  
   
- ![確認系統需求](../cross-platform/media/android_emu_system_requirements.png "Android_Emu_System_Requirements")  
+ ![確認系統需求](~/cross-platform/media/android_emu_system_requirements.png "Android_Emu_System_Requirements")  
   
 ##  <a name="Network"></a> 網路需求  
  您的網路必須符合下列需求：  
@@ -147,7 +147,7 @@ Visual Studio Emulator for Android 是以虛擬機器形式在 Hyper-V (Windows 
 > [!IMPORTANT]
 >  加入此群組之後，請登出或重新開機，以讓變更生效。  
   
- ![加入 Hyper&#45;V 系統管理員安全性群組](../cross-platform/media/android_emu_hyperv_admin.png "Android_Emu_HyperV_Admin")  
+ ![加入 Hyper&#45;V 系統管理員安全性群組](~/cross-platform/media/android_emu_hyperv_admin.png "Android_Emu_HyperV_Admin")  
   
  若要手動將您自己加入群組，請開啟 [本機使用者和群組] 嵌入式管理單元。 如需詳細資訊，請參閱 [將使用者帳戶加入群組](http://windows.microsoft.com/en-us/windows/add-user-account-to-group#1TC=windows-7)。 (此 Windows 7 主題也適用於 Windows 8)。  
   

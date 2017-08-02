@@ -51,7 +51,7 @@ manager: "ghogen"
   
 4.  在 \[Just\-In\-Time 偵錯工具\] 視窗中，選取您要用來偵錯的 Visual Studio 版本。  
   
-     ![JustInTimeDebugger](../debugger/media/justintimedebugger.png "JustInTimeDebugger")  
+     ![JustInTimeDebugger](~/debugger/media/justintimedebugger.png "JustInTimeDebugger")  
   
 5.  Visual Studio 的新執行個體隨即啟動，並在 `Debugger.Launch()` 方法停止執行。  
   

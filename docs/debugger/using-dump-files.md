@@ -55,7 +55,7 @@ manager: "ghogen"
   
  傾印主要用於對開發人員無法存取之電腦上所發生的問題進行偵錯。  例如，當您無法在自己的電腦上重現客戶的當機或停止回應狀況時，就可以使用客戶電腦的傾印檔案。  測試人員也會建立傾印來儲存當機或停止回應資料，讓測試電腦可以用於進行更多測試。  Visual Studio 偵錯工具可以儲存 Managed 程式碼或機器碼的傾印檔案。  偵錯工具可以載入由 Visual Studio 建立或由其他以「*小型傾印*」\(Minidump\) 格式儲存檔案之程式建立的傾印檔案。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Dump_files__with_or_without_heaps"></a> 包含或不含堆積的傾印檔案  
  您可以建立包含或不含堆積資訊的傾印檔案。  
@@ -64,7 +64,7 @@ manager: "ghogen"
   
 -   **不含堆積的傾印檔案**遠比含有堆積資訊的傾印還要小。  不過，偵錯工具必須載入應用程式二進位檔以尋找符號資訊。  二進位檔必須與傾印建立當時所使用的二進位檔完全相符。  不含堆積資料的傾印檔案中只會儲存堆疊變數的值。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Requirements_and_limitations"></a> 需求和限制  
   
@@ -82,7 +82,7 @@ manager: "ghogen"
   
 -   若要使用 Visual Studio 中的 [SOS.dll \(SOS Debugging Extension\)](../Topic/SOS.dll%20\(SOS%20Debugging%20Extension\).md) 進行偵錯，您必須安裝 Debugging Tools for Windows，這項工具是 Windows Driver Kit \(WDK\) 的一部分。  請參閱 [Windows 8.1 Preview：下載套件、位元和工具](http://msdn.microsoft.com/library/windows/hardware/bg127147.aspx)。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Create_a_dump_file"></a> 建立傾印檔案  
  若要使用 Visual Studio 建立傾印檔案：  
@@ -93,7 +93,7 @@ manager: "ghogen"
   
  您也可以使用任何支援 Windows 小型傾印格式的程式建立傾印檔案。  例如，[Windows Sysinternals](http://technet.microsoft.com/sysinternals/default) 提供的 **Procdump** 命令列公用程式可以根據觸發程序或視需要建立處理序損毀傾印檔案。  如需使用其他工具建立傾印檔案的詳細資訊，請參閱本主題中的[需求和限制](../debugger/using-dump-files.md#BKMK_Requirements_and_limitations)。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Open_a_dump_file"></a> 開啟傾印檔案  
   
@@ -136,7 +136,7 @@ manager: "ghogen"
   
  如果 Visual Studio 找不到對傾印中的模組進行偵錯所需的檔案，則會顯示適當頁面 \(\[**找不到二進位檔**\]、\[**找不到符號**\] 或 \[**找不到來源**\]\)。  這些頁面提供關於問題原因的詳細資訊，並提供可協助您識別檔案正確位置的動作連結。  請參閱[指定符號 \(.pdb\) 和原始程式檔](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ## 請參閱  
  [Just\-In\-Time 偵錯](../debugger/just-in-time-debugging-in-visual-studio.md)   

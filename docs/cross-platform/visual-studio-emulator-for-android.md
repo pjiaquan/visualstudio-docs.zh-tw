@@ -100,7 +100,7 @@ Visual Studio Emulator for Android 是模擬 Android 裝置的桌面應用程式
   
  在 Visual Studio 2015 中，您可以使用模擬器管理員，來安裝、解除安裝及啟動裝置設定檔。 若要存取 [模擬器管理員]，請依序選擇 [工具] 和 [Visual Studio 的 Android 模擬器]。  
   
- ![Visual Studio 的 Android 模擬器管理員](../cross-platform/media/android_emu_manager.png "Android_Emu_Manager")  
+ ![Visual Studio 的 Android 模擬器管理員](~/cross-platform/media/android_emu_manager.png "Android_Emu_Manager")  
   
  預設有四個預先安裝的裝置設定檔 (5 英吋的 KitKat 和 Lollipop 手機和和 7 英吋的平板電腦組態)，如白色文字和圖示所示。 直到您選擇 [安裝設定檔] 按鈕並完成安裝為止，清單中的其他設定檔都會呈現灰色。 您可以依應用程式開發介面層級篩選清單，然後按一下設定檔右下方的詳細資料箭號，以檢視其完整組態詳細資料。  
   

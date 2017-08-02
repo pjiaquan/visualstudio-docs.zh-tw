@@ -38,7 +38,7 @@ caps.handback.revision: 26
   
  下圖顯示圖表化的配 DSL 小型的模型：  
   
- ![都鐸王朝家譜模型](../modeling/media/tudor_familytreemodel.png "Tudor\_FamilyTreeModel")  
+ ![都鐸王朝家譜模型](~/modeling/media/tudor_familytreemodel.png "Tudor\_FamilyTreeModel")  
   
 ## 您可以用 Dsl 做什麼  
  一般的應用程式的 DSL 是產生的程式碼或其他成品。  當您定義您的 DSL 時，您可以定義*文字範本*所讀取的 DSL 模型，並產生文字檔。  

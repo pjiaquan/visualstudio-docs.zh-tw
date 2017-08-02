@@ -42,9 +42,9 @@ Windows 市集應用程式適用的 Visual Studio 模擬器則是桌面應用程
 ##  <a name="BKMK_Choose_an_interaction_mode"></a> 選擇互動模式  
  您可以選擇下列互動模式  
   
--   ![&#91;滑鼠模式&#93; 按鈕](../debugger/media/simulator_mousemodebtn.png "SIMULATOR\_MouseModeBtn") 滑鼠模式：將互動模式設定為滑鼠手勢。 滑鼠動作包括按一下、按兩下和拖曳。  
+-   ![&#91;滑鼠模式&#93; 按鈕](~/debugger/media/simulator_mousemodebtn.png "SIMULATOR\_MouseModeBtn") 滑鼠模式：將互動模式設定為滑鼠手勢。 滑鼠動作包括按一下、按兩下和拖曳。  
   
--   ![&#91;啟動觸控模擬&#93; 按鈕](../debugger/media/simulator_starttouchemulationbtn.png "SIMULATOR\_StartTouchEmulationBtn") 啟動觸控模擬：將互動模式設定為單指觸控手勢。 單指事件包括點選，拖曳和撥動。  
+-   ![&#91;啟動觸控模擬&#93; 按鈕](~/debugger/media/simulator_starttouchemulationbtn.png "SIMULATOR\_StartTouchEmulationBtn") 啟動觸控模擬：將互動模式設定為單指觸控手勢。 單指事件包括點選，拖曳和撥動。  
   
      ![Simulator one finger target](../debugger/media/simulator_onefinger.png "SIMULATOR\_OneFinger") 單一目標圖示表示模擬器中的事件位置。 使用滑鼠可以定位指標。  
   
@@ -53,7 +53,7 @@ Windows 市集應用程式適用的 Visual Studio 模擬器則是桌面應用程
 ## 縮小和放大  
  將互動模式設定為兩指的縮小和放大手勢。  
   
--   ![Siimulator two finger target](../debugger/media/simulator_twofinger.png "SIMULATOR\_TwoFinger")  
+-   ![Siimulator two finger target](~/debugger/media/simulator_twofinger.png "SIMULATOR\_TwoFinger")  
   
      雙目標圖示表示裝置螢幕上的兩指位置。  
   
@@ -108,7 +108,7 @@ Windows 市集應用程式適用的 Visual Studio 模擬器則是桌面應用程
   
 -   若要設定螢幕擷取畫面的所在位置，請選擇 \[螢幕擷取畫面設定\] 按鈕，並從捷徑功能表中選擇位置。  
   
-     ![螢幕擷取畫面設定操作功能表](../debugger/media/simulator_screenshotsettingscntxmnu.png "SIMULATOR\_ScreenShotSettingsCntxMnu")  
+     ![螢幕擷取畫面設定操作功能表](~/debugger/media/simulator_screenshotsettingscntxmnu.png "SIMULATOR\_ScreenShotSettingsCntxMnu")  
   
 ##  <a name="BKMK_Simulate_network_connection_properties"></a> 模擬網路連接屬性  
  您可以藉由維護網路連接成本或數據傳輸方案狀態變更的感知，並讓您的應用程式使用此資訊來避免因為漫遊或超出指定的資料傳輸限制而產生額外費用，協助應用程式使用者管理計量付費網路連接的費用。[Windows.Networking.Connectivity](https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.connectivity.aspx) API 可讓您回應簽署的 [NetworkStatusChanged](https://msdn.microsoft.com/en-us/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) 和 [TriggerType](https://msdn.microsoft.com/en-us/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) 事件。 請參閱[快速入門：管理計量付費網路費用限制](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)。  

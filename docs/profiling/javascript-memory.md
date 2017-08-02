@@ -99,7 +99,7 @@ ms.lasthandoff: 05/13/2017
   
      根據預設，Visual Studio 隨即開始分析啟始專案。 如果要變更分析目標，請選擇 [ **變更目標**]。  
   
-     ![變更分析目標](../profiling/media/js_tools_target.png "JS_Tools_Target")  
+     ![變更分析目標](~/profiling/media/js_tools_target.png "JS_Tools_Target")  
   
      下列選項適用於分析目標：  
   
@@ -177,7 +177,7 @@ ms.lasthandoff: 05/13/2017
   
      下圖顯示第二及第三張範例快照。  
   
-     ![第二個和第三個快照](../profiling/media/js_mem_leak_workflow.png "JS_Mem_Leak_Workflow")  
+     ![第二個和第三個快照](~/profiling/media/js_mem_leak_workflow.png "JS_Mem_Leak_Workflow")  
   
      您可以在這個工作流程中擷取基準、第二及第三張快照，藉此更輕鬆地篩選掉與記憶體流失無關聯的變更。 例如，可能會有如更新頁首和頁尾等預期的變更，這將會對記憶體使用量產生一些變更，但可能與記憶體流失無關。  
   
@@ -213,7 +213,7 @@ ms.lasthandoff: 05/13/2017
   
  記憶體圖表可讓您即時檢視應用程式的處理序記憶體，包括私用位元組、原生記憶體和 JavaScript 堆積。 記憶體圖表可讓您以捲動方式檢視處理序記憶體。 看起來如下：  
   
- ![JavaScript 記憶體分析器記憶體圖表](../profiling/media/js_mem_memory_graph.png "JS_Mem_Memory_Graph")  
+ ![JavaScript 記憶體分析器記憶體圖表](~/profiling/media/js_mem_memory_graph.png "JS_Mem_Memory_Graph")  
   
  如果您已將使用者標記加入應用程式程式碼 (請參閱 [Associate source code with memory usage data](#JSConsoleCommands))，記憶體使用量圖表中會出現倒三角形，表示到達該程式碼區段的時間。  
   
@@ -252,7 +252,7 @@ ms.lasthandoff: 05/13/2017
   
  下圖顯示快照詳細資料中的 [類型] 檢視，其中的記憶體使用量資料會依保留大小排序。  
   
- ![顯示可能發生之問題的快照詳細資料檢視](../profiling/media/js_mem_snapshot_details.png "JS_Mem_Snapshot_Details")  
+ ![顯示可能發生之問題的快照詳細資料檢視](~/profiling/media/js_mem_snapshot_details.png "JS_Mem_Snapshot_Details")  
   
  在快照詳細資料檢視中，您可以從工具列選擇類型、根或主導者，根據這些選項來檢閱記憶體使用量資料：  
   
@@ -308,7 +308,7 @@ ms.lasthandoff: 05/13/2017
   
 -   **快照 #\<number> 中的所有物件**。 此篩選條件設定不會篩選掉堆積中的任何物件。  
   
- 若要顯示不符合目前 [範圍] 篩選條件的物件參考，請在窗格右上角設定清單 ![記憶體分析器中的設定下拉式清單](../profiling/media/js_mem_settings.png "JS_Mem_Settings") 中選取 [顯示不相符的參考]。 如果您啟用此設定，則不相符的參考會以灰色文字顯示。  
+ 若要顯示不符合目前 [範圍] 篩選條件的物件參考，請在窗格右上角設定清單 ![記憶體分析器中的設定下拉式清單](~/profiling/media/js_mem_settings.png "JS_Mem_Settings") 中選取 [顯示不相符的參考]。 如果您啟用此設定，則不相符的參考會以灰色文字顯示。  
   
 > [!TIP]
 >  建議您進行 [Isolate a memory leak](#Isolate) 中的步驟，然後使用剩餘的物件 [範圍]  篩選條件，協助您找出流失記憶體的物件。  
@@ -316,7 +316,7 @@ ms.lasthandoff: 05/13/2017
 ##  <a name="FoldObjects"></a> 依主導者檢視物件  
  在 [類型] 和 [主導者] 檢視中，可以選擇是否要檢視摺疊在其主導者中的物件 (此為 [主導者] 索引標籤中的預設檢視)。 選取此檢視時，只有主導者會顯示在物件的最上層檢視中 (在最上層檢視中，會隱藏非全域物件的子物件)。對於某些應用程式而言，如此可減少不必要的資料，以釐清是哪些物件造成記憶體流失。  
   
- 若要依主導者切換物件的檢視，請選擇 [依主導者摺疊在物件中]  按鈕。 ![將物件摺疊到其主導者](../profiling/media/js_mem_fold_objects.png "JS_Mem_Fold_Objects")  
+ 若要依主導者切換物件的檢視，請選擇 [依主導者摺疊在物件中]  按鈕。 ![將物件摺疊到其主導者](~/profiling/media/js_mem_fold_objects.png "JS_Mem_Fold_Objects")  
   
  如需主導者的詳細資訊，請參閱 [檢視快照詳細資料](#SnapshotDetails).  
   
@@ -334,7 +334,7 @@ ms.lasthandoff: 05/13/2017
 > [!NOTE]
 >  循環參考會顯示星號 (*) 以及參考用工具提示，而且不能展開。 否則，循環參考會讓您無法向上查看參考樹狀結構，以及找出持有記憶體的物件。  
   
- 如果您需要找出對等物件的其他說明，可以在上方窗格右上角的設定清單 ![記憶體分析器中的設定下拉式清單](../profiling/media/js_mem_settings.png "JS_Mem_Settings") 中，選擇 [顯示物件 ID]。 這個選項可以讓 [ **識別項** ] 清單中的物件名稱旁都顯示物件 ID (這些 ID 會顯示在所有檢視中，而非只有 [物件] 參考清單)。 具有相同 ID 的物件都是共用參考。  
+ 如果您需要找出對等物件的其他說明，可以在上方窗格右上角的設定清單 ![記憶體分析器中的設定下拉式清單](~/profiling/media/js_mem_settings.png "JS_Mem_Settings") 中，選擇 [顯示物件 ID]。 這個選項可以讓 [ **識別項** ] 清單中的物件名稱旁都顯示物件 ID (這些 ID 會顯示在所有檢視中，而非只有 [物件] 參考清單)。 具有相同 ID 的物件都是共用參考。  
   
  下圖顯示已選取項目的 [物件] 參考清單，其中顯示物件的 ID。  
   
@@ -343,7 +343,7 @@ ms.lasthandoff: 05/13/2017
 ##  <a name="BuiltInValues"></a> 顯示內建物件  
  根據預設，[主導者] 和 [類型] 檢視只會顯示應用程式中建立的物件。 這有助於篩選掉不需要的資訊並隔離應用程式相關的問題。 不過，當您要檢視 JavaScript 執行階段為應用程式產生的所有物件時，這就相當實用。  
   
- 若要顯示這些物件，請在窗格右上角的設定清單 ![記憶體分析器中的設定下拉式清單](../profiling/media/js_mem_settings.png "JS_Mem_Settings") 中，選擇 [顯示內建]。  
+ 若要顯示這些物件，請在窗格右上角的設定清單 ![記憶體分析器中的設定下拉式清單](~/profiling/media/js_mem_settings.png "JS_Mem_Settings") 中，選擇 [顯示內建]。  
   
 ##  <a name="Save"></a> 儲存診斷工作階段檔案  
  診斷快照摘要及其關聯的詳細資料檢視會儲存為 .diagsession 檔案。 [**方案總管** ] 會在 [診斷工作階段] 資料夾中顯示之前的診斷工作階段。 在 [ **方案總管**] 中，您可以開啟先前的工作階段，或者刪除或重新命名這些檔案。  

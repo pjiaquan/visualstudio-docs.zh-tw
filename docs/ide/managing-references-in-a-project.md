@@ -53,7 +53,7 @@ ms.lasthandoff: 03/31/2017
 
  若要加入參考，請在方案總管中的 [參考] 節點上按一下滑鼠右鍵，然後選擇 [加入參考] 。 如需詳細資訊，請參閱[如何：使用參考管理員新增或移除參考](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)。  
 
- ![在 Visual C&#43;&#43; 中新增參考](../ide/media/vs2015_cpp_add_reference.png "vs2015_cpp_add_reference")  
+ ![在 Visual C&#43;&#43; 中新增參考](~/ide/media/vs2015_cpp_add_reference.png "vs2015_cpp_add_reference")  
 
  您可以進行下列元件/服務類型的參考：  
 

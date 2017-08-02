@@ -77,7 +77,7 @@ Visual Studio 提供全面的 Python 偵錯體驗，包括附加至執行中處�
 
 中斷點會在標示的點停止執行程式碼，讓您可以檢查程式狀態。 在程式碼編輯器的左邊界中按一下，或以滑鼠右鍵按一下程式碼並選取 [中斷點 (Breakpoint)] > [插入中斷點 (Insert Breakpoint)] 以設定中斷點。 具有中斷點的每一行會顯示一個紅點。
 
-![Visual Studio 中的中斷點](media/debugging-breakpoints.png)
+![Visual Studio 中的中斷點](~/python/media/debugging-breakpoints.png)
 
 按一下紅點或以滑鼠右鍵按一下程式碼，選取 [中斷點 (Breakpoint)] > [刪除中斷點 (Delete Breakpoint)] 會移除中斷點。 您也可以使用 [中斷點 (Breakpoint)] > [停用中斷點 (Disable Breakpoint)] 命令來停用而不移除它。
 
@@ -88,7 +88,7 @@ Visual Studio 提供全面的 Python 偵錯體驗，包括附加至執行中處�
 
 設定條件時，您也可以設定 [動作 (Action)] 並建立要記錄至輸出視窗的訊息，或選擇自動繼續執行。 這會建立所謂的*追蹤點*，而不需要直接將記錄碼引入您的應用程式︰
 
-![建立具有中斷點的追蹤點](media/debugging-tracepoint.png)
+![建立具有中斷點的追蹤點](~/python/media/debugging-tracepoint.png)
 
 ### <a name="stepping-through-code"></a>逐步執行程式碼
 
@@ -110,27 +110,27 @@ Visual Studio 提供全面的 Python 偵錯體驗，包括附加至執行中處�
 
 若要使用 DataTips 檢視值，只要將滑鼠游標停在編輯器中任一變數的上方。 您可以按一下值來變更它︰
 
-![偵錯工具中的 DataTips](media/debugging-quick-tips.png)
+![偵錯工具中的 DataTips](~/python/media/debugging-quick-tips.png)
 
 [自動變數 (Autos)] 視窗 ([偵錯 (Debug)] > [視窗 (Windows)] > [自動變數 (Autos)]) 包含與目前的陳述式相關的變數和運算式。 您可以在值資料行中按兩下或選取並按 F2 來編輯值︰
 
-![偵錯工具中的 [自動變數 (Autos)] 視窗](media/debugging-autos-window.png)
+![偵錯工具中的 [自動變數 (Autos)] 視窗](~/python/media/debugging-autos-window.png)
 
 [區域變數 (Locals)] 視窗 ([偵錯 (Debug)] > [視窗 (Windows)] > [區域變數 (Locals)]) 會顯示目前範圍中可再次編輯的所有變數︰
 
-![偵錯工具中的 [區域變數 (Locals)] 視窗](media/debugging-locals-window.png)
+![偵錯工具中的 [區域變數 (Locals)] 視窗](~/python/media/debugging-locals-window.png)
 
 如需使用 [自動變數 (Autos)] 和 [區域變數 (Locals)] 的詳細資訊，請參閱[在 [自動變數] 和 [區域變數] 視窗中檢查變數](../debugger/autos-and-locals-windows.md)。
 
 [監看式 (Watch)] 視窗 ([偵錯 (Debug)] > [視窗 (Windows)] > [監看式 (Watch)] > [監看式 1-4 (Watch 1-4)]) 可讓您輸入任意 Python 運算式並檢視結果。 運算式會針對每個步驟重新評估︰
 
-![偵錯工具中的 [監看式 (Watch)] 視窗](media/debugging-watch-window.png)
+![偵錯工具中的 [監看式 (Watch)] 視窗](~/python/media/debugging-watch-window.png)
 
 如需使用 [監看式 (Watch)] 的詳細資訊，請參閱[使用監看式及快速監看式視窗在變數設定監看式](../debugger/watch-and-quickwatch-windows.md)。
 
 檢查字串值時 (針對此目的，`str`、`unicode``bytes` 和 `bytearray` 全都視為字串)，您會在值的右邊看到放大鏡圖示。 按一下此圖示，會在快顯對話方塊中顯示不具引號的字串值，其換行和多行式格式非常適合長字串。 此外，按一下圖示上的下拉箭號可讓您選取純文字、HTML、XML 和 JSON 視覺效果︰
 
-![字串視覺化工具](media/debugging-string-visualizers.png)
+![字串視覺化工具](~/python/media/debugging-string-visualizers.png)
 
 HTML、XML 和 JSON 視覺效果會出現在不同的快顯視窗中，其中的語法會反白顯示，並含有樹狀檢視。
 
@@ -138,13 +138,13 @@ HTML、XML 和 JSON 視覺效果會出現在不同的快顯視窗中，其中的
 
 如果對程式進行偵錯時發生錯誤，而且您沒有例外狀況處理常式可以處理它，偵錯工具會在例外狀況的位置中斷︰
 
-![例外狀況快顯](media/debugging-exception-popup.png)
+![例外狀況快顯](~/python/media/debugging-exception-popup.png)
 
 此時，您可以檢查程式狀態，包括呼叫堆疊。 不過，如果您嘗試逐步執行程式碼，將會繼續擲回例外狀況，直到已處理或您的程式結束為止。
 
 [偵錯 (Debug)] > [視窗 (Windows)] > [例外狀況設定 (Exception Settings)] 功能表命令會顯示一個視窗，您可以在其中展開 [Python 例外狀況 (Python Exceptions)]：
 
-![例外狀況視窗](media/debugging-exception-settings.png)
+![例外狀況視窗](~/python/media/debugging-exception-settings.png)
 
 每個例外狀況的核取方塊控制當此例外狀況引發時，是否*一律*中斷偵錯工具。 當您想更頻繁地針對特定例外狀況中斷時，應核取此方塊。
 
@@ -156,7 +156,7 @@ HTML、XML 和 JSON 視覺效果會出現在不同的快顯視窗中，其中的
 
 根據預設，偵錯工具會使用標準 Python 啟動器啟動您的程式，不使用任何命令列引數或其他特殊路徑或條件。 在 [方案總管 (Solution Explorer)] 中以滑鼠右鍵按一下您的專案，選取 [屬性 (Properties)]，然後選取 [偵錯 (Debug)] 索引標籤來存取專案的偵錯屬性，可以變更這些選項。
 
-![專案偵錯屬性](media/debugging-project-properties.png)
+![專案偵錯屬性](~/python/media/debugging-project-properties.png)
 
 ### <a name="launch-mode-options"></a>啟動模式選項
 
@@ -188,7 +188,7 @@ HTML、XML 和 JSON 視覺效果會出現在不同的快顯視窗中，其中的
 
 [Python 偵錯互動式 (Python Debug Interactive)] 視窗 ([偵錯 (Debug)] > [視窗 (Windows)] > [Python 偵錯互動式 (Python Debug Interactive)]) 更豐富，因為它可在偵錯時提供完整的[互動式 REPL](interactive-repl.md) 體驗，包括撰寫和執行程式碼。 它會使用標準 Python 啟動器自動連線到在偵錯工具中啟動的任一處理序 (包括透過 *[偵錯 (Debug)] > [附加至處理序 (Attach to Process)]  附加的處理序)。 不過，它在使用混合模式 C/C++ 偵錯時無法使用。
 
-![[Python 偵錯互動式 (Python Debug Interactive)] 視窗](media/debugging-interactive.png)
+![[Python 偵錯互動式 (Python Debug Interactive)] 視窗](~/python/media/debugging-interactive.png)
 
 [偵錯互動式 (Debug Interactive)] 視窗支援[標準 REPL 命令](interactive-repl.md#meta-commands)以外的中繼命令：
 
@@ -215,4 +215,4 @@ HTML、XML 和 JSON 視覺效果會出現在不同的快顯視窗中，其中的
 
 [偵錯互動式 (Debug Interactive)] 視窗有自己的一組選項，您可以透過 [工具 (Tools)] > [選項 (Options)] > [Python 工具 (Python Tools)] > [偵錯互動式視窗 (Debug Interactive Window)] 來存取。 不同於一般 [Python 互動式 (Python Interactive)] 視窗針對各個 Python 環境有不同的執行個體，[偵錯互動式視窗 (Debug Interactive Window)] 只有一個，而且一律使用 Python 解譯器進行處理序偵錯。
 
-![[偵錯互動式視窗 (Debug Interactive Window)] 選項](media/debugging-interactive-options.png)
+![[偵錯互動式視窗 (Debug Interactive Window)] 選項](~/python/media/debugging-interactive-options.png)

@@ -29,7 +29,7 @@ caps.handback.revision: 24
 ## 元件  
  在圖表中的原始檔控制配接器套件是 IDE 將轉譯成函式呼叫受原始檔控制外掛程式的原始檔控制作業的使用者要求的元件。  此選項時，IDE 和原始檔控制外掛程式都必須有有效的 IDE 和外掛程式之間來回傳送資訊\] 對話方塊。  此對話方塊中才會生效，對它們都必須說出相同的語言。  本文件所列的原始檔控制外掛程式 API 是這項交換的通用詞彙。  
   
- ![原始程式碼控制架構圖表](../../extensibility/internals/media/vs_sccsdk_plug_in_arch.png "vs\_sccsdk\_plug\_in\_arch")  
+ ![原始程式碼控制架構圖表](~/extensibility/internals/media/vs_sccsdk_plug_in_arch.gif "vs\_sccsdk\_plug\_in\_arch")  
 顯示互動 VS 和原始檔控制外掛程式的架構圖  
   
  如所示的架構圖中， [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]殼層，標示為在圖表中，VS shell 裝載使用者的工作專案和相關聯的元件，例如 \[編輯器\] 和 \[方案總管。  原始檔控制配接器套件處理 IDE 和原始檔控制外掛程式之間的互動。  原始檔控制配接器套件提供它自己的原始檔控制 UI。  這是最上層來啟始及定義的原始檔控制作業範圍與使用者互動的 UI。  

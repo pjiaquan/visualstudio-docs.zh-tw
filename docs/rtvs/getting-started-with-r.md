@@ -52,7 +52,7 @@ ms.lasthandoff: 05/12/2017
 1. 選擇 [檔案] > [新增] > [專案](Ctrl+Shift+N)
 1. 從 [範本] > [R] 下選取 [R 專案]、提供專案名稱和位置，然後選取 [確定]：
 
-   ![Visual Studio R (在 VS2017 中為 RTVS) 的 [新增專案] 對話方塊](media/getting-started-01-new-project.png)
+   ![Visual Studio R (在 VS2017 中為 RTVS) 的 [新增專案] 對話方塊](~/rtvs/media/getting-started-01-new-project.png)
 
 1. 建立專案之後，您會看到下列內容︰
 
@@ -67,29 +67,29 @@ ms.lasthandoff: 05/12/2017
 
 1. 藉由輸入 `3 + 4` 然後按 Enter 鍵查看結果，測試互動式視窗是否在運作中︰
 
-    ![Visual Studio 2017 (VS2017) 中的 R 互動視窗](media/getting-started-02-interactive1.png)
+    ![Visual Studio 2017 (VS2017) 中的 R 互動視窗](~/rtvs/media/getting-started-02-interactive1.png)
 
 1. 輸入稍微複雜的內容 `ds <- c(1.5, 6.7, 8.9) * 1:12`，然後輸入 `ds` 查看結果︰
 
-    ![Visual Studio R 的其他互動式範例](media/getting-started-03-interactive2.png)
+    ![Visual Studio R 的其他互動式範例](~/rtvs/media/getting-started-03-interactive2.png)
 
 1. 輸入 `mean(ds)`，但請注意，只要您輸入 `m` 或 `me`，Visual Studio IntelliSense 就會提供自動完成的選項，如下所示。 在清單中選取您想要的完成時，按 Tab 鍵插入。您可以使用方向鍵或滑鼠變更選取範圍。
 
-    ![您輸入程式碼時會顯示 IntelliSense](media/getting-started-04-intellisense1.png)
+    ![您輸入程式碼時會顯示 IntelliSense](~/rtvs/media/getting-started-04-intellisense1.png)
 
 1. 完成 `mean` 之後，輸入左括弧 `(`，並注意 IntelliSense 如何提供您函式的內嵌說明︰
 
-    ![IntelliSense 顯示函式的說明](media/getting-started-05-intellisense2.png)
+    ![IntelliSense 顯示函式的說明](~/rtvs/media/getting-started-05-intellisense2.png)
 
 1. 完成 `mean(ds)` 一行並按 Enter 查看結果 (`[1] 39.51667`)。
 
 1. Interactive 視窗已和說明整合，舉例來說，當輸入 `?mean` 時，您會在 Visual Studio 的 [R 說明] 視窗中看到該函式的說明。 如需這項功能的詳細資料，請參閱 [Visual Studio R 工具中的說明](getting-started-help.md)。
 
-    ![Visual Studio 的 [R 說明] 視窗](media/getting-started-06-help.png)
+    ![Visual Studio 的 [R 說明] 視窗](~/rtvs/media/getting-started-06-help.png)
 
 1. 一些命令，例如 `plot(1:100)`，會在無法直接於 Interactive 視窗中顯示輸出時，在 Visual Studio 中開啟新視窗。
 
-    ![在 Visual Studio 中顯示繪圖](media/getting-started-07-plot-window.png)
+    ![在 Visual Studio 中顯示繪圖](~/rtvs/media/getting-started-07-plot-window.png)
 
 互動式視窗也可讓您檢閱您的歷程記錄、載入和儲存工作區、附加至偵錯工具，並與原始程式碼檔案互動以便快速執行複製貼上作業。 如需詳細資料，請參閱[使用 R 互動視窗](interactive-repl.md)。
 
@@ -113,7 +113,7 @@ ms.lasthandoff: 05/12/2017
 
 1. 若要快速查看結果，請選取所有程式碼 (Ctrl + A)，然後按 Ctrl + Enter 鍵或以滑鼠右鍵按一下並選取 [以互動方式執行]。 這會在互動式視窗中選取程式碼，就彷彿您直接鍵入一樣，並在繪圖視窗中顯示結果︰
 
-    ![在 Visual Studio 中顯示繪圖](media/getting-started-08-plot1.png)
+    ![在 Visual Studio 中顯示繪圖](~/rtvs/media/getting-started-08-plot1.png)
 
 1. 對於某一行，您可以隨時按 Ctrl + Enter 鍵，在互動式視窗中執行這一行。
 
@@ -132,7 +132,7 @@ ms.lasthandoff: 05/12/2017
 
 1. 再次按 Ctrl + A 和 Ctrl + Enter 鍵，重新執行程式碼以產生下列各項︰
 
-    ![Visual Studio 中的更新雙重繪圖](media/getting-started-09-plot2.png)
+    ![Visual Studio 中的更新雙重繪圖](~/rtvs/media/getting-started-09-plot2.png)
 
 1. 問題是，第一個繪圖決定了垂直的比例，因此第二個繪圖 (與 `lines`) 不符。 若要修正此問題，我們必須在 `plot` 呼叫上設定 `ylim` 參數，但要正確地這麼做，我們需要新增程式碼來計算垂直的最大值。 在互動式視窗中逐行這麼做有點不太方便，因為我們需要重新排列程式碼，在呼叫 `plot` 之前先使用 `samp.means`。 不過在程式碼檔案中，我們可以輕鬆地進行適當的編輯︰
 
@@ -154,7 +154,7 @@ ms.lasthandoff: 05/12/2017
 
 1. 再次按 Ctrl + A 和 Ctrl + Enter 鍵，查看結果︰
 
-    ![Visual Studio 中的更新雙重繪圖，比例正確](media/getting-started-10-plot3.png)
+    ![Visual Studio 中的更新雙重繪圖，比例正確](~/rtvs/media/getting-started-10-plot3.png)
 
 您在編輯器中還可以做其他事。 如需詳細資訊，請參閱[編輯程式碼](code-editing.md)、[IntelliSense](code-intellisense.md)和[程式碼片段](code-snippets.md)。
 
@@ -166,23 +166,23 @@ Visual Studio 的其中一項主要優點是其偵錯 UI。 RTVS 建置在這項
 
 1. 使用上一節中所建立的 `script.R` 檔案，在開頭為 `pop <-` 的行上設定中斷點，方法是將插入號放在該行上然後按 F9 鍵，或選取 [偵錯] > [切換中斷點] 功能表命令。 您可以在一個步驟中完成，方法是按一下出現紅色中斷點的那一行的左邊界 (或裝訂邊)︰
 
-    ![在編輯器中設定中斷點](media/getting-started-11-debug1.png)
+    ![在編輯器中設定中斷點](~/rtvs/media/getting-started-11-debug1.png)
 
 1. 使用 `script.R` 中的程式碼啟動偵錯工具，方法是選取工具列上的 [執行啟動檔案] 按鈕、選取 [偵錯] > [執行啟動檔案] 功能表項目，或按 F5 鍵。 這會將 Visual Studio 切換至偵錯模式，並開始執行程式碼。 不過，它會停在您設定中斷點的行上︰
 
-    ![在 Visual Studio 偵錯工具的中斷點上停止](media/getting-started-12-debug2.png)
+    ![在 Visual Studio 偵錯工具的中斷點上停止](~/rtvs/media/getting-started-12-debug2.png)
 
 1. 偵錯時，Visual Studio 提供了可逐步執行程式碼行的功能，包括能夠逐步執行函式、不進入函式，或跳離函式回到呼叫的內容。 這些功能，以及其他功能，可以在 [偵錯] 功能表、編輯器的快顯內容功能表，和 [偵錯] 工具列中找到︰
 
-    ![Visual Studio 中的 [偵錯] 工具列](media/getting-started-13-debug3.png)
+    ![Visual Studio 中的 [偵錯] 工具列](~/rtvs/media/getting-started-13-debug3.png)
 
 1. 在中斷點停止時，您可以檢查變數的值。 在 Visual Studio 中找到 [自動變數] 視窗，在底部選取名為 [區域變數] 的索引標籤。 [區域變數] 視窗會顯示程式目前位置的區域變數。 如果您停在稍早設定的中斷點上，則會看到尚未定義 `pop` 變數。 現在，使用 [偵錯] > [不進入函式] 命令 (F10)，您會看到出現 pop 的值︰
 
-    ![Visual Studio 中的 [區域變數] 視窗](media/getting-started-14-debug4.png)
+    ![Visual Studio 中的 [區域變數] 視窗](~/rtvs/media/getting-started-14-debug4.png)
 
 1. 若要檢查不同範圍中的變數，包括全域範圍和套件範圍，則是使用[變數總管](variable-explorer.md)，如下所示。 變數總管也讓您能夠切換到具有可排序資料行的表格式檢視，以及將資料匯出至 CSV 檔案。
 
-    ![變數總管的展開檢視](media/variable-explorer-expanded-results.png)
+    ![變數總管的展開檢視](~/rtvs/media/variable-explorer-expanded-results.png)
 
 1. 您可以繼續逐步執行程式行，或選取 [繼續] (F5) 來執行到完成 (或下一個中斷點)。
 

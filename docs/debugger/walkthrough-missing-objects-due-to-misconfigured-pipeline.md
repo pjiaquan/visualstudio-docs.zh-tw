@@ -36,7 +36,7 @@ manager: "ghogen"
   
  在此情節中，當執行應用程式來加以測試時，背景如預期般轉譯，但其中一個物件未出現。 透過使用圖形診斷，您可擷取圖形記錄問題，以偵錯應用程式。 在應用程式中，問題看起來如下：  
   
- ![無法看到物件](../debugger/media/gfx_diag_demo_misconfigured_pipeline_problem.png "gfx\_diag\_demo\_misconfigured\_pipeline\_problem")  
+ ![無法看到物件](~/debugger/graphics/media/gfx_diag_demo_misconfigured_pipeline_problem.png "gfx\_diag\_demo\_misconfigured\_pipeline\_problem")  
   
 ## 調查  
  透過使用圖形診斷工具，您可以載入圖形記錄文件，以檢查測試期間所擷取的畫面格。  
@@ -100,7 +100,7 @@ manager: "ghogen"
   
  若要修正此問題，請使用 `ID3D11DeviceContext::PSSetShader` API 呼叫的第一個參數，以指派正確的像素著色器 。  
   
- ![修正過的 C&#43;&#43; 原始程式碼](../debugger/media/gfx_diag_demo_misconfigured_pipeline_step_6.png "gfx\_diag\_demo\_misconfigured\_pipeline\_step\_6")  
+ ![修正過的 C&#43;&#43; 原始程式碼](~/debugger/graphics/media/gfx_diag_demo_misconfigured_pipeline_step_6.png "gfx\_diag\_demo\_misconfigured\_pipeline\_step\_6")  
   
  修正程式碼之後，您可以加以重新建置並再次執行應用程式，以確認轉譯問題已解決：  
   

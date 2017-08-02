@@ -49,7 +49,7 @@ ms.lasthandoff: 05/13/2017
   
          在 [自動化測試] 下，選取 [測試組件]，然後選擇行末的省略符號按鈕 [...]。 在 [加入/編輯測試回合] 對話方塊中，選擇 [測試執行器] 之下的 [Visual Studio 測試執行器]。  
   
- ![設定程式碼涵蓋範圍的組建定義](../test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
+ ![設定程式碼涵蓋範圍的組建定義](~/test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
   
  組建執行之後，程式碼涵蓋範圍結果會顯示在組建摘要中。  
   

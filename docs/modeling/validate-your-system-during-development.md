@@ -53,7 +53,7 @@ Visual Studio 可協助您保持軟體與使用者需求和系統架構的一致
   
 |**類別目錄**|**連結**|  
 |------------------|---------------|  
-|**影片**|![視訊連結](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Doug 七︰ 程式碼了解和使用 Visual Studio 2010 的系統設計](http://go.microsoft.com/fwlink/?LinkId=216100)<br /><br /> ![視訊連結](../data-tools/media/playvideo.gif "PlayVideo")[第 9 頻道︰ 架構應用程式使用相依性圖表](http://go.microsoft.com/fwlink/?LinkID=201117)<br /><br /> ![視訊連結](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 系列︰ 如何使用相依性圖表的驗證程式碼](http://go.microsoft.com/fwlink/?LinkID=214405)|  
+|**影片**|![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Doug 七︰ 程式碼了解和使用 Visual Studio 2010 的系統設計](http://go.microsoft.com/fwlink/?LinkId=216100)<br /><br /> ![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo")[第 9 頻道︰ 架構應用程式使用相依性圖表](http://go.microsoft.com/fwlink/?LinkID=201117)<br /><br /> ![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 系列︰ 如何使用相依性圖表的驗證程式碼](http://go.microsoft.com/fwlink/?LinkID=214405)|  
 |**論壇**|-   [Visual Studio Visualization i 模型工具](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization i Modeling SDK （DSL 工具）](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**部落格**|-   [Visual Studio ALM + Team Foundation Server 部落格](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**技術文件和日誌**|[MSDN 架構中心](http://go.microsoft.com/fwlink/?LinkId=201343)|  

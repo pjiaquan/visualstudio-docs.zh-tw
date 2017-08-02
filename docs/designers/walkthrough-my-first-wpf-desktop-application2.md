@@ -257,7 +257,7 @@ ms.lasthandoff: 05/13/2017
   
      下圖顯示具有瀏覽視窗按鈕的應用程式。  
   
-     ![ExpenseIt 範例螢幕擷取畫面](../designers/media/gettingstartedfigure1.png "GettingStartedFigure1")  
+     ![ExpenseIt 範例螢幕擷取畫面](~/designers/media/gettingstartedfigure1.png "GettingStartedFigure1")  
   
 6.  關閉應用程式以返回設計模式。  
   
@@ -313,7 +313,7 @@ ms.lasthandoff: 05/13/2017
   
 3.  建置並執行應用程式。 下圖顯示在 XAML 此程序所建立的控制項執行階段外觀。  
   
-     ![ExpenseIt 範例螢幕擷取畫面](../designers/media/gettingstartedfigure2.png "GettingStartedFigure2")  
+     ![ExpenseIt 範例螢幕擷取畫面](~/designers/media/gettingstartedfigure2.png "GettingStartedFigure2")  
   
 4.  關閉應用程式以返回設計模式。  
   
@@ -480,7 +480,7 @@ ms.lasthandoff: 05/13/2017
   
 6.  如在此時建置並執行應用程式，它看起來應該像下圖：  
   
-     ![ExpenseIt 範例螢幕擷取畫面](../designers/media/gettingstartedfigure3.png "GettingStartedFigure3")  
+     ![ExpenseIt 範例螢幕擷取畫面](~/designers/media/gettingstartedfigure3.png "GettingStartedFigure3")  
   
 #### <a name="to-add-code-to-the-button"></a>將程式碼加入按鈕  
   

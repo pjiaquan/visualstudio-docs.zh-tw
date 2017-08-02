@@ -42,13 +42,13 @@ Visual Studio 的 Python 支援包括以諸如 Bottle、Django 和 Flask 等架�
 
 每個範本 (透過 [檔案] > [新增] > [專案] 存取) 會搭配隨機選取的本機連接埠啟動 Web 伺服器，於偵錯期間開啟您的預設瀏覽器，並允許直接發佈至 [Microsoft Azure](http://www.azure.com)。 針對 Bottle、Flask 和 Django 有提供範本，而且您可以針對其他架構 (例如 Pyramid) 使用一般的 [Web 專案] 範本。
 
-![新增 Web 專案範本](media/template-web-new-project.png)
+![新增 Web 專案範本](~/python/media/template-web-new-project.png)
 
 Bottle、Flask 和 Django 範本各自都包含一個含有一些頁面及靜態檔案的起始網站。 此程式碼足以用來在本機 (其中某些設定需要從環境取得) 執行伺服器並進行偵錯，以及部署至 Microsoft Azure (其中必須提供 [WSGI 應用程式 (英文)](http://www.python.org/dev/peps/pep-3333/) 物件)。
 
 從架構特定的範本建立專案時，系統會顯示對話方塊來協助您使用 PIP 安裝必要的封裝。 另外也建議您針對 Web 專案使用[虛擬環境](python-environments.md#virtual-environments)，如此當您發佈網站時，就會包含正確的相依性：
 
-![安裝專案範本所需之封裝的對話方塊](media/template-web-requirements-txt-wizard.png)
+![安裝專案範本所需之封裝的對話方塊](~/python/media/template-web-requirements-txt-wizard.png)
 
 當部署至 Microsoft Azure App Service 時，您需要選取 Python 的版本做為[網站擴充功能 (英文)](https://aka.ms/PythonOnAppService)，並手動安裝封裝。 此外，由於從 Visual Studio 部署時，Azure App Service 「不會」自動從 `requirements.txt` 檔案安裝封裝，請依照 [aka.ms/PythonOnAppService (英文)](https://aka.ms/PythonOnAppService) 上的設定詳細資料進行。
 
@@ -62,7 +62,7 @@ Bottle、Flask 和 Django 範本各自都包含一個含有一些頁面及靜態
 
 當啟動 Web 專案進行偵錯時，Visual Studio 會在本機啟動網頁伺服器，然後開啟預設瀏覽器並移至該位址及連接埠。 若要指定其他選項，請以滑鼠右鍵按一下專案，選取 [屬性]，並選取 [Web 啟動器] 索引標籤：
 
-  ![一般 Web 範本的 Web 啟動器屬性](media/template-web-launcher-properties.png)
+  ![一般 Web 範本的 Web 啟動器屬性](~/python/media/template-web-launcher-properties.png)
 
 在 [偵錯] 群組中：
 
@@ -124,7 +124,7 @@ Pyramid 應用程式目前最適合使用 `pcreate` 命令列工具建立。 一
 
 有兩種主要方式可以發佈至 Azure App Service。 首先，來自原始檔控制的部署可以使用與其他語言相同的方式使用，如 [Azure 文件](http://azure.microsoft.com/en-us/documentation/articles/web-sites-publish-source-control/)中所述。 若要直接從 Visual Studio 發佈，請以滑鼠右鍵按一下專案，然後選取 [發佈]：
 
-![專案操作功能表上的 [發佈] 命令](media/template-web-publish-command.png)
+![專案操作功能表上的 [發佈] 命令](~/python/media/template-web-publish-command.png)
 
 選取命令之後，精靈會逐步引導您完成建立網站或匯入發佈設定，預覽已修改的檔案，然後發佈至遠端伺服器。
 
@@ -134,7 +134,7 @@ Pyramid 應用程式目前最適合使用 `pcreate` 命令列工具建立。 一
 
 網站擴充功能可透過 [Azure 入口網站](https://portal.azure.com/)來部署，方法是使用您 App Service 的 [部署工具] > [擴充功能] 刀鋒視窗，選取 [新增]，然後捲動清單來尋找針對 Python 的項目：
 
-![在 Azure 入口網站上新增網站擴充功能](media/template-web-site-extensions.png)
+![在 Azure 入口網站上新增網站擴充功能](~/python/media/template-web-site-extensions.png)
 
 如果您使用 JSON 部署範本，您可以將網站擴充功能指定為網站的資源：
 
@@ -173,7 +173,7 @@ c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 
 部署到 Azure App Service 後，您的網站會在 Microsoft IIS 後方執行。 若要讓您的網站搭配 IIS 運作，您至少要新增 `web.config` 檔案。 有可用的範本可供一些常見的部署目標使用，您可以以滑鼠右鍵按一下專案並選取 [新增] > [新增項目] (請參閱下方的對話方塊) 來取得它們，而且您可以輕鬆地修改這些範本以用於其他用途。 請參閱 [IIS 設定參考 (英文)](https://www.iis.net/configreference) 以了解可用組態設定的資訊。
 
-![Azure 項目範本](media/template-web-azure-items.png)
+![Azure 項目範本](~/python/media/template-web-azure-items.png)
 
 可用的項目包括︰
 
@@ -186,9 +186,9 @@ c:\Python27\python.exe -m pip install -r D:\home\site\wwwroot\requirements.txt
 
 如果您將偵錯 `web.config` 範本新增到專案，並計畫使用 Python 遠端偵錯，您必須將網站以 [偵錯] 設定發佈。 此設定不同於目前作用中的方案設定，且一律以 [發佈] 為預設設定。 若要變更它，請開啟 [設定] 索引標籤，並使用發佈精靈的 [設定] 下拉式方塊 (如需建立並部署至 Azure Web Apps 的詳細資訊，請參閱 [Azure 文件](https://azure.microsoft.com/develop/python/))：
 
-![正在變更發佈設定](media/template-web-publish-config.png)
+![正在變更發佈設定](~/python/media/template-web-publish-config.png)
 
 [轉換為 Microsoft Azure 雲端服務專案] 命令 (如下圖) 會將雲端服務專案新增至您的方案。 此專案包括要使用之虛擬機器和服務的部署設定及組態。 您應該使用雲端專案上的 [發佈] 命令以部署至雲端服務；Python 專案上的 [發佈] 命令仍然會部署至網站。 如需詳細資料，請參閱 [Azure 雲端服務專案](template-azure-cloud-service.md)。
 
-![[轉換為 Microsoft Azure 雲端服務專案] 命令](media/template-web-convert-menu.png)
+![[轉換為 Microsoft Azure 雲端服務專案] 命令](~/python/media/template-web-convert-menu.png)
 

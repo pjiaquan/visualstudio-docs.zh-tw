@@ -20,7 +20,7 @@ ms.lasthandoff: 02/22/2017
 # <a name="creating-a-windows-forms-based-domain-specific-language"></a>建立 Windows Form 架構之網域指定的語言
 您可以使用 Windows Form 顯示定義域專屬語言 (DSL) 模型，而不是使用 DSL 圖表的狀態。 本主題將逐步引導您繫結至 DSL 的 Windows Form 中，使用[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]Visualization and Modeling SDK。  
   
- ![DSL-Wpf-2](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  
+ ![DSL-Wpf-2](~/modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  
 DSL 執行個體，顯示 Windows Form UI 和模型總管。  
   
 ## <a name="creating-a-windows-forms-dsl"></a>建立 Windows Form DSL  
@@ -71,7 +71,7 @@ DSL 執行個體，顯示 Windows Form UI 和模型總管。
 ## <a name="updating-the-dsl-definition"></a>更新 DSL 定義  
  下列這個逐步解說使用 DSL 定義。  
   
- ![DSL Wpf&1;](../modeling/media/dsl-wpf-1.png "DSL Wpf&1;")  
+ ![DSL Wpf&1;](~/modeling/media/dsl-wpf-1.png "DSL Wpf&1;")  
   
 #### <a name="to-update-the-dsl-definition"></a>若要更新 DSL 定義  
   
@@ -130,7 +130,7 @@ DSL 執行個體，顯示 Windows Form UI 和模型總管。
   
      資料來源視窗中出現的屬性和關聯性的模型類別。  
   
-     ![DslWpf&3;](../modeling/media/dslwpf-3.png "DslWpf&3;")  
+     ![DslWpf&3;](~/modeling/media/dslwpf-3.png "DslWpf&3;")  
   
 #### <a name="to-connect-your-model-to-a-form"></a>您的模型連接至表單  
   
@@ -175,7 +175,7 @@ DSL 執行個體，顯示 Windows Form UI 和模型總管。
   
 -   它可確保，當使用者選取一個資料列，[屬性] 視窗會顯示對應的模型項目，而不是資料方格資料列的屬性。  
   
- ![DslWpf4](../modeling/media/dslwpf4.png "DslWpf4")  
+ ![DslWpf4](~/modeling/media/dslwpf4.png "DslWpf4")  
 結構描述資料來源和檢視之間的連結。  
   
 #### <a name="to-complete-the-bindings-to-the-dsl"></a>若要完成的 dsl 的繫結  
@@ -305,7 +305,7 @@ DSL 執行個體，顯示 Windows Form UI 和模型總管。
   
      您可以編輯資料格檢視中的項目名稱。 您也可以從該處刪除它。  
   
- ![DSL Wpf&2;](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  
+ ![DSL Wpf&2;](~/modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  
   
 ### <a name="about-the-code-to-add-an-element"></a>關於程式碼中新增項目  
  [新項目] 按鈕，下列替代程式碼會比較簡單。  

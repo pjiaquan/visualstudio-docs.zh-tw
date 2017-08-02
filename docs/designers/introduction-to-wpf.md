@@ -38,7 +38,7 @@ ms.lasthandoff: 07/19/2017
 # <a name="introduction-to-wpf"></a>WPF 簡介
 Windows Presentation Foundation (WPF) 可讓您建立具有豐富視覺效果之使用者介面的 Windows 桌面用戶端應用程式。  
   
- ![Contoso Healthcare UI 範例](../designers/media/wpfintrofigure24.png "WPFIntroFigure24")  
+ ![Contoso Healthcare UI 範例](~/designers/media/wpfintrofigure24.png "WPFIntroFigure24")  
   
  WPF 的核心是與解析度無關並以向量為基礎的轉譯引擎，其建置目的是為了利用現代化圖形硬體。 WPF 利用一組完整的應用程式開發功能來擴充核心，包括 XAML (Extensible Application Markup Language)、控制項、資料繫結、版面配置、2D 和 3D 圖形、動畫、樣式、範本、文件、媒體、文字，以及印刷樣式。 WPF 隨附於 .NET Framework，因此您可以建置納入 .NET Framework 類別庫之其他項目的應用程式。  
   
@@ -81,7 +81,7 @@ Windows Presentation Foundation (WPF) 可讓您建立具有豐富視覺效果之
   
  下圖顯示上述範例中 XAML 所定義的使用者介面 (UI)。  
   
- ![包含按鈕的視窗](../designers/media/wpfintrofigure10.png "WPFIntroFigure10")  
+ ![包含按鈕的視窗](~/designers/media/wpfintrofigure10.png "WPFIntroFigure10")  
   
  由於 XAML 是以 XML 為基礎，您以此撰寫的 UI 會組合成巢狀項目階層架構，稱為 [項目樹狀結構](https://msdn.microsoft.com/en-us/library/ms753391\(v=vs.100\).aspx)。 項目樹狀結構提供一個邏輯和直覺方式來建立及管理 UI。  
   
@@ -158,7 +158,7 @@ End Namespace
   
  下圖顯示按下按鈕的結果。  
   
- ![訊息方塊](../designers/media/wpfintrofigure25.png "WPFIntroFigure25")  
+ ![訊息方塊](~/designers/media/wpfintrofigure25.png "WPFIntroFigure25")  
   
 ##  <a name="Controls"></a> 控制項  
  應用程式模型所傳遞的使用者體驗是已建構的控制項。 在 WPF 中，「控制項」是一個籠統的名詞，泛指裝載於視窗或頁面上之具有使用者介面並實作一些行為的某種 WPF 類別。  
@@ -229,7 +229,7 @@ End Namespace
   
  下圖顯示上述範例中之 XAML 標記的結果。  
   
- ![DockPanel 頁面](../designers/media/wpfintrofigure11.png "WPFIntroFigure11")  
+ ![DockPanel 頁面](~/designers/media/wpfintrofigure11.png "WPFIntroFigure11")  
   
 ##  <a name="Data_Binding"></a> 資料繫結  
  大多數已建立的應用程式會為使用者提供檢視及編輯資料的方法。 至於 WPF 應用程式，儲存和存取資料的工作已由 SQL Server 和 ADO.NET 等技術提供。 存取資料並將資料載入應用程式的 Managed 物件之後，才會開始 WPF 應用程式的困難工作。 基本上，這涉及兩個動作：  
@@ -276,7 +276,7 @@ End Namespace
 ### <a name="2-d-shapes"></a>2D 圖案  
  WPF 提供以通用向量繪製之 2D 圖案的圖庫，例如下圖所示的矩形和橢圓形。  
   
- ![橢圓形和矩形](../designers/media/wpfintrofigure4.PNG "WPFIntroFigure4")  
+ ![橢圓形和矩形](~/designers/media/wpfintrofigure4.PNG "WPFIntroFigure4")  
   
  圖案有趣的一點是它不僅用於顯示，還可實作許多您預期控制項會有的功能，包括鍵盤和滑鼠輸入。 下列範例示範所要處理之 <xref:System.Windows.UIElement.MouseUp> 的 <xref:System.Windows.Shapes.Ellipse> 事件。  
   
@@ -287,7 +287,7 @@ End Namespace
   
  下圖顯示上述程式碼所產生的結果。  
   
- ![包含 "you clicked the ellipse&#33;" 文字的視窗](../designers/media/wpfintrofigure12.png "WPFIntroFigure12")  
+ ![包含 "you clicked the ellipse&#33;" 文字的視窗](~/designers/media/wpfintrofigure12.png "WPFIntroFigure12")  
   
  如需詳細資訊，請參閱 [WPF 中圖案和基本繪圖概觀](https://msdn.microsoft.com/en-us/library/ms747393\(v=vs.100\).aspx)。  
   
@@ -298,28 +298,28 @@ End Namespace
   
  <xref:System.Windows.Media.Geometry> 物件可用來裁剪、叫用測試及轉譯 2D 圖形資料。  
   
- ![Path 的各種用法](../designers/media/wpfintrofigure5.PNG "WPFIntroFigure5")  
+ ![Path 的各種用法](~/designers/media/wpfintrofigure5.PNG "WPFIntroFigure5")  
   
  如需詳細資訊，請參閱 [幾何概觀](https://msdn.microsoft.com/en-us/library/ms751808\(v=vs.100\).aspx)。  
   
 ### <a name="2-d-effects"></a>2D 效果  
  WPF 2D 功能子集包含漸層、點陣圖、繪圖、利用視訊繪製、旋轉、縮放和傾斜等視覺效果。 這些全部可用筆刷來完成；下圖顯示一些範例。  
   
- ![不同筆刷的圖例](../designers/media/wpfintrofigure6.PNG "WPFIntroFigure6")  
+ ![不同筆刷的圖例](~/designers/media/wpfintrofigure6.PNG "WPFIntroFigure6")  
   
  如需詳細資訊，請參閱 [WPF 筆刷概觀](https://msdn.microsoft.com/en-us/library/aa970904\(v=vs.100\).aspx)。  
   
 ### <a name="3-d-rendering"></a>3D 轉譯  
  WPF 也包含可與 2D 圖形互動的 3D 轉譯功能，以便建立更生動有趣的使用者介面。 例如，下圖顯示轉譯成 3D 圖案的 2D 影像。  
   
- ![Visual3D 範例螢幕擷取畫面](../designers/media/wpfintrofigure13.png "WPFIntroFigure13")  
+ ![Visual3D 範例螢幕擷取畫面](~/designers/media/wpfintrofigure13.png "WPFIntroFigure13")  
   
  如需詳細資訊，請參閱 [3D 圖形診斷](https://msdn.microsoft.com/en-us/library/ms747437\(v=vs.100\).aspx)。  
   
 ##  <a name="Animation"></a> 動畫  
  WPF 動畫支援可讓您將控制項設為放大、搖晃、旋轉和淡出，以建立有趣的網頁切換及執行其他工作。 您可以建立大多數 WPF 類別的動畫，甚至是自訂類別。 下圖顯示執行中的簡單動畫。  
   
- ![動畫效果立方體的影像](../designers/media/wpfintrofigure7.png "WPFIntroFigure7")  
+ ![動畫效果立方體的影像](~/designers/media/wpfintrofigure7.png "WPFIntroFigure7")  
   
  如需詳細資訊，請參閱 [動畫概觀](https://msdn.microsoft.com/en-us/library/ms752312\(v=vs.100\).aspx)。  
   
@@ -329,7 +329,7 @@ End Namespace
 ### <a name="images"></a>影像  
  影像是大多數應用程式的共通功能，WPF 提供數種方式來使用影像。 下圖顯示具有包含縮圖影像之清單方塊的使用者介面。 選取縮圖時，會顯示完整大小的影像。  
   
- ![縮圖影像與完整大小影像](../designers/media/wpfintrofigure8.PNG "WPFIntroFigure8")  
+ ![縮圖影像與完整大小影像](~/designers/media/wpfintrofigure8.PNG "WPFIntroFigure8")  
   
  如需詳細資訊，請參閱 [影像處理概觀](https://msdn.microsoft.com/en-us/library/ms748873\(v=vs.100\).aspx)。  
   
@@ -340,7 +340,7 @@ End Namespace
   
  下圖中的視窗顯示執行中的 <xref:System.Windows.Controls.MediaElement> 控制項。  
   
- ![具有音訊與視訊的 MediaElement 控制項](../designers/media/wpfintrofigure1.png "WPFIntroFigure1")  
+ ![具有音訊與視訊的 MediaElement 控制項](~/designers/media/wpfintrofigure1.png "WPFIntroFigure1")  
   
  如需詳細資訊，請參閱 [WPF 圖形、動畫和媒體概觀](https://msdn.microsoft.com/en-us/library/ms742562\(v=vs.100\).aspx)。  
   
@@ -359,7 +359,7 @@ End Namespace
   
  為了示範文字與圖形的整合，下圖顯示文字裝飾的應用。  
   
- ![帶有各種文字裝飾的文字](../designers/media/wpfintrofigure23.png "WPFIntroFigure23")  
+ ![帶有各種文字裝飾的文字](~/designers/media/wpfintrofigure23.png "WPFIntroFigure23")  
   
  如需詳細資訊，請參閱 [Windows Presentation Foundation 中的印刷樣式](https://msdn.microsoft.com/en-us/library/ms742190\(v=vs.100\).aspx)。  
   
@@ -379,7 +379,7 @@ End Namespace
   
  其結果如下圖所示。  
   
- ![包含文字的 TextBox 控制項](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")  
+ ![包含文字的 TextBox 控制項](~/designers/media/wpfintrofigure21.png "WPFIntroFigure21")  
   
  不過，其他控制項可能包含不同內容類型的多個項目； <xref:System.Windows.Controls.Button>屬性所指定的 <xref:System.Windows.Controls.ContentControl.Content%2A> 內容可包含各種項目，包括版面配置控制項、文字、影像和圖案。 下列範例示範具有內含 <xref:System.Windows.Controls.Button> 、 <xref:System.Windows.Controls.DockPanel>、 <xref:System.Windows.Controls.Label>和 <xref:System.Windows.Controls.Border>之內容的 <xref:System.Windows.Controls.MediaElement>。  
   
@@ -389,7 +389,7 @@ End Namespace
   
  下圖顯示這個按鈕的內容。  
   
- ![包含多種類型內容的按鈕](../designers/media/wpfintrofigure22.png "WPFIntroFigure22")  
+ ![包含多種類型內容的按鈕](~/designers/media/wpfintrofigure22.png "WPFIntroFigure22")  
   
  如需各種控制項所支援之內容類型的詳細資訊，請參閱 [WPF 內容模型](https://msdn.microsoft.com/en-us/library/bb613548\(v=vs.100\).aspx)。  
   
@@ -410,12 +410,12 @@ End Namespace
   
  在這個範例中，預設按鈕的使用者介面已取代成具有深藍色框線的 <xref:System.Windows.Shapes.Ellipse> ，並使用 <xref:System.Windows.Media.RadialGradientBrush>填滿。 <xref:System.Windows.Controls.ContentPresenter> 控制項會顯示 <xref:System.Windows.Controls.Button>的內容："Click Me!" 按下 <xref:System.Windows.Controls.Button> 之後，仍會引發 <xref:System.Windows.Controls.Primitives.ButtonBase.Click> 事件做為 <xref:System.Windows.Controls.Button> 控制項預設行為的一部分。 其結果如下圖所示。  
   
- ![橢圓形按鈕和第二個視窗](../designers/media/wpfintrofigure2.png "WPFIntroFigure2")  
+ ![橢圓形按鈕和第二個視窗](~/designers/media/wpfintrofigure2.png "WPFIntroFigure2")  
   
 ### <a name="data-templates"></a>資料範本  
  控制項範本可讓您指定控制項的外觀，而資料範本則可讓您指定控制項內容的外觀。 資料範本通常可用來增強繫結資料的顯示方式。 下圖顯示繫結至 <xref:System.Windows.Controls.ListBox> 物件集合之 `Task` 的預設外觀，其中每項工作都有名稱、描述和優先權。  
   
- ![具有預設外觀的清單方塊](../designers/media/wpfintrofigure18.png "WPFIntroFigure18")  
+ ![具有預設外觀的清單方塊](~/designers/media/wpfintrofigure18.png "WPFIntroFigure18")  
   
  預設外觀是您可預期的 <xref:System.Windows.Controls.ListBox>外觀。 不過，每項工作的預設外觀只包含工作名稱。 若要顯示工作名稱、描述和優先權，則必須使用 <xref:System.Windows.Controls.ListBox> 變更 <xref:System.Windows.DataTemplate>控制項之繫結清單項目的預設外觀。 下列 XAML 會定義此 <xref:System.Windows.DataTemplate>，您可以使用 <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> 屬性將其套用至每項工作。  
   
@@ -426,7 +426,7 @@ End Namespace
   
  下圖顯示這段程式碼的效果。  
   
- ![使用資料範本的清單方塊](../designers/media/wpfintrofigure19.png "WPFIntroFigure19")  
+ ![使用資料範本的清單方塊](~/designers/media/wpfintrofigure19.png "WPFIntroFigure19")  
   
  請注意， <xref:System.Windows.Controls.ListBox> 已保留其行為和整體外觀，只會變更清單方塊所要顯示的內容外觀。  
   
@@ -442,7 +442,7 @@ End Namespace
   
  由於這種樣式是以所有 <xref:System.Windows.Controls.Button> 控制項為目標，系統會將該樣式自動套用至視窗中的所有按鈕，如下圖所示。  
   
- ![兩個橙色按鈕](../designers/media/wpfintrofigure20.png "WPFIntroFigure20")  
+ ![兩個橙色按鈕](~/designers/media/wpfintrofigure20.png "WPFIntroFigure20")  
   
  如需詳細資訊，請參閱 [設定樣式和範本](https://msdn.microsoft.com/en-us/library/ms745683\(v=vs.100\).aspx)。  
   
@@ -507,7 +507,7 @@ End Namespace
   
  下圖顯示 `NumericUpDown` 中所裝載的 <xref:System.Windows.Window>控制項。  
   
- ![自訂使用者控制項](../designers/media/wpfintrofigure3.png "WPFIntroFigure3")  
+ ![自訂使用者控制項](~/designers/media/wpfintrofigure3.png "WPFIntroFigure3")  
   
  如需自訂控制項的詳細資訊，請參閱 [控制項撰寫概觀](https://msdn.microsoft.com/en-us/library/ms745025\(v=vs.100\).aspx)。  
   

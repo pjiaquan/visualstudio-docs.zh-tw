@@ -82,7 +82,7 @@ Visual Studio 中的 XAML 設計工具提供視覺化介面，協助您設計以
   
  在 [設計] 檢視中，畫面的左下方區域會提供其他畫板命令，如下所示：  
   
- ![設計檢視命令](../designers/media/xaml_editor_design_controls.png "xaml_editor_design_controls")  
+ ![設計檢視命令](~/designers/media/xaml_editor_design_controls.png "xaml_editor_design_controls")  
   
  這個工具列提供下列命令：  
   

@@ -61,7 +61,7 @@ caps.handback.revision: 16
   
  當 automation 取用者所要求的任何事件物件時，建立具有 VSPackage 支援的任何事件的方法的根物件。 環境呼叫適當 `get_` 此物件上的方法。 例如，如果 `DTE.Events.AutomationProjectsEvents` 呼叫時， `get_AutomationProjectsEvents` 會叫用方法的根物件。  
   
- ![Visual Studio 專案事件](../../extensibility/internals/media/projectevents.png "ProjectEvents")  
+ ![Visual Studio 專案事件](~/extensibility/internals/media/projectevents.gif "ProjectEvents")  
 事件的 automation 模型  
   
  類別 `CProjectEventsContainer` BscProjectsEvents，表示來源物件時 `CProjectItemsEventsContainer` BscProjectItemsEvents 表示來源物件。  

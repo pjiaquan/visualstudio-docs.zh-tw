@@ -29,7 +29,7 @@ caps.handback.revision: 10
 ## 加入擴充功能和更新 Visual Studio 中的私用組件庫  
  私用組件庫時，您可以將它加入至 **擴充功能和更新** Visual Studio 中。  
   
- ![&#91;擴充管理員&#93; 的 &#91;新增&#93; 對話方塊](../extensibility/media/em_adddialog.png "EM\_AddDialog")  
+ ![&#91;擴充管理員&#93; 的 &#91;新增&#93; 對話方塊](~/extensibility/media/em_adddialog.png "EM\_AddDialog")  
   
 #### 加入擴充功能和更新的私用組件庫  
   
@@ -67,7 +67,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 ## 從私用組件庫安裝擴充功能  
  您可以搜尋並安裝 Visual Studio 擴充功能中的私用庫 **擴充功能和更新**。 下列步驟使用名為私用組件庫 `My Gallery`。  
   
- ![安裝私人組件庫的 &#91;擴充管理員&#93;](../extensibility/media/em_.png "EM\_")  
+ ![安裝私人組件庫的 &#91;擴充管理員&#93;](~/extensibility/media/em_.png "EM\_")  
   
 #### 搜尋並安裝擴充功能，從私用組件庫  
   
@@ -80,7 +80,7 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
 ## 從私用組件庫的更新延伸模組  
  新版本的 Visual Studio 擴充功能會公佈在私用組件庫中，您可以更新您已安裝的擴充功能。 下列步驟使用名為私用組件庫 `My Repository`。  
   
- ![&#91;擴充管理員&#93; 更新私人組件庫](../extensibility/media/em_update.png "EM\_Update")  
+ ![&#91;擴充管理員&#93; 更新私人組件庫](~/extensibility/media/em_update.png "EM\_Update")  
   
 #### 若要更新已安裝的擴充，從私用組件庫  
   

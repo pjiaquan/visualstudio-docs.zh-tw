@@ -120,7 +120,7 @@ The Visual Studio 程式碼剖析工具提供五個可用來收集效能資料�
 ##  <a name="tier_interaction"></a> 階層互動  
  階層互動分析會將有關 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 網頁或其他應用程式和 [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] 資料庫之間同步 [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] 呼叫的資訊加入至程式碼剖析資料檔案。  資料包含呼叫數目和時間，以及最多和最少次數。  階層互動資料可以加入至透過取樣、檢測、.NET 記憶體或並行方法所收集的程式碼剖析資料。  
   
- ![階層互動分析資料](../profiling/media/tierinteraction_profilingtools.png "TierInteraction\_ProfilingTools")  
+ ![階層互動分析資料](~/profiling/media/tierinteraction_profilingtools.png "TierInteraction\_ProfilingTools")  
 程式碼剖析工具所收集的階層互動資料  
   
  [收集階層互動資料](../profiling/collecting-tier-interaction-data.md)  

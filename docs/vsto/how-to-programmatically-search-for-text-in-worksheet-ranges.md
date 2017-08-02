@@ -33,7 +33,7 @@ caps.handback.revision: 47
 > [!NOTE]  
 >  <xref:Microsoft.Office.Interop.Excel.Range.FindNext%2A> 方法的搜尋到達範圍的結尾之後，會再繞回到搜尋範圍的起點。  您必須確定程式碼搜尋不會在無窮迴圈中反覆環繞。  範例程序會示範使用 <xref:Microsoft.Office.Interop.Excel.Range.Address%2A> 屬性處理這種情況的方式。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Excel 增益集中使用 Find 方法？](http://go.microsoft.com/fwlink/?LinkID=130294)\(英文\)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Excel 增益集中使用 Find 方法？](http://go.microsoft.com/fwlink/?LinkID=130294)\(英文\)。  
   
 ### 若要在工作表範圍中搜尋文字  
   

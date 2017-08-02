@@ -44,22 +44,22 @@ Visual Studio 針對 Django 專案提供完整的 IntelliSense：
 
 - 傳入範本的內容變數：
 
-    ![內容變數的 IntelliSense](media/template-django-intellisense.png)
+    ![內容變數的 IntelliSense](~/python/media/template-django-intellisense.png)
 
 - 標記和篩選內建及使用者定義項目：
 
-    ![標記和篩選的 IntelliSense](media/template-django-intellisense-filter.png)
+    ![標記和篩選的 IntelliSense](~/python/media/template-django-intellisense-filter.png)
 
 - 內嵌 CSS 和 JavaScript 的語法著色：
 
-    ![CSS IntelliSense](media/template-django-intellisense-css.png)
+    ![CSS IntelliSense](~/python/media/template-django-intellisense-css.png)
 
-    ![JavaScript IntelliSense](media/template-django-intellisense-js.png)
+    ![JavaScript IntelliSense](~/python/media/template-django-intellisense-js.png)
 
 
 Visual Studio 也針對 Django 專案提供完整的[偵錯支援](debugging.md)： 
 
-![中斷點](media/template-django-debugging.png)
+![中斷點](~/python/media/template-django-debugging.png)
 
 ## <a name="django-management-console"></a>Django 管理主控台
 
@@ -67,16 +67,16 @@ Django 管理主控台可透過 [專案] 功能表上 (或是在 [方案總管] 
 
 - **開啟 Django 殼層...**：在您的應用程式內容中開啟可讓您操作模型的殼層
 
-    ![主控台](media/template-django-console-shell.png)
+    ![主控台](~/python/media/template-django-console-shell.png)
 
 - **Django 同步 DB**︰在互動式的視窗中執行 `manage.py syncdb`：
 
-    ![主控台](media/template-django-console-sync-db.png)
+    ![主控台](~/python/media/template-django-console-sync-db.png)
 
 - **收集靜態**：執行 `manage.py collectstatic --noinput` 以將所有靜態檔案複製到由 `settings.py` 中的 `STATIC_ROOT` 所指定的路徑。 請注意，[發佈至 Microsoft Azure](template-web.md#publishing-to-azure-app-service)時，發佈作業會自動收集靜態檔案。
 
-    ![主控台](media/template-django-console-collect-static.png)
+    ![主控台](~/python/media/template-django-console-collect-static.png)
 
 - **驗證**：執行 `manage.py validate`，這會報告由 `settings.py` 中的 `INSTALLED_APPS` 所指定之已安裝模組中的所有驗證錯誤：
 
-    ![主控台](media/template-django-console-validate.png)
+    ![主控台](~/python/media/template-django-console-validate.png)

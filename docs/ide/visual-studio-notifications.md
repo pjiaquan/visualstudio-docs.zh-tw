@@ -44,7 +44,7 @@ Visual Studio 有通知系統可警示您各種事件，例如：
   
  如果您選擇一律略過某項通知，Visual Studio 會停止顯示該通知。 您可以在[選項對話方塊、環境、通知](../ide/reference/notifications-environment-options-dialog-box.md)中重設要略過之通知的清單。  
   
- ![Visual Studio 通知圖示](../ide/media/vs2015_notificationicon.png "vs2015_NotificationIcon")  
+ ![Visual Studio 通知圖示](~/ide/media/vs2015_notificationicon.png "vs2015_NotificationIcon")  
   
 ## <a name="see-also"></a>請參閱  
  [Visual Studio IDE](../ide/visual-studio-ide.md)

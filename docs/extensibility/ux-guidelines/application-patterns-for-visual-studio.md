@@ -88,16 +88,16 @@ Visual Studio 工具視窗有不同的狀態，其中有些是使用者啟動 �
   
 -   **索引標籤式文件**工具視窗可以停駐在文件中也。 這是框架的適用於大型的工具視窗，例如物件瀏覽器需要多個不動產比停駐邊緣所允許的。  
   
-![在 Visual Studio 中的工具視窗狀態](../../extensibility/ux-guidelines/media/0702-01_toolwindowstates.png "0702-01_ToolWindowStates")<br />Visual Studio 中的工具視窗狀態
+![在 Visual Studio 中的工具視窗狀態](~/extensibility/ux-guidelines/media/0702-01_toolwindowstates.png "0702-01_ToolWindowStates")<br />Visual Studio 中的工具視窗狀態
   
 #### <a name="single-instance-and-multi-instance"></a>單一執行個體和多重執行個體  
 工具視窗是單一執行個體或多重執行個體。 多重執行個體工具視窗不可能時，部分的單一執行個體工具視窗可能主動式文件視窗中，與相關聯。 多個執行個體工具視窗回應**視窗&gt;新視窗**命令藉由建立視窗的新執行個體。 下圖顯示工具視窗，讓新視窗 命令，使用中視窗的執行個體時︰  
   
-![啟用視窗的執行個體時，[新視窗] 命令的工具視窗是作用中](../../extensibility/ux-guidelines/media/0702-02_toolwindowenablingcommand.png "0702-02_ToolWindowEnablingCommand")<br />啟用視窗的執行個體時，[新視窗] 命令的工具視窗是作用中  
+![啟用視窗的執行個體時，[新視窗] 命令的工具視窗是作用中](~/extensibility/ux-guidelines/media/0702-02_toolwindowenablingcommand.png "0702-02_ToolWindowEnablingCommand")<br />啟用視窗的執行個體時，[新視窗] 命令的工具視窗是作用中  
   
 單一執行個體工具視窗可以隱藏或顯示，而多個執行個體工具視窗可以被關閉，以及隱藏。 所有工具視窗可以停都駐，標籤連結、 浮動或設為多重文件介面 (MDI) 子視窗 （類似於文件視窗）。 所有工具視窗應該都回應 [視窗] 功能表中的適當視窗管理命令︰  
   
-![在 Visual Studio 視窗功能表的視窗管理命令](../../extensibility/ux-guidelines/media/0702-03_windowmanagementcontrols.png "0702-03_WindowManagementControls")<br />在 Visual Studio 視窗功能表的視窗管理命令
+![在 Visual Studio 視窗功能表的視窗管理命令](~/extensibility/ux-guidelines/media/0702-03_windowmanagementcontrols.png "0702-03_WindowManagementControls")<br />在 Visual Studio 視窗功能表的視窗管理命令
   
 #### <a name="document-specific-tool-windows"></a>特定文件的工具視窗  
 部分工具視窗的設計會依據給定的文件類型而變更。 這些視窗持續更新以反映適用於使用中的文件視窗在 IDE 中的功能。  
@@ -330,7 +330,7 @@ Specialty 「 簽章 」 對話方塊可能已設定佈景主題。 佈景主題
 ####  <a name="BKMK_SimpleDialogs"></a>簡單對話方塊  
 簡單對話方塊是單一的強制回應視窗中控制項的呈現。 這個展示檔可能包含複雜的控制項模式，例如欄位選擇器的變化。 簡單的對話，請遵循標準的一般配置，以及任何所需的複雜控制項群組的特定配置。
   
-![> 建立強式名稱金鑰是簡單的對話方塊，在 Visual Studio 中的範例。](../../extensibility/ux-guidelines/media/0704-01_createstrongnamekey.png "0704-01_CreateStrongNameKey")<br />建立強式名稱金鑰是簡單的對話方塊，在 Visual Studio 中的範例。
+![> 建立強式名稱金鑰是簡單的對話方塊，在 Visual Studio 中的範例。](~/extensibility/ux-guidelines/media/0704-01_createstrongnamekey.png "0704-01_CreateStrongNameKey")<br />建立強式名稱金鑰是簡單的對話方塊，在 Visual Studio 中的範例。
   
 ####  <a name="BKMK_LayeredDialogs"></a>多層式的對話方塊  
 分層的對話方塊包含索引標籤、 儀表板和內嵌的樹狀結構。 它們可用來最大化不動產，當有多個群組的單一 UI 段中提供的控制項。 群組的分層，讓使用者選擇哪一個群組，以查看一次。  
@@ -339,7 +339,7 @@ Specialty 「 簽章 」 對話方塊可能已設定佈景主題。 佈景主題
   
 **工具&gt;選項**對話方塊是使用內嵌的樹狀結構的分層對話方塊的範例︰  
   
-![工具 > 選項，是 Visual Studio 中的分層對話方塊的範例。](../../extensibility/ux-guidelines/media/0704-02_toolsoptions.png "0704-02_ToolsOptions")<br />工具 > 選項，是 Visual Studio 中的分層對話方塊的範例。
+![工具 > 選項，是 Visual Studio 中的分層對話方塊的範例。](~/extensibility/ux-guidelines/media/0704-02_toolsoptions.png "0704-02_ToolsOptions")<br />工具 > 選項，是 Visual Studio 中的分層對話方塊的範例。
   
 ####  <a name="BKMK_Wizards"></a>精靈  
 精靈會引導使用者已透過邏輯的一連串的步驟中完成工作有用。 循序面板中所提供的一系列選項，使用者必須繼續進行到下每個步驟才能繼續。 一旦有足夠的預設值可供使用，**完成**按鈕啟用。  
@@ -395,12 +395,12 @@ Specialty 「 簽章 」 對話方塊可能已設定佈景主題。 佈景主題
   
 -   已被取代的標題列中的 [說明] 按鈕。 不要新增至新的對話方塊。 當它們存在的話時，它們應該啟動說明主題，會在概念上與工作相關。  
   
- ![在 Visual Studio 對話方塊中的標題列的指導方針規格](../../extensibility/ux-guidelines/media/0704-03_titlebarspecs.png "0704-03_TitleBarSpecs")<br />在 Visual Studio 對話方塊中的標題列的指導方針規格
+ ![在 Visual Studio 對話方塊中的標題列的指導方針規格](~/extensibility/ux-guidelines/media/0704-03_titlebarspecs.png "0704-03_TitleBarSpecs")<br />在 Visual Studio 對話方塊中的標題列的指導方針規格
   
 #### <a name="control-buttons"></a>控制項的按鈕  
 一般情況下，**確定**，**取消**，和**協助**應該水平排列按鈕，在對話方塊右下角。 如果對話方塊有數個其他按鈕會呈現 visual 混淆在一起的控制按鈕的對話方塊底部，允許替代垂直堆疊。  
   
-![可接受在 Visual Studio 對話方塊中的控制項按鈕組態](../../extensibility/ux-guidelines/media/0704-04_controlbuttonconfig.png "0704-04_ControlButtonConfig")<br />可接受在 Visual Studio 對話方塊中的控制項按鈕組態
+![可接受在 Visual Studio 對話方塊中的控制項按鈕組態](~/extensibility/ux-guidelines/media/0704-04_controlbuttonconfig.png "0704-04_ControlButtonConfig")<br />可接受在 Visual Studio 對話方塊中的控制項按鈕組態
   
 對話方塊中，必須加入預設控制項按鈕。 若要判斷最佳的命令為預設值使用，請選擇下列選項 （依照優先順序列出）︰  
   
@@ -446,7 +446,7 @@ Specialty 「 簽章 」 對話方塊可能已設定佈景主題。 佈景主題
   
 或者，UI，而不是重構到不同的位置較不常見功能是儀表板只提供單一集合中所有可用的功能。  
   
-![公開額外的 UI，在 Outlook 中的 hallway 概念](../../extensibility/ux-guidelines/media/0704-08_hallway.png "0704-08_Hallway")<br />公開額外的 UI，在 Outlook 中的 hallway 概念
+![公開額外的 UI，在 Outlook 中的 hallway 概念](~/extensibility/ux-guidelines/media/0704-08_hallway.png "0704-08_Hallway")<br />公開額外的 UI，在 Outlook 中的 hallway 概念
   
 ##### <a name="adaptive-ui"></a>自動調整的 UI  
 根據使用方式顯示或隱藏 UI，或自我報告的使用者體驗是必要的 UI 呈現時隱藏其他部分的另一種。 這不是建議在 Visual Studio 中，因為決定何時要顯示或隱藏 UI 的演算法可能很困難，而且規則將永遠為錯誤的情況下，某些集。  
@@ -509,10 +509,10 @@ Specialty 「 簽章 」 對話方塊可能已設定佈景主題。 佈景主題
   
 | 滑鼠指標 | 命令 | 說明 |  
 | :---: | --- | --- |  
-| ![滑鼠 「 不置放 」 圖示](../../extensibility/ux-guidelines/media/0706-01_mousenodrop.png "0706年 01_MouseNoDrop") | 不卸除 | 無法卸除項目至指定的位置。 |  
-| ![滑鼠 「 複製 」 圖示](../../extensibility/ux-guidelines/media/0706-02_mousecopy.png "0706年 02_MouseCopy") | 複製 | 項目會複製到目標位置。 |  
-| ![滑鼠 「 移動 」 圖示](../../extensibility/ux-guidelines/media/0706-03_mousemove.png "0706年 03_MouseMove") | Move | 項目將會移至目標位置。 |  
-| ![滑鼠 「 加入參考 」 圖示](../../extensibility/ux-guidelines/media/0706-04_mouseaddref.png "0706年 04_MouseAddRef") | 加入參考 | 選取項目的參考會加入到目標位置。 |
+| ![滑鼠 「 不置放 」 圖示](~/extensibility/ux-guidelines/media/0706-01_mousenodrop.png "0706年 01_MouseNoDrop") | 不卸除 | 無法卸除項目至指定的位置。 |  
+| ![滑鼠 「 複製 」 圖示](~/extensibility/ux-guidelines/media/0706-02_mousecopy.png "0706年 02_MouseCopy") | 複製 | 項目會複製到目標位置。 |  
+| ![滑鼠 「 移動 」 圖示](~/extensibility/ux-guidelines/media/0706-03_mousemove.png "0706年 03_MouseMove") | Move | 項目將會移至目標位置。 |  
+| ![滑鼠 「 加入參考 」 圖示](~/extensibility/ux-guidelines/media/0706-04_mouseaddref.png "0706年 04_MouseAddRef") | 加入參考 | 選取項目的參考會加入到目標位置。 |
 
 #### <a name="reference-based-projects"></a>參考為基礎的專案  
  下表摘要說明拖放 （以及剪下/複製/貼上） 執行的作業應該根據來源項目和修飾詞索引鍵參考為基礎的目標專案已按下的本質︰  

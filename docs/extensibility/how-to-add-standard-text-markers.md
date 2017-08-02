@@ -39,7 +39,7 @@ caps.handback.revision: 10
   
      例如，快顯功能表上的中斷點專屬命令包括**移除中斷點** 到 **新增中斷點**，如下列螢幕擷取畫面所示。  
   
-     ![標記內容功能表](../extensibility/media/vsmarkercontextmenu.png "vsMarkercontextmenu")  
+     ![標記內容功能表](~/extensibility/media/vsmarkercontextmenu.gif "vsMarkercontextmenu")  
   
 2.  傳遞回用來識別自訂指令名稱的一些文字。  例如， **移除中斷點**可能是自訂的指令，如果環境是否已提供參數。  您也傳回來的命令是否支援、 可用且處於啟用狀態，及 \(或\) 在捨去切換。  環境會使用這項資訊，在快顯功能表中的 \[自訂\] 指令顯示正確的方式。  
   

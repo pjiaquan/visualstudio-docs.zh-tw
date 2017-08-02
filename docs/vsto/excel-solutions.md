@@ -74,7 +74,7 @@ caps.handback.revision: 30
   
  如需 VSTO 增益集運作方式的一般資訊，請參閱 [VSTO 增益集的架構](../vsto/architecture-of-vsto-add-ins.md)。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：從 Excel 增益集自動化 PowerPoint](http://go.microsoft.com/fwlink/?LinkID=130300)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：從 Excel 增益集自動化 PowerPoint](http://go.microsoft.com/fwlink/?LinkID=130300)。  
   
 ### Excel 增益集程式設計模型  
  當您建立 Excel VSTO 增益集專案時，Visual Studio 會產生名為 `ThisAddIn` 的類別，這是方案的基礎。 這個類別會提供撰寫程式碼的起點，還會向 VSTO 增益集公開 Excel 物件模型。  

@@ -43,7 +43,7 @@ ms.lasthandoff: 02/22/2017
   
  表單上有四個按鈕，IDE 將它們分別命名為 **button1**、 **button2**、 **button3**及 **button4**。 只從目前的名稱來看，並無法得知哪一個按鈕才是 [關閉]  按鈕，以及哪一個是 [顯示圖片]  按鈕。 這就是為按鈕控制項指定更具資訊性名稱會很有用的原因。  
   
- ![影片連結](../data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 3](http://go.microsoft.com/fwlink/?LinkId=205213) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 3](http://go.microsoft.com/fwlink/?LinkId=205202)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![影片連結](~/data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 3](http://go.microsoft.com/fwlink/?LinkId=205213) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 3](http://go.microsoft.com/fwlink/?LinkId=205202)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### <a name="to-name-your-button-controls"></a>命名您的按鈕控制項  
   
@@ -59,7 +59,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  按兩下表單上的 [顯示圖片]  按鈕。 或者，請選擇表單上的 [顯示圖片]  按鈕，然後選擇 ENTER 鍵。 這樣做時，IDE 會在主視窗中開啟另一個名為 **Form1.cs** 的索引標籤 (如果使用 Visual Basic 則為**Form1.vb** )。 這個索引標籤會顯示表單後的程式碼檔案，如下圖所示。  
   
-     ![包含 Visual C&#35; 程式碼的 [Form1.cs] 索引標籤](../ide/media/express_showbuttoncode.png "Express_ShowButtonCode")  
+     ![包含 Visual C&#35; 程式碼的 [Form1.cs] 索引標籤](~/ide/media/express_showbuttoncode.png "Express_ShowButtonCode")  
 包含 Visual C# 程式碼的 [Form1.cs] 索引標籤  
   
 4.  注意這部分程式碼。 (如果使用 Visual Basic，請選擇下方的 [VB]  索引標籤，以檢視 Visual Basic 版本的程式碼)。  

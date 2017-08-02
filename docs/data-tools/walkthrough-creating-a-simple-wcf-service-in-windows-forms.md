@@ -37,7 +37,7 @@ manager: "ghogen"
     > [!NOTE]
     >  這樣會建立一個可進行測試和存取的工作服務。  以下兩個步驟示範如何修改預設方法以使用不同的資料類型。  在實際的應用程式中，您也會將自己的功能加入服務。  
   
-3.  ![IService1 檔案](../data-tools/media/wcf2.png "wcf2")  
+3.  ![IService1 檔案](~/data-tools/media/wcf2.png "wcf2")  
   
      在 \[方案總管\] 中，按兩下 IService1.vb 或 IService1.cs，並尋找下面這一行：  
   
@@ -120,7 +120,7 @@ manager: "ghogen"
   
 5.  按 **F5** 執行專案。  輸入一些文字，然後按一下按鈕。  標籤會顯示「您輸入：」以及您輸入的文字。  
   
-     ![結果的顯示格式](../data-tools/media/wcf10.png "wcf10")  
+     ![結果的顯示格式](~/data-tools/media/wcf10.png "wcf10")  
   
 ## 請參閱  
  [使用ASMX 和WCF 服務範例](http://msdn.microsoft.com/zh-tw/788ddf2c-2ac1-416b-8789-2fbb1e29b8fe)

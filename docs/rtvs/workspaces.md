@@ -43,7 +43,7 @@ Visual Studio R 工具 (RTVS) 的工作區可讓您設定 R 工作階段的執�
 
 若要開啟 [工作區] 視窗，請使用 [R 工具] > [Windows] > [工作區] 命令，或按 Ctrl+9。
 
-![Visual Studio R 工具的工作區視窗 (VS2017)](media/workspaces-window.png)
+![Visual Studio R 工具的工作區視窗 (VS2017)](~/rtvs/media/workspaces-window.png)
 
 在此視窗中，綠色的核取記號表示 RTVS 繫結所在的使用中工作區。 選取藍色箭頭可設定使用中的工作區。 每個工作區右邊的設定 (齒輪) 圖示可讓您變更其名稱、位置和命令列引數。 紅色 X 會移除以手動方式新增的工作區。
 
@@ -76,7 +76,7 @@ RTVS 可能偵測不到非以標準方式安裝的 R 解譯器 (例如，僅將�
 1. 輸入 R 根資料夾的路徑，亦即包含 `bin` 資料夾及解譯器的路徑，以及 RTVS 啟動時，傳遞至解譯器的任何選用命令列引數。
 1. 完成後選取 [儲存]。
 
-![新增新的工作區](media/workspaces-add-new.png)
+![新增新的工作區](~/rtvs/media/workspaces-add-new.png)
 
 ## <a name="remote-workspaces"></a>遠端工作區
 
@@ -102,7 +102,7 @@ RTVS 一次僅繫結至一個工作區，這會由 [工作區] 視窗中該工�
 
 如果您嘗試切換至已解除安裝的本機工作區或無法使用的遠端工作區，您可能會遇到 RTVS 專案未繫結至任何工作區的情況。 結果，當您在互動視窗中輸入程式碼，或另行嘗試執行程式碼時，可能會看到類似下面的錯誤。 若要修正此問題，只要切換到 [工作區] 視窗中的另一個工作區即可。 如果沒有任何可用的工作區，您必須安裝 R 解譯器。 您也可以嘗試在 Visual Studio 執行時，重新啟動已安裝解譯器的 Visual Studio。
 
-![沒有任何工作區繫結至 RTVS 時發生錯誤](media/workspaces-disconnected-interactive-window.png)
+![沒有任何工作區繫結至 RTVS 時發生錯誤](~/rtvs/media/workspaces-disconnected-interactive-window.png)
 
 ### <a name="switching-to-a-remote-workspace"></a>切換至遠端工作區
 
@@ -110,7 +110,7 @@ RTVS 會在您第一次連線到遠端工作區時提示您輸入認證，然後
 
 根據伺服器的組態，您可能會在連線時看到憑證警告，「遠端 R 服務所顯示的安全性憑證不允許我們證明您已確實連線到電腦 (名稱)」。
 
-![連線到遠端工作區時出現自我簽署憑證警告](media/workspaces-remote-self-signed-certificate-warning.png)
+![連線到遠端工作區時出現自我簽署憑證警告](~/rtvs/media/workspaces-remote-self-signed-certificate-warning.png)
 
 憑證是您嘗試要連接的電腦向 RTVS 提出的一份文件，其包含一個欄位可識別該機器的 URI。 當 RTVS 偵測到憑證中的 URI 與連接電腦所用的 URI 不符時，就會發出警告，指出伺服器的安全性可能已遭入侵。
 
@@ -145,7 +145,7 @@ RTVS 會在您第一次連線到遠端工作區時提示您輸入認證，然後
 
 無論檔案執行時 RTVS 是否複製檔案，且實際複製的檔案為何，都是透過[專案屬性](projects.md#project-properties)控制。 若要開啟此頁面，請選取 [專案] > [(name) Properties...] ((名稱) 屬性...) 功能表命令，或以滑鼠右鍵按一下方案總管中的專案，然後選取 [屬性...]。
 
-![專案屬性執行索引標籤與檔案傳輸設定](media/workspaces-remote-file-transfer-filter-settings.png)
+![專案屬性執行索引標籤與檔案傳輸設定](~/rtvs/media/workspaces-remote-file-transfer-filter-settings.png)
 
 在此，[Transfer files on run] (執行時傳輸檔案) 會判斷 RTVS 是否自動複製專案檔案。 接著 [Files to transfer] (要傳輸的檔案) 值會確實篩選要傳送哪些檔案。 預設值為僅複製 `.R`、`.Rmd`, `.sql`、`.md` 和 `.cpp` 檔案。 這是為了避免每次執行時不小心將大型的資料檔案複製到伺服器。 
 

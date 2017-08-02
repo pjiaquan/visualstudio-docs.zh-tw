@@ -52,7 +52,7 @@ ms.lasthandoff: 05/13/2017
   
 1.  在 [測試] 功能表中選擇 [分析程式碼涵蓋範圍]。  
   
-2.  若要查看已執行的程式碼行，請選擇 ![顯示程式碼涵蓋範圍著色圖示](../test/media/codecoverage-showcoloringicon.png "CodeCoverage-ShowColoringIcon")[顯示程式碼涵蓋範圍著色]。  
+2.  若要查看已執行的程式碼行，請選擇 ![顯示程式碼涵蓋範圍著色圖示](~/test/media/codecoverage-showcoloringicon.png "CodeCoverage-ShowColoringIcon")[顯示程式碼涵蓋範圍著色]。  
   
      若要修改色彩或使用粗體格式，請選擇 [工具]、[選項]、[環境]、[字型和色彩]、[顯示設定: 文字編輯器]。 在 [顯示項目] 下，調整 [涵蓋範圍] 項目。  
   
@@ -97,7 +97,7 @@ ms.lasthandoff: 05/13/2017
   
  例如，假設您在執行輸入 "2" 的測試時發現特定函式的涵蓋範圍是 50%。 當您第二次輸入 "-2" 執行測試時，您會在涵蓋範圍著色檢視中看見涵蓋範圍多了另外的 50%。 現在您合併了兩個測試回合的結果，而報告和涵蓋範圍檢視也顯示涵蓋範圍是該函式的 100%。  
   
- 若要這樣做，請使用 ![[程式碼涵蓋範圍] 視窗中的 [合併] 按鈕圖示](../test/media/codecoverage-mergeicon.png "CodeCoverage-MergeIcon")[合併程式碼涵蓋範圍結果]。 您可以選擇最近的回合或匯入之結果的任何組合。 如果您要合併匯出的結果，必須先匯入結果。  
+ 若要這樣做，請使用 ![[程式碼涵蓋範圍] 視窗中的 [合併] 按鈕圖示](~/test/media/codecoverage-mergeicon.png "CodeCoverage-MergeIcon")[合併程式碼涵蓋範圍結果]。 您可以選擇最近的回合或匯入之結果的任何組合。 如果您要合併匯出的結果，必須先匯入結果。  
   
  使用 [匯出程式碼涵蓋範圍結果]，儲存合併作業的結果。  
   
@@ -276,7 +276,7 @@ ExcludeSourceFromCodeCoverage(Exclusion4, L"*\\unittest1.cpp");
   
          在 [自動化測試] 下，選取 [測試組件]，然後選擇行末的省略符號按鈕 [...]。 在 [加入/編輯測試回合] 對話方塊中，選擇 [測試執行器] 之下的 [Visual Studio 測試執行器]。  
   
- ![設定程式碼涵蓋範圍的組建定義](../test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
+ ![設定程式碼涵蓋範圍的組建定義](~/test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")  
   
  組建執行後會將程式碼涵蓋範圍結果附加至測試回合，而且結果會出現在組建摘要。  
   

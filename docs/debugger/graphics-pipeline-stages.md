@@ -124,7 +124,7 @@ manager: "ghogen"
   
  若要檢視頂點著色器階段的結果，請選擇 \[頂點著色器\] 階段縮圖，以檢視由頂點著色器轉換後之網狀的完整大小點陣化線框。  
   
- ![頂點著色器階段結果預覽](../debugger/media/gfx_diag_vertex_shader_preview.png "gfx\_diag\_vertex\_shader\_preview")  
+ ![頂點著色器階段結果預覽](~/debugger/graphics/media/gfx_diag_vertex_shader_preview.png "gfx\_diag\_vertex\_shader\_preview")  
   
 ## 請參閱  
  [逐步解說：因端點著色而遺漏的物件](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   

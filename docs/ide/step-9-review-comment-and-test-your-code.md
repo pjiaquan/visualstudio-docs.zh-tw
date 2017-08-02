@@ -44,7 +44,7 @@ caps.handback.revision: 29
   
      陳述式就是讓程式執行動作的機制。  在 Visual C\# 中，陳述式的結尾一定是分號。  在 Visual Basic 中，行尾就代表陳述式結尾 \(Visual Basic 中不需要分號\)。上一個陳述式指示 `PictureBox` 控制項載入使用者以 **OpenFileDialog** 元件選取的檔案。  
   
- ![視訊的連結](../data-tools/media/playvideo.png "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 5](http://go.microsoft.com/fwlink/?LinkId=205216) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 5](http://go.microsoft.com/fwlink/?LinkId=205206)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 5](http://go.microsoft.com/fwlink/?LinkId=205216) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 5](http://go.microsoft.com/fwlink/?LinkId=205206)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### 加入註解  
   
@@ -65,7 +65,7 @@ caps.handback.revision: 29
   
 2.  執行程式之前，選擇 \[**全部儲存**\] 工具列按鈕儲存程式，如下所示。  
   
-     ![&#91;全部儲存&#93; 工具列按鈕](../ide/media/express_iconsaveall.png "Express\_IconSaveAll")  
+     ![&#91;全部儲存&#93; 工具列按鈕](~/ide/media/express_iconsaveall.png "Express\_IconSaveAll")  
 全部儲存按鈕  
   
      或者，在功能表列上選擇 \[**檔案**\]、\[**全部儲存**\]，以儲存程式。  最好養成儘早並經常儲存的習慣。  

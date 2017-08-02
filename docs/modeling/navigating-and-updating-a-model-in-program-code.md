@@ -70,11 +70,11 @@ ms.lasthandoff: 02/22/2017
 ##  <a name="a-nameexamplea-an-example-dsl-definition"></a><a name="example"></a>DSL 定義範例  
  這是 DslDefinition.dsl 的主要部分，如本主題中的範例︰  
   
- ![DSL 定義圖表-家譜模型](../modeling/media/familyt_person.png "FamilyT_Person")  
+ ![DSL 定義圖表-家譜模型](~/modeling/media/familyt_person.png "FamilyT_Person")  
   
  此模型是此 DSL 的執行個體︰  
   
- ![都鐸王朝家譜模型](../modeling/media/tudor_familytreemodel.png "Tudor_FamilyTreeModel")  
+ ![都鐸王朝家譜模型](~/modeling/media/tudor_familytreemodel.png "Tudor_FamilyTreeModel")  
   
 ### <a name="references-and-namespaces"></a>參考和命名空間  
  若要執行本主題中的程式碼，您應該參考︰  
@@ -365,7 +365,7 @@ using (Transaction t = targetDiagram.Store.
  在 DSL 中，網域模型項目，它代表的概念，例如人或歌曲，是個別從圖形項目，表示您在圖表上所看到的內容。 網域模型項目儲存的重要屬性和關聯性的概念。 圖形元素儲存大小、 位置和物件的檢視，請在圖表上的色彩和其元件部分的版面配置。  
   
 ### <a name="presentation-elements"></a>簡報項目  
- ![基本圖案和項目類型的類別圖表](../modeling/media/dslshapesandelements.png "DSLshapesAndElements")  
+ ![基本圖案和項目類型的類別圖表](~/modeling/media/dslshapesandelements.png "DSLshapesAndElements")  
   
  在 DSL 定義中，您指定每個項目會建立衍生自下列標準類別的其中一個類別。  
   

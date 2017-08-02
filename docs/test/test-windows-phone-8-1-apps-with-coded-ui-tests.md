@@ -46,7 +46,7 @@ ms.lasthandoff: 05/13/2017
   
 2.  在方案總管中，開啟 MainPage.xaml。 從 [工具箱] 中，將按鈕控制項和文字方塊控制項拖曳至設計介面。  
   
-     ![將控制項加入 MainPage.xaml](../test/media/cuit_phone_app_addcontrols.png "CUIT_Phone_App_AddControls")  
+     ![將控制項加入 MainPage.xaml](~/test/media/cuit_phone_app_addcontrols.png "CUIT_Phone_App_AddControls")  
   
 3.  在 [屬性] 視窗中，命名按鈕控制項。  
   
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/13/2017
   
 2.  選擇使用交叉線工具編輯 UI 對應。  
   
-     ![使用交叉線工具產生自動程式化 UI 測試](../test/media/cuit_phone_howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
+     ![使用交叉線工具產生自動程式化 UI 測試](~/test/media/cuit_phone_howgencodedialog.png "CUIT_Phone_HowGenCodeDialog")  
   
 3.  使用交叉線工具選取應用程式，然後複製應用程式的 **AutomationId** 屬性值，稍後將使用此值啟動測試中的應用程式。  
   

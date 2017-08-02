@@ -56,7 +56,7 @@ manager: "ghogen"
   
      下圖示範 \[**資料來源**\] 視窗中資料集之 \[**Customers**\] 資料表的相關 \[**Orders**\] 資料表。  
   
-     ![顯示關聯的資料來源視窗](../data-tools/media/datasources2.gif "DataSources2")  
+     ![顯示關聯的資料來源視窗](~/data-tools/media/datasources2.gif "DataSources2")  
   
 ## 請參閱  
  [將 WPF 控制項繫結至 Visual Studio 中的資料](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   

@@ -32,7 +32,7 @@ caps.handback.revision: 20
   
  下列的概念圖顯示基本語言服務的模型。  
   
- ![語言服務模型圖形](../../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
+ ![語言服務模型圖形](~/extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
 基本語言服務模型  
   
  文件視窗的主機*文件檢視*的編輯器中，在這種情況下[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]核心編輯器。  文件檢視\] 和 \[文字緩衝區均屬編輯器\]。  這些物件將會使用[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]使用特殊的文件\] 視窗中，呼叫*程式碼\] 視窗*。  程式碼\] 視窗包含在<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> ，建立且由 IDE 控制的物件。  

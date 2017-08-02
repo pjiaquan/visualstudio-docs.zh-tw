@@ -59,14 +59,14 @@ Visual Studio [ **能源消耗** ] 分析工具可協助您分析 Windows 市集
   
 -   「*能源* 」(Energy) 用於測量總功率，以容量或電位、電池的電量，或某段時間的累計總用電量表示。 能源的單位是瓦-小時，一小時內連續產生的一瓦功率數。 在 [ **能源摘要**] 中，單位顯示為毫瓦-小時 [ **mW-h**]。  
   
- ![能源容量、耗電量、消耗的能源總計](../profiling/media/energyprof_capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
+ ![能源容量、耗電量、消耗的能源總計](~/profiling/media/energyprof_capcitypowerused.png "ENERGYPROF_CapcityPowerUsed")  
   
  例如，平板電腦中完全充電的電池有特定的儲存電能量。 當能源用來執行像是網路通訊、計算值或顯示圖形這類工作時，電池的電力會以不同的速率消耗。 任一段時間內的總耗電量也是以能源測量。  
   
 ##  <a name="BKMK_Identify_scenarios_with_user_marks"></a> 透過使用者標記識別情節  
  您可以將「 *使用者標記* 」(User Mark) 加入至分析資料，以便識別時間軸尺規中的區段。  
   
- ![時間軸中的使用者標記](../profiling/media/profilers_usermarktimeline.png "PROFILERS_UserMarkTimeline")  
+ ![時間軸中的使用者標記](~/profiling/media/profilers_usermarktimeline.png "PROFILERS_UserMarkTimeline")  
   
  在方法執行的時候，該標記會在時間軸中顯示為橙色三角形。 當您將游標停留在標記上時，訊息和時間就會做為工具提示顯示。 如果兩個以上的使用者標記很接近，標記會合併，並且工具提示資料會結合在一起。 您可以放大時間軸來分隔標記。  
   
@@ -117,7 +117,7 @@ if (performance && performance.mark) {
   
 4.  若要停止分析，請切換回到 Visual Studio (Alt+Tab)，並選擇診斷中樞頁面上的 [ **停止收集** ]。  
   
-     ![停止收集資料](../profiling/media/xamlprof_stopcollection.png "XAMLProf_StopCollection")  
+     ![停止收集資料](~/profiling/media/xamlprof_stopcollection.png "XAMLProf_StopCollection")  
   
      Visual Studio 會分析收集到的資料並顯示結果。  
   
@@ -141,12 +141,12 @@ if (performance && performance.mark) {
   
 |||  
 |-|-|  
-|![步驟 1](../profiling/media/procguid_1.png "ProcGuid_1")|報告檔的名稱為 Report*YYYYMMDD-HHMM*.diagsession。 如果您決定儲存報告，可以變更名稱。|  
-|![步驟 2](../profiling/media/procguid_2.png "ProcGuid_2")|時間軸會顯示程式碼剖析工作階段的長度、應用程式週期啟用事件，以及使用者標記。|  
-|![步驟 3](../profiling/media/procguid_3.png "ProcGuid_3")|您可以拖曳藍色巡覽列，選取時間軸的區域，將報告限制在時間軸的一部分。|  
-|![步驟 4](../profiling/media/procguid_4.png "ProcGuid_4")|[ **用電量** ] 圖形是多行折線圖，顯示程式碼剖析工作階段期間由裝置資源造成的電源輸出變更。 能源消耗分析工具會追蹤 CPU、網路活動和螢幕顯示器使用的電源。|  
-|![步驟 5](../profiling/media/procguid_6.png "ProcGuid_6")|[ **資源 (開啟/關閉)**  ] 圖形提供網路能源成本的詳細資料。 [ **網路** ] 橫條圖表示網路連接開啟的時間。 [ **資料傳輸** ] 子橫條圖是應用程式透過網路接收或傳送資料的時間。|  
-|![步驟 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|[ **用電量摘要** ] 會顯示所選時間軸中 CPU、網路活動和螢幕顯示器使用的能源總計比例。|  
+|![步驟 1](~/profiling/media/procguid_1.png "ProcGuid_1")|報告檔的名稱為 Report*YYYYMMDD-HHMM*.diagsession。 如果您決定儲存報告，可以變更名稱。|  
+|![步驟 2](~/profiling/media/procguid_2.png "ProcGuid_2")|時間軸會顯示程式碼剖析工作階段的長度、應用程式週期啟用事件，以及使用者標記。|  
+|![步驟 3](~/profiling/media/procguid_3.png "ProcGuid_3")|您可以拖曳藍色巡覽列，選取時間軸的區域，將報告限制在時間軸的一部分。|  
+|![步驟 4](~/profiling/media/procguid_4.png "ProcGuid_4")|[ **用電量** ] 圖形是多行折線圖，顯示程式碼剖析工作階段期間由裝置資源造成的電源輸出變更。 能源消耗分析工具會追蹤 CPU、網路活動和螢幕顯示器使用的電源。|  
+|![步驟 5](~/profiling/media/procguid_6.png "ProcGuid_6")|[ **資源 (開啟/關閉)**  ] 圖形提供網路能源成本的詳細資料。 [ **網路** ] 橫條圖表示網路連接開啟的時間。 [ **資料傳輸** ] 子橫條圖是應用程式透過網路接收或傳送資料的時間。|  
+|![步驟 6](~/profiling/media/procguid_6a.png "ProcGuid_6a")|[ **用電量摘要** ] 會顯示所選時間軸中 CPU、網路活動和螢幕顯示器使用的能源總計比例。|  
   
  **若要分析能源分析資料**  
   

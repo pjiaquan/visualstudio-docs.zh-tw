@@ -20,7 +20,7 @@ caps.handback.revision: 22
 
 建立圖片檢視器的第一個步驟是建立 Windows Form 應用程式專案。  
   
- ![視訊的連結](../data-tools/media/playvideo.png "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205209) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205199)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205209) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205199)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### 若要建立 Windows Form 應用程式專案  
   
@@ -40,7 +40,7 @@ caps.handback.revision: 22
     > [!NOTE]
     >  您的視窗配置看起來可能不會與下圖完全相同。  確切的視窗配置取決於 Visual Studio 版本、您使用的程式語言及其他因素。  不過，您應該確認三個視窗都已出現。  
   
-     ![IDE 視窗](../ide/media/express_ideoverview_visio.png "Express\_IDEOverview\_Visio")  
+     ![IDE 視窗](~/ide/media/express_ideoverview_visio.png "Express\_IDEOverview\_Visio")  
 IDE 視窗  
   
      介面中包含三個視窗：主視窗、\[**方案總管**\] 和 \[**屬性**\] 視窗。  
@@ -62,7 +62,7 @@ IDE 視窗
   
      或者，選擇工具列上的 \[**全部儲存**\] 按鈕，如下圖所示。  
   
-     ![&#91;全部儲存&#93; 工具列按鈕](../ide/media/express_iconsaveall.png "Express\_IconSaveAll")  
+     ![&#91;全部儲存&#93; 工具列按鈕](~/ide/media/express_iconsaveall.png "Express\_IconSaveAll")  
 \[全部儲存\] 工具列按鈕  
   
      Visual Studio 會自動填入資料夾名稱和專案名稱，然後將專案儲存在專案資料夾中。  

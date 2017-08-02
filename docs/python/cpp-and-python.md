@@ -52,7 +52,7 @@ ms.lasthandoff: 05/10/2017
 
 本逐步解說是針對 Visual Studio 2017 所撰寫，並且具有**使用 C++ 的桌面開發**和 **Python 開發**工作負載，及其預設選項 (例如使用 Python 3.6 作為預設解譯器)。 在 **Python 開發**工作負載中，也請核取 **Python 原生開發工具**右邊的方塊，它會設定本主題中所述的大部分選項。 (這個選項也會自動包含 C++ 工作負載。) 
 
-![選取 Python 原生開發工具選項](media/cpp-install-native.png)
+![選取 Python 原生開發工具選項](~/python/media/cpp-install-native.png)
 
 如需詳細資料，請參閱[為 Visual Studio 安裝 Python 支援](installation.md)，包括使用 Visual Studio 的其他版本。 如果您分別安裝 Python，請務必在安裝程式的 [進階選項] 下，選取 [下載偵錯符號] 和 [下載偵錯二進位檔案]。 如此可確保如果您選擇進行偵錯組建，您可以使用必要的偵錯程式庫。
 
@@ -278,7 +278,7 @@ ms.lasthandoff: 05/10/2017
 
 1. 在您的 C++ 程式碼中，在 `tanh` 方法內的第一行設定中斷點，然後啟動偵錯工具。 您會看到偵錯工具在呼叫該程式碼時停止︰
 
-    ![在 C++ 程式碼的中斷點處停止](media/cpp-debugging.png)
+    ![在 C++ 程式碼的中斷點處停止](~/python/media/cpp-debugging.png)
 
 1. 此時您可以逐步執行 C++ 程式碼、檢查變數等等，如[同時偵錯 Python 和 C++ 程式碼](debugging-mixed-mode.md)中所述。
 

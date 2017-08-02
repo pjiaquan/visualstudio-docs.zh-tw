@@ -40,7 +40,7 @@ caps.handback.revision: 25
   
  當原始檔控制套件為現用的套件時，相反地，原始檔控制虛設常式直接與通訊封裝使用[!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]原始檔控制套件的介面。  原始檔控制套件會負責管理它自己的原始檔控制 UI 項目。  
   
- ![原始檔控制架構圖形](../../extensibility/internals/media/vsipsccarch.png "VSIPSCCArch")  
+ ![原始檔控制架構圖形](~/extensibility/internals/media/vsipsccarch.gif "VSIPSCCArch")  
   
  原始檔控制套件， [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]未提供原始程式碼控制項\] 或 \[整合的 API。  以此所述的方法和[建立原始檔控制外掛程式](../../extensibility/internals/creating-a-source-control-plug-in.md)而原始檔控制外掛程式之間具有嚴格的一段函式和回呼的實作。  
   

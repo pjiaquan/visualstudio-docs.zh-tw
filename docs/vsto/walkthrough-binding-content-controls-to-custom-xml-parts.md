@@ -89,15 +89,15 @@ caps.handback.revision: 50
     > [!NOTE]  
     >  如果未顯示 \[開發人員\] 索引標籤，您必須先使其顯示。  如需詳細資訊，請參閱[如何：在功能區顯示開發人員索引標籤](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)。  
   
-6.  在 \[控制項\] 群組中，選擇 \[文字\] 按鈕 ![PlainTextContentControl](../vsto/media/plaintextcontrol.png "PlainTextContentControl") 以將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 新增至第一個儲存格。  
+6.  在 \[控制項\] 群組中，選擇 \[文字\] 按鈕 ![PlainTextContentControl](~/vsto/media/plaintextcontrol.gif "PlainTextContentControl") 以將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 新增至第一個儲存格。  
   
 7.  在資料表的第二個資料行中，選擇第二個資料列 \(\[雇用日期\] 旁邊\)。  
   
-8.  在 \[控制項\] 群組中，選擇 \[日期選擇器\] 按鈕 ![DatePickerContentControl](../vsto/media/datepicker.png "DatePickerContentControl") 以將 <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> 新增至第二個儲存格。  
+8.  在 \[控制項\] 群組中，選擇 \[日期選擇器\] 按鈕 ![DatePickerContentControl](~/vsto/media/datepicker.gif "DatePickerContentControl") 以將 <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> 新增至第二個儲存格。  
   
 9. 在資料表的第二個資料行中，選擇第三個資料列 \(\[職稱\] 旁邊\)。  
   
-10. 在 \[控制項\] 群組中，選擇 \[下拉式清單\] 按鈕 ![DropDownListContentControl](../vsto/media/dropdownlist.png "DropDownListContentControl") 以將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 新增至最後一個儲存格。  
+10. 在 \[控制項\] 群組中，選擇 \[下拉式清單\] 按鈕 ![DropDownListContentControl](~/vsto/media/dropdownlist.gif "DropDownListContentControl") 以將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> 新增至最後一個儲存格。  
   
  這是此專案的整個使用者介面。  如果您立即執行專案，則可以在第一個資料列中輸入文字，並在第二個資料列選取日期。  下一個步驟是將您想要顯示的資料附加至 XML 檔案中的文件。  
   

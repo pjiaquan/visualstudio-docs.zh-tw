@@ -27,7 +27,7 @@ XML 結構描述總管可讓您以下列方式搜尋結構描述集：
 ## 關鍵字搜尋  
  您可以在 XML 結構描述總管工具列的 \[**搜尋 SchemaSet**\] 文字方塊中，輸入子字串，執行關鍵字搜尋。  
   
- ![XML 結構描述總管關鍵字搜尋](../xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")  
+ ![XML 結構描述總管關鍵字搜尋](~/xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")  
   
  XML 結構描述總管會搜尋下列結構描述集：  
   

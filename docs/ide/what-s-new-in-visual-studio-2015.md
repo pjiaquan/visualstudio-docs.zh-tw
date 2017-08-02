@@ -33,7 +33,7 @@ manager: "ghogen"
   
  Visual Studio 2015 安裝經驗已經元件化，因此，您只需要安裝所需的組件。 對於包含 .NET 或 Web 開發的許多常見案例而言，這可加速安裝。 如果您執行其他類型的開發 \(例如跨平台行動開發\)，或使用 C\+\+ 或 F\# 工作，請選擇 \[自訂\] 安裝，然後選擇您需要的元件和選擇性協力廠商 SDK。 您之後也可以安裝任何自訂元件。 例如，如果您選擇 \[基本\] 安裝，然後嘗試建立新的 C\+\+ 專案時，則系統會提示您下載 C\+\+ 開發工具。  
   
- ![Visual Studio 2015 的 &#91;安裝&#93; 對話方塊](../ide/media/vs2015_setup_screen.png "VS2015\_Setup\_screen")  
+ ![Visual Studio 2015 的 &#91;安裝&#93; 對話方塊](~/ide/media/vs2015_setup_screen.png "VS2015\_Setup\_screen")  
   
 ## 跨多個帳戶登入  
  Visual Studio 2015 的新登入功能設計，可以大大地簡化您存取線上資源的流程，即使使用多個 Visual Studio 帳戶，也一樣地有效率。 當您登入 Visual Studio 之後，您會自動登入您電腦上所有的 Visual Studio 2015 執行個體及 Blend 執行個體。 登入會自動為您開始漫遊您的設定。 在 Visual Studio 2015 中，所有功能會共用您的帳戶，因此，只要您持有有效的權杖，便能從 **Team Explorer** 存取您的 Visual Studio Team Services 帳戶，以及使用您的 Microsoft Azure 訂用帳戶，從 \[伺服器總管\] 存取資源及網站。 您也可以在 Application Insights 專案的 \[新增專案\] 對話方塊中，檢視您的 Azure 資源；還可在新增加的 \[加入已連接服務\] 對話方塊中，檢視 Azure Mobile、Azure 儲存體、[Microsoft Office 365](http://msdn.microsoft.com/office/aa905340.aspx) 和 [Saleforce.com 開發人員](https://developer.salesforce.com/)帳戶。  
@@ -64,7 +64,7 @@ manager: "ghogen"
 ### 適用於任何 Windows 10 裝置的通用 Windows 應用程式  
  透過通用 Windows 平台和單一 Windows 核心，您可以在從手機到桌上型電腦的任何 Windows 10 裝置上執行相同的應用程式。 您可以使用 Visual Studio 2015 和通用 Windows 應用程式開發工具，來建立這些通用 Windows 應用程式。  
   
- ![通用 Windows 平台](../cross-platform/media/uwp_coreextensions.png "UWP\_CoreExtensions")  
+ ![通用 Windows 平台](~/cross-platform/media/uwp_coreextensions.png "UWP\_CoreExtensions")  
   
  在 Windows 10 手機、Windows 10 桌上型電腦或 Xbox 上執行您的應用程式。 全部使用相同的應用程式套件！ 有了 Windows 10 單一整合核心，一個應用程式套件可以在所有平台上執行。 數個平台都有擴充功能 SDK，可供您加入應用程式以利用平台專屬行為。 例如，手機的擴充功能 SDK 會處理在 Windows 手機上按下返回鍵的行為。 如果您在專案中參考擴充功能 SDK，只要加入執行階段檢查，就能測試該平台是否可以使用這個 SDK。 因此，您可以針對每一個平台使用相同的應用程式套件！  
   
@@ -95,7 +95,7 @@ manager: "ghogen"
 ## 裝置預覽功能表列  
  在通用 Windows 平台專案中，裝置預覽功能表列可讓您查看如何以各種螢幕大小呈現以 XAML 為基礎的 UI。  
   
- ![裝置預覽功能表](../ide/media/vs2015_device_preview.png "vs2015\_device\_preview")  
+ ![裝置預覽功能表](~/ide/media/vs2015_device_preview.png "vs2015\_device\_preview")  
   
 ## Visual Studio 圖形診斷  
  自 Visual Studio 2013 之後，Visual Studio 圖形診斷已經加入許多新功能 \(包括畫面格分析，Windows Phone 支援、著色器編輯和套用，以及命令列擷取工具\)。 它也已加入對 DirectX12 應用程式進行偵錯的支援。 如需詳細資訊，請參閱 [Visual Studio 圖形診斷](../debugger/visual-studio-graphics-diagnostics.md)。  
@@ -113,7 +113,7 @@ manager: "ghogen"
   
  我們將持續加入新服務，您也可以按一下精靈中的 \[尋找新服務連結\] 探索這些服務。  
   
- ![&#91;加入已連接服務&#93; 對話方塊](../ide/media/vs2015_addconnectedservicedialog.png "VS2015\_AddConnectedServiceDialog")  
+ ![&#91;加入已連接服務&#93; 對話方塊](~/ide/media/vs2015_addconnectedservicedialog.png "VS2015\_AddConnectedServiceDialog")  
   
 ## 設計您的 UI  
  設計 XAML 使用者介面的 Blend 體驗已大幅改進。 Blend 已完全重新設計，提供更直覺的 UI、含 IntelliSense 等更強大的 XAML 編輯功能，以及與 Visual Studio 更佳的整合。 如需詳細資訊，請參閱[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)。  
@@ -168,7 +168,7 @@ manager: "ghogen"
 ### 高解析度影像和觸控支援  
  Visual Studio IDE 現在可在像素更密集的顯示畫面上 \(在功能表、操作功能表、工具視窗命令列等區域中，以及方案總管的一些專案中\)，提供真正高解析度的影像。 在 Visual Studio 程式碼編輯器視窗的觸控螢幕方面，您現在可以使用觸碰並按住、捏合、點選等手勢來縮放、捲動、選取文字及叫用操作功能表。  
   
- ![編輯器的觸控支援](../ide/media/vs2015_touchsupport.png "VS2015\_TouchSupport")  
+ ![編輯器的觸控支援](~/ide/media/vs2015_touchsupport.png "VS2015\_TouchSupport")  
   
 ### 自訂配置  
  您可以建立存放區並漫遊自訂視窗配置。 例如，您可以為桌上型電腦定義一種偏好配置，再為筆記型電腦或小型螢幕裝置定義另外一種偏好配置。 或者，您也可以針對 UI 專案偏好使用某個配置，並針對資料庫專案偏好使用另一個配置。 按鍵組合可讓您快速切換配置。 當您登入時，可在任何 Visual Studio 執行個體上使用這些配置。 如需詳細資訊，請參閱[建立自訂視窗配置](../misc/create-custom-window-layouts.md)。  
@@ -189,7 +189,7 @@ manager: "ghogen"
   
 -   查看顯示變更您程式碼之人員的圖表。 這可協助您找出小組變更的模式，並評估其影響。  
   
-     ![CodeLens：以圖形方式檢視程式碼變更記錄](../ide/media/codelens.png "CodeLens")  
+     ![CodeLens：以圖形方式檢視程式碼變更記錄](~/ide/media/codelens.png "CodeLens")  
   
 -   輕鬆地查看上次變更程式碼的時間。  
   
@@ -204,7 +204,7 @@ manager: "ghogen"
   
  在此版本中，我們將命令分組成與選取、編輯和管理群組相關的區段，並變更群組內容的配置，以更容易使用程式碼項目和連結的捷徑功能表。 另請注意，測試專案的顯示樣式會與其他專案不同，並且我們已將對應上的項目圖示更新為更適當的版本。  
   
- ![在新的 Code Map 上顯示選取的項目](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
+ ![在新的 Code Map 上顯示選取的項目](~/ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
  其他改進還包括：  
   

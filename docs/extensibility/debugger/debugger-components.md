@@ -37,7 +37,7 @@ caps.handback.revision: 30
   
  下圖顯示這些項目 Visual Studio 的偵錯工具之間的關係。  
   
- ![元件偵錯概觀](../../extensibility/debugger/media/dbugcompovrview.png "DBugCompOvrview")  
+ ![元件偵錯概觀](~/extensibility/debugger/media/dbugcompovrview.gif "DBugCompOvrview")  
   
 ## 本章節內容  
  [偵錯封裝](../../extensibility/debugger/debug-package.md)  

@@ -32,7 +32,7 @@ ms.lasthandoff: 05/13/2017
 ## <a name="syntax-colorization-statement-completion-and-navigate-to-support"></a>語法顏色標示、陳述式完成和「巡覽至」支援  
  Visual Studio 編輯器中的語法顏色標示、陳述式完成和「巡覽至」等功能，可協助您更輕鬆地閱讀、建立和編輯您的程式碼。 下列螢幕擷取畫面顯示在 Visual Studio 中編輯 Perl 指令碼的範例。 語法會自動以色彩標示。 比方說，程式碼中的註解會標示為綠色、程式碼為黑色、路徑為是紅色，陳述式則為藍色。 Visual Studio 編輯器會自動將語法顏色標示套用至任何支援的語言。 此外，當您開始輸入已知的語言關鍵字或物件時，陳述式完成就會顯示可能陳述式和物件的清單。 陳述式完成可協助您更快速且輕鬆地建立程式碼。  
   
- ![Perl 指令碼中的語法顏色標示](../ide/media/vside_perledit.png "VSIDE_PerlEdit")  
+ ![Perl 指令碼中的語法顏色標示](~/ide/media/vside_perledit.png "VSIDE_PerlEdit")  
   
  Visual Studio 目前使用 [TextMate 文法](https://manual.macromates.com/en/language_grammars)，提供下列語言版本之語法顏色標示和基本陳述式完成的支援。 不過，如果您偏好的語言不在資料表中，不用擔心 - 您可以新增它。  
   

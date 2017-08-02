@@ -38,7 +38,7 @@ manager: "ghogen"
   
 #### 擷取框架  
   
--   在 Visual Studio 中的 \[圖形\] 工具列上，選擇 \[擷取畫面格\] 按鈕 ![圖形擷取按鈕圖示](../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")。  
+-   在 Visual Studio 中的 \[圖形\] 工具列上，選擇 \[擷取畫面格\] 按鈕 ![圖形擷取按鈕圖示](~/debugger/graphics/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")。  
   
 -   接下鍵盤上的 Print Screen 鍵。  
   

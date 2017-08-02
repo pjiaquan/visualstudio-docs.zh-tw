@@ -36,7 +36,7 @@ ms.lasthandoff: 04/04/2017
 
 ---
 # <a name="analyze-c-code-quality-of-store-apps-using-visual-studio-static-code-analysis"></a>使用 Visual Studio 靜態程式碼分析，分析市集應用程式的 C++ 程式碼品質
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+![適用於 Windows 和 Windows Phone](~/debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  Visual Studio Express Edition 中的程式碼分析工具會檢查您的程式碼是否有常見的問題，以及是否違反良好的程式設計作法。 程式碼分析警告與編譯器錯誤和警告不同，因為程式碼分析會搜尋有效的特定程式碼模式，但仍然可以為您或使用您程式碼的其他人建立問題。 程式碼分析也可以尋找難以透過測試發現的程式碼缺失。 在開發過程中定期執行程式碼分析工具，可以提升已完成應用程式的品質。  
   
@@ -78,7 +78,7 @@ ms.lasthandoff: 04/04/2017
   
  當您展開警告時，會在 Visual Studio 程式碼編輯器中反白顯示造成警告的程式碼行。  
   
- ![反白顯示的原始程式碼](../test/media/ca_cpp_sourceline.png "CA_CPP_SourceLine")  
+ ![反白顯示的原始程式碼](~/test/media/ca_cpp_sourceline.png "CA_CPP_SourceLine")  
   
  在您了解問題之後，就可以在程式碼中解決問題。 然後重新執行程式碼分析來確定 [程式碼分析] 視窗中不會再次出現警告，且您的修正尚未引發新的警告。  
   

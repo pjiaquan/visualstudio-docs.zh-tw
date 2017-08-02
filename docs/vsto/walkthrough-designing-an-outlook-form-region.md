@@ -48,7 +48,7 @@ caps.handback.revision: 40
   
 -   [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] 或 [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)]。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需本主題的影片版本，請參閱[影片 \- 如何：設計 Outlook 表單區域](http://go.microsoft.com/fwlink/?LinkID=140824)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需本主題的影片版本，請參閱[影片 \- 如何：設計 Outlook 表單區域](http://go.microsoft.com/fwlink/?LinkID=140824)。  
   
 ## 建立新的 Outlook VSTO 增益集專案  
  第一次建立基本的 VSTO 增益集專案。  

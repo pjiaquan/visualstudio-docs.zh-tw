@@ -36,7 +36,7 @@ caps.handback.revision: 14
   
 2.  在 \[**方案總管**\] 中，選擇 SharePoint 專案節點的一個項目。  
   
-3.  在 \[**屬性**\] 視窗中選擇 \[**專案輸出參考**\] 屬性，然後按下其旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
+3.  在 \[**屬性**\] 視窗中選擇 \[**專案輸出參考**\] 屬性，然後按下其旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕。  
   
 4.  在 \[**專案輸出參考**\] 對話方塊中選擇 \[**加入**\] 按鈕。  
   

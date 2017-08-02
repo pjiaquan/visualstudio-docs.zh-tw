@@ -49,7 +49,7 @@ manager: "ghogen"
 > [!NOTE]
 >  會儲存 \[顯示外部程式碼\] 設定至目前使用者的分析工具。  它會套用至使用者所開啟的所有語言之專案。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK__NET_Framework_Just_My_Code"></a> .NET Framework Just My Code  
  [使用者和非使用者程式碼](#BKMK_NET_User_and_non_user_code) **&#124;** [逐步執行行為](#BKMK_NET_Stepping_behavior) **&#124;** [中斷點行為](#BKMK_NET_Breakpoint_behavior) **&#124;** [例外狀況行為](#BKMK_NET_Exception_behavior)  
@@ -71,24 +71,24 @@ manager: "ghogen"
   
  其他程式碼可視為使用者程式碼。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
   
 ###  <a name="BKMK_NET_Stepping_behavior"></a> 逐步執行行為  
  當您對非使用者程式碼 \[逐步執行\] \(快速鍵：F11\) 時，偵錯工具會逐步執行程式碼至下一個使用者陳述式。  當您使用 \[跳離函式\] \(快速鍵：SHIFT \+ F11\) 時，偵錯工具會執行至下一行使用者程式碼。  如果沒有發現使用者程式碼，則在應用程式結束、叫用中斷點或發生例外狀況之前，都會繼續執行。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
   
 ###  <a name="BKMK_NET_Breakpoint_behavior"></a> 中斷點行為  
  當 Just My Code 啟用時，您可以選擇 \[全部中斷\] \(快速鍵：CTRL \+ ALT \+ Break\) ，在沒有使用者程式碼要顯示的位置停止執行。  發生這種情況時，就會顯示 \[沒有來源\] 視窗。  如果您接著選取 \[逐步執行\] 命令，偵錯工具會將您帶到下一行使用者程式碼。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
   
 ###  <a name="BKMK_NET_Exception_behavior"></a> 例外狀況行為  
  如果未處理的例外狀況發生在非使用者程式碼，偵錯工具就會在產生例外狀況的該行使用者程式碼中斷。  
   
  假如第一個可能發生的例外狀況已未此例外狀況所啟用，就會以綠色反白顯示使用者程式碼行。  呼叫堆疊會顯示標記為 \[外部程式碼\] 的標註框架。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [.NET Framework Just My Code](#BKMK__NET_Framework_Just_My_Code)  
   
 ##  <a name="BKMK_C___Just_My_Code"></a> C\+\+ Just My Code  
  [使用者和非使用者程式碼](#BKMK_CPP_User_and_non_user_code) **&#124;** [逐步執行行為](#BKMK_CPP_Stepping_behavior) **&#124;** [例外狀況行為](#BKMK_CPP_Exception_behavior) **&#124;** [自訂逐步偵錯行為](#BKMK_CPP_Customize_stepping_behavior) **&#124;** [自訂呼叫堆疊行為](#BKMK_CPP_Customize_call_stack_behavior)  
@@ -112,19 +112,19 @@ manager: "ghogen"
   
  您可以建立自己的 `.natstepfilter` 和 `.natjmc` 來自訂 `%USERPROFILE%\My Documents\Visual Studio 2015\Visualizers` 中的 \[逐步執行\] 和 \[呼叫堆疊\] 視窗行為。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
   
 ###  <a name="BKMK_CPP_Stepping_behavior"></a> 逐步執行行為  
  從使用者程式碼到非使用者程式碼作 \[逐步執行\] \(鍵盤快速鍵：F11\) 時，偵錯工具將不進入該程式區段，逐步執行程式碼 \(Step Over\) 至下一行使用者程式碼。  當您使用 \[跳離函式\] \(快速鍵：SHIFT \+ F11\) 時，偵錯工具會執行至下一行使用者程式碼。  如果沒有發現使用者程式碼，則在應用程式結束、叫用中斷點或發生例外狀況之前，都會繼續執行。  
   
  如果偵錯工具在非使用者程式碼內中斷 \(例如，如果有個 \[全部中斷\] 命令於非使用者程式碼停止\)，則在非使用者程式碼繼續逐步執行。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
   
 ###  <a name="BKMK_CPP_Exception_behavior"></a> 例外狀況行為  
  當偵錯工具遇到例外狀況時，無論是在使用者或是在非使用者程式碼內，一遇到例外狀況偵錯工具就會停止。  會忽略 \[例外狀況\] 對話方塊的 \[使用者未處理\] 選項。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
   
 ###  <a name="BKMK_CPP_Customize_stepping_behavior"></a> 自訂逐步偵錯行為  
  您可以指定函式不進入某程式區段逐步執行 \(Step Over\)，方法是將其列出，做為 `*.natstepfilter` 檔案中的非使用者程式碼。  
@@ -158,7 +158,7 @@ manager: "ghogen"
 |`Module`|選擇項。  指定包含此函式的模組之完整路徑的 ECMA\-262 格式化規則運算式。  該比對不區分大小寫。|  
 |`Action`|必要項。  區分大小寫值的其中之一：<br /><br /> -   `NoStepInto`  – 告知偵錯工具不進入符合的函式。<br />-   `StepInto`  – 告知偵錯工具要進入符合的函式逐步執行，覆寫符合的函式之其他 `NoStepInto`。|  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
   
 ###  <a name="BKMK_CPP_Customize_call_stack_behavior"></a> 自訂呼叫堆疊行為  
  您可以在 `*.natjmc` 檔案指定模組、原始程式檔和函式，將它們指定為在呼叫堆疊中視為非使用者程式碼。  
@@ -210,7 +210,7 @@ manager: "ghogen"
 |`Module`|選擇項。  包含此函式的模組名稱或完整路徑。  您可以使用這個屬性使具有相同名稱的函式意義清楚。|  
 |`ExceptionImplementation`|當設定為 `true` 時，此呼叫堆疊會顯示擲回例外狀況的函式，而不是這個函式。|  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [C++ Just My Code](#BKMK_C___Just_My_Code)  
   
 ##  <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code  
  [使用者和非使用者程式碼](#BKMK_JS_User_and_non_user_code) **&#124;** [逐步執行行為](#BKMK_JS_Stepping_behavior) **&#124;** [中斷點行為](#BKMK_JS_Breakpoint_behavior) **&#124;** [例外狀況行為](#BKMK_JS_Exception_behavior) **&#124;** [自訂 Just My Code](#BKMK_JS_Customize_Just_My_Code)  
@@ -242,7 +242,7 @@ manager: "ghogen"
   
  所有的其他程式碼之分類為 **MyCode**。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
   
 ###  <a name="BKMK_JS_Stepping_behavior"></a> 逐步執行行為  
   
@@ -254,7 +254,7 @@ manager: "ghogen"
   
 -   \[跳離函式\] \(快速鍵：SHIFT \+ F11\) 於下一行使用者程式碼停止。  如果沒有發現使用者程式碼，則在應用程式結束、叫用中斷點或發生例外狀況之前，都會繼續執行。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
   
 ###  <a name="BKMK_JS_Breakpoint_behavior"></a> 中斷點行為  
   
@@ -266,7 +266,7 @@ manager: "ghogen"
   
     -   **UnrelatedCode** 程式碼，則偵錯工具不會停止。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
   
 ###  <a name="BKMK_JS_Exception_behavior"></a> 例外狀況行為  
  假如未處理的例外狀況發生在：  
@@ -281,7 +281,7 @@ manager: "ghogen"
   
 -   如果例外狀況未經處理，則偵錯工具會中斷。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)  
   
 ###  <a name="BKMK_JS_Customize_Just_My_Code"></a> 自訂 Just My Code  
  若要為單一 Visual Studio 專案分類使用者程式碼和非使用者程式碼，請將名為 `mycode.json` 的 .json 檔案加入此專案的根資料夾。  
@@ -352,4 +352,4 @@ manager: "ghogen"
   
  這個 URL 或檔案字串可以包含一或多個 `*` 字元，這會比對零或多個字元。  `*` 相當於 `.*` 規則運算式。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents) **&#124;** [JavaScript Just My Code](#BKMK_JavaScript_Just_My_Code)

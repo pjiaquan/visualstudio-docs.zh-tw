@@ -40,7 +40,7 @@ ms.lasthandoff: 05/26/2017
 # 快速動作
 <a id="quick-actions" class="xliff"></a>
 
-[快速動作](refactoring-code-generation-quick-actions.md#quick-actions)可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  雖然有許多專門適用於 C# 或 Visual Basic 的快速動作，也有一些同時適用於 C# 和 Visual Basic 專案。  當您的游標位於適當程式碼行時，這些可以使用燈泡圖示 ![小燈泡圖示](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用 。
+[快速動作](refactoring-code-generation-quick-actions.md#quick-actions)可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  雖然有許多專門適用於 C# 或 Visual Basic 的快速動作，也有一些同時適用於 C# 和 Visual Basic 專案。  當您的游標位於適當程式碼行時，這些可以使用燈泡圖示 ![小燈泡圖示](~/ide/media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用 。
 
 如果有紅色曲線，而且 Visual Studio 有針對如何修正問題的建議，您就會看到燈泡。 例如，如果紅色曲線指出一個錯誤，當該錯誤有可用的修正時，便會出現燈泡。 針對任何語言，協力廠商都可以提供自訂診斷和建議，例如做為 SDK 的一部分，而 Visual Studio 燈泡會依據這些規則亮燈。  
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 05/26/2017
 
 2. 在字行任何地方按 **Ctrl+.**， 可叫用燈泡，直接前往可能的修正方法清單。  
 
-   ![當滑鼠游標暫留時的燈泡](../ide/media/vs2015_lightbulb_hover.png "VS2017_LightBulb_Hover")  
+   ![當滑鼠游標暫留時的燈泡](~/ide/media/vs2015_lightbulb_hover.png "VS2017_LightBulb_Hover")  
 
 ### 如何看到可能的修正方法
 <a id="to-see-potential-fixes" class="xliff"></a>  
@@ -357,47 +357,47 @@ Dim s As String = $"My string with {num} in the middle"
 <a id="remove-merge-conflict-markers" class="xliff"></a>
 這些快速動作可讓您透過「採取變更」解決合併衝突，這樣會移除衝突的程式碼和標記。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 解決合併衝突](../ide/media/vside-refactoring-merge-conflicts.png)
+![重構 - 解決合併衝突](~/ide/media/vside-refactoring-merge-conflicts.png)
 
 ### 新增參數的 Null 檢查
 <a id="add-null-checks-for-parameters" class="xliff"></a>
 這個快速動作可讓您在程式碼中新增檢查，以判斷參數是否為 Null。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 新增 Null 檢查](../ide/media/vside-refactoring-nullcheck.png)
+![重構 - 新增 Null 檢查](~/ide/media/vside-refactoring-nullcheck.png)
 
 ### 建構函式產生器的增強功能
 <a id="constructor-generator-improvements" class="xliff"></a>
 當您建立建構函式時，這個快速動作可讓您選取要產生的屬性或欄位，或者您可以從空的內文產生建構函式。 您也可以使用它將參數從呼叫位置新增至現有的建構函式。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 產生建構函式](../ide/media/vside-refactoring-constructors.png)
+![重構 - 產生建構函式](~/ide/media/vside-refactoring-constructors.png)
 
 ### 移除未使用的變數
 <a id="remove-unused-variables" class="xliff"></a>
 這個快速動作可讓您移除已宣告但從未在程式碼中使用的變數。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 未使用的變數](../ide/media/vside-refactoring-unusedvars.png)
+![重構 - 未使用的變數](~/ide/media/vside-refactoring-unusedvars.png)
 
 ### 產生覆寫
 <a id="generate-overrides" class="xliff"></a>
 這個快速動作可讓您從類別或結構中的空白行建立覆寫。 [挑選成員] 對話方塊可讓您選擇要覆寫的成員。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 覆寫](../ide/media/vside-refactoring-overrides.png)
+![重構 - 覆寫](~/ide/media/vside-refactoring-overrides.png)
 
-![重構 - [覆寫] 對話方塊](../ide/media/vside-refactoring-overrides-dialog.png)
+![重構 - [覆寫] 對話方塊](~/ide/media/vside-refactoring-overrides-dialog.png)
 
 ### 變更數值常值的基底
 <a id="change-base-for-numeric-literals" class="xliff"></a>
 這個快速動作可讓您將數值常值從一個基底數值系統轉換至另一個基底數值系統。 例如，您可以將數字變更為十六進位或二進位格式。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 變更基底](../ide/media/vside-refactoring-changebase1.png)
+![重構 - 變更基底](~/ide/media/vside-refactoring-changebase1.png)
 
-![重構 - 變更基底](../ide/media/vside-refactoring-changebase2.png)
+![重構 - 變更基底](~/ide/media/vside-refactoring-changebase2.png)
 
 ### 將數字分隔符號插入到常值中
 <a id="insert-digit-separators-into-literals" class="xliff"></a>
 這個快速動作可讓您將分隔符號字元加入到常值中。 (僅適用於 Visual Studio 2017 (15.3 版 - 預覽))。
 
-![重構 - 變更數字分隔符號](../ide/media/vside-refactoring-separators.png)
+![重構 - 變更數字分隔符號](~/ide/media/vside-refactoring-separators.png)
 
 ### 將 **if** 建構轉換為 **switch**
 <a id="convert-if-construct-to-switch" class="xliff"></a>

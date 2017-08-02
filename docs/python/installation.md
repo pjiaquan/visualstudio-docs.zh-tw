@@ -57,14 +57,14 @@ ms.lasthandoff: 05/10/2017
 
 1. 在 Visual Studio 安裝程式中，選取 [Web 與雲端] > [Python 開發] 工作負載。
 
-    ![Visual Studio 安裝程式中的 Python 開發工作負載](media/installation-python-workload.png)
+    ![Visual Studio 安裝程式中的 Python 開發工作負載](~/python/media/installation-python-workload.png)
 
     > [!Note]
     > **資料科學和分析應用程式**工作負載中也包含 Python。
 
 1. 在安裝程式的右側，選取 Python 解譯器，以及其他您想包含的相關工具。 例如，如果您計劃開發適用於 Python 的 C++ 延伸模組，請包括 [Python 原生開發工具] 選項。
 
-    ![Visual Studio 安裝程式中的 Python 開發選項](media/installation-python-options.png)
+    ![Visual Studio 安裝程式中的 Python 開發選項](~/python/media/installation-python-options.png)
 
 ## <a name="visual-studio-2015"></a>Visual Studio 2015
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 05/10/2017
 
 1. 選取 [程式語言] > [適用於 Visual Studio 的 Python 工具]，然後選取 [下一步]：
 
-    ![Visual Studio 2015 安裝程式中的 PTVS 選項](media/installation-vs2015.png)    
+    ![Visual Studio 2015 安裝程式中的 PTVS 選項](~/python/media/installation-vs2015.png)    
 
 1. 當 Visual Studio 安裝完成之後，請[安裝您所選的 Python 解譯器](python-environments.md#selecting-and-installing-python-interpreters)。
 

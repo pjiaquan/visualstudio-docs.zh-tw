@@ -275,15 +275,15 @@ caps.handback.revision: 37
   
 6.  在 \[**屬性**\] 視窗中，為 **CorrelationToken** 屬性輸入 *taskToken* 屬性值。  
   
-7.  按一下 **CorrelationToken** 屬性旁的加號 \(![TreeView 加號](../sharepoint/media/plus.png "TreeView 加號")\) 來展開它。  
+7.  按一下 **CorrelationToken** 屬性旁的加號 \(![TreeView 加號](~/sharepoint/media/plus.gif "TreeView 加號")\) 來展開它。  
   
 8.  選取 **OwnerActivityName** 子屬性的下拉箭號，並設定 *Workflow1* 值。  
   
-9. 按一下 \[**TaskId**\] 屬性，然後按一下省略符號 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\) 按鈕以顯示 \[**繫結屬性**\] 對話方塊。  
+9. 按一下 \[**TaskId**\] 屬性，然後按一下省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕以顯示 \[**繫結屬性**\] 對話方塊。  
   
 10. 選取 \[**繫結至新的成員**\] 索引標籤，選取 \[**建立欄位**\] 選項按鈕，然後選擇 \[**確定**\] 按鈕。  
   
-11. 按一下 \[**TaskProperties**\] 屬性，然後按一下省略符號 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\) 按鈕以顯示 \[**繫結屬性**\] 對話方塊。  
+11. 按一下 \[**TaskProperties**\] 屬性，然後按一下省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕以顯示 \[**繫結屬性**\] 對話方塊。  
   
 12. 選取 \[**繫結至新的成員**\] 索引標籤，選取 \[**建立欄位**\] 選項按鈕，然後選擇 \[**確定**\] 按鈕。  
   
@@ -363,7 +363,7 @@ caps.handback.revision: 37
   
 5.  在 \[**屬性**\] 視窗中，按一下 \[**條件**\] 屬性的下拉箭號，然後設定 \[*Code Condition*\] 值。  
   
-6.  按一下 \[**條件**\] 屬性旁的加號 \(![TreeView 加號](../sharepoint/media/plus.png "TreeView 加號")\) 來展開它，然後將其值設定為 \[*checkApprovalNeeded*\]。  
+6.  按一下 \[**條件**\] 屬性旁的加號 \(![TreeView 加號](~/sharepoint/media/plus.gif "TreeView 加號")\) 來展開它，然後將其值設定為 \[*checkApprovalNeeded*\]。  
   
 7.  在工作流程設計工具中，開啟 \[**logToHistoryListActivity1**\] 活動的捷徑功能表，然後選取 \[**產生處理常式**\]，為 `MethodInvoking` 事件產生空方法。  
   

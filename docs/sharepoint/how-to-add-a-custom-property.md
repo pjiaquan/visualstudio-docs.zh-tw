@@ -37,7 +37,7 @@ caps.handback.revision: 9
   
 2.  在功能表上選擇 \[**檢視**\]、\[**屬性視窗**\]。  
   
-3.  在 \[**屬性**\] 視窗中選取 \[**自訂屬性**\] 屬性，然後選擇省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\)。  
+3.  在 \[**屬性**\] 視窗中選取 \[**自訂屬性**\] 屬性，然後選擇省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
   
      \[**屬性編輯器**\] 對話方塊隨即出現。  
   

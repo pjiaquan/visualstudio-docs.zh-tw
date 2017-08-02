@@ -34,7 +34,7 @@ ms.lasthandoff: 03/07/2017
   1. 按一下位於工具左邊的 [登入]，如以下螢幕擷取畫面所示。
   2. 依照畫面上的指示操作來登入。
 
-  ![登入以回報問題](../ide/media/vs2017-report-a-problem-sign-in.png "登入以回報問題")
+  ![登入以回報問題](~/ide/media/vs2017-report-a-problem-sign-in.png "登入以回報問題")
 
 
 ## <a name="search-and-vote-for-similar-problems"></a>搜尋類似問題並針對類似問題投票  
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/07/2017
 1.  搜尋您的問題，並查看其他人是否已回報過。
 2.  如果有人回報過，則請對它投票，讓我們知道。  
 
-  ![VS15-FeedbackTool-SearchForSimilarReportedProblems](../ide/media/vs2017-report-a-problem-search-and-vote.png "搜尋類似問題並針對類似問題投票")
+  ![VS15-FeedbackTool-SearchForSimilarReportedProblems](~/ide/media/vs2017-report-a-problem-search-and-vote.png "搜尋類似問題並針對類似問題投票")
 
 
 ## <a name="report-a-new-problem"></a>回報新問題

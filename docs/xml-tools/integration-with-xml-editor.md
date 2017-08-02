@@ -26,7 +26,7 @@ XML 結構描述設計工具會與 XML 編輯器整合。如果您在 XML 編輯
   
  下列螢幕擷取畫面會顯示在 XML 結構描述總管中開啟的 XML 結構描述。XML 結構描述總管會在樹狀檢視中顯示結構描述設定。XML 編輯器會顯示目前在 XML 結構描述總管中使用之節點的文字檢視。  
   
- ![XSDDesignerWithXMLEditor](../xml-tools/media/xsddesignerwithxmleditor.gif "XSDDesignerWithXMLEditor")  
+ ![XSDDesignerWithXMLEditor](~/xml-tools/media/xsddesignerwithxmleditor.gif "XSDDesignerWithXMLEditor")  
   
  有時候，在並排顯示的 XML 編輯器和圖形設計工具中查看程式碼相當有用。若要同時檢視兩個檔案，請以滑鼠右鍵按一下 XML 編輯器中任何地方並選取 \[**檢視表設計工具**\]。選取 Visual Studio Windows 工具列中的 \[**新增水平 \(或垂直\) 索引標籤群組**\]。  
   

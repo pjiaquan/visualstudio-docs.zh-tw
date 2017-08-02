@@ -98,7 +98,7 @@ ms.lasthandoff: 05/24/2017
   
 |選取範圍邊界起點|選取範圍邊界終點|  
 |-------------------------|--------------------------|  
-|![HTMLpageSelectionMarginOn 螢幕擷取畫面](../../ide/reference/media/vxselmaron.gif "vxSelmaron")|![HTMLpageSelectionMarginOff 螢幕擷取畫面](../../ide/reference/media/vxselmaroff.gif "vxSelmaroff")|  
+|![HTMLpageSelectionMarginOn 螢幕擷取畫面](~/ide/reference/media/vxselmaron.gif "vxSelmaron")|![HTMLpageSelectionMarginOff 螢幕擷取畫面](~/ide/reference/media/vxselmaroff.gif "vxSelmaroff")|  
   
  指示區邊界  
  選取時，編輯器文字區域的左邊緣外圍會顯示垂直邊界。 當您按一下此邊界時，會顯示文字相關的圖示和工具提示。 比方說，指示區邊界會出現中斷點或工作清單捷徑。 列印時不會印出指示區邊界的資訊。  

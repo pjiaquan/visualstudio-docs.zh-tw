@@ -66,50 +66,50 @@ ms.lasthandoff: 05/13/2017
 ###  <a name="Grid"></a> Grid  
  將物件排列成資料列和資料行。  
   
- ![](../designers/media/98b234b2-ac3b-441f-9136-98375fee87b7.png "98b234b2-ac3b-441f-9136-98375fee87b7")  
+ ![](~/designers/media/98b234b2-ac3b-441f-9136-98375fee87b7.png "98b234b2-ac3b-441f-9136-98375fee87b7")  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Using Grids](http://www.popscreen.com/v/6A4hj/Microsoft-Expression-Blend-Using-Grids) (使用格線)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Using Grids](http://www.popscreen.com/v/6A4hj/Microsoft-Expression-Blend-Using-Grids) (使用格線)  
   
 ###  <a name="Uniform"></a> UniformGrid  
  將物件排列成相等或同型的方格區域。 此面板適合用來排列影像清單。  
   
- ![](../designers/media/928b9284-a7e8-4678-875a-656b80b78076.png "928b9284-a7e8-4678-875a-656b80b78076")  
+ ![](~/designers/media/928b9284-a7e8-4678-875a-656b80b78076.png "928b9284-a7e8-4678-875a-656b80b78076")  
   
  (僅適用於 WPF 專案)  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with a UniformGrid](http://www.popscreen.com/v/6A4iq/Microsoft-Expression-Blend-Working-with-a-UniformGrid) (使用 UniformGrid)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with a UniformGrid](http://www.popscreen.com/v/6A4iq/Microsoft-Expression-Blend-Working-with-a-UniformGrid) (使用 UniformGrid)  
   
 ###  <a name="Canvas"></a> Canvas  
  以任何想要的方式排列物件。 當使用者執行您的應用程式時，這些項目在螢幕上會具有固定位置。  
   
- ![](../designers/media/e1ae27f0-3a57-454e-b580-877dcea8836d.png "e1ae27f0-3a57-454e-b580-877dcea8836d")  
+ ![](~/designers/media/e1ae27f0-3a57-454e-b580-877dcea8836d.png "e1ae27f0-3a57-454e-b580-877dcea8836d")  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with the canvas](http://www.popscreen.com/v/6A4hT/Microsoft-Expression-Blend-Working-with-the-Canvas) (使用畫布)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with the canvas](http://www.popscreen.com/v/6A4hT/Microsoft-Expression-Blend-Working-with-the-Canvas) (使用畫布)  
   
 ###  <a name="Stack"></a> StackPanel  
  水平或垂直排列單一行中的物件。  
   
- ![](../designers/media/a85a7b57-b0a8-495e-b985-f0291e41d093.png "a85a7b57-b0a8-495e-b985-f0291e41d093")  
+ ![](~/designers/media/a85a7b57-b0a8-495e-b985-f0291e41d093.png "a85a7b57-b0a8-495e-b985-f0291e41d093")  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel) (使用 StackPanel 和 WrapPanel)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel) (使用 StackPanel 和 WrapPanel)  
   
 ###  <a name="Wrap"></a> WrapPanel  
  以循序方式從左到右排列物件。 若面板的最右側邊緣沒有足夠空間時，會將內容「換行」到下一行，從左到右、從上到下依此類推。 您也可以讓換行面板變成垂直方向，讓物件從上到下、從左到右地流動。  
   
  (僅適用於 WPF 專案)  
   
- ![](../designers/media/b1c415fb-9a32-4a18-aa0b-308fca994ac9.png "b1c415fb-9a32-4a18-aa0b-308fca994ac9")  
+ ![](~/designers/media/b1c415fb-9a32-4a18-aa0b-308fca994ac9.png "b1c415fb-9a32-4a18-aa0b-308fca994ac9")  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel) (使用 StackPanel 和 WrapPanel)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with StackPanel and WrapPanel](http://www.popscreen.com/v/6A4i5/Microsoft-Expression-Blend-Using-the-StackPanel-and-WrapPanel) (使用 StackPanel 和 WrapPanel)  
   
 ###  <a name="Dock"></a> DockPanel  
  排列物件，使其停留或「停駐」在面板的一個邊緣。  
   
  (僅適用於 WPF 專案)  
   
- ![](../designers/media/72d46b58-9a49-4dd5-8af7-6843c0440226.png "72d46b58-9a49-4dd5-8af7-6843c0440226")  
+ ![](~/designers/media/72d46b58-9a49-4dd5-8af7-6843c0440226.png "72d46b58-9a49-4dd5-8af7-6843c0440226")  
   
- **觀看短片︰**![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [WPF - DockPanel](https://www.youtube.com/watch?v=EBH_OIM-zPo)  
+ **觀看短片︰**![設定已安裝的功能](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [WPF - DockPanel](https://www.youtube.com/watch?v=EBH_OIM-zPo)  
   
 ## <a name="layout-controls"></a>版面配置控制項  
  您也可以將物件加入至版面配置控制項。 控制項不像版面配置面板一樣具有豐富的功能，但會發現控制項在特定情況下很有幫助。  
@@ -129,9 +129,9 @@ ms.lasthandoff: 05/13/2017
 ###  <a name="Border"></a> Border  
  在物件周圍建立框線、背景或兩者。 您可以只將一個將物件新增至 **Border**。 如果您要對一個以上的物件套用框線或背景，請將版面配置面板新增至 **Border**。 然後，將物件加入至該面板或控制項。  
   
- ![](../designers/media/e761238b-99fd-43c5-bbc4-57538b8289ff.png "e761238b-99fd-43c5-bbc4-57538b8289ff")  
+ ![](~/designers/media/e761238b-99fd-43c5-bbc4-57538b8289ff.png "e761238b-99fd-43c5-bbc4-57538b8289ff")  
   
- **觀看短片︰**![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with Borders](http://www.popscreen.com/v/6A4hB/Microsoft-Expression-Blend-Working-with-Borders) (使用框線)  
+ **觀看短片︰**![Configure Installed Features](~/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [Working with Borders](http://www.popscreen.com/v/6A4hB/Microsoft-Expression-Blend-Working-with-Borders) (使用框線)  
   
 ###  <a name="Popup"></a> Popup  
  在視窗中向使用者顯示資訊或選項。 您可以只將一個將物件新增至 **Popup**。 根據預設，**Popup** 包含 **Grid**，但您可以加以變更。  
@@ -139,14 +139,14 @@ ms.lasthandoff: 05/13/2017
 ###  <a name="Scroll"></a> ScrollViewer  
  可用來向下捲動頁面或頁面的區域。 您可以只將一個物件加入至 [捲動檢視器]，以便可以更合理地加入版面配置面板，例如 **Grid** 或 **StackPanel**。  
   
- ![](../designers/media/06b326d4-f23d-41a6-b26b-e1aff37572a7.png "06b326d4-f23d-41a6-b26b-e1aff37572a7")  
+ ![](~/designers/media/06b326d4-f23d-41a6-b26b-e1aff37572a7.png "06b326d4-f23d-41a6-b26b-e1aff37572a7")  
   
 ###  <a name="View"></a> Viewbox  
  縮放物件的作用就像是使用縮放控制項一樣。 您可以只將一個物件新增至 **Viewbox**。 如果您要將該效果套用至多個物件，請將版面配置面板新增至 **ViewBox**，然後將控制項新增至該版面配置面板。  
   
  (僅適用於 WPF 專案)  
   
- ![](../designers/media/f5b13c66-d918-4141-8a16-bd8f8628687a.png "f5b13c66-d918-4141-8a16-bd8f8628687a")  
+ ![](~/designers/media/f5b13c66-d918-4141-8a16-bd8f8628687a.png "f5b13c66-d918-4141-8a16-bd8f8628687a")  
   
 ## <a name="see-also"></a>另請參閱  
  [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)   

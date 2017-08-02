@@ -90,7 +90,7 @@ ms.lasthandoff: 05/13/2017
   
     -   如下所示，在 Visual Studio 的 [偵錯] 下拉式清單中選取 [Emulator 8.1] 目標或連接裝置，然後按 F5 鍵啟動偵錯工具。  
   
-         ![選取 Windows Phone 模擬器作為偵錯目標](../cross-platform/media/crossplat-xamarin-verify-4.png "CrossPlat Xamarin 驗證 4")  
+         ![選取 Windows Phone 模擬器作為偵錯目標](~/cross-platform/media/crossplat-xamarin-verify-4.png "CrossPlat Xamarin 驗證 4")  
   
     -   如果您在讓模擬器運作時發生問題，請閱讀 [Windows Phone 8 模擬器疑難排解](https://msdn.microsoft.com/library/windows/apps/jj681694.aspx)。  
   
@@ -106,11 +106,11 @@ ms.lasthandoff: 05/13/2017
   
     2.  如下所示，從 Visual Studio 的 [組建] 下拉式清單中選取 [iPhoneSimulator] 目標；如果具有行動網卡，請選取 [iPhone] 目標。 如果未列出任何模擬器，請在您的 Mac 上啟動 Xcode，選取 [Xcode] -> [喜好設定]，然後按一下 [下載]。 在 [元件]  下，您應該會看到可供下載的模擬器版本。 您可以在 Xamarin 的[偵錯](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator)頁面 (xamarin.com) 上找到偵錯的其他指示。  
   
-         ![選取 iPhoneSimulator 建置目標](../cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin 驗證 5")  
+         ![選取 iPhoneSimulator 建置目標](~/cross-platform/media/crossplat-xamarin-verify-5.png "CrossPlat Xamarin 驗證 5")  
   
     3.  如下所示，從 Visual Studio 的 [偵錯] 下拉式清單中選取 iPhone 目標，然後按 F5 鍵啟動偵錯工具。 這會在 Mac 上啟動模擬器，以在 Visual Studio 中偵錯時與應用程式進行互動。 若您有連接到 Mac 的實體 iPhone 或 iPad，其會在此處顯示，且您可改為選取之。 若未看見任何列出的裝置或模擬器，請檢查與 Mac 之間的連線，方法為檢閱上方步驟 1 中所連結的主題，或移至 [工具]  >**iOS** >  
   
-         ![選取 iPhone 偵錯目標](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin 驗證 6")  
+         ![選取 iPhone 偵錯目標](~/cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin 驗證 6")  
   
     4.  如果您在連接到 Mac 時發生問題，請閱讀 [連接疑難排解](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/xamarin-mac-agent/xma-troubleshooting/) (xamarin.com)。  
   

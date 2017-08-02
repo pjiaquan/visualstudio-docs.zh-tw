@@ -140,7 +140,7 @@ public partial class ParentsHaveChildren
   
  此範例會套用至下列網域模型。 ParentsHaveChildren 關聯性具有名為 Child 和 Parent 的角色。  
   
- ![DSL 定義圖 & #45。家譜模型](../modeling/media/familyt_person.png "FamilyT_Person")  
+ ![DSL 定義圖 & #45。家譜模型](~/modeling/media/familyt_person.png "FamilyT_Person")  
   
 ## <a name="validation-categories"></a>驗證分類  
  在 <xref:Microsoft.VisualStudio.Modeling.Validation.ValidationMethodAttribute> 屬性時，您指定應執行的驗證方法。  

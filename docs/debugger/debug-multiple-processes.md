@@ -49,14 +49,14 @@ caps.handback.revision: 16
   
 2.  在 \[**偵錯**\]、\[**一般**\] 頁面上，清除 \[**如果其中一個處理序中斷，就中斷所有處理序**\] 核取方塊。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> 尋找原始程式檔和符號 \(.pdb\) 檔  
  若要巡覽處理序的原始程式碼，偵錯工具需要存取處理序的原始程式檔和符號檔。  請參閱 [指定符號 \(.pdb\) 和原始程式檔](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)。  
   
  如果您無法存取處理序的檔案，可以使用 \[反組譯碼\] 視窗進行巡覽。  請參閱 [如何：使用反組譯碼視窗](../debugger/how-to-use-the-disassembly-window.md)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger"></a> 在 VS 方案中啟動多個處理序、附加至處理序、在偵錯工具中自動啟動處理序  
   
@@ -81,9 +81,9 @@ caps.handback.revision: 16
 ####  <a name="BKMK_Start_a_specific_project_in_a_solution"></a> 在方案中啟動特定專案  
  若要啟動方案中的某個專案，而不變更預設啟始專案，請在 \[方案總管\] 中選取專案，然後從內容功能表選擇 \[**偵錯**\]。  然後您就可以選擇 \[**開始新執行個體**\] 或 \[**逐步執行新執行個體**\]。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [在 VS 方案中啟動多個處理序、附加至處理序、在偵錯工具中自動啟動處理序](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [在 VS 方案中啟動多個處理序、附加至處理序、在偵錯工具中自動啟動處理序](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ####  <a name="BKMK_Start_multiple_projects_in_a_solution"></a> 在方案中啟動多個專案  
   
@@ -93,9 +93,9 @@ caps.handback.revision: 16
   
 3.  針對您要變更的每個專案，選擇 \[**啟動**\]、\[**啟動但不偵錯**\] 或 \[**無**\]。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [在 VS 方案中啟動多個處理序、附加至處理序、在偵錯工具中自動啟動處理序](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [在 VS 方案中啟動多個處理序、附加至處理序、在偵錯工具中自動啟動處理序](../debugger/debug-multiple-processes.md#BKMK_Start_multiple_processes_in_a_VS_solution__attach_to_a_process__automatically_start_a_process_in_the_debugger)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ###  <a name="BKMK_Attach_to_a_process"></a> 附加至處理序  
  偵錯工具也可以「*附加*」\(Attach\) 至正在 Visual Studio 外部的處理序中執行的程式，包括在遠端裝置上執行的程式。  附加至程式之後，您就可以使用偵錯工具的執行命令、檢查程式狀態等等。  根據程式建置時是否包含偵錯資訊以及您是否能存取程式的原始程式碼，還有 Common Language Runtime JIT 編譯器是否會追蹤偵錯資訊，可能會對檢查程式狀態的能力有所限制。  
@@ -108,7 +108,7 @@ caps.handback.revision: 16
   
  ![&#91;附加至處理序&#93; 對話方塊](../debugger/media/dbg_attachtoprocessdlg.png "DBG\_AttachToProcessDlg")  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ###  <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> 在偵錯工具中自動啟動處理序  
  有時候，您可能需要對其他處理序所啟動程式的啟始程式碼進行偵錯。  這類範例包括了服務和自訂安裝動作。  在這些案例中，您可以讓偵錯工具在應用程式啟動時啟動並自動附加。  
@@ -131,9 +131,9 @@ caps.handback.revision: 16
   
      ![&#91;編輯字串&#93; 對話方塊](../debugger/media/dbg_execution_automaticstart_editstringdlg.png "DBG\_Execution\_AutomaticStart\_EditStringDlg")  
   
- ![regedit.exe 中的自動偵錯工具起始項目](../debugger/media/dbg_execution_automaticstart_result.png "DBG\_Execution\_AutomaticStart\_Result")  
+ ![regedit.exe 中的自動偵錯工具起始項目](~/debugger/media/dbg_execution_automaticstart_result.png "DBG\_Execution\_AutomaticStart\_Result")  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Switch_processes__break_and_continue_execution__step_through_source"></a> 切換處理序、中斷和繼續執行、逐步執行來源  
   
@@ -158,9 +158,9 @@ caps.handback.revision: 16
   
  切換至專案會將該專案設為目前要偵錯的處理序。  您檢視的所有偵錯工具視窗都會顯示目前處理序的狀態，而且所有逐步執行命令只會影響目前處理序。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [切換處理序、中斷和繼續執行、逐步執行來源](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [切換處理序、中斷和繼續執行、逐步執行來源](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ###  <a name="BKMK_Break__step__and_continue_commands"></a> 中斷、逐步執行和繼續命令  
   
@@ -179,9 +179,9 @@ caps.handback.revision: 16
 |\[**處理序**\] 視窗內容功能表：<br /><br /> -   **中斷處理序**|N\/A|選取的處理序會中斷。<br /><br /> 其他處理序維持其現有的狀態 \(已暫止或執行中\)。|  
 |\[**處理序**\] 視窗內容功能表：<br /><br /> -   **繼續處理序**|N\/A|選取的處理序會繼續執行。<br /><br /> 其他處理序維持其現有的狀態 \(已暫止或執行中\)。|  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [切換處理序、中斷和繼續執行、逐步執行來源](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [切換處理序、中斷和繼續執行、逐步執行來源](../debugger/debug-multiple-processes.md#BKMK_Switch_processes__break_and_continue_execution__step_through_source)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Stop_debugging__terminate_or_detach_from_processes"></a> 停止偵錯、結束處理序或中斷處理序連結  
   
@@ -214,9 +214,9 @@ caps.handback.revision: 16
 |\[**處理序**\] 視窗內容功能表：<br /><br /> -   **結束處理序**|選取的處理序將會結束。<br /><br /> 其他處理序維持其現有的狀態 \(已暫止或執行中\)。|  
 |\[**處理序**\] 視窗內容功能表：<br /><br /> -   **偵錯停止時中斷連結**|切換所選取處理序的 \[**偵錯**\]、\[**停止偵錯**\] 行為：<br /><br /> -   已核取：偵錯工具會與處理序中斷連結。<br />-   已清除：處理序將會結束。|  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [停止偵錯、結束處理序或中斷處理序連結](../debugger/debug-multiple-processes.md#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [停止偵錯、結束處理序或中斷處理序連結](../debugger/debug-multiple-processes.md#BKMK_Stop_debugging__terminate_or_detach_from_processes)  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ## 請參閱  
  [指定符號 \(.pdb\) 和原始程式檔](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   

@@ -24,7 +24,7 @@ caps.handback.revision: 15
 ## 文字檢視物件  
  每一個檢視表已經有它自己的文字緩衝區，而檢視是在緩衝區中資料的視窗。  下圖顯示的索引鍵的介面由文字檢視物件的<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>。  
   
- ![Visual Studio 文字檢視物件](../extensibility/media/vstextview.png "vstextview")  
+ ![Visual Studio 文字檢視物件](~/extensibility/media/vstextview.gif "vstextview")  
 文字檢視物件  
   
  檢視是一種呈現文字緩衝區中。  使您在檢視中所看到的內容都不確切的緩衝區中的文字，其中包括文字換行功能，以及製作大綱，等功能。  

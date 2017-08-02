@@ -29,7 +29,7 @@ caps.handback.revision: 16
   
  此規則會以遞迴方式套用至複製的項目和連結。  
   
- ![複製及貼上的項目](../modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")  
+ ![複製及貼上的項目](~/modeling/media/dslcopypastedefault.png "DslCopyPasteDefault")  
   
  複製的項目和連結會經過序列化並儲存在 <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> \(EGP\) 中，再置於 \[剪貼簿\] 上。  
   
@@ -237,7 +237,7 @@ partial class MyDslClipboardCommandSet // EDIT NAME
 > [!TIP]
 >  如需使用程式碼自訂模型的詳細資訊，請參閱[巡覽及更新程式碼中的模型](../modeling/navigating-and-updating-a-model-in-program-code.md)。  
   
- ![複製作業的順序圖表](../modeling/media/dslcopyseqdiagram.png "dslCopySeqDiagram")  
+ ![複製作業的順序圖表](~/modeling/media/dslcopyseqdiagram.png "dslCopySeqDiagram")  
   
  ![貼上作業的順序圖表](../modeling/media/dslpasteseqdiagram.png "dslPasteSeqDiagram")  
   

@@ -43,19 +43,19 @@ ms.lasthandoff: 04/06/2017
 ## <a name="update-by-using-the-notifications-hub"></a>使用通知中樞更新
 1. 如有更新，您將會在 Visual Studio 中看到通知旗標。
 
-  ![使用通知中樞更新 Visual Studio 2017](media/notification-flag.png "Visual Studio 中的通知旗標")
+  ![使用通知中樞更新 Visual Studio 2017](~/install/media/notification-flag.png "Visual Studio 中的通知旗標")
 
   按一下或點選通知旗標，以開啟 [通知] 中樞。
 
-  ![使用通知中樞更新 Visual Studio 2017](media/notifications-hub.png "Visual Studio 中的通知中樞")
+  ![使用通知中樞更新 Visual Studio 2017](~/install/media/notifications-hub.png "Visual Studio 中的通知中樞")
 
 2. 按一下或點選 [有 "Visual Studio 更新" 可供使用]，隨即開啟 [擴充功能和更新] 對話方塊。
 
-  ![使用通知中樞更新 Visual Studio 2017](media/notifications-hub-select.png "Visual Studio 中的通知中樞")
+  ![使用通知中樞更新 Visual Studio 2017](~/install/media/notifications-hub-select.png "Visual Studio 中的通知中樞")
 
 3. 在 [擴充功能和更新] 對話方塊中，按一下或點選 [更新] 按鈕。
 
-  ![使用通知中樞更新 Visual Studio 2017](media/notifications-extensions-and-updates.png "Visual Studio 中的 [擴充功能和更新] 對話方塊")
+  ![使用通知中樞更新 Visual Studio 2017](~/install/media/notifications-extensions-and-updates.png "Visual Studio 中的 [擴充功能和更新] 對話方塊")
 
 ## <a name="update-by-using-the-visual-studio-installer"></a>使用 Visual Studio 安裝程式更新
 1.    開啟安裝程式。 您可能需要更新安裝程式才能繼續。 如果是這種情況，系統會提示您執行這項操作。
@@ -68,7 +68,7 @@ ms.lasthandoff: 04/06/2017
 
   按一下或點選 [更新] 按鈕，以安裝更新。
 
-     ![使用 Visual Studio 安裝程式更新 Visual Studio 2017](media/update-visual-studio.png "使用 Visual Studio 安裝程式更新 Visual Studio 2017")
+     ![使用 Visual Studio 安裝程式更新 Visual Studio 2017](~/install/media/update-visual-studio.png "使用 Visual Studio 安裝程式更新 Visual Studio 2017")
 
 ## <a name="get-support"></a>取得支援
 有時可能會發生一些問題。 如果您的 Visual Studio 安裝失敗，請參閱[針對 Visual Studio 2017 安裝和升級失敗進行疑難排解](https://support.microsoft.com/help/4015967/troubleshooting-visual-studio-2017-installation-and-upgrade-failures)知識庫文章，以取得疑難排解祕訣。

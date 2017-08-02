@@ -23,7 +23,7 @@ manager: "douge"
 ## 擴充性架構  
  下圖顯示[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]的擴充架構。  請注意軟體應用程式的概念不存在。  相反地，IDE 主機軟體元件會呼叫 VSPackages，可提供應用程式功能。  這項功能，這反而是在 IDE 之間當成共用服務。  VSPackages 提供服務的這些以及其他的 VSPackages。  標準的 IDE 也提供各式各樣的服務，例如<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>，讓您存取的 IDE 視窗化功能。  
   
- ![環境架構圖形](../extensibility/internals/media/environment.png "environment")  
+ ![環境架構圖形](~/extensibility/internals/media/environment.gif "environment")  
 Visual Studio 的架構的 \[一般化\] 檢視  
   
  請注意 VSPackages 和服務之間的關係是雙向。  VSPackages 使用由其他人所提供的服務，雖然它們也可以提供服務本身所使用的<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService>介面。  此服務為基礎的架構成長超出 Microsoft ActiveX 設計工具實作中，服務是一群相關的介面執行工作。  從嚴格的 「 COM 觀點來看，必須在單一的 COM 類別中實作的特定服務的所有介面。  

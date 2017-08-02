@@ -65,7 +65,7 @@ ms.lasthandoff: 02/22/2017
   
  下圖顯示如何實作介面，支援方案和專案組態︰  
   
- ![組態介面圖形](../../extensibility/internals/media/vsconfiginterfaces.gif "vsConfigInterfaces")  
+ ![組態介面圖形](~/extensibility/internals/media/vsconfiginterfaces.gif "vsConfigInterfaces")  
 組態介面  
   
  上圖與相關的一些注意事項︰  

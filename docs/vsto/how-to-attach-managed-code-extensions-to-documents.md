@@ -32,7 +32,7 @@ caps.handback.revision: 32
 > [!NOTE]  
 >  如果程式碼預期收到指定文件未擁有的控制項時，自訂就會失敗。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Word 文件中附加或中斷連結 VSTO 組件？](http://go.microsoft.com/fwlink/?LinkId=136782)\(英文\)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Word 文件中附加或中斷連結 VSTO 組件？](http://go.microsoft.com/fwlink/?LinkId=136782)\(英文\)。  
   
 ### 若要將 Managed 程式碼擴充附加至文件  
   

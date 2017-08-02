@@ -98,7 +98,7 @@ manager: "ghogen"
 #### 統計顯著性  
  為了使人注意到具有最高關聯性的呈現變異，畫面格分析會判斷每個呈現變異的統計顯著性，並將最顯著的呈現變異顯示為粗體。  它會將可改善效能的呈現變異顯示為綠色，並將可讓效能下降的呈現變異顯示為紅色。  它會將沒有統計顯著性的結果顯示為標準類型。  
   
- ![繪製呼叫變數的統計相關](../debugger/media/pix_frame_analysis_summary_stats.png "pix\_frame\_analysis\_summary\_stats")  
+ ![繪製呼叫變數的統計相關](~/debugger/graphics/media/pix_frame_analysis_summary_stats.png "pix\_frame\_analysis\_summary\_stats")  
   
  為了判斷統計關聯性，畫面格分析會使用[學生 t 檢驗](http://www.wikipedia.org/wiki/Student%27s_t-test)。  
   

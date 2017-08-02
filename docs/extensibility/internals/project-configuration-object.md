@@ -38,7 +38,7 @@ ms.lasthandoff: 02/22/2017
 # <a name="project-configuration-object"></a>專案組態物件
 專案組態物件管理 ui 的組態資訊的顯示。  
   
- ![Visual Studio 專案組態](../../extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")  
+ ![Visual Studio 專案組態](~/extensibility/internals/media/vsprojectcfg.gif "vsProjectCfg")  
 專案組態屬性頁  
   
  專案組態提供者管理專案組態。 環境和其他封裝，來存取和擷取有關專案組態的資訊，請呼叫附加至專案的組態提供者物件的介面。  

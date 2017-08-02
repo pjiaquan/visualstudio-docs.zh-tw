@@ -21,7 +21,7 @@ caps.handback.revision: 13
 
 下列模型代表來源控制項實作的範例。  在模型中，您會看到必須實作的介面，您必須呼叫環境服務。  如同所有的服務，您實際上會呼叫您取得的一種服務的特定介面的方法。  若要讓它看起來更清楚如何執行序的原始檔控制識別之類別的名稱。  
   
- ![SCC&#95;TUP 範例](../../extensibility/internals/media/scc_tup.png "SCC\_TUP")  
+ ![SCC&#95;TUP 範例](~/extensibility/internals/media/scc_tup.gif "SCC\_TUP")  
 範例的原始檔控制專案  
   
 ## 介面  

@@ -60,7 +60,7 @@ Visual Studio 專案針對您的程式具有不同的版本和偵錯組態。  �
   
 2.  在工具列的 \[方案組態\] 清單方塊中，選擇 \[偵錯\] 或 \[發行\]。  
   
-     ![工具列組建組態](../debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")  
+     ![工具列組建組態](~/debugger/media/toolbarbuildconfiguration.png "ToolbarBuildConfiguration")  
   
      在 Express 版中無法使用此工具列。  您可以使用 \[**建置方案 F6**\] 和 \[**開始偵錯 F5**\] 功能表項目選擇組態。  
   

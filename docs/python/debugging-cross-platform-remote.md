@@ -119,7 +119,7 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
 
 1. 按 Enter，即可填入該電腦上可用的 ptvsd 處理序清單：
 
-    ![輸入連線目標，並列出處理序](media/remote-debugging-qualifier.png)
+    ![輸入連線目標，並列出處理序](~/python/media/remote-debugging-qualifier.png)
 
     填入此清單之後，如果您剛好在遠端電腦上啟動另一個程式，請選取 [重新整理] 按鈕。
 
@@ -127,7 +127,7 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
 
 1. Visual Studio 即會切換至偵錯模式，而遠端電腦仍會繼續執行指令碼，並提供所有一般[偵錯](debugging.md)功能。 例如，在 `if guess < number:` 行上設定中斷點，然後切換到遠端電腦，並輸入另一種猜測。 進行上述作業之後，本機電腦的 Visual Studio 會在該中斷點停駐，並顯示本機變數等等：
 
-    ![已叫用中斷點](media/remote-debugging-breakpoint-hit.png)
+    ![已叫用中斷點](~/python/media/remote-debugging-breakpoint-hit.png)
 
 1. 當您停止偵錯時，Visual Studio 會中斷連結程式，而遠端電腦仍會繼續執行該程式。 ptvsd 也會繼續接聽以便附加偵錯工具，因此您可以隨時將其重新附加至處理序。
 
@@ -183,7 +183,7 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
 
 1. 現在，將 `tcps://` 作為 [連線目標] (或 [限定詞]) 的通訊協定，以在 Visual Studio 中重複附加程序，如先前所述。
 
-    ![選擇使用 SSL 進行遠端偵錯傳輸](media/remote-debugging-qualifier-ssl.png)
+    ![選擇使用 SSL 進行遠端偵錯傳輸](~/python/media/remote-debugging-qualifier-ssl.png)
 
 ### <a name="warnings"></a>警告
 
@@ -191,11 +191,11 @@ Visual Studio 可在 Windows 電腦的本機或遠端啟動 Python 應用程式�
 
 1. 如果您看到如下「遠端憑證不受信任」的警告，就表示您未正確將憑證新增至信任的根 CA。 檢查這些步驟，並再試一次。
 
-    ![受信任的 SSL 憑證警告](media/remote-debugging-ssl-warning.png)
+    ![受信任的 SSL 憑證警告](~/python/media/remote-debugging-ssl-warning.png)
 
 1. 如果您看到如下「遠端憑證名稱與主機名稱不相符」的警告，表示您在建立憑證時，未使用適當的主機名稱或 IP 位址作為 [一般名稱]。
 
-    ![SSL 憑證主機名稱警告](media/remote-debugging-ssl-warning2.png)
+    ![SSL 憑證主機名稱警告](~/python/media/remote-debugging-ssl-warning2.png)
 
 > [!Warning]
 > 目前，若不予理會這些警告，Visual Studio 2017 會停止回應。 請務必在嘗試連線之前，修正所有問題。

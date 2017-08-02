@@ -48,7 +48,7 @@ ms.lasthandoff: 05/26/2017
   
  如下圖所示，一般的開發體驗可能是一開始您只是建置應用程式 (F5) 並按一下 UI 控制項確認所有項目都正確運作。 然後，您可能決定建立自動程式碼測試，因此不需要繼續手動測試應用程式。 根據您應用程式中測試的特定功能，您可以撰寫程式碼來進行功能測試或者也許包括 UI 層級測試的整合測試。 如果您只想要直接存取某個商務邏輯，則可以編寫單元測試。 不過，在特定情況下，也可能對測試您應用程式中的各種 UI 控制項有所助益。 自動程式化 UI 測試可以自動化初始 (F5) 情節，確認程式碼變換不會影響您應用程式的功能。  
   
- ![在應用程式開發時進行測試](../test/media/cuit_overview.png "CUIT_Overview")  
+ ![在應用程式開發時進行測試](~/test/media/cuit_overview.png "CUIT_Overview")  
   
  建立自動程式化 UI 測試十分簡單。 您只要在背景執行 CUIT 測試產生器時手動執行測試即可。 您也可以指定特定欄位中應該出現的值。 CUIT 測試產生器會錄製您的動作，並透過這些動作產生程式碼。 建立測試之後，即可使用特殊編輯器來編輯該測試，以讓您修改動作的順序。  
   
@@ -96,15 +96,15 @@ ms.lasthandoff: 05/26/2017
   
      如果您剛剛建立自動程式碼 UI 專案，則自動加入第一個 CUIT 檔案。 若要加入另一個測試檔案，請在自動程式化 UI 測試專案上開啟捷徑功能表，並指向 [加入]，然後選擇 [自動程式化 UI 測試]。  
   
-     ![建立自動程式化 UI 測試](../test/media/codedui_create.png "CodedUI_Create")  
+     ![建立自動程式化 UI 測試](~/test/media/codedui_create.png "CodedUI_Create")  
   
      在 [產生自動程式化 UI 測試的程式碼] 對話方塊中，選擇 [錄製動作、編輯 UI 對應或加入判斷提示]。  
   
-     ![選取錄製動作](../test/media/codedui_codegendialogb.png "CodedUI_CodeGenDialogB")  
+     ![選取錄製動作](~/test/media/codedui_codegendialogb.png "CodedUI_CodeGenDialogB")  
   
      [自動程式化 UI 測試產生器] 隨即顯示，並將 Visual Studio 最小化。  
   
-     ![自動程式化 UI 測試產生器](../test/media/codedui_testbuilder.png "CodedUI_TestBuilder")  
+     ![自動程式化 UI 測試產生器](~/test/media/codedui_testbuilder.png "CodedUI_TestBuilder")  
   
 3.  **錄製一連串的動作**。  
   
@@ -127,7 +127,7 @@ ms.lasthandoff: 05/26/2017
   
      關閉判斷提示視窗，然後選擇 [產生程式碼]。  
   
-     ![自動程式化 UI 測試目標項目](../test/media/codedui_1.png "CodedUI_1")  
+     ![自動程式化 UI 測試目標項目](~/test/media/codedui_1.png "CodedUI_1")  
   
     > [!TIP]
     >  在錄製動作與確認值之間替換。 在每串動作或驗證結束時產生程式碼。 如果您想要，則可以稍後插入新的動作和驗證。  
@@ -161,7 +161,7 @@ ms.lasthandoff: 05/26/2017
   
      開啟 UIMap.uitest。 此檔案會在自動程式化 UI 測試編輯器中開啟，而您可以在其中編輯所錄製的任何一串動作，以及編輯您的判斷提示。  
   
-     ![自動程式化 UI 測試編輯器](../test/media/cuit_editor_edit.png "CUIT_Editor_edit")  
+     ![自動程式化 UI 測試編輯器](~/test/media/cuit_editor_edit.png "CUIT_Editor_edit")  
   
      如需詳細資訊，請參閱[使用自動程式化 UI 測試編輯器來編輯自動程式化 UI 測試](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)。  
   
@@ -176,26 +176,26 @@ ms.lasthandoff: 05/26/2017
 ###  <a name="starting"></a> 啟動和停止受測試的應用程式  
  *我不想要分別針對每個測試啟動和停止應用程式、瀏覽器或資料庫。我要如何避免這麼做？*  
   
--   ![必要條件](../test/media/prereq.png "Prereq") 如果您不想要錄製可啟動受測試應用程式的動作，則必須先啟動應用程式，再選擇 [錄製] 圖示。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 如果您不想要錄製可啟動受測試應用程式的動作，則必須先啟動應用程式，再選擇 [錄製] 圖示。  
   
--   ![必要條件](../test/media/prereq.png "Prereq")在測試結束時，會終止在其中執行測試的流程。 如果您已在測試中啟動應用程式，則通常會關閉該應用程式。  如果您不想要測試在結束時關閉應用程式，則必須將 .runsettings 檔案加入至方案，並使用 `KeepExecutorAliveAfterLegacyRun` 選項。 如需詳細資訊，請參閱[使用 .runsettings 檔案設定單元測試](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)。  
+-   ![必要條件](~/test/media/prereq.png "Prereq")在測試結束時，會終止在其中執行測試的流程。 如果您已在測試中啟動應用程式，則通常會關閉該應用程式。  如果您不想要測試在結束時關閉應用程式，則必須將 .runsettings 檔案加入至方案，並使用 `KeepExecutorAliveAfterLegacyRun` 選項。 如需詳細資訊，請參閱[使用 .runsettings 檔案設定單元測試](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)。  
   
--   ![必要條件](../test/media/prereq.png "Prereq") 您可以加入測試初始化方法 (透過 [TestInitialize] 屬性予以識別)，此方法會在每個測試方法開始時執行程式碼。 例如，您可以從 TestInitialize 方法啟動應用程式。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 您可以加入測試初始化方法 (透過 [TestInitialize] 屬性予以識別)，此方法會在每個測試方法開始時執行程式碼。 例如，您可以從 TestInitialize 方法啟動應用程式。  
   
--   ![必要條件](../test/media/prereq.png "Prereq") 您可以加入測試清除方法 (透過 [TestCleanup] 屬性予以識別)，此方法會在每個測試方法結束時執行程式碼。 例如，可以從 TestCleanup 方法呼叫關閉應用程式的方法。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 您可以加入測試清除方法 (透過 [TestCleanup] 屬性予以識別)，此方法會在每個測試方法結束時執行程式碼。 例如，可以從 TestCleanup 方法呼叫關閉應用程式的方法。  
   
 ###  <a name="VerifyingCodeUsingCUITGenerateAssertions"></a> 驗證 UI 控制項的屬性  
  您可以使用 [自動程式化 UI 測試產生器] 將使用者介面 (UI) 控制項加入測試的 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>，或產生可使用 UI 控制項判斷提示之驗證方法的程式碼。  
   
  若要產生 UI 控制項的判斷提示，請選擇自動程式化 UI 測試產生器中的 [加入判斷提示] 工具，並將它拖曳至受測試應用程式上想要驗證是否正確的控制項。 有方塊括住控制項時，請放開滑鼠。 此控制類別碼會立即在 `UIMap.Designer.cs` 檔案中建立。  
   
- ![自動程式化 UI 測試目標項目](../test/media/codedui_1.png "CodedUI_1")  
+ ![自動程式化 UI 測試目標項目](~/test/media/codedui_1.png "CodedUI_1")  
   
  此控制項的屬性現在會列在 [加入判斷提示] 對話方塊中。  
   
  另一種巡覽至特定控制項的方式，是選擇箭號 **(<<)** 展開 [UI 控制項對應] 的檢視。 若要尋找父控制項、同層級控制項或子控制項，您可以按一下對應中的任何位置，並使用方向鍵在樹狀目錄中移動。  
   
- ![自動程式化 UI 測試屬性](../test/media/codedui_2.png "CodedUI_2")  
+ ![自動程式化 UI 測試屬性](~/test/media/codedui_2.png "CodedUI_2")  
   
 -   我在選取應用程式中的控制項時看不到任何屬性，或者在 UI 控制項對應中看不到該控制項。  
   
@@ -203,7 +203,7 @@ ms.lasthandoff: 05/26/2017
   
  接下來，開啟想要驗證之 UI 控制項的屬性的捷徑功能表，然後指向 [加入判斷提示]。 在 [新增判斷提示] 對話方塊中，選取您判斷提示的 [比較子] (例如 <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A>)，然後在 [比較值] 中輸入您判斷提示的值。  
   
- ![自動程式化 UI 測試判斷提示](../test/media/codedui_3.png "CodedUI_3")  
+ ![自動程式化 UI 測試判斷提示](~/test/media/codedui_3.png "CodedUI_3")  
   
  加入您測試的所有判斷提示之後，請選擇 [確定]。  
   
@@ -224,7 +224,7 @@ ms.lasthandoff: 05/26/2017
   
 -   將稱為 `AssertForAddTwoNumbers` 的方法加入至 UI 對應 (UIMap.uitest)。 此檔案會在自動程式化 UI 測試編輯器中開啟，而您可以在此編輯器中編輯判斷提示。  
   
-     ![使用自動程式化 UI 測試編輯器編輯判斷提示](../test/media/cuit_editor_assert.png "CUIT_Editor_assert")  
+     ![使用自動程式化 UI 測試編輯器編輯判斷提示](~/test/media/cuit_editor_assert.png "CUIT_Editor_assert")  
   
      如需詳細資訊，請參閱[使用自動程式化 UI 測試編輯器來編輯自動程式化 UI 測試](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)。  
   
@@ -242,7 +242,7 @@ ms.lasthandoff: 05/26/2017
   
  有時，[加入控制項並驗證其屬性](#VerifyingCodeUsingCUITGenerateAssertions)時，您可能需要使用鍵盤。 例如，如果您嘗試錄製使用操作功能表控制項的自動程式化 UI 測試，則在嘗試從 [自動程式化 UI 測試產生器] 中選取 [加入判斷提示] 工具時，控制項中的功能表項目清單會失去焦點並消失。 這示範於下圖中，其中，如果您嘗試使用 [加入判斷提示] 工具選取 Internet Explorer 中的操作功能表，則該操作功能表會失去焦點並消失。  
   
- ![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png "CodedUITest_SelectControlKeyboard")  
+ ![CodedUITest&#95;SelectControlKeyboard](~/test/media/codeduitest_selectcontrolkeyboard.png "CodedUITest_SelectControlKeyboard")  
   
  若要使用鍵盤選取 UI 控制項，請使用滑鼠將滑鼠指標移至控制項上方。 然後同時按住 **Ctrl** 鍵和 **I** 鍵。 放開按鍵。 此控制項是透過自動程式碼 UI 測試產生器所錄製。  
   
@@ -256,7 +256,7 @@ ms.lasthandoff: 05/26/2017
   
  當您執行自動程式碼 UI 測試時，請將滑鼠指標移至控制項上方。 然後，按住 Ctrl，同時按住鍵盤上的 Shift 和 R 鍵。 放開按鍵。 滑鼠停留事件是透過自動程式化 UI 測試產生器所錄製。  
   
- ![CodedUI&#95;Hover](../test/media/codedui_hover.png "CodedUI_Hover")  
+ ![CodedUI&#95;Hover](~/test/media/codedui_hover.png "CodedUI_Hover")  
   
  在您產生測試方法之後，會在 UIMap.Desinger.cs 檔案中加入與下列範例類似的程式碼：  
   

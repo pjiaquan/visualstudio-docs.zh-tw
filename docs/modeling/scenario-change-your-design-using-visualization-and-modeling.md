@@ -307,7 +307,7 @@ ms.lasthandoff: 02/22/2017
   
  開發人員展開 PaymentProcessing 類別並選取其成員以探索地圖，進而查看可能受影響的區域。  
   
- ![PaymentProcessing 和相依性內部的方法](../modeling/media/depgraph_expandeddn.png "DepGraph_ExpandedDN")  
+ ![PaymentProcessing 和相依性內部的方法](~/modeling/media/depgraph_expandeddn.png "DepGraph_ExpandedDN")  
   
  **PaymentProcessing 類別和其相依性內部的方法**  
   
@@ -362,7 +362,7 @@ ms.lasthandoff: 02/22/2017
   
  為了協助 Lucerne 描述及討論參與「處理付款」使用案例的實體，他們繪製了下列類別圖表：  
   
- ![處理付款 」 實體類別圖上的](../modeling/media/uml_payentities.png "UML_PayEntities")  
+ ![處理付款 」 實體類別圖上的](~/modeling/media/uml_payentities.png "UML_PayEntities")  
   
  **處理付款 」 實體類別圖表上**  
   

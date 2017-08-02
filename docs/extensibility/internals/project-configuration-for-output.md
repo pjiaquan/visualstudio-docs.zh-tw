@@ -34,7 +34,7 @@ caps.handback.revision: 10
   
  群組也可以有索引鍵的輸出，可讓封裝的捷徑指向有意義的名稱。 可能在指定的組態中，空任何群組，因此應該不做任何假設，有關群組的大小。 在任何組態中的每個群組的大小 \(輸出數目\) 可能會不同於相同的組態中的另一個群組的大小。 它也可以從另一個組態中相同的群組的大小不同。  
   
- ![輸出群組圖形](../../extensibility/internals/media/vsoutputgroups.png "vsOutputGroups")  
+ ![輸出群組圖形](~/extensibility/internals/media/vsoutputgroups.gif "vsOutputGroups")  
 輸出群組  
   
  主要用途 <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg> 介面是提供建置、 部署和管理物件進行偵錯和允許專案輸出群組的自由存取。 如需使用此介面的詳細資訊，請參閱 [專案組態物件](../../extensibility/internals/project-configuration-object.md)。  

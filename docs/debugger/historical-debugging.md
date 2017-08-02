@@ -25,7 +25,7 @@ caps.handback.revision: 3
 ## 為何使用歷程偵錯？  
  設定中斷點來找出 Bug 可能相當容易出錯。  您可以在接近程式碼中懷疑為 Bug 所在的位置設定中斷點，然後在偵錯工具中執行應用程式，並希望您的中斷點找到錯誤位置，以及執行中斷可能會顯示 Bug 來源的位置。  否則，您必須嘗試在程式碼的某一處設定中斷點，然後重新執行偵錯工具，以重複執行測試步驟，直到找出問題。  
   
- ![設定中斷點](../debugger/media/breakpointprocesa.png "BreakpointProcesa")  
+ ![設定中斷點](~/debugger/media/breakpointprocesa.png "BreakpointProcesa")  
   
  您可以使用 IntelliTrace 和歷程偵錯來漫遊應用程式，並檢查其狀態 \(呼叫堆疊和區域變數\)，而不需要設定中斷點、重新啟動偵錯，以及重複測試步驟。  這可以節省許多時間，特別是當 Bug 位於測試案例的較深處而需要花很長的時間執行時。  
   
@@ -71,7 +71,7 @@ private static int AddInt(int add)
   
 4.  開啟 \[診斷工具\] 視窗 \(\[偵錯\] \/ \[顯示診斷工具\]\)。  程式碼視窗應該如下所示：  
   
-     ![中斷點上的程式碼視窗](../debugger/media/historicaldebuggingbreakpoint.png "HistoricalDebuggingBreakpoint")  
+     ![中斷點上的程式碼視窗](~/debugger/media/historicaldebuggingbreakpoint.png "HistoricalDebuggingBreakpoint")  
   
 5.  您應該會在左邊界旁邊看到雙箭頭，就在中斷點正上方。  這個區域稱為巡覽邊，並用於歷程偵錯。  按一下箭頭。  
   
@@ -79,7 +79,7 @@ private static int AddInt(int add)
   
      程式碼視窗現在如下所示：  
   
-     ![歷程偵錯模式中的程式碼視窗](../debugger/media/historicaldebuggingback.png "HistoricalDebuggingBack")  
+     ![歷程偵錯模式中的程式碼視窗](~/debugger/media/historicaldebuggingback.png "HistoricalDebuggingBack")  
   
 6.  現在您可以逐步執行 `AddAll()` 方法 \(**F11**，或巡覽邊中的 \[逐步執行\] 按鈕\)。  逐步往前執行 \(**F10**，或巡覽邊中的 \[移至下一個呼叫\]\)。  粉紅色行現在位於 `j = AddInt(j);` 行。  在此情況下，**F10** 不會逐步執行下一行程式碼。  而是會逐步執行至下一個函式呼叫。  歷程偵錯呼叫會巡覽不同的呼叫，並略過不包括函式呼叫的程式碼行。  
   

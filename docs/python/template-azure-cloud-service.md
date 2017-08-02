@@ -48,11 +48,11 @@ Visual Studio 提供的範本有助您使用 Python 以開始建立 Azure 雲端
 1. 安裝[適用於 Visual Studio 的 Azure .NET SDK (英文)](https://www.visualstudio.com/vs/azure-tools/)，這是使用雲端服務範本的必要項目。
 1. 在 Visual Studio 中，選取 [檔案] > [新增] > [專案...]，然後搜尋「Azure Python」，並從清單中選取 [Azure 雲端服務]：
 
-    ![適用於 Python 的 Azure 雲端專案範本](media/template-azure-cloud-project.png)
+    ![適用於 Python 的 Azure 雲端專案範本](~/python/media/template-azure-cloud-project.png)
 
 1. 選取要包含的一或多個角色。 雲端專案可以結合以不同語言撰寫的角色，因此您可以輕鬆地以最適合的語言撰寫應用程式的每個部分。 若要在完成此對話方塊後將新角色新增至專案，請在 [方案總管] 中以滑鼠右鍵按一下 [角色]，然後選取 [新增] 下的其中一個項目。
 
-    ![在 Azure 雲端專案範本中新增角色](media/template-azure-cloud-service-project-wizard.png)
+    ![在 Azure 雲端專案範本中新增角色](~/python/media/template-azure-cloud-service-project-wizard.png)
 
 1. 建立個別角色專案後，如果您選取的角色使用其他的 Python 封裝 (例如 Django、Bottle 或 Flask 架構)，系統會提示您安裝它們。
 
@@ -60,7 +60,7 @@ Visual Studio 提供的範本有助您使用 Python 以開始建立 Azure 雲端
 
 1. 專案的 `bin` 資料夾也包含一或兩個用來設定虛擬機器的 PowerShell 指令碼，包括安裝 Python、專案中的任何 [requirements.txt](#dependencies) 檔案，以及設定 IIS (如有需要)。 您可以視需要針對部署編輯這些檔案，但您能以其他方式管理最常見的選項 (請參閱下方的[設定角色部署](#configuring-role-deployment))。 不建議您移除這些檔案，因為如果無法存取這些檔案，系統將會改用舊版的設定指令碼。
 
-    ![背景工作角色支援檔案](media/template-azure-cloud-service-worker-role-support-files.png)
+    ![背景工作角色支援檔案](~/python/media/template-azure-cloud-service-worker-role-support-files.png)
 
     若要將這些設定指令碼新增至新的專案，請以滑鼠右鍵按一下專案，選取 [新增] > [新增項目...]，然後選取 [Web 角色支援檔案] 或 [背景工作角色支援檔案]。
    

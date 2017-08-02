@@ -20,7 +20,7 @@ caps.handback.revision: 12
   
  若要下載這個範例的完整版，請參閱 [Complete Picture Viewer tutorial sample](http://code.msdn.microsoft.com/Complete-Picture-Viewer-7d91d3a8) (完整的圖片檢視器教學課程範例)。  
   
- ![影片連結](../data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 5](http://go.microsoft.com/fwlink/?LinkId=205216) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 5](http://go.microsoft.com/fwlink/?LinkId=205206)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![影片連結](~/data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 5](http://go.microsoft.com/fwlink/?LinkId=205216) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 5](http://go.microsoft.com/fwlink/?LinkId=205206)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### <a name="to-run-your-program-and-set-the-background-color"></a>若要執行程式並設定背景色彩  
   
@@ -28,7 +28,7 @@ caps.handback.revision: 12
   
 2.  在開啟圖片之前，請先選擇 [設定背景色彩] 按鈕。 [色彩] 對話方塊隨即開啟。  
   
-     ![[色彩] 對話方塊](../ide/media/express_colordialog.png "Express_ColorDialog")  
+     ![[色彩] 對話方塊](~/ide/media/express_colordialog.png "Express_ColorDialog")  
 [色彩] 對話方塊  
   
 3.  選擇色彩以設定 PictureBox 背景色彩。 仔細查看 `backgroundButton_Click()` 方法以了解其運作方式。  

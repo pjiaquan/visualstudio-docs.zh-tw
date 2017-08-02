@@ -227,11 +227,11 @@ ms.lasthandoff: 05/13/2017
   
     2.  針對虛擬乙太網路 (內部乙太網路連接埠 Windows Phone 模擬器內部交換器) 介面卡，從內容功能表選擇 [內容]  。  
   
-         ![Hyper&#45;V 所使用的虛擬介面卡](../cross-platform/media/android_emu_virtual_adapter.png "Android_Emu_Virtual_Adapter")  
+         ![Hyper&#45;V 所使用的虛擬介面卡](~/cross-platform/media/android_emu_virtual_adapter.png "Android_Emu_Virtual_Adapter")  
   
          介面卡內容如下所示。  
   
-         ![虛擬介面卡內容](../cross-platform/media/android_emu_virtual_adapter_properties.png "Android_Emu_Virtual_Adapter_Properties")  
+         ![虛擬介面卡內容](~/cross-platform/media/android_emu_virtual_adapter_properties.png "Android_Emu_Virtual_Adapter_Properties")  
   
     3.  針對這張介面卡，您只需要在 [這個連線使用下列項目]  下選取下列選項：  
   
@@ -259,7 +259,7 @@ ms.lasthandoff: 05/13/2017
   
     -   開啟 Hyper V 並移至虛擬交換器管理員。 建立名為「Windows Phone 模擬器內部交換器」的虛擬交換器，然後將其連線類型設定為 [內部網路] 。  
   
-         ![虛擬交換器管理員](../cross-platform/media/android_emu_virtual_switch_manager.png "Android_Emu_Virtual_Switch_Manager")  
+         ![虛擬交換器管理員](~/cross-platform/media/android_emu_virtual_switch_manager.png "Android_Emu_Virtual_Switch_Manager")  
   
      現在啟動模擬器。 模擬器應該會正常運作。  
   

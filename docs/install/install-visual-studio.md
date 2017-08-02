@@ -75,7 +75,7 @@ ms.lasthandoff: 05/31/2017
 
 2.  我們將會要求您認可 Microsoft [授權條款](https://www.visualstudio.com/license-terms/)和 Microsoft [隱私權聲明](https://go.microsoft.com/fwlink/?LinkID=824704)。 按一下 [ **繼續**]。  
 
-   ![授權條款和隱私權聲明](media/vs2017-privacy-and-license-terms.PNG "Microsoft 授權條款和隱私權聲明")  
+   ![授權條款和隱私權聲明](~/install/media/vs2017-privacy-and-license-terms.PNG "Microsoft 授權條款和隱私權聲明")  
 
 您會看到顯示安裝進度的幾個狀態畫面。 安裝程式完成安裝之後，您就可以選取想要的功能集或工作負載。
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 05/31/2017
 
 1.  在 [安裝 Visual Studio] 畫面中找到您想要的工作負載。  
 
-  ![Visual Studio 2017 安裝程式對話方塊](media/vs2017-workloads.PNG "安裝 Visual Studio 工作負載")
+  ![Visual Studio 2017 安裝程式對話方塊](~/install/media/vs2017-workloads.PNG "安裝 Visual Studio 工作負載")
 
      例如，選擇 .NET 桌面開發工作負載。 它隨附預設核心編輯器，其中包括超過 20 種語言的基本程式碼編輯支援、能夠從任何資料夾開啟及編輯程式碼而不需要專案，以及整合的原始程式碼控制。  
 
@@ -100,13 +100,13 @@ ms.lasthandoff: 05/31/2017
 
 如果您不打算使用好用的 [工作負載] 功能來自訂 Visual Studio 安裝，請從 Visual Studio 安裝程式按一下 [個別元件] 選項，選取所需的設定，然後依照提示進行。
 
-  ![Visual Studio 2017 - 安裝個別元件](media/vs2017-components.PNG "安裝 Visual Studio 的個別元件")
+  ![Visual Studio 2017 - 安裝個別元件](~/install/media/vs2017-components.PNG "安裝 Visual Studio 的個別元件")
 
 ## <a name="install-language-packs"></a>安裝語言套件
 
 若要以您選擇的語言安裝 Visual Studio 2017，請從「Visual Studio 安裝程式」按一下 [語言套件] 選項，然後依照提示進行操作。
 
-  ![Visual Studio 2017 - 安裝語言套件](media/vs2017-languages.PNG "安裝 Visual Studio 語言套件")
+  ![Visual Studio 2017 - 安裝語言套件](~/install/media/vs2017-languages.PNG "安裝 Visual Studio 語言套件")
 
 ### <a name="change-the-installer-language"></a>變更安裝程式語言
 

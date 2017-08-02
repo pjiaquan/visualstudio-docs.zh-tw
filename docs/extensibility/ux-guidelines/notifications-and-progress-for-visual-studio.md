@@ -75,7 +75,7 @@ ms.lasthandoff: 02/22/2017
 ####  <a name="a-namebkmkmodalerrormessagedialogsa-modal-error-message-dialogs"></a><a name="BKMK_ModalErrorMessageDialogs"></a>強制回應錯誤訊息對話方塊  
  強制回應錯誤訊息對話方塊用來顯示錯誤訊息，要求使用者確認或動作。  
   
- ![強制回應錯誤訊息](../../extensibility/ux-guidelines/media/0901-01_modalerrormessage.png "0901年&01;_ModalErrorMessage")  
+ ![強制回應錯誤訊息](~/extensibility/ux-guidelines/media/0901-01_modalerrormessage.png "0901年&01;_ModalErrorMessage")  
   
  **警示無效的連接字串至資料庫的使用者強制回應錯誤訊息對話方塊**  
   
@@ -88,14 +88,14 @@ ms.lasthandoff: 02/22/2017
   
  [狀態] 列也以色彩標示傳達各種 IDE 狀態變更，例如當 IDE 偵錯模式中加入視覺效果和功能的值。  
   
- ![IDE 狀態列色彩變更](../../extensibility/ux-guidelines/media/0901-02_idestatusbar.png "0901年&02;_IDEStatusBar")  
+ ![IDE 狀態列色彩變更](~/extensibility/ux-guidelines/media/0901-02_idestatusbar.png "0901年&02;_IDEStatusBar")  
   
  **IDE 狀態列色彩**  
   
 ####  <a name="a-namebkmkembeddedinfobara-embedded-infobar"></a><a name="BKMK_EmbeddedInfobar"></a>內嵌資訊列  
  資訊列可在文件視窗或工具視窗頂端的通知狀態或條件的使用者。 它也提供命令，以便使用者能夠輕鬆地採取動作。 資料列是標準的介面控制項。 請避免建立您自己，以採取行動，會出現不一致，有其他人在 IDE 中。 請參閱[資訊列](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars)實作詳細資料和使用方式的指引。  
   
- ![內嵌資訊列](../../extensibility/ux-guidelines/media/0901-03_embeddedinfobar.png "0901年&03;_EmbeddedInfobar")  
+ ![內嵌資訊列](~/extensibility/ux-guidelines/media/0901-03_embeddedinfobar.png "0901年&03;_EmbeddedInfobar")  
   
  **資訊列會內嵌在文件視窗中，警示使用者，IDE 歷程偵錯模式中編輯器 中將不會回應相同的方式與標準偵錯模式中。**  
   
@@ -114,21 +114,21 @@ ms.lasthandoff: 02/22/2017
   
  [通知] 視窗不是目前可延伸的。  
   
- ![Visual Studio 的 [通知] 視窗](../../extensibility/ux-guidelines/media/0901-06_vsnotificationswindow.png "0901年&06;_VSNotificationsWindow")  
+ ![Visual Studio 的 [通知] 視窗](~/extensibility/ux-guidelines/media/0901-06_vsnotificationswindow.png "0901年&06;_VSNotificationsWindow")  
   
  **Visual Studio 通知工具視窗**  
   
 ####  <a name="a-namebkmkerrorlista-error-list"></a><a name="BKMK_ErrorList"></a>錯誤清單  
  錯誤清單中的通知指出錯誤與警告的編譯期間發生，或建置程序，並可讓使用者瀏覽至該特定程式碼錯誤的程式碼中。  
   
- ![錯誤清單](../../extensibility/ux-guidelines/media/0901-08_errorlist.png "0901年&08;_ErrorList")  
+ ![錯誤清單](~/extensibility/ux-guidelines/media/0901-08_errorlist.png "0901年&08;_ErrorList")  
   
  **在 Visual Studio 中的錯誤清單**  
   
 ####  <a name="a-namebkmkembeddedstatusbarsa-embedded-status-bars"></a><a name="BKMK_EmbeddedStatusBars"></a>內嵌的狀態列  
  IDE 狀態列是動態的與設定為使用中的文件視窗和資訊更新使用者的內容和 （或） 系統回應其用戶端區域內容，因為很難維護連續顯示資訊或提供長期的非同步處理序的狀態。 比方說，IDE 狀態列不適當的多個執行及/或立即採取行動的項目選取項目執行的測試結果的通知。 請務必保留文件或工具視窗使用者進行選取，或啟動的處理序的內容中的這類狀態資訊。  
   
- ![內嵌的狀態列](../../extensibility/ux-guidelines/media/0901-09_embeddedstatusbar.png "0901年&09;_EmbeddedStatusBar")  
+ ![內嵌的狀態列](~/extensibility/ux-guidelines/media/0901-09_embeddedstatusbar.png "0901年&09;_EmbeddedStatusBar")  
   
  **在 Visual Studio 中的內嵌的狀態列**  
   
@@ -140,7 +140,7 @@ ms.lasthandoff: 02/22/2017
 ####  <a name="a-namebkmknotificationbubblesa-notification-bubbles"></a><a name="BKMK_NotificationBubbles"></a>通知泡泡  
  通知泡泡會顯示成參考用訊息在編輯器/設計工具或 Windows 通知區域的一部分。 使用者視為這些泡泡它們之後，就可以解決的問題也就是關鍵的通知的一項優點。 （泡泡） 是適當的使用者就必須立即解決的重要資訊。 如果您在 Visual Studio 中使用通知 （泡泡），請遵循[Windows 桌面通知泡泡指導](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742472\(v=vs.85\).aspx)。  
   
- ![通知泡泡](../../extensibility/ux-guidelines/media/0901-07_notificationbubbles.png "0901年&07;_NotificationBubbles")  
+ ![通知泡泡](~/extensibility/ux-guidelines/media/0901-07_notificationbubbles.png "0901年&07;_NotificationBubbles")  
   
  **使用 Visual studio 的 Windows 通知區域中的通知泡泡**  
   
@@ -191,14 +191,14 @@ ms.lasthandoff: 02/22/2017
 #### <a name="progress-bars"></a>進度列  
   
 ##### <a name="indeterminate"></a>不定  
- ![不確定的進度列](../../extensibility/ux-guidelines/media/0901-04_indeterminate.png "0901年&04;_Indeterminate")  
+ ![不確定的進度列](~/extensibility/ux-guidelines/media/0901-04_indeterminate.png "0901年&04;_Indeterminate")  
   
  **不確定的進度列**  
   
  「 不確定 」 表示作業的整體進度，或無法判斷處理程序。 使用不確定的進度列的作業需要無限的量的時間，或可存取的物件數目不明。 使用的文字描述伴隨著發生什麼事。 使用逾時，為範圍以時間為基礎的作業。 不確定的進度列會使用動畫來顯示進度正在進行，但未提供其他資訊。 請勿選擇只根據可能缺乏精確度單獨的不確定的進度列。  
   
 ##### <a name="determinate"></a>確定  
- ![確定的進度列](../../extensibility/ux-guidelines/media/0901-05_determinate.png "0901年&05;_Determinate")  
+ ![確定的進度列](~/extensibility/ux-guidelines/media/0901-05_determinate.png "0901年&05;_Determinate")  
   
  **確定的進度列**  
   
@@ -217,12 +217,12 @@ ms.lasthandoff: 02/22/2017
 #### <a name="other-progress-indicators"></a>其他的進度指示器  
   
 ##### <a name="ants-animated-horizontal-dots"></a>螞蟻 （水平點動畫）  
- ![進度流動外框](../../extensibility/ux-guidelines/media/0903-01_ants.png "0903年&01;_Ants")  
+ ![進度流動外框](~/extensibility/ux-guidelines/media/0903-01_ants.png "0903年&01;_Ants")  
   
  「 流動外框，「 動畫的水平點，提供不確定的反覆存取伺服器處理序 visual 的參考。  
   
 ##### <a name="spinner-progress-ring"></a>微調按鈕 （進度環）  
- ![進度微調按鈕](../../extensibility/ux-guidelines/media/0903-02_spinner.png "0903年&02;_Spinner")  
+ ![進度微調按鈕](~/extensibility/ux-guidelines/media/0903-02_spinner.png "0903年&02;_Spinner")  
   
  微調按鈕 （也稱為 「 進度環 」） 是不確定的進度指示器主要用於與內容相關的 UI。 顯示微調非常接近其相關的內容，例如文字分類標頭、 訊息、 或控制項。  
   
@@ -234,69 +234,69 @@ ms.lasthandoff: 02/22/2017
 ##### <a name="status-bar"></a>狀態列  
  狀態列可提供應用程式的位置向使用者顯示訊息及有用的資訊，而不中斷使用者的工作。 通常顯示在視窗底部，進度的狀態將會包含有關進度的量值的訊息加上一個進度列指示器的工具提示窗格。  
   
- ![具有進度列的狀態列](../../extensibility/ux-guidelines/media/0903-03_statusbarprogressbar.png "0903年&03;_StatusBarProgressBar")  
+ ![具有進度列的狀態列](~/extensibility/ux-guidelines/media/0903-03_statusbarprogressbar.png "0903年&03;_StatusBarProgressBar")  
   
  **具有進度列的狀態列**  
   
- ![具有傳訊的狀態列](../../extensibility/ux-guidelines/media/0903-04_statusbarmessage.png "0903年&04;_StatusBarMessage")  
+ ![具有傳訊的狀態列](~/extensibility/ux-guidelines/media/0903-04_statusbarmessage.png "0903年&04;_StatusBarMessage")  
   
  **狀態列文字描述**  
   
 ##### <a name="infobar"></a>資訊列  
  類似於狀態列，資訊列提供內容的通知和傳訊，也可以搭配具有不確定的進度指標，例如進度列或微調。 資訊列時，不應提供細微的層級進行或確定的進度指示。 請參閱[資訊列](../../extensibility/ux-guidelines/notifications-and-progress-for-visual-studio.md#BKMK_Infobars)。  
   
- ![具有進度列和傳訊的資訊列](../../extensibility/ux-guidelines/media/0903-05_infobar.png "0903年&05;_InfoBar")  
+ ![具有進度列和傳訊的資訊列](~/extensibility/ux-guidelines/media/0903-05_infobar.png "0903年&05;_InfoBar")  
   
  **具有進度列和文字描述的資訊列**  
   
- ![在視窗內的資訊列](../../extensibility/ux-guidelines/media/0903-06_infobarinwindow.png "0903年&06;_InfoBarInWindow")  
+ ![在視窗內的資訊列](~/extensibility/ux-guidelines/media/0903-06_infobarinwindow.png "0903年&06;_InfoBarInWindow")  
   
  **程式碼分析 視窗內的資訊列**  
   
 ##### <a name="inline"></a>內嵌  
  內嵌進度指示可以表示任何進度載入器類型。 進度列指示器通常搭配訊息，但這不是需求。  
   
- ![內嵌進度微調按鈕](../../extensibility/ux-guidelines/media/0903-07_inlinespinner.png "0903年&07;_InlineSpinner")  
+ ![內嵌進度微調按鈕](~/extensibility/ux-guidelines/media/0903-07_inlinespinner.png "0903年&07;_InlineSpinner")  
   
  **微調結合文字描述**  
   
- ![內嵌堆疊進度列](../../extensibility/ux-guidelines/media/0903-08_inlinestackedprogress.png "0903年&08;_InlineStackedProgress")  
+ ![內嵌堆疊進度列](~/extensibility/ux-guidelines/media/0903-08_inlinestackedprogress.png "0903年&08;_InlineStackedProgress")  
   
  **確定堆疊的進度列**  
   
- ![內嵌進度傳訊](../../extensibility/ux-guidelines/media/0903-09_inlinetext.png "0903年&09;_InlineText")  
+ ![內嵌進度傳訊](~/extensibility/ux-guidelines/media/0903-09_inlinetext.png "0903年&09;_InlineText")  
   
  **伺服器總管內嵌文字︰ 重新整理...**  
   
 ##### <a name="tool-windows"></a>工具視窗  
  全域進度指示是由位於正下方的工具列上的不確定的進度列表示。  
   
- ![全域不確定的進度列](../../extensibility/ux-guidelines/media/0903-23_globalindeterminate.png "0903年&23;_GlobalIndeterminate")  
+ ![全域不確定的進度列](~/extensibility/ux-guidelines/media/0903-23_globalindeterminate.png "0903年&23;_GlobalIndeterminate")  
   
  **Team Explorer 全域不確定的進度列**  
   
 ##### <a name="dialogs"></a>對話方塊  
  對話方塊可以包含任何進度載入器類型。 進度指標可以是搭配訊息，以及結合多個層級表示細微及子程序的進度指示。  
   
- ![具有多個進度指標類型的對話方塊](../../extensibility/ux-guidelines/media/0903-11_dialog.png "0903年&11;_Dialog")  
+ ![具有多個進度指標類型的對話方塊](~/extensibility/ux-guidelines/media/0903-11_dialog.png "0903年&11;_Dialog")  
   
  **與並行處理多個進度指標類型的 visual Studio 對話方塊**  
   
- ![具有進度載入器和傳訊的對話方塊](../../extensibility/ux-guidelines/media/0903-12_dialog2.png "0903年&12;_Dialog2")  
+ ![具有進度載入器和傳訊的對話方塊](~/extensibility/ux-guidelines/media/0903-12_dialog2.png "0903年&12;_Dialog2")  
   
  **具有進度載入器和傳訊內嵌命令的 visual Studio 對話方塊**  
   
 ##### <a name="document-well"></a>完善的文件  
  文件也可以顯示多個進度載入器類型與控制項的組合。  
   
- ![文件進度傳訊也](../../extensibility/ux-guidelines/media/0903-13_documentwell.png "0903年&13;_DocumentWell")  
+ ![文件進度傳訊也](~/extensibility/ux-guidelines/media/0903-13_documentwell.png "0903年&13;_DocumentWell")  
   
  **工具列下方的不確定的進度列**  
   
 ##### <a name="output-window"></a>輸出視窗  
  [輸出] 視窗也適用於處理程序的進展，以及透過內嵌文字訊息的進行中的進度狀態。 您應該使用 [狀態] 列，以及任何輸出視窗進度報告。  
   
- ![[輸出] 視窗中的進度傳訊](../../extensibility/ux-guidelines/media/0903-14_outputwindow.png "0903年&14;_OutputWindow")  
+ ![[輸出] 視窗中的進度傳訊](~/extensibility/ux-guidelines/media/0903-14_outputwindow.png "0903年&14;_OutputWindow")  
   
  **輸出視窗持續的程序的狀態，並等候訊息**  
   
@@ -305,7 +305,7 @@ ms.lasthandoff: 02/22/2017
 ### <a name="overview"></a>概觀  
  資訊列授與使用者的注意其點接近指標，並使用共用的資料列控制確保一致的視覺外觀與互動。  
   
- ![資訊列](../../extensibility/ux-guidelines/media/0904-01_infobar.png "0904年&01;_Infobar")  
+ ![資訊列](~/extensibility/ux-guidelines/media/0904-01_infobar.png "0904年&01;_Infobar")  
   
  **在 Visual Studio 中的資訊列**  
   
@@ -377,7 +377,7 @@ public InfoBarModel(string text, IEnumerable<IVsInfoBarActionItem> actionItems, 
   
  以下是範例會建立 InfoBarModel 一些文字與超連結、 動作按鈕和圖示。  
   
- ![具有超連結的資訊列](../../extensibility/ux-guidelines/media/0904-02_infobarhyperlink.png "0904年&02;_InfobarHyperlink")  
+ ![具有超連結的資訊列](~/extensibility/ux-guidelines/media/0904-02_infobarhyperlink.png "0904年&02;_InfobarHyperlink")  
   
 ```  
 var infoBar = new InfoBarModel(  
@@ -495,31 +495,31 @@ public interface IVsInfoBarUIEvents
 ### <a name="field-validation"></a>欄位驗證  
  表單和欄位驗證是由三個元件所組成︰ 一個控制項、 圖示和工具提示。 時數種類型的控制項可以使用這個方法，在文字方塊中將使用做為範例。  
   
- ![欄位驗證 （空白）](../../extensibility/ux-guidelines/media/0905-01_fieldvalidation.png "0905年&01;_FieldValidation")  
+ ![欄位驗證 （空白）](~/extensibility/ux-guidelines/media/0905-01_fieldvalidation.png "0905年&01;_FieldValidation")  
   
  如果這是必要欄位，應該要有浮水印文字，指出**\<必要 >**欄位背景應 light 黃色 (VSColor: `Environment.ControlEditRequiredBackground`) 和前景應該是灰色 (VSColor: `Environment.ControlEditRequiredHintText`):  
   
- ![欄位與 [必要] 標籤的驗證](../../extensibility/ux-guidelines/media/0905-02_fieldvalidationrequired.png "0905年&02;_FieldValidationRequired")  
+ ![欄位與 [必要] 標籤的驗證](~/extensibility/ux-guidelines/media/0905-02_fieldvalidationrequired.png "0905年&02;_FieldValidationRequired")  
   
  程式可以判斷控制項的狀態是*輸入的內容無效*當焦點移至另一個控制項，或當使用者按一下 [確定] 認可 按鈕，或當使用者儲存文件或表單。  
   
  無效的內容狀態決定後，控制項內部，或只是它旁邊會出現圖示。 描述錯誤的工具提示應該會出現在按鈕的圖示或控制項。 此外，用來建立無效的狀態控制項周圍的 1 個像素框線應該會出現。  
   
- ![欄位驗證版面配置規格](../../extensibility/ux-guidelines/media/0905-03_layoutspecs.png "0905年&03;_LayoutSpecs")  
+ ![欄位驗證版面配置規格](~/extensibility/ux-guidelines/media/0905-03_layoutspecs.png "0905年&03;_LayoutSpecs")  
   
  **欄位驗證版面配置規格**  
   
 #### <a name="acceptable-variations-for-icon-location"></a>圖示位置可接受的變化  
  有了很多唯一的情況下，使用者要收到驗證錯誤的相關通知。 考慮控制項類型及組態的使用者介面中，選擇適合您狀況的圖示位置。  
   
- ![圖示位置可接受位置](../../extensibility/ux-guidelines/media/0905-04_iconlocation.png "0905年&04;_IconLocation")  
+ ![圖示位置可接受位置](~/extensibility/ux-guidelines/media/0905-04_iconlocation.png "0905年&04;_IconLocation")  
   
  **欄位驗證圖示位置可接受的變化**  
   
 #### <a name="validation-requiring-a-round-trip-to-a-server-or-network-connection"></a>需要來回伺服器或網路連線的驗證  
  在某些情況下，往返伺服器，才能確認的內容，並務必以顯示使用者進行驗證和錯誤狀態。 下圖顯示此案例與建議的 UI 中的範例。  
   
- ![需要往返伺服器的驗證](../../extensibility/ux-guidelines/media/0905-05_roundtrip.png "0905年&05;_RoundTrip")  
+ ![需要往返伺服器的驗證](~/extensibility/ux-guidelines/media/0905-05_roundtrip.png "0905年&05;_RoundTrip")  
   
  **需要往返伺服器的驗證**  
   
@@ -528,13 +528,13 @@ public interface IVsInfoBarUIEvents
 #### <a name="in-place-warning-text"></a>就地警告文字  
  當有足夠的空間可用來將錯誤訊息，接近控制項放在錯誤的狀態時，這是偏好使用單獨的工具提示。  
   
- ![就地警告](../../extensibility/ux-guidelines/media/0905-06_inplacewarning.png "0905年&06;_InPlaceWarning")  
+ ![就地警告](~/extensibility/ux-guidelines/media/0905-06_inplacewarning.png "0905年&06;_InPlaceWarning")  
   
  **就地警告文字**  
   
 #### <a name="watermarks"></a>浮水印  
  有時候整個控制項或視窗，則在錯誤狀態。 在此情況下，使用浮水印，表示發生錯誤。  
   
- ![浮水印](../../extensibility/ux-guidelines/media/0905-07_watermark.png "0905年&07;_Watermark")  
+ ![浮水印](~/extensibility/ux-guidelines/media/0905-07_watermark.png "0905年&07;_Watermark")  
   
  **浮水印欄位驗證**

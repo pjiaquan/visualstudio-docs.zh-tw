@@ -58,17 +58,17 @@ IPython 模式的 Visual Studio 互動式視窗，是個進階但容易使用的
 
 1. 如果全部都已正確設定，您應該會看到下列結果：
 
-    ![IPython 組態輸出 ](media/ipython-repl-01.png)
+    ![IPython 組態輸出 ](~/python/media/ipython-repl-01.png)
 
 1. 開啟 Visual Studio，切換到 [Python 環境] 視窗 ([檢視] > [其他視窗] > [Python 環境])，然後選取您的 Python 環境。
 1. 查看 [pip] 索引標籤，並確保其中已列出 `IPython` 和 `matplotlib`。 如果沒有，請在這裡安裝它們。
 1. 選取 [概觀] 索引標籤，選取 [設定互動選項]，將 [互動模式] 設定為 [IPython]，然後選取 [確定]：
 
-    ![將互動模式設定為 [IPython]](media/ipython-repl-02.png)
+    ![將互動模式設定為 [IPython]](~/python/media/ipython-repl-02.png)
 
 1. 選取 [開啟互動式視窗] 以開啟 IPython 模式且搭配 PyLab 的互動式視窗。 如果您才剛剛變更互動模式，您可能需要重設視窗：
 
-    ![IPython 模式的互動式視窗](media/ipython-repl-03.png)
+    ![IPython 模式的互動式視窗](~/python/media/ipython-repl-03.png)
 
 1. 輸入下列程式碼：
 
@@ -80,7 +80,7 @@ IPython 模式的 Visual Studio 互動式視窗，是個進階但容易使用的
 
 1. 輸入最後一行之後，您應該會看到一個内嵌圖表 (您可以視需要拖曳右下角來調整大小)。
 
-    ![互動式視窗中的內嵌圖表](media/ipython-repl-04.png)
+    ![互動式視窗中的內嵌圖表](~/python/media/ipython-repl-04.png)
 
 1. 除了在 REPL 中輸入之外，您可以改為在編輯器中撰寫程式碼，選取它，以滑鼠右鍵按一下，然後選取 [傳送到 Interactive] 命令 (Ctrl-E、E)。 嘗試將以下程式碼貼到編輯器，使用 Ctrl-A 選取它，然後傳送到互動式視窗。 (請注意，當 Visual Studio 將程式碼傳送到互動式視窗時，它會將程式碼以單一單位傳送，以避免產生過渡或部分的圖表)。
 
@@ -105,15 +105,15 @@ IPython 模式的 Visual Studio 互動式視窗，是個進階但容易使用的
     plt.show()
     ```
 
-    ![將程式碼從編輯器傳送至互動式視窗](media/ipython-repl-05.png)
+    ![將程式碼從編輯器傳送至互動式視窗](~/python/media/ipython-repl-05.png)
 
 1. 若要在互動式視窗外查看圖表，請改為使用 [偵錯] > [啟動但不偵錯] 命令來執行程式碼。
     
 1. IPython 有多種實用功能，例如逸出到系統殼層、變數替換、擷取輸出等。如需詳細資訊，請參閱 IPython 參考指南：
 
-    ![逸出到系統殼層](media/ipython-repl-06.png)
+    ![逸出到系統殼層](~/python/media/ipython-repl-06.png)
 
 1. 您能以「筆記本」模式使用 IPython，這使您可以將任何作業系統上的任何瀏覽器做為畫布使用。 後端 IPython 引擎可在您的本機電腦上，或是在遠端。 Azure 支援[在 Windows 或 Linux VM 上執行 IPython](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-jupyter-notebook)。 另請參閱 [Azure 筆記本預覽 (英文)](https://notebooks.azure.com)，以在 Azure 上取得免費的「Jupyter 筆記本即服務」：
 
-    ![IPython 筆記本模式](media/ipython-repl-07.png)
+    ![IPython 筆記本模式](~/python/media/ipython-repl-07.png)
 

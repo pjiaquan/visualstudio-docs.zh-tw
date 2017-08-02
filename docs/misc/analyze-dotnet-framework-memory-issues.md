@@ -44,7 +44,7 @@ manager: "douge"
   
  GC 針對每個應用程式維護一個參考樹狀目錄，以追蹤應用程式參考的物件。  *「參考樹狀目錄」*\(Reference Tree\) 有一組根目錄，其中包含全域和靜態物件，以及相關聯的執行緒堆疊和動態具現化的物件。  如果某個物件至少有一個參考該物件的父物件，則該物件是根目錄。  只有應用程式中沒有其他物件或變數參考該物件時，GC 才能回收該物件的記憶體。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> 識別應用程式中的記憶體問題  
  應用程式效能是記憶體問題的最明顯徵兆，特別是效能隨著時間逐漸降低時。  如果您的應用程式執行期間有其他應用程式的效能降低，也表示發生記憶體問題。  如果您懷疑發生記憶體問題，請使用工作管理員或 [Windows 效能監視器](http://technet.microsoft.com/library/cc749249.aspx)等工具進一步調查。  例如，尋找您無法解釋的記憶體大小總計成長量，當做記憶體流失的可能來源：  
@@ -73,7 +73,7 @@ manager: "douge"
   
  若要分析應用程式的記憶體使用成長量，請從一個應用程式執行個體收集兩個傾印檔案。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Analyze_memory_use"></a> 分析記憶體使用情況  
  [篩選物件清單](#BKMK_Filter_the_list_of_objects) **&#124;** [分析一份快照中的記憶體資料](#BKMK_Analyze_memory_data_in_from_a_single_snapshot) **&#124;** [比較兩個記憶體快照](#BKMK_Compare_two_memory_snapshots)  
@@ -88,7 +88,7 @@ manager: "douge"
   
  記憶體分析器會啟動偵錯工作階段以分析檔案，並在 \[堆積檢視\] 頁面中顯示結果：  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ###  <a name="BKMK_Filter_the_list_of_objects"></a> 篩選物件清單  
  根據預設，記憶體分析器會篩選記憶體快照中的物件清單，只顯示使用者程式碼的類型和執行個體，並且只顯示內含大小總計超過堆積大小總計之臨界值百分比的類型。  您可以在 \[檢視設定\] 清單中變更下列選項：  
@@ -100,14 +100,14 @@ manager: "douge"
   
  您也可以在 \[搜尋\] 方塊中輸入字串，來篩選類型清單。  此清單只會顯示其名稱包含字串的類型。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ###  <a name="BKMK_Analyze_memory_data_in_from_a_single_snapshot"></a> 分析一份快照中的記憶體資料  
  Visual Studio 啟動新的偵錯工作階段以分析檔案，並在 \[堆積檢視\] 視窗中顯示記憶體資料。  
   
  ![&#91;物件類型&#93; 清單](../misc/media/dbg_mma_objecttypelist.png "DBG\_MMA\_ObjectTypeList")  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 #### 物件類型資料表  
  上方資料表列出保留在記憶體中之物件的類型。  
@@ -118,7 +118,7 @@ manager: "douge"
   
 -   \[內含大小 \(位元組\)\] 包含參考的物件大小。  
   
- 您可以選擇 \[**物件類型**\] 資料行中的執行個體圖示 \(![&#91;物件類型&#93; 資料行中的執行個體圖示](../misc/media/dbg_mma_instancesicon.png "DBG\_MMA\_InstancesIcon")\)，以檢視該類型執行個體的清單。  
+ 您可以選擇 \[**物件類型**\] 資料行中的執行個體圖示 \(![&#91;物件類型&#93; 資料行中的執行個體圖示](~/profiling/media/dbg_mma_instancesicon.png "DBG\_MMA\_InstancesIcon")\)，以檢視該類型執行個體的清單。  
   
 #### 執行個體資料表  
  ![執行個體資料表](../misc/media/dbg_mma_instancestable.png "DBG\_MMA\_InstancesTable")  
@@ -181,7 +181,7 @@ manager: "douge"
   
  \[參考計數差異\] 資料行也會加入至 \[根的路徑\] 資料表。  
   
- ![回到頁首](../debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ## 請參閱  
  [VS ALM TFS 部落格：在生產環境中使用 Visual Studio 2013 診斷 .NET 記憶體問題](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx)   

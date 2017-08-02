@@ -59,7 +59,7 @@ XML 結構描述總管整合於 Microsoft Visual Studio 和 XML 編輯器，可�
   
  以下是樹狀結構的範例：  
   
- ![XML 結構描述總管](../xml-tools/media/xmlschemaexplorer.gif "XMLSchemaExplorer")  
+ ![XML 結構描述總管](~/xml-tools/media/xmlschemaexplorer.gif "XMLSchemaExplorer")  
   
 ## 選取和啟動  
  若要反白顯示並選取節點，請在結構描述總管中按一下。  

@@ -398,10 +398,10 @@ caps.handback.revision: 8
 |-----------|----------------|--------------------|  
 |**未選取**|預設|![預設按鈕狀態](../../extensibility/ux-guidelines/media/0713-10_defaultstate.png "0713-10_DefaultState")||  
 |**主要選取項目**|Resizable|![使用調整大小控點的主要選取範圍](../../extensibility/ux-guidelines/media/0713-11_primaryresize.png "0713-11_PrimaryResize")|![使用主要選取範圍調整大小控點 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-12_primaryresizezoom.png "0713-12_PrimaryResizeZoom")|  
-|**主要選取項目**|不能調整大小|![不使用調整大小控點的主要選取範圍](../../extensibility/ux-guidelines/media/0713-13_primarynoresize.png "0713-13_PrimaryNoResize")|![主要選取項目，而不需要調整大小控點 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-14_primarynoresizezoom.png "0713-14_PrimaryNoResizeZoom")|  
+|**主要選取項目**|不能調整大小|![不使用調整大小控點的主要選取範圍](~/extensibility/ux-guidelines/media/0713-13_primarynoresize.png "0713-13_PrimaryNoResize")|![主要選取項目，而不需要調整大小控點 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-14_primarynoresizezoom.png "0713-14_PrimaryNoResizeZoom")|  
 |**主要選取項目**|鎖定|![已鎖定主要選取範圍](../../extensibility/ux-guidelines/media/0713-15_primarylocked.png "0713-15_PrimaryLocked")|![已鎖定主要選取範圍 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-16_primarylockedzoom.png "0713-16_PrimaryLockedZoom")|  
-|**次要選取範圍**|Resizable|![含有調整大小控點的次要選取範圍](../../extensibility/ux-guidelines/media/0713-17_secondaryresize.png "0713-17_SecondaryResize")|![次要的選取項目調整大小控點 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-18_secondaryresizezoom.png "0713-18_SecondaryResizeZoom")|  
-|**次要選取範圍**|不能調整大小|![不使用調整大小控點的次要選取範圍](../../extensibility/ux-guidelines/media/0713-19_secondarynoresize.png "0713-19_SecondaryNoResize")|![不使用調整大小 &#40; 次要選取範圍已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-20_secondarynoresizezoom.png "0713-20_SecondaryNoResizeZoom")|  
+|**次要選取範圍**|Resizable|![含有調整大小控點的次要選取範圍](../../extensibility/ux-guidelines/media/0713-17_secondaryresize.png "0713-17_SecondaryResize")|![次要的選取項目調整大小控點 &#40; 已縮放 &#41;](~/extensibility/ux-guidelines/media/0713-18_secondaryresizezoom.png "0713-18_SecondaryResizeZoom")|  
+|**次要選取範圍**|不能調整大小|![不使用調整大小控點的次要選取範圍](~/extensibility/ux-guidelines/media/0713-19_secondarynoresize.png "0713-19_SecondaryNoResize")|![不使用調整大小 &#40; 次要選取範圍已縮放 &#41;](~/extensibility/ux-guidelines/media/0713-20_secondarynoresizezoom.png "0713-20_SecondaryNoResizeZoom")|  
 |**次要選取範圍**|鎖定|![已鎖定次要選取範圍](../../extensibility/ux-guidelines/media/0713-21_secondarylocked.png "0713-21_SecondaryLocked")|![已鎖定次要選取範圍 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-22_secondarylockedzoom.png "0713-22_SecondaryLockedZoom")|  
 |**使用中的 UI**|預設|![UI 作用狀態](../../extensibility/ux-guidelines/media/0713-23_uiactive.png "0713-23_UIActive")|![UI 作用狀態 &#40; 已縮放 &#41;](../../extensibility/ux-guidelines/media/0713-24_uiactivezoom.png "0713-24_UIActiveZoom")|  
   
@@ -410,7 +410,7 @@ caps.handback.revision: 8
 #### <a name="tree-view"></a>樹狀檢視  
  樹狀檢視中的選取範圍會顯示有簡單的反白顯示。 如果使用者按一下節點名稱或節點圖示上時，會選取的節點。 左邊節點的三角形圖像 （glyph） 展開或收合樹狀目錄控制項，但不是會影響使用者的選取項目，但有一個例外︰ 在該節點的子系上選取項目時，摺疊父節點，選取範圍移至父代。  
   
- ![Visual Studio 中的一般樹狀檢閱](../../extensibility/ux-guidelines/media/0713-25_treeview.png "0713-25_TreeView")  
+ ![Visual Studio 中的一般樹狀檢閱](~/extensibility/ux-guidelines/media/0713-25_treeview.png "0713-25_TreeView")  
   
  **在 Visual Studio 中的一般樹狀檢視**  
   

@@ -48,35 +48,35 @@ Visual Studio 2017 及更新版本有提供這項功能，  其可巡覽程式�
 
 這預設會在 IDE 的右上方顯示一個小型視窗。
 
-![移至全部](media/gotoall.png)
+![移至全部](~/ide/media/gotoall.png)
 
 在這裡，有幾種方式可以繼續：
 * 使用文字方塊下方選取的[篩選圖示](#filtered-searches)，輸入要搜尋且沒有前置詞的文字。
 * 輸入後接要搜尋之文字的[前置詞](#filtered-searches)。
 * 輸入問號 (?) 以取得其他說明。
-  ![移至全部說明](media/gotoall_help.png)
+  ![移至全部說明](~/ide/media/gotoall_help.png)
 
 ### <a name="filtered-searches"></a>篩選的搜尋
 若要將搜尋範圍縮小為特定類型，您可以在輸入時使用前置詞，或使用搜尋視窗下方的圖示，如下所示。
 
 前置詞 | 圖示 | 快速鍵 | 說明
 :----: | ---- | -------- | ---
-#      | ![符號圖示](media/gotoall_symbolicon.png) | Ctrl+1、Ctrl+S | 尋找相符的符號
-f      | ![檔案圖示](media/gotoall_fileicon.png)     | Ctrl+1、Ctrl+F | 尋找相符的檔名
-m      | ![成員圖示](media/gotoall_membericon.png) | Ctrl+1、Ctrl+M | 尋找相符的成員
-t      | ![類型圖示](media/gotoall_typeicon.png)     | Ctrl+1、Ctrl+T | 尋找相符的類型
-:      | ![行圖示](media/gotoall_lineicon.png)     | Ctrl+G         | 移至輸入的行號
+#      | ![符號圖示](~/ide/media/gotoall_symbolicon.png) | Ctrl+1、Ctrl+S | 尋找相符的符號
+f      | ![檔案圖示](~/ide/media/gotoall_fileicon.png)     | Ctrl+1、Ctrl+F | 尋找相符的檔名
+m      | ![成員圖示](~/ide/media/gotoall_membericon.png) | Ctrl+1、Ctrl+M | 尋找相符的成員
+t      | ![類型圖示](~/ide/media/gotoall_typeicon.png)     | Ctrl+1、Ctrl+T | 尋找相符的類型
+:      | ![行圖示](~/ide/media/gotoall_lineicon.png)     | Ctrl+G         | 移至輸入的行號
 
 ### <a name="search-locations"></a>搜尋位置
 若要將搜尋範圍縮小為特定位置，請使用兩個文件圖示。
 
 圖示 | 說明
 ---- | ---
-![目前文件](media/gotoall_currentdocument.png) | 僅搜尋目前文件
-![外部文件](media/gotoall_external.png) | 除了專案/方案中的文件之外，還會搜尋外部文件
+![目前文件](~/ide/media/gotoall_currentdocument.png) | 僅搜尋目前文件
+![外部文件](~/ide/media/gotoall_external.png) | 除了專案/方案中的文件之外，還會搜尋外部文件
 
 ### <a name="settings"></a>設定
-按一下齒輪圖示 ![齒輪圖示](media/gotoall_gear.png) (位於右下方) 可讓您變更這項功能的運作方式。
+按一下齒輪圖示 ![齒輪圖示](~/ide/media/gotoall_gear.png) (位於右下方) 可讓您變更這項功能的運作方式。
 
 設定 | 說明
 ------- | ---

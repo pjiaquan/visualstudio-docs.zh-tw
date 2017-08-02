@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2017
 * 選取 Microsoft.VSSDK.BuildTools （最新版本）。
 * 按下**更新**。
 
-![VSSDK 建置工具](media/vssdk-build-tools.png)
+![VSSDK 建置工具](~/extensibility/media/vssdk-build-tools.png)
 
 ## <a name="make-changes-to-the-vsix-extension-manifest"></a>變更 VSIX 擴充功能資訊清單
 
@@ -103,18 +103,18 @@ ms.lasthandoff: 03/22/2017
 * 開啟 [設計] source.extension.vsixmanifest 檔案。
 * 選取**必要條件** 索引標籤，然後按下**新增** 按鈕。
 
-  ![VSIX 資訊清單設計工具](media/vsix-manifest-designer.png)
+  ![VSIX 資訊清單設計工具](~/extensibility/media/vsix-manifest-designer.png)
 
 * **加入新必要條件**視窗隨即開啟。
 
-  ![新增 vsix 必要條件](media/add-vsix-prerequisite.png)
+  ![新增 vsix 必要條件](~/extensibility/media/add-vsix-prerequisite.png)
 
 * 按一下下拉式清單中的**名稱**，然後選取所需的必要條件。
 * 如有必要，請更新版本。
 
   >注意: [版本] 欄位會預先填入目前安裝的元件，與範圍橫跨最多 （但不是包括） 版本元件的下一個主要版本。
 
-  ![新增 roslyn 必要條件](media/add-roslyn-prerequisite.png)
+  ![新增 roslyn 必要條件](~/extensibility/media/add-roslyn-prerequisite.png)
 
 * Press **OK**.
 
@@ -133,7 +133,7 @@ ms.lasthandoff: 03/22/2017
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe
 ```
 
-![啟動外部程式](media/start-external-program.png)
+![啟動外部程式](~/extensibility/media/start-external-program.png)
 
 >**注意︰**偵錯起始動作通常會儲存在。 副檔名為.csproj.user 檔案。 這個檔案通常包含在.gitignore 檔案，並因此，不通常會儲存其他專案時使用檔案認可至原始檔控制。 因此，如果您有提取您的方案從原始檔控制的全新很可能專案會有任何值為 起始動作。 使用 Visual Studio 2017 建立新的 VSIX 專案都有。 以指向目前的 Visual Studio 安裝目錄的預設值建立副檔名為.csproj.user 檔案。 不過如果您要移轉的 VSIX v2 延伸模組，則可能的。 副檔名為.csproj.user 檔案將包含參考先前的 Visual Studio 版本的安裝目錄。 設定的值**偵錯** > **起始動作**將允許正確 Visual Studio 實驗性執行個體啟動時您嘗試偵錯您的擴充功能。
 
@@ -158,7 +158,7 @@ VSIX 仍可順利安裝在電腦安裝所有必要先決條件的測試。
 
 * 在 Visual Studio 2017
 
-![在 Visual Studio 2017 VSIX 安裝程式](media/vsixinstaller-vs-2017.png)
+![在 Visual Studio 2017 VSIX 安裝程式](~/extensibility/media/vsixinstaller-vs-2017.png)
 
 * 選擇性︰ 檢查先前的 Visual Studio 版本。
   * 證明回溯相容性。
@@ -169,7 +169,7 @@ VSIX 仍可順利安裝在電腦安裝所有必要先決條件的測試。
 
 如果最近開啟 Visual Studio，您可能會看到像這樣的對話方塊︰
 
-![vs 執行處理程序](media/vs-running-processes.png)
+![vs 執行處理程序](~/extensibility/media/vs-running-processes.png)
 
 等候所有處理序關閉，或以手動方式結束工作。 您可以找到處理程序所列的名稱，或使用括號中列出的 PID。
 
@@ -181,7 +181,7 @@ VSIX 仍可順利安裝在電腦安裝所有必要先決條件的測試。
 * 請檢查安裝識別遺漏的元件/s 和列為 VSIXInstaller 中的必要條件。
 * 注意︰ 提高權限都必須如果任何必要元件需要安裝擴充功能。
 
-![vsixinstaller 遺漏的必要條件](media/vsixinstaller-missing-prerequisite.png)
+![vsixinstaller 遺漏的必要條件](~/extensibility/media/vsixinstaller-missing-prerequisite.png)
 
 ## <a name="deciding-on-components"></a>決定元件
 

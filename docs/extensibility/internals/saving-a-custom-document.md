@@ -23,7 +23,7 @@ caps.handback.revision: 12
 
 環境控制代碼**Save**， **Save As**，以及**Save All**指令。  當使用者按一下**儲存**， **另存新檔**， **或 \[全部儲存** 的 **檔案**功能表或 \[關閉方案，並導致 \[全部儲存\]，下列程序，就會發生。  
   
- ![客戶編輯器儲存](../../extensibility/internals/media/private.gif "Private")  
+ ![客戶編輯器儲存](~/extensibility/internals/media/private.gif "Private")  
 儲存，請另存新檔，並儲存所有的命令處理自訂編輯器  
   
  此程序將有詳細說明下列步驟：  

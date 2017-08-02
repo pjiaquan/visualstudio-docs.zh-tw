@@ -28,7 +28,7 @@ caps.handback.revision: 39
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Excel 中使用 XML 對應？](http://go.microsoft.com/fwlink/?LinkID=130288)\(英文\)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Excel 中使用 XML 對應？](http://go.microsoft.com/fwlink/?LinkID=130288)\(英文\)。  
   
 ## 將資料繫結至控制項  
  <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> 控制項支援繫結至單一資料欄位 \(簡單資料繫結\)。  <xref:Microsoft.Office.Tools.Excel.ListObject> 控制項可以支援複雜資料繫結，在重複的結構描述項目對應至儲存格中時，會自動建立該控制項。  如需詳細資訊，請參閱[ListObject 控制項](../vsto/listobject-control.md)。  

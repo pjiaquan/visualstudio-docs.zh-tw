@@ -46,7 +46,7 @@ ms.lasthandoff: 05/13/2017
   
 4.  [藉由實作動作篩選，支援意圖感知動作](../test/enable-coded-ui-testing-of-your-controls.md#intentawareactions)  
   
- ![CUIT&#95;Full](../test/media/cuit_full.png "CUIT_Full")  
+ ![CUIT&#95;Full](~/test/media/cuit_full.png "CUIT_Full")  
   
 ##  <a name="recordandplayback"></a> 藉由實作協助工具，支援錄製和播放以及屬性驗證  
  自動程式化 UI 測試產生器會擷取它在錄製期間遇到之控制項的相關資訊，然後產生程式碼，以重新執行該工作階段。 如果您的控制項不支援協助工具，自動程式碼 UI 測試產生器將會使用螢幕座標來擷取動作 (例如滑鼠點按)。 播放測試時，所產生的程式碼就會在相同的螢幕座標中發出這些滑鼠點按動作。 如果在播放測試時，您的控制項出現在螢幕上的不同位置，所產生的程式碼將無法在您的控制項上執行該動作。 如果是在不同的螢幕組態上、在不同環境中，或是在 UI 配置有所變更之後播放測試，這樣會導致失敗。  
@@ -60,7 +60,7 @@ ms.lasthandoff: 05/13/2017
 ### <a name="to-support-record-and-playback-property-validation-and-navigation-for-a-windows-forms-control"></a>支援錄製和播放、屬性驗證，以及巡覽 Windows 表單控制項  
  依照下列程序的概述，以及 <xref:System.Windows.Forms.AccessibleObject> 的詳細說明，為您的控制項實作協助工具。  
   
- ![CUIT&#95;Accessible](../test/media/cuit_accessible.png "CUIT_Accessible")  
+ ![CUIT&#95;Accessible](~/test/media/cuit_accessible.png "CUIT_Accessible")  
   
 1.  實作衍生自 <xref:System.Windows.Forms.Control.ControlAccessibleObject> 的類別，並覆寫 <xref:System.Windows.Forms.Control.AccessibilityObject%2A> 屬性，以傳回您的類別物件。  
   
@@ -99,10 +99,10 @@ ms.lasthandoff: 05/13/2017
 ##  <a name="customproprties"></a> 藉由實作屬性提供者，支援自訂屬性驗證  
  為記錄和播放以及屬性驗證實作基本支援之後，就可以藉由實作 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider> 外掛程式，讓自動程式化 UI 測試能夠使用控制項的自訂屬性。 例如，下列程序所建立的屬性提供者，能夠讓自動程式化 UI 測試存取圖表控制項的 CurveLegend 子控制項的狀態屬性。  
   
- ![CUIT&#95;CustomProps](../test/media/cuit_customprops.png "CUIT_CustomProps")  
+ ![CUIT&#95;CustomProps](~/test/media/cuit_customprops.png "CUIT_CustomProps")  
   
 ### <a name="to-support-custom-property-validation"></a>支援自訂屬性驗證  
- ![CUIT&#95;Props](../test/media/cuit_props.png "CUIT_Props")  
+ ![CUIT&#95;Props](~/test/media/cuit_props.png "CUIT_Props")  
   
 1.  覆寫曲線圖例可存取物件的 <xref:System.Windows.Forms.AccessibleObject.Description%2A> 屬性，以描述字串來傳遞豐富的屬性值 (以分號 (;) 將其與主要描述分隔，如果您要實作多個屬性，也是以分號將彼此分隔)。  
   
@@ -177,7 +177,7 @@ ms.lasthandoff: 05/13/2017
   
 <CodeContentPlaceHolder>11</CodeContentPlaceHolder>  
 ### <a name="to-add-a-specialized-class-to-access-your-control"></a>加入用來存取控制項的特定類別  
- ![CUIT&#95;CodeGen](../test/media/cuit_codegen.png "CUIT_CodeGen")  
+ ![CUIT&#95;CodeGen](~/test/media/cuit_codegen.png "CUIT_CodeGen")  
   
 1.  實作衍生自 <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinControl> 的類別，並將控制項的類型新增至建構函式中的搜尋屬性集合。  
   
@@ -195,7 +195,7 @@ ms.lasthandoff: 05/13/2017
  當 Visual Studio 錄製測試時，它會擷取每個滑鼠和鍵盤事件。 不過，在某些情況下，動作的意圖可能會在一系列的滑鼠和鍵盤事件中遺失。 比方說，如果您的控制項支援自動完成，在不同的環境中播放測試時，同一組滑鼠和鍵盤事件可能會導致不同的值。 您可以加入動作篩選外掛程式，將一系列鍵盤和滑鼠事件取代成單一動作。 如此一來，您就可以將導致選取某個值的一系列滑鼠和鍵盤事件，取代成設定該值的單一動作。 這麼做可防止自動程式碼 UI 測試在不同環境之間所產生的自動完成差異。  
   
 ### <a name="to-support-intent-aware-actions"></a>支援意圖感知動作  
- ![CUIT&#95;Actions](../test/media/cuit_actions.png "CUIT_Actions")  
+ ![CUIT&#95;Actions](~/test/media/cuit_actions.png "CUIT_Actions")  
   
 1.  實作衍生自 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter> 的動作篩選類別，覆寫下列屬性：<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.ApplyTimeout%2A>、<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Category%2A>、<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Enabled%2A>、<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.FilterType%2A>、<xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Group%2A> 和 <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter.Name%2A>。  
   

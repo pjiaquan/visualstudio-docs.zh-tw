@@ -74,7 +74,7 @@ ms.lasthandoff: 05/10/2017
  8. 新安裝將直接從配置中自動安裝 Visual Studio 的更新版本。
 
 ## <a name="controlling-notifications-in-the-visual-studio-ide"></a>控制 Visual Studio IDE 中的通知
-如上所述，Visual Studio 會檢查其安裝來源位置 (例如，網路共用或網際網路)，以查看是否有任何可用的更新。 有可用的更新時，Visual Studio 預設會利用視窗右上角的通知旗標來通知使用者：![更新的通知旗標](media/notification-flag.png)
+如上所述，Visual Studio 會檢查其安裝來源位置 (例如，網路共用或網際網路)，以查看是否有任何可用的更新。 有可用的更新時，Visual Studio 預設會利用視窗右上角的通知旗標來通知使用者：![更新的通知旗標](~/install/media/notification-flag.png)
 
 如果不想讓使用者收到更新通知 (例如，您會透過中央軟體發佈機制來傳遞更新)，則可停用這些通知。
 

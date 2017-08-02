@@ -38,7 +38,7 @@ ms.lasthandoff: 05/13/2017
 # <a name="build-apps-with-native-ui-using-xamarin-in-visual-studio"></a>使用 Visual Studio 的 Xamarin 建置具有原生 UI 的應用程式
 在您完成[設定與安裝](../cross-platform/setup-and-install.md)和[驗證您的 Xamarin 環境](../cross-platform/verify-your-xamarin-environment.md)中的步驟之後，本逐步解說將示範如何建立具有原生 UI 層的基本 Xamarin 應用程式 (如下所示)。 使用原生 UI，共用程式碼會位於可攜式類別庫 (PCL) 中，而個別的平台專案會包含 UI 定義。  
   
- ![Android 及 Windows Phone 上的 Xamarin 程式](../cross-platform/media/cross-plat-xamarin-build-1.png "Cross-Plat Xamarin 組建 1")  
+ ![Android 及 Windows Phone 上的 Xamarin 程式](~/cross-platform/media/cross-plat-xamarin-build-1.png "Cross-Plat Xamarin 組建 1")  
   
  您將會執行下列步驟來建置應用程式：  
   
@@ -468,7 +468,7 @@ ms.lasthandoff: 05/13/2017
   
 13. 儲存檔案，然後切換至 [設計] 檢視。 您的 UI 會如下所示：  
   
-     ![適用於 Android 應用程式的 UI](../cross-platform/media/xamarin_androidui.png "Xamarin_AndroidUI")  
+     ![適用於 Android 應用程式的 UI](~/cross-platform/media/xamarin_androidui.png "Xamarin_AndroidUI")  
   
 14. 開啟 [MainActivity.cs]，然後在 OnCreate 方法中刪除參考先前已移除之預設按鈕的程式碼。 當您完成後，程式碼看起來會像這樣：  
   
@@ -597,13 +597,13 @@ ms.lasthandoff: 05/13/2017
   
  在設計檢視中，您的 UI 應會顯示如下：  
   
- ![Windows Phone 應用程式 UI](../cross-platform/media/xamarin_winphone_finalui.png "Xamarin_WinPhone_FinalUI")  
+ ![Windows Phone 應用程式 UI](~/cross-platform/media/xamarin_winphone_finalui.png "Xamarin_WinPhone_FinalUI")  
   
 ### <a name="consume-your-shared-code"></a>使用您的共用程式碼  
   
 1.  在設計工具中選取 [獲知天氣]  按鈕。  
   
-2.  在 [屬性] 視窗中，選擇事件處理常式按鈕 (![Visual Studio 事件處理常式圖示](../cross-platform/media/blend_vs_eventhandlers_icon.png "blend_VS_EventHandlers_icon"))。  
+2.  在 [屬性] 視窗中，選擇事件處理常式按鈕 (![Visual Studio 事件處理常式圖示](~/cross-platform/media/blend_vs_eventhandlers_icon.png "blend_VS_EventHandlers_icon"))。  
   
      此圖示會顯示在 [屬性]  視窗的上方角落。  
   

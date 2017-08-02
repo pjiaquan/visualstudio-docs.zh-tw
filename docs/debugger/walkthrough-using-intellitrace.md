@@ -54,7 +54,7 @@ caps.handback.revision: 4
   
      下列螢幕擷取畫面來自 Visual Studio 2015 Update 1。  
   
-     ![IntelliTrace&#45;Update1](../debugger/media/intellitrace-update1.png "IntelliTrace\-Update1")  
+     ![IntelliTrace&#45;Update1](~/debugger/media/intellitrace-update1.png "IntelliTrace\-Update1")  
   
 7.  選取該事件，然後展開其詳細資料。  
   
@@ -68,7 +68,7 @@ caps.handback.revision: 4
   
      下列螢幕擷取畫面來自 Visual Studio 2015 Update 1。  
   
-     ![HistoricalDebugging&#45;Update1](../debugger/media/historicaldebugging-update1.png "HistoricalDebugging\-Update1")  
+     ![HistoricalDebugging&#45;Update1](~/debugger/media/historicaldebugging-update1.png "HistoricalDebugging\-Update1")  
   
 8.  如果沒有發現 Bug，請嘗試檢查導致 Bug 的其他事件。 您也可以讓 IntelliTrace 記錄呼叫資訊，以便您能逐步執行函式呼叫。  
   

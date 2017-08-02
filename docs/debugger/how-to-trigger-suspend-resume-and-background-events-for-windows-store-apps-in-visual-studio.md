@@ -102,7 +102,7 @@ manager: "ghogen"
   
 4.  按 **F5** 將應用程式置入偵錯模式。 請注意，\[**偵錯位置**\] 工具列的 \[**處理**\] 清單會顯示應用程式封裝名稱，表示您正處於偵錯模式。  
   
-     ![背景工作處理序清單](../debugger/media/dbg_backgroundtask_processlist.png "DBG\_BackgroundTask\_ProcessList")  
+     ![背景工作處理序清單](~/debugger/media/dbg_backgroundtask_processlist.png "DBG\_BackgroundTask\_ProcessList")  
   
 5.  從 \[**偵錯位置**\] 工具列的事件清單中，選擇您想要啟動的背景工作。  
   
