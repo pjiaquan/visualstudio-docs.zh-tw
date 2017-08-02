@@ -46,7 +46,7 @@ ms.lasthandoff: 05/13/2017
 -   可在一個視窗中查看需要的所有資訊。  
   
 ## <a name="using-test-explorer"></a>使用測試總管  
- ![顯示 [全部執行] 按鈕的 [單元測試總管]](../test/media/unittestexplorer-beta-.png "UnitTestExplorer(beta)")  
+ ![顯示 [全部執行] 按鈕的 [單元測試總管]](~/docs/test/media/unittestexplorer-beta-.png "UnitTestExplorer(beta)")  
   
 #### <a name="to-run-unit-tests-by-using-test-explorer"></a>若要使用測試總管來執行單元測試  
   

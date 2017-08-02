@@ -67,7 +67,7 @@ REPL 中的所有先前輸入和輸出都是唯讀的，無法進行變更。 �
 
 也就是說，如果您開始鍵入陳述式，並按 Enter，則 RTVS 會知道何時必須繼續執行陳述式，並進入左側有 + 提示且適當縮排的多行模式。 RTVS 也會完成括弧、括號和大括弧：
 
-![互動式視窗中的多行陳述式項目](media/repl-multiline-entry.png)
+![互動式視窗中的多行陳述式項目](~/docs/rtvs/media/repl-multiline-entry.png)
 
 在這個多行模式中，Enter 鍵只有在置放於程式碼區塊結尾時才會執行程式碼區塊，否則會插入新行。 不過，您可以在任意位置按 Ctrl+Enter，立即執行該程式碼區塊。
 
@@ -75,23 +75,23 @@ REPL 中的所有先前輸入和輸出都是唯讀的，無法進行變更。 �
 
 互動式視窗與其工具列顯示如下︰
 
-![含工具列的互動式視窗](media/repl-window.png)
+![含工具列的互動式視窗](~/docs/rtvs/media/repl-window.png)
 
 工具列命令如下，其中大部分都有鍵盤對等項目，而且 [R 工具] > [工作階段] 和 [R 工具] > [工作目錄] 功能表上也都會提供 (如所述)：
 
 | 按鈕 | 命令 | 按鍵組合 | 說明 | 
 | --- | --- | --- | --- |
-| ![[重設] 按鈕](media/repl-toolbar-01-reset.png) | 重設 | Ctrl+Shift+F10 | 重設互動式視窗工作階段，並清除所有變數和歷程記錄。 |
-| ![[清除] 按鈕](media/repl-toolbar-02-clear.png) | 清除 | Ctrl+L | 清除互動式視窗中所顯示的輸出；不會影響工作階段變數或歷程記錄。 |
-| ![[歷程記錄] 按鈕](media/repl-toolbar-03-history.png) | 前一個歷程記錄命令<br/>下一個歷程記錄命令 | 上、下<br/>Alt+向上鍵、Alt-向下鍵 | 捲動歷程記錄，具有多行程式碼區塊的特定行為。 請參閱[歷程記錄](#history)。 |
-| ![[載入工作區] 按鈕](media/repl-toolbar-04-load-workspace.png) | 載入工作區 | N/A | 載入先前儲存的工作區 (請參閱[工作區和工作階段](#workspaces-and-sessions))。 |
-| ![[另存工作區為] 按鈕](media/repl-toolbar-05-save-workspace-as.png)| 另存工作區為 | N/A | 將工作階段的目前狀態儲存為工作區 (請參閱[工作區和工作階段](#workspaces-and-sessions))。 |
-| ![[來源 R 指令碼] 按鈕](media/repl-toolbar-06-source-r-script.png) | 來源 R 指令碼 | Ctrl+Shift+S | 使用 Visual Studio 編輯器中目前作用中的 R 指令碼來呼叫 `source`，而編輯器會執行程式碼。  只有在 Visual Studio 編輯器中開啟 R 檔案時，才會出現此按鈕。 | 
-| ![[有回應的來源 R 指令碼] 按鈕](media/repl-toolbar-07-source-r-script-with-echo.png) | 有回應的來源 R 指令碼 | Ctrl+Shift+Enter | 與 [來源 R 指令碼] 相同，但在互動式視窗中顯示指令碼內容。 | 
-| ![[插斷 R] 按鈕](media/repl-toolbar-08-interrupt-r.png)| 插斷 R | Esc | 停止互動式視窗中的任何執行中程式碼，例如上述螢幕擷取畫面中的 `while` 迴圈。 |
-| ![[附加偵錯工具] 按鈕](media/repl-toolbar-09b-attach-debugger.png)| 附加偵錯工具 | N/A | 也可使用 [偵錯] > [附加至 R 互動] 命令取得。 | 
-| ![[將工作目錄設定為來源檔案位置] 按鈕](media/repl-toolbar-10-set-working-directory-source.png)| 將工作目錄設定為來源檔案位置 | CTRL+SHIFT+E | 將工作目錄設定為載入至互動式視窗的最近來源檔案 (使用 `source`)。 請參閱[工作目錄](#working-directory)。 |
-| ![[將工作目錄設定為專案位置] 按鈕](media/repl-toolbar-11-set-working-directory-to-project.png) | 將工作目錄設定為專案位置 | Ctrl+Shift+P | 將工作目錄設定為 Visual Studio 中目前已載入專案的根目錄。 請參閱[工作目錄](#working-directory)。 |
+| ![[重設] 按鈕](~/docs/rtvs/media/repl-toolbar-01-reset.png) | 重設 | Ctrl+Shift+F10 | 重設互動式視窗工作階段，並清除所有變數和歷程記錄。 |
+| ![[清除] 按鈕](~/docs/rtvs/media/repl-toolbar-02-clear.png) | 清除 | Ctrl+L | 清除互動式視窗中所顯示的輸出；不會影響工作階段變數或歷程記錄。 |
+| ![[歷程記錄] 按鈕](~/docs/rtvs/media/repl-toolbar-03-history.png) | 前一個歷程記錄命令<br/>下一個歷程記錄命令 | 上、下<br/>Alt+向上鍵、Alt-向下鍵 | 捲動歷程記錄，具有多行程式碼區塊的特定行為。 請參閱[歷程記錄](#history)。 |
+| ![[載入工作區] 按鈕](~/docs/rtvs/media/repl-toolbar-04-load-workspace.png) | 載入工作區 | N/A | 載入先前儲存的工作區 (請參閱[工作區和工作階段](#workspaces-and-sessions))。 |
+| ![[另存工作區為] 按鈕](~/docs/rtvs/media/repl-toolbar-05-save-workspace-as.png)| 另存工作區為 | N/A | 將工作階段的目前狀態儲存為工作區 (請參閱[工作區和工作階段](#workspaces-and-sessions))。 |
+| ![[來源 R 指令碼] 按鈕](~/docs/rtvs/media/repl-toolbar-06-source-r-script.png) | 來源 R 指令碼 | Ctrl+Shift+S | 使用 Visual Studio 編輯器中目前作用中的 R 指令碼來呼叫 `source`，而編輯器會執行程式碼。  只有在 Visual Studio 編輯器中開啟 R 檔案時，才會出現此按鈕。 | 
+| ![[有回應的來源 R 指令碼] 按鈕](~/docs/rtvs/media/repl-toolbar-07-source-r-script-with-echo.png) | 有回應的來源 R 指令碼 | Ctrl+Shift+Enter | 與 [來源 R 指令碼] 相同，但在互動式視窗中顯示指令碼內容。 | 
+| ![[插斷 R] 按鈕](~/docs/rtvs/media/repl-toolbar-08-interrupt-r.png)| 插斷 R | Esc | 停止互動式視窗中的任何執行中程式碼，例如上述螢幕擷取畫面中的 `while` 迴圈。 |
+| ![[附加偵錯工具] 按鈕](~/docs/rtvs/media/repl-toolbar-09b-attach-debugger.png)| 附加偵錯工具 | N/A | 也可使用 [偵錯] > [附加至 R 互動] 命令取得。 | 
+| ![[將工作目錄設定為來源檔案位置] 按鈕](~/docs/rtvs/media/repl-toolbar-10-set-working-directory-source.png)| 將工作目錄設定為來源檔案位置 | CTRL+SHIFT+E | 將工作目錄設定為載入至互動式視窗的最近來源檔案 (使用 `source`)。 請參閱[工作目錄](#working-directory)。 |
+| ![[將工作目錄設定為專案位置] 按鈕](~/docs/rtvs/media/repl-toolbar-11-set-working-directory-to-project.png) | 將工作目錄設定為專案位置 | Ctrl+Shift+P | 將工作目錄設定為 Visual Studio 中目前已載入專案的根目錄。 請參閱[工作目錄](#working-directory)。 |
 | (文字欄位) | 選取工作目錄 | N/A | 工作目錄的直接輸入欄位。 請參閱[工作目錄](#working-directory)。 |
 
 

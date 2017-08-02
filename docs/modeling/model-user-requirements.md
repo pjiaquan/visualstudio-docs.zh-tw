@@ -77,7 +77,7 @@ Visual Studio 透過繪製使用者活動的圖表，以及系統協助他們達
   
  許多商務規則是概念性類別間之關聯性的條件約束。 您可以撰寫這些*靜態**商務規則*為概念性類別圖上的相關類別相關聯的註解。 例如:   
   
- ![附加至 Order 類別的註解的規則。] (../modeling/media/uml_reqmcd2.png "UML_ReqmCD2")  
+ ![附加至 Order 類別的註解的規則。] (~/docs/modeling/media/uml_reqmcd2.png "UML_ReqmCD2")  
   
  *「動態商務規則」* (dynamic business rules) 限制允許的事件序列。 例如，您可以使用序列或活動圖來示範使用者必須先登入，才能對系統執行其他作業。  
   

@@ -115,7 +115,7 @@ caps.handback.revision: 5
   
 5.  按兩下 \[屬性 "Mame" 不存在於 "http:\/\/schemas.microsoft.com\/winfx\/2006\/xaml" 命名空間。\]，"Mame" 中的 "M" 應該為 "N"。將 "M" 取代為 "N"。現在已經可以解析 XAML，應用程式也隨即顯示在設計介面上。  
   
-     ![在 Blend for Visual Studio 中偵錯 XAML](../debugger/media/blend_debugartboard_xaml.png "blend\_debugArtboard\_XAML")  
+     ![在 Blend for Visual Studio 中偵錯 XAML](~/docs/debugger/media/blend_debugartboard_xaml.png "blend\_debugArtboard\_XAML")  
   
      按 Ctrl\+Shift\+B 建置專案，確定不再發生其他任何錯誤。  
   

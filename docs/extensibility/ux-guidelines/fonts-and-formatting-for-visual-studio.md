@@ -300,11 +300,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 ### <a name="testing-the-environment-font"></a>測試環境字型  
  為了確保您的 UI 使用環境字型，而且尊重大小設定，開啟**工具 > 選項 > 環境 > 字型和色彩**下選取 」 環境字型 」 和 「 顯示設定:"下拉式選單。  
   
- ![[工具] 中的字型和色彩設定&gt;選項 對話方塊](../../extensibility/ux-guidelines/media/0201-a_optionsfonts.png "0201-a_OptionsFonts")<br />工具 中的字型和色彩設定&gt;選項 對話方塊
+ ![[工具] 中的字型和色彩設定&gt;選項 對話方塊](~/docs/extensibility/ux-guidelines/media/0201-a_optionsfonts.png "0201-a_OptionsFonts")<br />工具 中的字型和色彩設定&gt;選項 對話方塊
   
  為預設值非常不同的項目設定的字型。 更明顯這不會更新 UI，請選擇截 （例如"Times New Roman") 的字型，並設定非常大的大小。 然後測試您的 UI，以確保它尊重環境。 以下是使用 [授權] 對話方塊的範例︰  
   
- ![不會遵守環境字型的 UI 文字範例](../../extensibility/ux-guidelines/media/0201-b_wrongfontdialog.png "0201-b_WrongFontDialog")<br />不會遵守環境字型的 UI 文字範例
+ ![不會遵守環境字型的 UI 文字範例](~/docs/extensibility/ux-guidelines/media/0201-b_wrongfontdialog.png "0201-b_WrongFontDialog")<br />不會遵守環境字型的 UI 文字範例
   
  在此情況下，「 使用者資訊 」 和 「 產品資訊 」 不會尊重字型。 在某些情況下，這可能是明確的設計選擇，但是如果未指定明確的字型紅線規格的一部分，它可以是 bug。  
   
@@ -443,7 +443,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
   
 |||  
 |-|-|  
-|**使用方式︰**<br /><br /> 在文件中的區段標頭以及 UI<br />-報表<br /><br /> **操作方法︰**使用句子大小寫<br /><br /> **不要︰**<br /><br /> -粗體、 斜體或粗體斜體<br />本文的使用<br />-使用標準 Visual Studio 控制項中<br />-使用中工具視窗|**會顯示為︰** 14 pt Segoe UI<br /><br /> **Visual 範例︰**<br /><br /> ![155%環境字型標題的範例](../../extensibility/ux-guidelines/media/0202-c_ef155.png "0202-c_EF155")|  
+|**使用方式︰**<br /><br /> 在文件中的區段標頭以及 UI<br />-報表<br /><br /> **操作方法︰**使用句子大小寫<br /><br /> **不要︰**<br /><br /> -粗體、 斜體或粗體斜體<br />本文的使用<br />-使用標準 Visual Studio 控制項中<br />-使用中工具視窗|**會顯示為︰** 14 pt Segoe UI<br /><br /> **Visual 範例︰**<br /><br /> ![155%環境字型標題的範例](~/docs/extensibility/ux-guidelines/media/0202-c_ef155.png "0202-c_EF155")|  
   
 #### <a name="133-environment-font"></a>133%環境字型  
   

@@ -55,7 +55,7 @@ ms.lasthandoff: 05/04/2017
 
 ### <a name="button-controls"></a>按鈕控制項
 
-![按鈕控制項紅線](../../extensibility/ux-guidelines/media/0303-155_buttoncontrolredline.png "0303年 155_ButtonControlRedline")
+![按鈕控制項紅線](~/docs/extensibility/ux-guidelines/media/0303-155_buttoncontrolredline.png "0303年 155_ButtonControlRedline")
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -63,7 +63,7 @@ ms.lasthandoff: 05/04/2017
 
 **Button︰ 標準的狀態**
 
-![標準按鈕](../../extensibility/ux-guidelines/media/03.03.Button.Standard.png "03.03.Button.Standard")<br />標準按鈕
+![標準按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.Standard.png "03.03.Button.Standard")<br />標準按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/04/2017
 
 **Button︰ 預設狀態**
 
-![預設按鈕](../../extensibility/ux-guidelines/media/03.03.Button.Default.png "03.03.Button.Default")<br />預設按鈕
+![預設按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.Default.png "03.03.Button.Default")<br />預設按鈕
 
 | 項目 | 語彙基元名稱：Category.color | 
 | --- | --- | 
@@ -81,7 +81,7 @@ ms.lasthandoff: 05/04/2017
 
 **停用的狀態的按鈕︰**  
 
-![已停用的按鈕](../../extensibility/ux-guidelines/media/03.03.Button.Disabled.png "03.03.Button.Disabled")<br />已停用的按鈕  
+![已停用的按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.Disabled.png "03.03.Button.Disabled")<br />已停用的按鈕  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -90,7 +90,7 @@ ms.lasthandoff: 05/04/2017
 
 **Button︰ 停留狀態**  
 
-![動態顯示按鈕](../../extensibility/ux-guidelines/media/03.03.Button.hover.png "03.03.Button.hover")<br />停留時顯示按鈕  
+![動態顯示按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.hover.png "03.03.Button.hover")<br />停留時顯示按鈕  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -99,7 +99,7 @@ ms.lasthandoff: 05/04/2017
 
 **已按下的狀態的按鈕︰**  
 
-![已按下的按鈕](../../extensibility/ux-guidelines/media/03.03.Button.Pressed.png "03.03.Button.Pressed")<br />已按下的按鈕  
+![已按下的按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.Pressed.png "03.03.Button.Pressed")<br />已按下的按鈕  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -108,7 +108,7 @@ ms.lasthandoff: 05/04/2017
 
 **Button︰ 已取得焦點狀態**  
 
-![焦點的按鈕](../../extensibility/ux-guidelines/media/03.03.Button.Focused.png "03.03.Button.Focused")<br />焦點的按鈕  
+![焦點的按鈕](~/docs/extensibility/ux-guidelines/media/03.03.Button.Focused.png "03.03.Button.Focused")<br />焦點的按鈕  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -116,7 +116,7 @@ ms.lasthandoff: 05/04/2017
 | 按鈕框線 | `CommonControls.ButtonBorderFocused` |
 
 ### <a name="check-box-controls"></a>核取方塊控制項  
-![核取方塊 （紅線）](../../extensibility/ux-guidelines/media/0303-161_checkboxredline.png "0303-161_CheckboxRedline")<br />核取方塊 （紅線）  
+![核取方塊 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-161_checkboxredline.png "0303-161_CheckboxRedline")<br />核取方塊 （紅線）  
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -187,7 +187,7 @@ ms.lasthandoff: 05/04/2017
 
 **下拉式清單和下拉式方塊︰ 預設狀態**  
 
-![預設清單/下拉式方塊](../../extensibility/ux-guidelines/media/0303-168_dropdowncombobox.png "0303-168_DropDownComboBox")<br />預設清單/下拉式方塊
+![預設清單/下拉式方塊](~/docs/extensibility/ux-guidelines/media/0303-168_dropdowncombobox.png "0303-168_DropDownComboBox")<br />預設清單/下拉式方塊
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -200,7 +200,7 @@ ms.lasthandoff: 05/04/2017
 
 **下拉式清單和下拉式方塊︰ 停用狀態**  
 
-![已停用的下拉式清單下拉式方塊](../../extensibility/ux-guidelines/media/0303-169_dropdowncomboboxdisabled.png "0303-169_DropDownComboBoxDisabled")<br />已停用的下拉式清單下拉式方塊
+![已停用的下拉式清單下拉式方塊](~/docs/extensibility/ux-guidelines/media/0303-169_dropdowncomboboxdisabled.png "0303-169_DropDownComboBoxDisabled")<br />已停用的下拉式清單下拉式方塊
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -239,7 +239,7 @@ ms.lasthandoff: 05/04/2017
 
 **下拉式清單和下拉式方塊清單項目 」 檢視︰ 按下狀態**  
 
- ![下拉式清單下拉式方塊中按下清單項目檢視](../../extensibility/ux-guidelines/media/0303-174_dropdowncomboboxlistview.png "0303-174_DropDownComboBoxListView")<br />下拉式清單下拉式方塊中按下清單項目檢視  
+ ![下拉式清單下拉式方塊中按下清單項目檢視](~/docs/extensibility/ux-guidelines/media/0303-174_dropdowncomboboxlistview.png "0303-174_DropDownComboBoxListView")<br />下拉式清單下拉式方塊中按下清單項目檢視  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -272,7 +272,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="tabular-data-grid-controls"></a>表格式資料 (方格) 控制項  
 表格式資料控制項 (也稱為方格控制項) 是 Visual Studio 通用控制項，可用來在多個資料行中顯示大量資料。 標準表格式資料控制項可以位於 Visual Studio 的多個位置：[錯誤清單] 工具視窗、IntelliTrace 報告和記憶體堆積檢視等等。 請一律使用所提供的標準表格式資料控制項。 在一些罕見情況下，您可能無法存取標準表格式資料控制項。 在這些情況下，請使用下列語彙基元名稱，確保您的 UI 與 Visual Studio 中的其他表格式資料控制項一致。  
 
-![表格式的資料格控制項 （紅線）](../../extensibility/ux-guidelines/media/0303-197_tabulardatagridcontrolredline.png "0303-197_TabularDataGridControlRedline")<br />表格式的資料格控制項 （紅線）
+![表格式的資料格控制項 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-197_tabulardatagridcontrolredline.png "0303-197_TabularDataGridControlRedline")<br />表格式的資料格控制項 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -340,7 +340,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="instructional-text"></a>說明文字
 說明文字中要執行的工作在對話方塊或文件頁面中的顯著主要說明。
 
-![預設的說明文字](../../extensibility/ux-guidelines/media/0303_InstructionalText.png "0303_InstructionalText.png")<br />預設的說明文字
+![預設的說明文字](~/docs/extensibility/ux-guidelines/media/0303_InstructionalText.png "0303_InstructionalText.png")<br />預設的說明文字
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -349,7 +349,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="secondary-instructional-text"></a>次要的說明文字
 文件頁面中有大量文字和控制項，有些指示的文字會使用不同的色彩值。 這有助於傳達的資訊是最重要的並降低整體密度的 UI 項目。 (請參閱下列區段上提示文字。)
 
-![次要的說明文字](../../extensibility/ux-guidelines/media/0303_SecondaryInstructionalText.png "0303_SecondaryInstructionalText.png")<br />次要的說明文字
+![次要的說明文字](~/docs/extensibility/ux-guidelines/media/0303_SecondaryInstructionalText.png "0303_SecondaryInstructionalText.png")<br />次要的說明文字
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -360,7 +360,7 @@ ms.lasthandoff: 05/04/2017
 
 **預設提示文字**
 
-![預設提示文字](../../extensibility/ux-guidelines/media/0303_HintText.png "0303_HintText.png")<br />預設提示文字
+![預設提示文字](~/docs/extensibility/ux-guidelines/media/0303_HintText.png "0303_HintText.png")<br />預設提示文字
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -368,7 +368,7 @@ ms.lasthandoff: 05/04/2017
 
 **必要的提示文字**
 
-![必要的提示文字](../../extensibility/ux-guidelines/media/0303_RequiredHintText.png "0303_RequiredHintText.png")<br />必要的提示文字
+![必要的提示文字](~/docs/extensibility/ux-guidelines/media/0303_RequiredHintText.png "0303_RequiredHintText.png")<br />必要的提示文字
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -379,7 +379,7 @@ ms.lasthandoff: 05/04/2017
 
 > 請參閱[搜尋方塊](../../extensibility/ux-guidelines/shared-colors-for-visual-studio.md#BKMK_SearchBoxes)的搜尋控制項的相關其他色彩語彙基元。
 
-![搜尋方塊控制項的文字](../../extensibility/ux-guidelines/media/0303_SearchBoxControl.png "0303_SearchBoxControl.png")<br />搜尋方塊控制項的文字
+![搜尋方塊控制項的文字](~/docs/extensibility/ux-guidelines/media/0303_SearchBoxControl.png "0303_SearchBoxControl.png")<br />搜尋方塊控制項的文字
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -420,7 +420,7 @@ ms.lasthandoff: 05/04/2017
 
 **超連結︰ 停用的狀態**
 
-![已停用超連結](../../extensibility/ux-guidelines/media/0303-137_hyperlinkdisabled.png "0303-137_HyperlinkDisabled")<br />已停用超連結  
+![已停用超連結](~/docs/extensibility/ux-guidelines/media/0303-137_hyperlinkdisabled.png "0303-137_HyperlinkDisabled")<br />已停用超連結  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -429,7 +429,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="infobars"></a>資訊列  
 資訊列用來提供所指定內容的詳細資訊，而且一律會出現在文件視窗或工具視窗的頂端。  
 
-![資訊列 （紅線）](../../extensibility/ux-guidelines/media/0303-138_infobarredline.png "0303-138_InfobarRedline")<br />資訊列 （紅線）
+![資訊列 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-138_infobarredline.png "0303-138_InfobarRedline")<br />資訊列 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -437,7 +437,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列︰ 預設狀態**
 
-![預設資訊列](../../extensibility/ux-guidelines/media/0303-139_infobar.png "0303-139_Infobar")<br />預設資訊列
+![預設資訊列](~/docs/extensibility/ux-guidelines/media/0303-139_infobar.png "0303-139_Infobar")<br />預設資訊列
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -447,7 +447,7 @@ ms.lasthandoff: 05/04/2017
 
 **關閉資訊列 (&times;) 按鈕︰ 預設狀態**
 
-![預設關閉資訊列 (&times;) 按鈕](../../extensibility/ux-guidelines/media/0303_InfobarCloseDefault.png "0303_InfobarCloseDefault.png")<br />預設關閉資訊列 (&times;) 按鈕
+![預設關閉資訊列 (&times;) 按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarCloseDefault.png "0303_InfobarCloseDefault.png")<br />預設關閉資訊列 (&times;) 按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -457,7 +457,7 @@ ms.lasthandoff: 05/04/2017
 
 **關閉資訊列 (&times;) 按鈕︰ 將滑鼠停留狀態**
 
-![關閉資訊列 (&times;) 動態顯示按鈕](../../extensibility/ux-guidelines/media/0303_InfobarCloseHover.png "0303_InfobarCloseHover.png")<br />關閉資訊列 (&times;) 動態顯示按鈕
+![關閉資訊列 (&times;) 動態顯示按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarCloseHover.png "0303_InfobarCloseHover.png")<br />關閉資訊列 (&times;) 動態顯示按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -467,7 +467,7 @@ ms.lasthandoff: 05/04/2017
 
 **關閉資訊列 (&times;) 按鈕︰ 按下狀態**
 
-![已按下 [關閉資訊列 (&times;)] 按鈕](../../extensibility/ux-guidelines/media/0303_InfobarClosePressed.png "0303_InfobarClosePressed.png")<br />已按下 [關閉資訊列 (&times;)] 按鈕
+![已按下 [關閉資訊列 (&times;)] 按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarClosePressed.png "0303_InfobarClosePressed.png")<br />已按下 [關閉資訊列 (&times;)] 按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -477,7 +477,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列超連結按鈕︰ 預設狀態**
 
-![預設資料列的超連結按鈕](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonDefault.png "0303_InfobarHyperlinkButtonDefault.png")<br />預設資料列的超連結按鈕
+![預設資料列的超連結按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonDefault.png "0303_InfobarHyperlinkButtonDefault.png")<br />預設資料列的超連結按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -485,7 +485,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列超連結按鈕︰ 將滑鼠停留狀態**
 
-![暫留時顯示的資訊列超連結按鈕](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonHover.png "0303_InfobarHyperlinkButtonHover.png")<br />暫留時顯示的資訊列超連結按鈕
+![暫留時顯示的資訊列超連結按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonHover.png "0303_InfobarHyperlinkButtonHover.png")<br />暫留時顯示的資訊列超連結按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -493,7 +493,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列超連結按鈕︰ 按下狀態**
 
-![已按下的資訊列超連結 按鈕](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonPressed.png "0303_InfobarHyperlinkButtonPressed.png")<br />已按下的資訊列超連結 按鈕
+![已按下的資訊列超連結 按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonPressed.png "0303_InfobarHyperlinkButtonPressed.png")<br />已按下的資訊列超連結 按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -501,7 +501,7 @@ ms.lasthandoff: 05/04/2017
 
 **（在句子） 內的資訊列內嵌超連結︰ 預設狀態**
 
-![預設內嵌資訊列超連結按鈕](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonDefault.png "0303_InfobarHyperlinkButtonDefault.png")<br />預設內嵌資訊列超連結按鈕
+![預設內嵌資訊列超連結按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkButtonDefault.png "0303_InfobarHyperlinkButtonDefault.png")<br />預設內嵌資訊列超連結按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -509,7 +509,7 @@ ms.lasthandoff: 05/04/2017
 
 **（在句子） 內的資訊列內嵌超連結︰ 將滑鼠停留狀態**
 
-![暫留時顯示的資訊列內嵌超連結按鈕](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkInlineHover.png "0303_InfobarHyperlinkInlineHover.png")<br />暫留時顯示的資訊列內嵌超連結按鈕
+![暫留時顯示的資訊列內嵌超連結按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkInlineHover.png "0303_InfobarHyperlinkInlineHover.png")<br />暫留時顯示的資訊列內嵌超連結按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -517,7 +517,7 @@ ms.lasthandoff: 05/04/2017
 
 **（在句子） 內的資訊列內嵌超連結︰ 按下狀態**
 
-![資訊列內嵌超連結按鈕已按下](../../extensibility/ux-guidelines/media/0303_InfobarHyperlinkInlinePressed.png "0303_InfobarHyperlinkInlinePressed.png")<br />資訊列內嵌超連結按鈕已按下
+![資訊列內嵌超連結按鈕已按下](~/docs/extensibility/ux-guidelines/media/0303_InfobarHyperlinkInlinePressed.png "0303_InfobarHyperlinkInlinePressed.png")<br />資訊列內嵌超連結按鈕已按下
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -525,7 +525,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列按鈕︰ 預設狀態**
 
-![預設資訊列按鈕](../../extensibility/ux-guidelines/media/0303_InfobarButtonDefault.png "0303_InfobarButtonDefault.png")<br />預設資訊列按鈕
+![預設資訊列按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarButtonDefault.png "0303_InfobarButtonDefault.png")<br />預設資訊列按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -535,7 +535,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列按鈕︰ 將滑鼠停留狀態**
 
-![暫留時顯示的資訊列按鈕](../../extensibility/ux-guidelines/media/0303_InfobarButtonHover.png "0303_InfobarButtonHover.png")<br />暫留時顯示的資訊列按鈕
+![暫留時顯示的資訊列按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarButtonHover.png "0303_InfobarButtonHover.png")<br />暫留時顯示的資訊列按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -545,7 +545,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列按鈕︰ 按下狀態**
 
-![已按下的資訊列按鈕](../../extensibility/ux-guidelines/media/0303_InfobarButtonPressed.png "0303_InfobarButtonPressed.png")<br />已按下的資訊列按鈕
+![已按下的資訊列按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarButtonPressed.png "0303_InfobarButtonPressed.png")<br />已按下的資訊列按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -555,7 +555,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列按鈕︰ 停用狀態**
 
-![已停用資訊列按鈕](../../extensibility/ux-guidelines/media/0303_InfobarButtonDisabled.png "0303_InfobarButtonDisabled.png")<br />已停用資訊列按鈕
+![已停用資訊列按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarButtonDisabled.png "0303_InfobarButtonDisabled.png")<br />已停用資訊列按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -565,7 +565,7 @@ ms.lasthandoff: 05/04/2017
 
 **資訊列按鈕︰ 狀態已取得焦點**
 
-![已取得焦點的資訊列按鈕](../../extensibility/ux-guidelines/media/0303_InfobarButtonFocus.png "0303_InfobarButtonFocus.png")<br />已取得焦點的資訊列按鈕
+![已取得焦點的資訊列按鈕](~/docs/extensibility/ux-guidelines/media/0303_InfobarButtonFocus.png "0303_InfobarButtonFocus.png")<br />已取得焦點的資訊列按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -576,7 +576,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="scroll-bars"></a>捲軸  
 捲軸的樣式設定由 Visual Studio 環境中，並不需要設定佈景主題。 不過，您可能會決定您想要利用捲軸中使用時，您的 UI 一律會顯示與 Visual Studio 環境的這個部分一致的色彩。  
 
-![捲軸 （紅線）](../../extensibility/ux-guidelines/media/0303-140_scrollbarredline.png "0303-140_ScrollbarRedline")<br />捲軸 （紅線）
+![捲軸 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-140_scrollbarredline.png "0303-140_ScrollbarRedline")<br />捲軸 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -611,7 +611,7 @@ ms.lasthandoff: 05/04/2017
 
 **捲軸箭號︰ 預設狀態**  
 
-![預設捲軸箭號](../../extensibility/ux-guidelines/media/0303-142_scrollbararrow.png "0303-142_ScrollbarArrow")<br />預設捲軸箭號
+![預設捲軸箭號](~/docs/extensibility/ux-guidelines/media/0303-142_scrollbararrow.png "0303-142_ScrollbarArrow")<br />預設捲軸箭號
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -680,7 +680,7 @@ ms.lasthandoff: 05/04/2017
 
 **未取得焦點且非使用中的搜尋輸入的欄位**
 
-![未取得焦點且非使用中的搜尋輸入的欄位](../../extensibility/ux-guidelines/media/0303-114-1_searchinputfieldunfocusedinactive.png "0303-114-1_SearchInputFieldUnfocusedInactive")<br />未取得焦點且非使用中的搜尋輸入的欄位  
+![未取得焦點且非使用中的搜尋輸入的欄位](~/docs/extensibility/ux-guidelines/media/0303-114-1_searchinputfieldunfocusedinactive.png "0303-114-1_SearchInputFieldUnfocusedInactive")<br />未取得焦點且非使用中的搜尋輸入的欄位  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -767,7 +767,7 @@ ms.lasthandoff: 05/04/2017
 
 **未取得焦點的搜尋下拉式按鈕**
 
-![未取得焦點的搜尋下拉式按鈕](../../extensibility/ux-guidelines/media/0303-116_searchdropdownbuttonunfocused.png "0303-116_SearchDropdownButtonUnfocused")<br />未取得焦點的搜尋下拉式按鈕
+![未取得焦點的搜尋下拉式按鈕](~/docs/extensibility/ux-guidelines/media/0303-116_searchdropdownbuttonunfocused.png "0303-116_SearchDropdownButtonUnfocused")<br />未取得焦點的搜尋下拉式按鈕
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -836,7 +836,7 @@ ms.lasthandoff: 05/04/2017
 
 ![搜尋核取方塊](../../extensibility/ux-guidelines/media/0303-126_searchcheckbox.png "0303-126_SearchCheckbox")<br />預設的搜尋選項 （核取方塊）  
 
-![搜尋選項](../../extensibility/ux-guidelines/media/0303-127_searchoptions.png "0303-127_SearchOptions")<br />預設的搜尋選項 （連結）  
+![搜尋選項](~/docs/extensibility/ux-guidelines/media/0303-127_searchoptions.png "0303-127_SearchOptions")<br />預設的搜尋選項 （連結）  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -861,7 +861,7 @@ ms.lasthandoff: 05/04/2017
 
 **搜尋選項︰ 按下狀態**  
 
-![按下搜尋選項 （核取方塊）](../../extensibility/ux-guidelines/media/0303-131_searchsuggestedpressed.png "0303-131_SearchSuggestedPressed")<br />按下搜尋選項 （核取方塊）   
+![按下搜尋選項 （核取方塊）](~/docs/extensibility/ux-guidelines/media/0303-131_searchsuggestedpressed.png "0303-131_SearchSuggestedPressed")<br />按下搜尋選項 （核取方塊）   
 
 ![按下搜尋選項 （連結）](../../extensibility/ux-guidelines/media/0303-132_searchoptionspressed.png "0303-132_SearchOptionsPressed")<br />按下搜尋選項 （連結）  
 
@@ -895,7 +895,7 @@ ms.lasthandoff: 05/04/2017
 
 **樹狀檢視項目︰ 將滑鼠停留狀態**
 
-![暫留時顯示樹狀檢視項目](../../extensibility/ux-guidelines/media/0303-149_treeviewhover.png "0303-149_TreeViewHover")<br />暫留時顯示樹狀檢視項目
+![暫留時顯示樹狀檢視項目](~/docs/extensibility/ux-guidelines/media/0303-149_treeviewhover.png "0303-149_TreeViewHover")<br />暫留時顯示樹狀檢視項目
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -939,7 +939,7 @@ ms.lasthandoff: 05/04/2017
 
 **樹狀檢視項目︰ 暫留在選取，而且已取得焦點狀態**
 
-![暫留時顯示的選取和已取得焦點的樹狀檢視項目](../../extensibility/ux-guidelines/media/0303-153_treeviewfocusedhover.png "0303-153_TreeViewFocusedHover")<br />暫留時顯示的選取和已取得焦點的樹狀檢視項目  
+![暫留時顯示的選取和已取得焦點的樹狀檢視項目](~/docs/extensibility/ux-guidelines/media/0303-153_treeviewfocusedhover.png "0303-153_TreeViewFocusedHover")<br />暫留時顯示的選取和已取得焦點的樹狀檢視項目  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -950,7 +950,7 @@ ms.lasthandoff: 05/04/2017
 
 **樹狀檢視項目︰ 滑鼠停留、 選取狀態，以及未取得焦點狀態**
 
-![暫留時顯示的選取和未取得焦點的樹狀檢視項目](../../extensibility/ux-guidelines/media/0303-154_treeviewunfocusedhover.png "0303-154_TreeViewUnfocusedHover")<br />暫留時顯示的選取和未取得焦點的樹狀檢視項目  
+![暫留時顯示的選取和未取得焦點的樹狀檢視項目](~/docs/extensibility/ux-guidelines/media/0303-154_treeviewunfocusedhover.png "0303-154_TreeViewUnfocusedHover")<br />暫留時顯示的選取和未取得焦點的樹狀檢視項目  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -988,7 +988,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="command-shelf"></a>命令櫃  
 兩組語彙基元名稱用於命令櫃背景：一組用於功能表列所在的位置，一組用於命令列所在的位置。 個別命令列群組有其專屬背景色彩值 (會在＜命令列＞一節中詳細討論)。 功能表列和命令列文字分別會在功能表和命令列一節中進行討論。  
 
-![Visual Studio 命令櫃 （紅線）](../../extensibility/ux-guidelines/media/0303-188_commandshelfredline.png "0303-188_CommandShelfRedline")<br />Visual Studio 命令櫃 （紅線）  
+![Visual Studio 命令櫃 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-188_commandshelfredline.png "0303-188_CommandShelfRedline")<br />Visual Studio 命令櫃 （紅線）  
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -1128,7 +1128,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="menu-items"></a>功能表項目
 個別功能表項目包含功能表文字和選用圖示、核取方塊或子功能表字符。 其背景和文字色彩會在滑鼠游標暫留時變更。 這個色彩語彙基元是背景/前景配對。  
 
-![功能表項目紅線](../../extensibility/ux-guidelines/media/0303-009_menuitemredline.png "0303年 009_MenuItemRedline")  
+![功能表項目紅線](~/docs/extensibility/ux-guidelines/media/0303-009_menuitemredline.png "0303年 009_MenuItemRedline")  
 
 | 使用於 … | 請勿使用於 …  |
 |---|---|
@@ -1137,7 +1137,7 @@ ms.lasthandoff: 05/04/2017
 
 **功能表項目︰ 預設狀態**
 
-![預設的功能表項目](../../extensibility/ux-guidelines/media/0303-010_menudefault.png "0303-010_MenuDefault")<br />預設的功能表項目  
+![預設的功能表項目](~/docs/extensibility/ux-guidelines/media/0303-010_menudefault.png "0303-010_MenuDefault")<br />預設的功能表項目  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1153,7 +1153,7 @@ ms.lasthandoff: 05/04/2017
 
 ![已核取功能表](../../extensibility/ux-guidelines/media/0303-011_menuchecked.png "0303-011_MenuChecked")<br />已核取的功能表項目
 
-![選取功能表](../../extensibility/ux-guidelines/media/0303-012_menuselected.png "0303-012_MenuSelected")<br />選取的功能表項目    
+![選取功能表](~/docs/extensibility/ux-guidelines/media/0303-012_menuselected.png "0303-012_MenuSelected")<br />選取的功能表項目    
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1238,7 +1238,7 @@ ms.lasthandoff: 05/04/2017
 
 **命令圖示︰ 預設狀態**  
 
-![命令圖示預設值](../../extensibility/ux-guidelines/media/0303-023_commandicondefault.png "0303-023_CommandIconDefault")<br />預設命令圖示
+![命令圖示預設值](~/docs/extensibility/ux-guidelines/media/0303-023_commandicondefault.png "0303-023_CommandIconDefault")<br />預設命令圖示
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1310,7 +1310,7 @@ ms.lasthandoff: 05/04/2017
 
 **命令列下拉式方塊輸入的欄位︰ 預設狀態**
 
-![命令列下拉式方塊輸入的欄位](../../extensibility/ux-guidelines/media/0303-030_comboboxinputfield.png "0303-030_ComboBoxInputField")<br />命令列下拉式方塊輸入的欄位  
+![命令列下拉式方塊輸入的欄位](~/docs/extensibility/ux-guidelines/media/0303-030_comboboxinputfield.png "0303-030_ComboBoxInputField")<br />命令列下拉式方塊輸入的欄位  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1330,7 +1330,7 @@ ms.lasthandoff: 05/04/2017
 
 **命令列 下拉式清單︰ 預設狀態**
 
-![命令列 下拉式清單](../../extensibility/ux-guidelines/media/0303-032_comboboxdropdownlist.png "0303-032_ComboBoxDropdownList")<br />命令列 下拉式清單
+![命令列 下拉式清單](~/docs/extensibility/ux-guidelines/media/0303-032_comboboxdropdownlist.png "0303-032_ComboBoxDropdownList")<br />命令列 下拉式清單
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1484,7 +1484,7 @@ ms.lasthandoff: 05/04/2017
 
 **命令列下拉式按鈕︰ 將滑鼠停留狀態**  
 
-![暫留時顯示的命令列下拉式按鈕](../../extensibility/ux-guidelines/media/0303-047_dropdownbuttonhover.png "0303-047_DropdownButtonHover")<br />暫留時顯示的命令列下拉式按鈕  
+![暫留時顯示的命令列下拉式按鈕](~/docs/extensibility/ux-guidelines/media/0303-047_dropdownbuttonhover.png "0303-047_DropdownButtonHover")<br />暫留時顯示的命令列下拉式按鈕  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1667,7 +1667,7 @@ ms.lasthandoff: 05/04/2017
 
 **已取得焦點，浮動文件視窗框架︰ 預設狀態**
 
-![預設已取得焦點，浮動文件視窗框架](../../extensibility/ux-guidelines/media/0303-067_framefocused.png "0303-067_FrameFocused")<br />預設已取得焦點，浮動文件視窗框架
+![預設已取得焦點，浮動文件視窗框架](~/docs/extensibility/ux-guidelines/media/0303-067_framefocused.png "0303-067_FrameFocused")<br />預設已取得焦點，浮動文件視窗框架
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1722,7 +1722,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="document-tabs"></a>文件索引標籤  
 文件索引標籤位在索引標籤通道中，表示目前開啟的文件以及目前選取的文件或使用中文件。 工具視窗也可以停駐在文件索引標籤通道中 (如果使用者將它們放在那裏)。 在此情況下，他們會使用與文件視窗相同的索引標籤色彩。 如果所建立的 UI 要一律符合文件視窗色彩 (包括佈景主題更新，或已安裝新的佈景主題時)，則請參考這些色彩語彙基元。  
 
-![文件索引標籤 （紅線）](../../extensibility/ux-guidelines/media/0303-072_documenttabredline.png "0303-072_DocumentTabRedline")<br />文件索引標籤 （紅線）
+![文件索引標籤 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-072_documenttabredline.png "0303-072_DocumentTabRedline")<br />文件索引標籤 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -1735,7 +1735,7 @@ ms.lasthandoff: 05/04/2017
 
 -   背景索引標籤是任何非目前選取之索引標籤的文件索引標籤。 按一下之後，它們會成為選取的索引標籤，並從這些語彙基元名稱取得所有背景、框線和文字色彩。  
 
-![開啟的文件索引標籤 （紅線）](../../extensibility/ux-guidelines/media/0303-073_opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")<br />開啟的文件索引標籤 （紅線）
+![開啟的文件索引標籤 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-073_opendocumenttabredline.png "0303-073_OpenDocumentTabRedline")<br />開啟的文件索引標籤 （紅線）
 
 | 使用於 …  | 請勿使用於 … |
 | --- | --- |
@@ -1787,7 +1787,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="preview-tab"></a>預覽索引標籤  
 也稱為 「 暫時性 」 索引標籤。 使用者按一下方案總管工具視窗中的項目時，預覽索引標籤會出現在文件索引標籤通道右側。 它可作為文件的預覽，也可讓使用者選擇持續在文件索引標籤通道左側開啟文件。 一次只能開啟一個預覽索引標籤。 預覽索引標籤同時具有背景和選取的狀態 (例如開啟的索引標籤)，而且可以在其作用中狀態取得焦點或未取得焦點。  
 
-![預覽索引標籤 （紅線）](../../extensibility/ux-guidelines/media/0303-078_previewtabredline.png "0303-078_PreviewTabRedline")<br />預覽索引標籤 （紅線）
+![預覽索引標籤 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-078_previewtabredline.png "0303-078_PreviewTabRedline")<br />預覽索引標籤 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -1796,7 +1796,7 @@ ms.lasthandoff: 05/04/2017
 
 **已取得焦點，選取預覽 索引標籤**  
 
-![已取得焦點，選取預覽 索引標籤](../../extensibility/ux-guidelines/media/0303-079_previewtabfocused.png "0303-079_PreviewTabFocused")<br />已取得焦點，選取預覽 索引標籤
+![已取得焦點，選取預覽 索引標籤](~/docs/extensibility/ux-guidelines/media/0303-079_previewtabfocused.png "0303-079_PreviewTabFocused")<br />已取得焦點，選取預覽 索引標籤
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1807,7 +1807,7 @@ ms.lasthandoff: 05/04/2017
 
 **未取得焦點，選取預覽 索引標籤**  
 
-![未取得焦點，選取預覽 索引標籤](../../extensibility/ux-guidelines/media/0303-080_previewtabunfocused.png "0303-080_PreviewTabUnfocused")<br />未取得焦點，選取預覽 索引標籤
+![未取得焦點，選取預覽 索引標籤](~/docs/extensibility/ux-guidelines/media/0303-080_previewtabunfocused.png "0303-080_PreviewTabUnfocused")<br />未取得焦點，選取預覽 索引標籤
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1818,7 +1818,7 @@ ms.lasthandoff: 05/04/2017
 
 **背景預覽索引標籤︰ 預設狀態**  
 
-![預設背景預覽索引標籤](../../extensibility/ux-guidelines/media/0303-081_previewbackgroundtab.png "0303-081_PreviewBackgroundTab")<br />預設背景預覽索引標籤  
+![預設背景預覽索引標籤](~/docs/extensibility/ux-guidelines/media/0303-081_previewbackgroundtab.png "0303-081_PreviewBackgroundTab")<br />預設背景預覽索引標籤  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1828,7 +1828,7 @@ ms.lasthandoff: 05/04/2017
 
 **背景預覽索引標籤︰ 暫留狀態**  
 
-![暫留時顯示背景預覽索引標籤](../../extensibility/ux-guidelines/media/0303-082_previewbackgroundtabhover.png "0303-082_PreviewBackgroundTabHover")<br />暫留時顯示背景預覽索引標籤  
+![暫留時顯示背景預覽索引標籤](~/docs/extensibility/ux-guidelines/media/0303-082_previewbackgroundtabhover.png "0303-082_PreviewBackgroundTabHover")<br />暫留時顯示背景預覽索引標籤  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1879,7 +1879,7 @@ ms.lasthandoff: 05/04/2017
 ### <a name="tagging"></a>標記  
 Visual Studio 支援標記，可讓使用者宣告可搜尋關鍵字，以進行追蹤。 例如，專案經理和開發人員可以使用 Team Foundation Server (TFS) 來標記工作項目。 下列表格提供以暫停和已選取狀態顯示之標記本身和「關閉圖示」字符的色彩名稱。  
 
-![在 Visual Studio 中的標記 （紅線）](../../extensibility/ux-guidelines/media/0303-176_taggingredline.png "0303-176_TaggingRedline")<br />在 Visual Studio 中的標記 （紅線）  
+![在 Visual Studio 中的標記 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-176_taggingredline.png "0303-176_TaggingRedline")<br />在 Visual Studio 中的標記 （紅線）  
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -1889,7 +1889,7 @@ Visual Studio 支援標記，可讓使用者宣告可搜尋關鍵字，以進行
 
 **標記︰ 預設狀態**
 
-![預設標記](../../extensibility/ux-guidelines/media/0303-177_tag.png "0303-177_Tag")<br />預設標記
+![預設標記](~/docs/extensibility/ux-guidelines/media/0303-177_tag.png "0303-177_Tag")<br />預設標記
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |  
@@ -1916,7 +1916,7 @@ Visual Studio 支援標記，可讓使用者宣告可搜尋關鍵字，以進行
 
 **標記︰ 選取的狀態**
 
-![選取的標記](../../extensibility/ux-guidelines/media/0303-180_tagselected.png "0303-180_TagSelected")<br />選取的標記  
+![選取的標記](~/docs/extensibility/ux-guidelines/media/0303-180_tagselected.png "0303-180_TagSelected")<br />選取的標記  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -1946,7 +1946,7 @@ Visual Studio 支援標記，可讓使用者宣告可搜尋關鍵字，以進行
 
 **關閉 (&times;) 標記圖像︰ 按下狀態**
 
-![已按下 關閉 (&times;) 標記圖像 （glyph）](../../extensibility/ux-guidelines/media/0303-183_tagglyphpressed.png "0303-183_TagGlyphPressed")<br />已按下 關閉 (&times;) 標記圖像 （glyph）
+![已按下 關閉 (&times;) 標記圖像 （glyph）](~/docs/extensibility/ux-guidelines/media/0303-183_tagglyphpressed.png "0303-183_TagGlyphPressed")<br />已按下 關閉 (&times;) 標記圖像 （glyph）
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2032,7 +2032,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 ### <a name="toolbox-like-windows"></a>工具箱類似 windows
 工具箱是其中一個 Visual Studio 中最常使用的通用工具視窗。 基本上樹狀目錄控制項特殊佈景主題和樣式套用它。  
 
-![類似 [工具箱] 的視窗 （紅線）](../../extensibility/ux-guidelines/media/0303-189_toolboxredline.png "0303-189_ToolboxRedline")<br />類似 [工具箱] 的視窗 （紅線）
+![類似 [工具箱] 的視窗 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-189_toolboxredline.png "0303-189_ToolboxRedline")<br />類似 [工具箱] 的視窗 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -2079,7 +2079,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 ![已選取，未取得焦點的工具箱父節點](../../extensibility/ux-guidelines/media/0303-195_toolboxparentnodeunfocused.png "0303-195_ToolboxParentNodeUnfocused")<br />已選取，未取得焦點的工具箱父節點  
 
-![已選取，未取得焦點的工具箱子節點](../../extensibility/ux-guidelines/media/0303-196_toolboxchildnodeunfocused.png "0303-196_ToolboxChildNodeUnfocused")<br />已選取，未取得焦點的工具箱子節點  
+![已選取，未取得焦點的工具箱子節點](~/docs/extensibility/ux-guidelines/media/0303-196_toolboxchildnodeunfocused.png "0303-196_ToolboxChildNodeUnfocused")<br />已選取，未取得焦點的工具箱子節點  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2110,7 +2110,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **未取得焦點的標題列**  
 
-![未取得焦點的標題列](../../extensibility/ux-guidelines/media/0303-094_titlebarunfocused.png "0303-094_TitleBarUnfocused")<br />未取得焦點的標題列
+![未取得焦點的標題列](~/docs/extensibility/ux-guidelines/media/0303-094_titlebarunfocused.png "0303-094_TitleBarUnfocused")<br />未取得焦點的標題列
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2120,7 +2120,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 | 拖曳控點 | `Environment.TitleBarDragHandle` |
 
 #### <a name="tool-window-title-bar-buttons"></a>工具視窗標題列按鈕  
-![標題列按鈕 （紅線）](../../extensibility/ux-guidelines/media/0303-095_titlebarbuttonredline.png "0303-095_TitleBarButtonRedline")<br />標題列按鈕 （紅線）  
+![標題列按鈕 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-095_titlebarbuttonredline.png "0303-095_TitleBarButtonRedline")<br />標題列按鈕 （紅線）  
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -2139,7 +2139,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **未取得焦點的標題列按鈕︰ 預設狀態**
 
-![預設值，未取得焦點的標題列按鈕](../../extensibility/ux-guidelines/media/0303-097_titlebarbuttonunfocused.png "0303-097_TitleBarButtonUnfocused")<br />預設值，未取得焦點的標題列按鈕    
+![預設值，未取得焦點的標題列按鈕](~/docs/extensibility/ux-guidelines/media/0303-097_titlebarbuttonunfocused.png "0303-097_TitleBarButtonUnfocused")<br />預設值，未取得焦點的標題列按鈕    
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2206,7 +2206,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **已選取，未取得焦點的工具視窗索引標籤**  
 
-![已選取，未取得焦點的工具視窗索引標籤](../../extensibility/ux-guidelines/media/0303-104_toolwindowtabunfocused.png "0303-104_ToolWindowTabUnfocused")<br />已選取，未取得焦點的工具視窗索引標籤
+![已選取，未取得焦點的工具視窗索引標籤](~/docs/extensibility/ux-guidelines/media/0303-104_toolwindowtabunfocused.png "0303-104_ToolWindowTabUnfocused")<br />已選取，未取得焦點的工具視窗索引標籤
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2216,7 +2216,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **背景工具視窗索引標籤︰ 預設狀態**
 
-![預設背景工具視窗索引標籤](../../extensibility/ux-guidelines/media/0303-105_toolwindowbackgroundtab.png "0303-105_ToolWindowBackgroundTab")<br />預設背景工具視窗索引標籤  
+![預設背景工具視窗索引標籤](~/docs/extensibility/ux-guidelines/media/0303-105_toolwindowbackgroundtab.png "0303-105_ToolWindowBackgroundTab")<br />預設背景工具視窗索引標籤  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2236,7 +2236,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 ### <a name="auto-hide-tabs"></a>自動隱藏索引標籤  
 
-![自動隱藏 索引標籤 （紅線）](../../extensibility/ux-guidelines/media/0303-107_autohideredline.png "0303年 107_AutoHideRedline")自動隱藏 索引標籤 （紅線）
+![自動隱藏 索引標籤 （紅線）](~/docs/extensibility/ux-guidelines/media/0303-107_autohideredline.png "0303年 107_AutoHideRedline")自動隱藏 索引標籤 （紅線）
 
 | 使用於 … | 請勿使用於 … |
 | --- | --- |
@@ -2244,7 +2244,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **自動隱藏索引標籤︰ 預設狀態**  
 
-![預設自動隱藏索引標籤](../../extensibility/ux-guidelines/media/0303-108_autohidetab.png "0303-108_AutoHideTab")<br />預設自動隱藏索引標籤
+![預設自動隱藏索引標籤](~/docs/extensibility/ux-guidelines/media/0303-108_autohidetab.png "0303-108_AutoHideTab")<br />預設自動隱藏索引標籤
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |
@@ -2254,7 +2254,7 @@ Visual Studio 中的工具視窗用於許多不同的工作，而且可以存在
 
 **自動隱藏索引標籤︰ 暫留狀態**
 
-![停留時自動隱藏索引標籤](../../extensibility/ux-guidelines/media/0303-109_autohidetabhover.png "0303-109_AutoHideTabHover")<br />停留時顯示 [自動隱藏] 索引標籤  
+![停留時自動隱藏索引標籤](~/docs/extensibility/ux-guidelines/media/0303-109_autohidetabhover.png "0303-109_AutoHideTabHover")<br />停留時顯示 [自動隱藏] 索引標籤  
 
 | 項目 | 語彙基元名稱：Category.color |
 | --- | --- |

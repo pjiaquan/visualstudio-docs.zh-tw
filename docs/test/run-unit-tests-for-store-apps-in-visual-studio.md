@@ -71,7 +71,7 @@ ms.lasthandoff: 02/22/2017
 ##  <a name="BKMK_Running_tests_in_Test_Explorer"></a>在 [測試總管] 中執行測試  
  在建置測試專案後，這些測試便會出現在 [測試總管] 中。 如果沒有看到 [測試總管]，請選擇 Visual Studio 功能表上的 [測試]  ，接著選擇 [Windows] ，然後選擇 [測試總管] 。  
   
- ![單元測試總管](../ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
+ ![單元測試總管](~/docs/ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
  當您執行、寫入、重新執行您的測試時，測試總管會顯示 [失敗的測試] 、[通過的測試] 、[略過的測試]  和 [未執行的測試] 預設群組中的結果。 您可以變更測試總管群組測試的方式。  
   
@@ -120,7 +120,7 @@ ms.lasthandoff: 02/22/2017
   
 |||  
 |-|-|  
-|![[測試總管] 的 [群組] 按鈕](../test/media/ute_groupby_btn.png "UTE_GroupBy_btn")|若要將測試按執行耗用時間分組，請開啟 [群組依據] 清單，然後選擇 [持續時間]。 選擇 [測試結果]，切換到原始群組。|  
+|![[測試總管] 的 [群組] 按鈕](~/docs/test/media/ute_groupby_btn.png "UTE_GroupBy_btn")|若要將測試按執行耗用時間分組，請開啟 [群組依據] 清單，然後選擇 [持續時間]。 選擇 [測試結果]，切換到原始群組。|  
   
 ###  <a name="BKMK_Searching_and_filtering_the_test_list"></a>搜尋和篩選測試清單  
  當有大量測試時，您可以在 [測試總管] 的搜尋方塊中輸入指定字串以篩選清單。 您可以先在篩選清單中選擇，限制篩選特定類型的字串，再輸入搜尋字串。  

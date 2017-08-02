@@ -45,7 +45,7 @@ ms.lasthandoff: 03/07/2017
 
 為了 「 ngen 「 組件，VSIX 必須安裝 「 每個執行個體每台機器 」。 這可藉由檢查 extension.vsixmanifest 設計工具中的 [所有使用者] 核取方塊來啟用︰
 
-![檢查所有使用者](media/check-all-users.png)
+![檢查所有使用者](~/docs/extensibility/media/check-all-users.png)
 
 ## <a name="how-to-enable-ngen"></a>如何啟用 Ngen
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 03/07/2017
 
 以下就來看看**屬性** 視窗中的動作︰
 
-![在屬性中的 ngen](media/ngen-in-properties.png)
+![在屬性中的 ngen](~/docs/extensibility/media/ngen-in-properties.png)
 
 這會將中繼資料加入至 VSIX 專案的.csproj 檔案內的專案參考︰
 

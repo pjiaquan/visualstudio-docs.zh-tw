@@ -33,7 +33,7 @@ caps.handback.revision: 41
   
  [!INCLUDE[appliesto_pptallapp](../vsto/includes/appliesto-pptallapp-md.md)]  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結")如需相關的影片示範，請參閱[如何：建立 Microsoft PowerPoint 增益集](http://go.microsoft.com/fwlink/?LinkId=132767)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結")如需相關的影片示範，請參閱[如何：建立 Microsoft PowerPoint 增益集](http://go.microsoft.com/fwlink/?LinkId=132767)。  
   
 ## 使用 PowerPoint 物件模型自動化 PowerPoint  
  PowerPoint 物件模型會公開您可用來自動化 PowerPoint 的許多類型。 這些類型可讓您撰寫程式碼來完成一般工作：  

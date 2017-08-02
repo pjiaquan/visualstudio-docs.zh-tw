@@ -43,7 +43,7 @@ caps.handback.revision: 18
   
 2.  選擇 [Enter] 事件，並輸入 `answer_Enter`，然後選擇 Enter 鍵。  
   
-     ![[屬性] 對話方塊](../ide/media/express_answerenter.png "Express_AnswerEnter")  
+     ![[屬性] 對話方塊](~/docs/ide/media/express_answerenter.png "Express_AnswerEnter")  
 [屬性] 對話方塊  
   
      現在您已為 sum NumericUpDown 控制項加入 Enter 事件處理常式，並且將處理常式命名為 **answer_Enter**。  

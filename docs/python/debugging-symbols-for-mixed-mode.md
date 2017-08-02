@@ -46,13 +46,13 @@ Visual Studio 會在需要符號時提示您，一般來說，這是指啟動混
 - [開啟符號設定] 對話方塊的 [選項] 對話方塊，會開啟 [偵錯] > [符號] 索引標籤。
 - [下載我的解譯器的符號] 會開啟這個存在的文件頁面，在此情況下，請選取 [工具] > [選項]，並瀏覽至 [偵錯] > [符號] 索引標籤以繼續。
 
-    ![混合模式偵錯工具符號提示](media/mixed-mode-debugging-symbols-required.png)
+    ![混合模式偵錯工具符號提示](~/docs/python/media/mixed-mode-debugging-symbols-required.png)
 
 ## <a name="downloading-symbols"></a>正在下載符號
 
 - Python 3.5 和更新版本：透過 Python 安裝程式取得偵錯符號。 依序選取 [自訂安裝] 和 [下一步] 移至 [進階選項]，然後選取 [下載偵錯符號] 和 [下載偵錯二進位檔案] 的方塊：
 
-    ![包括偵錯符號的 Python 3.x 安裝程式](media/mixed-mode-debugging-symbols-installer35.png)
+    ![包括偵錯符號的 Python 3.x 安裝程式](~/docs/python/media/mixed-mode-debugging-symbols-installer35.png)
 
     符號檔 (`.pdb`) 會位於根安裝資料夾中，而個別模組的符號檔也在 `DLLs` 資料夾中。 因此，Visual Studio 會自動尋找這些檔案，您不需採取其他步驟。
 
@@ -71,7 +71,7 @@ Visual Studio 會在需要符號時提示您，一般來說，這是指啟動混
     
 1. 選取工具列上的 [新增] 按鈕 (如下所述)，輸入您要展開下載符號的資料夾 (`python.pdb` 的位置，例如 `c:\python34\Symbols`，如下所示)，然後選取 [確定]。 
 
-    ![混合模式偵錯工具符號選項](media/mixed-mode-debugging-symbols.png)
+    ![混合模式偵錯工具符號選項](~/docs/python/media/mixed-mode-debugging-symbols.png)
 
 1. 偵錯工作階段期間，Visual Studio 也可能會提示您輸入 Python 解譯器的原始程式檔位置。 如果您已經下載這些項目 (例如從 [python.org/downloads](https://www.python.org/downloads) 下載)，當然也可以指向它們。
 

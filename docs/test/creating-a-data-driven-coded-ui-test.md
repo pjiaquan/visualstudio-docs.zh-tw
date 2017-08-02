@@ -53,7 +53,7 @@ ms.lasthandoff: 05/13/2017
   
 2.  選擇錄製動作。  
   
-     ![選擇錄製動作](../test/media/cuit_datadriven_generatecodedialog.png "CUIT_dataDriven_GenerateCodeDialog")  
+     ![選擇錄製動作](~/docs/test/media/cuit_datadriven_generatecodedialog.png "CUIT_dataDriven_GenerateCodeDialog")  
   
 3.  開啟計算機應用程式，並開始錄製測試。  
   
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/13/2017
   
 4.  加入 1 加 2，並暫停錄製器，然後產生測試方法。 稍後，我們會將此使用者輸入的值取代為資料檔中的值。  
   
-     ![產生測試方法](../test/media/cuit_datadriven_cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
+     ![產生測試方法](~/docs/test/media/cuit_datadriven_cuitbuildergencode.png "CUIT_dataDriven_CUITBuilderGenCode")  
   
      關閉測試產生器。 此方法會加入至測試：  
   
@@ -91,7 +91,7 @@ ms.lasthandoff: 05/13/2017
   
 8.  設定判斷提示之後，請重新從建立器產生程式碼。 這會建立新的方法來進行驗證。  
   
-     ![產生判斷提示方法](../test/media/cuit_datadriven_assertiongencode.png "CUIT_dataDriven_AssertionGenCode")  
+     ![產生判斷提示方法](~/docs/test/media/cuit_datadriven_assertiongencode.png "CUIT_dataDriven_AssertionGenCode")  
   
      因為 `ValidateSum` 方法會驗證 `AddNumbers` 方法的結果，所以請將它移至程式碼區塊底端。  
   

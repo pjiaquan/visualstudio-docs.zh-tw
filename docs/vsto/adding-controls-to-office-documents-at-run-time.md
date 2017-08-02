@@ -44,7 +44,7 @@ caps.handback.revision: 101
   
 -   [將 Windows Form 控制項加入文件中](#WindowsForms)。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結")如需相關的影片示範，請參閱[如何：在執行階段將控制項加入文件介面？](http://go.microsoft.com/fwlink/?LinkId=132782)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結")如需相關的影片示範，請參閱[如何：在執行階段將控制項加入文件介面？](http://go.microsoft.com/fwlink/?LinkId=132782)。  
   
 ##  <a name="ControlsCollection"></a> 在執行階段使用控制項集合來管理控制項。  
  若要在執行階段加入、取得或移除控制項，請使用 <xref:Microsoft.Office.Tools.Excel.ControlCollection> 與 <xref:Microsoft.Office.Tools.Word.ControlCollection> 物件的 Helper 方法。  

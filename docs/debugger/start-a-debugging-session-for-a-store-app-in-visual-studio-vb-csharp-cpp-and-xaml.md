@@ -44,7 +44,7 @@ manager: "ghogen"
 # 在 Visual Studio 中，為市集應用程式啟動偵錯工作階段 (VB、C#、C++ 和 XAML)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  本主題說明如何對於以 XAML 和 Visual  C\+\+、Visual  C\# 或 Visual  Basic撰寫的市集應用程式，開始偵錯工作階段。 要對應用程式進行偵錯，必須設定偵錯工作階段並選擇應用程式的啟動方式。  
   
@@ -104,11 +104,11 @@ manager: "ghogen"
   
     -   針對 Visual C\# 與 Visual Basic 應用程式，請選擇 \[**偵錯**\]。  
   
-         ![C&#35;&#47;VB 專案偵錯屬性頁](../debugger/media/dbg_csvb_debugpropertypage.png "DBG\_CsVb\_DebugPropertyPage")  
+         ![C&#35;&#47;VB 專案偵錯屬性頁](~/docs/debugger/media/dbg_csvb_debugpropertypage.png "DBG\_CsVb\_DebugPropertyPage")  
   
     -   針對 Visual C\+\+ 應用程式，請展開 \[**組態屬性**\] 節點，然後選擇 \[**偵錯**\]。  
   
-         ![C&#43;&#43; Windows 市集應用程式偵錯屬性頁](../debugger/media/dbg_cpp_debugpropertypage.png "DBG\_CPP\_DebugPropertyPage")  
+         ![C&#43;&#43; Windows 市集應用程式偵錯屬性頁](~/docs/debugger/media/dbg_cpp_debugpropertypage.png "DBG\_CPP\_DebugPropertyPage")  
   
 ###  <a name="BKMK_Choose_the_build_configuration_options"></a> 選擇組建組態選項  
   
@@ -117,7 +117,7 @@ manager: "ghogen"
 2.  從 \[**平台**\] 清單中選擇要為其建置的目標平台。 在大部分情況下，\[**任何 CPU**\] \(在 Visual C\+\+ 中是 \[**所有平台**\]\) 是最佳選擇。  
   
 ###  <a name="BKMK_Choose_the_deployment_target"></a> 選擇部署目標  
- ![僅適用於 Windows](../debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  您可以在 Visual Studio 電腦、本機電腦上的 Visual Studio 模擬器或遠端裝置上部署和偵錯 Windows 市集應用程式。  
   
@@ -149,12 +149,12 @@ manager: "ghogen"
   
     -   針對 C\+\+ 應用程式，請在 \[電腦名稱\] 方塊中選擇向下箭頭，然後選擇 \[\<尋找...\>\]。  
   
-     ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](../debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
+     ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](~/docs/debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
   
     > [!NOTE]
     >  \[**選取遠端偵錯工具連接**\] 對話方塊會顯示位於本機子網路上的電腦，以及透過乙太網路纜線直接連接至 Visual Studio 電腦的任何電腦。 若要指定另一部電腦，請在 \[**電腦名稱**\] 方塊中輸入名稱。  
   
- ![僅適用於 Windows Phone](../debugger/media/phone_only_content.png "phone\_only\_content")  
+ ![僅適用於 Windows Phone](~/docs/debugger/media/phone_only_content.png "phone\_only\_content")  
   
  您可以將 Windows Phone 市集應用程式部署至裝置或其中一個 Visual Studio Phone 模擬器，以及進行偵錯。 從 \[目標裝置\] 清單選取裝置或模擬器。  
   
@@ -177,7 +177,7 @@ manager: "ghogen"
 |**混合 \(Managed 與原生\)**|在您的應用程式中偵錯原生 C\/C\+\+ 程式碼與 Managed 程式碼。 JavaScript 程式碼會被忽略。|  
 |**僅限 GPU**|對在圖形處理器 \(GPU\) 上執行的原生 C\+\+ 程式碼進行偵錯。|  
   
- ![僅適用於 Windows Phone](../debugger/media/phone_only_content.png "phone\_only\_content")  
+ ![僅適用於 Windows Phone](~/docs/debugger/media/phone_only_content.png "phone\_only\_content")  
   
  針對 Windows Phone 市集應用程式，您也可以從 \[背景工作處理序\] 選擇要用於背景處理序的偵錯工具。  
   
@@ -191,7 +191,7 @@ manager: "ghogen"
 -   針對 Visual C\+\+ 應用程式，請從 \[**偵錯**\] 屬性頁上的 \[**啟動應用程式**\] 清單中選擇 \[**是**\]。  
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> \(選擇性\) 停用網路回送  
- ![僅適用於 Windows](../debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  基於安全性考量，不允許以標準模式安裝的 Windows 市集應用程式，對於其安裝所在的裝置進行網路呼叫。 根據預設，Visual Studio 部署會針對部署應用程式建立此規則的豁免。 此豁免可讓您測試在單一機器上的通訊程序。 在將您的應用程式提交至 Windows 市集之前，您應該在沒有豁免的情況下測試您的應用程式。  
   
@@ -205,7 +205,7 @@ manager: "ghogen"
  若要診斷 Visual C\# 或 Visual Basic 應用程式的安裝與初始組態問題，請選擇 \[**偵錯**\] 屬性頁上的 \[**解除安裝再重新安裝我的套件**\]，以便在開始偵錯時重新建立原始安裝。 Visual C\+\+ 專案無法使用這個選項。  
   
 ###  <a name="BKMK__Optional__Disable_authentication_requirement_to_start_the_remote_debugger"></a> \(選擇性\) 停用驗證需求以啟動遠端偵錯工具  
- ![僅適用於 Windows](../debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  根據預設，您必須提供認證才能執行遠端偵錯工具。  
   

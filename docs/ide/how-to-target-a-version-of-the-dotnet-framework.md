@@ -78,7 +78,7 @@ ms.lasthandoff: 05/30/2017
   
 1.  在方案總管中開啟您所要變更專案的捷徑功能表，然後選擇 [屬性]。  
   
-     ![Visual Studio 方案總管的 [屬性]](../ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")  
+     ![Visual Studio 方案總管的 [屬性]](~/docs/ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")  
   
     > [!IMPORTANT]
     >  如需如何變更 C++ 專案之目標版本的詳細資訊，請參閱[如何：修改目標 Framework 和平台工具組](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset)。  

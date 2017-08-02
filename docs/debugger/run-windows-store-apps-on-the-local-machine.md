@@ -23,7 +23,7 @@ caps.handback.revision: 15
 # 在本機電腦上執行 Windows 市集應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![僅適用於 Windows](../debugger/media/windows_only_content.png "windows\_only\_content")  
+![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  若要偵錯、測試或執行 Windows 市集應用程式的效能分析，您可以在裝載 Visual Studio 的相同電腦上執行應用程式。  如果裝置上的顯示器具有觸控功能，則可以執行應用程式的完整功能；否則，只能使用滑鼠和鍵盤手勢。  
   
@@ -47,7 +47,7 @@ caps.handback.revision: 15
   
 -   在 C\# 和 Visual Basic 專案中，按一下 \[偵錯\]，然後從 \[目標裝置\] 下拉式清單中選取 \[本機電腦\]。  
   
-     ![C&#35; 和 Visual Basic 專案屬性頁](../debugger/media/vsrun_cs_vb_projprop_local.png "VSRUN\_CS\_VB\_ProjProp\_Local")  
+     ![C&#35; 和 Visual Basic 專案屬性頁](~/docs/debugger/media/vsrun_cs_vb_projprop_local.png "VSRUN\_CS\_VB\_ProjProp\_Local")  
   
 -   在 C\+\+ 和 JavaScript 專案中，展開 \[組態屬性\] 節點，並按一下 \[偵錯\]，然後從 \[要啟動的偵錯工具\] 清單中選取 \[本機偵錯工具\]。  
   

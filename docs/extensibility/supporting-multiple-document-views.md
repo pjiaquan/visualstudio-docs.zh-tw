@@ -35,7 +35,7 @@ caps.handback.revision: 25
 ## 判斷是否文件資料，是已經開啟  
  在整合式的開發環境 \(IDE\) 中執行文件表格 \(RDT\) 中，可以幫助追蹤是否為文件的資料已經開啟，如下圖所示。  
   
- ![DocDataView 圖形](../extensibility/media/docdataview.png "Docdataview")  
+ ![DocDataView 圖形](~/docs/extensibility/media/docdataview.gif "Docdataview")  
 多重檢視  
   
  預設情況下，每個檢視 \(文件檢視物件\) 包含在其本身視窗外框 \(<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame>\)。  如先前所述，然而，文件資料可以顯示多個檢視中。  若要啟用這種情況，Visual Studio 會檢查以判斷是否有問題的文件已經在編輯器中開啟 RDT。  當 IDE 呼叫<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A>若要建立編輯器\] 中，為非 NULL 值傳回的`punkDocDataExisting`參數會指出文件已經被另一個編輯器開啟。  如需有關如何 RDT 函式中，請參閱[執行中的文件表格](../extensibility/internals/running-document-table.md)。  

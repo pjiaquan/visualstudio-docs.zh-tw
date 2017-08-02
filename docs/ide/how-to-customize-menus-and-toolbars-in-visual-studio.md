@@ -78,7 +78,7 @@ ms.lasthandoff: 02/22/2017
   
     -   若要加入功能表，請選擇 [新增功能表] 按鈕，選擇 [修改選取範圍] 按鈕，然後為您要新增的功能表命名。  
   
-         ![自訂顯示如何加入功能表的對話方塊](../ide/media/addmenu.png "AddMenu")  
+         ![自訂顯示如何加入功能表的對話方塊](~/docs/ide/media/addmenu.png "AddMenu")  
   
     -   若要移除功能表，請在 [控制項] 清單中選擇該功能表，然後選擇 [刪除] 按鈕。  
   
@@ -94,7 +94,7 @@ ms.lasthandoff: 02/22/2017
   
     -   若要新增工具列，請選擇 [新增] 按鈕，為您要新增的工具列指定一個名稱，然後選擇 [確定] 按鈕。  
   
-         ![自訂顯示如何加入工具列的對話方塊](../ide/media/addtoolbar.png "AddToolbar")  
+         ![自訂顯示如何加入工具列的對話方塊](~/docs/ide/media/addtoolbar.png "AddToolbar")  
   
     -   若要移除自訂工具列，請在 [工具列] 清單中選擇該工具列，然後選擇 [刪除] 按鈕。  
   
@@ -122,7 +122,7 @@ ms.lasthandoff: 02/22/2017
   
          在 [加入命令] 對話方塊中，選擇 [分類] 清單中的某個項目，選擇 [命令] 清單中的某個項目，然後選擇 [確定] 按鈕。  
   
-         ![Visual Studio 中的 [加入命令] 對話方塊](../ide/media/addcommand.png "AddCommand")  
+         ![Visual Studio 中的 [加入命令] 對話方塊](~/docs/ide/media/addcommand.png "AddCommand")  
   
     -   若要刪除命令，請在 [控制項] 清單中選擇該命令，然後選擇 [刪除] 按鈕。  
   

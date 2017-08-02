@@ -115,7 +115,7 @@ ms.lasthandoff: 05/13/2017
   
      這個 XAML 程式碼會建立可重複使用的版面配置，其中含有數字、標題和描述欄位的預留位置。 在執行階段時，可將預留位置取代為文字，如下圖所示。  
   
-     ![QuickStartTask 使用者控制項](../designers/media/wpfquickstart1.PNG "WPFQuickStart1")  
+     ![QuickStartTask 使用者控制項](~/docs/designers/media/wpfquickstart1.PNG "WPFQuickStart1")  
   
 6.  在 **方案總管**中，展開 [QuickStartTask.xaml]  節點並開啟 **QuickStartTask.xaml.cs** 或 **QuickStartTask.xaml.vb** 檔案。  
   
@@ -302,7 +302,7 @@ ms.lasthandoff: 05/13/2017
   
      此時，您的設計看起來應該像下圖：  
   
-     ![設計工具中的 MainWindow](../designers/media/wpfquickstart2.PNG "WPFQuickStart2")  
+     ![設計工具中的 MainWindow](~/docs/designers/media/wpfquickstart2.PNG "WPFQuickStart2")  
   
     > [!NOTE]
     >  遵循接下來的幾個程序時，您可能會在開啟的 [錯誤清單]  中看到一些錯誤。 別擔心，一旦完成其餘的程序後，這些錯誤就會消失。  
@@ -572,7 +572,7 @@ ms.lasthandoff: 05/13/2017
   
      請注意，[查詢及更新資料]  清單會加入兩個項目，如下圖所示。  
   
-     ![待辦項目會加入清單。](../designers/media/wpfquickstart3.PNG "WPFQuickStart3")  
+     ![待辦項目會加入清單。](~/docs/designers/media/wpfquickstart3.PNG "WPFQuickStart3")  
   
 4.  選取清單中 **Do something else** 的項目核取方塊。  
   

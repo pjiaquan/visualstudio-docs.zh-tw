@@ -128,7 +128,7 @@ caps.handback.revision: 58
   
      下圖顯示 Outlook VSTO 增益集的發行資料夾結構。  
   
-     ![發行資料夾結構](../vsto/media/publishfolderstructure.png "發行資料夾結構")  
+     ![發行資料夾結構](~/docs/vsto/media/publishfolderstructure.png "發行資料夾結構")  
   
     > [!NOTE]  
     >  ClickOnce 會將 .deploy 副檔名附加至組件，如此受保護的網際網路資訊服務 \(IIS\) 安裝就不會因為不安全的副檔名而封鎖檔案。  當使用者安裝方案時，ClickOnce 會移除 .deploy 副檔名。  
@@ -451,7 +451,7 @@ caps.handback.revision: 58
   
      下圖顯示這個範例中的發行資料夾結構。  
   
-     ![發行資料夾結構](../vsto/media/publishfolderstructure.png "發行資料夾結構")  
+     ![發行資料夾結構](~/docs/vsto/media/publishfolderstructure.png "發行資料夾結構")  
   
      下次使用者開啟應用程式或自訂文件時，就會偵測到部署資訊清單的變更。  舊版 Office 方案便會從 ClickOnce 快取中執行。  
   

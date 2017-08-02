@@ -29,7 +29,7 @@ caps.handback.revision: 29
   
  您可以使用 [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] 提供的其中一個 RemoveCustomization 方法移除自訂組件。  您使用的方法取決於想要在執行階段移除自訂 \(也就是在 Word 文件或 Excel 活頁簿開啟時於自訂中執行程式碼\)，或是從已關閉的文件或未安裝 Microsoft Office 之伺服器上的文件移除自訂。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Word 文件中附加或中斷連結 VSTO 組件？](http://go.microsoft.com/fwlink/?LinkId=136782)\(英文\)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何在 Word 文件中附加或中斷連結 VSTO 組件？](http://go.microsoft.com/fwlink/?LinkId=136782)\(英文\)。  
   
 ### 若要在執行階段移除自訂組件  
   

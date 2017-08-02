@@ -42,7 +42,7 @@ ms.lasthandoff: 02/22/2017
 
 ---
 # <a name="walkthrough-find-a-memory-leak-javascript"></a>逐步解說：尋找記憶體流失 (JavaScript)
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  本逐步解說將帶領您使用 JavaScript 記憶體分析器找出並修正簡單的記憶體問題。 您可以在 Visual Studio 中使用 JavaScript 記憶體分析器來分析使用 JavaScript 針對 Windows 建置的 Windows 市集應用程式。 在這個案例中，您建立的應用程式在記憶體內以不正確的方式保留 DOM 項目，而不是以這些項目在建立時的相同速度來處理這些項目。  
   
@@ -227,7 +227,7 @@ ms.lasthandoff: 02/22/2017
   
 15. 開啟位於物件樹狀結構頂端的 HTMLDivElement 物件，如下所示。  
   
-     ![堆積上物件計數的差異比對檢視](../profiling/media/js_mem_app_typesdiff.png "JS_Mem_App_TypesDiff")  
+     ![堆積上物件計數的差異比對檢視](~/docs/profiling/media/js_mem_app_typesdiff.png "JS_Mem_App_TypesDiff")  
   
      這個檢視會顯示關於記憶體流失的實用資訊，如下所示：  
   

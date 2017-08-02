@@ -23,7 +23,7 @@ caps.handback.revision: 13
 # 偵錯 HTML、CSS 和 JavaScript 範例程式碼
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  本主題中的程式碼是下列項目的範例檔案：[快速入門：偵錯 HTML 和 CSS](../debugger/quickstart-debug-html-and-css.md).  快速入門在設計上出現的錯誤，會在此版本的程式碼中修正。  
   

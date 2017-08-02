@@ -46,7 +46,7 @@ caps.handback.revision: 14
   
  具有已修改之樞紐點的模型：  
   
- ![具有已修改之樞紐點的房屋模型](../designers/media/digit-modified-model.png "Digit\-Modified\-Model")  
+ ![具有已修改之樞紐點的房屋模型](~/docs/designers/media/digit-modified-model.png "Digit\-Modified\-Model")  
   
 ## 請參閱  
  [如何：建立基本 3D 模型](../Topic/How%20to:%20Create%20a%20Basic%203-D%20Model.md)   

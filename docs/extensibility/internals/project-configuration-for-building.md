@@ -31,7 +31,7 @@ caps.handback.revision: 11
   
  當使用者選取 **多重選取** 項目在 \[組態\] 下拉式清單中，環境會顯示一個對話方塊，提供的可用設定清單方塊。  
   
- ![多重組態](../../extensibility/internals/media/vsmultiplecfgs.png "vsMultipleCfgs")  
+ ![多重組態](~/docs/extensibility/internals/media/vsmultiplecfgs.gif "vsMultipleCfgs")  
 多個組態  
   
  在此對話方塊，使用者可以選取一或多個組態。 一旦選取此選項，顯示在屬性頁\] 對話方塊上的屬性值會反映選取的組態值的交集。  
@@ -40,7 +40,7 @@ caps.handback.revision: 11
   
  專案相依性和建置順序是獨立的方案組態: 也就是您可以只設定一個相依性的所有方案中專案的樹狀結構。 以滑鼠右鍵按一下方案或專案，然後選取 \[ **專案相依性** 或 **專案建置順序** 選項會開啟 **專案相依性** 對話方塊。 您也可以開啟從 **專案** 功能表。  
   
- ![專案相依性](../../extensibility/internals/media/vsprojdependencies.gif "vsProjDependencies")  
+ ![專案相依性](~/docs/extensibility/internals/media/vsprojdependencies.gif "vsProjDependencies")  
 專案相依性  
   
  專案相依性會決定的順序建置專案。 使用在對話方塊中的建置順序\] 索引標籤，來檢視方案中的專案建置及使用 \[相依性\] 索引標籤修改建置順序的正確順序。  

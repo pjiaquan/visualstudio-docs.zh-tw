@@ -49,7 +49,7 @@ manager: "ghogen"
   
 2.  在 \[畫面格清單\] 中，選取示範未顯示模型的畫面格。 轉譯目標會更新以反映選取的畫面格。 在此情況下，圖形記錄索引標籤與下列類似：  
   
-     ![.vsglog 索引標籤中可預覽框架緩衝區和框架清單](../debugger/media/vsg_walkthru1_experiment.png "vsg\_walkthru1\_experiment")  
+     ![.vsglog 索引標籤中可預覽框架緩衝區和框架清單](~/docs/debugger/graphics/media/vsg_walkthru1_experiment.png "vsg\_walkthru1\_experiment")  
   
  選取示範問題的畫面格之後，即可使用 \[圖形事件清單\] 進行診斷。 \[圖形事件清單\] 包含每個用以轉譯使用中畫面格的 Direct3D API 呼叫，例如用以設定裝置狀態、建立和更新緩衝區，以及繪製出現在畫面格中之物件的 API 呼叫。 許多種類的呼叫很有趣，原因是通常 \(但並非一定\) 在應用程式正常運作時，轉譯目標中會有相對應的變更，例如 Draw、Dispatch、Copy 或 Clear 呼叫。 Draw 呼叫特別有趣，原因是每一個呼叫皆代表應用程式所轉譯的幾何 \(Dispatch 呼叫也可以轉譯幾何\)。  
   
@@ -107,4 +107,4 @@ manager: "ghogen"
   
  在您判斷轉譯問題的原因可能是深度函式設定不正確之後，您可以使用這項資訊以及您對程式碼的了解，找出深度函式設定不正確的位置，然後再修正問題。 如果您不熟悉程式碼，您可以使用偵錯時收集到的線索來搜尋這個問題；例如，您可以根據此情節中的 \[深度樣板描述\]，在程式碼中搜尋如 "depth" 或 "GREATER" 的文字。 修正程式碼之後，請加以重新建置並再次執行應用程式，以確認轉譯問題已解決：  
   
- ![解決問題後的應用程式](../debugger/media/vsg_walkthru1_finalview.png "vsg\_walkthru1\_finalview")
+ ![解決問題後的應用程式](~/docs/debugger/graphics/media/vsg_walkthru1_finalview.png "vsg\_walkthru1\_finalview")

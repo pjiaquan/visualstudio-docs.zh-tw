@@ -34,7 +34,7 @@ caps.handback.revision: 25
   
 3.  以滑鼠右鍵按一下 \[功能區設計工具\]，然後按一下 \[**屬性**\]。  
   
-4.  在 \[**屬性**\] 視窗中選取 \[**Tabs**\] 屬性，然後按一下省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\)。  
+4.  在 \[**屬性**\] 視窗中選取 \[**Tabs**\] 屬性，然後按一下省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
   
      \[**索引標籤集合編輯器**\] 隨即出現。  
   

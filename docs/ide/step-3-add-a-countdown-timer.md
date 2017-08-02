@@ -115,7 +115,7 @@ ms.lasthandoff: 05/13/2017
   
      計時器就會開始倒數。 當時間結束時，測驗就會結束，答案也會出現。 下圖將顯示進行中的測驗。  
   
-     ![數學測驗正進行中](../ide/media/express_addcountdown.png "Express_AddCountdown")  
+     ![數學測驗正進行中](~/docs/ide/media/express_addcountdown.png "Express_AddCountdown")  
 數學測驗正進行中  
   
 ### <a name="to-continue-or-review"></a>繼續或檢視  

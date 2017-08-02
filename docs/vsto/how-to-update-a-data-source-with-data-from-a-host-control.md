@@ -78,7 +78,7 @@ caps.handback.revision: 52
   
 3.  在 \[屬性\] 視窗中，展開 \[\(DataBindings\)\] 屬性。  
   
-4.  按一下 \[\(進階\)\] 屬性旁的省略符號按鈕 \(![VisualStudioEllipsesButton 螢幕擷取畫面](../vsto/media/vbellipsesbutton.png "VisualStudioEllipsesButton 螢幕擷取畫面")\)。  
+4.  按一下 \[\(進階\)\] 屬性旁的省略符號按鈕 \(![VisualStudioEllipsesButton 螢幕擷取畫面](~/docs/vsto/media/vbellipsesbutton.png "VisualStudioEllipsesButton 螢幕擷取畫面")\)。  
   
 5.  在 \[格式化與進階繫結\] 對話方塊中，按一下 \[資料來源更新模式\] 下拉式清單，然後選取下列其中一個值：  
   

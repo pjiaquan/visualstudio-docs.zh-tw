@@ -34,7 +34,7 @@ caps.handback.revision: 58
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何：使用 Outlook 建立自訂工作報表？](http://go.microsoft.com/fwlink/?LinkID=130315)  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何：使用 Outlook 建立自訂工作報表？](http://go.microsoft.com/fwlink/?LinkID=130315)  
   
 ## 存取 Outlook 專案中的物件  
  Outlook 會提供許多您可以與之互動的物件。 若要有效使用物件模型，您應該熟悉下列最上層物件：  

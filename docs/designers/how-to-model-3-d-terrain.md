@@ -37,7 +37,7 @@ caps.handback.revision: 17
   
  當您完成時，模型看起來應該像這樣：  
   
- ![顯示地形模型的 3D 場景](../designers/media/digit-terrain-model.png "Digit\-Terrain\-Model")  
+ ![顯示地形模型的 3D 場景](~/docs/designers/media/digit-terrain-model.png "Digit\-Terrain\-Model")  
   
  開始之前，請先確定已顯示 \[**屬性**\] 視窗和 \[**工具箱**\]。  
   
@@ -65,7 +65,7 @@ caps.handback.revision: 17
   
  地形模型已完成。  以下為最終模型，套用 Phong 著色法:  
   
- ![顯示地形模型的 3D 場景](../designers/media/digit-terrain-model.png "Digit\-Terrain\-Model")  
+ ![顯示地形模型的 3D 場景](~/docs/designers/media/digit-terrain-model.png "Digit\-Terrain\-Model")  
   
  您可以使用這個地形模型展示 [如何：建立以幾何為基礎的漸層著色器](../designers/how-to-create-a-geometry-based-gradient-shader.md)中描述的漸層著色器效果。  
   

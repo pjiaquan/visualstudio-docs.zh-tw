@@ -32,11 +32,11 @@ caps.handback.revision: 5
   
      以下是在搜尋字串之後，捲軸呈現的外觀。  請注意，會出現該字串的所有出現處。  
   
-     ![搜尋字串之後的捲軸。](../ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")  
+     ![搜尋字串之後的捲軸。](~/docs/ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")  
   
      以下是取代字串所有出現處之後的捲軸外觀。  您馬上就能看到此作業造成一些問題。  
   
-     ![以錯誤的字串來取代之後的捲軸](../ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")  
+     ![以錯誤的字串來取代之後的捲軸](~/docs/ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")  
   
 ### 設定捲軸的顯示模式  
   
@@ -46,10 +46,10 @@ caps.handback.revision: 5
   
      啟用地圖模式且寬度設定為 \[中\] 時，搜尋範例的外觀如下：  
   
-     ![地圖模式中的捲軸](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")  
+     ![地圖模式中的捲軸](~/docs/ide/media/enhancedscrollbar.png "EnhancedScrollbar")  
   
 2.  如果您在地圖模式中的捲軸上，想要一邊上下移動游標，一邊預覽程式碼時，請選取 \[顯示預覽工具提示\] 選項。  其外觀如下：  
   
-     ![包含工具提示的捲軸](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")  
+     ![包含工具提示的捲軸](~/docs/ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")  
   
      如果您想要保留地圖模式的捲動行為與預覽工具提示，但不想看到原始程式碼概觀，可以將 \[原始檔概觀\] 設為 \[關閉\]。

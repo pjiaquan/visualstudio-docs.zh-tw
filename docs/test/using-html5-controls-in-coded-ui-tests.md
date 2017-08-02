@@ -59,7 +59,7 @@ ms.lasthandoff: 04/04/2017
 ###  <a name="UsingHTML5ControlsCodedUITestsAudio"></a> 音訊控制項  
  **音訊控制項：**正確記錄和播放 HTML5 Audio 控制項上的動作。  
   
- ![HTML5 Audio 控制項](../test/media/codedui_html5_audio.png "CodedUI_HTML5_Audio")  
+ ![HTML5 Audio 控制項](~/docs/test/media/codedui_html5_audio.png "CodedUI_HTML5_Audio")  
   
 |動作|錄製|產生的程式碼|  
 |------------|---------------|--------------------|  
@@ -102,7 +102,7 @@ string Volume
 ###  <a name="UsingHTML5ControlsCodedUITestsVideo"></a> 視訊控制項  
  **視訊控制項：**正確記錄和播放 HTML5 Video 控制項上的動作。  
   
- ![HTML5 Video 控制項](../test/media/codedui_html5_video.png "CodedUI_HTML5_Video")  
+ ![HTML5 Video 控制項](~/docs/test/media/codedui_html5_video.png "CodedUI_HTML5_Video")  
   
 |動作|錄製|產生的程式碼|  
 |------------|---------------|--------------------|  
@@ -132,7 +132,7 @@ string VideoWidth
 ###  <a name="UsingHTML5ControlsCodedUITestsSlider"></a> 滑桿  
  **滑桿控制項：**正確記錄和播放 HTML5 Slider 控制項上的動作。  
   
- ![HTML5 Slider 控制項](../test/media/codedui_html5_slider.png "CodedUI_HTML5_Slider")  
+ ![HTML5 Slider 控制項](~/docs/test/media/codedui_html5_slider.png "CodedUI_HTML5_Slider")  
   
 |動作|錄製|產生的程式碼|  
 |------------|---------------|--------------------|  
@@ -152,7 +152,7 @@ string ValueAsNumber
 ###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> 進度列  
  **進度列控制項：**進度列是不可互動的控制項。 您可以在此控制項的 `Value` 和 `Max` 屬性上加入判斷提示。  
   
- ![HTML5 ProgressBar 控制項](../test/media/codedui_html5_progressbar.png "CodedUI_HTML5_ProgressBar")  
+ ![HTML5 ProgressBar 控制項](~/docs/test/media/codedui_html5_progressbar.png "CodedUI_HTML5_ProgressBar")  
   
 ## <a name="see-also"></a>另請參閱  
  [HTML 項目](http://go.microsoft.com/fwlink/?LinkID=232441)   

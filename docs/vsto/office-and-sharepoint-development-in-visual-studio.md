@@ -96,7 +96,7 @@ caps.handback.revision: 87
   
  以下是 VSTO 增益集可以執行的作業範例。 這個 VSTO 增益集將功能區控制項、自訂工作窗格與對話方塊加入 PowerPoint 中。  
   
- ![PowerPoint 增益集方案](../vsto/media/powerpointaddin.png "PowerPoint 增益集方案")  
+ ![PowerPoint 增益集方案](~/docs/vsto/media/powerpointaddin.png "PowerPoint 增益集方案")  
   
  **進一步了解**  
   

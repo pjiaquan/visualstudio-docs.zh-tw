@@ -41,7 +41,7 @@ ms.lasthandoff: 02/22/2017
 
 若要協助使用者了解這種影響，我們會通知使用者緩慢的擴充功能的 Visual Studio 中加入的新功能。 當 Visual Studio 偵測到減緩方案載入或啟動的新擴充功能時，使用者會看到 IDE 指向新的 「 管理 Visual Studio 效能 」 對話方塊中的通知。 若要瀏覽先前偵測到的延伸模組的 [說明] 功能表也永遠可以存取此對話方塊。
 
-![管理 Visual Studio 效能](media/manage-performance.png)
+![管理 Visual Studio 效能](~/docs/extensibility/media/manage-performance.png)
 
 這份文件的目標是為了擴充功能開發人員透過描述擴充功能影響的計算方式，和如何進行分析在本機測試擴充功能可能會顯示為效能，從而影響擴充功能。
 
@@ -143,7 +143,7 @@ private void DoMoreWork()
 
 一旦您安裝 Visual Studio 環境與您安裝的擴充功能，您可以藉由開啟 PerfView，並從 「 收集 」 功能表開啟收集的對話方塊記錄啟動追蹤。
 
-![perfview 收集功能表](media/perfview-collect-menu.png)
+![perfview 收集功能表](~/docs/extensibility/media/perfview-collect-menu.png)
 
 預設選項將會提供 CPU 耗用量的呼叫堆疊，但因為我們是要封鎖的時間，您也應該啟用 「 執行緒的時間 」 堆疊。 設定準備好後您可以按一下 「 開始集合 」，並啟動 Visual Studio，一旦開始錄製。
 
@@ -155,7 +155,7 @@ private void DoMoreWork()
 
 基於此範例的目的，我們感主要中的 「 執行緒時間堆疊 」 檢視您可以在 [進階群組] 下找到。 此檢視會顯示方法，包括 CPU 時間和封鎖的時間，例如磁碟 IO，或等候控制代碼的執行緒上所花費的總時間。
 
- ![執行緒時間堆疊](media/perfview-thread-time-stacks.png)
+ ![執行緒時間堆疊](~/docs/extensibility/media/perfview-thread-time-stacks.png)
 
  當開啟 「 執行緒時間堆疊 」 檢視，您應該選擇 「 devenv 」 程序來啟動分析。
 
@@ -170,11 +170,11 @@ PerfView 已詳細閱讀執行緒時間堆疊在它自己說明 功能表上，�
 
 1. IO 使用 System.IO 類別︰ 這些框架內含成本可能非常耗費資源，則表示追蹤中，雖然它們是發生問題的可能原因由於檔案 IO 速度將不同電腦。
 
-  ![系統 io 框架](media/perfview-system-io-frames.png)
+  ![系統 io 框架](~/docs/extensibility/media/perfview-system-io-frames.png)
 
 2. 封鎖呼叫等其他非同步工作︰ 在此情況下內含時間代表主執行緒遭到封鎖的非同步工作完成的時間。
 
-  ![封鎖呼叫框架](media/perfview-blocking-call-frames.png)
+  ![封鎖呼叫框架](~/docs/extensibility/media/perfview-blocking-call-frames.png)
 
 其中一個其他檢視中，有助決定影響追蹤將會 「 映像載入堆疊 」。 您可以套用相同的篩選套用至 「 執行緒時間堆疊 」 檢視，並找出您自動載入的封裝所執行的程式碼因為載入所有組件。
 

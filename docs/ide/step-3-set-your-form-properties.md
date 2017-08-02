@@ -20,7 +20,7 @@ caps.handback.revision: 18
 
 接下來，您要使用 \[**屬性**\] 視窗變更表單的外觀。  
   
- ![視訊的連結](../data-tools/media/playvideo.png "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205209) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205199)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205209) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 1](http://go.microsoft.com/fwlink/?LinkId=205199)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### 若要設定您的表單屬性  
   
@@ -41,7 +41,7 @@ caps.handback.revision: 18
   
 4.  返回 \[Windows Form 設計工具\]。  選擇表單的右下方拖曳控點，即表單右下方的白色小方塊，如下所示。  
   
-     ![拖曳控點](../ide/media/express_bottomrt_drag.png "Express\_BottomRT\_Drag")  
+     ![拖曳控點](~/docs/ide/media/express_bottomrt_drag.png "Express\_BottomRT\_Drag")  
 拖曳控點  
   
      拖曳控點來調整表單大小，使表單變得較寬且稍微高一些。  

@@ -24,7 +24,7 @@ caps.handback.revision: 15
 ## 一個和兩個維度的座標系統  
  一維的座標位置根據第一個字元的字元位置，例如 147 的緩衝區中。  您使用<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream>存取一維的位置在緩衝區中的介面。  二維的座標系統是以行和索引組為基礎。  比方說，43 緩衝區中的字元，5 就會在行 43 右邊的那一行的第一個字元的五個字元。  您在存取二維諸塞州緩衝區使用<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines>介面。  這兩個<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines>和<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextStream>介面由文字緩衝區物件實作 \(<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>\)，藉由存取彼此`QueryInterface`。  下圖顯示上述和其他重要的介面上<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>。  
   
- ![文字緩衝區物件](../extensibility/media/vstextbuffer.png "vsTextBuffer")  
+ ![文字緩衝區物件](~/docs/extensibility/media/vstextbuffer.gif "vsTextBuffer")  
 文字緩衝區物件  
   
  不論是哪一種座標系統的運作方式文字緩衝區中，雖然它被最佳化，可以使用二維座標。  為一維的座標系統造成的效能負荷。  因此，使用二維座標系統在可能的情況。  

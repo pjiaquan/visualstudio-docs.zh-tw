@@ -102,7 +102,7 @@ ms.lasthandoff: 05/13/2017
   
      現在您的表單已配置完成。 其外觀應該如下列圖片。  
   
-     ![初始配對遊戲表單](../ide/media/express_tut4step1.png "Express_Tut4Step1")  
+     ![初始配對遊戲表單](~/docs/ide/media/express_tut4step1.png "Express_Tut4Step1")  
 初始配對遊戲表單  
   
 ### <a name="to-continue-or-review"></a>繼續或檢視  

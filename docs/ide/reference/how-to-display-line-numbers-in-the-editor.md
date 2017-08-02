@@ -56,7 +56,7 @@ ms.lasthandoff: 05/24/2017
   
 1.  在功能表列上選擇 [工具] 、[選項] 。 展開 [文字編輯器] 節點，然後選取所使用語言的節點，或選取 [所有語言] 開啟所有語言的行號。 也可以在 [快速啟動] 方塊中輸入**行號**。  
   
-2.  ![在編輯器中顯示行號的選項](../../ide/reference/media/vs_displaylinenumbers.png "VS_DisplayLineNumbers")  
+2.  ![在編輯器中顯示行號的選項](~/docs/ide/reference/media/vs_displaylinenumbers.png "VS_DisplayLineNumbers")  
   
 > [!NOTE]
 >  根據您的語言或設定，您可能需要選取 [選項] 對話方塊中的 [顯示所有設定] 核取方塊，才能顯示 [所有語言] 子節點。  

@@ -29,7 +29,7 @@ caps.handback.revision: 7
 # 快速入門：使用主控台偵錯 JavaScript
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  您可以使用 \[JavaScript 主控台\] 視窗進行互動，並且為使用 JavaScript 建置的市集 App 偵錯。 這些功能支援 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] App、Windows Phone 市集 App 和使用 Visual Studio Tools for Apache Cordova 所建立的 App。 如需主控台命令參考，請參閱 [JavaScript 主控台命令](../debugger/javascript-console-commands.md)。  
   
@@ -161,7 +161,7 @@ caps.handback.revision: 7
   
      當執行程序到達 `updateImages()` 函式時，App 會進入中斷模式，而程式執行的目前所在行會以黃色反白顯示。  
   
-     ![使用中斷模式搭配 &#91;JavaScript 主控台&#93;](../debugger/media/js_breakmode.png "JS\_BreakMode")  
+     ![使用中斷模式搭配 &#91;JavaScript 主控台&#93;](~/docs/debugger/media/js_breakmode.png "JS\_BreakMode")  
   
      您可以變更變數的值以立即影響程式狀態，而不需要結束目前的偵錯工作階段。  
   
@@ -199,7 +199,7 @@ caps.handback.revision: 7
   
  下圖顯示 \[JavaScript 主控台\] 視窗中的 \[目標\] 清單。  
   
- ![JavaScript 主控台視窗中的目標選項](../debugger/media/js_console_target.png "JS\_Console\_Target")  
+ ![JavaScript 主控台視窗中的目標選項](~/docs/debugger/media/js_console_target.png "JS\_Console\_Target")  
   
  您也可以使用 `cd` 命令來切換執行內容，但是必須知道另一個執行內容的名稱，而且您使用的參考必須在範圍內。 \[目標\] 清單提供更好的方式讓您存取其他執行內容。  
   

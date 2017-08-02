@@ -29,7 +29,7 @@ caps.handback.revision: 44
 # 使用 DOM 總管偵錯 CSS 樣式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  當您偵錯 Windows 市集、Windows Phone 市集應用程式和使用 Visual Studio Tools for Apache Cordova 建立的應用程式時，可以檢視和變更所選 DOM 項目及其子項目的 CSS 規則。  
   
@@ -47,7 +47,7 @@ caps.handback.revision: 44
 -   使用 \[變更\] 索引標籤 \(僅限 Windows 市集和 Windows Phone 市集應用程式\) 可識別及追蹤您在偵錯工作階段變更的 CSS 樣式。  
   
 > [!TIP]
->  您在 \[樣式\] 和 \[追蹤\] 索引標籤中所做的樣式變更並非永久變更。 當您停止偵錯時，變更就會遺失。 若要在不停止再重新開始偵錯工具的情況下，變更原始程式碼並重新載入頁面，請使用 \[偵錯\] 工具列上的 ![&#91;重新整理 Windows 應用程式&#93; 按鈕](../debugger/media/js_refresh.png "JS\_Refresh") 按鈕 \(\[重新整理 Windows 應用程式\]\) 按鈕，重新整理您的應用程式 \(僅限 Windows 市集和 Windows Phone 市集應用程式\)。 如需詳細資訊，請參閱 [重新整理應用程式 \(JavaScript\)](../debugger/refresh-an-app-javascript.md)。  
+>  您在 \[樣式\] 和 \[追蹤\] 索引標籤中所做的樣式變更並非永久變更。 當您停止偵錯時，變更就會遺失。 若要在不停止再重新開始偵錯工具的情況下，變更原始程式碼並重新載入頁面，請使用 \[偵錯\] 工具列上的 ![&#91;重新整理 Windows 應用程式&#93; 按鈕](~/docs/debugger/media/js_refresh.png "JS\_Refresh") 按鈕 \(\[重新整理 Windows 應用程式\]\) 按鈕，重新整理您的應用程式 \(僅限 Windows 市集和 Windows Phone 市集應用程式\)。 如需詳細資訊，請參閱 [重新整理應用程式 \(JavaScript\)](../debugger/refresh-an-app-javascript.md)。  
   
 ## CSS 規則修正範例  
  這個範例將示範如何檢查 CSS 規則並對樣式問題進行偵錯。 在這個範例中，假設您想要在 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] 分割應用程式範本內，變更用來顯示群組標題的字型色彩。  
@@ -122,13 +122,13 @@ caps.handback.revision: 44
   
 9. 清除第一個出現的 `color` 樣式的核取方塊，該樣式用於 `.itemspage .itemslist .item .item-overlay .item-title` 選取器。 現在，在模擬器中您會看到項目標題的色彩全都變成橙色，就如我們所預期，而且我們在 CSS 中修改的選取器 `.itemspage .itemslist .item` 不再遭到覆寫，也就是不再套用刪除線文字。 清除核取方塊之後的 \[計算\] 索引標籤如下。  
   
-     ![更新 CSS 樣式後的 &#91;計算&#93; 索引標籤](../debugger/media/js_css_styles_fixed.png "JS\_CSS\_Styles\_Fixed")  
+     ![更新 CSS 樣式後的 &#91;計算&#93; 索引標籤](~/docs/debugger/media/js_css_styles_fixed.png "JS\_CSS\_Styles\_Fixed")  
   
 10. 選取 \[變更\] 索引標籤。  
   
      使用 \[**變更**\] 索引標籤可識別及追蹤您在偵錯工作階段所做的樣式變更。 下圖顯示 \[**變更**\] 索引標籤中的 `.itemspage .itemslist .item .item-overlay .item-title` 選取器，它現在已被覆寫。  
   
-     ![&#91;DOM 總管&#93; 的 &#91;變更&#93; 索引標籤](../debugger/media/js_css_styles_changes.png "JS\_CSS\_Styles\_Changes")  
+     ![&#91;DOM 總管&#93; 的 &#91;變更&#93; 索引標籤](~/docs/debugger/media/js_css_styles_changes.png "JS\_CSS\_Styles\_Changes")  
   
 11. 您也可以在 \[**樣式**\] 索引標籤中手動編輯 CSS 樣式值，然後立即查看結果。  
   
@@ -140,7 +140,7 @@ caps.handback.revision: 44
   
 15. 使用鍵盤修改這個值。 將它變更為 `rgb(255, 255, 0, 0.87)`，然後按 Enter。 模擬器中項目標題的色彩會全部變更為黃色。  
   
-16. 若要變更來源 CSS 檔，請按一下 \[**樣式**\] 索引標籤上的 \[**items.css**\] 連結。 這樣會開啟 items.css，您可以在其中變更應用程式程式碼中 `color` 樣式的值。 若要在不停止即重新開始偵錯工具的情況下，重新整理應用程式，請按一下 \[偵錯\] 工具列上的 ![&#91;重新整理 Windows 應用程式&#93; 按鈕](../debugger/media/js_refresh.png "JS\_Refresh") \(\[重新整理 Windows\] 應用程式\)。  
+16. 若要變更來源 CSS 檔，請按一下 \[**樣式**\] 索引標籤上的 \[**items.css**\] 連結。 這樣會開啟 items.css，您可以在其中變更應用程式程式碼中 `color` 樣式的值。 若要在不停止即重新開始偵錯工具的情況下，重新整理應用程式，請按一下 \[偵錯\] 工具列上的 ![&#91;重新整理 Windows 應用程式&#93; 按鈕](~/docs/debugger/media/js_refresh.png "JS\_Refresh") \(\[重新整理 Windows\] 應用程式\)。  
   
 ## 請參閱  
  [快速入門：偵錯 HTML 和 CSS](../debugger/quickstart-debug-html-and-css.md)   

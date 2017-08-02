@@ -30,7 +30,7 @@ caps.handback.revision: 101
 # 快速入門：偵錯 HTML 和 CSS
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  Visual Studio 針對 JavaScript 應用程式提供完整的偵錯體驗，所包含的功能對於 Internet Explorer 和 Visual Studio 開發人員而言是很熟悉的。 這些功能支援 [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)]、Windows Phone 市集應用程式和使用 Visual Studio Tools for Apache Cordova 所建立的應用程式  
   
@@ -108,7 +108,7 @@ caps.handback.revision: 101
   
      下圖顯示當我們在 Phone 模擬器中執行此應用程式時，所希望看到的樣子 \(與在模擬器中看到的相似\)。 但是，要讓應用程式變成這樣，我們必須先修正一些 Bug。  
   
-     ![顯示預期結果的 FlipView 應用程式](../debugger/media/js_dom_appfixed.png "JS\_DOM\_AppFixed")  
+     ![顯示預期結果的 FlipView 應用程式](~/docs/debugger/media/js_dom_appfixed.png "JS\_DOM\_AppFixed")  
   
 7.  在 \[**偵錯**\] 工具列上，選取 \[**開始偵錯**\] 按鈕旁邊下拉式清單中的 \[**模擬器**\] 或 \[**Emulator 8.1 WVGA 4 英吋 512MB**\]：  
   
@@ -193,7 +193,7 @@ caps.handback.revision: 101
   
 2.  開啟 default.html，將 `"fView"` DIV 元素的高度和寬度變更為 100%，修改您的原始程式碼。  
   
-3.  選擇 \[偵錯\] 工具列上的 \[**重新整理 Windows 應用程式**\] 按鈕 \(或按 F4\)。 按鈕看起來像這樣：![&#91;重新整理 Windows 應用程式&#93; 按鈕](../debugger/media/js_refresh.png "JS\_Refresh")。  
+3.  選擇 \[偵錯\] 工具列上的 \[**重新整理 Windows 應用程式**\] 按鈕 \(或按 F4\)。 按鈕看起來像這樣：![&#91;重新整理 Windows 應用程式&#93; 按鈕](~/docs/debugger/media/js_refresh.png "JS\_Refresh")。  
   
      應用程式頁面會重新載入，模擬器或 Phone 模擬器會回到前景。  
   
@@ -216,7 +216,7 @@ caps.handback.revision: 101
   
  在您選擇 \[選取項目\] 之前，您可以透過切換 \[針對在 DOM 樹狀目錄中選取的項目顯示網頁醒目提示方塊\] 按鈕，指定是否要在執行中的應用程式內反白顯示該項目。 下圖顯示這個按鈕。 預設會顯示醒目提示。  
   
- ![顯示網頁的 &#91;反白顯示&#93; 按鈕](../debugger/media/js_dom_display_highlights_button.png "JS\_DOM\_Display\_Highlights\_Button")  
+ ![顯示網頁的 &#91;反白顯示&#93; 按鈕](~/docs/debugger/media/js_dom_display_highlights_button.png "JS\_DOM\_Display\_Highlights\_Button")  
   
  當您選擇要醒目提示項目時，只要在模擬器中將滑鼠停留在任何項目上方，該項目就會醒目提示。 已反白顯示之元素的色彩，會與顯示在 \[DOM 總管\] 之 \[**配置**\] 索引標籤中的方塊模型相符。  
   

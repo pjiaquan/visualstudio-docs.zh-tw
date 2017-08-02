@@ -96,11 +96,11 @@ ms.lasthandoff: 05/13/2017
   
 4.  選擇 [測試總管] 結果中的 [輸出] 連結。  
   
-     ![[測試總管] 中的 [輸出] 連結](../test/media/cuit_htmlactionlog1.png "CUIT_HTMLActionLog1")  
+     ![[測試總管] 中的 [輸出] 連結](~/docs/test/media/cuit_htmlactionlog1.png "CUIT_HTMLActionLog1")  
   
      這會顯示將包括動作記錄連結的測試輸出。  
   
-     ![自動程式化 UI 測試的結果和輸出連結](../test/media/cuit_htmlactionlog2.png "CUIT_HTMLActionLog2")  
+     ![自動程式化 UI 測試的結果和輸出連結](~/docs/test/media/cuit_htmlactionlog2.png "CUIT_HTMLActionLog2")  
   
 5.  選擇 UITestActionLog.html 連結。  
   

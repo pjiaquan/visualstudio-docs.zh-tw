@@ -37,7 +37,7 @@ ms.lasthandoff: 05/13/2017
 # <a name="step-4-lay-out-your-form-with-a-tablelayoutpanel-control"></a>步驟 4：使用 TableLayoutPanel 控制項來配置您的表單
 在此步驟中，您會將 `TableLayoutPanel` 控制項新增至表單。 TableLayoutPanel 有助於正確對齊稍後加入至表單中的控制項。  
   
- ![影片連結](../data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 2](http://go.microsoft.com/fwlink/?LinkId=205211) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 2](http://go.microsoft.com/fwlink/?LinkId=205200)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![影片連結](~/docs/data-tools/media/playvideo.gif "PlayVideo")如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 - 影片 2](http://go.microsoft.com/fwlink/?LinkId=205211) 或 [教學課程 1：在 C# 中建立圖片檢視器 - 影片 2](http://go.microsoft.com/fwlink/?LinkId=205200)。 這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。 不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### <a name="to-lay-out-your-form-with-a-tablelayoutpanel-control"></a>若要使用 TableLayoutPanel 控制項來配置您的表單  
   
@@ -58,7 +58,7 @@ TableLayoutPanel 控制項
   
      請注意 [工具箱] 在您選擇索引標籤時會展開以包含您的表單，當您選擇其外部任何地方時就會關閉。 這就是 IDE 的自動隱藏功能。 您可以藉著選擇視窗右上角的圖釘圖示，開啟或關閉任何視窗的此功能，以便切換自動隱藏並鎖定視窗。 圖釘圖示顯示如下。  
   
-     ![圖釘圖示](../ide/media/express_pushpintoolbox.png "Express_PushpinToolbox")  
+     ![圖釘圖示](~/docs/ide/media/express_pushpintoolbox.png "Express_PushpinToolbox")  
 圖釘圖示  
   
 4.  選擇 [TableLayoutPanel] 以確定選取它。 您可以查看 [屬性] 視窗頂端的下拉式清單，以驗證已選取哪一個控制項，如下圖所示。  
@@ -82,14 +82,14 @@ TableLayoutPanel 控制項
   
 8.  目前，TableLayoutPanel 具有兩個大小相等的資料列和兩個大小相等的資料行。 您需要對它們調整大小，使上方資料列和右邊資料行都變得更大。 在 [Windows Form 設計工具] 中，選取 [TableLayoutPanel]。 右上角有一個黑色的小型三角形按鈕，如下所示。  
   
-     ![三角形按鈕](../ide/media/express_iconblacktriangle.gif "Express_IconBlackTriangle")  
+     ![三角形按鈕](~/docs/ide/media/express_iconblacktriangle.gif "Express_IconBlackTriangle")  
 三角形按鈕  
   
      此按鈕表示控制項具有可協助您自動設定其屬性的工作。  
   
 9. 選擇三角形以顯示控制項的工作清單，如下列圖片所示。  
   
-     ![TableLayoutPanel 工作](../ide/media/express_tablepanel.png "Express_TablePanel")  
+     ![TableLayoutPanel 工作](~/docs/ide/media/express_tablepanel.png "Express_TablePanel")  
 TableLayoutPanel 工作  
   
 10. 選擇 [編輯資料列與資料行] 工作以顯示 [資料行和資料列樣式] 視窗。 選擇 [資料行 1]，並將其大小設定為 15% (藉由確定已選取 [百分比] 按鈕，並在 [百分比] 方塊中輸入 `15`) (這是一個 `NumericUpDown` 控制項，在稍後的教學課程中會用到)。選擇 [資料行 2]，並設定為 85%。 還不要選擇 [確定] 按鈕，因為視窗將會關閉 (但如果這樣做，您還是可以使用工作清單來重新開啟視窗)。  

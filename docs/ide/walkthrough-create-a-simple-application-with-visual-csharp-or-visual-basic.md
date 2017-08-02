@@ -99,7 +99,7 @@ ms.lasthandoff: 05/30/2017
   
      您也可以在 [快速啟動]  方塊中輸入「新增專案」  ，執行相同的動作。  
   
-     ![在 [快速啟動] 方塊中，指定新增專案](../ide/media/exploreide-quicklaunchnewprojectsmall.png "ExploreIDE-QuickLaunchNewProjectsmall")  
+     ![在 [快速啟動] 方塊中，指定新增專案](~/docs/ide/media/exploreide-quicklaunchnewprojectsmall.png "ExploreIDE-QuickLaunchNewProjectsmall")  
   
 2.  例如，在左窗格選擇 [已安裝] 、[範本] 、[Visual C#] 、[Windows] ，然後在中央窗格選擇 [WPF 應用程式]，即可選擇 Visual Basic 或 Visual C# WPF 應用程式範本。  在 [新增專案] 對話方塊下方，將專案命名為 HelloWPFApp。  
   
@@ -113,7 +113,7 @@ ms.lasthandoff: 05/30/2017
   
  圖 5：專案項目  
   
- ![已載入 HelloWPFApp 檔案的方案總管](../ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
+ ![已載入 HelloWPFApp 檔案的方案總管](~/docs/ide/media/exploreide-hellowpfappfiles.png "ExploreIDE-HelloWPFAppFiles")  
   
  建立專案之後，您可以進行自訂。 使用 [屬性]  視窗 (在 [檢視]  功能表上)，就可以顯示和變更應用程式中的專案項目、控制項及其他項目的選項。 您可以使用專案屬性和屬性頁，顯示並變更專案和方案的選項。  
   
@@ -121,7 +121,7 @@ ms.lasthandoff: 05/30/2017
   
 1.  在下列程序中，您將會賦予 MainWindow 一個更為具體的名稱。 在 [ **方案總管**] 中，選取 MainWindow.xaml。 您應該會看到 [屬性] 視窗；如果沒有，請選擇 [檢視] 功能表和 [屬性視窗] 項目。 將 [ **檔案名稱** ] 屬性變更為 `Greetings.xaml`。  
   
-     ![已反白顯示檔案名稱的 [屬性] 視窗](../ide/media/exploreide-filenameinpropertieswindow.png "ExploreIDE-FilenameinPropertiesWindow")  
+     ![已反白顯示檔案名稱的 [屬性] 視窗](~/docs/ide/media/exploreide-filenameinpropertieswindow.png "ExploreIDE-FilenameinPropertiesWindow")  
   
      [方案總管] 會顯示檔案的名稱現在是 Greetings.xaml；如果您展開 MainWindow.xaml 節點 (將焦點放在節點中，並按向右鍵)，就會看到 MainWindow.xaml.vb 或 MainWindow.xaml.cs 的名稱現在是 Greetings.xaml.vb 或 Greetings.xaml.cs。 這個程式碼檔案套疊在.xaml 檔案節點下，顯示它們彼此非常密切相關。  
   
@@ -274,7 +274,7 @@ ms.lasthandoff: 05/30/2017
   
 1.  依序選取 [ **偵錯**] 和 [ **開始偵錯**]，以啟動偵錯工具。  
   
-     ![[偵錯] 功能表上的 [開始偵錯] 命令](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
+     ![[偵錯] 功能表上的 [開始偵錯] 命令](~/docs/ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
   
      此時會顯示對話方塊，表示發生 IOException：找不到資源 'mainwindow.xaml'。  
   
@@ -340,7 +340,7 @@ ms.lasthandoff: 05/30/2017
   
 2.  使用工具列上的下拉式控制項 (它目前的名稱是 "Debug")，將 HelloWPFApp 的建置組態從 [偵錯] 變更為 [發行]。  
   
-     ![已選取 [發行] 的 [標準] 工具列](../ide/media/exploreide-releaseversion.png "ExploreIDE-ReleaseVersion")  
+     ![已選取 [發行] 的 [標準] 工具列](~/docs/ide/media/exploreide-releaseversion.png "ExploreIDE-ReleaseVersion")  
   
 3.  選擇 [建置] 及 [建置方案]  或按 F6 鍵，即可建置方案。  
   

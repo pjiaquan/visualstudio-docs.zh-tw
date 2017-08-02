@@ -48,7 +48,7 @@ Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 X
   
 -   **一致的使用者介面：** 您可以在熟悉的 Visual Studio 使用者介面環境中設計應用程式，讓在 IDE 之間切換成為更愉快且更有生產力的經驗。 Blend for Visual Studio 會使用 Visual Studio 暗色調佈景主題，藉由改善您的內容與使用者介面之間的對比，協助您專注於正在設計的內容。 請參閱[使用 XAML 設計工具建立 UI](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)。  
   
-     ![Blend for Visual Studio IDE](../designers/media/blendide.png "BlendIDE")  
+     ![Blend for Visual Studio IDE](~/docs/designers/media/blendide.png "BlendIDE")  
   
 -   **XAML IntelliSense：** 兩者的 IDE 都支援您預期之所有來自 IntelliSense 的通用功能，包括陳述式完成、支援一般編輯器作業，像是註解和格式化程式碼，以及巡覽至資源、繫結和程式碼。  
   
@@ -56,7 +56,7 @@ Visual Studio 和 Blend for Visual Studio 都提供視覺化工具，用於為 X
   
 -   **檔案重新載入經驗：** 您可以在 Blend for Visual Studio 或 Visual Studio 中編輯 XAML 檔案，當您在已編輯的檔案之間切換時，會讓它們自動重新載入。 若要降低工作流程中斷，您現在可以在 [檔案重新載入] 對話方塊中設定您的檔案重新載入喜好。  
   
-     ![檔案重新載入體驗](../designers/media/blendfilereload.png "BlendFileReload")  
+     ![檔案重新載入體驗](~/docs/designers/media/blendfilereload.png "BlendFileReload")  
   
 -   **同步處理的配置和設定：** 自訂配置可讓您儲存並套用工具視窗配置的自訂項目。 當您使用相同的 Microsoft 帳戶登入時，Visual Studio 會跨電腦同步處理 Visual Studio 和 Blend for Visual Studio 的這些自訂項目和偏好設定。 請參閱 [Visual Studio 中的自訂開發設定](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   

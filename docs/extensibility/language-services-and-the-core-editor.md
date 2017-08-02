@@ -47,7 +47,7 @@ ms.lasthandoff: 02/22/2017
   
  在下圖顯示基本語言服務。  
   
- ![語言服務模型圖形](../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
+ ![語言服務模型圖形](~/docs/extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
 核心編輯器和語言服務的物件  
   
  核心編輯器文件資料物件稱為 「 文字緩衝區，而由<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>物件。</xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> 文件檢視物件則稱為文字檢視，而由<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>物件。</xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> 透過提供統一的核心編輯器檢視語言服務，這兩個物件一起運作。 從文字緩衝區和文字檢視會顯示在文件視窗中的資訊呼叫程式碼視窗。 程式碼 視窗中的文件是由程式碼視窗管理員管理。  

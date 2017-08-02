@@ -79,7 +79,7 @@ ms.lasthandoff: 05/13/2017
   
  [著色器設計工具模式] 工具列如下：  
   
- ![[著色器設計工具] 強制回應工具列。](../designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")  
+ ![[著色器設計工具] 強制回應工具列。](~/docs/designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")  
   
  此表描述 [著色器設計工具模式] 工具列上的項目，這些項目會依照出現順序從左到右列出：  
   

@@ -95,7 +95,7 @@ ms.lasthandoff: 02/22/2017
   
  以下是 [影像編輯器模式] 工具列：  
   
- ![[影像編輯器模式] 工具列。](../designers/media/digit-tre-modal-toolbar.png "Digit-TRE-Modal-Toolbar")  
+ ![[影像編輯器模式] 工具列。](~/docs/designers/media/digit-tre-modal-toolbar.png "Digit-TRE-Modal-Toolbar")  
   
  下表描述 [影像編輯器模式] 工具列上的項目，依照項目出現順序從左到右列出。  
   
@@ -119,7 +119,7 @@ ms.lasthandoff: 02/22/2017
   
  以下是 [影像編輯器] 工具列。  
   
- ![[影像編輯器] 工具列](../designers/media/digit-tre-toolbar.png "Digit-TRE-Toolbar")  
+ ![[影像編輯器] 工具列](~/docs/designers/media/digit-tre-toolbar.png "Digit-TRE-Toolbar")  
   
  下表描述 [影像編輯器] 工具列上的項目，依照項目出現順序由上而下列出。  
   

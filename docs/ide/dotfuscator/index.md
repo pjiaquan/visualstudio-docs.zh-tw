@@ -46,7 +46,7 @@ ms.lasthandoff: 06/23/2017
 使用它來強化、保護及清理傳統型、行動裝置、伺服器和嵌入式應用程式，以協助保護商業機密和其他智慧財產 (IP)、減少盜版和仿冒，並防止竄改及未經授權的偵錯。
 Dotfuscator 不需要其他程式設計作業，甚至不需要存取原始程式碼，就可以在編譯的組件上執行。
 
-![](media/header.svg)
+![](~/docs/ide/dotfuscator/media/header.svg)
 
 ## <a name="why-protection-matters"></a>為何保護很重要
 

@@ -109,7 +109,7 @@ ms.lasthandoff: 05/13/2017
   
      Visual Studio 會啟動模擬器，這需要幾秒的時間來載入及部署您的程式碼。 以下是應用程式在 Visual Studio Emulator for Android 中的樣子。  
   
-     ![在 Android 模擬器中執行的應用程式](../cross-platform/media/cppmdd_opengles_andemulator.png "CPPMDD_OpenGLES_AndEmulator")  
+     ![在 Android 模擬器中執行的應用程式](~/docs/cross-platform/media/cppmdd_opengles_andemulator.png "CPPMDD_OpenGLES_AndEmulator")  
   
      在您的應用程式啟動之後，您可以設定中斷點，並使用偵錯工具，以逐步執行程式碼、檢查本機及監看值。  
   
@@ -150,7 +150,7 @@ ms.lasthandoff: 05/13/2017
   
      在您的應用程式啟動之後，您可以設定中斷點，並使用 Visual Studio 偵錯工具來檢查區域變數、查看呼叫堆疊及監看值。  
   
-     ![位於 iOS 應用程式中斷點上的偵錯工具](../cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")  
+     ![位於 iOS 應用程式中斷點上的偵錯工具](~/docs/cross-platform/media/cppmdd_opengles_iosdebug.png "CPPMDD_OpenGLES_iOSDebug")  
   
 5.  按 Shift + F5 停止偵錯。  
   

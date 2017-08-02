@@ -24,7 +24,7 @@ manager: "ghogen"
 # 在模擬器中執行 Windows Phone 應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![僅適用於 Windows Phone](../debugger/media/phone_only_content.png "phone\_only\_content")  
+![僅適用於 Windows Phone](~/docs/debugger/media/phone_only_content.png "phone\_only\_content")  
   
  Windows Phone 模擬器是可以模擬 Windows Phone 的桌面應用程式。此模擬器提供一個虛擬化環境，在此環境中，就算沒有實體裝置，您還是可以在電腦上偵錯和測試 Windows Phone 應用程式。您可以模擬常見觸控和旋轉事件，以及選擇您要模擬的實體螢幕大小和解析度。您也可以測試許多常用功能，例如位置、網路、通知、感應器、加速計和選擇性的 SD 記憶卡。  
   
@@ -78,7 +78,7 @@ manager: "ghogen"
   
 2.  在 \[標準\] 工具列上，選取任一個模擬器選項。  
   
-     ![Windows Phone 模擬器影像清單](../cross-platform/media/wp_emulator_list.png "WP\_Emulator\_list")  
+     ![Windows Phone 模擬器影像清單](~/docs/debugger/media/wp_emulator_list.png "WP\_Emulator\_list")  
   
 3.  若要部署及執行您的應用程式同時進行偵錯，請在 \[偵錯\] 功能表上，按一下 \[開始偵錯\] 或按 F5。  
   
@@ -132,9 +132,9 @@ manager: "ghogen"
   
 |工具列按鈕|設定選項|  
 |-----------|----------|  
-|![Windows Phone 模擬器工具列上的輸入選項](../debugger/media/wp_emulator_.png "WP\_Emulator\_")|**設定單點或多點輸入**<br /><br /> 當您啟用多點輸入時，可以只按一下滑鼠右鍵而不觸控螢幕，就能移動觸控點。然後還可以按滑鼠左鍵同時移動兩個觸控點。|  
-|![Windows Phone 模擬器工具列上的方向](../debugger/media/wp_emulator_rotation.png "WP\_Emulator\_rotation")|**設定模擬器方向**<br /><br /> 您可以將在 Windows Phone 模擬器中的方向變更為直向、橫向 \(左\) 或橫向 \(右\) 中的一個方向。變更方向不會變更模擬器大小。<br /><br /> 若要變更方向，請按一下 \[向左旋轉\] 按鈕或 \[向右旋轉\] 按鈕。|  
-|![Windows Phone 模擬器工具列上的大小選項](../debugger/media/wp_emulator_size.png "WP\_Emulator\_size")|**設定模擬器大小**<br /><br /> 您可以變更模擬器主機電腦螢幕上的模擬器大小。模擬器的 DPI 會以主機顯示器的 DPI 為依據 \(忽略其縮放值\)。<br /><br /> -   若要調整模擬器以符合螢幕大小，請按一下 \[全螢幕\] 按鈕。<br />-   若要變更縮放設定，請按一下 \[縮放\] 按鈕。\[縮放\] 對話方塊隨即開啟。在 \[縮放\] 對話方塊中，輸入 33 與 100 之間的縮放值。|  
+|![Windows Phone 模擬器工具列上的輸入選項](~/docs/debugger/media/wp_emulator_.png "WP\_Emulator\_")|**設定單點或多點輸入**<br /><br /> 當您啟用多點輸入時，可以只按一下滑鼠右鍵而不觸控螢幕，就能移動觸控點。然後還可以按滑鼠左鍵同時移動兩個觸控點。|  
+|![Windows Phone 模擬器工具列上的方向](~/docs/debugger/media/wp_emulator_rotation.png "WP\_Emulator\_rotation")|**設定模擬器方向**<br /><br /> 您可以將在 Windows Phone 模擬器中的方向變更為直向、橫向 \(左\) 或橫向 \(右\) 中的一個方向。變更方向不會變更模擬器大小。<br /><br /> 若要變更方向，請按一下 \[向左旋轉\] 按鈕或 \[向右旋轉\] 按鈕。|  
+|![Windows Phone 模擬器工具列上的大小選項](~/docs/debugger/media/wp_emulator_size.png "WP\_Emulator\_size")|**設定模擬器大小**<br /><br /> 您可以變更模擬器主機電腦螢幕上的模擬器大小。模擬器的 DPI 會以主機顯示器的 DPI 為依據 \(忽略其縮放值\)。<br /><br /> -   若要調整模擬器以符合螢幕大小，請按一下 \[全螢幕\] 按鈕。<br />-   若要變更縮放設定，請按一下 \[縮放\] 按鈕。\[縮放\] 對話方塊隨即開啟。在 \[縮放\] 對話方塊中，輸入 33 與 100 之間的縮放值。|  
   
 ##  <a name="BKMK_buttons"></a> 使用模擬器上的模擬硬體按鈕  
  使用模擬器螢幕右側的模擬硬體按鈕，可模擬使用電話硬體按鈕。  
@@ -153,7 +153,7 @@ manager: "ghogen"
   
 3.  右側影像顯示點選 \[音量提高\] 按鈕提高音量之後的模擬器畫面。  
   
- ![Windows Phone 模擬器上的按鈕](../debugger/media/wp_emulator_buttons.png "WP\_Emulator\_buttons")  
+ ![Windows Phone 模擬器上的按鈕](~/docs/debugger/media/wp_emulator_buttons.png "WP\_Emulator\_buttons")  
   
 ##  <a name="BKMK_tasks_kbd"></a> 搭配使用電腦鍵盤與模擬器  
  模擬器可以將您開發電腦上的硬體鍵盤對應到 Windows Phone 的鍵盤。按鍵的行為與 Windows Phone 裝置上相同。  
@@ -218,12 +218,12 @@ manager: "ghogen"
   
  原始模擬器影像一律會顯示為 \[檢查點\] 清單中的第一個項目，因此無法變更或刪除。但您可以選取不同的快照做為預設模擬器影像。  
   
- ![Windows Phone 模擬器的 &#91;檢查點&#93; 索引標籤](../debugger/media/wp_emulator_checkpoints.png "WP\_Emulator\_checkpoints")  
+ ![Windows Phone 模擬器的 &#91;檢查點&#93; 索引標籤](~/docs/debugger/media/wp_emulator_checkpoints.png "WP\_Emulator\_checkpoints")  
   
 ##  <a name="BKMK_tasks_shot"></a> 擷取模擬器中的螢幕擷取畫面  
  您可以使用 \[其他工具\] 視窗中的螢幕擷取畫面工具，建立 Windows Phone 應用程式的螢幕擷取畫面。此工具會建立符合執行中模擬器之解析度的 PNG 檔案。  
   
- ![Windows Phone 模擬器的螢幕擷取畫面](../debugger/media/wp_emulator_screenshots.png "WP\_Emulator\_screenshots")  
+ ![Windows Phone 模擬器的螢幕擷取畫面](~/docs/debugger/media/wp_emulator_screenshots.png "WP\_Emulator\_screenshots")  
   
 #### 使用內建模擬器螢幕擷取畫面工具建立應用程式螢幕擷取畫面  
   

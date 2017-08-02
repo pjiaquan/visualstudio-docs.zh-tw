@@ -75,7 +75,7 @@ caps.handback.revision: 47
   
 3.  請特殊圖示。 這個圖示會出現在 **新的專案** 逐步解說稍後的對話方塊。  
   
-     ![簡單專案圖示](../extensibility/media/simpleprojicon.png "SimpleProjIcon")  
+     ![簡單專案圖示](~/docs/extensibility/media/simpleprojicon.png "SimpleProjIcon")  
   
 4.  儲存圖示，並關閉編輯器\] 圖示。  
   
@@ -471,7 +471,7 @@ caps.handback.revision: 47
   
 2.  在 **屬性** windows，減少為 16 x 16 像素的點陣圖。 請特殊的點陣圖。  
   
-     ![簡單專案 Comm](../extensibility/media/simpleprojprojectcomm.png "SimpleProjProjectComm")  
+     ![簡單專案 Comm](~/docs/extensibility/media/simpleprojprojectcomm.png "SimpleProjProjectComm")  
   
 3.  在 **屬性** \] 視窗中，變更 **建置動作** 點陣圖來 **內嵌資源**。  
   
@@ -546,7 +546,7 @@ caps.handback.revision: 47
   
 2.  在剛建立的專案，請注意 SimpleProjectNode.bmp 當做專案節點圖示。  
   
-     ![簡單專案新增專案節點](../extensibility/media/simpleprojnewprojectnode.png "SimpleProjNewProjectNode")  
+     ![簡單專案新增專案節點](~/docs/extensibility/media/simpleprojnewprojectnode.png "SimpleProjNewProjectNode")  
   
 3.  程式碼編輯器中開啟 Program.cs。 您應該會看到類似下列的程式碼的原始程式碼。  
   
@@ -649,6 +649,6 @@ caps.handback.revision: 47
   
 6.  開始偵錯專案。 新的專案應該編譯、 執行和顯示"Hello VSX"\!\!\! 在主控台視窗。  
   
-     ![簡單專案命令](../extensibility/media/simpleprojcommand.png "SimpleProjCommand")  
+     ![簡單專案命令](~/docs/extensibility/media/simpleprojcommand.png "SimpleProjCommand")  
   
  恭喜您！ 您已實作的基本管理的專案系統。

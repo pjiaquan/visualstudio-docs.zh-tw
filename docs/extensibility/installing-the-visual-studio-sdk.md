@@ -44,7 +44,7 @@ Visual Studio SDK 是 Visual Studio 安裝程式的選用功能。 您也可以�
 ## <a name="installing-the-visual-studio-sdk-from-a-solution"></a>從方案安裝 Visual Studio SDK  
  如果您未先安裝的 VSSDK，與擴充性專案開啟的方案，系統會提示您反白顯示的資訊列上方的 [方案總管]。 它看起來應該如下所示︰  
   
- ![SolutionExplorerInstall](../extensibility/media/solutionexplorerinstall.png "SolutionExplorerInstall")  
+ ![SolutionExplorerInstall](~/docs/extensibility/media/solutionexplorerinstall.png "SolutionExplorerInstall")  
   
 ## <a name="installing-the-visual-studio-sdk-from-the-command-line"></a>從命令列安裝 Visual Studio SDK  
 使用 Visual Studio 工作負載或元件，您也可以從命令列安裝的項目。 請參閱[使用命令列參數來安裝 Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)如需有關適當的命令列參數，以及如何判斷工作負載或元件的識別項。

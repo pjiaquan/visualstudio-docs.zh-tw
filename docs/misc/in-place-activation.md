@@ -32,7 +32,7 @@ manager: "douge"
 ## 使用的物件與介面  
  下圖中顯示用來建立就地啟用的物件。  
   
- ![就地啟動編輯器](../misc/media/vsinplaceactivationeditor.png "vsInPlaceActivationEditor")  
+ ![就地啟動編輯器](~/docs/extensibility/media/vsinplaceactivationeditor.gif "vsInPlaceActivationEditor")  
 就地啟用編輯器  
   
 > [!NOTE]

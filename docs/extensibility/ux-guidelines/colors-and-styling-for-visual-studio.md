@@ -301,7 +301,7 @@ Windows 會使用數種高對比系統層級主題增加文字、 背景和影�
   
 藍色佈景主題的編輯器介面的範例︰  
   
-![藍色佈景主題的編輯器](../../extensibility/ux-guidelines/media/030303-c_editorblue.png "030303-c_EditorBlue")<br />藍色佈景主題的編輯器
+![藍色佈景主題的編輯器](~/docs/extensibility/ux-guidelines/media/030303-c_editorblue.png "030303-c_EditorBlue")<br />藍色佈景主題的編輯器
   
 ![高對比 #1 佈景主題的編輯器](../../extensibility/ux-guidelines/media/030303-d_editorhc1.png "030303-d_EditorHC1")<br />高對比 #1 佈景主題的編輯器
   
@@ -725,11 +725,11 @@ Visual Studio 主應用程式觸發程序外掛程式佈景主題變更時使用
   
 **色彩佈景主題︰**  
   
-![色彩佈景主題變更](../../extensibility/ux-guidelines/media/0305-a_colortheme.png "0305-a_ColorTheme")<br />色彩佈景主題變更  
+![色彩佈景主題變更](~/docs/extensibility/ux-guidelines/media/0305-a_colortheme.png "0305-a_ColorTheme")<br />色彩佈景主題變更  
   
 **環境佈景主題︰**  
   
-![環境佈景主題變更](../../extensibility/ux-guidelines/media/0305-b_environmenttheme.png "0305-b_EnvironmentTheme")<br />環境佈景主題變更  
+![環境佈景主題變更](~/docs/extensibility/ux-guidelines/media/0305-b_environmenttheme.png "0305-b_EnvironmentTheme")<br />環境佈景主題變更  
   
 **作業系統主題**（只有當變更與高對比）︰  
   

@@ -105,22 +105,22 @@ ms.lasthandoff: 05/24/2017
 
  下圖顯示文件視窗的輔助方塊，其僅可固定於編輯框架當中：  
 
- ![文件視窗的輔助方塊](../ide/media/documentwindowguidediamonds.png "Documentwindowguidediamonds")  
+ ![文件視窗的輔助方塊](~/docs/ide/media/documentwindowguidediamonds.png "Documentwindowguidediamonds")  
 
  工具視窗可固定至 IDE 框架的其中一邊或是編輯框架內部。 當您將工具視窗拖曳至另一個位置時會顯示輔助方塊，其可協助您輕鬆重新固定視窗。  
 
  工具視窗的輔助方塊  
 
- ![工具視窗的輔助方塊](../ide/media/vs10guidediamond.png "VS10GuideDiamond")  
+ ![工具視窗的輔助方塊](~/docs/ide/media/vs10guidediamond.png "VS10GuideDiamond")  
 
  下圖顯示 [方案總管] 正固定於新的位置，其會顯示藍色陰影區域：  
 
- ![將方案總管停駐在新位置](../ide/media/vs2015_dock_diamond.png "VS2017_Dock_diamond")  
+ ![將方案總管停駐在新位置](~/docs/ide/media/vs2015_dock_diamond.png "VS2017_Dock_diamond")  
 
 ### <a name="close-and-auto-hide-tool-windows"></a>關閉並自動隱藏工具視窗  
  您可按一下標題列右上角的 [X] 關閉工具視窗；若要重新開啟視窗，請使用其鍵盤快速鍵或功能表命令。 工具視窗支援 [自動隱藏] 功能，其可在您使用另一個視窗時自動隱藏視窗。 若您自動隱藏視窗，則在 IDE 邊緣的索引標籤上會顯示其名稱。 若要再次使用視窗，請指向索引標籤以重新顯示視窗。  
 
- ![自動隱藏](../ide/media/vs2015_auto_hide.png "vs2017_auto_hide")  
+ ![自動隱藏](~/docs/ide/media/vs2015_auto_hide.png "vs2017_auto_hide")  
 
 > [!NOTE]
 >  若要設定以個別或固定群組方式「自動隱藏」工具視窗，請在 [選項]  對話方塊中選取或清除 [自動隱藏按鈕僅對使用中的工具視窗生效]  。 如需詳細資訊，請參閱 [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)。  
@@ -186,7 +186,7 @@ ms.lasthandoff: 05/24/2017
 
 1.  您可以選擇 [視窗] > [管理視窗配置] 來移除、重新命名或重新排序您的自訂配置。 如果您移動配置，則會自動調整按鍵繫結來反映清單中的新位置。 這些繫結不能修改，所以您一次可以儲存最多 10 個配置。  
 
-     ![管理視窗配置](../ide/media/managewindowlayouts.png "ManageWindowLayouts")  
+     ![管理視窗配置](~/docs/ide/media/managewindowlayouts.png "ManageWindowLayouts")  
 
      若要提醒自己哪個鍵盤快速鍵指派給哪個配置，請選擇 [視窗] > [套用視窗配置]。  
 

@@ -50,11 +50,11 @@ Visual Studio 提供數個可自動轉換和清除 Python 原始程式碼的命�
 1. 以滑鼠右鍵按一下您要重新命名的識別項並選取 [重新命名]，或將插入點放在該識別項中並選取 [編輯] > [重構] > [重新命名...] 功能表命令，或按 F2。
 1. 在出現的 [重新命名] 對話方塊中，輸入識別項的新名稱並選取 [確定]：
 
-  ![[重新命名] 的新識別項名稱提示](media/code-refactor-rename-1.png)
+  ![[重新命名] 的新識別項名稱提示](~/docs/python/media/code-refactor-rename-1.png)
 
 1. 在下一個對話方塊中，選取您的程式碼中要套用重新命名的檔案和執行個體；選取任一個別的執行個體以預覽特定變更︰
 
-  ![選取套用變更的位置的 [重新命名 (Rename)] 對話方塊](media/code-refactor-rename-2.png)
+  ![選取套用變更的位置的 [重新命名 (Rename)] 對話方塊](~/docs/python/media/code-refactor-rename-2.png)
 
 1. 選取 [套用] 以變更您的原始程式碼檔。 這是可復原的動作。
 
@@ -64,21 +64,21 @@ Visual Studio 提供數個可自動轉換和清除 Python 原始程式碼的命�
 1. 選取 [編輯] > [重構] > [擷取方法] 功能表命令，或輸入 Ctrl-R、M。
 1. 在出現的對話方塊中，輸入新的方法名稱，指定將它擷取到何處，並選取所有結束變數。 未選取要結束的變數會轉變成方法引數︰
 
-  ![[擷取方法] 對話方塊](media/code-refactor-extract-method-1.png)
+  ![[擷取方法] 對話方塊](~/docs/python/media/code-refactor-extract-method-1.png)
 
 1. 選取 [確定]，就會依此修改程式碼︰
 
-  ![擷取方法的結果](media/code-refactor-extract-method-2.png)
+  ![擷取方法的結果](~/docs/python/media/code-refactor-extract-method-2.png)
 
 ## <a name="add-import"></a>加入匯入
 
 當您將插入點放在缺少類型資訊的識別項時，Visual Studio 會提供智慧標籤 (程式碼左邊的燈泡圖示)，其命令會加入必要的 `import` 或 `from ... import` 陳述式︰
 
-![加入匯入的智慧標籤](media/code-refactor-add-import-1.png)
+![加入匯入的智慧標籤](~/docs/python/media/code-refactor-add-import-1.png)
 
 `import` 自動完成會針對目前的專案和標準程式庫中的最上層套件和模組提供；`from ... import` 自動完成將針對子模組和子套件及模組成員提供。 這包括函式、類別或匯出的資料。 選取任一個選項會將陳述式加入其他匯入後的檔案頂端，或加入現有的 `from ... import` 陳述式 (如果相同的模組已經匯入)。
 
-![加入匯入的結果](media/code-refactor-add-import-2.png)
+![加入匯入的結果](~/docs/python/media/code-refactor-add-import-2.png)
 
 Visual Studio 會嘗試篩選出未實際定義於模組中的成員，例如已匯入另一個模組，但不是執行匯入之模組子系的模組。 比方說，許多模組使用 `import sys` 而非 `from xyz import sys`，因此即使模組遺漏的 `__all__` 成員不含 `sys`，也不會完成匯入其他模組的 `sys`。
 
@@ -93,10 +93,10 @@ Visual Studio 會嘗試篩選出未實際定義於模組中的成員，例如已
 
 以滑鼠右鍵按一下編輯器中的任意處並選取 [移除匯入]，這樣會提供選項讓您從 [所有範圍] 或僅從 [目前的範圍] 移除：
 
-![[移除匯入] 功能表](media/code-refactor-remove-imports-1.png)
+![[移除匯入] 功能表](~/docs/python/media/code-refactor-remove-imports-1.png)
 
 Visual Studio 即會對程式碼進行適當的變更：
 
-![移除匯入的結果](media/code-refactor-remove-imports-2.png)
+![移除匯入的結果](~/docs/python/media/code-refactor-remove-imports-2.png)
 
 請注意，Visual Studio 不考慮控制流程；如果您在 `import` 陳述式之前使用名稱，即視同實際使用該名稱。 Visual Studio 也會忽略所有 `from __future__` 匯入、在類別定義內執行的匯入，以及來自 `from ... import *` 陳述式的匯入。

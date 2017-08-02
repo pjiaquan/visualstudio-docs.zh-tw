@@ -47,7 +47,7 @@ ms.lasthandoff: 07/21/2017
 
  提供設定之後會啟動 Visual Studio，您也將完成登入並準備開始使用。 若要確認您是否已登入，請在 Visual Studio 環境的右上角尋找您的名稱。  
 
- ![VS2017 中目前登入的使用者](../ide/media/vs2017_username.png)
+ ![VS2017 中目前登入的使用者](~/docs/ide/media/vs2017_username.png)
 
  除非您登出，否則每當啟動 Visual Studio 時便會自動登入，而且會自動套用同步設定的任何變更。 若要登出，請選擇 Visual Studio 環境中您的設定檔名稱旁邊的向下箭號，選擇 [ **帳戶設定** ] 命令，然後選擇 [ **登出** ] 連結。 若要再次登入，請選擇 Visual Studio 環境右上角的 [ **登入** ] 命令。  
 

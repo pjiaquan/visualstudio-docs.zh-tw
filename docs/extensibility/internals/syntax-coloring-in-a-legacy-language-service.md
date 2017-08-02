@@ -25,7 +25,7 @@ caps.handback.revision: 22
 ## Colorizer 模型  
  語言的服務實作<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>介面，將由編輯器。  這項實作是語言服務中，從另一個物件，如下列圖例所示。  
   
- ![SVC 色彩標示器圖形](../../extensibility/internals/media/figlgsvccolorizer.png "FigLgSvcColorizer")  
+ ![SVC 色彩標示器圖形](~/docs/extensibility/internals/media/figlgsvccolorizer.gif "FigLgSvcColorizer")  
 簡單的 colorizer 模型  
   
 > [!NOTE]

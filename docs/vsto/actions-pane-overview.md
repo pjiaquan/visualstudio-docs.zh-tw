@@ -34,7 +34,7 @@ caps.handback.revision: 100
 > [!NOTE]  
 >  執行窗格與自訂工作窗格不同。  自訂工作窗格是與應用程式相關聯，而非特定的文件。  您可以為某些 Microsoft Office 應用程式，在 VSTO 增益集中建立自訂工作窗格。  如需詳細資訊，請參閱[自訂工作窗格](../vsto/custom-task-panes.md)。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的示範影片，請參閱[如何在 Excel 執行窗格內使用 WPF 控制項？](http://go.microsoft.com/fwlink/?LinkId=132763)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的示範影片，請參閱[如何在 Excel 執行窗格內使用 WPF 控制項？](http://go.microsoft.com/fwlink/?LinkId=132763)。  
   
 ## 顯示執行窗格  
  執行窗格由 <xref:Microsoft.Office.Tools.ActionsPane> 類別代表。  當您建立文件層級專案時，在專案中使用 `ThisWorkbook` 類別 \(Excel\) 或 `ThisDocument` 類別 \(Word\) 的 `ActionsPane` 欄位，就可在程式碼中使用這個類別的執行個體。  若要顯示執行窗格，請將 Windows Form 控制項加入 `ActionsPane` 欄位的 <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> 屬性。  下列程式碼範例會將名為 `actions` 的控制項加入執行窗格。  

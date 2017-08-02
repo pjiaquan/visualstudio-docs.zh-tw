@@ -52,7 +52,7 @@ caps.handback.revision: 9
   
 4.  在功能表列上選擇 [分析]、[並行視覺化檢視]、[從目前專案開始]，以執行應用程式並顯示 [並行視覺化檢視]。 下圖顯示 [並行視覺化檢視] 中的三個範圍和三個標記。  
   
-     ![包含 3 個標記和警示的 [並行視覺化檢視]](../profiling/media/cvmarkersnative.png "CvMarkersNative")  
+     ![包含 3 個標記和警示的 [並行視覺化檢視]](~/docs/profiling/media/cvmarkersnative.png "CvMarkersNative")  
   
 5.  透過呼叫 `marker_series`的建構函式以加入建立其他自訂標記系列的程式碼，而該建構函式接受標記系列的字串名稱。  
   

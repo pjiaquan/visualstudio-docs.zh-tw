@@ -46,14 +46,14 @@ ms.lasthandoff: 05/13/2017
   
  **備註**  
   
--   ![必要條件](../test/media/prereq.png "Prereq") 只有 SharePoint 2010 才支援 SharePoint 應用程式的自動程式化 UI 測試。  
+-   ![必要條件](~/docs/test/media/prereq.png "Prereq") 只有 SharePoint 2010 才支援 SharePoint 應用程式的自動程式化 UI 測試。  
   
--   ![必要條件](../test/media/prereq.png "Prereq") SharePoint 應用程式中不支援 Visio 和 PowerPoint 2010 控制項。  
+-   ![必要條件](~/docs/test/media/prereq.png "Prereq") SharePoint 應用程式中不支援 Visio 和 PowerPoint 2010 控制項。  
   
 ## <a name="creating-a-coded-ui-test-for-your-sharepoint-app"></a>建立 SharePoint 應用程式的自動程式碼 UI 測試  
  為您的 SharePoint 2010 應用程式[建立自動程式碼 UI 測試](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate) 的方式，與為其他類型應用程式建立測試的方式相同。 所有控制項都可在 Web 編輯介面上錄製和播放。 選取分類和 Web 組件的介面都是標準的 Web 控制項。  
   
- ![SharePoint 網頁組件](../test/media/cuit_sharepoint.png "CUIT_SharePoint")  
+ ![SharePoint 網頁組件](~/docs/test/media/cuit_sharepoint.png "CUIT_SharePoint")  
   
 > [!NOTE]
 >  如果您正在錄製動作，請在產生程式碼之前驗證動作。 由於有多個行為與滑鼠停留相關聯，因此它預設為開啟狀態。 從您的自動程式碼 UI 測試中移除多餘的停留動作時務必小心。 您可以編輯用於測試的程式碼來進行這項作業，或是使用 [自動程式碼 UI 測試編輯器](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)。  

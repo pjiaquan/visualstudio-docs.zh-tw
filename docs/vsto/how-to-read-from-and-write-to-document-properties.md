@@ -27,7 +27,7 @@ caps.handback.revision: 53
 # 如何：從文件屬性中讀取及寫入
   文件屬性可與文件一起儲存。 Office 應用程式提供許多內建屬性，例如作者、標題和主旨。 本主題說明如何設定 Microsoft Office Excel 和 Microsoft Office Word 的文件屬性。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[如何：存取和操作 Microsoft Word 中的自訂文件屬性](http://go.microsoft.com/fwlink/?LinkId=136772)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何：存取和操作 Microsoft Word 中的自訂文件屬性](http://go.microsoft.com/fwlink/?LinkId=136772)。  
   
  [!INCLUDE[appliesto_docprops](../vsto/includes/appliesto-docprops-md.md)]  
   

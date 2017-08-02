@@ -37,7 +37,7 @@ caps.handback.revision: 53
   
 -   [在 VSTO 增益集中的執行階段加入控制項](#runtimeaddin)  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[如何：在執行階段將控制項加入文件介面？](http://go.microsoft.com/fwlink/?LinkId=132782)  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何：在執行階段將控制項加入文件介面？](http://go.microsoft.com/fwlink/?LinkId=132782)  
   
 ##  <a name="designtime"></a> 在設計階段加入控制項  
  您可以用幾種方式，透過文件層級專案，於設計階段將 Windows Form 控制項加入文件。  

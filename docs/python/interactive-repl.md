@@ -39,7 +39,7 @@ ms.lasthandoff: 04/10/2017
 
 Visual Studio 為您的每個 Python 環境提供互動式「讀取、求值、輸出」迴圈 (REPL) 視窗，它是以透過命令列上的 `python.exe` 取得的 REPL 為基礎加以改進。 互動式視窗 (透過 [檢視] > [其他視窗] > [&lt;environment&gt; Interactive] 功能表命令開啟) 可讓您輸入任意 Python 程式碼並立即查看結果，這有助於您學習及實驗 API，以及透過互動的方式開發要包含於專案中的程式碼。
 
-![Python 互動式視窗](media/interactive-window.png)
+![Python 互動式視窗](~/docs/python/media/interactive-window.png)
 
 Visual Studio 有多個 Python REPL 模式可供選擇：
 
@@ -62,15 +62,15 @@ Visual Studio 有多個 Python REPL 模式可供選擇：
 
 第一種方式：切換至 [Python 環境] 視窗 ([檢視] > [其他視窗] > [Python 環境] 或 Ctrl-K、Ctrl-`)，並選取所選環境的 [開啟互動式視窗] 命令或按鈕。
 
-![[Python 環境] 視窗中的互動式視窗連結](media/interactive-window-opening.png)
+![[Python 環境] 視窗中的互動式視窗連結](~/docs/python/media/interactive-window-opening.png)
 
 第二種方式：[檢視] > [其他視窗] 具有每個環境的 [互動] 命令，通常顯示在功能表底部：
 
-![[檢視] > [其他視窗] 中的互動式視窗功能表項目](media/interactive-window-menu.png)
+![[檢視] > [其他視窗] 中的互動式視窗功能表項目](~/docs/python/media/interactive-window-menu.png)
 
 第三種方式：您可以選取 [偵錯] > [在 Python Interactive 中執行 [專案 | 檔案]] 功能表命令 (Shift+Alt+F5)，在專案中的啟動檔案上開啟互動式視窗，或是針對獨立檔案開啟互動式視窗：
 
-![在 Python Interactive 功能表中執行專案](media/interactive-execute-project.png)
+![在 Python Interactive 功能表中執行專案](~/docs/python/media/interactive-execute-project.png)
 
 最後一種方式：您可以選取檔案中的程式碼，並使用於下方描述的[將程式碼傳送至互動式命令](#send-code-to-interactive-command)命令。
 
@@ -88,7 +88,7 @@ Visual Studio 有多個 Python REPL 模式可供選擇：
 
 互動式視窗開啟之後，您即可開始在 `>>>` 提示字元逐行輸入程式碼。 隨著您輸入每行程式碼，互動式視窗就會執行它，這包括匯入模組、定義變數等等。 您可以在下圖的前兩行看到此行為：
 
-![Python 互動式視窗](media/interactive-window.png)
+![Python 互動式視窗](~/docs/python/media/interactive-window.png)
 
 當陳述式以冒號做為結尾時則為例外 (如上圖中的 `for` 陳述式)，因為互動式視窗知道它需要其他程式碼行，才能正確執行該程式碼區塊。 在此情況下，行提示字元會變更為 `...`，表示您需要輸入該區塊的其他行，如上圖中的第四和第五行所示。 當您在空白行按下 Enter 時，互動式視窗會關閉該區塊，並在解譯器中執行它。
 
@@ -116,20 +116,20 @@ Visual Studio 有多個 Python REPL 模式可供選擇：
 
 根據預設，專案互動式視窗的範圍是設定為專案的啟動檔案，就如同您從命令提示字元執行它一般。 針對獨立的檔案，則會將範圍設定為該檔案。 不過，您在 REPL 工作階段期間隨時可以從互動式視窗頂端的下拉式功能表變更範圍：
 
-![互動式視窗範圍](media/interactive-scopes.png)
+![互動式視窗範圍](~/docs/python/media/interactive-scopes.png)
 
 匯入模組之後 (例如輸入 `import os`)，您就會在下拉式清單中看到可切換為該模組中任何範圍的選項。 您也會在互動式視窗中看到表示新範圍的訊息，讓您可以追蹤在工作階段期間抵達某特定狀態的方式。
 
 在範圍中輸入 `dir()` 會顯示該範圍中的有效識別項，包括函數名稱、類別和變數。 例如，使用 `$mod importlib` 並接著使用 `dir()` 會顯示如下內容：
 
-![在 importlib 範圍中的互動式視窗](media/interactive-importlib-scope.png)
+![在 importlib 範圍中的互動式視窗](~/docs/python/media/interactive-importlib-scope.png)
 
 <a name="sending-code-to-interactive"</a>
 ## <a name="send-code-to-interactive-command"></a>將程式碼傳送至互動式命令
 
 除了直接在互動式視窗內操作之外，您也可以在編輯器中選取程式碼，然後選擇 [傳送到 Interactive]：
 
-![[傳送到 Interactive] 功能表命令](media/interactive-send-to.png)
+![[傳送到 Interactive] 功能表命令](~/docs/python/media/interactive-send-to.png)
 
 此功能對於反覆式或演化式程式碼開發非常實用 (包含在開發程式碼時對它進行測試)。 例如，當您將程式碼片段傳送到互動式視窗並查看其輸出之後，您可以按向上鍵以再次顯示該程式碼，修改它，然後按 Ctrl+Enter 來快速測試它。 (在輸入末端按 Enter 鍵將會執行它，但在輸入中間按 Enter 鍵則會插入新的一行)。當您撰寫出所需的程式碼之後，您可以輕鬆地將它複製回您的專案檔案中。
 

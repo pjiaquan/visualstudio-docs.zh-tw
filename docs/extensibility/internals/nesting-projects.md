@@ -31,7 +31,7 @@ caps.handback.revision: 15
  您可以在 C\# Example.Nested 專案範例中找到巢狀專案的範例。  
   
 ## 巢狀的專案範例  
- ![巢狀專案方案](../../extensibility/internals/media/vsnestedprojects.gif "vsNestedProjects")  
+ ![巢狀專案方案](~/docs/extensibility/internals/media/vsnestedprojects.gif "vsNestedProjects")  
 巢狀的專案範例  
   
 ## 請參閱  

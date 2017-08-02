@@ -146,7 +146,7 @@ manager: "ghogen"
   
 1.  在 App 伺服器上，確認已啟用 PowerShell。 在大部分的 Windows Server 版本上，您可以在 \[伺服器管理員\] 系統管理工具中加入這項功能。  
   
-     ![使用 &#91;伺服器管理員&#93; 新增 PowerShell](../debugger/media/intellitrace_servermanager_addpowershell.png "INTELLITRACE\_ServerManager\_AddPowerShell")  
+     ![使用 &#91;伺服器管理員&#93; 新增 PowerShell](~/docs/debugger/media/intellitrace_servermanager_addpowershell.png "INTELLITRACE\_ServerManager\_AddPowerShell")  
   
 2.  安裝 IntelliTrace PowerShell Cmdlet。  
   

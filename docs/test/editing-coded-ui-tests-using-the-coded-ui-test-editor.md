@@ -48,7 +48,7 @@ ms.lasthandoff: 05/13/2017
 ## <a name="why-should-i-do-this"></a>為什麼我應該這麼做？  
  比起使用程式碼編輯器以您的自動程式碼 UI 測試方法編輯程式碼，使用自動程式碼 UI 更為快速且更有效率。 在自動程式碼 UI 測試編輯器中，您可以使用工具列和捷徑功能表，快速找出和修改與 UI 動作和控制項相關聯的屬性值。 例如，您可以使用自動程式化 UI 測試編輯器的工具列來執行下列命令：  
   
- ![UI 測試編輯器](../test/media/uitesteditor.png "UITestEditor")  
+ ![UI 測試編輯器](~/docs/test/media/uitesteditor.png "UITestEditor")  
   
 1.  [尋找](../ide/finding-and-replacing-text.md)可協助您找出 UI 動作和控制項。  
   
@@ -106,15 +106,15 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **祕訣**  
   
--   ![祕訣](../test/media/tip.png "祕訣") 如果未顯示 [屬性] 視窗，請按住 **Alt** 再按 **Enter**，或是按 **F4**。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 如果未顯示 [屬性] 視窗，請按住 **Alt** 再按 **Enter**，或是按 **F4**。  
   
--   ![祕訣](../test/media/tip.png "祕訣") 若要復原您所做的屬性變更，請從 [編輯] 功能表中選取 [復原]，或是按 Ctrl+Z。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 若要復原您所做的屬性變更，請從 [編輯] 功能表中選取 [復原]，或是按 Ctrl+Z。  
   
--   ![祕訣](../test/media/tip.png "祕訣") 您可以使用自動程式碼 UI 測試編輯器工具列中的 [尋找] 按鈕，以開啟 Visual Studio 中的 [尋找和取代] 工具。 接著，您可以使用 [尋找] 控制項，找出自動程式碼 UI 測試編輯器中的 UI 動作。 例如，您可以嘗試尋找「按一下 [登入] 按鈕」。 在大型測試中，這樣做很有用。 請注意，您無法在自動程式碼 UI 測試編輯器的 [尋找和取代] 工具中使用取代功能。 如需詳細資訊，請參閱[尋找和取代文字](../ide/finding-and-replacing-text.md)中的＜尋找控制項＞。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 您可以使用自動程式碼 UI 測試編輯器工具列中的 [尋找] 按鈕，以開啟 Visual Studio 中的 [尋找和取代] 工具。 接著，您可以使用 [尋找] 控制項，找出自動程式碼 UI 測試編輯器中的 UI 動作。 例如，您可以嘗試尋找「按一下 [登入] 按鈕」。 在大型測試中，這樣做很有用。 請注意，您無法在自動程式碼 UI 測試編輯器的 [尋找和取代] 工具中使用取代功能。 如需詳細資訊，請參閱[尋找和取代文字](../ide/finding-and-replacing-text.md)中的＜尋找控制項＞。  
   
--   ![祕訣](../test/media/tip.png "祕訣") 有時候，很難視覺化控制項在受測應用程式之 UI 中的位置。 自動程式碼 UI 測試編輯器的其中一項功能，就是您可以選取 UI 控制項對應中列出的控制項，並檢視其在受測試應用程式中的位置。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][尋找受測應用程式中的 UI 控制項](#CodedUITestEditor_LocateUIControl)，位於這個主題更下面的位置。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 有時候，很難視覺化控制項在受測應用程式之 UI 中的位置。 自動程式碼 UI 測試編輯器的其中一項功能，就是您可以選取 UI 控制項對應中列出的控制項，並檢視其在受測試應用程式中的位置。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][尋找受測應用程式中的 UI 控制項](#CodedUITestEditor_LocateUIControl)，位於這個主題更下面的位置。  
   
--   ![祕訣](../test/media/tip.png "祕訣") 您可能必須展開包含想要編輯之控制項的容器控制項。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][尋找控制項和其子系](#CodedUITestEditor_LocateDecendants)，位於這個主題更下面的位置。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 您可能必須展開包含想要編輯之控制項的容器控制項。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][尋找控制項和其子系](#CodedUITestEditor_LocateDecendants)，位於這個主題更下面的位置。  
   
 ##  <a name="CodedUITestEditor_DeleteUIActions"></a> 刪除不必要的 UI 動作  
  您可以輕易地在自動程式碼 UI 測試中移除不必要的 UI 動作。  
@@ -137,13 +137,13 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **重要問題**  
   
--   ![注意圖示](../test/media/caution.gif "注意") **警告：**分割方法時，如果您仍然想要併入那些 UI 動作，則必須將任何呼叫現有方法的程式碼修改為同時也呼叫您即將建立的新方法。 當您分割方法時，Microsoft Visual Studio 對話方塊隨即顯示。 它會警告您，必須將任何呼叫現有方法的程式碼修改為同時也呼叫您即將建立的新方法。 選擇 [ **是**]。  
+-   ![注意圖示](~/docs/test/media/caution.gif "注意") **警告：**分割方法時，如果您仍然想要併入那些 UI 動作，則必須將任何呼叫現有方法的程式碼修改為同時也呼叫您即將建立的新方法。 當您分割方法時，Microsoft Visual Studio 對話方塊隨即顯示。 它會警告您，必須將任何呼叫現有方法的程式碼修改為同時也呼叫您即將建立的新方法。 選擇 [ **是**]。  
   
  **祕訣**  
   
--   ![祕訣](../test/media/tip.png "祕訣") 若要復原分割，請從 [編輯] 功能表中選擇 [復原]，或是按 Ctrl+Z。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 若要復原分割，請從 [編輯] 功能表中選擇 [復原]，或是按 Ctrl+Z。  
   
--   ![祕訣](../test/media/tip.png "祕訣") 您可以重新命名新方法。 在 [UI 動作] 窗格中選取它，然後選擇自動程式碼 UI 測試編輯器工具列中的 [ **重新命名** ] 按鈕。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 您可以重新命名新方法。 在 [UI 動作] 窗格中選取它，然後選擇自動程式碼 UI 測試編輯器工具列中的 [ **重新命名** ] 按鈕。  
   
      -或-  
   
@@ -161,34 +161,34 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **重要問題**  
   
--   ![注意圖示](../test/media/caution.gif "注意") **警告：**一旦移動方法，便無法再使用自動程式碼 UI 測試編輯器來編輯方法。 您必須使用 [程式碼編輯器] 加入及維護自訂程式碼。 當您移動方法時，Microsoft Visual Studio 對話方塊隨即顯示。 它會警告此方法將從 UIMap.uitest 檔案移至 UIMap.cs 或 UIMap.vb 檔案，而且您將無法再使用 [自動程式碼 UI 測試編輯器] 編輯此方法。 選擇 [ **是**]。  
+-   ![注意圖示](~/docs/test/media/caution.gif "注意") **警告：**一旦移動方法，便無法再使用自動程式碼 UI 測試編輯器來編輯方法。 您必須使用 [程式碼編輯器] 加入及維護自訂程式碼。 當您移動方法時，Microsoft Visual Studio 對話方塊隨即顯示。 它會警告此方法將從 UIMap.uitest 檔案移至 UIMap.cs 或 UIMap.vb 檔案，而且您將無法再使用 [自動程式碼 UI 測試編輯器] 編輯此方法。 選擇 [ **是**]。  
   
  **祕訣**  
   
--   ![祕訣](../test/media/tip.png "祕訣") 若要復原移動，請從 [編輯] 功能表中選擇 [復原]，或是按 Ctrl+Z。 不過，您必須從 UIMap.cs 或 UIMap.vb 檔案手動移除此程式碼。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 若要復原移動，請從 [編輯] 功能表中選擇 [復原]，或是按 Ctrl+Z。 不過，您必須從 UIMap.cs 或 UIMap.vb 檔案手動移除此程式碼。  
   
 ##  <a name="CodedUITestEditor_LocateUIControl"></a> Locating a UI Control in the application under test  
  有時候，很難視覺化控制項在受測試應用程式之 UI 中的位置。 自動程式碼 UI 測試編輯器的其中一項功能，就是您可以選取 UI 控制項對應中列出的控制項，並檢視其在受測試應用程式中的位置。 使用受測試應用程式上的 [ **尋找 UI 控制項** ] 功能，也可用來確認您已對控制項所做的搜尋屬性修改。  
   
- ![找出 UI 控制項](../test/media/codeduilocatecontrol.png "CodedUILocateControl")  
+ ![找出 UI 控制項](~/docs/test/media/codeduilocatecontrol.png "CodedUILocateControl")  
   
- ![測試應用程式中找到的控制項](../test/media/codeduilocatecontrol2.png "CodedUILocateControl2")  
+ ![測試應用程式中找到的控制項](~/docs/test/media/codeduilocatecontrol2.png "CodedUILocateControl2")  
   
  在 [ **UI 控制項對應** ] 窗格中，選取您想要在與測試相關聯的應用程式尋找的控制項。 接下來，開啟控制項的捷徑功能表，然後選擇 [ **尋找 UI 控制項**]。 在受測試的應用程式中，以藍色框線指定控制項。  
   
  *我還應該知道什麼？*  
  **重要問題**  
   
--   ![注意圖示](../test/media/caution.gif "注意") **警告：**找出 UI 控制項之前，請確認與測試相關聯的應用程式正在執行。  
+-   ![注意圖示](~/docs/test/media/caution.gif "注意") **警告：**找出 UI 控制項之前，請確認與測試相關聯的應用程式正在執行。  
   
  **祕訣**  
   
--   ![祕訣](../test/media/tip.png "祕訣") 或者，您可以使用 [全部尋找] 選項，確認可以正確地找出容器下的所有控制項。 下一節將說明此選項。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 或者，您可以使用 [全部尋找] 選項，確認可以正確地找出容器下的所有控制項。 下一節將說明此選項。  
   
 ##  <a name="CodedUITestEditor_LocateDecendants"></a> 尋找控制項和其子系  
  您可以確認容器下所有的控制項可以正確地位於受測試應用程式的 UI 中。 在確認您可能對容器所做的搜尋屬性變更時，這樣做很有幫助。 此外，如果受測試應用程式的 UI 中已有重大變更，您可以確認現有的控制項搜尋屬性仍然正確。  
   
- ![找出所有子系控制項](../test/media/codeduilocateall.png "CodedUILocateAll")  
+ ![找出所有子系控制項](~/docs/test/media/codeduilocateall.png "CodedUILocateAll")  
   
  ![找出所有控制項](../test/media/codeduilocateall2.png "CodedUILocateAll2")  
   
@@ -197,7 +197,7 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **重要問題**  
   
--   ![注意圖示](../test/media/caution.gif "注意") **警告：**找出 UI 控制項之前，請確認與測試相關聯的應用程式正在執行。  
+-   ![注意圖示](~/docs/test/media/caution.gif "注意") **警告：**找出 UI 控制項之前，請確認與測試相關聯的應用程式正在執行。  
   
 ##  <a name="CodedUITestEditor_InsertDelay"></a> 在 UI 動作之前插入延遲  
  有時候，您可能想要指示測試等待特定事件發生 (例如出現視窗、進度列消失等)。 使用自動程式碼 UI 測試編輯器，您可以在 UI 動作之前插入延遲來完成此作業。 您可以指定您想要延遲的秒數。  
@@ -213,11 +213,11 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **備註**  
   
--   ![必要條件](../test/media/prereq.png "必要條件") 如果您需要確保可在 UI 動作之前使用特定控制項，您應該考慮使用適當的 UITestControl.WaitForControlXXX() 方法，將自訂程式碼新增至測試方法。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][讓自動程式碼 UI 測試在播放期間等候特定事件](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md)。  
+-   ![必要條件](~/docs/test/media/prereq.png "必要條件") 如果您需要確保可在 UI 動作之前使用特定控制項，您應該考慮使用適當的 UITestControl.WaitForControlXXX() 方法，將自訂程式碼新增至測試方法。 [!INCLUDE[crdefault](../test/includes/crdefault_md.md)][讓自動程式碼 UI 測試在播放期間等候特定事件](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md)。  
   
  **祕訣**  
   
--   ![祕訣](../test/media/tip.png "祕訣") 如果未顯示 [屬性] 視窗，請按住 Alt 再按 Enter，或是按 F4。  
+-   ![祕訣](~/docs/test/media/tip.png "祕訣") 如果未顯示 [屬性] 視窗，請按住 Alt 再按 Enter，或是按 F4。  
   
 ## <a name="external-resources"></a>外部資源  
   

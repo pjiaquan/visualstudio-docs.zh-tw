@@ -52,7 +52,7 @@ caps.handback.revision: 32
   
  下圖顯示多層級專案子類型彙總示意表示的法。  
   
- ![Visual Studio 多層 projectflavor 圖形](../../extensibility/internals/media/vs_multilevelprojectflavor.gif "VS\_MultilevelProjectFlavor")  
+ ![Visual Studio 多層 projectflavor 圖形](~/docs/extensibility/internals/media/vs_multilevelprojectflavor.gif "VS\_MultilevelProjectFlavor")  
 多層次的專案子類型  
   
  多層級專案的子型別集合是由三個層級，基底的專案，這是依專案的子型別，那麼進一步彙總的進階的專案子類型所組成。  圖的重點在於某些支援的介面所提供的一部份[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]專案子類型的架構。  
@@ -62,7 +62,7 @@ caps.handback.revision: 32
   
  下圖著重在自動化的擴充項實作中，瀏覽專案組態的物件特別的是，用來擴充基底的專案系統專案子類型。  
   
- ![VS 專案類別自動擴充項圖形](../../extensibility/internals/media/vs_projectflavorautoextender.png "VS\_ProjectFlavorAutoExtender")  
+ ![VS 專案類別自動擴充項圖形](~/docs/extensibility/internals/media/vs_projectflavorautoextender.gif "VS\_ProjectFlavorAutoExtender")  
 專案子類型自動化擴充項。  
   
  專案子類型可以擴充自動化物件模型，進一步擴充基底的專案系統。  這些無誤 DTE automation 物件的一部份，且用來擴充 \[專案\] 物件中， `ProjectItem`物件，並`Configuration`物件。  如需詳細資訊，請參閱 [擴充基底專案物件的模型](../../extensibility/internals/extending-the-object-model-of-the-base-project.md)。  

@@ -58,7 +58,7 @@ caps.handback.revision: 64
   
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[使用 Visual Studio Tools for Office System \(3.0\) 將資料繫結至 Word 2007 內容控制項](http://go.microsoft.com/fwlink/?LinkId=136785)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[使用 Visual Studio Tools for Office System \(3.0\) 將資料繫結至 Word 2007 內容控制項](http://go.microsoft.com/fwlink/?LinkId=136785)。  
   
 ## 內容控制項概觀  
  內容控制項提供使用者輸入和列印的最佳化 UI。  當您在文件中加入內容控制項時，可以指示使用者的框線、標題和暫存文字就會識別控制項。  文件的列印版本中不會出現控制項的框線和標題。  

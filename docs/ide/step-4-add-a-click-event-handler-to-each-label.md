@@ -52,7 +52,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  在 [屬性] 視窗中選擇工具列上的 [事件] 按鈕，檢視 [屬性] 視窗中的 [事件] 頁面。 向下捲動至 **Click** 事件，並在方塊中輸入 **label_Click**，如下列圖片所示。  
   
-     ![顯示 Click 事件的 [屬性] 視窗](../ide/media/express_labelclick.png "Express_labelClick")  
+     ![顯示 Click 事件的 [屬性] 視窗](~/docs/ide/media/express_labelclick.png "Express_labelClick")  
 顯示 Click 事件的 [屬性] 視窗  
   
 4.  選擇 ENTER 鍵。 IDE 會將名稱為 `label_Click()` 的 Click 事件處理常式加入至程式碼，並將它連結至表單上的每一個標籤。  

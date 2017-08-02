@@ -73,10 +73,10 @@ ms.lasthandoff: 05/24/2017
   
 3.  找到 `TestMethod1()` 方法並將它重新命名為 `DefaultAutomobileIsInitializedCorrectly()`。 在這個方法內，建立名為 `Automobile`的類別新執行個體，如下列圖例所示。 波浪底線隨即出現，這表示發生編譯時期錯誤，類型名稱下會出現智慧標籤。 智慧標籤的確切位置會因您使用 [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] 或 [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] 而不同。  
   
-     ![Visual Basic 中的智慧標籤底線](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
+     ![Visual Basic 中的智慧標籤底線](~/docs/ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
 Visual Basic  
   
-     ![C&#35; 中的智慧標籤底線](../ide/media/genclass_underline.png "GenClass_Underline")  
+     ![C&#35; 中的智慧標籤底線](~/docs/ide/media/genclass_underline.png "GenClass_Underline")  
 Visual C#  
   
 4.  將滑鼠指標停留在智慧標籤上查看錯誤訊息，表示尚未定義任何名為 `Automobile` 的類型。 按一下智慧標籤，或按 CTRL+。 (CTRL+ 句號) 開啟 [從用量產生] 快顯功能表，如下圖所示。  
@@ -112,10 +112,10 @@ Visual C#
   
      下圖顯示智慧標籤的快顯功能表。  
   
-     ![Visual Basic 中的產生屬性操作功能表](../ide/media/genpropertysmarttagvb.png "GenPropertySmartTagVB")  
+     ![Visual Basic 中的產生屬性操作功能表](~/docs/ide/media/genpropertysmarttagvb.png "GenPropertySmartTagVB")  
 Visual Basic  
   
-     ![C&#35; 中的產生屬性操作功能表](../ide/media/genpropertysmarttagcs.png "GenPropertySmartTagCS")  
+     ![C&#35; 中的產生屬性操作功能表](~/docs/ide/media/genpropertysmarttagcs.png "GenPropertySmartTagCS")  
 Visual C#  
   
 ### <a name="to-locate-the-source-code"></a>找出原始程式碼  
@@ -161,7 +161,7 @@ Visual C#
   
      下圖顯示 [測試結果]  視窗。  
   
-     ![失敗的測試結果](../ide/media/testsfailed.png "TestsFailed")  
+     ![失敗的測試結果](~/docs/ide/media/testsfailed.png "TestsFailed")  
 測試結果視窗  
   
 2.  在 [測試結果]  視窗中，在每個測試結果資料列按兩下，移至每一項測試失敗的位置。  

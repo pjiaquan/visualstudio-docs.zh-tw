@@ -70,7 +70,7 @@ RTVS 需要所有與遠端伺服器通訊均透過 HTTP，而這需要伺服器�
 
 基於這個理由，RTVS 在連線使用自我簽署憑證的伺服器時，一律會發出下列警告︰
 
-![自我簽署憑證警告對話方塊](media/workspaces-remote-self-signed-certificate-warning.png)
+![自我簽署憑證警告對話方塊](~/docs/rtvs/media/workspaces-remote-self-signed-certificate-warning.png)
 
 核發自我簽署憑證：
 
@@ -93,7 +93,7 @@ RTVS 需要所有與遠端伺服器通訊均透過 HTTP，而這需要伺服器�
 
 若要在遠端電腦上安裝憑證，請從命令提示字元執行 `certlm.msc` (憑證管理員)。 以滑鼠右鍵按一下 [個人] 資料夾，然後選取 [所有工作] > [匯入] 命令︰
 
-![匯入憑證命令](media/workspaces-remote-certificate-import.png)
+![匯入憑證命令](~/docs/rtvs/media/workspaces-remote-certificate-import.png)
 
 
 ### <a name="granting-permissions-to-read-the-ssl-certificates-private-key"></a>授權讀取 SSL 憑證的私密金鑰
@@ -105,7 +105,7 @@ RTVS 需要所有與遠端伺服器通訊均透過 HTTP，而這需要伺服器�
 1. 以滑鼠右鍵按一下憑證，然後選取 [所有工作] 下的 [管理私密金鑰] 命令。
 1. 在出現的對話方塊中，選取 [新增] 並輸入 `NETWORK SERVICE` 為帳戶名稱︰
 
-    ![[管理私密金鑰] 對話方塊, 新增 NETWORK_SERVICE](media/workspaces-remote-manage-private-key-dialog.png)
+    ![[管理私密金鑰] 對話方塊, 新增 NETWORK_SERVICE](~/docs/rtvs/media/workspaces-remote-manage-private-key-dialog.png)
 
 1. 選取兩次 [確定] 關閉對話方塊並認可變更。
 

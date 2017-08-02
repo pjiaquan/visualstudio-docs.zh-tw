@@ -38,7 +38,7 @@ caps.handback.revision: 46
   
 -   [公開不在主項目類別中的程式碼](#NonHostItem)  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需觀看相關示範影片，請參閱[如何：從 VBA 呼叫 VSTO 程式碼？](http://go.microsoft.com/fwlink/?LinkId=136757)\(英文\)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何：從 VBA 呼叫 VSTO 程式碼？](http://go.microsoft.com/fwlink/?LinkId=136757)\(英文\)。  
   
 ##  <a name="HostItemCode"></a> 公開主項目類別中的程式碼  
  若要讓 VBA 程式碼呼叫主項目類別中的 Visual Basic 程式碼，請將主項目的 \[**EnableVbaCallers**\] 屬性設定為 \[**True**\]。  

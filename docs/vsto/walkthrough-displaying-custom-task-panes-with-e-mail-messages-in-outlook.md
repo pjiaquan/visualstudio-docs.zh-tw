@@ -59,7 +59,7 @@ caps.handback.revision: 58
   
 -   Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] 或 Microsoft Outlook 2010。  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：在 Outlook 中使用工作窗格](http://go.microsoft.com/fwlink/?LinkID=130309)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：在 Outlook 中使用工作窗格](http://go.microsoft.com/fwlink/?LinkID=130309)。  
   
 ## 建立專案  
  自訂工作窗格會在 VSTO 增益集中實作。 請從建立 Outlook 的 VSTO 增益集專案開始。  

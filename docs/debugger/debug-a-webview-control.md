@@ -23,7 +23,7 @@ caps.handback.revision: 10
 # 偵錯 WebView 控制項
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](../debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  若要在 Windows 執行階段應用程式中檢查及偵錯 `WebView` 控制項，您可以設定 Visual Studio 在您啟動應用程式時附加指令碼偵錯工具。  從 Visual Studio 2013 Update 2 開始，您有兩種方法可以使用偵錯工具與 `WebView` 控制項互動：  
   
@@ -78,7 +78,7 @@ caps.handback.revision: 10
   
 5.  在 \[主控台\] 視窗中，選取 \[目標\] 清單的 `WebView` 控制項所顯示的網頁或 `iFrame`。  
   
-     ![JavaScript 主控台視窗中的目標選項](../debugger/media/js_console_target.png "JS\_Console\_Target")  
+     ![JavaScript 主控台視窗中的目標選項](~/docs/debugger/media/js_console_target.png "JS\_Console\_Target")  
   
     > [!NOTE]
     >  使用主控台，您可以一次與單一 `WebView`、`iFrame`、共用連絡人或 Web 背景工作互動。  每個項目需要個別的 Web 平台主機 \(WWAHost.exe\) 執行個體。  您一次可以與一個主機互動。  

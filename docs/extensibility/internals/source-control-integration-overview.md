@@ -40,7 +40,7 @@ ms.lasthandoff: 02/22/2017
 ## <a name="source-control-integration"></a>原始檔控制整合  
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]支援兩種類型的原始檔控制整合選項。 在所有版本的[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]，還是整合外掛程式，根據原始檔控制外掛程式 API （先前稱為 MSSCCI API），同時使用 Visual Studio 原始檔控制使用者介面 (UI) 提供基本的原始檔控制功能。 原始檔控制 VSPackage，相反地，提供新的深層整合[!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]適用於需要高層級的複雜度，以及 「 自治 」 在原始檔控制模型中的原始檔控制整合的路徑。  
   
- ![原始檔控制概觀](../../extensibility/internals/media/sourcectnrloverview.gif "SourceCtnrlOverview")  
+ ![原始檔控制概觀](~/docs/extensibility/internals/media/sourcectnrloverview.gif "SourceCtnrlOverview")  
   
 ## <a name="source-control-plug-in"></a>原始檔控制外掛程式  
  所有版本的 Visual Studio 都支援原始檔控制外掛程式 API 規格 1.2 版做為整合的路徑。 原始檔控制外掛程式實作器寫入的實作中所述的原始檔控制整合和註冊所需的原始檔控制外掛程式 API 功能[建立原始檔控制外掛程式](../../extensibility/internals/creating-a-source-control-plug-in.md)。 在這種方式，使用整合式開發環境 (IDE) [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] UI 對話方塊，例如簽入、 簽出、 工具/選項屬性頁面、 工具列和原始檔控制圖像 （glyph）。 原始檔控制外掛程式 API 嚴格遵循確保輕鬆整合到 Visual Studio 和簡單的使用者體驗。 這表示原始檔控制外掛程式必須實作大部分的函式和詳細的 API 中的回呼。  

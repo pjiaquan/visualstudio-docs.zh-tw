@@ -79,11 +79,11 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  視窗出現時，請按幾下 \[加入項目\] 按鈕。  您應該會看到類似下面的內容：  
   
- ![應用程式的主視窗](../debugger/media/livevisualtree-app.png "LiveVIsualTree\-App")  
+ ![應用程式的主視窗](~/docs/debugger/media/livevisualtree-app.png "LiveVIsualTree\-App")  
   
  現在開啟 \[即時視覺化樹狀結構\] 視窗 \(\[偵錯\] \/ \[視窗\] \/ \[即時視覺化樹狀結構\]，或沿著此 IDE 的左側尋找\)。  將其從停駐位置拖曳出，如此我們便可並排查看此視窗和 \[即時屬性\] 視窗。  在 \[即時視覺化樹狀結構\] 視窗中，展開 \[ContentPresenter\] 節點。  其應包含按鈕和清單方塊的節點。  展開清單方塊 \(然後展開 \[ScrollContentPresenter\] 和 \[ItemsPresenter\]\) 來尋找清單方塊項目。  視窗類似下圖所示：  
   
- ![即時視覺化樹狀結構中的 ListBoxItems](../debugger/media/livevisualtree-listboxitems.png "LiveVisualTree\-ListBoxItems")  
+ ![即時視覺化樹狀結構中的 ListBoxItems](~/docs/debugger/media/livevisualtree-listboxitems.png "LiveVisualTree\-ListBoxItems")  
   
  回到應用程式視窗並再加入一些項目。  您應該會看到多個清單項目出現在 \[即時視覺化樹狀結構\] 中。  
   
@@ -95,7 +95,7 @@ private void button_Click(object sender, RoutedEventArgs e)
   
  **在執行中應用程式顯示版面配置提示**。  只要選取緊鄰 \[啟用選取範圍\] 按鈕右邊的按鈕時，即可啟用此模式。  \[顯示版面配置提示\] 開啟時，會使此應用程式視窗沿著所選物件的界限顯示水平及垂直線條，以讓您可以查看其向何處對齊，以及查看顯示此邊界的矩形。  例如，同時開啟 \[啟用選取範圍\] 和 \[顯示版面配置\]，並在應用程式中選取 \[加入項目\] 文字區塊。  您應該會看到 \[即時視覺化樹狀結構\] 中的文字區塊節點和 \[即時屬性檢視器\] 中的文字區塊屬性，以及文字區塊界限內的水平和垂直線條。  
   
- ![LivePropertyViewer 中的 DisplayLayout](../debugger/media/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer\-DisplayLayout")  
+ ![LivePropertyViewer 中的 DisplayLayout](~/docs/debugger/media/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer\-DisplayLayout")  
   
  **預覽選取範圍**。  只要選取 \[即時視覺化樹狀結構\] 工具列上從左邊數來的第三個按鈕，即可啟用這個模式。  如果您可存取該應用程式的原始程式碼，則此模式會顯示宣告此項目的 XAML。  選取 \[啟用選取範圍\] 和 \[預覽選取範圍\]，然後選取在我們的測試應用程式中的按鈕。  MainWindow.xaml 檔案會在 Visual Studio 中開啟，而且游標會置於定義按鈕位置的那一行。  
   

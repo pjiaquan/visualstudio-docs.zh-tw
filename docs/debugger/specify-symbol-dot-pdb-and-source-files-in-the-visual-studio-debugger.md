@@ -65,7 +65,7 @@ manager: "ghogen"
   
      ![&#91;工具&#93; &#45; &#91;選項&#93; &#45; &#91;偵錯&#93; &#45; &#91;符號&#93; 頁面](../debugger/media/dbg_tools_options_symbols.png "DBG\_Tools\_Options\_Symbols")  
   
-2.  選擇此資料夾 ![工具&#47;選項&#47;偵錯&#47;符號資料夾圖示](../debugger/media/dbg_tools_options_foldersicon.png "DBG\_Tools\_Options\_FoldersIcon") 圖示。 可編輯的文字隨即出現在 \[**符號檔 \(.pdb\) 位置**\] 方塊中。  
+2.  選擇此資料夾 ![工具&#47;選項&#47;偵錯&#47;符號資料夾圖示](~/docs/debugger/media/dbg_tools_options_foldersicon.png "DBG\_Tools\_Options\_FoldersIcon") 圖示。 可編輯的文字隨即出現在 \[**符號檔 \(.pdb\) 位置**\] 方塊中。  
   
 3.  輸入符號伺服器或符號位置的 URL 或目錄路徑。 陳述式完成可幫助您找出正確的格式。  
   
@@ -147,7 +147,7 @@ manager: "ghogen"
   
 -   若要在找不到原始程式檔或符號檔時一律顯示反組譯碼，請選擇 \[**選項對話方塊**\] 連結，然後同時選取 \[**啟用位址層級偵錯**\] 和 \[**找不到原始碼時則顯示反組譯碼**\]。  
   
-     ![選項&#47;偵錯&#47;一般反組譯碼選項](../debugger/media/dbg_options_general_disassembly_checkbox.png "DBG\_Options\_General\_disassembly\_checkbox")  
+     ![選項&#47;偵錯&#47;一般反組譯碼選項](~/docs/debugger/media/dbg_options_general_disassembly_checkbox.png "DBG\_Options\_General\_disassembly\_checkbox")  
   
  **從捷徑功能表變更符號選項**  
   
@@ -214,7 +214,7 @@ manager: "ghogen"
   
 2.  在 \[**通用屬性**\] 節點下，選擇 \[**偵錯原始程式檔**\]。  
   
-3.  按一下此資料夾 ![工具&#47;選項&#47;偵錯&#47;符號資料夾圖示](../debugger/media/dbg_tools_options_foldersicon.png "DBG\_Tools\_Options\_FoldersIcon") 圖示。 可編輯的文字會出現在 \[**包含原始程式碼的目錄**\] 清單中。  
+3.  按一下此資料夾 ![工具&#47;選項&#47;偵錯&#47;符號資料夾圖示](~/docs/debugger/media/dbg_tools_options_foldersicon.png "DBG\_Tools\_Options\_FoldersIcon") 圖示。 可編輯的文字會出現在 \[**包含原始程式碼的目錄**\] 清單中。  
   
 4.  加入您要搜尋的路徑。  
   
@@ -238,7 +238,7 @@ manager: "ghogen"
   
 4.  選取 \[**啟用來源伺服器支援**\] 核取方塊。  
   
-     ![啟用來源伺服器選項](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG\_Options\_General\_EnableSrcSrvr\_checkbox")  
+     ![啟用來源伺服器選項](~/docs/debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG\_Options\_General\_EnableSrcSrvr\_checkbox")  
   
 5.  \(選擇性\) 選擇您想要的子選項。  
   

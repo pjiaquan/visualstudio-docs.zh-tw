@@ -74,7 +74,7 @@ ms.lasthandoff: 05/24/2017
   
  [IDE 瀏覽器] 運作方式十分類似 Windows 應用程式切換器。 其僅可使用快速鍵來存取，而無法透過功能表使用。 您可使用兩個命令存取 [IDE 瀏覽器]\(如下所示)，以依據所需的循環瀏覽順序，循環瀏覽檔案。  
   
- ![Visual Studio IDE 導覽器](../ide/media/vs2015_ide_navigator.png "VS2015_IDE_Navigator")  
+ ![Visual Studio IDE 導覽器](~/docs/ide/media/vs2015_ide_navigator.png "VS2015_IDE_Navigator")  
   
  `Window.PreviousDocumentWindowNav` 可讓您移至最近存取的檔案，並`Window.NextDocumentWindowNav`可讓您依相反順序移動。 「一般開發設定」會將 CTRL + SHIFT + TAB 指派至 `Window.PreviousDocumentWindowNav`，並將 CTRL + TAB 指派至 `Window.NextDocumentWindowNav`。  
   

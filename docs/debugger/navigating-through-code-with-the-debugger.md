@@ -77,7 +77,7 @@ manager: "ghogen"
   
      若要在程式碼中設定簡單的中斷點，請在 Visual Studio 編輯器中開啟原始程式檔。 將游標放在您要中斷的程式碼行，然後選擇 \[**中斷點**\]、內容功能表上的 \[**插入中斷點**\] \(鍵盤：**F9**\)。 偵錯工具會在執行該行之前中斷執行。  
   
-     ![設定中斷點](../debugger/media/dbg_basics_setbreakpoint.png "DBG\_Basics\_SetBreakpoint")  
+     ![設定中斷點](~/docs/debugger/media/dbg_basics_setbreakpoint.png "DBG\_Basics\_SetBreakpoint")  
   
      Visual Studio 的中斷點提供一組豐富的其他功能，例如條件式中斷點和追蹤點。 請參閱 [使用中斷點](../debugger/using-breakpoints.md)。  
   
@@ -116,12 +116,12 @@ manager: "ghogen"
   
  如果函式已多載或在多個命名空間中，您可以在 \[**選擇中斷點**\] 對話方塊中選擇想要的函式。  
   
- ![&#91;選擇中斷點&#93; 對話方塊](../debugger/media/dbg_execution_overloadedbreakpoints.png "DBG\_Execution\_OverloadedBreakpoints")  
+ ![&#91;選擇中斷點&#93; 對話方塊](~/docs/debugger/media/dbg_execution_overloadedbreakpoints.png "DBG\_Execution\_OverloadedBreakpoints")  
   
 ##  <a name="BKMK_Set_the_next_statement_to_execute"></a> 設定下一個要執行的陳述式  
  在中斷並進入偵錯工具之後，您可以移動執行點，設定下一個要執行的程式碼陳述式。 來源或 \[反組譯碼\] 視窗邊界中的黃色箭頭，將會標記出下一個要執行的陳述式之位置。 您可以移動這個箭頭以略過一部分的程式碼或是返回先前執行的行。 可以在某些情形中使用這項功能，例如略過包含已知錯誤的程式碼區段。  
   
- ![Example2](../debugger/media/dbg_basics_example2.png "DBG\_Basics\_Example2")  
+ ![Example2](~/docs/debugger/media/dbg_basics_example2.png "DBG\_Basics\_Example2")  
   
  若要設定下一個要執行的陳述式，請使用下列其中一項程序：  
   

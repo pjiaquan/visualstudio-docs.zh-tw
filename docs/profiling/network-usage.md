@@ -58,7 +58,7 @@ Visual Studio 的 [網路] 診斷工具會收集使用 [Windows.Web.Http 應用�
   
  報表視窗看起來應該類似這樣：  
   
- ![[網路] 視窗](../profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
+ ![[網路] 視窗](~/docs/profiling/media/network_fullwindow.png "NETWORK_FullWindow")  
   
 ## <a name="analyzing-data"></a>分析資料  
  無論您的應用程式正在執行，或甚至在關閉之後，透過選取任何顯示在摘要檢視上的網路作業，即可分析擷取的 HTTP 流量。  

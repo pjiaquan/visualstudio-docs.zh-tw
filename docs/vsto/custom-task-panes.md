@@ -139,7 +139,7 @@ caps.handback.revision: 51
   
 -   [Word、InfoPath 和 PowerPoint](#WordAndInfoPath)  
   
- ![視訊的連結](../vsto/media/playvideo.png "視訊的連結") 如需相關的影片示範，請參閱[如何：管理 Word VSTO 增益集中的工作窗格？](http://go.microsoft.com/fwlink/?LinkId=136781)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何：管理 Word VSTO 增益集中的工作窗格？](http://go.microsoft.com/fwlink/?LinkId=136781)。  
   
 ##  <a name="Outlook"></a> Outlook  
  當您建立 Outlook 的自訂工作窗格時，自訂工作窗格將與特定 \[總管\] 或 \[檢查\] 視窗相關聯。  \[總管\] 視窗可顯示資料夾內容，而 \[檢查\] 視窗則會顯示電子郵件訊息或工作之類的項目。  

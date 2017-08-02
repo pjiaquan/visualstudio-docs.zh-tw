@@ -58,7 +58,7 @@ IntelliSense 是一些功能的概括詞彙：列出成員、參數資訊，快�
   
  粗體的參數表示您輸入函式時，所需的下一個參數。  對於多載函式，您可以使用向上鍵和向下鍵檢視函式多載的替代參數資訊。  
   
- ![參數資訊](../ide/media/vs2015_param_info.png "VS2015\_param\_Info")  
+ ![參數資訊](~/docs/ide/media/vs2015_param_info.png "VS2015\_param\_Info")  
   
  當您以 XML 文件註解來附註函式和參數時，這些註解將會顯示成 \[參數資訊\]。  如需詳細資訊，請參閱[提供 XML 程式碼註解](../ide/supplying-xml-code-comments.md)。  
   
@@ -67,11 +67,11 @@ IntelliSense 是一些功能的概括詞彙：列出成員、參數資訊，快�
 ## 快速諮詢  
  \[快速諮詢\] 會顯示程式碼中任一識別項的完整宣告。  
   
- ![Visual Studio 快速諮詢](../ide/media/vs2015_quick_info.png "VS2015\_Quick\_info")  
+ ![Visual Studio 快速諮詢](~/docs/ide/media/vs2015_quick_info.png "VS2015\_Quick\_info")  
   
  當您從 \[**列出成員**\] 方塊選取成員時，也會出現 \[快速諮詢\]。  
   
- ![C&#35; 程式碼檔案中的參數資訊](../ide/media/vs2015_paraminfo.png "VS2015\_ParamInfo")  
+ ![C&#35; 程式碼檔案中的參數資訊](~/docs/ide/media/vs2015_paraminfo.png "VS2015\_ParamInfo")  
   
  您可以按一下 \[**編輯\]\/\[IntelliSense\]\/\[快速諮詢**\]，輸入 CTRL\+I 或按一下編輯器工具列上的 \[**快速諮詢**\] 按鈕，手動叫用 \[快速諮詢\]。  
   

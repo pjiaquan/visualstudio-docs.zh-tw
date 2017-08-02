@@ -41,7 +41,7 @@ ms.lasthandoff: 05/13/2017
   
 1.  在 Windows Form 設計工具的工具箱中，選擇 [計時器]\(位於 [元件] 分類)，然後選擇 ENTER 鍵，按兩下計時器，將計時器控制項新增至表單。 計時器的圖示 (稱為 **Timer1**)，應該會顯示在表單下的空間中，如下列圖片所示。  
   
-     ![Timer](../ide/media/express_timer.png "Express_Timer")  
+     ![Timer](~/docs/ide/media/express_timer.png "Express_Timer")  
 計時器  
   
     > [!NOTE]

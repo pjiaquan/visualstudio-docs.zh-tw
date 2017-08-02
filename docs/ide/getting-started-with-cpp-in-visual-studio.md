@@ -124,7 +124,7 @@ ms.lasthandoff: 05/13/2017
   
 -   啟動偵錯工具。  
   
-     ![[偵錯] 功能表上的 [開始偵錯] 命令](../ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
+     ![[偵錯] 功能表上的 [開始偵錯] 命令](~/docs/ide/media/exploreide-startdebugging.png "ExploreIDE-StartDebugging")  
   
      偵錯工具會啟動並執行程式碼。 主控台視窗 (外觀類似命令提示字元的另一個視窗) 會出現幾秒鐘，並在偵錯工具停止執行時快速關閉。 若要查看文字，則必須設定中斷點以停止程式執行。  
   
@@ -157,7 +157,7 @@ ms.lasthandoff: 05/13/2017
   
 2.  將 GreetingsConsoleApp 的組建組態由 [偵錯]  變更為 [發行] 。  
   
-     ![建置應用程式的發行版本](../ide/media/c--ide_changingbuildtorelease.png "C++IDE_ChangingBuildtoRelease")  
+     ![建置應用程式的發行版本](~/docs/ide/media/c--ide_changingbuildtorelease.png "C++IDE_ChangingBuildtoRelease")  
   
 3.  建置方案。  
   

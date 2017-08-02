@@ -29,7 +29,7 @@ JavaScript IntelliSense 擴充性功能可讓您自訂在 JavaScript 編輯器�
   
  JavaScript 語言服務加入至專案的協力廠商 JavaScript 程式庫提供 IntelliSense 功能。  對於大部分的程式庫，陳述式完成由語言服務自動提供。  下圖顯示陳述式完成的範例:  
   
- ![陳述式完成範例](../ide/media/js_intellisense_completion.png "js\_intellisense\_completion")  
+ ![陳述式完成範例](~/docs/ide/media/js_intellisense_completion.png "js\_intellisense\_completion")  
   
  如果您的程式庫在標準 JavaScript 註解標記包含變數、函式和物件的描述 \(\/\)，則從 IntelliSense 擴充性功能會自動獲益，根據預設，，提供在快顯方塊的描述性資訊在完成清單中的項目右邊，或者，當您在函式呼叫時的左括號。  在快顯方塊中輸入註解包含這個成員的描述。  下列範例顯示完成清單的快顯方塊中。  
   
@@ -315,7 +315,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 5.  在 appCode.js，輸入以下程式碼。  當您輸入時，您會在做為 IntelliSense 顯示之擴充功能的標準註解快速諮詢。  
   
-     ![intellisense.annotate 的使用範例](../ide/media/js_intellisense_annotations.png "js\_intellisense\_annotations")  
+     ![intellisense.annotate 的使用範例](~/docs/ide/media/js_intellisense_annotations.png "js\_intellisense\_annotations")  
   
 ###  <a name="Logging"></a> 傳送訊息至輸出視窗  
  下列程序示範如何將訊息傳送到輸出視窗。  您可以將資訊協助偵錯 IntelliSense 副檔名。  
@@ -488,7 +488,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 4.  在 appCode.js，輸入以下程式碼。  當您輸入時，將會看到命名空間的圖示變更為「{1}」，用於 C\#。  
   
-     ![glyph 屬性的使用範例](../ide/media/js_intellisense_glyph_namespace.png "js\_intellisense\_glyph\_namespace")  
+     ![glyph 屬性的使用範例](~/docs/ide/media/js_intellisense_glyph_namespace.png "js\_intellisense\_glyph\_namespace")  
   
 5.  在 appCode.js，輸入以下程式碼。  當您輸入時，會為這個 Enum1 成員會看到新的列舉圖示和這個 SomeClass1 成員的新類別圖示。  
   
@@ -530,7 +530,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 3.  在 appCode.js，輸入以下程式碼。  識別項清單會顯示而不是 IntelliSense，因為包裝的函式從未呼叫，也就是說， `throttled` 函式不會傳回任何結果。  
   
-     ![覆寫 intellisense 結果的範例](../ide/media/js_intellisense_override.png "js\_intellisense\_override")  
+     ![覆寫 intellisense 結果的範例](~/docs/ide/media/js_intellisense_override.png "js\_intellisense\_override")  
   
 4.  將下列程式碼加入至 exampleLib.intellisense.js。  這會變更設計階段行為，讓 IntelliSense 提供包裝函式的顯示，如預期般運作。  
   
@@ -543,7 +543,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 5.  在 appCode.js，輸入您先前輸入的程式碼測試結果。  此時， IntelliSense 會提供所需的資訊。  
   
-     ![覆寫 IntelliSense 結果的範例](../ide/media/js_intellisense_override_fixed.png "js\_intellisense\_override\_fixed")  
+     ![覆寫 IntelliSense 結果的範例](~/docs/ide/media/js_intellisense_override_fixed.png "js\_intellisense\_override\_fixed")  
   
 ## 請參閱  
  [JavaScript IntelliSense](../ide/javascript-intellisense.md)   

@@ -84,18 +84,18 @@ Visual Studio 中的 Python 可讓您輕鬆管理多個 Python 環境，以及�
 1. 選取 [View (檢視)] > [Other Windows (其他視窗)] > [Python Environments (Python 環境)] 功能表命令。
 1. 在 [方案總管] 中某個專案的 [Python Environments (Python 環境)] 上按一下滑鼠右鍵，然後選取 [View All Python Environments (檢視所有 Python 環境)]：
 
-    ![[方案總管] 中的「檢視所有環境」命令](media/environments-view-all.png)
+    ![[方案總管] 中的「檢視所有環境」命令](~/docs/python/media/environments-view-all.png)
     
 不論是上述哪一種情況，[Python Environments (Python 環境)] 視窗都會顯示為與 [方案總管] 同層級的索引標籤：
 
-![[Python Environments (Python 環境)] 視窗](media/environments-default-view.png)
+![[Python Environments (Python 環境)] 視窗](~/docs/python/media/environments-default-view.png)
 
 上例顯示 Python 3.4 (32 位元 CPython) 已隨 32 位元和 64 位元版本的 IronPython 2.7 安裝。 在本例中，以粗體顯示的預設環境是 Python 3.4，會用於所有新的專案。 如果未看到列出任何環境，即表示您已安裝 Visual Studio 2015 或更舊版本的 Python Tools for Visual Studio，但尚未安裝 Python 解譯器 (請參閱上述的[選取並安裝 Python 解譯器](#selecting-and-installing-python-interpreters))。 
 
 > [!Tip]
 > 當 *[Python Environments (Python 環境)] 視窗變窄時 (如以上所示)，環境會列在上方，而各種索引標籤會列在下方。 不過，如果將視窗展開到足夠的寬度，您就會看到可能較方便您使用的寬型檢視。
 >
-> ![[Python Environments (Python 環境)] 視窗展開檢視](media/environments-expanded-view.png)
+> ![[Python Environments (Python 環境)] 視窗展開檢視](~/docs/python/media/environments-expanded-view.png)
 
 > [!Note]
 > 雖然 Visual Studio 會遵守「系統-站台-套件」選項，但未提供從 Visual Studio 內變更它的方式。
@@ -106,7 +106,7 @@ Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器�
 
 1. 在「環境視窗」中選取 [+ Custom (+ 自訂)]，這會建立一個新環境並開啟 [[Configure (設定)] 索引標籤](#configure-tab) (下面會說明)。
 
-    ![新自訂環境的預設檢視](media/environments-custom-1.png)
+    ![新自訂環境的預設檢視](~/docs/python/media/environments-custom-1.png)
 
 1. 在 [Description (描述)] 欄位中，輸入環境的名稱。
 1. 在 [Prefix path (前置路徑)] 欄位中，輸入或瀏覽至解譯器的路徑。
@@ -118,7 +118,7 @@ Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器�
 
 提供環境的基本資訊和命令，例如將它設定為預設值、開啟與該環境搭配的[互動式 (REPL) 視窗](interactive-repl.md)，以及跳到可設定互動式視窗的對話方塊 (相當於 [Tools (工具)] > [Options (選項)] 功能表命令、選取 [Python Tools (Python 工具)] > [Interactive Windows (互動式視窗)]，然後選取環境的名稱)。
 
-![Python 環境的 [Oview (概觀)] 索引標籤](media/environments-overview-tab.png)
+![Python 環境的 [Oview (概觀)] 索引標籤](~/docs/python/media/environments-overview-tab.png)
 
 > [!Note]
 > 變更作用中的環境可能會導致在載入 IntelliSense 資料庫時，Visual Studio 短暫沒有反應。 環境如果含有許多套件，則無反應的時間可能會更長。
@@ -127,7 +127,7 @@ Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器�
 
 如果顯示，會包含如下表所述的詳細資料。 如果沒有此索引標籤，即表示目前由 Visual Studio 自動管理所有詳細資料。
 
-![Python 環境的 [Configure (設定)] 索引標籤](media/environments-configure-tab.png)
+![Python 環境的 [Configure (設定)] 索引標籤](~/docs/python/media/environments-configure-tab.png)
 
 | 欄位 | 描述 |
 | --- | --- |
@@ -144,13 +144,13 @@ Visual Studio 通常是透過檢查登錄來找出已安裝的 Python 解譯器�
 
 管理安裝在環境中的套件，讓您也能夠搜尋並安裝新的套件 (包括任何相依性)。 搜尋除了會搜尋 [PyPI](https://pypi.python.org) 之外，也會篩選目前已安裝的套件。 您也可以在搜尋方塊中直接輸入任何 `pip install` 命令，包括 `--user` 或 `--no-deps` 之類的旗標。
 
-![Python 環境的 [pip] 索引標籤](media/environments-pip-tab.png)
+![Python 環境的 [pip] 索引標籤](~/docs/python/media/environments-pip-tab.png)
 
 ### <a name="intellisense-tab"></a>IntelliSense 索引標籤
 
 顯示 IntelliSense 完成資料庫的目前狀態：
 
-![Python 環境的 [IntelliSense] 索引標籤](media/environments-intellisense-tab.png)
+![Python 環境的 [IntelliSense] 索引標籤](~/docs/python/media/environments-intellisense-tab.png)
 
 此資料庫包含環境所有程式庫的中繼資料，並可改善 IntelliSense 速度及降低記憶體使用量。 當 Visual Studio 偵測到新環境 (或您新增環境) 時，會透過分析程式庫原始程式檔來自動開始編譯資料庫。 視所安裝的項目而定，這個程序會花費一分鐘到一小時或數小時不等的時間。 (例如，Anaconda 隨附許多程式庫，因此就需要一些時間來編譯資料庫)。完成之後，您將會獲得詳細的 IntelliSense，而在您安裝其他程式庫之前，便不須再次重新整理資料庫 (使用 [Refresh DB (重新整理資料庫)] 按鈕)。
 
@@ -174,11 +174,11 @@ Visual Studio 會針對所有新專案使用預設環境，來執行、偵錯、
 
 您可以藉由按一下 [Python Environments (Python 環境)] 並選取 [Add/Remove Python Environments (新增/移除 Python 環境)]，來新增任何全域環境作為專案環境。 從顯示的清單中，您可以選取或取消選取專案中可供使用的環境。
 
-![[Add/Remove Python Environments (新增/移除 Python 環境)] 對話方塊](media/environments-add-remove.png)
+![[Add/Remove Python Environments (新增/移除 Python 環境)] 對話方塊](~/docs/python/media/environments-add-remove.png)
 
 在 [方案總管] 中，您也可以展開環境來顯示它的已安裝套件 (可供您在環境處於作用中時匯入並在程式碼中使用的套件)：
 
-![[方案總管] 中環境的 Python 套件](media/environments-installed-packages.png)
+![[方案總管] 中環境的 Python 套件](~/docs/python/media/environments-installed-packages.png)
 
 若要安裝新套件，請在環境上按一下滑鼠右鍵、選取 [Install Python Package (安裝 Python 套件)]，然後輸入所需套件的名稱。 套件 (及相依性) 是下載自 [Python 套件索引 (PyPI) (英文)](https://pypi.python.org/pypi)，您也可以在該處搜尋可用的套件。 Visual Studio 的狀態列和輸出視窗會顯示與該安裝相關的資訊。 若要將套件解除安裝，請在該套件上按一下滑鼠右鍵，然後選取 [移除]。
 
@@ -199,7 +199,7 @@ Visual Studio 會針對所有新專案使用預設環境，來執行、偵錯、
 
 1. 在 [方案總管] 中的 [Python Environments (Python 環境)] 上按一下滑鼠右鍵，然後選取 [Add Virtual Environments (新增虛擬環境)]，這會顯示以下畫面：
 
-    ![建立虛擬環境](media/environments-add-virtual-1.png)
+    ![建立虛擬環境](~/docs/python/media/environments-add-virtual-1.png)
 
 1. 指定一個名稱以在您的專案路徑中建立虛擬環境，或是指定一個完整路徑以在其他位置建立它。 (為了確保與其他工具的最大相容性，在名稱中請只使用字母和數字)。
 
@@ -207,7 +207,7 @@ Visual Studio 會針對所有新專案使用預設環境，來執行、偵錯、
 
     如果提供的路徑是現有的虛擬環境，將會偵測到基底解譯器，而 [建立] 按鈕將會變更為 [新增]：
 
-    ![新增現有的虛擬環境](media/environments-add-virtual-2.png)
+    ![新增現有的虛擬環境](~/docs/python/media/environments-add-virtual-2.png)
 
 您同樣可以在 [方案總管] 中的 [Python Environments (Python 環境)] 上按一下滑鼠右鍵，然後選取 [Add Existing Virtual Environment (新增現有的虛擬環境)]，來新增現有的虛擬環境。 Visual Studio 會使用環境之 `lib` 目錄中的 `orig-prefix.txt` 檔案來自動偵測基底解譯器。
 
@@ -223,11 +223,11 @@ Visual Studio 會針對所有新專案使用預設環境，來執行、偵錯、
 
 - 如果您已上傳包含 `requirements.txt` 的專案並想要安裝該檔案中所列的全部套件，請在該專案上按一下滑鼠右鍵，然後選取 [Install from requirements.txt (從 requirements.txt 安裝)]：
 
-    ![Install from requirements.txt (從 requirements.txt 安裝)](media/environments-requirements-txt-install.png)
+    ![Install from requirements.txt (從 requirements.txt 安裝)](~/docs/python/media/environments-requirements-txt-install.png)
 
 - 在專案中安裝所有必要的套件之後，您可以在 [方案總管] 中該專案上按一下滑鼠右鍵，然後選取 [Generate requirements.txt (產生 requirements.txt)] 以建立必要的檔案。 如果該檔案已經存在，系統將會提示您如何更新它：
 
-    ![更新 requirements.txt 選項](media/environments-requirements-txt-replace.png)
+    ![更新 requirements.txt 選項](~/docs/python/media/environments-requirements-txt-replace.png)
 
     - [Replace entire file (取代整個檔案)] 會移除所有已存在的項目、註解及選項。
     - [Refresh existing entries (重新整理現有的項目)] 會偵測套件需求並更新版本規範，以符合您目前已安裝的版本。
@@ -237,7 +237,7 @@ Visual Studio 會針對所有新專案使用預設環境，來執行、偵錯、
 
 新增新的虛擬環境時，如果 ` requirements.txt` 檔案存在，[Add Virtual Environment (新增虛擬環境)] 對話方塊就會顯示自動安裝套件的選項，讓您能夠輕鬆在另一部電腦上重新建立環境：
 
-![使用 requirements.txt 來建立虛擬環境](media/environments-requirements-txt.png)
+![使用 requirements.txt 來建立虛擬環境](~/docs/python/media/environments-requirements-txt.png)
 
 如果套件是 pip 無法安裝的套件，並且又出現在 `requirements.txt` 檔案中，整個安裝就會失敗。 在此情況下，請手動編輯檔案以將此套件排除，或使用 [pip 的選項](http://pip.readthedocs.org/en/latest/reference/pip_install.html#requirements-file-format)來參考該套件的可安裝版本。 例如，您可能偏好使用 [`pip wheel`](http://pip.readthedocs.org/en/latest/reference/pip_wheel.html) 來編譯相依性並將 `--find-links <path>` 選項新增到您的 `requirements.txt`：
 

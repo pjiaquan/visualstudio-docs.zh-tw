@@ -78,7 +78,7 @@ ImageList_Create(VsUI::DpiHelper::LogicalToDeviceUnitsX(16),VsUI::DpiHelper::Log
   
  下表顯示範例的影像應該如何調整相對應的 dpi 縮放係數。 以綠色的映像表示我們從 Visual Studio 2013 （100\-200%的 DPI 縮放比例） 開始的最佳作法 ︰  
   
- ![DPI 縮放問題](../extensibility/media/dpi-issues-scaling.png "DPI Issues Scaling")  
+ ![DPI 縮放問題](~/docs/extensibility/media/dpi-issues-scaling.png "DPI Issues Scaling")  
   
 ## 版面配置問題  
  您可以避免常見的版面配置問題，主要是藉由調整 UI 中，相對於另一個保存點，而不是使用絕對位置 （特別是，以像素為單位）。 例如:  

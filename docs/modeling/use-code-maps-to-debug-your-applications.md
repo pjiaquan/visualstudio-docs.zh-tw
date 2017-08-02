@@ -42,12 +42,12 @@ Code Map 有助於避免在大型程式碼基底、不熟悉的程式碼或舊�
   
  因此您藉由搜尋 `Undo` 方法開始調查。  您會在`PaintCanvas` 類別中找到。  
   
- ![Code Map &#45; 尋找程式碼](../modeling/media/codemapstoryboardpaint1.png "CodeMapStoryboardPaint1")  
+ ![Code Map &#45; 尋找程式碼](~/docs/modeling/media/codemapstoryboardpaint1.png "CodeMapStoryboardPaint1")  
   
 ## 開始製作程式碼地圖  
  現在開始對應 `undo` 方法及其關聯性。  在程式碼編輯器中，您將 `undo` 方法及其參考的欄位加入至新的 Code Map。  當您建立新的對應時，可能需要一些時間為程式碼編製索引。  這有助於後面的作業更快速執行。  
   
- ![Code Map &#45; 顯示方法和相關欄位](../modeling/media/codemapstoryboardpaint3.png "CodeMapStoryboardPaint3")  
+ ![Code Map &#45; 顯示方法和相關欄位](~/docs/modeling/media/codemapstoryboardpaint3.png "CodeMapStoryboardPaint3")  
   
 > [!TIP]
 >  加入對應的最後一個項目會以綠色反白顯示。  綠色箭頭顯示指標在程式碼中的位置。  項目之間的箭頭表示不同的關聯性。  您可以藉由在周圍移動滑鼠和檢查工具提示，來取得對應上之項目的詳細資訊。  
@@ -69,7 +69,7 @@ Code Map 有助於避免在大型程式碼基底、不熟悉的程式碼或舊�
   
  ![Code Map &#45; 尋找所有參考](../modeling/media/codemapstoryboardpaint6.png "CodeMapStoryboardPaint6")  
   
- ![從程式碼編輯器中開啟 Code Map](../modeling/media/codemapstoryboardpaint6a.png "CodeMapStoryboardPaint6A")  
+ ![從程式碼編輯器中開啟 Code Map](~/docs/modeling/media/codemapstoryboardpaint6a.PNG "CodeMapStoryboardPaint6A")  
   
 > [!NOTE]
 >  如果您從跨多個應用程式 \(如 Windows Phone 或 Windows 市集\) 共用的專案中加入項目，則這些項目將一律與目前作用中的應用程式專案一起出現在對應上。  因此，如果您將內容變更為另一個應用程式專案，對應上的內容也會為任何來自共用專案的新增項目進行變更。  您使用對應中項目執行的作業僅適用於共用相同內容的項目。  

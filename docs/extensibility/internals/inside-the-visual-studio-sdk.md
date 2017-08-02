@@ -42,7 +42,7 @@ ms.lasthandoff: 04/05/2017
 ## <a name="extensibility-architecture"></a>擴充性架構  
  下圖顯示 Visual Studio 擴充性架構。 Vspackage 提供應用程式功能，以服務的形式在 IDE 之間共用。 標準 IDE 也提供廣泛的服務，例如<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>，這兩個提供 IDE 視窗化功能的存取權。</xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>  
   
- ![環境架構圖形](../../extensibility/internals/media/environment.gif "environment")  
+ ![環境架構圖形](~/docs/extensibility/internals/media/environment.gif "environment")  
 Visual Studio 架構一般化的檢視  
   
 ## <a name="vspackages"></a>VSPackages  
@@ -75,7 +75,7 @@ Visual Studio 架構一般化的檢視
   
  請考慮下列 Visual Studio 中，其中包含數個工具視窗的圖片。  
   
- ![螢幕擷取畫面](../../extensibility/internals/media/t1gui.png "T1gui")  
+ ![螢幕擷取畫面](~/docs/extensibility/internals/media/t1gui.png "T1gui")  
   
  某些工具視窗會一起停駐在單一的窗格會顯示 [方案總管] 工具視窗也會隱藏其他工具視窗，但可讓它們透過按一下索引標籤上。 圖中會顯示兩個其他工具視窗，**錯誤清單**和**輸出**視窗中，一起停駐單一窗格。  
   

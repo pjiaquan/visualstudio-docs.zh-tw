@@ -36,7 +36,7 @@ manager: "ghogen"
   
  在此情節中，當執行應用程式來加以測試時，背景如預期般轉譯，但其中一個物件未出現。 透過使用圖形診斷，您可擷取圖形記錄問題，以偵錯應用程式。 在應用程式中，問題看起來如下：  
   
- ![無法看到物件。](../debugger/media/gfx_diag_demo_missing_object_shader_problem.png "gfx\_diag\_demo\_missing\_object\_shader\_problem")  
+ ![無法看到物件。](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_problem.png "gfx\_diag\_demo\_missing\_object\_shader\_problem")  
   
 ## 調查  
  透過使用圖形診斷工具，您可以載入圖形記錄，以檢查測試期間所擷取的畫面格。  
@@ -68,7 +68,7 @@ manager: "ghogen"
   
 4.  在到達對應至遺漏物件的繪製呼叫時停止。 在此情節中，\[圖形管線階段\] 視窗表示幾何已發給 GPU \(由輸入組合語言縮圖表示\)，但未在轉譯目標中出現，因為在端點著色器階段 \(由端點著色器縮圖表示\) 發生錯誤：  
   
-     ![DrawIndexed 事件及其對管線的影響](../debugger/media/gfx_diag_demo_missing_object_shader_step_2.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_2")  
+     ![DrawIndexed 事件及其對管線的影響](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_2.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_2")  
   
  在您確認應用程式對遺漏物件的幾何發出繪製呼叫，而發現問題是在端點著色器階段發生之後，您可以使用 HLSL 偵錯工具來檢查端點著色器，並查明物件的幾何發生什麼狀況。 您可以使用 HLSL 偵錯工具在執行時檢查 HLSL 變數狀態、逐步執行 HLSL 程式碼，以及設定能協助您診斷問題的中斷點。  
   
@@ -80,19 +80,19 @@ manager: "ghogen"
   
 3.  第一次修改 `output` 時，會寫入 `worldPos` 成員。  
   
-     !["output.worldPos" 的值看似合理](../debugger/media/gfx_diag_demo_missing_object_shader_step_4.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_4")  
+     !["output.worldPos" 的值看似合理](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_4.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_4")  
   
      由於其值似乎很合理，因此您會繼續逐步執行程式碼，直到下一個修改 `output` 的程式碼行為止。  
   
 4.  下次修改 `output` 時，會寫入 `pos` 成員。  
   
-     !["output.pos" 已變成 0](../debugger/media/gfx_diag_demo_missing_object_shader_step_5.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_5")  
+     !["output.pos" 已變成 0](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_5.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_5")  
   
      這次，`pos` 成員的值 \(全部為零\) 看起來十分可疑。 接下來，您要判斷 `output.pos` 的值為何全都為零。  
   
 5.  您注意到 `output.pos` 從名為 `temp` 的變數取得其值。 在上一行，您看到 `temp` 的值是將先前值乘以名為 `projection` 之常數的結果。 您懷疑 `temp` 的可疑值是此相乘的結果。 當您將指標放在 `projection` 時，您注意到其值也全部為零。  
   
-     ![投影轉換矩陣包含不良的轉換](../debugger/media/gfx_diag_demo_missing_object_shader_step_6.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_6")  
+     ![投影轉換矩陣包含不良的轉換](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_6.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_6")  
   
      在此情節中，檢查顯示 `temp` 的可疑值最有可能是與 `projection` 相乘的結果，而且由於 `projection` 是要包含投影矩陣的常數，因此您知道其不應包含全部為零。  
   
@@ -104,7 +104,7 @@ manager: "ghogen"
   
 2.  在呼叫堆疊向上巡覽至應用程式的原始程式碼中。 在 \[圖形事件呼叫堆疊\] 視窗中，選擇最上方的呼叫，查看常數緩衝區是否填入此處。 如果沒有，請繼續向上查看呼叫堆疊，直到您找到其填入的位置。 在此情節中，您會發現常數緩衝區正在進一步向上填滿 \(使用 `UpdateSubresource` Direct3D API\) 名為 `MarbleMaze::Render` 之函式中的呼叫堆疊，而且其值來自名為 `m_marbleConstantBufferData` 的常數緩衝區物件：  
   
-     ![設定物件之常數緩衝區的程式碼](../debugger/media/gfx_diag_demo_missing_object_shader_step_7.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_7")  
+     ![設定物件之常數緩衝區的程式碼](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_7.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_7")  
   
     > [!TIP]
     >  如果您同時偵錯應用程式，您可以在這個位置上設定中斷點，當轉譯下一個畫面格時就會叫用該中斷點。 您可以接著檢查 `m_marbleConstantBufferData` 的成員，確認 `projection` 成員的值在填滿常數緩衝區時會設定為全部為零。  
@@ -119,12 +119,12 @@ manager: "ghogen"
   
  找到設定 `m_marbleConstantBufferData.projection` 的位置之後，即可檢查周圍的原始程式碼以判斷無效值的來源。 在此情節中，您會發現 `m_marbleConstantBufferData.projection` 的值在初始化為下一行的程式碼 `m_camera->GetProjection(&projection);` 所提供的值之前，已設定為名為 `projection` 的區域變數。  
   
- ![初始化滾珠迷宮前先設定其投影](../debugger/media/gfx_diag_demo_missing_object_shader_step_9.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_9")  
+ ![初始化滾珠迷宮前先設定其投影](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_9.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_9")  
   
  若要修正問題，請將設定 `m_marbleConstantBufferData.projection` 值的程式碼行，移至初始化區域變數 `projection` 值的程式碼行後面。  
   
- ![修正過的 C&#43;&#43; 原始程式碼](../debugger/media/gfx_diag_demo_missing_object_shader_step_10.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_10")  
+ ![修正過的 C&#43;&#43; 原始程式碼](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_step_10.png "gfx\_diag\_demo\_missing\_object\_shader\_step\_10")  
   
  修正程式碼之後，您可以加以重新建置並再次執行應用程式，以確認轉譯問題已解決：  
   
- ![現在物件已顯示。](../debugger/media/gfx_diag_demo_missing_object_shader_resolution.png "gfx\_diag\_demo\_missing\_object\_shader\_resolution")
+ ![現在物件已顯示。](~/docs/debugger/graphics/media/gfx_diag_demo_missing_object_shader_resolution.png "gfx\_diag\_demo\_missing\_object\_shader\_resolution")

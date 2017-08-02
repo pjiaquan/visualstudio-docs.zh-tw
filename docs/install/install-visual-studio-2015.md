@@ -47,7 +47,7 @@ manager: "ghogen"
 ##  <a name="custom"></a> 預設值與自訂設定  
  當您安裝 Visual Studio 2015 時，您可以包含或排除您日常使用的元件。 這表示預設安裝通常會比自訂安裝更小，而且安裝速度更快。 這也意謂著在舊版中許多預設安裝的元件，在此版本中已改為您必須明確選取的「自訂」元件。  
   
- ![Visual Studio 2015 的 &#91;安裝&#93; 對話方塊](../ide/media/vs2015_setup_screen.png "VS2015\_Setup\_screen")  
+ ![Visual Studio 2015 的 &#91;安裝&#93; 對話方塊](~/docs/ide/media/vs2015_setup_screen.png "VS2015\_Setup\_screen")  
   
  自訂元件包括 Visual C\+\+、Visual F \#、SQL Server Data Tools、跨平台行動工具和 SDK 以及協力廠商 SDK 和擴充功能。 如果您沒有在初始安裝期間選取任何自訂元件，仍可於稍後安裝。  
   

@@ -28,7 +28,7 @@ caps.handback.revision: 17
   
  \[**尋找\/命令**\] 方塊會保留最後 20 個輸入項目，並顯示在下拉式清單中。  您可以巡覽清單可以選取向上鍵。  
   
- ![尋找&#47;命令方塊](../ide/media/findcommandbox.png "FindCommandBox")  
+ ![尋找&#47;命令方塊](~/docs/ide/media/findcommandbox.png "FindCommandBox")  
 尋找\/命令方塊  
   
 ## 搜尋文字  

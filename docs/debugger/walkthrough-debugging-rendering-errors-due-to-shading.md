@@ -34,7 +34,7 @@ manager: "ghogen"
   
  在此情節中，您最近才將物件連同新的端點和像素著色器一併加入應用程式，以轉換該物件並賦予獨特外觀。 但在測試期間執行應用程式時，該物件卻呈現為純黑色。 透過使用圖形診斷，您可擷取圖形記錄問題，以偵錯應用程式。 在應用程式中，問題看起來如下：  
   
- ![此物件是以不正確的色彩來呈現。](../debugger/media/gfx_diag_demo_render_error_shader_problem.png "gfx\_diag\_demo\_render\_error\_shader\_problem")  
+ ![此物件是以不正確的色彩來呈現。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_problem.png "gfx\_diag\_demo\_render\_error\_shader\_problem")  
   
 ## 調查  
  透過使用圖形診斷工具，您可以載入圖形記錄文件，以檢查測試期間所擷取的畫面格。  
@@ -45,7 +45,7 @@ manager: "ghogen"
   
 2.  在 \[畫面格清單\] 中，選取物件在其中沒有正確外觀的畫面格。 轉譯目標會更新以反映選取的畫面格。 在此情節中，圖形記錄文件視窗如下所示：  
   
-     ![Visual Studio 中的圖形記錄文件。](../debugger/media/gfx_diag_demo_render_error_shader_step_1.png "gfx\_diag\_demo\_render\_error\_shader\_step\_1")  
+     ![Visual Studio 中的圖形記錄文件。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_step_1.png "gfx\_diag\_demo\_render\_error\_shader\_step\_1")  
   
  選取示範問題的畫面格之後，即可使用 \[圖形像素歷史記錄\] 視窗進行診斷。 \[圖形像素歷史記錄\] 視窗會依時間先後順序顯示可能影響特定像素及其著色器的基本圖形，以及這些基本圖形對轉譯目標的影響。  
   
@@ -59,7 +59,7 @@ manager: "ghogen"
   
      \[圖形像素歷史記錄\] 視窗隨即更新，以反映選取的像素。 在此情節中，\[圖形像素歷史記錄\] 視窗如下所示：  
   
-     ![像素歷史記錄顯示一個 DrawIndexed 事件。](../debugger/media/gfx_diag_demo_render_error_shader_step_3.png "gfx\_diag\_demo\_render\_error\_shader\_step\_3")  
+     ![像素歷史記錄顯示一個 DrawIndexed 事件。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_step_3.png "gfx\_diag\_demo\_render\_error\_shader\_step\_3")  
   
      請注意，像素著色器的結果是完全不透明的黑色 \(0, 0, 0, 1\)，而 \[輸出合併\] 已將此結果與像素的 \[上一個\] 色彩合併，使得 \[結果\] 也是完全不透明的黑色。  
   
@@ -73,7 +73,7 @@ manager: "ghogen"
   
 3.  將指標放在 `input.color` 上。 請注意，其值是完全不透明的黑色 \(0, 0, 0, 1\)。  
   
-     !["input" 的 "color" 成員是黑色。](../debugger/media/gfx_diag_demo_render_error_shader_step_5.png "gfx\_diag\_demo\_render\_error\_shader\_step\_5")  
+     !["input" 的 "color" 成員是黑色。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_step_5.png "gfx\_diag\_demo\_render\_error\_shader\_step\_5")  
   
      在此情節中，根據檢查結果所示，色彩不正確可能是因為端點著色器並未向像素著色器的作業提供正確的色彩資訊所致。  
   
@@ -87,7 +87,7 @@ manager: "ghogen"
   
 3.  確認絕不會從輸入結構複製 color 成員。 由於在傳回 `output` 結構之前，`output.color` 的值已設定為完全不透明的黑色，因此建議您確定 `output` 的值在上一行未正確初始化。 查看 `output.color` 的值時，逐步執行端點著色器程式碼，直到您到達將 `output.color` 設定為黑色的程式碼行。 請注意，`output.color` 的值在設定為黑色之前尚未初始化。 這會確認應修改將 `output.color` 設定為黑色的程式碼行，而不是予以刪除。  
   
-     !["output.color" 的值是黑色。](../debugger/media/gfx_diag_demo_render_error_shader_step_7.png "gfx\_diag\_demo\_render\_error\_shader\_step\_7")  
+     !["output.color" 的值是黑色。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_step_7.png "gfx\_diag\_demo\_render\_error\_shader\_step\_7")  
   
  在您判斷轉譯問題的原因是端點著色器未提供正確色彩值給像素著色器之後，您可以使用這項資訊來修正問題。 在此情節中，若要修正問題，請變更端點著色器中的下列程式碼  
   
@@ -103,8 +103,8 @@ output.color = input.color;
   
  此程式碼才從物件的頂點傳遞未修改的端點色彩，更複雜的端點著色器可以在傳遞前修改色彩。 修正過的端點著色器程式碼應該會與以下相似：  
   
- ![修正過的端點著色器程式碼。](../debugger/media/gfx_diag_demo_render_error_shader_step_8.png "gfx\_diag\_demo\_render\_error\_shader\_step\_8")  
+ ![修正過的端點著色器程式碼。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_step_8.png "gfx\_diag\_demo\_render\_error\_shader\_step\_8")  
   
  修正程式碼之後，請重新建置並再次執行應用程式，以確認轉譯問題已解決。  
   
- ![此物件是以正確的色彩來呈現。](../debugger/media/gfx_diag_demo_render_error_shader_resolution.png "gfx\_diag\_demo\_render\_error\_shader\_resolution")
+ ![此物件是以正確的色彩來呈現。](~/docs/debugger/graphics/media/gfx_diag_demo_render_error_shader_resolution.png "gfx\_diag\_demo\_render\_error\_shader\_resolution")

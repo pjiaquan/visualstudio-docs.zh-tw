@@ -127,7 +127,7 @@ ms.lasthandoff: 05/13/2017
   
  第一次啟動代理程式以及建立新的用戶端憑證時，會提供您在 Visual Studio 中設定代理程式的必要資訊，包括主機名稱、連接埠和 PIN 碼。  
   
- ![使用 vcremote 產生安全性 PIN 碼](../cross-platform/media/cppmdd_vcremote_generateclientcert.png "CPPMDD_vcremote_generateClientCert")  
+ ![使用 vcremote 產生安全性 PIN 碼](~/docs/cross-platform/media/cppmdd_vcremote_generateclientcert.png "CPPMDD_vcremote_generateClientCert")  
   
  如果您要使用主機名稱在 Visual Studio 中設定遠端代理程式，請使用主機名稱從 Windows ping 到 Mac 以確認可以存取。 如果不行，您可能要改用 IP 位址。  
   
@@ -177,7 +177,7 @@ ms.lasthandoff: 05/13/2017
   
 7.  若要啟用配對，請選擇 [配對]。  
   
-     ![設定 iOS 組建的 vcremote 連線](../cross-platform/media/cppmdd_options_ios.PNG "CPPMDD_Options_iOS")  
+     ![設定 iOS 組建的 vcremote 連線](~/docs/cross-platform/media/cppmdd_options_ios.PNG "CPPMDD_Options_iOS")  
   
      配對會一直保存，直到您變更主機名稱或連接埠為止。 如果您變更 [選項]  對話方塊中的主機名稱或連接埠，要復原變更時，請選擇 [還原]  按鈕以還原為先前的配對。  
   

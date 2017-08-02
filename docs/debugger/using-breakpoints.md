@@ -56,11 +56,11 @@ manager: "ghogen"
 ##  <a name="BKMK_Overview"></a> 在原始程式碼中設定函式中斷點  
  您可以在原始程式碼檔案左邊界按一下，或將游標放在程式碼行，再按 F9，設定在原始程式碼中的函式中斷點。 中斷點會在左邊界中顯示為一個紅點，且該行程式碼也會標上色彩：  
   
- ![設定中斷點](../debugger/media/basicbreakpoint.png "BasicBreakpoint")  
+ ![設定中斷點](~/docs/debugger/media/basicbreakpoint.png "BasicBreakpoint")  
   
  當您在偵錯工具中執行此程式碼時，每當該行程式碼執行之前叫用了中斷點，便會停止執行。 原始程式碼行的色彩為黃色：  
   
- ![中斷點執行已停止](../debugger/media/breakpointexecution.png "BreakpointExecution")  
+ ![中斷點執行已停止](~/docs/debugger/media/breakpointexecution.png "BreakpointExecution")  
   
  此時 `testInt` 的值仍然是 1。  
   
@@ -134,7 +134,7 @@ manager: "ghogen"
 ##  <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> 管理中斷點  
  您可以使用 \[中斷點\] 視窗 \(\[偵錯\] \/ \[Windows\] \/ \[中斷點\]，或 **CTRL \+ ALT \+ B**\) 查看已在方案中設定的所有中斷點：  
   
- ![中斷點視窗](../debugger/media/breakpointswindow.png "BreakpointsWindow")  
+ ![中斷點視窗](~/docs/debugger/media/breakpointswindow.png "BreakpointsWindow")  
   
  \[中斷點\] 視窗可讓您集中管理所有中斷點，這點在非常重視中斷點的大型方案或複雜的偵錯情節中非常有用。 如果您需要儲存或共用一組中斷點的狀態和位置，只能從 \[中斷點\] 視窗儲存和匯入中斷點。  
   

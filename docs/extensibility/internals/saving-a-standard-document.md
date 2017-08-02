@@ -23,7 +23,7 @@ caps.handback.revision: 8
 
 儲存、 另存新檔，及全部儲存\] 指令，就會處理環境。  當使用者選取**儲存**， **另存新檔**，或 **全部儲存** 從 **檔案** 功能表或關閉方案，因而導致 **全部儲存**，下列程序。  
   
- ![標準編輯器](../../extensibility/internals/media/public.png "Public")  
+ ![標準編輯器](~/docs/extensibility/internals/media/public.gif "Public")  
 儲存，請另存新檔，並儲存所有的命令處理標準編輯器  
   
  此程序將有詳細說明下列步驟：  

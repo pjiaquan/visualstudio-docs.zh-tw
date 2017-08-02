@@ -48,7 +48,7 @@ manager: "ghogen"
   
 #### 擷取圖形資訊  
   
--   在 \[圖形診斷\] 工具列上，選擇 \[擷取\] 按鈕。![圖形擷取按鈕圖示](../debugger/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")  
+-   在 \[圖形診斷\] 工具列上，選擇 \[擷取\] 按鈕。![圖形擷取按鈕圖示](~/docs/debugger/graphics/media/debuggingdirectxgraphics.png "DebuggingDirectXGraphics")  
   
      \-或\-  
   

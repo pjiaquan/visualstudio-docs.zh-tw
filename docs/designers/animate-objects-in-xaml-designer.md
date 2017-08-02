@@ -24,20 +24,20 @@ caps.handback.revision: 9
   
  下列圖例顯示名為 \[上移\] 的分鏡腳本。 時間軸包含標示矩形 X 和 Y 位置的主要畫面格。 在這個動畫執行時，矩形會從一個位置順暢移動至另一個位置。  
   
- ![](../designers/media/982f031a-74a3-414a-abc2-a0f41a741075.png "982f031a\-74a3\-414a\-abc2\-a0f41a741075")  
+ ![](~/docs/designers/media/982f031a-74a3-414a-abc2-a0f41a741075.png "982f031a\-74a3\-414a\-abc2\-a0f41a741075")  
   
  觀賞這些影片，了解如何建立動畫。  
   
 |觀看短片：|了解如何：|  
 |-----------|-----------|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [建立時間軸](http://www.popscreen.com/v/6A4eF/Microsoft-Expression-Blend-Creating-Timelines)|建立時間軸，並使用時間軸中的物件。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [新增主要畫面格並重複動畫](http://www.popscreen.com/v/6A4fi/Microsoft-Expression-Blend-Adding-Keyframes-and-Repeating-an-Animation)|加入主要畫面格，並設定每個主要畫面格的屬性。 然後，執行動畫並觀賞物件在動畫之間順暢地轉場。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [新增互動功能的事件觸發程序](http://www.popscreen.com/v/6A4e4/Microsoft-Expression-Blend-Adding-Event-Triggers-for-Interactivity)|在發生事件時啟動動畫。 例如，載入視窗時啟動動畫。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [色彩動畫](http://www.popscreen.com/v/6A4gv/Microsoft-Expression-Blend-Animating-Colors)|使用動畫來變更物件的色彩。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [建立和修改動畫路徑](http://www.popscreen.com/v/6A4fX/Microsoft-Expression-Blend-Creating-and-Modifying-Motion-Paths)|沿著路徑製作物件動畫。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [畫面格加減速](http://www.popscreen.com/v/6A4dM/Microsoft-Expression-Blend-Easing-Keyframes)|讓即將開始 \(*「加速」*\(easing in\) 或即將結束 \(*「減速」*\(easing out\) 的動畫加速或變慢。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [按鈕動畫](http://www.popscreen.com/v/6A4fK/Microsoft-Expression-Blend-Animating-a-Button)|建立在使用者指向按鈕時會出現在上面的有趣效果。|  
-|![設定已安裝的功能](../designers/media/bldadminconsoleinitialconfigicon.png "BldAdminConsoleInitialConfigIcon") [建立動畫並輕鬆使用](https://www.youtube.com/watch?v=mAJXYrwxGYo)|製作會在使用者按下計算機影像的按鈕時出現的動畫效果。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [建立時間軸](http://www.popscreen.com/v/6A4eF/Microsoft-Expression-Blend-Creating-Timelines)|建立時間軸，並使用時間軸中的物件。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [新增主要畫面格並重複動畫](http://www.popscreen.com/v/6A4fi/Microsoft-Expression-Blend-Adding-Keyframes-and-Repeating-an-Animation)|加入主要畫面格，並設定每個主要畫面格的屬性。 然後，執行動畫並觀賞物件在動畫之間順暢地轉場。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [新增互動功能的事件觸發程序](http://www.popscreen.com/v/6A4e4/Microsoft-Expression-Blend-Adding-Event-Triggers-for-Interactivity)|在發生事件時啟動動畫。 例如，載入視窗時啟動動畫。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [色彩動畫](http://www.popscreen.com/v/6A4gv/Microsoft-Expression-Blend-Animating-Colors)|使用動畫來變更物件的色彩。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [建立和修改動畫路徑](http://www.popscreen.com/v/6A4fX/Microsoft-Expression-Blend-Creating-and-Modifying-Motion-Paths)|沿著路徑製作物件動畫。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [畫面格加減速](http://www.popscreen.com/v/6A4dM/Microsoft-Expression-Blend-Easing-Keyframes)|讓即將開始 \(*「加速」*\(easing in\) 或即將結束 \(*「減速」*\(easing out\) 的動畫加速或變慢。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [按鈕動畫](http://www.popscreen.com/v/6A4fK/Microsoft-Expression-Blend-Animating-a-Button)|建立在使用者指向按鈕時會出現在上面的有趣效果。|  
+|![設定已安裝的功能](~/docs/designers/media/bldadminconsoleinitialconfigicon.PNG "BldAdminConsoleInitialConfigIcon") [建立動畫並輕鬆使用](https://www.youtube.com/watch?v=mAJXYrwxGYo)|製作會在使用者按下計算機影像的按鈕時出現的動畫效果。|  
   
 ## 請參閱  
  [使用 Blend for Visual Studio 建立 UI](../designers/creating-a-ui-by-using-blend-for-visual-studio.md)

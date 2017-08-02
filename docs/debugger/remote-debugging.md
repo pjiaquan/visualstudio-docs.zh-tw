@@ -92,7 +92,7 @@ manager: "ghogen"
   
 6.  設定完成時，\[遠端偵錯工具\] 視窗隨即出現。  
   
-     ![RemoteDebuggerWindow](../debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")  
+     ![RemoteDebuggerWindow](~/docs/debugger/media/remotedebuggerwindow.png "RemoteDebuggerWindow")  
   
  您可以在視窗上按一下 \[檔案\] \/ \[結束\] 來停止 \[遠端偵錯工具\]。 您可以從 \[開始\] 功能表或從命令列將其重新啟動：  
   
@@ -170,7 +170,7 @@ manager: "ghogen"
   
 7.  在 \[偵錯\] 組態中，選取 \[部署\] 核取方塊。  
   
-     ![RemoteDebugCplusDeploy](../debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")  
+     ![RemoteDebugCplusDeploy](~/docs/debugger/media/remotedebugcplusdeploy.png "RemoteDebugCplusDeploy")  
   
 8.  開始偵錯 \(\[偵錯\] \/ \[開始偵錯\]，或 **F5**\)。  
   

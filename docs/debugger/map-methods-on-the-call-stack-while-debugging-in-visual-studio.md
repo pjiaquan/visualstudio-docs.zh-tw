@@ -75,7 +75,7 @@ ms.lasthandoff: 02/22/2017
   
 2.  您的應用程式進入中斷模式或是您逐步執行函式之後，請選擇**Code Map**。 (Keyboard: **Ctrl** + **Shift** + **`**)  
   
-     ![選擇 開始對應堆疊呼叫 Code Map](../debugger/media/debuggermap_choosecodemap.png "DebuggerMap_ChooseCodeMap")  
+     ![選擇 開始對應堆疊呼叫 Code Map](~/docs/debugger/media/debuggermap_choosecodemap.png "DebuggerMap_ChooseCodeMap")  
   
      目前的呼叫堆疊會在新的 Code Map 上顯示為橙色：  
   
@@ -136,11 +136,11 @@ ms.lasthandoff: 02/22/2017
   
      根據預設，只有您的程式碼會出現在對應圖上。 若要查看外部程式碼，將其開啟**呼叫堆疊**視窗︰  
   
-     ![顯示外部程式碼使用 [呼叫堆疊] 視窗](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")  
+     ![顯示外部程式碼使用 [呼叫堆疊] 視窗](~/docs/debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")  
   
      關閉或**啟用 Just My Code**在 Visual Studio 偵錯選項︰  
   
-     ![顯示外部程式碼使用 [選項] 對話方塊](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")  
+     ![顯示外部程式碼使用 [選項] 對話方塊](~/docs/debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")  
   
 -   **變更對應圖是否會影響程式碼？**  
   
@@ -168,7 +168,7 @@ ms.lasthandoff: 02/22/2017
   
 -   **如何避免自動加入新的呼叫堆疊的對應？**  
   
-     選擇![按鈕-顯示呼叫堆疊上的程式碼將會自動對應](../debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") map 工具列上。 若要手動新增到對應的目前呼叫堆疊，請按**Ctrl** + **Shift** + **`**。  
+     選擇![按鈕-顯示呼叫堆疊上的程式碼將會自動對應](~/docs/debugger/media/debuggermap_automaticupdateicon.gif "DebuggerMap_AutomaticUpdateIcon") map 工具列上。 若要手動新增到對應的目前呼叫堆疊，請按**Ctrl** + **Shift** + **`**。  
   
      在偵錯時，對應圖會繼續反白顯示對應圖上現有的呼叫堆疊。  
   

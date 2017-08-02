@@ -51,7 +51,7 @@ Visual Studio 可協助產生部分的原始程式碼，讓您專注於實際工
 
 <a name="#quick-actions"></a>
 ## <a name="quick-actions"></a>快速動作
-快速動作可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  這些可以藉由當您的游標位於適當程式碼行時使用燈泡圖示 ![小燈泡圖示](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用。 when your cursor is on the appropriate line of code.
+快速動作可讓您輕鬆地重構、產生或用其他方式以單一動作修改程式碼。  這些可以藉由當您的游標位於適當程式碼行時使用燈泡圖示 ![小燈泡圖示](~/docs/ide/media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") 或按 **Ctrl + .** 來套用。 when your cursor is on the appropriate line of code.
 
 * [快速動作](quick-actions.md)
 * [程式碼樣式及快速動作](code-styles-and-quick-actions.md)

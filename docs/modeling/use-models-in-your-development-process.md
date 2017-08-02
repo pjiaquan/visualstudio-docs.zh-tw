@@ -142,7 +142,7 @@ ms.lasthandoff: 02/22/2017
   
 |**類別目錄**|**連結**|  
 |------------------|---------------|  
-|**影片**|![視訊連結](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 影片︰ 如何建立和使用 UML 模型和圖表 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![視訊連結](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9︰ 搭配 Visual Studio 2010 使用 UML](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![視訊連結](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 系列︰ UML 工具和擴充性 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
+|**影片**|![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 影片︰ 如何建立和使用 UML 模型和圖表 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkId=214460)<br /><br /> ![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [Channel 9︰ 搭配 Visual Studio 2010 使用 UML](http://go.microsoft.com/fwlink/?LinkID=201106)<br /><br /> ![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I 系列︰ UML 工具和擴充性 (Visual Studio 2010 Ultimate)](http://go.microsoft.com/fwlink/?LinkID=214467)|  
 |**論壇**|-   [Visual Studio Visualization i 模型工具](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization i Modeling SDK （DSL 工具）](http://go.microsoft.com/fwlink/?LinkId=184721)|  
 |**部落格**|[Visual Studio ALM + Team Foundation Server 部落格](http://go.microsoft.com/fwlink/?LinkID=201340)|  
 |**技術文件和日誌**|[MSDN 架構中心](http://go.microsoft.com/fwlink/?LinkId=201343)<br /><br /> [Visual Studio 架構工具指南](../modeling/visual-studio-architecture-tooling-guidance.md)|  

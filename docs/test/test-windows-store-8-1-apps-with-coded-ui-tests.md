@@ -84,11 +84,11 @@ ms.lasthandoff: 05/13/2017
   
 1.  為 Windows 市集應用程式建立新的自動程式碼 UI 測試專案。  
   
-     ![新增自動程式化 UI 測試專案 &#40;Windows 市集應用程式&#41;](../test/media/cuit_windowsstore_newproject.png "CUIT_WindowsStore_NewProject")  
+     ![新增自動程式化 UI 測試專案 &#40;Windows 市集應用程式&#41;](~/docs/test/media/cuit_windowsstore_newproject.png "CUIT_WindowsStore_NewProject")  
   
 2.  選擇使用交叉線工具編輯 UI 對應。  
   
-     ![選擇 [編輯 UI 對應或新增判斷提示]](../test/media/cuit_windowsstoreapp_createproject_gencodedialog.png "CUIT_WindowsStoreApp_CreateProject_GenCodeDialog")  
+     ![選擇 [編輯 UI 對應或新增判斷提示]](~/docs/test/media/cuit_windowsstoreapp_createproject_gencodedialog.png "CUIT_WindowsStoreApp_CreateProject_GenCodeDialog")  
   
 3.  使用自動程式碼 UI 測試產生器中的交叉線工具選取應用程式磚，以滑鼠右鍵按一下 [AutomationId]  ，然後選擇 [將值複製到剪貼簿] 。 剪貼簿中的值稍後將會用來撰寫可啟動應用程式進行測試的動作。  
   
@@ -116,7 +116,7 @@ ms.lasthandoff: 05/13/2017
   
 9. 加入並產生判斷提示的程式碼。  
   
-     ![產生文字方塊判斷提示的程式碼](../test/media/cuit_windowsstoreapp_textbox_generate_assertion.png "CUIT_WindowsStoreApp_Textbox_Generate_Assertion")  
+     ![產生文字方塊判斷提示的程式碼](~/docs/test/media/cuit_windowsstoreapp_textbox_generate_assertion.png "CUIT_WindowsStoreApp_Textbox_Generate_Assertion")  
   
 10. **Visual C#**  
   

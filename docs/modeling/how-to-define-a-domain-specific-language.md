@@ -59,7 +59,7 @@ ms.lasthandoff: 02/22/2017
   
 1.  建立方案**定義域專屬語言**範本，您可以找到**其他專案類型/擴充性**中**新的專案**對話方塊。  
   
-     ![建立 DSL 對話方塊](../modeling/media/create_dsldialog.png "Create_DSLDialog")  
+     ![建立 DSL 對話方塊](~/docs/modeling/media/create_dsldialog.png "Create_DSLDialog")  
   
      當您按一下**確定**、**定義域專屬語言精靈**會開啟並顯示範本 DSL 方案清單。  
   
@@ -111,7 +111,7 @@ ms.lasthandoff: 02/22/2017
   
  如果您執行解決方案，建立從**最小語言**範本、 實驗[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]會類似下列的範例︰  
   
- ![](../modeling/media/dsl_min.png "DSL_min")  
+ ![](~/docs/modeling/media/dsl_min.png "DSL_min")  
   
  使用工具進行實驗。 建立項目並連接它們。  
   
@@ -297,7 +297,7 @@ ms.lasthandoff: 02/22/2017
   
     4.  請確定核取記號隨每一個裝飾項目名稱出現。  
   
-     ![圖形對應和 DSL 詳細資料視窗](../modeling/media/dsldetailswindow.png "DslDetailsWindow")  
+     ![圖形對應和 DSL 詳細資料視窗](~/docs/modeling/media/dsldetailswindow.png "DslDetailsWindow")  
   
 7.  **工具箱項目設為建立網域類別的項目。**  
   
@@ -360,7 +360,7 @@ ms.lasthandoff: 02/22/2017
   
  **設定允許重複的屬性關聯性，**如果相同的模型項目組之間有多個相同的類別連結。 例如，您可以允許老師向同一位學生教授多個科目。  
   
- ![圖形的連接器對應](../modeling/media/music_connector.png "Music_Connector")  
+ ![圖形的連接器對應](~/docs/modeling/media/music_connector.png "Music_Connector")  
   
  如需詳細資訊，請參閱[屬性的網域關聯性](../modeling/properties-of-domain-relationships.md)和[網域角色的屬性](../modeling/properties-of-domain-roles.md)。  
   
@@ -427,7 +427,7 @@ ms.lasthandoff: 02/22/2017
   
  在 DSL 定義中達成此效果的最簡單方法中，請為容器定義一個網域類別，並為每一份清單各定義一個網域類別。 容器類別會對應到區間圖形。  
   
- ![圖案對應](../modeling/media/music_mapcomp.png "Music_MapComp")  
+ ![圖案對應](~/docs/modeling/media/music_mapcomp.png "Music_MapComp")  
   
  如需詳細資訊，請參閱[區間圖形屬性](../modeling/properties-of-compartment-shapes.md)。  
   
@@ -517,7 +517,7 @@ ms.lasthandoff: 02/22/2017
   
 7.  開啟語言總管。 確認您可以看到內部有清單項目節點的容器節點。  
   
- ![產生的 DSL 總管](../modeling/media/music_explorer.png "Music_Explorer")  
+ ![產生的 DSL 總管](~/docs/modeling/media/music_explorer.png "Music_Explorer")  
   
  先測試區間圖形之後，您可能想要調整其部分屬性以及加入一些其他的進階功能。 如需詳細資訊，請參閱[自訂及擴充定義域專屬語言](../modeling/customizing-and-extending-a-domain-specific-language.md)。  
   

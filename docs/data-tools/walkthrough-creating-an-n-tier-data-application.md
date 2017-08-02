@@ -49,7 +49,7 @@ manager: "ghogen"
   
 -   撰寫程式碼以填入資料表。  
   
- ![視訊的連結](../data-tools/media/playvideo.png "PlayVideo") 如需本主題的影片版本，請參閱[影片 \- 如何：建立多層式架構資料應用程式](http://go.microsoft.com/fwlink/?LinkId=115188)。  
+ ![視訊的連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") 如需本主題的影片版本，請參閱[影片 \- 如何：建立多層式架構資料應用程式](http://go.microsoft.com/fwlink/?LinkId=115188)。  
   
 ## 必要條件  
  若要完成這個逐步解說，您需要：  

@@ -63,11 +63,11 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
  這個視窗現在會有一個搜尋方塊，讓您可以找到事件清單中任何位置的特定字串。 例如，下圖顯示搜尋字串 "install" 的結果，其符合四個事件：  
   
- ![DiagnosticsEventSearch](../profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
+ ![DiagnosticsEventSearch](~/docs/profiling/media/diagnosticseventsearch.png "DiagnosticsEventSearch")  
   
  您也可以在視窗中篩選事件，來進行檢視或隱藏。 在 [篩選]  下拉式清單中，您可以核取或取消核取特定類別的事件。 類別名稱與前置詞名稱相同。  
   
- ![DiagnosticEventFilter](../profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
+ ![DiagnosticEventFilter](~/docs/profiling/media/diagnosticeventfilter.png "DiagnosticEventFilter")  
   
  如需詳細資訊，請參閱 [搜尋和篩選診斷工具視窗的事件索引標籤](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx)。  
   
@@ -80,7 +80,7 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
 3.  在診斷啟動頁面上，選擇要在工作階段中執行的一項或多項工具。 只有適用於該專案類型、作業系統與程式設計語言的工具才會顯示。 當您選擇一項診斷工具時，將會停用無法在相同診斷工作階段中執行的工具選項。 以下是 C# Windows 通用應用程式中可能會有的選項：  
   
-     ![選取診斷工具](../profiling/media/diag_selecttool.png "DIAG_SelectTool")  
+     ![選取診斷工具](~/docs/profiling/media/diag_selecttool.png "DIAG_SelectTool")  
   
 4.  若要開始診斷工作階段，請按一下 [開始]。  
   
@@ -88,7 +88,7 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
      執行工作階段期間，某些工具在診斷工具啟動頁面上會顯示即時資料圖表。  
   
-     ![在 [效能及診斷] 頁面上收集資料](../profiling/media/pdhub_collectdata.png "PDHUB_CollectData")  
+     ![在 [效能及診斷] 頁面上收集資料](~/docs/profiling/media/pdhub_collectdata.png "PDHUB_CollectData")  
   
 6.  若要結束診斷工作階段，請按一下 [停止收集]。  
   
@@ -96,32 +96,32 @@ Visual Studio 現在提供各種效能工具選擇，其中有些效能工具無
   
  此外，您也可以從診斷工具啟動頁面的最近開啟清單中，開啟已儲存的 .diagnostic 工作階段檔案。  
   
- ![開啟已儲存的診斷工作階段檔案](../profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
+ ![開啟已儲存的診斷工作階段檔案](~/docs/profiling/media/pdhub_openexistingdiagsession.png "PDHUB_OpenExistingDiagSession")  
   
 ## <a name="the-profiling-report"></a>程式碼剖析報表  
- ![診斷工具報表](../profiling/media/diag_report.png "DIAG_Report")  
+ ![診斷工具報表](~/docs/profiling/media/diag_report.png "DIAG_Report")  
   
 |||  
 |-|-|  
-|![步驟 1](../profiling/media/procguid_1.png "ProcGuid_1")|時間軸會顯示程式碼剖析工作階段的長度、應用程式週期啟用事件，以及使用者標記。|  
-|![步驟 2](../profiling/media/procguid_2.png "ProcGuid_2")|您可以拖曳藍色巡覽列，選取時間軸的區域，將報告限制在時間軸的一部分。|  
-|![步驟 3](../profiling/media/procguid_3.png "ProcGuid_3")|這項工具會顯示一個或多個主要圖表。 如果您的診斷工作階段是使用多項工具所建立，則會顯示所有主要圖表。|  
-|![步驟 4](../profiling/media/procguid_4.png "ProcGuid_4")|您可以摺疊和展開個別圖表。|  
-|![步驟 5](../profiling/media/procguid_6.png "ProcGuid_6")|當您的資料包含來自多項工具的資訊時，該工具的詳細資料會收集在索引標籤之下。|  
-|![步驟 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|這項工具可以有一個或多個詳細資料檢視。 檢視會經過特定時間軸區域篩選。|  
+|![步驟 1](~/docs/profiling/media/procguid_1.png "ProcGuid_1")|時間軸會顯示程式碼剖析工作階段的長度、應用程式週期啟用事件，以及使用者標記。|  
+|![步驟 2](~/docs/profiling/media/procguid_2.png "ProcGuid_2")|您可以拖曳藍色巡覽列，選取時間軸的區域，將報告限制在時間軸的一部分。|  
+|![步驟 3](~/docs/profiling/media/procguid_3.png "ProcGuid_3")|這項工具會顯示一個或多個主要圖表。 如果您的診斷工作階段是使用多項工具所建立，則會顯示所有主要圖表。|  
+|![步驟 4](~/docs/profiling/media/procguid_4.png "ProcGuid_4")|您可以摺疊和展開個別圖表。|  
+|![步驟 5](~/docs/profiling/media/procguid_6.png "ProcGuid_6")|當您的資料包含來自多項工具的資訊時，該工具的詳細資料會收集在索引標籤之下。|  
+|![步驟 6](~/docs/profiling/media/procguid_6a.png "ProcGuid_6a")|這項工具可以有一個或多個詳細資料檢視。 檢視會經過特定時間軸區域篩選。|  
   
 ## <a name="setting-the-analysis-target-to-another-device"></a>將另一部裝置設定為分析目標  
  除了從 Visual Studio 專案啟動您的應用程式之外，您也可以在替代目標上執行診斷工作階段。 例如，您可能想要在從 Windows 市集安裝的應用程式版本上診斷效能問題。  
   
- ![選擇診斷工具分析目標](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")  
+ ![選擇診斷工具分析目標](~/docs/profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")  
   
  您可以啟動裝置上已安裝的應用程式，也可以將診斷工具附加至已在執行中的某些應用程式。 當您選擇 [執行中的應用程式] 或 [已安裝的應用程式] 時，您可以從指定的部署目標上探索到的應用程式清單中選取應用程式。  
   
- ![選擇診斷執行中或已安裝的應用程式](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")  
+ ![選擇診斷執行中或已安裝的應用程式](~/docs/profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")  
   
  選擇 [Internet Explorer] 時，您可以指定 URL 以及變更手機部署目標。  
   
- ![指定要在 Internet Explorer 中顯示的 URL](../profiling/media/pdhub_choosephoneanalysistarget.png "PDHUB_ChoosePhoneAnalysisTarget")  
+ ![指定要在 Internet Explorer 中顯示的 URL](~/docs/profiling/media/pdhub_choosephoneanalysistarget.png "PDHUB_ChoosePhoneAnalysisTarget")  
   
 ## <a name="remote-debugging"></a>Remote Debugging  
  在遠端電腦或平板電腦上執行診斷工作階段需要安裝 Visual Studio 遠端工具，並使其於遠端目標上執行。 若為傳統型應用程式，請參閱[遠端偵錯](../debugger/remote-debugging.md)。  若為 Windows 通用應用程式，請參閱[在遠端電腦上執行 Windows 市集應用程式](../debugger/run-windows-store-apps-on-a-remote-machine.md).  

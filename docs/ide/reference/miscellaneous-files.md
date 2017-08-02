@@ -34,7 +34,7 @@ caps.handback.revision: 11
   
  在容器之外開啟檔案在許多方面是很有用處的。  您或許有個檔案是在開發專案架構式方案時想要檢視的，但是它卻不是構成該方案開發整體的一部分。  常見的例子包括開發註記或說明、資料庫結構描述 \(Database Schema\) 及程式碼片段。  而且，您或許會想要建立獨立的檔案。  
   
- ![方案專案](../../ide/reference/media/projects_solutions_misc.gif "Projects\_Solutions\_Misc")  
+ ![方案專案](~/docs/ide/reference/media/projects_solutions_misc.gif "Projects\_Solutions\_Misc")  
   
  如果啟用了 \[其他檔案\] 資料夾選項的話，方案總管可以顯示這些檔案的 \[其他檔案\] 資料夾。  這個選項可從[選項對話方塊、環境、文件](../../ide/reference/documents-environment-options-dialog-box.md)中設定。  當您關閉其他檔案之後，它不會與任何特定方案或專案關聯，除非您也啟用了這種關聯的選項。  
   

@@ -132,7 +132,7 @@ ms.lasthandoff: 05/30/2017
   
 2.  在新的專案中，檢查 **unittest1.cpp**  
   
-     ![包含 TEST&#95;CLASS 和 TEST&#95;METHOD 的測試專案](../test/media/utecpp2.png "UteCpp2")  
+     ![包含 TEST&#95;CLASS 和 TEST&#95;METHOD 的測試專案](~/docs/test/media/utecpp2.png "UteCpp2")  
   
      請注意：  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 05/30/2017
   
          此測試會出現在 [通過的測試] 底下。  
   
-         ![[單元測試總管] 中有一個測試成功](../test/media/utecpp04.png "UteCpp04")  
+         ![[單元測試總管] 中有一個測試成功](~/docs/test/media/utecpp04.png "UteCpp04")  
   
 ###  <a name="createDllProject"></a> 建立 Unmanaged DLL 專案  
   
@@ -179,11 +179,11 @@ ms.lasthandoff: 05/30/2017
   
      [匯出符號]  選項會產生方便的巨集，可讓您用來宣告匯出的方法。  
   
-     ![[DLL] 和 [匯出符號] 的 C&#43;&#43; 專案精靈設定](../test/media/utecpp06.png "UteCpp06")  
+     ![[DLL] 和 [匯出符號] 的 C&#43;&#43; 專案精靈設定](~/docs/test/media/utecpp06.png "UteCpp06")  
   
 3.  在主體 .h 檔案中宣告匯出的函式：  
   
-     ![新的 DLL 程式碼專案以及包含 API 巨集的 .h 檔案](../test/media/utecpp07.png "UteCpp07")  
+     ![新的 DLL 程式碼專案以及包含 API 巨集的 .h 檔案](~/docs/test/media/utecpp07.png "UteCpp07")  
   
      宣告子 `__declspec(dllexport)` 會使類別的 public 和 protected 成員顯示在 DLL 外部。 如需詳細資訊，請參閱 [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes)。  
   
@@ -243,7 +243,7 @@ ms.lasthandoff: 05/30/2017
   
 5.  在 [測試總管] 中，選擇 [ **全部執行**]。  
   
-     ![單元測試總管 &#45; 基本測試成功](../test/media/utecpp10.png "UteCpp10")  
+     ![單元測試總管 &#45; 基本測試成功](~/docs/test/media/utecpp10.png "UteCpp10")  
   
  您已經設定測試和程式碼專案，並確認您可以執行在程式碼專案中執行函式的測試。 現在您可以開始撰寫真正的測試和程式碼。  
   
@@ -300,7 +300,7 @@ ms.lasthandoff: 05/30/2017
   
      這兩個測試都通過。  
   
-     ![單元測試總管 &#45; 範圍測試成功](../test/media/utecpp12.png "UteCpp12")  
+     ![單元測試總管 &#45; 範圍測試成功](~/docs/test/media/utecpp12.png "UteCpp12")  
   
     > [!TIP]
     >  開發程式碼時，一次加入一個測試。 確定所有測試在每次反覆之後都通過。  

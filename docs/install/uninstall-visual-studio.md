@@ -46,18 +46,18 @@ Visual Studio 是我們提供給開發人員的整合式生產力工具套件，
 
      例如，在執行「Windows 10 年度更新版」的電腦上，選取 [開始]，然後捲動至字母 [V]，您就會看到它列為 [Visual Studio 安裝程式]。  
 
-     ![Visual Studio 安裝程式](media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
+     ![Visual Studio 安裝程式](~/docs/install/media/vs2017-locate-the-visual-studio-installer.PNG "找出 Microsoft Visual Studio 安裝程式")
 
      >[!NOTE]
      在某些電腦上，Visual Studio 安裝程式可能會列在 **"M"** 字母下方，成為 [Microsoft Visual Studio 安裝程式]。
 
-2.  按一下以啟動安裝程式，按一下 ![[詳細資料] 圖示](media/vs2017uninstall-UninstallIcon.png "選取 [選項] 圖示") 圖示，然後按一下 [解除安裝]。  
+2.  按一下以啟動安裝程式，按一下 ![[詳細資料] 圖示](~/docs/install/media/vs2017uninstall-UninstallIcon.png "選取 [選項] 圖示") 圖示，然後按一下 [解除安裝]。  
 
-     ![修改 Visual Studio 2017；修改、啟動、修復或解除安裝](media/vs2017-uninstall.PNG "修復或解除安裝 Visual Studio 2017")  
+     ![修改 Visual Studio 2017；修改、啟動、修復或解除安裝](~/docs/install/media/vs2017-uninstall.PNG "修復或解除安裝 Visual Studio 2017")  
 
 3.  按一下 [確定] 確認您的選擇。
 
-     ![修改 Visual Studio 2017；將產品解除安裝](media/vs2017-uninstall-confirm.PNG "確認將 Visual Studio 2017 解除安裝")  
+     ![修改 Visual Studio 2017；將產品解除安裝](~/docs/install/media/vs2017-uninstall-confirm.PNG "確認將 Visual Studio 2017 解除安裝")  
 
 如果您稍後改變心意而想要重新安裝 Visual Studio 2017，只要重新啟動 Visual Studio 安裝程式，然後從選擇畫面中選取 [安裝] 即可。
 

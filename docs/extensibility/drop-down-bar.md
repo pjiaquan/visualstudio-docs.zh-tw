@@ -24,7 +24,7 @@ caps.handback.revision: 12
 ## 下拉式列介面  
  在[!INCLUDE[vcprvc](../debugger/includes/vcprvc_md.md)]，下拉式選單\] 列，例如包含清單的[!INCLUDE[vcprvc](../debugger/includes/vcprvc_md.md)]項目和[!INCLUDE[vcprvc](../debugger/includes/vcprvc_md.md)]項目成員函式，如下圖所示。  
   
- ![下拉式清單列](../extensibility/media/vsdropdown_bar.gif "vsDropdown\_bar")  
+ ![下拉式清單列](~/docs/extensibility/media/vsdropdown_bar.gif "vsDropdown\_bar")  
 下拉式列  
   
  在實作下拉式列時，有四個最重要的一點的介面：  

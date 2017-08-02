@@ -199,7 +199,7 @@ Visual Studio 影像程式庫檢視器工具可以載入並搜尋映像的資訊
   
  顯示每個映像來源的資訊是否可以設定主題包含何種背景以顯示上，或支援高對比，它適用於何種大小或它是否大小中性以及映像是否來自原生組件。  
   
- ![影像庫檢視器 Can 佈景主題](../../extensibility/internals/media/image-library-viewer-can-theme.png "Image Library Viewer Can Theme")  
+ ![影像庫檢視器 Can 佈景主題](~/docs/extensibility/internals/media/image-library-viewer-can-theme.png "Image Library Viewer Can Theme")  
   
  當驗證映像資訊清單時，我們建議您部署資訊清單和映像 DLL 在真實世界的位置。 這會驗證任何相對路徑正常運作，則映像庫可以尋找並載入資訊清單和 DLL 映像。  
   

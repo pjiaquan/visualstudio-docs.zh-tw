@@ -91,7 +91,7 @@ ms.lasthandoff: 06/23/2017
 
  下圖顯示專案與方案和其邏輯上包含之項目之間的關係。  
 
- ![Visual Studio 專案及方案](../ide/media/vside-project-diagram.png)  
+ ![Visual Studio 專案及方案](~/docs/ide/media/vside-project-diagram.png)  
 
  您也可以建立自訂專案與項目範本。 如需詳細資訊，請參閱[建立專案和項目範本](../ide/creating-project-and-item-templates.md)。  
 
@@ -101,7 +101,7 @@ ms.lasthandoff: 06/23/2017
 ## <a name="managing-projects-in-solution-explorer"></a>管理 [方案總管] 中的專案  
  建立新專案之後，您可以使用 [方案總管]  來檢視及管理專案與方案，以及關聯的項目。 下圖顯示方案總管與包含兩個專案的 C# 方案。  
 
- ![方案總管](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")  
+ ![方案總管](~/docs/ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")  
 
 ## <a name="in-this-section"></a>本章節內容  
 

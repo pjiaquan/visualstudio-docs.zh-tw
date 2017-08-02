@@ -65,7 +65,7 @@ caps.handback.revision: 22
   
 1.  在先前建立的專案中，選擇對應資料夾。  
   
-2.  在 \[**屬性**\] 視窗中，選擇 **Deployment location** 屬性的省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](../sharepoint/media/mwellipsis.png "ASP.NET Mobile 設計工具橢圓形")\)。  
+2.  在 \[**屬性**\] 視窗中，選擇 **Deployment location** 屬性的省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
   
 3.  在 \[**加入 SharePoint 對應資料夾**\] 對話方塊中，瀏覽至您要對應資料夾指向的資料夾。  
   
