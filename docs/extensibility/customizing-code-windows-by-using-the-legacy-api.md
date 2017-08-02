@@ -25,7 +25,7 @@ caps.handback.revision: 19
   
  程式碼視窗是 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> 具有文字檢視和任何裝飾設置在物件的物件。 當您建立的程式碼視窗的核心程式具現化編輯器時，語言服務可以將附加 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> 程式碼\] 視窗中，以做為顯示在下圖中。  
   
- ![CodeWindow 圖形](~/docs/extensibility/media/vscodewindow.gif "vscodewindow")  
+ ![CodeWindow 圖形](~/extensibility/media/vscodewindow.gif "vscodewindow")  
 程式碼視窗  
   
  語言服務會實作程式碼視窗管理員，並負責管理裝飾，例如下拉式清單列。 程式碼的視窗呼叫 <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A> 方法的程式碼視窗初始化期間。 下拉式清單列或按鈕列，進行這個呼叫時，可以新增語言服務 \(<xref:Microsoft.VisualStudio.TextManager.Interop.IVsButtonBarClient>\) 程式碼視窗。  

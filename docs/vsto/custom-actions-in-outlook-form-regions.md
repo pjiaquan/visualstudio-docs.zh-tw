@@ -30,7 +30,7 @@ caps.handback.revision: 22
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 ## 將自訂動作加入至表單區域  
- 若要將自訂動作加入至表單區域，請使用 \[**自訂動作**\] 對話方塊。  您可以展開節點，選取 \[**資訊清單**\]\[**CustomActions**\]屬性，然後按一下省略符號按鈕以開啟 \[**方案總管**\] 的 \[**自訂動作**\] 對話方塊 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
+ 若要將自訂動作加入至表單區域，請使用 \[**自訂動作**\] 對話方塊。  您可以展開節點，選取 \[**資訊清單**\]\[**CustomActions**\]屬性，然後按一下省略符號按鈕以開啟 \[**方案總管**\] 的 \[**自訂動作**\] 對話方塊 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
   
  您可以使用 \[**自訂動作**\] 對話方塊指定「*目標表單*」\(Target Form\)。  目標表單是使用者執行自訂動作時出現的表單。  
   

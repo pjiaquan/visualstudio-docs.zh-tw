@@ -147,7 +147,7 @@ Visual Studio 包含 Managed [!INCLUDE[win8_appname_long](../debugger/includes/w
     >   
     >  此外，您可以選擇 [ **偵錯選取的測試**]、[ **開啟測試**]，並使用 [ **屬性** ] 選項。  
     >   
-    >  ![單元測試總管 &#45; 單元測試內容功能表](~/docs/test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")  
+    >  ![單元測試總管 &#45; 單元測試內容功能表](~/test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")  
   
      單元測試隨即執行。 完成時，[測試總管] 會顯示測試狀態、耗用時間並提供來源連結。  
   

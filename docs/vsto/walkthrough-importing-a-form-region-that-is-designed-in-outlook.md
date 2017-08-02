@@ -47,7 +47,7 @@ caps.handback.revision: 31
 > [!NOTE]  
 >  在下列指示的某些 Visual Studio 使用者介面項目中，您的電腦可能會顯示不同的名稱或位置： 您所擁有的 Visual Studio 版本以及使用的設定會決定這些項目。 如需詳細資訊，請參閱[在 Visual Studio 中自訂開發設定](http://msdn.microsoft.com/zh-tw/22c4debb-4e31-47a8-8f19-16f328d7dcd3)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：使用 Visual Studio 2008 建立 Outlook 表單區域](http://go.microsoft.com/fwlink/?LinkID=130305)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱 [How Do I：使用 Visual Studio 2008 建立 Outlook 表單區域](http://go.microsoft.com/fwlink/?LinkID=130305)。  
   
 ## 使用 Outlook 中的表單區域設計工具設計表單區域  
  在這個步驟中，您將在 Outlook 中設計表單區域。 然後您會將表單區域儲存到容易找到的位置，以便匯入至 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]。  

@@ -328,7 +328,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="x-y-position-change"></a>X，Y 位置變更  
 此模式中，UI 項目變更其 X 或 Y 位置，或兩者。  
   
-![X，Y 位置變更動畫](~/docs/extensibility/ux-guidelines/media/1202-f_xypositionchange.png "1202-f_XYPositionChange")<br />X，Y 位置變更動畫  
+![X，Y 位置變更動畫](~/extensibility/ux-guidelines/media/1202-f_xypositionchange.png "1202-f_XYPositionChange")<br />X，Y 位置變更動畫  
   
 ##### <a name="correct-usage"></a>正確使用方式  
 與 UI 項目從一個內容變更位置至另一個動畫的轉換。  
@@ -351,7 +351,7 @@ ms.lasthandoff: 05/04/2017
 #### <a name="rotate"></a>旋轉  
 此模式中，會旋轉的 UI 項目。  
   
-![UI 項目旋轉動畫](~/docs/extensibility/ux-guidelines/media/1202-g_rotate.png "1202-g_Rotate")<br />UI 項目旋轉動畫  
+![UI 項目旋轉動畫](~/extensibility/ux-guidelines/media/1202-g_rotate.png "1202-g_Rotate")<br />UI 項目旋轉動畫  
   
 ##### <a name="correct-usage"></a>正確使用方式  
 僅針對不定微調進度列指示器。  

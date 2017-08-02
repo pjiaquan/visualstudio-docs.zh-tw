@@ -142,7 +142,7 @@ ms.lasthandoff: 05/24/2017
   
 -   **在不同瀏覽器中測試相同頁面、應用程式或網站**。 當您偵錯程式碼時，可以輕鬆地切換包括 [Page Inspector (Visual Studio)](http://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209) 在內的已安裝網頁瀏覽器，而不需要開啟 [瀏覽方式] 對話方塊。 您可以使用 [偵錯目標] 清單 (位於 [開始偵錯] 按鈕旁的 [標準] 工具列)，快速確認在偵錯或檢視頁面時要使用哪一個瀏覽器。  
   
-     ![選取網頁瀏覽器偵錯選項](~/docs/ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")  
+     ![選取網頁瀏覽器偵錯選項](~/ide/media/webbrowserdropdowntoolbar.png "WebBrowserDropDownToolbar")  
   
 -   **設定暫時中斷點**。 您可以在目前的程式碼行建立暫時中斷點並同時啟動偵錯工具。 當您執行至該行程式碼時，偵錯工具將進入中斷模式。 如需詳細資訊，請參閱[使用偵錯工具巡覽程式碼](../debugger/navigating-through-code-with-the-debugger.md)。  
   

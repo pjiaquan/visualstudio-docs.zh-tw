@@ -39,7 +39,7 @@ ms.lasthandoff: 02/22/2017
 # <a name="create-dependency-diagrams-from-your-code"></a>從您的程式碼建立相依性圖表
 若要視覺化軟體系統的高階邏輯結構，建立*相依性圖表*Visual Studio 中。 若要確定您的程式碼一致採用這種設計，以驗證程式碼相依性圖表。 您可以建立 Visual C#.NET 和 Visual Basic.NET 專案的相依性圖表。 若要查看哪些版本的 Visual Studio 支援此功能，請參閱[的架構和模型工具版本支援](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)  
   
- ![建立相依性圖表](~/docs/modeling/media/layerdiagramvisualizecode.png "LayerDiagramVisualizeCode")  
+ ![建立相依性圖表](~/modeling/media/layerdiagramvisualizecode.png "LayerDiagramVisualizeCode")  
   
  相依性圖表可讓您將 Visual Studio 方案項目組織成邏輯的抽象群組，稱為*層*。 您可以使用圖層來說明這些成品所執行的工作，或系統的主要元件。 每個圖層都可以包含其他圖層以描述更詳細的工作。 您也可以指定的預定或現有*相依性*圖層之間。 這些表示為箭號的相依性，顯示哪些圖層可以使用或目前使用其他圖層代表的功能。 若要維持程式碼的架構控制，請在圖表上顯示預期的相依性，然後根據圖表驗證程式碼。  
   
@@ -88,7 +88,7 @@ ms.lasthandoff: 02/22/2017
 
 7. 這會顯示目前的應用程式架構。 決定您想要的架構並據此修改相依性圖表。
 
-![產生的程式碼對應的相依性圖表](~/docs/modeling/media/dependency-validation-01.png)
+![產生的程式碼對應的相依性圖表](~/modeling/media/dependency-validation-01.png)
   
 ##  <a name="a-namecreatelayersa-create-layers-from-artifacts"></a><a name="CreateLayers"></a>從成品建立圖層  
  您可以從 Visual Studio 方案項目 (例如，專案、程式碼檔、命名空間、類別和方法) 建立圖層。 這樣會自動建立這些圖層和項目之間的連結，將這些項目納入圖層驗證程序中。  

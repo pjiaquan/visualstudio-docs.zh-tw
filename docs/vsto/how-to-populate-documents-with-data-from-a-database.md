@@ -31,7 +31,7 @@ caps.handback.revision: 47
   
  下列範例示範如何使用設計工具，在文件層級專案中加入資料繫結控制項。  如需如何在執行階段於 VSTO 增益集專案中加入資料繫結控制項的範例，請參閱[逐步解說：VSTO 增益集專案中的簡單資料繫結](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[使用 Visual Studio Tools for Office System \(3.0\) 將資料繫結至 Word 2007 內容控制項](http://go.microsoft.com/fwlink/?LinkId=136785)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[使用 Visual Studio Tools for Office System \(3.0\) 將資料繫結至 Word 2007 內容控制項](http://go.microsoft.com/fwlink/?LinkId=136785)。  
   
 ## 在設計階段將控制項加入文件  
   

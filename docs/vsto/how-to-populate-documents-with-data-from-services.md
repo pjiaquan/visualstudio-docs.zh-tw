@@ -30,7 +30,7 @@ caps.handback.revision: 39
   
  下列範例說明如何在設計階段，將資料繫結控制項加入文件。 如需如何透過 VSTO 增益集，於執行階段加入資料繫結控制項的範例，請參閱[逐步解說：在 VSTO 增益集專案中繫結至服務資料](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何：從 Microsoft Excel 與 Web 服務互動？](http://go.microsoft.com/fwlink/?LinkID=130284)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何：從 Microsoft Excel 與 Web 服務互動？](http://go.microsoft.com/fwlink/?LinkID=130284)。  
   
 ### 若要將 Web 服務的資料填入文件層級專案  
   

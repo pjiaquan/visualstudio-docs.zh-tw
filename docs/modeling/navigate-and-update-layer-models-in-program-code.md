@@ -52,7 +52,7 @@ using (ILinkedUndoTransaction t =
 ```  
   
 ## <a name="containment"></a>內含項目  
- ![ILayer 和 ILayerModel 都可以包含 ILayers。] (~/docs/modeling/media/layerapi_containment.png "LayerApi_Containment")  
+ ![ILayer 和 ILayerModel 都可以包含 ILayers。] (~/modeling/media/layerapi_containment.png "LayerApi_Containment")  
   
  圖層 (<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayer>) 和圖層模型 (<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerModel>) 可以包含註解和圖層。</xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerModel> </xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayer>  
   
@@ -63,14 +63,14 @@ using (ILinkedUndoTransaction t =
 ## <a name="dependency-links"></a>相依性連結  
  相依性連結是以物件代表。 而且可以使用任一方向進行巡覽：  
   
- ![ILayerDependencyLink 會連接兩個 ILayers。] (~/docs/modeling/media/layerapi_dependency.png "LayerApi_Dependency")  
+ ![ILayerDependencyLink 會連接兩個 ILayers。] (~/modeling/media/layerapi_dependency.png "LayerApi_Dependency")  
   
  若要建立相依性連結，請呼叫 `source.CreateDependencyLink(target)`。  
   
 ## <a name="comments"></a>註解  
  註解可以包含在圖層或圖層模型內，也可以連結至任何圖層項目：  
   
- ![註解可以附加至任何圖層項目。] (~/docs/modeling/media/layerapi_comments.png "LayerApi_Comments")  
+ ![註解可以附加至任何圖層項目。] (~/modeling/media/layerapi_comments.png "LayerApi_Comments")  
   
  註解可以連結至任何數目的項目 (包含零個項目)。  
   
@@ -95,7 +95,7 @@ IEnumerable<ILayerComment> comments =
 ## <a name="layer-elements"></a>圖層項目  
  可以包含在模型中的所有類型的項目都是圖層項目：  
   
- ![相依性圖表內容為 ILayerElements。] (~/docs/modeling/media/layerapi_layerelements.png "LayerApi_LayerElements")  
+ ![相依性圖表內容為 ILayerElements。] (~/modeling/media/layerapi_layerelements.png "LayerApi_LayerElements")  
   
 ## <a name="properties"></a>屬性  
  每個 `ILayerElement` 都有名稱為 `Properties` 的字串字典。 您可以使用此字典，將任意資訊連結至任何圖層項目。  
@@ -136,7 +136,7 @@ public void ... (...)
     if (element != null) ... }}  
 ```  
   
- ![每個 ilayerelement 都是由 IShape。] (~/docs/modeling/media/layerapi_shapes.png "LayerApi_Shapes")  
+ ![每個 ilayerelement 都是由 IShape。] (~/modeling/media/layerapi_shapes.png "LayerApi_Shapes")  
   
  <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape>和<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IDiagram>也用來顯示 UML 模型。</xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IDiagram></xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation.IShape> 如需詳細資訊，請參閱[在圖表上顯示 UML 模型](../modeling/display-a-uml-model-on-diagrams.md)。  
   

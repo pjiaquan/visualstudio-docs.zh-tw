@@ -50,7 +50,7 @@ XAML 設計工具中的項目樣式和樣板會儲存在可重複使用的實體
   
      這會顯示用於建立資源的適當對話方塊。 例如，當您從筆刷建立資源時，會顯示下列對話方塊：  
   
-     ![建立資源對話方塊](~/docs/designers/media/xaml_create_resource.png "xaml_create_resource")  
+     ![建立資源對話方塊](~/designers/media/xaml_create_resource.png "xaml_create_resource")  
   
 3.  在 [名稱 (索引鍵)] 方塊中，輸入索引鍵名稱。 如果您要讓其他項目參考這個資源，這會是您使用的名稱。  
   

@@ -40,7 +40,7 @@ ms.lasthandoff: 05/23/2017
 
 多數的標準 Python 偵錯工具都僅支援對 Python 程式碼進行偵錯。 不過，實際上在需要高效能或是需要能直接叫用平台 API 的情況下，會將 Python 搭配 C 或 C++ 使用 (範例請參閱[建立適用於 Python 的 C++ 延伸模組](cpp-and-python.md))。 載入 Python 專案之後，Visual Studio 為 Python 和原生 (C/C++) 提供整合式的同步混合模式偵錯，包含合併的呼叫堆疊、可在 Python 和原生程式碼及任一類型的程式碼中斷點之間逐步執行、可在原生框架查看物件的 Python 表示法，反之亦然︰
 
-![混合模式偵錯](~/docs/python/media/mixed-mode-debugging.png) 
+![混合模式偵錯](~/python/media/mixed-mode-debugging.png) 
 
 如需使用 Visual Studio 建置、測試原生 C 模組並進行偵錯的簡介，請參閱[深入探討︰建立原生模組 (英文)](https://youtu.be/D9RlT06a1EI) (youtube.com，9 分 9 秒)。
 
@@ -53,14 +53,14 @@ ms.lasthandoff: 05/23/2017
 
 1. 在 [方案總管 (Solution Explorer)] 中以滑鼠右鍵按一下專案，選取 [屬性 (Properties)]，選取 [偵錯 (Debug)] 索引標籤，然後開啟 [啟用原生程式碼偵錯 (Enable native code debugging)] 的選項。 這樣會啟用所有偵錯工作階段的混合模式。
 
-    ![啟用原生程式碼偵錯](~/docs/python/media/mixed-mode-debugging-enable-native.png)
+    ![啟用原生程式碼偵錯](~/python/media/mixed-mode-debugging-enable-native.png)
 
     > [!Tip]    
     > 當您啟用機器碼偵錯時，Python 的輸出視窗可能會在程式完成時立即消失，而不給您平常的「按任意鍵繼續...」暫停。 若要強制暫停，當您啟用機器碼偵錯時，請將 `-i` 選項加入 [偵錯] 索引標籤上的 [執行] > [解譯器引數] 欄位。 這會讓 Python 解譯器在程式碼完成之後進入互動模式，等候您按下 Ctrl + Z、Enter 以結束。
 
 1. 將混合模式偵錯工具附加至現有的處理序 ([偵錯 (Debug)] > [附加至處理序 (Attach to Process)]) 時，選取 [選取 (Select)] 按鈕以開啟 [選取程式碼類型 (Select Code Type)] 對話方塊、設定 [偵錯這些程式碼類型 (Debug these code types)] 選項，然後同時選取清單中的 [原生 (Native)] 和 [Python]︰
 
-    ![選取原生和 Python 程式碼類型](~/docs/python/media/mixed-mode-debugging-code-type.png)
+    ![選取原生和 Python 程式碼類型](~/python/media/mixed-mode-debugging-code-type.png)
 
     程式碼類型設定為持續性；因此，如果您之後附加至其他處理序時想停用混合模式偵錯，您將需要重複這些步驟，並清除 Python 程式碼類型。
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 05/23/2017
 >
 > 在此情況下，請啟動 C++ 專案但不進行偵錯 ([偵錯] > [啟動但不偵錯] 或 Ctrl + F5)，然後使用 [偵錯] > [附加至處理序]。 在出現的對話方塊中，選取適當的處理序，然後使用 [選取] 按鈕來開啟 [選取程式碼類型] 對話方塊，在其中您可以選取 [Python]，如下所示。 選取 [確定] 關閉該對話方塊，然後選取 [附加] 啟動偵錯工具。 請注意，您可能需要在 C++ 應用程式中加入適合的暫停或延遲，以確保它不會在您可以附加偵錯工具之前就呼叫您要偵錯的 Python。
 >
-> ![附加偵錯工具時，選取 Python 作為偵錯類型](~/docs/python/media/mixed-mode-debugging-attach-type.png)
+> ![附加偵錯工具時，選取 Python 作為偵錯類型](~/python/media/mixed-mode-debugging-attach-type.png)
 
 ## <a name="mixed-mode-specific-features"></a>混和模式的特定功能
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 05/23/2017
 
 [呼叫堆疊 (Call Stack)] 視窗會穿插顯示原生和 Python 堆疊框架，而兩者間會標示轉換︰
 
-![合併的呼叫堆疊](~/docs/python/media/mixed-mode-debugging-call-stack.png)
+![合併的呼叫堆疊](~/python/media/mixed-mode-debugging-call-stack.png)
 
 > [!Note]
 > 如果設定 [工具] > [選項] > [偵錯] > [一般] > [啟用 Just My Code] 選項，轉換會顯示為「外部程式碼」，而不指定轉換的方向。
@@ -103,11 +103,11 @@ ms.lasthandoff: 05/23/2017
 
 當原生 (C 或 C++) 框架為使用中時，其區域變數會顯示在偵錯工具的 [區域變數 (Locals)] 視窗。 在原生 Python 延伸模組中，其中有許多都是`PyObject` 類型 (即 `_object` 的 typedef)，或是一些其他基本 Python 類型 (請參閱下方清單)。 在混合模式偵錯中，這些值會出現一個標示為「Python 檢視 (Python view)」的額外子節點。 展開時，此節點會顯示變數的 Python 表示法，您所看到的一切，會與參考相同物件的本機變數出現在 Python 框架時相同。 此節點的子系是可編輯的。
 
-![Python 檢視](~/docs/python/media/mixed-mode-debugging-python-view.png)
+![Python 檢視](~/python/media/mixed-mode-debugging-python-view.png)
 
 若要停用這項功能，請在 [區域變數 (Locals)] 視窗的任意處按一下滑鼠右鍵，然後切換 [Python (Python)] > [顯示 Python 檢視節點 (Show Python View Nodes)] 功能表選項︰
 
-![啟用 Python 檢視中](~/docs/python/media/mixed-mode-debugging-enable-python-view.png)
+![啟用 Python 檢視中](~/python/media/mixed-mode-debugging-enable-python-view.png)
 
 會顯示 [Python 檢視 (Python View)] 節點 (如果啟用) 的 C 類型：
 
@@ -137,11 +137,11 @@ ms.lasthandoff: 05/23/2017
 
 如同上一節，當 Python 框架為使用中時，您可以在 [區域變數 (Locals)] 視窗中為原生值啟用 [C++ 檢視 (C++ View)]。 此功能預設為未啟用，請在 [區域變數 (Locals)] 視窗中按一下滑鼠右鍵並切換 [Python] > [顯示 C++ 檢視節點 (Show C++ View Nodes)]  功能表選項來開啟它。
 
-![啟用 C++ 檢視中](~/docs/python/media/mixed-mode-debugging-enable-cpp-view.png)
+![啟用 C++ 檢視中](~/python/media/mixed-mode-debugging-enable-cpp-view.png)
 
 [C++ 檢視 (C++ View)] 節點提供值的基礎 C/C++ 結構的表示法，如在原生框架中所見。 比方說，它會顯示 Python 長整數的 `_longobject`(`PyLongObject` 是其 typedef) 執行個體，而且會嘗試推斷您自行撰寫之原生類別的類型。 此節點的子系是可編輯的。
 
-![C++ 檢視](~/docs/python/media/mixed-mode-debugging-cpp-view.png)
+![C++ 檢視](~/python/media/mixed-mode-debugging-cpp-view.png)
 
 如果物件的子欄位為 `PyObject` 類型或其他支援的類型之一，它將包含一個 [Python 檢視 (Python View)] 表示法節點 (如果已啟用)，您就可以瀏覽物件圖形，其中的連結不會直接向 Python 公開。
 

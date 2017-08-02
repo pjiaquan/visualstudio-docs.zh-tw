@@ -35,7 +35,7 @@ caps.handback.revision: 15
   
  下列步驟示範如何建立代表「靶心」目標的材質。當您完成時，材質看起來應該類似下列圖片。 設定影像編輯器使用綠色棋盤式圖樣顯示材質，更能展現出材質中的透明度。  
   
- ![以綠色顯示透明度的「靶心」目標](~/docs/designers/media/digit-bullseye-texture-in-editor.png "Digit-Bullseye-Texture-In-Editor")  
+ ![以綠色顯示透明度的「靶心」目標](~/designers/media/digit-bullseye-texture-in-editor.png "Digit-Bullseye-Texture-In-Editor")  
   
  開始之前，請確定已顯示 [屬性] 視窗。 您可以在工作時，使用 [屬性] 視窗來設定影像大小、變更工具屬性，以及指定色彩。  
   
@@ -83,7 +83,7 @@ caps.handback.revision: 15
   
  完成「靶心」目標材質。 以下是呈現透明度的最終影像。  
   
- ![完整的「靶心」目標材質](~/docs/designers/media/gfx_image_demo_bullseye.png "gfx_image_demo_bullseye")  
+ ![完整的「靶心」目標材質](~/designers/media/gfx_image_demo_bullseye.png "gfx_image_demo_bullseye")  
   
  下一步可以產生這個材質的 MIP 層級。 如需詳細資訊，請參閱[如何：建立和修改 MIP 層級](../designers/how-to-create-and-modify-mip-levels.md)。  
   

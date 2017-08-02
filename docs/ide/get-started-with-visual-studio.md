@@ -48,7 +48,7 @@ Visual Studio 有一組工具視窗、功能表和工具列，統稱為整合式
 ### <a name="code-editor"></a>程式碼編輯器
 Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫、檢視和巡覽程式碼的位置。
 
-![程式碼編輯器](~/docs/ide/media/VSIDE_CodeWindow.png)
+![程式碼編輯器](~/ide/media/VSIDE_CodeWindow.png)
 
 輸入程式碼時，程式碼編輯器提供陳述式完成、語法顏色標示、地圖模式等這類功能，協助您更快速且輕鬆地撰寫和尋找程式碼。 如需詳細資訊，請觀看 [Getting Started with Visual Studio - Editing and navigating your code](https://www.youtube.com/watch?v=4glwwioCVjA&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK&index=5) (Visual Studio 使用者入門 - 編輯和巡覽程式碼) 影片。
 
@@ -58,22 +58,22 @@ Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫
 
 稱為「方案總管」的工具視窗會列出所有程式碼檔案。 方案總管透過將程式碼的檔案分組到方案和專案，以協助組織程式碼。 以粗體顯示的專案稱為「啟始專案」。 它是您啟動方案時執行的第一個程式碼。 您可以變更啟始專案。 如需詳細資訊，請觀看 [Getting Started with Visual Studio - Building blocks of the IDE](https://www.youtube.com/watch?v=JHc3_gsCmZg&index=2&list=PLReL099Y5nRfw6VNvzMkv0sabT2crbSpK) (Visual Studio 使用者入門 - IDE 的建置組塊) 影片。
 
-![方案總管摺疊的節點](~/docs/ide/media/VSIDE_SolutionExplorer2_callouts.png)
+![方案總管摺疊的節點](~/ide/media/VSIDE_SolutionExplorer2_callouts.png)
 
  除了方案和專案之外，方案總管還會在展開專案節點時列出每個專案中的所有檔案。 每個專案都會包含一個或多個檔案，例如原始程式碼檔和資源檔 (例如映像或程式庫)。
 
-![底下提供說明，包括方案總管](~/docs/ide/media/VSIDE_SolutionExplorer3.png)
+![底下提供說明，包括方案總管](~/ide/media/VSIDE_SolutionExplorer3.png)
 
 若要查看方案、專案和檔案的屬性，請選擇捷徑 (右鍵) 功能表上的 [屬性] 命令，或依序選擇功能表上的 [檢視] 和 [屬性視窗]。
 
-![屬性視窗](~/docs/ide/media/VSIDE_SolutionExplorer4.png)
+![屬性視窗](~/ide/media/VSIDE_SolutionExplorer4.png)
 
 不過，您不需要建立方案或專案，即可開始撰寫程式碼。 您只需要直接在 Visual Studio 中開啟程式碼檔 (例如從 Git 存放庫複製的檔案)，並立即開始進行編輯。 檔案將會顯示在方案總管中，並取得語法顏色標示、基本陳述式完成等作業，就像傳統解決方案一樣。 如需詳細資訊，請參閱[在 Visual Studio 中不使用專案或方案來開發程式碼](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)。
 
 ### <a name="toolbar-and-menus"></a>工具列和功能表
 若要執行專案、建立新方案、儲存檔案等作業，請使用 Visual Studio 工具列和功能表命令。 例如，準備好執行程式碼以進行偵錯之後，即可選擇工具列上的 [啟動] 按鈕，或依序選擇功能表上的 [偵錯] 和 [開始偵錯]。 若要建立新方案，請選擇 [新增專案] 按鈕，或依序選擇功能表上的 [檔案]、[新增] 和 [專案] 等。
 
-![Visual Studio 工具列](~/docs/ide/media/VSIDE_SolutionExplorer5_callouts.png)
+![Visual Studio 工具列](~/ide/media/VSIDE_SolutionExplorer5_callouts.png)
 
 請注意，工具列圖示和功能表命令會根據內容 (即目前選取的項目) 而變更。 您可以透過鍵盤命令及透過滑鼠來存取幾乎所有命令。
 
@@ -87,7 +87,7 @@ Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫
 ### <a name="output-window"></a>輸出視窗
 [輸出] 視窗就是 Visual Studio 傳送其通知的位置，例如偵錯和錯誤訊息、編譯器警告、發行狀態訊息等。 每個訊息類型都有自己的索引標籤。
 
-![輸出視窗](~/docs/ide/media/VSIDE_OutputWindow.png)
+![輸出視窗](~/ide/media/VSIDE_OutputWindow.png)
 
 若要深入了解如何使用 [輸出] 視窗進行偵錯，請參閱 [The Output window while debugging with Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2015/02/09/the-output-window-while-debugging-with-visual-studio/) (使用 Visual Studio 偵錯時的輸出視窗)。
 
@@ -105,7 +105,7 @@ Visual Studio 中的其中一個最大量使用的工具視窗，這是您撰寫
 
 安裝 Azure 開發工作負載之後，Visual Studio 中會出現稱為 **Cloud Explorer** 的新工具視窗。 Cloud Explorer 可讓您瀏覽和管理 Visual Studio 內的 Azure 資產和資源。 如果特定作業需要 Azure 入口網站，Cloud Explorer 會提供連結，將您帶到 Azure 入口網站中您所需前往的位置。
 
-![Cloud Explorer](~/docs/ide/media/VSIDE_CloudExplorer.png)
+![Cloud Explorer](~/ide/media/VSIDE_CloudExplorer.png)
 
 若要深入了解如何使用 Cloud Explorer，請參閱[使用雲端總管管理 Azure 資源](https://azure.microsoft.com/en-us/documentation/articles/vs-azure-tools-resources-managing-with-cloud-explorer/)。
 安裝 Azure 開發工作負載也會提供 [Visual Studio Tools for Azure](https://www.visualstudio.com/vs/azure-tools/) 及其他相關工具。

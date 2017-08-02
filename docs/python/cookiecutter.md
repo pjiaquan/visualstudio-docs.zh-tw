@@ -44,7 +44,7 @@ Cookiecutter 需要 Python 3.3 或更新版本 (32 或 64 位元) 或 Anaconda 3
 
 安裝之後，選取 [檢視] > [Cookicutter 總管] 以開啟其視窗︰
 
-![Cookiecutter 主視窗](~/docs/python/media/cookiecutter-overview.png)
+![Cookiecutter 主視窗](~/python/media/cookiecutter-overview.png)
 
 ## <a name="cookiecutter-workflow"></a>Cookiecutter 工作流程
 
@@ -76,7 +76,7 @@ Cookiecutter 首頁會顯示可選擇的範本清單，並分為下列群組︰
 
 在本機安裝範本之後，Cookiecutter 會顯示選項頁面，您可在該處指定您希望 Cookiecutter 於何處產生檔案及其他選項︰
 
-![Cookiecutter 選項頁面](~/docs/python/media/cookiecutter-template-options.png)
+![Cookiecutter 選項頁面](~/python/media/cookiecutter-template-options.png)
 
 每個 Cookiecutter 範本都會定義自己的一組選項，並指定每個選項的預設值 (在每個輸入欄位中顯示為建議的文字)。 預設值可以是程式碼片段 (通常在它是使用其他選項的動態值時)。 
 
@@ -90,13 +90,13 @@ Cookiecutter 首頁會顯示可選擇的範本清單，並分為下列群組︰
 
 順利建立檔案之後，Cookiecutter 會提供在 [方案總管] 中開啟檔案的選項：
 
-![顯示 [方案總管] 命令的 Cookiecutter](~/docs/python/media/cookiecutter-files-created.png)
+![顯示 [方案總管] 命令的 Cookiecutter](~/python/media/cookiecutter-files-created.png)
 
 ## <a name="cookiecutter-options"></a>Cookiecutter 選項
 
 Cookiecutter 選項可透過 [工具] > [選項] > [Cookiecutter] 存取：
 
-![Cookiecutter 選項](~/docs/python/media/cookiecutter-tools-options.png)
+![Cookiecutter 選項](~/python/media/cookiecutter-tools-options.png)
 
 | 選項 | 描述 |
 | --- | --- |

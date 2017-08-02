@@ -143,7 +143,7 @@ caps.handback.revision: 2
   
  **\[圖 08.01 h: 佈景主題對話方塊**  
   
- ![Themed dialog dimensions](~/docs/extensibility/ux-guidelines/media/0801-i_themeddialogdimensions.png "0801\-i\_ThemedDialogDimensions")  
+ ![Themed dialog dimensions](~/extensibility/ux-guidelines/media/0801-i_themeddialogdimensions.png "0801\-i\_ThemedDialogDimensions")  
   
  **\[圖 08.01 i: 佈景主題對話方塊 – 維度**  
   
@@ -151,7 +151,7 @@ caps.handback.revision: 2
   
  **\[圖 08.01 j: 佈景主題對話方塊\-字型**  
   
- ![Themed dialog colors](~/docs/extensibility/ux-guidelines/media/0801-k_themeddialogcolors.png "0801\-k\_ThemedDialogColors")  
+ ![Themed dialog colors](~/extensibility/ux-guidelines/media/0801-k_themeddialogcolors.png "0801\-k\_ThemedDialogColors")  
   
  **\[圖 08.01 k 佈景主題對話方塊 – 色彩**  
   

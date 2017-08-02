@@ -42,7 +42,7 @@ ms.lasthandoff: 05/13/2017
   
  本節介紹可記錄及播放 Excel 工作表測試的自動程式碼 UI 測試擴充功能。 本節將說明該擴充功能的每個部分，想要建立此類擴充功能的開發人員可搭配程式碼註解依序操作。  
   
- ![UI 測試架構](~/docs/test/media/ui_testarch.png "UI_TestArch")  
+ ![UI 測試架構](~/test/media/ui_testarch.png "UI_TestArch")  
 架構概觀  
   
 ## <a name="download-the-sample"></a>下載範例  

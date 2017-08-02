@@ -55,7 +55,7 @@ ms.lasthandoff: 02/22/2017
 # <a name="map-dependencies-across-your-solutions"></a>對應方案之間的相依性
 當您想要了解程式碼之間的相依性時，請建立 Code Map 來將其視覺化。 這可協助您查看程式碼如何搭配運用，而無須閱讀所有檔案和程式碼行。  
   
- ![檢視方案之間的相依性](~/docs/modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
+ ![檢視方案之間的相依性](~/modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
   
  **部分影片如下**：  
   
@@ -101,7 +101,7 @@ ms.lasthandoff: 02/22/2017
   
 2.  選取您要對應的所有專案、組件參考、資料夾、檔案、類型或成員。  
   
-3.  在**方案總管] 中**工具列上，選擇 [ **Code Map 上顯示**![建立新圖形從選取的節點按鈕](~/docs/modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton")。 或開啟捷徑功能表並選擇 [在 Code Map 上顯示] 。 您也可以從 [類別檢視] 或 [物件瀏覽器] 將項目拖曳至新的或現有的 Code Map。  
+3.  在**方案總管] 中**工具列上，選擇 [ **Code Map 上顯示**![建立新圖形從選取的節點按鈕](~/modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton")。 或開啟捷徑功能表並選擇 [在 Code Map 上顯示] 。 您也可以從 [類別檢視] 或 [物件瀏覽器] 將項目拖曳至新的或現有的 Code Map。  
   
 4.  [查看特定相依性](#SeeSpecificSource) 來了解如何使用 Code Map，以檢視方案中的特定相依性。  
   
@@ -135,23 +135,23 @@ ms.lasthandoff: 02/22/2017
   
 1.  在 [架構]  功能表上，選擇 [產生方案的 Code Map] 。  
   
-     ![產生程式碼對應命令](~/docs/modeling/media/codemapsarchitecturemenu.png "CodeMapsArchitectureMenu")  
+     ![產生程式碼對應命令](~/modeling/media/codemapsarchitecturemenu.png "CodeMapsArchitectureMenu")  
   
      即可取得顯示最上層組件和其彙總連結的對應。 彙總連結愈廣，代表的相依性就愈高。  
   
 2.  使用 Code Map 工具列上的 [圖例]  按鈕以顯示或隱藏專案類型圖示清單 (例如測試、Web 和 Phone 專案)，程式碼項目 (例如類別、方法和屬性)，和關聯性類型 (例如「繼承自」、「實作」，和「呼叫」)。  
   
-     ![組件的最上層相依性圖形](~/docs/modeling/media/dependencygraph_toplevelassemblies.png "DependencyGraph_TopLevelAssemblies")  
+     ![組件的最上層相依性圖形](~/modeling/media/dependencygraph_toplevelassemblies.png "DependencyGraph_TopLevelAssemblies")  
   
      此範例方案包含方案資料夾 ([測試] 和 [元件] )、測試專案、Web 專案和組件。 所有內含項目關聯性預設會顯示為 *「群組」*(group)，您可將其展開及摺疊。 [外部]  群組中含有在您的方案之外的任何項目，包括平台相依性。 外部組件只會顯示所使用的項目。 根據預設，系統基底類型在對應中會隱藏，以減少雜亂。  
   
 3.  若要向下切入到對應，請展開代表專案和組件的群組。 您可以藉由按下 **CTRL + A** 選取所有節點，然後從捷徑功能表選擇 [群組] 、[展開]  ，展開所有項目。  
   
-     ![展開所有群組中的程式碼對應](~/docs/modeling/media/codemapsexpandallgroups.png "CodeMapsExpandAllGroups")  
+     ![展開所有群組中的程式碼對應](~/modeling/media/codemapsexpandallgroups.png "CodeMapsExpandAllGroups")  
   
 4.  不過，這可能不適用於大型的方案。 事實上，對於複雜的方案而言，記憶體限制可能會導致您無法展開所有群組。 相反地，若要查看個別節點的內部，請展開它。 將滑鼠指標移至節點上方，然後按一下出現的＞形箭號 (向下箭號)。  
   
-     ![展開的程式碼對應中的節點](~/docs/modeling/media/dependencygraph_containment.png "DependencyGraph_Containment")  
+     ![展開的程式碼對應中的節點](~/modeling/media/dependencygraph_containment.png "DependencyGraph_Containment")  
   
      或使用鍵盤選取項目，然後按下加號鍵 (**+**)。 若要瀏覽更深層的程式碼，請為命名空間、類型和成員執行相同的作業。  
   
@@ -160,13 +160,13 @@ ms.lasthandoff: 02/22/2017
   
 5.  若要簡化對應，並將焦點放在個別部分，請選擇 Code Map 工具列上的 [篩選]  ，然後只選取您感興趣的節點和連結類型。 例如，您可以隱藏所有的方案資料夾和組件容器。  
   
-     ![篩選容器以精簡對應](~/docs/modeling/media/codemapsfilterfoldersassemblies.png "CodeMapsFilterFoldersAssemblies")  
+     ![篩選容器以精簡對應](~/modeling/media/codemapsfilterfoldersassemblies.png "CodeMapsFilterFoldersAssemblies")  
   
      您也可以隱藏或移除對應上的個別群組和項目來簡化對應，而不會影響基礎的方案程式碼。  
   
 6.  若要查看項目之間的關聯性，請在對應中加以選取。 連結的色彩表示關聯性的類型，如 [圖例]  窗格中所示。  
   
-     ![檢視方案之間的相依性](~/docs/modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
+     ![檢視方案之間的相依性](~/modeling/media/codemapsmainintro.png "CodeMapsMainIntro")  
   
      在此範例中，紫色連結是呼叫、虛線的連結是參考，而淺藍色連結則是欄位存取。 綠色的連結可以是繼承，或者可以是 *「彙總連結」* (aggregate link)，表示多個關聯性類型 (或 *「分類」*(category))。  
   
@@ -175,25 +175,25 @@ ms.lasthandoff: 02/22/2017
   
 7.  若要取得項目或連結的詳細資訊，請將指標移到頂端，直到出現工具提示。 這會顯示程式碼項目或連結代表的類別分類的詳細資料。  
   
-     ![顯示關聯性類別](~/docs/modeling/media/codemapsshowlinkcatgories.png "CodeMapsShowLinkCatgories")  
+     ![顯示關聯性類別](~/modeling/media/codemapsshowlinkcatgories.png "CodeMapsShowLinkCatgories")  
   
 8.  若要檢查彙總連結代表的項目和相依性，請先選取連結，然後開啟其捷徑功能表。 選擇 [顯示參與連結]  (或 [在新 Code Map 上顯示參與連結] )。 這會展開在連結兩端的群組，並只顯示參與此連結的項目和相依性。  
   
 9. 若要將焦點放在對應的特定部分，您可以繼續移除您不感興趣的項目。 例如，若要向下鑽研到類別和成員檢視，只要篩選 [篩選]  窗格中的所有命名空間節點。  
   
-     ![類別和成員層級來鑽研](~/docs/modeling/media/dependencygraph_expandedselectedgroups_2012.png "DependencyGraph_ExpandedSelectedGroups_2012")  
+     ![類別和成員層級來鑽研](~/modeling/media/dependencygraph_expandedselectedgroups_2012.png "DependencyGraph_ExpandedSelectedGroups_2012")  
   
 10. 專注於複雜方案對應的另一個方法是產生新的對應，其中包含來自現有對應的選取項目。 選取您想要專注的項目時按住 **CTRL** ，開啟捷徑功能表，然後選擇 [從選取範圍新增圖形] 。  
   
-     ![在新的 code map 上顯示選取的項目](~/docs/ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
+     ![在新的 code map 上顯示選取的項目](~/ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
 11. 包含的內容會轉至新的對應。 使用 [篩選]  窗格隱藏方案資料夾和您不想查看的其他容器。  
   
-     ![篩選容器以精簡檢視](~/docs/modeling/media/codemapsexpandnewgroups.png "CodeMapsExpandNewGroups")  
+     ![篩選容器以精簡檢視](~/modeling/media/codemapsexpandnewgroups.png "CodeMapsExpandNewGroups")  
   
 12. 展開群組，然後選取對應中的項目以檢視關聯性。  
   
-     ![選取要檢視其關聯性項目](~/docs/modeling/media/codemapsviewnewrelationships.png "CodeMapsViewNewRelationships")  
+     ![選取要檢視其關聯性項目](~/modeling/media/codemapsviewnewrelationships.png "CodeMapsViewNewRelationships")  
   
  另請參閱：  
   
@@ -215,19 +215,19 @@ ms.lasthandoff: 02/22/2017
 ##  <a name="a-nameseespecificsourcea-see-specific-dependencies"></a><a name="SeeSpecificSource"></a>查看特定相依性  
  例如，假設您有要在出現暫止變更的某些檔案中，執行程式碼檢閱。 若要查看這些變更中的相依性，您可以從那些檔案建立 Code Map。  
   
- ![Code map 上顯示的特定相依性](~/docs/modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
+ ![Code map 上顯示的特定相依性](~/modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
   
 ### <a name="see-specific-dependencies-in-your-solution"></a>查看方案中的特定相依性  
   
 1.  開啟 [方案總管] 。 選取您感興趣的專案、組件參考、資料夾、檔案、類型和成員。 若要尋找與類型或成員相依的項目，請在 [方案總管] 中開啟類型或成員的捷徑功能表。 選擇相依性類型，並選取結果。  
   
-2.  對應您的項目及其成員。 在**方案總管 中**按一下工具列**Code Map 上顯示**![建立新圖形從選取的節點按鈕](~/docs/modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton")。  
+2.  對應您的項目及其成員。 在**方案總管 中**按一下工具列**Code Map 上顯示**![建立新圖形從選取的節點按鈕](~/modeling/media/createnewgraphfromselectedbutton.gif "CreateNewGraphFromSelectedButton")。  
   
-     ![選取您想要對應的項目](~/docs/modeling/media/codemapsselectinsolutionexplorer.png "CodeMapsSelectInSolutionExplorer")  
+     ![選取您想要對應的項目](~/modeling/media/codemapsselectinsolutionexplorer.png "CodeMapsSelectInSolutionExplorer")  
   
 3.  對應會在其包含的組件內顯示選取的項目。  
   
-     ![選取的項目在地圖上顯示為群組](~/docs/modeling/media/codemapsshowitemsfromsolnexplorer.png "CodeMapsShowItemsFromSolnExplorer")  
+     ![選取的項目在地圖上顯示為群組](~/modeling/media/codemapsshowitemsfromsolnexplorer.png "CodeMapsShowItemsFromSolnExplorer")  
   
      您也可以從 [方案總管]、[類別檢視] 或 [物件瀏覽器] 將項目拖曳至空白的或現有的 Code Map。 若要建立空白的對應，請參閱 [建立空白的 Code Map](#GetStarted)。 若要包含項目的父階層，請按住 **CTRL** 鍵不放同時拖曳項目，或使用 Code Map 工具列上的 [包含父代]  按鈕，指定預設動作。  
   
@@ -236,15 +236,15 @@ ms.lasthandoff: 02/22/2017
   
 4.  若要瀏覽項目，請將其展開。 將滑鼠指標移至項目上方，然後按一下出現的＞形箭號 (向下箭號) 圖示。  
   
-     ![展開的程式碼對應中的節點](~/docs/modeling/media/dependencygraph_containment.png "DependencyGraph_Containment")  
+     ![展開的程式碼對應中的節點](~/modeling/media/dependencygraph_containment.png "DependencyGraph_Containment")  
   
      若要展開所有項目，請使用 **CTRL+A**選取它們，然後開啟對應的捷徑功能表並依序選擇 [群組] 、[展開] 。 不過，如果展開所有群組會產生無法使用的對應或記憶體問題，則無法使用此選項。  
   
 5.  繼續展開您感興趣的項目，視需要可一直到類別和成員層級。  
   
-     ![將群組展開至類別和成員層級](~/docs/modeling/media/codemapsexpandtoclassandmember.png "CodeMapsExpandToClassAndMember")  
+     ![將群組展開至類別和成員層級](~/modeling/media/codemapsexpandtoclassandmember.png "CodeMapsExpandToClassAndMember")  
   
-     若要查看成員程式碼中，但不會出現在地圖上，按一下 **重新擷取子系**圖示![重新擷取子系圖示](~/docs/modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon")左上角的群組中。  
+     若要查看成員程式碼中，但不會出現在地圖上，按一下 **重新擷取子系**圖示![重新擷取子系圖示](~/modeling/media/dependencygraph_deletednodesicon.png "DependencyGraph_DeletedNodesIcon")左上角的群組中。  
   
 6.  若要查看與對應上之項目相關的其他項目，請選取一個，在 Code Map 工具列上選擇 [顯示相關]  ，然後選取要加入對應的相關項目類型。 或者，選取一或多個項目，開啟捷徑功能表，然後針對要加入對應的相關項目類型選擇 [顯示]  選項。 例如：  
   
@@ -287,15 +287,15 @@ ms.lasthandoff: 02/22/2017
     |**顯示包含的類型**|加入父類型。|  
     |**顯示包含的類型、 命名空間和組件**|加入父容器階層架構。|  
   
-     ![顯示此成員呼叫的方法](~/docs/modeling/media/codemapsshowrelatedmethods.png "CodeMapsShowRelatedMethods")  
+     ![顯示此成員呼叫的方法](~/modeling/media/codemapsshowrelatedmethods.png "CodeMapsShowRelatedMethods")  
   
 7.  對應會顯示關聯性。 在此範例中，由 `Find` 方法呼叫的方法，以及它們在方案或外部的位置。  
   
-     ![Code map 上顯示的特定相依性](~/docs/modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
+     ![Code map 上顯示的特定相依性](~/modeling/media/codemapsspecificdependenciesintro.png "CodeMapsSpecificDependenciesIntro")  
   
 8.  若要簡化對應，並將焦點放在個別部分，請選擇 Code Map 工具列上的 [篩選]  ，然後只選取您感興趣的節點和連結類型。 例如，關閉方案資料夾、組件和命名空間的顯示。  
   
-     ![使用 [篩選] 窗格來簡化顯示](~/docs/modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
+     ![使用 [篩選] 窗格來簡化顯示](~/modeling/media/almcodemapfilterpane.png "ALMCodeMapFilterPane")  
   
 ##  <a name="a-nameseesourceheadera-see-dependencies-between-c-and-c-source-files-and-header-files"></a><a name="SeeSourceHeader"></a>請參閱 C 和 c + + 原始程式檔和標頭檔之間的相依性  
  如果要為 C++ 專案建立更完整的對應，請在這些專案上設定瀏覽資訊編譯器選項 (**/FR**)。 否則會出現訊息並提示您設定此選項。 如果選取 [確定] ，則只會為目前的對應設定這個選項。 您可以選擇隱藏所有之後對應的訊息。 如果隱藏這個訊息，之後可以讓它再次出現。 請將下列登錄機碼設定為 `0` ，或刪除該機碼：  
@@ -306,11 +306,11 @@ ms.lasthandoff: 02/22/2017
   
 -   若要查看方案中所有原始程式檔與標頭檔之間的相依性，請在 [架構]  功能表上，選擇 [產生 Include 檔圖形] 。  
   
-     ![原生程式碼的相依性圖形](~/docs/modeling/media/dependencygraphgeneral_nativecode.png "DependencyGraphGeneral_NativeCode")  
+     ![原生程式碼的相依性圖形](~/modeling/media/dependencygraphgeneral_nativecode.png "DependencyGraphGeneral_NativeCode")  
   
 -   若要查看目前開啟的檔案與相關原始程式檔和標頭檔之間的相依性，請開啟原始程式檔或標頭檔。 在檔案內的任意處開啟檔案捷徑功能表。 選擇 [產生 Include 檔圖形] 。  
   
-     ![.H 檔案的第一層級相依性圖形](~/docs/modeling/media/dependencygraph_native_firstlevel.png "DependencyGraph_Native_FirstLevel")  
+     ![.H 檔案的第一層級相依性圖形](~/modeling/media/dependencygraph_native_firstlevel.png "DependencyGraph_Native_FirstLevel")  
   
 ###  <a name="a-nametroubleshootinga-troubleshoot-maps-for-c-and-c-code"></a><a name="Troubleshooting"></a>C 和 c + + 程式碼對應疑難排解  
  C 和 C++ 程式碼不支援下列項目：  
@@ -345,7 +345,7 @@ ms.lasthandoff: 02/22/2017
   
 -   編輯 Code Map，直接移除您不需要的節點和連結。 變更對應不會影響基礎程式碼。 請參閱[藉由編輯 DGML 檔案自訂 code map](../modeling/customize-code-maps-by-editing-the-dgml-files.md)。  
   
- ![略過組建及包含父代按鈕](~/docs/modeling/media/codemapsfilterskipbuildicons.png "CodeMapsFilterSkipBuildIcons")  
+ ![略過組建及包含父代按鈕](~/modeling/media/codemapsfilterskipbuildicons.png "CodeMapsFilterSkipBuildIcons")  
   
  雖然 Visual Studio 可以使用 1 GB 的記憶體來執行，但建議您的電腦至少要有 2 GB 的記憶體，以免在 Visual Studio 建立程式碼索引並產生對應時延遲過於冗長。  
   
@@ -362,7 +362,7 @@ ms.lasthandoff: 02/22/2017
   
  若要為特定的專案的一部分儲存對應，對應圖工具列上，選擇 **共用**，**移動** \< *CodeMapName*>**進入**，然後選擇您要儲存對應的專案。  
   
- ![將對應移至另一個專案](~/docs/modeling/media/codemapsmovemapmenu.png "CodeMapsMoveMapMenu")  
+ ![將對應移至另一個專案](~/modeling/media/codemapsmovemapmenu.png "CodeMapsMoveMapMenu")  
   
  Visual Studio 會將對應儲存為 .dgml 檔案，讓您可以和其他 Visual Studio Enterprise 和 Visual Studio Professional 的使用者共用。  
   

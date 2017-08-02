@@ -32,7 +32,7 @@ caps.handback.revision: 12
   
  有兩種一般性的**專案屬性頁**對話方塊中，您可以使用[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。  首先，Visual Basic 專案而言，比方說，屬性頁會使用欄位的格式，如下列螢幕擷取畫面所示。  在第二個，稍後以顯示本章節中，屬性頁主機屬性方格類似於在 \[屬性\] 視窗中找到。  
   
- ![Visual Basic 屬性頁](~/docs/extensibility/internals/media/vsvbproppages.gif "vsVBPropPages")  
+ ![Visual Basic 屬性頁](~/extensibility/internals/media/vsvbproppages.gif "vsVBPropPages")  
 專案欄位格式\] 和 \[樹狀目錄結構與 \[屬性頁\] 對話方塊  
   
  在 \[屬性頁\] 對話方塊中的樹狀結構使用不建置<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>。  環境中，根據層級的名稱傳遞給它的<xref:Microsoft.VisualStudio.OLE.Interop.ISpecifyPropertyPages>和<xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>介面，否則建置它。  
@@ -57,7 +57,7 @@ caps.handback.revision: 12
   
  屬性頁的第二個型別顯示在範例主表單的 \[屬性\] 方格中，如下列螢幕擷取畫面所示。  
   
- ![VC 屬性頁](~/docs/extensibility/internals/media/vsvcproppages.gif "vsVCPropPages")  
+ ![VC 屬性頁](~/extensibility/internals/media/vsvcproppages.gif "vsVCPropPages")  
 屬性頁對話方塊，並且屬性方格  
   
  介面`IVSMDPropertyBrowser`和`IVSMDPropertyGrid` \(vsmanaged.h 中所宣告的\) 用來建立並填入對話方塊或視窗中的 \[屬性\] 方格。  

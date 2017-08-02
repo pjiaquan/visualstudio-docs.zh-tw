@@ -39,7 +39,7 @@ ms.lasthandoff: 02/22/2017
   
  **屬性** 視窗中，可以藉由在鍵盤上，按 F4 或選取開啟**屬性 視窗**上**檢視**功能表，用來檢視和編輯組態無關的設計階段屬性與所選物件的事件。 方案與專案相關聯的組態相關屬性會顯示在[屬性頁](../../extensibility/internals/property-pages.md)。 如需詳細資訊，請參閱[NIB︰ 專案屬性](http://msdn.microsoft.com/en-us/fb126574-24ad-4c96-9b2b-6e1f3879ba50)，[管理組態選項](../../extensibility/internals/managing-configuration-options.md)，和[專案中的項目 NIB︰ 管理](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)。  
   
- ![屬性視窗概觀](~/docs/extensibility/internals/media/vspropertieswindow.png "vsPropertiesWindow")  
+ ![屬性視窗概觀](~/extensibility/internals/media/vspropertieswindow.png "vsPropertiesWindow")  
 屬性視窗  
   
  本節提供詳細的相關資訊的個別區域**屬性**視窗和您必須實作的介面呼叫來填入視窗。  

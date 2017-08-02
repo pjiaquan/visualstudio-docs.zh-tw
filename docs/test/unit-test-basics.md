@@ -237,7 +237,7 @@ public void My_Test ()
 ##  <a name="BKMK_Running_tests_in_Test_Explorer"></a> 在 [測試總管] 中執行測試  
  在建置測試專案後，這些測試便會出現在 [測試總管] 中。 如果沒有看到 [測試總管]，請選擇 Visual Studio 功能表上的 [測試]  ，接著選擇 [Windows] ，然後選擇 [測試總管] 。  
   
- ![單元測試總管](~/docs/ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
+ ![單元測試總管](~/ide/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
  隨著您執行、撰寫及重新執行測試，[測試總管] 的預設檢視便會顯示 [失敗的測試] 、[通過的測試] 、[略過的測試]  及 [未執行的測試] 群組中的結果。 您可以選擇群組標題，以開啟顯示該群組中所有這些測試的檢視。  
   
@@ -259,7 +259,7 @@ public void My_Test ()
   
 |||  
 |-|-|  
-|![建置後執行](~/docs/test/media/ute_runafterbuild_btn.png "UTE_RunAfterBuild_btn")|若要在每次本機組建之後執行單元測試，請選擇標準功能表上的 [測試]  ，接著在 [測試總管] 工具列上選擇 [建置之後執行測試]  。|  
+|![建置後執行](~/test/media/ute_runafterbuild_btn.png "UTE_RunAfterBuild_btn")|若要在每次本機組建之後執行單元測試，請選擇標準功能表上的 [測試]  ，接著在 [測試總管] 工具列上選擇 [建置之後執行測試]  。|  
   
 ###  <a name="BKMK_Filtering_and_grouping_the_test_list"></a> 篩選與群組測試清單  
  若有大量測試，您可以在 [測試總管] 搜尋方塊中輸入文字以便依指定字串篩選清單。 您可以從篩選清單中選擇以進一步限制篩選事件。  
@@ -268,7 +268,7 @@ public void My_Test ()
   
 |||  
 |-|-|  
-|![[測試總管] 的 [群組] 按鈕](~/docs/test/media/ute_groupby_btn.png "UTE_GroupBy_btn")|若要依分類將測試分組，請選擇 [群組依據]  按鈕。|  
+|![[測試總管] 的 [群組] 按鈕](~/test/media/ute_groupby_btn.png "UTE_GroupBy_btn")|若要依分類將測試分組，請選擇 [群組依據]  按鈕。|  
   
  如需詳細資訊，請參閱[使用測試總管執行單元測試](../test/run-unit-tests-with-test-explorer.md)。  
   
@@ -290,7 +290,7 @@ public void My_Test ()
   
  **答：** 您可以使用 IntelliSense 在您的專案程式碼中產生類別和方法。 在測試方法中撰寫可呼叫所要產生類別或方法的陳述式，然後開啟該呼叫下的 IntelliSense 功能表。 如果呼叫的是新類別的建構函式，請從功能表中選擇 [產生新的類型]  ，然後遵循精靈以將類別插入程式碼專案中。 如果呼叫的是方法，請從 IntelliSense 功能表中選擇 [產生新的方法]  。  
   
- ![產生方法虛設常式 Intellisense 功能表](~/docs/test/media/ute_generatemethodstubintellisense.png "UTE_GenerateMethodStubIntellisense")  
+ ![產生方法虛設常式 Intellisense 功能表](~/test/media/ute_generatemethodstubintellisense.png "UTE_GenerateMethodStubIntellisense")  
   
  **問：是否可以建立採用多個資料集作為輸入來執行測試的單元測試？**  
   
@@ -358,7 +358,7 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
   
  **答：**可以，請遵循[尋找並安裝其他架構](../test/install-third-party-unit-test-frameworks.md)中的步驟。 重新啟動 Visual Studio 之後，重新開啟方案以建立您的單元測試，然後在這裡選取您已安裝的架構：  
   
- ![選取其他已安裝的單元測試架構](~/docs/test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
+ ![選取其他已安裝的單元測試架構](~/test/media/createunittestsdialogextensions.png "CreateUnitTestsDialogExtensions")  
   
  將會使用所選擇的架構來建立您的單元測試虛設常式。
 

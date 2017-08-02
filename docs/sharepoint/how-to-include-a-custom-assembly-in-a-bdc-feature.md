@@ -37,7 +37,7 @@ caps.handback.revision: 16
   
 2.  在 \[**檢視**\] 功能表中，按一下 \[**屬性視窗**\]。  
   
-3.  在 \[**屬性視窗**\] 中，選取 \[**Assemblies**\] 屬性，然後選擇省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
+3.  在 \[**屬性視窗**\] 中，選取 \[**Assemblies**\] 屬性，然後選擇省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)。  
   
      \[**將被參考組件指派給 LobSystem**\] 對話方塊隨即出現。  
   

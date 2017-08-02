@@ -200,13 +200,13 @@ ms.lasthandoff: 02/22/2017
   
 7.  在 CPU 使用率圖表中選取一到兩秒的部分 (您可以按一下並拖曳或使用 Tab 和方向鍵來選取)。 下圖顯示在選取範圍之後的 CPU 使用率圖表。 非陰影區域是選取範圍。  
   
-     ![CPU 使用率圖形](~/docs/profiling/media/js_htmlviz_app_cpu.png "JS_HTMLViz_App_CPU")  
+     ![CPU 使用率圖形](~/profiling/media/js_htmlviz_app_cpu.png "JS_HTMLViz_App_CPU")  
   
 8.  選擇 [放大]。  
   
      圖表隨即變更，更詳細地顯示所選取的期間。 下圖顯示經過放大之後的 CPU 使用率圖表。 (特定資料可能有所差異，但是一般模式則很明顯。)  
   
-     ![放大的檢視](~/docs/profiling/media/js_htmlviz_app_zoom.png "JS_HTMLViz_App_Zoom")  
+     ![放大的檢視](~/profiling/media/js_htmlviz_app_zoom.png "JS_HTMLViz_App_Zoom")  
   
      下方窗格中的 [時間軸詳細資料] 會顯示所選取期間的詳細資料範例。  
   

@@ -42,11 +42,11 @@ Visual Studio 支援在使用 CPython 型解譯器時分析 Python 應用程式�
 
 若要進行分析，請執行 [分析] > [啟動 Python 分析] 功能表命令，這將會開啟設定對話方塊：
 
-![分析設定對話方塊](~/docs/python/media/profiling-start.png)
+![分析設定對話方塊](~/python/media/profiling-start.png)
 
 當您選取 [確定] 時，分析工具會執行並開啟效能報告，您可以透過該報告探索應用程式中的執行時間：
 
-![分析效能報告](~/docs/python/media/profiling-results.png)
+![分析效能報告](~/python/media/profiling-results.png)
 
 如需概觀說明，請參閱下列內容
 

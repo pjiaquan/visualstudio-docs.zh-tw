@@ -41,7 +41,7 @@ ms.lasthandoff: 05/12/2017
 
 繪圖是資料科學家工作流程的重要部分。 在 Visual Studio R 工具 (RTVS) 中，所有繪圖活動都著重於一或多個繪圖視窗，其設計旨在以此重要活動來提升生產力。
 
-![繪製英雄影像](~/docs/rtvs/media/plotting-hero-image.png)
+![繪製英雄影像](~/rtvs/media/plotting-hero-image.png)
 
 本主題內容：
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/12/2017
 
 繪圖視窗保留一系列的繪圖，每份繪圖皆由 `plot` 命令產生。 例如，如果其中一個已無法使用，則使用 `plot(1:100)` 建立新的繪圖視窗︰
 
-![1 到 100 之間的線性繪圖](~/docs/rtvs/media/plotting-1-to-100.png)
+![1 到 100 之間的線性繪圖](~/rtvs/media/plotting-1-to-100.png)
 
 就技術上而言，R `plot` 命令會將其輸出呈現在 R 圖形裝置，繪圖視窗則呈現 R 圖形裝置的內容，這就是每個繪圖視窗都有裝置編號的原因。
 
@@ -76,16 +76,16 @@ ms.lasthandoff: 05/12/2017
 
 | 按鈕 | 命令 | 說明 | 
 | --- | --- | --- |
-| ![新增繪圖視窗按鈕](~/docs/rtvs/media/plotting-toolbar-01-new-plot-window.png) | 新增繪圖視窗 | 建立有專屬歷程記錄的個別繪圖視窗。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 |
-| ![啟動繪圖視窗按鈕](~/docs/rtvs/media/plotting-toolbar-02-activate-plot-window.png) | 啟動繪圖視窗 | 將目前的繪圖視窗設為使用中視窗，以便後續的 `plot` 命令呈現在該視窗中。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 |
-| ![繪圖歷程記錄視窗按鈕](~/docs/rtvs/media/plotting-toolbar-03-plot-history.png) | 繪圖歷程記錄視窗 | 開啟視窗，內含歷程記錄中顯示為縮圖的所有繪圖。 請參閱[繪圖歷程記錄](#plot-history)。 |
-| ![繪圖歷程記錄按鈕](~/docs/rtvs/media/plotting-toolbar-04-plot-history-arrows.png) | 上一張/下一張繪圖 |  巡覽歷程記錄中的上一張或下一張繪圖。 您也可以使用 Ctrl+Alt+F11 ([上一張]) 和 Ctrl+Alt+F12 ([下一張]) 巡覽歷程記錄。 請參閱[繪圖歷程記錄](#plot-history)。 |
-| ![另存成影像按鈕](~/docs/rtvs/media/plotting-toolbar-05-save-as-image.png)| 另存成影像 | 提示輸入檔案名稱，並將目前的繪圖 (視窗大小的視窗內容) 儲存為影像檔案。 可用的格式為 `.png`、`.jpg`、`.bmp` 和 `.tif`。 |
-| ![儲存為 PDF 按鈕](~/docs/rtvs/media/plotting-toolbar-06-save-as-pdf.png)| 儲存為 PDF | 將目前的繪圖儲存為 PDF 檔案，使用目前的視窗大小。 如果調整 PDF，會重新呈現繪圖。 |
-| ![複製為點陣圖按鈕](~/docs/rtvs/media/plotting-toolbar-07-copy-as-bitmap.png)| 複製為點陣圖 | 將繪圖複製到剪貼簿中成為點陣圖，使用目前的視窗大小。 | 
-| ![複製為中繼檔按鈕](~/docs/rtvs/media/plotting-toolbar-08-copy-as-metafile.png)| 複製為中繼檔 | 將繪圖複製到剪貼簿成為 [Windows 中繼檔](https://en.wikipedia.org/wiki/Windows_Metafile) (維基百科)。 | 
-| ![移除繪圖按鈕](~/docs/rtvs/media/plotting-toolbar-09-remove-plot.png)| 移除繪圖 | 從歷程記錄中移除目前的繪圖。 |
-| ![清除所有繪圖按鈕](~/docs/rtvs/media/plotting-toolbar-10-clear-all-plots.png) | 清除所有繪圖 | 從歷程記錄中清除所有繪圖 (提示使用者進行確認)。 |
+| ![新增繪圖視窗按鈕](~/rtvs/media/plotting-toolbar-01-new-plot-window.png) | 新增繪圖視窗 | 建立有專屬歷程記錄的個別繪圖視窗。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 |
+| ![啟動繪圖視窗按鈕](~/rtvs/media/plotting-toolbar-02-activate-plot-window.png) | 啟動繪圖視窗 | 將目前的繪圖視窗設為使用中視窗，以便後續的 `plot` 命令呈現在該視窗中。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 請參閱[多個繪圖視窗](#multiple-plot-windows)。 |
+| ![繪圖歷程記錄視窗按鈕](~/rtvs/media/plotting-toolbar-03-plot-history.png) | 繪圖歷程記錄視窗 | 開啟視窗，內含歷程記錄中顯示為縮圖的所有繪圖。 請參閱[繪圖歷程記錄](#plot-history)。 |
+| ![繪圖歷程記錄按鈕](~/rtvs/media/plotting-toolbar-04-plot-history-arrows.png) | 上一張/下一張繪圖 |  巡覽歷程記錄中的上一張或下一張繪圖。 您也可以使用 Ctrl+Alt+F11 ([上一張]) 和 Ctrl+Alt+F12 ([下一張]) 巡覽歷程記錄。 請參閱[繪圖歷程記錄](#plot-history)。 |
+| ![另存成影像按鈕](~/rtvs/media/plotting-toolbar-05-save-as-image.png)| 另存成影像 | 提示輸入檔案名稱，並將目前的繪圖 (視窗大小的視窗內容) 儲存為影像檔案。 可用的格式為 `.png`、`.jpg`、`.bmp` 和 `.tif`。 |
+| ![儲存為 PDF 按鈕](~/rtvs/media/plotting-toolbar-06-save-as-pdf.png)| 儲存為 PDF | 將目前的繪圖儲存為 PDF 檔案，使用目前的視窗大小。 如果調整 PDF，會重新呈現繪圖。 |
+| ![複製為點陣圖按鈕](~/rtvs/media/plotting-toolbar-07-copy-as-bitmap.png)| 複製為點陣圖 | 將繪圖複製到剪貼簿中成為點陣圖，使用目前的視窗大小。 | 
+| ![複製為中繼檔按鈕](~/rtvs/media/plotting-toolbar-08-copy-as-metafile.png)| 複製為中繼檔 | 將繪圖複製到剪貼簿成為 [Windows 中繼檔](https://en.wikipedia.org/wiki/Windows_Metafile) (維基百科)。 | 
+| ![移除繪圖按鈕](~/rtvs/media/plotting-toolbar-09-remove-plot.png)| 移除繪圖 | 從歷程記錄中移除目前的繪圖。 |
+| ![清除所有繪圖按鈕](~/rtvs/media/plotting-toolbar-10-clear-all-plots.png) | 清除所有繪圖 | 從歷程記錄中清除所有繪圖 (提示使用者進行確認)。 |
 
 ## <a name="multiple-plot-windows"></a>多個繪圖視窗
 
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/12/2017
 若要查看整個繪圖集合，請使用工具列按鈕或 [R 工具] > [繪圖] > [繪圖歷程記錄視窗]，開啟 [繪圖歷程記錄視窗]。
 這會提供您一份在該視窗中顯示的繪圖縮圖清單，依不同的繪圖視窗 (或裝置) 分組。 使用工具列上的縮放按鈕可變更縮圖的大小。
 
-![繪圖歷程記錄視窗](~/docs/rtvs/media/plotting-plot-history-window.png)
+![繪圖歷程記錄視窗](~/rtvs/media/plotting-plot-history-window.png)
 
 若要在相關聯的視窗中開啟繪圖，請按兩下該繪圖、選取它，然後選取 [顯示繪圖] 工具列按鈕，或以滑鼠右鍵按一下並選取 [顯示繪圖]。 您也可以選取個別的繪圖，從滑鼠右鍵操作功能表或 [編輯] 功能表中複製、剪下或刪除。
 

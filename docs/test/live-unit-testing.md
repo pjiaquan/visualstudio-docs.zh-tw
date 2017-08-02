@@ -76,7 +76,7 @@ Live Unit Testing 適用於下表所列的三種熱門單元測試架構。 其�
 
 您可以設定 Live Unit Testing，方法是從最上層的 Visual Studio 功能表中依序選取 [工具] 和 [選項]，然後在 [選項] 對話方塊的左窗格中選取 [Live Unit Testing]。 下圖顯示對話方塊中提供的 Live Unit Testing 組態選項。
 
-  ![Image](~/docs/test/media/lut-options.png)
+  ![Image](~/test/media/lut-options.png)
 
 可設定的選項包括：
 
@@ -105,21 +105,21 @@ Live Unit Testing 適用於下表所列的三種熱門單元測試架構。 其�
 
 一旦啟用之後，Live Unit Testing 就會更新 Visual Studio 編輯器中的每個程式碼行，以顯示單元測試是否會涵蓋您撰寫的程式碼，以及涵蓋該程式碼的測試是否順利通過。  下圖顯示顯示具有通過及失敗測試的程式碼行，以及不受測試涵蓋的程式碼行。 僅由通過的測試所涵蓋的程式碼行會以綠色的 "✓" 裝飾，由一或多個失敗測試所涵蓋的程式碼行會以紅色 "🞩" 裝飾，而沒有受任何測試涵蓋的程式碼行則會以藍色 "" 裝飾。
 
-  ![Image](~/docs/ide/media/lut-codewindow.png)
+  ![Image](~/ide/media/lut-codewindow.png)
 
 當您在程式碼編輯器中修改程式碼時，系統會立即更新 Live Unit Testing 涵蓋範圍的視覺效果。 處理編輯時，視覺效果會變更來表示資料不是最新狀態，並會在通過、失敗及未涵蓋符號下方新增圓形計時器圖案，如下圖所示。
 
-  ![Image](~/docs/test/media/lut-codeupdating.png)
+  ![Image](~/test/media/lut-codeupdating.png)
  
 ## <a name="getting-information-on-successful-or-failed-tests"></a>取得成功或失敗測試的相關資訊
 
 藉由將滑鼠暫留在程式碼視窗中的成功或失敗符號上方，您就能看到已針對該行做出多少測試。 如果您按一下該符號，就能看見個別測試的狀態，如下圖所示。
  
-  ![Image](~/docs/test/media/lut-failedinfo.png) 
+  ![Image](~/test/media/lut-failedinfo.png) 
 
 當您將滑鼠暫留在工具提示中的失敗測試上方時，工具提示會展開以提供有關失敗的其他資訊，如下圖所示。 如果您按一下工具提示中的失敗測試，就能直接瀏覽至該測試。
 
-  ![Image](~/docs/test/media/lut-failedmsg.png) 
+  ![Image](~/test/media/lut-failedmsg.png) 
 
 ## <a name="diagnosing-and-correcting-test-failures"></a>診斷並修正測試失敗
 

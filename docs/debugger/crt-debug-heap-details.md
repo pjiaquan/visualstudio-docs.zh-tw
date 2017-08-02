@@ -144,7 +144,7 @@ typedef struct _CrtMemBlockHeader
  新物件 \(0xCD\)  
  新物件在配置時會填入 0xCD。  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Types_of_blocks_on_the_debug_heap"></a> 偵錯堆積上的區塊類型  
  偵錯堆積裡的每個記憶體區塊會設定成五種配置類型的其中一種。  這些類型可以針對不同的流失偵測和狀態報告目的來追蹤和報告。  您可以使用直接呼叫其中一個偵錯堆積配置函式，例如 [\_malloc\_dbg](/visual-cpp/c-runtime-library/reference/malloc-dbg)，來指定區塊類型。  五種偵錯堆積 \(於 **\_CrtMemBlockHeader** 結構的 **nBlockUse** 成員設定\) 裡的記憶體區塊類型如下：  
@@ -178,7 +178,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 #define _BLOCK_SUBTYPE(block)       (block >> 16 & 0xFFFF)  
 ```  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Check_for_heap_integrity_and_memory_leaks"></a> 檢查堆積的完整性和記憶體流失  
  許多偵錯堆積的功能必須從程式碼內存取。  下一節將說明一些功能以及如何使用這些功能。  
@@ -199,7 +199,7 @@ freedbg(pbData, _CLIENT_BLOCK|(MYSUBTYPE<<16));
 |**\_CRTDBG\_CHECK\_CRT\_DF**|Off|造成區塊標記為 **\_CRT\_BLOCK** 類型，以便包含於流失偵測和狀態差異操作中。  當這個位元關閉時，會忽略在這類操作期間執行階段程式庫內部所使用的記憶體。|  
 |**\_CRTDBG\_LEAK\_CHECK\_DF**|Off|以呼叫 **\_CrtDumpMemoryLeaks**，來執行在程式結束時的流失檢查。  如果應用程式無法釋放它所配置的所有記憶體，會產生錯誤報告。|  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Configure_the_debug_heap"></a> 設定偵錯堆積  
  所有堆積函式的呼叫，例如 `malloc`、`free`、`calloc`、`realloc`、`new` 和 `delete` 都會解析成操作於偵錯堆積裡的這些函式之偵錯版本。  當您釋放記憶體區塊時，偵錯堆積會自動檢查配置區域每端的緩衝區之完整性，如果發生覆寫發便會發出錯誤報告。  
@@ -234,7 +234,7 @@ tmpFlag &= ~_CRTDBG_CHECK_CRT_DF;
 _CrtSetDbgFlag( tmpFlag );  
 ```  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_new__delete__and__CLIENT_BLOCKs_in_the_C___debug_heap"></a> C\+\+ 偵錯堆積中的 new、delete 和 \_CLIENT\_BLOCK  
  C 執行階段程式庫的偵錯版本包含 C\+\+ `new` 及 `delete` 運算子的偵錯版本。  如果您使用 `_CLIENT_BLOCK` 配置類型，則必須直接呼叫 `new` 運算子的偵錯版本，或建立可以取代偵錯模式中 `new` 運算子的巨集，如同下列範例所示：  
@@ -272,7 +272,7 @@ int main( )   {
   
  `delete` 運算子的偵錯版本會作用在所有的區塊類型上，當您編譯發行版本時不需要在程式裡做任何的變更。  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Heap_State_Reporting_Functions"></a> 堆積狀態報告函式  
  **\_CrtMemState**  
@@ -309,7 +309,7 @@ typedef struct _CrtMemState
 |[\_CrtMemDumpAllObjectsSince](/visual-cpp/c-runtime-library/reference/crtmemdumpallobjectssince)|傾印從堆積的指定快照使用後或從執行開始的所有配置物件之相關資訊。  如果應用程式是使用 **\_CrtSetDumpClient** 安裝，每次它傾印 **\_CLIENT\_BLOCK** 區塊時，就會呼叫應用程式所提供的攔截函式。|  
 |[\_CrtDumpMemoryLeaks](/visual-cpp/c-runtime-library/reference/crtdumpmemoryleaks)|判斷自從程式執行開始時，是否有任何的記憶體流失發生，如果有的話，傾印所有配置的物件。  如果應用程式是使用 **\_CrtSetDumpClient** 安裝，每次 **\_CrtDumpMemoryLeaks** 傾印 **\_CLIENT\_BLOCK** 區塊時，它就會呼叫應用程式所提供的攔截函式。|  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ##  <a name="BKMK_Track_Heap_Allocation_Requests"></a> 追蹤堆積配置要求  
  雖然指出判斷提示或報告巨集執行的原始程式檔名稱和行號通常在找出問題原因很有用，但是對於堆積配置函式可能就不是這樣。  雖然巨集可以插入到許多在應用程式邏輯樹狀圖裡合適的點，但是配置通常是在許多不同時間裡由許多不同地方的特殊常式呼叫。  問題通常不是哪一行程式碼做了錯誤的配置，而是上千個配置中，哪一個配置是由哪一錯誤程式碼所造成，以及其錯誤原因為何。  
@@ -364,7 +364,7 @@ int addNewRecord(struct RecStruct *prevRecord,
   
  現在，偵錯堆積中每個產生的配置區塊，都會儲存呼叫 `addNewRecord` 位置的原始程式檔名稱和行號，而區塊檢查時也會報告這些資訊。  
   
- ![回到頁首](~/docs/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
+ ![回到頁首](~/debugger/media/pcs_backtotop.png "PCS\_BackToTop") [內容](#BKMK_Contents)  
   
 ## 請參閱  
  [偵錯機器碼](../debugger/debugging-native-code.md)

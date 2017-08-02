@@ -87,19 +87,19 @@ caps.handback.revision: 42
     > [!NOTE]  
     >  如果 \[開發人員\] 索引標籤沒有顯示，您必須先使其顯示。  如需詳細資訊，請參閱[如何：在功能區顯示開發人員索引標籤](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md)。  
   
-6.  在 \[控制項\] 群組中，按一下 \[文字\] 按鈕 ![PlainTextContentControl](~/docs/vsto/media/plaintextcontrol.gif "PlainTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 加入第一個儲存格。  
+6.  在 \[控制項\] 群組中，按一下 \[文字\] 按鈕 ![PlainTextContentControl](~/vsto/media/plaintextcontrol.gif "PlainTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 加入第一個儲存格。  
   
 7.  按一下第二欄中的第二個儲存格 \(\[雇用日期\] 旁邊\)。  
   
-8.  在 \[控制項\] 群組中，按一下 \[日期選擇器\] 按鈕 ![DatePickerContentControl](~/docs/vsto/media/datepicker.gif "DatePickerContentControl")，將 <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> 加入第二個儲存格。  
+8.  在 \[控制項\] 群組中，按一下 \[日期選擇器\] 按鈕 ![DatePickerContentControl](~/vsto/media/datepicker.gif "DatePickerContentControl")，將 <xref:Microsoft.Office.Tools.Word.DatePickerContentControl> 加入第二個儲存格。  
   
 9. 按一下第二欄中的第三個儲存格 \(\[職稱\] 旁邊\)。  
   
-10. 在 \[控制項\] 群組中，按一下 \[下拉式方塊\] 按鈕 ![ComboBoxContentControl](~/docs/vsto/media/combobox.gif "ComboBoxContentControl")，將 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> 加入第三個儲存格。  
+10. 在 \[控制項\] 群組中，按一下 \[下拉式方塊\] 按鈕 ![ComboBoxContentControl](~/vsto/media/combobox.gif "ComboBoxContentControl")，將 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> 加入第三個儲存格。  
   
 11. 按一下第二欄中的最後一個儲存格 \(\[圖片\] 旁邊\)。  
   
-12. 在 \[控制項\] 群組中，按一下 \[圖片內容控制項\] 按鈕 ![PictureContentControl](~/docs/vsto/media/pictcontentcontrol.gif "PictureContentControl")，將 <xref:Microsoft.Office.Tools.Word.PictureContentControl> 加入最後一個儲存格。  
+12. 在 \[控制項\] 群組中，按一下 \[圖片內容控制項\] 按鈕 ![PictureContentControl](~/vsto/media/pictcontentcontrol.gif "PictureContentControl")，將 <xref:Microsoft.Office.Tools.Word.PictureContentControl> 加入最後一個儲存格。  
   
 ## 建立客戶回函資料表  
  建立含有三種不同內容控制項類型的資料表，使用者可以在這個資料表中輸入客戶回函資訊。  
@@ -124,15 +124,15 @@ caps.handback.revision: 42
   
 6.  按一下 \[功能區\] 上的 \[開發人員\] 索引標籤。  
   
-7.  在 \[控制項\] 群組中，按一下 \[文字\] 按鈕 ![PlainTextContentControl](~/docs/vsto/media/plaintextcontrol.gif "PlainTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 加入至第一個儲存格。  
+7.  在 \[控制項\] 群組中，按一下 \[文字\] 按鈕 ![PlainTextContentControl](~/vsto/media/plaintextcontrol.gif "PlainTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> 加入至第一個儲存格。  
   
 8.  按一下第二欄的第二個儲存格 \(\[滿意度評等\] 旁邊\)。  
   
-9. 在 \[控制項\] 群組中，按一下 \[下拉式清單\] 按鈕 ![DropDownListContentControl](~/docs/vsto/media/dropdownlist.gif "DropDownListContentControl")，將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>加入至第二個儲存格。  
+9. 在 \[控制項\] 群組中，按一下 \[下拉式清單\] 按鈕 ![DropDownListContentControl](~/vsto/media/dropdownlist.gif "DropDownListContentControl")，將 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>加入至第二個儲存格。  
   
 10. 按一下第二欄的最後一個儲存格 \(\[註解\] 旁邊\)。  
   
-11. 在 \[控制項\] 群組中，按一下 \[RTF 文字\] 按鈕 ![RichTextContentControl](~/docs/vsto/media/richtextcontrol.gif "RichTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 加入至最後一個儲存格。  
+11. 在 \[控制項\] 群組中，按一下 \[RTF 文字\] 按鈕 ![RichTextContentControl](~/vsto/media/richtextcontrol.gif "RichTextContentControl")，將 <xref:Microsoft.Office.Tools.Word.RichTextContentControl> 加入至最後一個儲存格。  
   
 ## 以程式設計方式填入下拉式方塊和下拉式清單  
  您可以使用 [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] 中的 \[屬性\] 視窗，在設計階段初始化內容控制項。  也可以在執行階段再進行初始化，這樣可讓您動態設定其初始狀態。  在此逐步解說中，請在執行階段使用程式碼將項目填入至 <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> 和 <xref:Microsoft.Office.Tools.Word.DropDownListContentControl>，如此您就可以得知這些物件運作的方式。  

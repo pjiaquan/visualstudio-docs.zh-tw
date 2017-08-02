@@ -49,13 +49,13 @@ ms.lasthandoff: 05/12/2017
 
 程式碼片段可以不單單只是字元的字元完成。 例如，它們可以讓您不必記住複雜函式呼叫中的參數名稱，例如這個用來以 `read.csv` 函式讀取 CSV 檔案的程式碼片段︰
 
-![使用程式碼片段將呼叫插入 read.csv 的動畫](~/docs/rtvs/media/code-snippet-expansion.gif)
+![使用程式碼片段將呼叫插入 read.csv 的動畫](~/rtvs/media/code-snippet-expansion.gif)
 
 在此情況下，當您輸入 `readc` 時，IntelliSense 會顯示完成清單。 在下拉式清單中選取該完成，然後按 Tab 鍵即可選取 `readc`，再次按 Tab 鍵則會展開程式碼片段。 (基於這個理由，程式碼片段展開經常被視為「鍵入程式碼片段，並按 TAB 鍵兩次」)。 在大部分情況下，第一次按 Tab 鍵會完成 IntelliSense 選取範圍，而第二次按 Tab 鍵則會觸發展開。
 
 若要查看所有可用的片段，請開啟 [工具] > [程式碼片段管理員] 對話方塊 (Ctrl + K、B)，然後針對 [語言] 選取 [R]。 展開群組，然後選取個別的程式碼片段，即可看到描述和快顯文字︰
 
-![R 的 [程式碼片段] 對話方塊](~/docs/rtvs/media/code-snippet-dialog.png)
+![R 的 [程式碼片段] 對話方塊](~/rtvs/media/code-snippet-dialog.png)
 
 若要建立自訂程式碼片段，並遵循[逐步解說︰建立程式碼片段](../ide/walkthrough-creating-a-code-snippet.md)上的指示。 最後，程式碼片段只是一個 XML 檔案。 例如，以下是管道作業的程式碼片段 (捷徑 `>`)
 

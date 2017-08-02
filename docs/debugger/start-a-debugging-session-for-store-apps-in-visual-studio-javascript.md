@@ -26,7 +26,7 @@ caps.handback.revision: 24
 # 在 Visual Studio 中，為市集應用程式啟動偵錯工作階段 (JavaScript)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  本主題說明如何對於開始對使用 JavaScript 和 HTML5 撰寫的 Windows 市集應用程式執行偵錯工作階段。您可以使用單一按鍵開始偵錯，也可以為特定案例設定偵錯工作階段，然後選擇應用程式的啟動方式。  
   
@@ -67,7 +67,7 @@ caps.handback.revision: 24
 -   [附加偵錯工具](#BKMK_Attach_the_debugger)  
   
 ##  <a name="BKMK_The_easy_way_to_start_debugging"></a> 簡單的偵錯方法  
- ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/debugger/media/windows_only_content.png "windows\_only\_content")  
   
 1.  在 Visual Studio 中開啟應用程式方案。  
   
@@ -75,7 +75,7 @@ caps.handback.revision: 24
   
 3.  按 F5。  
   
- ![僅適用於 Windows Phone](~/docs/debugger/media/phone_only_content.png "phone\_only\_content")  
+ ![僅適用於 Windows Phone](~/debugger/media/phone_only_content.png "phone\_only\_content")  
   
  Visual Studio 會建置並啟動已附加偵錯工具的應用程式。執行會持續到中斷點為止，若以手動方式暫停執行，就會發生未處理的例外狀況，或結束應用程式。如需詳細資訊，請參閱[快速入門：偵錯 HTML 和 CSS](../debugger/quickstart-debug-html-and-css.md)。  
   
@@ -97,7 +97,7 @@ caps.handback.revision: 24
 ###  <a name="BKMK_Choose_the_deployment_target"></a> 選擇部署目標  
  您可以在 Visual Studio 電腦、本機電腦上的 Visual Studio 模擬器或遠端電腦上部署應用程式並對其執行偵錯。您可以從專案的 \[偵錯\] 屬性頁上之 \[要啟動的偵錯工具\] 清單中選擇目標。  
   
- ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  對於 Windows 市集應用程式，請從 \[目標裝置\] 清單中選擇下列其中一個選項：  
   
@@ -113,12 +113,12 @@ caps.handback.revision: 24
   
 -   在 \[電腦名稱\] 方塊中選擇向下箭頭，然後選擇 \[\<尋找...\>\]。然後從 \[選取遠端偵錯工具連接\] 對話方塊中選擇遠端電腦。  
   
-     ![選取遠端偵錯工具連接](~/docs/debugger/media/vsrun_pro_selectremotedebuggerdlg.png "VSRUN\_PRO\_SelectRemoteDebuggerDlg")  
+     ![選取遠端偵錯工具連接](~/debugger/media/vsrun_pro_selectremotedebuggerdlg.png "VSRUN\_PRO\_SelectRemoteDebuggerDlg")  
   
     > [!NOTE]
     >  \[選取遠端偵錯工具連接\] 對話方塊會顯示位於本機子網路上的電腦，以及透過乙太網路纜線直接連接至 Visual Studio 電腦的任何電腦。若要指定其他電腦，請在 \[電腦名稱\] 方塊中輸入名稱。  
   
- ![僅適用於 Windows Phone](~/docs/debugger/media/phone_only_content.png "phone\_only\_content")  
+ ![僅適用於 Windows Phone](~/debugger/media/phone_only_content.png "phone\_only\_content")  
   
  對於 Windows Phone 應用程式，請選擇 \[裝置\]，或從 \[目標裝置\] 清單中選擇一個模擬器。  
   
@@ -145,7 +145,7 @@ caps.handback.revision: 24
 -   選擇 \[是\] 會立即啟動您的應用程式。  
   
 ###  <a name="BKMK__Optional__Disable_network_loopbacks"></a> \(選擇性\) 停用網路回送  
- ![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
+ ![僅適用於 Windows](~/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  基於安全性的理由，以標準形式安裝的 Windows 市集應用程式，不得對其安裝所在的裝置進行網路呼叫。根據預設，Visual Studio 部署會針對部署應用程式建立此規則的豁免。此豁免可讓您測試在單一機器上的通訊程序。將應用程式提交到 Windows 市集之前，應不使用豁免來測試您的應用程式。  
   

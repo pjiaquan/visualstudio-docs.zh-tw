@@ -31,7 +31,7 @@ caps.handback.revision: 3
   
 2.  在 [XML Explorer](../xml-tools/xml-schema-explorer.md) 工具列的搜尋文字方塊中，輸入 "purchaseOrder"，然後按一下搜尋按鈕。  
   
-     ![XML 結構描述總管關鍵字搜尋](~/docs/xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")  
+     ![XML 結構描述總管關鍵字搜尋](~/xml-tools/media/schemaexplorersearch.gif "SchemaExplorerSearch")  
   
      搜尋結果會在 XML 結構描述總管中反白顯示，並以刻度標示在垂直捲軸上。  
   

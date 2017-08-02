@@ -40,11 +40,11 @@ manager: "ghogen"
   
 2.  在 \[**檢視**\] 功能表上選擇 \[**其他視窗**\] \> \[**資料來源**\]。  
   
-     ![檢視其他視窗資料來源](~/docs/data-tools/media/viewdatasources.png "ViewDataSources")  
+     ![檢視其他視窗資料來源](~/data-tools/media/viewdatasources.png "ViewDataSources")  
   
 3.  在 \[**資料來源**\] 視窗中，按一下 \[**加入新資料來源**\]。  
   
-     ![加入新資料來源](~/docs/data-tools/media/dataaddnewdatasource.png "dataAddNewDataSource")  
+     ![加入新資料來源](~/data-tools/media/dataaddnewdatasource.png "dataAddNewDataSource")  
   
 4.  在 \[**選擇資料來源類型**\] 頁面上選擇 \[**資料庫**\]，然後選擇 \[**下一步**\]。  
   
@@ -87,11 +87,11 @@ manager: "ghogen"
   
 2.  在 \[**檢視**\] 功能表上選擇 \[**其他視窗**\] \> \[**資料來源**\]。  
   
-     ![檢視其他視窗資料來源](~/docs/data-tools/media/viewdatasources.png "ViewDataSources")  
+     ![檢視其他視窗資料來源](~/data-tools/media/viewdatasources.png "ViewDataSources")  
   
 3.  在 \[**資料來源**\] 視窗中，按一下 \[**加入新資料來源**\]。  
   
-     ![加入新資料來源](~/docs/data-tools/media/dataaddnewdatasource.png "dataAddNewDataSource")  
+     ![加入新資料來源](~/data-tools/media/dataaddnewdatasource.png "dataAddNewDataSource")  
   
 4.  在 \[**選擇資料來源類型**\] 頁面上選擇 \[**資料庫**\]，然後選擇 \[**下一步**\]。  
   

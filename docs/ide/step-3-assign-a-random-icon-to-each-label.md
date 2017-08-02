@@ -80,7 +80,7 @@ ms.lasthandoff: 02/22/2017
   
 5.  關閉程式，然後再執行一次。 請注意，不同的圖示會指派給每一個標籤，如下列圖片所示。  
   
-     ![含有隨機圖示的配對遊戲](~/docs/ide/media/express_tut4step3.png "Express_Tut4Step3")  
+     ![含有隨機圖示的配對遊戲](~/ide/media/express_tut4step3.png "Express_Tut4Step3")  
 含有隨機圖示的配對遊戲  
   
      因為您未隱藏它們，所以圖示現在是可見的。 若要讓玩家看不到它們，您可以將每個 Label 的 `Forecolor` 屬性設定為與其 `BackColor` 屬性相同的色彩。  

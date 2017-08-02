@@ -51,12 +51,12 @@ caps.handback.revision: 25
   
      您可以透過多種方式呼叫 `Random` 類別的 `Next()` 方法，也就是您在本教學課程前段中命名為 "randomizer" 的方法。  能夠以多種方式呼叫的方法稱為「多載」\(Overload\)，您可以使用 IntelliSense 來了解這些方法。  再看一次 `Next()` 方法的 \[IntelliSense\] 視窗工具提示。  
   
-     ![Intellisense 視窗工具提示](~/docs/ide/media/express_overloads.png "Express\_Overloads")  
+     ![Intellisense 視窗工具提示](~/ide/media/express_overloads.png "Express\_Overloads")  
 Intellisense 視窗工具提示  
   
      工具提示會顯示 \[**\(\+ 2 多載\)**\]，也就是說，您可以透過另外兩種方式呼叫 `Next()` 方法。  多載包含不同數目或類型的引數，因此彼此之間的運作方式會稍有不同。  例如，某個方法可能會接受單一整數引數，而它的其中一個多載可能會接受一個整數和一個字串。  您可以依據需要的功能選擇正確的多載。  您將程式碼加入至 `StartTheQuiz()` 方法時，只要輸入 `randomizer.Next(`，\[IntelliSense\] 視窗就會顯示詳細資訊。  選擇向上鍵和向下鍵，就可以循環瀏覽這些多載，如下圖所示。  
   
-     ![IntelliSense 中 Next&#40;&#41; 方法的多載](~/docs/ide/media/express_nextoverload.png "Express\_NextOverload")  
+     ![IntelliSense 中 Next&#40;&#41; 方法的多載](~/ide/media/express_nextoverload.png "Express\_NextOverload")  
 IntelliSense 中 Next\(\) 方法的多載  
   
      在這個案例中，您想要選擇最後一個多載，因為這樣就可以指定最小值和最大值。  

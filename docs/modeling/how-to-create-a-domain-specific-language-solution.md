@@ -60,7 +60,7 @@ ms.lasthandoff: 02/22/2017
         > [!NOTE]
         >  最好是您所輸入的名稱應該是有效的 Visual C# 識別項，因為它可能會用來產生程式碼。  
   
-     ![建立 DSL 對話方塊](~/docs/modeling/media/create_dsldialog.png "Create_DSLDialog")  
+     ![建立 DSL 對話方塊](~/modeling/media/create_dsldialog.png "Create_DSLDialog")  
   
 2.  選擇 DSL 範本。  
   

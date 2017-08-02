@@ -38,7 +38,7 @@ caps.handback.revision: 21
 ## 案例 1︰ 共用的 VSPackage  
  在此案例中，共用 VSPackage \(單一二進位檔，可支援多個版本的 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]\) 隨附於 Windows Installer 套件。 向每個版本 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 控制使用者可選取的功能。 這也表示，指派給個別功能時，每個元件可以選取個別的安裝或解除安裝，讓使用者控制整合的不同版本的 VSPackage 的 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。 \(請參閱 [Windows Installer 功能](http://msdn.microsoft.com/library/aa372840\(VS.85\).aspx) 如需有關使用 Windows Installer 封裝中的功能。\)  
   
- ![VS 的共用 VSPackage 圖形](~/docs/extensibility/internals/media/vs_sharedpackage.gif "VS\_SharedPackage")  
+ ![VS 的共用 VSPackage 圖形](~/extensibility/internals/media/vs_sharedpackage.gif "VS\_SharedPackage")  
 共用的 VSPackage 安裝程式  
   
  下圖所示，共用的元件都會 Feat\_Common 功能，一定會安裝的一部分。 藉由 Feat\_VS2002 和 Feat\_VS2003 功能可見，使用者可以在安裝時選擇的哪一個版本 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 他們想要整合 VSPackage。 使用者也可以使用新增或移除功能，這在此情況下從新增或移除 VSPackage 註冊資訊的不同版本的 Windows Installer 維護模式 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。  
@@ -52,7 +52,7 @@ caps.handback.revision: 21
 > [!CAUTION]
 >  每當多個版本之間的共用 VSPackage [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], ，很重要的 VSPackage 後續版本維持與舊版的回溯相容性 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。 您無法維護回溯相容性，其中，您必須使用由並行的私人 Vspackage。 如需詳細資訊，請參閱[支援多個版本的 Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)。  
   
- ![VS 共用的 VS 套件更新影像](~/docs/extensibility/internals/media/vs_sharedpackageupdate.gif "VS\_SharedPackageUpdate")  
+ ![VS 共用的 VS 套件更新影像](~/extensibility/internals/media/vs_sharedpackageupdate.gif "VS\_SharedPackageUpdate")  
 共用 VSPackage 更新安裝程式  
   
  這種情況下提供新 VSPackage 的安裝程式，還能善用次要升級的 Windows 安裝程式的支援。 使用者只需在安裝版本 1.1 和 1.0 版升級。 不過，不需要有系統的 1.0 版。 相同的安裝程式將安裝在系統，而 1.0 版的 1.1 版。 提供重要的更新，以這種方式的優點是，不需要經過開發升級的安裝程式和完整產品安裝程式的工作。 一個安裝程式會執行這兩個作業。 安全性修正程式或服務組件可能會改為充分利用 Windows Installer 修補程式。 如需詳細資訊，請參閱 [修補和升級](http://msdn.microsoft.com/library/aa370579\(VS.85\).aspx)。  
@@ -60,7 +60,7 @@ caps.handback.revision: 21
 ## 案例 3:\-並存 VSPackage  
  本案例說明兩個 VSPackage 安裝程式 — 一個用於每個版本的 Visual Studio.NET 2003年和 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]。 每個安裝程式會安裝由側邊或私用，VSPackage \(特別是建置和安裝特定版本的 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]\)。 每個 VSPackage 是在自己的元件。 因此，每個可個別服務修補程式或維護釋出。 VSPackage DLL 現在是版本專屬的則相同的元件與 DLL 中包含的註冊資訊。  
   
- ![VS 並存的 VS 套件圖形](~/docs/extensibility/internals/media/vs_sbys_package.gif "VS\_SbyS\_Package")  
+ ![VS 並存的 VS 套件圖形](~/extensibility/internals/media/vs_sbys_package.gif "VS\_SbyS\_Package")  
 並存 VSPackage 安裝程式  
   
  每個安裝程式也包含兩個安裝程式之間共用的程式碼。 如果共用的程式碼安裝到一般的位置時，安裝這兩個.msi 檔案會安裝共用的程式碼一次。 第二個安裝程式只會遞增參考計數在元件上。 參考計數可確保如果 VSPackages 的其中一個解除安裝，共用程式碼仍針對其他 VSPackage。 如果第二個 VSPackage 也會解除安裝，將會移除共用的程式碼。  
@@ -70,7 +70,7 @@ caps.handback.revision: 21
   
  在此情況下，VSPackage 是安裝在全域組件快取 \(GAC\) 中的受管理的 VSPackage。 當您重建它包含安全性修正程式時，您必須變更組件版本號碼的修訂號碼部分。 註冊資訊的新組件版本號碼會覆寫先前的版本，造成 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] 載入固定的組件。  
   
- ![VS 並存的 VS 套件更新圖形](~/docs/extensibility/internals/media/vs_sbys_packageupdate.gif "VS\_SbyS\_PackageUpdate")  
+ ![VS 並存的 VS 套件更新圖形](~/extensibility/internals/media/vs_sbys_packageupdate.gif "VS\_SbyS\_PackageUpdate")  
 並行的 VSPackage 更新安裝程式  
   
  **注意** 如需有關部署為並存組件的詳細資訊，請參閱 [簡化部署和使用.NET Framework 解決 DLL Hell](http://msdn.microsoft.com/library/ms973843.aspx)。  

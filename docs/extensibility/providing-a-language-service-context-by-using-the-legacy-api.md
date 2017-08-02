@@ -59,7 +59,7 @@ ms.lasthandoff: 02/22/2017
   
  下圖說明如何提供內容的語言服務會實作以`IVsLanguageContextProvider`。  
   
- ![LangServiceImplementation2 圖形](~/docs/extensibility/media/vslanguageservice2.gif "vsLanguageService2")  
+ ![LangServiceImplementation2 圖形](~/extensibility/media/vslanguageservice2.gif "vsLanguageService2")  
 語言服務內容  
   
  您可以在圖表中，看到[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]核心文字編輯器已附加至它的內容封包。 此內容包指向三個不同的子內容包︰ 語言服務、 預設編輯器和文字標記。 語言服務及文字標記子內容包包含屬性和關鍵字的語言服務如果<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider>實作介面時，以及文字標記如果<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider>介面的實作。</xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> </xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> 如果您不實作這些介面之一，編輯器會提供內容關鍵字的預設編輯器子內容包游標所在的位置。  

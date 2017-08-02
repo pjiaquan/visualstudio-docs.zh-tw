@@ -59,7 +59,7 @@ caps.handback.revision: 27
   
      請注意，您在程式碼中的 randomizer 後面輸入點 \(.\) 時，\[IntelliSense\] 視窗便會開啟，並顯示可以呼叫的所有 `Random` 物件的方法。  例如，IntelliSense 會列出 `Next()` 方法，如下所示。  
   
-     ![Next 方法](~/docs/ide/media/express_randomwhite.png "Express\_RandomWhite")  
+     ![Next 方法](~/ide/media/express_randomwhite.png "Express\_RandomWhite")  
 Next 方法  
   
      您在物件後面輸入一個點時，IntelliSense 會顯示物件的成員清單，例如屬性、方法和事件。  

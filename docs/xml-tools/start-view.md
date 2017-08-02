@@ -33,7 +33,7 @@ caps.handback.revision: 3
 ## 工具列  
  您可以在開始檢視、[內容模型檢視](../xml-tools/content-model-view.md)和 XML 結構描述設計工具工具列的[圖表檢視](../xml-tools/graph-view.md)之間巡覽。  
   
- ![XML 結構描述設計工具工具列](~/docs/xml-tools/media/xsdstartviewtoolbar.gif "XSDStartViewToolbar")  
+ ![XML 結構描述設計工具工具列](~/xml-tools/media/xsdstartviewtoolbar.gif "XSDStartViewToolbar")  
   
  當開始檢視為作用中時，下列 XSD 設計工具工具列的按鈕將會啟用：  
   

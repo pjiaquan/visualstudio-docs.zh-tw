@@ -56,7 +56,7 @@ JavaScript，並不允許明確變數宣告為輸入。  如此一來，IntelliS
   
  **完成選項無法識別的物件**  
   
- ![適用於識別項的 JavaScript IntelliSense](~/docs/ide/media/js_intellisense_identifiers.png "js\_intellisense\_identifiers")  
+ ![適用於識別項的 JavaScript IntelliSense](~/ide/media/js_intellisense_identifiers.png "js\_intellisense\_identifiers")  
   
  若要覆寫物件的完成清單，可以使用 XML 文件註解或 JavaScript IntelliSense 的擴充性功能。  使用這些功能，您可以提供型別資訊，以及更具描述性的 IntelliSense 資訊時，它可能否則無法使用。  如需詳細資訊，請參閱 [擴充 JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)和 [如何：建立 JavaScript XML 文件註解](../ide/create-xml-documentation-comments-for-javascript-intellisense.md)。  
   

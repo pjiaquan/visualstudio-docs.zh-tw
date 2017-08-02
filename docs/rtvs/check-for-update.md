@@ -44,7 +44,7 @@ Visual Studio R 工具 (RTVS) 的最新版本是 **1.0.30321.1407** (建議選�
 
 要檢查版本，可以在 Visual Studio 前往 [說明] > [關於] 並向下捲動到 [Visual Studio R 工具] 項目︰
 
-![在 Visual Studio 中檢查 RTVS 版本 (VS2017)](~/docs/rtvs/media/current-version.png)
+![在 Visual Studio 中檢查 RTVS 版本 (VS2017)](~/rtvs/media/current-version.png)
 
 請參閱[安裝](installation.md)以取得 Visual Studio 和 Windows 的需求。
 

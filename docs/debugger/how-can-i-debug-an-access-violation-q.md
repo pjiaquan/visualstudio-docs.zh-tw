@@ -44,7 +44,7 @@ manager: "ghogen"
   
  如果您在 Visual Studio 2015 Update 1 中執行這段程式碼，您應該會看到下列例外狀況對話方塊：  
   
- ![AccessViolationCPlus](~/docs/debugger/media/accessviolationcplus.png "AccessViolationCPlus")  
+ ![AccessViolationCPlus](~/debugger/media/accessviolationcplus.png "AccessViolationCPlus")  
   
  如果您無法判斷指標造成存取違規的原因，請追蹤整個程式碼，確定已正確指派造成問題的指標。  如果將指標當做參數傳遞，請確定其已正確地傳遞，而且您沒有不小心建立[淺層複製](http://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy)。 然後確認這些值未在程式中的某處意外變更，方法是為有問題的指標建立資料中斷點，以確定此指標未在程式中的其他位置修改。 如需資料中斷點的詳細資訊，請參閱[使用中斷點](../debugger/using-breakpoints.md)中的＜資料中斷點＞一節。  
   

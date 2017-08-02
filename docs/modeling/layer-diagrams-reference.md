@@ -64,7 +64,7 @@ ms.lasthandoff: 02/22/2017
  本主題說明您可以使用相依性圖表的項目。 如需詳細資訊，有關如何建立和繪製相依性圖表，請參閱[相依性圖表︰ 方針](../modeling/layer-diagrams-guidelines.md)。 如需分層模式的詳細資訊，請瀏覽[模式 i 作法網站](http://go.microsoft.com/fwlink/?LinkId=145794)。  
   
 ## <a name="reading-dependency-diagrams"></a>讀取相依性圖表  
- ![相依性圖表上的項目](~/docs/modeling/media/uml_layerrefreading.png "UML_LayerRefReading")  
+ ![相依性圖表上的項目](~/modeling/media/uml_layerrefreading.png "UML_LayerRefReading")  
   
  下表描述您可以使用相依性圖表的項目。  
   

@@ -43,7 +43,7 @@ Visual Studio R 工具 (RTVS) 與完整的 Visual Studio 偵錯體驗整合 (請
 
 在 R 專案中，啟動 R 檔案的偵錯工具啟動方式，與其他專案類型一樣︰使用 [偵錯] > [啟動偵錯]、F5 鍵，或 [偵錯] 工具列上的 [執行啟動檔案]，如下所示。 若要變更啟動檔案，請在方案總管中以滑鼠右鍵按一下檔案，然後選取 [設定為啟動 R 指令碼]。
 
-![R 的偵錯工具 [開始] 按鈕](~/docs/rtvs/media/debugger-start-button.png)
+![R 的偵錯工具 [開始] 按鈕](~/rtvs/media/debugger-start-button.png)
 
 在所有情況下，啟動偵錯工具會在互動式視窗中「執行」檔案，這表示載入它並在那裡執行該檔案。 事實上，當您開始偵錯時，您會在互動式視窗中看到如下的輸出︰
 
@@ -85,5 +85,5 @@ add <- function(x, y) {
 | help | 顯示說明︰在互動式視窗中顯示可用的命令。 |
 | &lt;expr&gt; | 評估 *expr* 中的運算式。 |
 
-![互動式視窗中的環境瀏覽器](~/docs/rtvs/media/debugger-environment-browser.png)
+![互動式視窗中的環境瀏覽器](~/rtvs/media/debugger-environment-browser.png)
 

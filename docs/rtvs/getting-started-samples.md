@@ -52,11 +52,11 @@ ms.lasthandoff: 05/12/2017
 
 - `1-Getting Started with R.R` 涵蓋許多 R 基本概念，包括使用套件、載入和分析資料，以及繪製。
 
-    ![1-Getting Started with R.R 範例的範例輸出](~/docs/rtvs/media/samples-getting-started-output.png)
+    ![1-Getting Started with R.R 範例的範例輸出](~/rtvs/media/samples-getting-started-output.png)
 
 - `2-Introduction to ggplot2.R` 介紹 ggplot2 圖形套件，它是以視覺效果豐富的繪圖和簡單的語法而知名。 這個範例可以視覺化斐濟的地震資料。
 
-    ![2-Introduction to ggplot2.R 範例的範例輸出](~/docs/rtvs/media/samples-ggplot-output.png)
+    ![2-Introduction to ggplot2.R 範例的範例輸出](~/rtvs/media/samples-ggplot-output.png)
 
 
 ## <a name="microsoft-r-server-and-machine-learning"></a>Microsoft R 伺服器和機器學習服務
@@ -67,7 +67,7 @@ ms.lasthandoff: 05/12/2017
 
 - `Benchmarks` 會執行許多大量運算的基準測試，顯示透過使用 Microsoft R Open 和 Intel 數學核心程式庫 (MKL) 的快速、平行線性代數計算而可能會提升的效能。 使用模擬的資料，它特別會比較兩個執行緒與針對特定矩陣相關計算使用一個執行緒的情況。   
 
-    ![範例基準測試繪圖](~/docs/rtvs/media/samples-mro-benchmark-plot.png)
+    ![範例基準測試繪圖](~/rtvs/media/samples-mro-benchmark-plot.png)
 
 - `Bike_Rental_Estimation_with_MRS` 會建立單車出租的需求預測模型，這是使用 Microsoft R 伺服器，並以歷程記錄資料集為基礎。 
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 05/12/2017
     - `Import Data from URL to xdf.R` 示範如何將 URL 識別資料檔案作為 xdf 載入到 Microsoft R 伺服器。 (需要 MRS。)
     - `Using ggplot2.R` 是 `A First Look at R/2-Introduction to ggplot2.R` 範例的延伸模組，提供更豐富的 ggplot2 功能教學課程，包括互動式 3D 繪圖。
 
-        ![Using ggplot2.R 範例的輸出](~/docs/rtvs/media/samples-3d-interactive.png)
+        ![Using ggplot2.R 範例的輸出](~/rtvs/media/samples-3d-interactive.png)
 
 - `Datasets` 包含其他範例所使用的三個 `.csv`檔案
 - `Flight_Delays_Prediction_with_R` 和 `Flight_Delays_Prediction_with_MRS` 示範如何使用 R、機器學習服務和歷史準點率和天候資料預測航班誤點。 
@@ -100,11 +100,11 @@ ms.lasthandoff: 05/12/2017
 
 下列比較顯示在特定矩陣計算方面，MRS 和具有 MKL 的 MRO 計算效能明顯優於 R 和沒有 MKL 的 MRO。 這項計算中，會使用模擬的資料︰
 
-![比較 MRS 和使用 MKL 的 MRO，以及 R 和沒有 MKL 的 MRO](~/docs/rtvs/media/samples-speed-comparison.png)
+![比較 MRS 和使用 MKL 的 MRO，以及 R 和沒有 MKL 的 MRO](~/rtvs/media/samples-speed-comparison.png)
 
 如需 R 與 MRO 和 MRS 的技術比較，請參閱 [Lixun Zhang 關於這主題的詳細討論](http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html)。
 
 然後，下圖比較建立使用羅吉斯迴歸模型來預測預定客機航班的抵達是否將延遲超過 15 分鐘時，耗用的時間 (以秒為單位)。 當增加少量的資料列時，CRAN R 中使用的已耗用時間會大幅增加，而 MRS 則只增加大約兩倍。 如需此基準測試的詳細資料，請參閱 `Benchmarks/rxGlm_benchmark.R` 範例。
 
-![rxGlm 基準測試](~/docs/rtvs/media/samples-rxGLM-benchmark.png)
+![rxGlm 基準測試](~/rtvs/media/samples-rxGLM-benchmark.png)
 

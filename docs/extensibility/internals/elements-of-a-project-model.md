@@ -35,7 +35,7 @@ caps.handback.revision: 18
   
  下圖顯示主要的介面、 服務及撰寫的典型的專案實作的物件。  您可以使用應用程式協助程式，這是 HierUtil7，來建立基礎的物件和其他程式重複使用。  如需有關 HierUtil7 應用程式協助程式的詳細資訊，請參閱[Not in Build: Using HierUtil7 Project Classes to Implement a Project Type \(C\+\+\)](http://msdn.microsoft.com/zh-tw/a5c16a09-94a2-46ef-87b5-35b815e2f346)。  
   
- ![Visual Studio 專案模型圖形](~/docs/extensibility/internals/media/vsprojectmodel.gif "vsProjectModel")  
+ ![Visual Studio 專案模型圖形](~/extensibility/internals/media/vsprojectmodel.gif "vsProjectModel")  
 專案模型  
   
  如需有關介面，並列出在前一個圖表中，服務和其他選擇性的介面不會包含在圖表中的詳細資訊，請參閱[專案模型的核心元件](../../extensibility/internals/project-model-core-components.md)。  

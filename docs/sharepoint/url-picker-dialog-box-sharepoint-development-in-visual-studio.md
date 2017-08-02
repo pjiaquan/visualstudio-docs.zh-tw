@@ -27,7 +27,7 @@ caps.handback.revision: 14
 # URL 選擇器對話方塊 (Visual Studio 中的 SharePoint 開發)
   您可以使用 URL 選擇器對話方塊，選取位於您專案或本機伺服器中正在執行 SharePoint 的檔案，例如主版頁面檔案或影像檔。  
   
- 當您可以選擇檔案設定屬性時，便會顯示這個對話方塊。  在 \[**屬性**\] 視窗中，選擇各屬性旁邊的省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，即可開啟這個對話方塊。  當您在設計工具的 \[**原始碼**\] 檢視中指派特定屬性的值時，省略符號按鈕也會以 IntelliSense 提示的形式出現。  
+ 當您可以選擇檔案設定屬性時，便會顯示這個對話方塊。  在 \[**屬性**\] 視窗中，選擇各屬性旁邊的省略符號按鈕 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，即可開啟這個對話方塊。  當您在設計工具的 \[**原始碼**\] 檢視中指派特定屬性的值時，省略符號按鈕也會以 IntelliSense 提示的形式出現。  
   
 ## UIElement 清單  
  **專案資料夾**  

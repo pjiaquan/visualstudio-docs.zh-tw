@@ -45,11 +45,11 @@ ms.lasthandoff: 02/22/2017
   
  以下是燈泡的外觀。 在 Visual Basic 或 Visual C# 專案中，紅色曲線會出現在變數名稱無效時。 當滑鼠移過無效的識別項時，燈泡會顯示游標周圍。  
   
- ![燈泡](~/docs/extensibility/media/lightbulb.png "燈泡")  
+ ![燈泡](~/extensibility/media/lightbulb.png "燈泡")  
   
  如果您按一下向下箭號的燈泡，一組建議的動作會顯示，以及預覽選取的動作。 在此情況下，它會顯示，如果您執行此動作會對您的程式碼的變更。  
   
- ![燈泡預覽](~/docs/extensibility/media/lightbulbpreview.png "LightBulbPreview")  
+ ![燈泡預覽](~/extensibility/media/lightbulbpreview.png "LightBulbPreview")  
   
  您可以使用燈泡來提供建議的動作。 例如，您可以提供動作，將開啟到下一行的大括號，或將它們移至前一行的結尾。 下列逐步解說示範如何建立在目前的文字會出現燈泡，已有兩種建議的動作︰**轉換為大寫**和**轉換成小寫**。  
   
@@ -371,12 +371,12 @@ ms.lasthandoff: 02/22/2017
   
 3.  建立文字檔，並輸入一些文字。 您應該會看到燈泡之文字的左邊。  
   
-     ![測試燈泡](~/docs/extensibility/media/testlightbulb.png "TestLIghtBulb")  
+     ![測試燈泡](~/extensibility/media/testlightbulb.png "TestLIghtBulb")  
   
 4.  指向燈泡。 您應該會看到向下箭號。  
   
 5.  當您按一下燈泡時，兩個建議的動作應該會顯示，以及所選動作的預覽。  
   
-     ![測試燈泡，已展開](~/docs/extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
+     ![測試燈泡，已展開](~/extensibility/media/testlightbulbexpanded.gif "TestLIghtBulbExpanded")  
   
 6.  如果您按一下第一個動作，則應該會將目前字組中的所有文字都轉換為大寫。 如果您按一下第二個動作，則應該會將所有文字都轉換為小寫。

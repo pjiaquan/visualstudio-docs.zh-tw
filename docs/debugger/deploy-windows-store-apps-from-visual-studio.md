@@ -23,7 +23,7 @@ caps.handback.revision: 14
 # 從 Visual Studio 部署 Windows 市集應用程式
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![僅適用於 Windows](~/docs/debugger/media/windows_only_content.png "windows\_only\_content")  
+![僅適用於 Windows](~/debugger/media/windows_only_content.png "windows\_only\_content")  
   
  Visual Studio 部署功能會在目標裝置上建置和註冊使用 Visual Studio 建立的 Windows 市集應用程式。 應用程式的確切註冊方式取決於目標裝置是本機還是遠端：  
   
@@ -80,13 +80,13 @@ caps.handback.revision: 14
   
 4.  您可以輸入遠端裝置的名稱或 IP 位址，也可以從 \[選取遠端偵錯工具連接\] 對話方塊中選擇裝置。  
   
-     ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](~/docs/debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
+     ![&#91;選取遠端偵錯工具連接&#93; 對話方塊](~/debugger/media/vsrun_selectremotedebuggerdlg.png "VSRUN\_SelectRemoteDebuggerDlg")  
   
      \[選取遠端偵錯工具連接\] 對話方塊會顯示本機子網路上的裝置，以及透過乙太網路纜線直接連接至 Visual Studio 電腦的任何裝置。  
   
  **在 JavaScript 或 Visual C\+\+ 專案頁面中指定遠端裝置**  
   
- ![用於遠端偵錯的 C&#43;&#43; 專案屬性](~/docs/debugger/media/vsrun_cpp_projprop_remote.png "VSRUN\_CPP\_ProjProp\_Remote")  
+ ![用於遠端偵錯的 C&#43;&#43; 專案屬性](~/debugger/media/vsrun_cpp_projprop_remote.png "VSRUN\_CPP\_ProjProp\_Remote")  
   
 1.  從 \[**要啟動的偵錯工具**\] 清單選擇 \[**遠端偵錯工具**\]。  
   

@@ -32,7 +32,7 @@ manager: "ghogen"
 ## 情節  
  在此情況下，您已撰寫流暢動態模擬來使用 DirectCompute 執行模擬更新最需要大量計算的部分。  執行應用程式時，資料集和 UI 的轉譯正確，但模擬未如預期運作。  使用圖形診斷，即可擷取圖形記錄問題，以偵錯應用程式。  在應用程式中，問題看起來如下：  
   
- ![模擬流體的行為不正確。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_problem.png "gfx\_diag\_demo\_compute\_shader\_fluid\_problem")  
+ ![模擬流體的行為不正確。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_problem.png "gfx\_diag\_demo\_compute\_shader\_fluid\_problem")  
   
  如需如何擷取圖形記錄中圖形問題的相關資訊，請參閱[擷取圖形資訊](../debugger/capturing-graphics-information.md)。  
   
@@ -55,13 +55,13 @@ manager: "ghogen"
   
 2.  檢查會轉譯資料集之繪製事件的 \[圖形事件清單\]。  若要進行簡化，請在 \[圖形事件清單\] 視窗右上角的 \[搜尋\] 方塊中輸入 `Draw`。  這樣會篩選清單，使其只包含標題中具有 "Draw" 的事件。  在此情況下，您會發現發生這些 Draw 事件：  
   
-     ![&#91;事件清單&#93; &#40;EL&#41; 顯示繪製事件。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_2.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_2")  
+     ![&#91;事件清單&#93; &#40;EL&#41; 顯示繪製事件。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_2.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_2")  
   
 3.  在圖形記錄文件索引標籤中監看轉譯目標時，在每個 Draw 事件之間移動。  
   
 4.  在轉譯目標第一次顯示轉譯的資料集時停止。  在此情況下，資料集會轉譯在第一個 Draw 事件中。  會顯示模擬中的錯誤：  
   
-     ![這個繪製事件會呈現模擬資料集。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_3.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_3")  
+     ![這個繪製事件會呈現模擬資料集。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_3.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_3")  
   
 5.  現在，請檢查可更新模擬之 `Dispatch` 事件的 \[圖形事件清單\]。  因為模擬可能在轉譯之前更新，所以您可以先專心在可轉譯結果的 Draw 事件之前發生的 `Dispatch` 事件。  若要進行簡化，請修改 \[搜尋\] 方塊讀取 `Draw;Dispatch;CSSetShader(`。  這樣會篩選清單，使其除了 Draw 事件之外也會包含 `Dispatch` 和 `CSSetShader` 事件。  在此情況下，您會發現在 Draw 事件之前發生數個 `Dispatch` 事件：  
   
@@ -89,7 +89,7 @@ manager: "ghogen"
   
 3.  檢查整合步驟的計算著色器原始程式碼來搜尋錯誤來源。  使用圖形診斷偵錯 HLSL 計算著色器程式碼時，即可逐步執行程式碼，並使用其他熟悉的偵錯工具 \(例如監看式視窗\)。  在此情況下，您將判斷在執行整合步驟的計算著色器中似乎未發生錯誤。  
   
-     ![偵錯 IntegrateCS 計算著色器。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_7.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_7")  
+     ![偵錯 IntegrateCS 計算著色器。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_7.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_7")  
   
 4.  若要停止偵錯計算著色器，請選擇 \[偵錯\] 工具列上的 \[停止偵錯\] \(鍵盤：Shift\+F5\)。  
   
@@ -101,12 +101,12 @@ manager: "ghogen"
   
 6.  檢查強制計算步驟的計算著色器原始程式碼。  在此情況下，您將判斷這裡是錯誤來源。  
   
-     ![偵錯 ForceCS&#95;Simple 計算著色器。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_9.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_9")  
+     ![偵錯 ForceCS&#95;Simple 計算著色器。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_9.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_9")  
   
  判斷錯誤的位置之後，即可停止偵錯並修改計算著色器原始程式碼，以正確計算互動中物件之間的距離。  在此情況下，您只要將 `float2 diff = N_position + P_position;` 行變更為 `float2 diff = N_position - P_position;`：  
   
- ![修正過的計算著色器程式碼。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_10.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_10")  
+ ![修正過的計算著色器程式碼。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_step_10.png "gfx\_diag\_demo\_compute\_shader\_fluid\_step\_10")  
   
  在此情況下，因為計算著色器是在執行階段進行編譯，所以只要在變更之後重新啟動應用程式，即可觀察它們如何影響模擬。  您不需要重建應用程式。  執行應用程式時，會發現模擬現在正確運作。  
   
- ![模擬流體的行為正確。](~/docs/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_resolution.png "gfx\_diag\_demo\_compute\_shader\_fluid\_resolution")
+ ![模擬流體的行為正確。](~/debugger/graphics/media/gfx_diag_demo_compute_shader_fluid_resolution.png "gfx\_diag\_demo\_compute\_shader\_fluid\_resolution")

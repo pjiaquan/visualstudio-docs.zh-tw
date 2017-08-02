@@ -64,7 +64,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  拖放到**文字方塊**、**按鈕**，和**ListBox**在畫布上。 排列項目，讓文字方塊和按鈕位於相同層級和清單方塊會填入下方，如下列圖片所示的視窗的其餘部分。  
   
-     ![完成工具視窗](~/docs/extensibility/media/t5-toolwindow.png "T5 工具視窗")  
+     ![完成工具視窗](~/extensibility/media/t5-toolwindow.png "T5 工具視窗")  
   
 4.  在 [XAML] 窗格中，尋找按鈕並將其內容的屬性設定為**新增**。 重新連接 按鈕控制項的按鈕事件處理常式加入`Click="button1_Click"`屬性。 畫布區塊看起來應該像這樣︰  
   
@@ -152,7 +152,7 @@ ms.lasthandoff: 02/22/2017
   
      當使用者開啟選項頁面時，它應該類似下列圖片。  
   
-     ![選項頁面](~/docs/extensibility/media/t5optionspage.gif "T5OptionsPage")  
+     ![選項頁面](~/extensibility/media/t5optionspage.gif "T5OptionsPage")  
   
      請注意分類**ToDo**和子類別目錄**一般**。  
   
@@ -165,7 +165,7 @@ ms.lasthandoff: 02/22/2017
   
      若要啟用資料在**屬性** 視窗中，您將資料轉換有兩個的特殊屬性的公用屬性`Description`和`Category`。 `Description`會顯示在底部的文字**屬性**視窗。 `Category`決定屬性應該會出現時**屬性**視窗會顯示在**分類**檢視。 在下列圖片中，**屬性**視窗處於**分類** 檢視中，**名稱**屬性**ToDo 欄位**所選取的類別，和描述**名稱**屬性會顯示在視窗底部。  
   
-     ![[屬性] 視窗](~/docs/extensibility/media/t5properties.png "T5Properties")  
+     ![[屬性] 視窗](~/extensibility/media/t5properties.png "T5Properties")  
   
 2.  新增下列 using 陳述式 TodoItem.cs 檔案。  
   

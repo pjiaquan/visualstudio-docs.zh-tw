@@ -45,7 +45,7 @@ ms.lasthandoff: 02/22/2017
   
  當您設計 DSL 時，您可以將它做為 Visual Studio 整合擴充功能 (VSIX) 封裝的一部分。 使用者在使用中的 DSL [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
- ![家譜圖表、 工具箱和總管](~/docs/modeling/media/familyt_instance.png "FamilyT_Instance")  
+ ![家譜圖表、 工具箱和總管](~/modeling/media/familyt_instance.png "FamilyT_Instance")  
   
  表示法是非負數的 DSL 的組件。 這個標記法，VSIX 套件包含工具，使用者就可以套用，幫助他們編輯並產生其模型的內容。  
   
@@ -77,7 +77,7 @@ ms.lasthandoff: 02/22/2017
   
 3.  按一下 **定義域專屬語言設計工具**。  
   
-     ![建立 DSL 對話方塊](~/docs/modeling/media/create_dsldialog.png "Create_DSLDialog")  
+     ![建立 DSL 對話方塊](~/modeling/media/create_dsldialog.png "Create_DSLDialog")  
   
 4.  在**名稱**方塊中，輸入**FamilyTree**。 按一下 [確定]。  
   
@@ -153,7 +153,7 @@ ms.lasthandoff: 02/22/2017
   
  實驗[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]會類似下列的範例︰  
   
- ![](~/docs/modeling/media/dsl_min.png "DSL_min")  
+ ![](~/modeling/media/dsl_min.png "DSL_min")  
   
 ### <a name="the-content-of-a-model"></a>模型的內容  
  DSL 的執行個體檔案的內容會呼叫*模型*。 模型包含*模型**元素*和*連結*項目之間。 DSL 定義中指定的模型項目類型，可以存在於模型中的連結。 例如，在最小語言範本所建立的 DSL，沒有一種類型的模型項目，以及一種類型的連結。  
@@ -213,7 +213,7 @@ ms.lasthandoff: 02/22/2017
   
 1.  DslDefinition 圖表中，在重新命名**ExampleModel**至**FamilyTreeModel**， **ExampleElement**至**人**，**目標**至**父系**，和**來源**至**子系**。 您可以按一下每一個標籤加以變更。  
   
-     ![DSL 定義圖表-家譜模型](~/docs/modeling/media/familyt_person.png "FamilyT_Person")  
+     ![DSL 定義圖表-家譜模型](~/modeling/media/familyt_person.png "FamilyT_Person")  
   
 2.  重新命名的項目和連接器工具。  
   
@@ -288,7 +288,7 @@ ms.lasthandoff: 02/22/2017
   
 6.  在.tt 檔案，您可以加入程式碼會取得每個人的內容。  
   
- ![家譜圖表、 工具箱和總管](~/docs/modeling/media/familyt_instance.png "FamilyT_Instance")  
+ ![家譜圖表、 工具箱和總管](~/modeling/media/familyt_instance.png "FamilyT_Instance")  
   
 ### <a name="define-new-classes"></a>定義新類別  
  您可以加入網域類別和關聯性的模型。 例如，您可以建立新的類別來代表城鎮，以及新的關聯性來代表人員存留現身。  

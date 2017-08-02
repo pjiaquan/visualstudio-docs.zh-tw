@@ -42,7 +42,7 @@ ms.lasthandoff: 05/10/2017
 
 此外，您一律是在 Visual Studio 的「方案」內管理專案，方案中可以包含任意數目、可能彼此參考的專案。 例如，Python 專案可以參考延伸模組的 C++ 專案，如此一來，當您開始對 Python 專案進行偵錯時，Visual Studio 將會自動建置 C++ 專案 (如有必要)。 (如需一般的討論，請參閱 [Visual Studio 中的方案和專案](../ide/solutions-and-projects-in-visual-studio.md))。
 
-![[方案總管] 中的 Python 專案](~/docs/python/media/projects-solution-explorer.png)
+![[方案總管] 中的 Python 專案](~/python/media/projects-solution-explorer.png)
 
 Visual Studio 提供各種 Python 專案範本，可讓您快速設定一些應用程式結構，包括可從現有資料夾樹狀目錄建立專案的範本，以及可建立乾淨空專案的範本。 如需相關索引，請參閱下面的[專案範本](#project-templates)。
 
@@ -79,14 +79,14 @@ Visual Studio 提供各種 Python 專案範本，可讓您快速設定一些應�
 
 新專案一律會與預設的全域 Python 環境關聯。 若要將專案與不同的環境 (包括虛擬環境) 建立關聯，請在專案中的 [Python Environments (Python 環境)] 節點上按一下滑鼠右鍵，選取 [Add/Remove Python Environments (新增/移除 Python 環境)]，然後選取您想要的環境。 若要變更作用中的環境，請在想要的環境上按一下滑鼠右鍵，然後選取 [Activate Environment (啟用環境)]。 如需更多詳細資料，請參閱 [Python 環境](python-environments.md#project-specific-environments)。
 
-![啟用 Python 專案的環境](~/docs/python/media/projects-activate-environment.png)
+![啟用 Python 專案的環境](~/python/media/projects-activate-environment.png)
 
 <a name="project-types"</a>
 ## <a name="project-templates"></a>專案範本
 
 Visual Studio 提供您一些方法來建立 Python 專案，不論是從頭開始或是從現有的程式碼，都可以。 若要使用範本，請選取 [檔案] > [新增] > [專案] 功能表命令，或在 [方案總管] 中的方案上按一下滑鼠右鍵，然後選取 [新增] > [新增專案]，這兩種方式都會顯示以下的 [新增專案] 對話方塊。 若要查看 Python 特定的範本，請依據 "Python" 進行搜尋或選取 [範本] > [其他語言] > [Python] 節點：
 
-![含有 Python 範本的 [新增專案] 對話方塊](~/docs/python/media/projects-new-project-dialog.png)
+![含有 Python 範本的 [新增專案] 對話方塊](~/python/media/projects-new-project-dialog.png)
 
 下表摘要說明 Visual Studio 2017 中可用的範本 (並非所有範本在所有舊版中都有提供)：
 
@@ -109,21 +109,21 @@ Visual Studio 提供您一些方法來建立 Python 專案，不論是從頭開�
 1. 選取 [檔案] > [新增] > [專案] 功能表，然後選取 [從現有的 Python 程式碼] 範本。
 1. 在下列對話方塊中，設定您現有程式碼的路徑、檔案類型的篩選，以及您專案所需的任何搜尋路徑，然後選取 [下一步]：
 
-    ![來自現有程式碼的新專案 (步驟一)](~/docs/python/media/projects-from-existing-1.png)
+    ![來自現有程式碼的新專案 (步驟一)](~/python/media/projects-from-existing-1.png)
 
 1. 選擇專案的環境和啟動檔案，然後按 [下一步]。 (請注意，此對話方塊只會顯示在資料夾樹狀目錄根目錄中的檔案；如果您想要的檔案在子資料夾中，請將啟動檔案保留空白，稍後再於 [方案總管] 中設定它)。
 
-    ![來自現有程式碼的新專案 (步驟二)](~/docs/python/media/projects-from-existing-2.png)
+    ![來自現有程式碼的新專案 (步驟二)](~/python/media/projects-from-existing-2.png)
 
 1. 選取要儲存專案檔的位置 (這不會移動或複製原始的原始程式檔，因此如果您想要一個複本，就應該在使用範本之前先建立該複本)。 在這個對話方塊中，您也可以包含虛擬環境的自動偵測，以及自訂適用於不同 Web 架構的專案。
 
-    ![來自現有程式碼的新專案 (步驟三)](~/docs/python/media/projects-from-existing-3.png)
+    ![來自現有程式碼的新專案 (步驟三)](~/python/media/projects-from-existing-3.png)
 
 1.  選取 [完成]，Visual Studio 就會建立專案並在 [方案總管] 中開啟它。 如果您想要將 .pyproj 檔案移到其他地方，請在 [方案總管] 中選取它，然後選擇 [檔案] > [另存新檔]。 這會更新專案中的檔案參考，但不會移動任何程式碼檔案。
 
 ## <a name="linked-files"></a>連結的檔案
 
-連結的檔案係指已導入專案中但通常位於應用程式專案資料夾外的檔案。 它們在 [方案總管] 中會顯示為帶有重疊捷徑圖示的一般檔案： ![[連結的檔案] 圖示](~/docs/python/media/projects-linked-file-icon.png)
+連結的檔案係指已導入專案中但通常位於應用程式專案資料夾外的檔案。 它們在 [方案總管] 中會顯示為帶有重疊捷徑圖示的一般檔案： ![[連結的檔案] 圖示](~/python/media/projects-linked-file-icon.png)
 
 指定連結的檔案時，是在 `.pyproj` 檔案中使用一般的 `<Compile Include="...">` 元素來指定。 它們可以是隱含的連結檔案 (如果它們使用位於目錄結構外的相對路徑)，也可以是明確的連結檔案 (如果在 [方案總管] 內指定它們的路徑)：
 
@@ -154,7 +154,7 @@ Visual Studio 提供您一些方法來建立 Python 專案，不論是從頭開�
 
 Visual Studio 專案支援新增對專案和擴充功能的參考，這些參考會顯示在 [方案總管] 中的 [參考] 節點底下：
 
-![Python 專案中的擴充功能參考](~/docs/python/media/projects-extension-references.png)
+![Python 專案中的擴充功能參考](~/python/media/projects-extension-references.png)
 
 擴充功能參考通常會指出專案之間的相依性，並可用來在設計階段提供 IntelliSense 或在編譯階段提供連結。 Python 專案使用參考的方式類似，但由於 Python 的動態本質緣故，因此主要是在設計階段使用參考來提供改進的 IntelliSense。 您也可以使用它們來部署到 Microsoft Azure 以安裝額外的相依性。
 
@@ -176,4 +176,4 @@ Visual Studio 專案支援新增對專案和擴充功能的參考，這些參考
 
 您可以新增對 WebPI 產品項目的參考以供部署到「Microsoft Azure 雲端服務」，然後在該處透過 WebPI 摘要來安裝額外的元件。 根據預設，顯示的摘要是 Python 特定的，並且包含 Django、CPython 及其他核心元件。 您也可以選取自己的摘要，如以下所示。 當發佈到 Microsoft Azure 時，安裝作業將會安裝所有參考的產品。
 
-![WebPI 參考](~/docs/python/media/projects-webPI-components.png)
+![WebPI 參考](~/python/media/projects-webPI-components.png)

@@ -48,7 +48,7 @@ caps.handback.revision: 36
 ## <a name="defining-an-element-merge-directive"></a>定義項目合併指示詞  
  您可以將項目合併指示詞加入至網域類別、 網域關聯性、 圖形、 連接器和圖表。 您可以新增或 DSL 總管] 中的接收網域類別底下找到它們。 接收的類別是網域類別已在模型中，並拖曳至新的或複製的項目合併的項目。  
   
- ![DSL & #45。EMD &#95; 詳細資料](~/docs/modeling/media/dsl-emd_details.png "DSL-EMD_Details")  
+ ![DSL & #45。EMD &#95; 詳細資料](~/modeling/media/dsl-emd_details.png "DSL-EMD_Details")  
   
   **索引類別** 是項目，可以合併到接收類別成員的網域類別。 編製索引的類別的子類別的執行個體將也由這個 EMD，合併，除非您將設定 **子類別化適用於** 為 False。  
   

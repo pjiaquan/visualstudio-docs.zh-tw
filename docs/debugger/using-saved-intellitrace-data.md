@@ -120,7 +120,7 @@ manager: "ghogen"
   
      如果該方法是位於您的應用程式程式碼中，Visual Studio 就會移至該方法。  
   
-     ![從效能事件移至應用程式程式碼](~/docs/debugger/media/ffr_itsummarypageperformancegotocode.png "FFR\_ITSummaryPagePerformanceGoToCode")  
+     ![從效能事件移至應用程式程式碼](~/debugger/media/ffr_itsummarypageperformancegotocode.png "FFR\_ITSummaryPagePerformanceGoToCode")  
   
      現在您可以檢閱其他記錄值、呼叫堆疊、逐步執行程式碼，或使用 \[IntelliTrace\] 視窗[在「時間」中向後或向前移動至其他方法](../debugger/intellitrace.md) \(這些方法是在此效能事件期間呼叫的\)。  
   

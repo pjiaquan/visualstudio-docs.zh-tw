@@ -30,7 +30,7 @@ caps.handback.revision: 38
   
  下列程式碼範例示範如何使用設計工具，將資料繫結控制項加入至文件層級專案。  如需如何在執行階段，將資料繫結控制項加入至應用程式層級專案的範例，請參閱[逐步解說：VSTO 增益集專案中的複雜資料繫結](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何將資料轉送至 Excel 工作表？](http://go.microsoft.com/fwlink/?LinkID=130277)\(英文\) 和[如何在 Excel 中使用資料庫資料？](http://go.microsoft.com/fwlink/?LinkID=130287)\(英文\)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需觀看相關示範影片，請參閱[如何將資料轉送至 Excel 工作表？](http://go.microsoft.com/fwlink/?LinkID=130277)\(英文\) 和[如何在 Excel 中使用資料庫資料？](http://go.microsoft.com/fwlink/?LinkID=130287)\(英文\)。  
   
 ## 在設計階段將資料繫結控制項加入至工作表  
   

@@ -90,7 +90,7 @@ ms.lasthandoff: 03/07/2017
   
  圖中的每個編號區域與程序中的步驟相關。  
   
- ![用於取樣的摘要報表檢視](~/docs/profiling/media/summary_sampling.png "Summary_Sampling")  
+ ![用於取樣的摘要報表檢視](~/profiling/media/summary_sampling.png "Summary_Sampling")  
   
 #### <a name="to-analyze-sampling-data"></a>分析取樣資料  
   

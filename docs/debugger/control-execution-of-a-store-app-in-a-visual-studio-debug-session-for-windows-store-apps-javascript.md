@@ -85,7 +85,7 @@ manager: "ghogen"
   
 1.  **設定中斷點。**在呼叫 `app.start()` 後隨即出現的陳述式 `callTrack = "module function";` 設定中斷點。 選擇原始程式碼編輯器陰影裝訂邊的一行 \(鍵盤：將游標放在該行，然後選擇 **F9** 鍵\)。  
   
-     ![在 example1 設定中斷點](~/docs/debugger/media/dbg_jsnav_example1_breakpoint.png "DBG\_JSNAV\_example1\_breakpoint")  
+     ![在 example1 設定中斷點](~/debugger/media/dbg_jsnav_example1_breakpoint.png "DBG\_JSNAV\_example1\_breakpoint")  
   
      中斷點圖示會出現在巡覽邊中。  
   
@@ -93,13 +93,13 @@ manager: "ghogen"
   
      應用程式便會開始執行，並在您設定中斷點所在的陳述式之前立即暫停執行。 裝訂邊中的目前行圖示會識別您的位置，且目前的陳述式會反白顯示。  
   
-     ![執行至中斷點](~/docs/debugger/media/dbg_jsnav_example1_run_to_breakpoint.png "DBG\_JSNAV\_example1\_run\_to\_breakpoint")  
+     ![執行至中斷點](~/debugger/media/dbg_jsnav_example1_run_to_breakpoint.png "DBG\_JSNAV\_example1\_run\_to\_breakpoint")  
   
      您現在可以控制應用程式的執行，而且可以在逐步執行程式陳述式時，檢查程式狀態。  
   
 3.  **逐步執行函式。**在 \[偵錯\] 功能表上，選擇 \[逐步執行\] \(鍵盤：**F11**\)。  
   
-     ![逐步執行程式碼行](~/docs/debugger/media/dbg_jsnav_example1_step_into.png "DBG\_JSNAV\_example1\_step\_into")  
+     ![逐步執行程式碼行](~/debugger/media/dbg_jsnav_example1_step_into.png "DBG\_JSNAV\_example1\_step\_into")  
   
      請注意，偵錯工具會移至下一行，這是 `example1` 函式的呼叫。 再次選擇 \[逐步執行\]。 偵錯工具會移至 `example1` 函式的第一行程式碼 。 反白顯示的程式行尚未執行，但函式已載入呼叫堆疊，區域變數的記憶體也已配置。  
   
@@ -113,7 +113,7 @@ manager: "ghogen"
   
 5.  **檢視資料提示中的變數值。**繼續逐步執行 `example1` 的陳述式，直到到達結束點。 偵錯工具會反白顯示函式的右大括號。 當您將滑鼠停在變數名稱時，該變數的名稱和值便會顯示在資料提示中。  
   
-     ![檢視資料提示中的變數值](~/docs/debugger/media/dbg_jsnav_data_tip.png "DBG\_JSNAV\_data\_tip")  
+     ![檢視資料提示中的變數值](~/debugger/media/dbg_jsnav_data_tip.png "DBG\_JSNAV\_data\_tip")  
   
 6.  **新增 callTrack 變數的監看式。** `callTrack` 變數被使用在整個快速入門中，以顯示範例中呼叫的函式。 若要更輕鬆地檢視變數的值，請將它新增至 \[監看式\] 視窗。 在編輯器中選取變數名稱，然後從捷徑功能表中選擇 \[新增監看式\]。  
   
@@ -132,14 +132,14 @@ manager: "ghogen"
   
  不進入和跳離函式都會執行該函式。  
   
- ![逐步執行、不進入和跳離方法](~/docs/debugger/media/dbg_basics_stepintooverout.png "DBG\_Basics\_StepIntoOverOut")  
+ ![逐步執行、不進入和跳離方法](~/debugger/media/dbg_basics_stepintooverout.png "DBG\_Basics\_StepIntoOverOut")  
   
 ###  <a name="BKMK_Example_2"></a> 範例 2  
  在這個範例中，您逐步執行、 不進入或跳出函式。  
   
 1.  **在模組函式中呼叫範例 2 函式。**編輯 `module` 函式，並以 `example2();` 取代 `var callTrack = "module function"` 後的程式行。  
   
-     ![呼叫 example2 函式](~/docs/debugger/media/dbg_jsnav_example2.png "DBG\_JSNAV\_example2")  
+     ![呼叫 example2 函式](~/debugger/media/dbg_jsnav_example2.png "DBG\_JSNAV\_example2")  
   
 2.  **執行至中斷點。**選擇 \[偵錯\] 功能表上的 \[開始偵錯\] \(鍵盤：F5\)，開始偵錯工作階段。 偵錯工具會在中斷點暫停執行。  
   
@@ -147,7 +147,7 @@ manager: "ghogen"
   
 4.  **逐步執行範例 2 和 範例 2\_a。**選擇 **F11** 鍵逐步執行 `example2` 函式。 繼續逐步執行 `example2` 陳述式，直到您到達 `var x = example2_a();` 這一行。 再次逐步執行這一行，以移至 `example2_a` 的進入點。 繼續逐步執行 `example2_a` 的每個陳述式，直到您返回至 `example2`。  
   
-     ![不進入函式](~/docs/debugger/media/dbg_jsnav_example2_a.png "DBG\_JSNAV\_example2\_a")  
+     ![不進入函式](~/debugger/media/dbg_jsnav_example2_a.png "DBG\_JSNAV\_example2\_a")  
   
 5.  **不進入函式。**請注意 `example2` 中的下一行，`var y = example2_a();` 基本上與前一行相同。 您可以安全地不進入這一行。 選擇 **F10** 鍵，從 `example2` 的繼續移至 `example2_a` 的第二次呼叫。 請注意，`callTrack` 字串表示 `example2_a` 函式執行了兩次。  
   
@@ -167,7 +167,7 @@ manager: "ghogen"
   
 1.  **呼叫模組模式中的範例 3 函式。**編輯 `module` 函式，並以 `example3();` 這一行取代 `var callTrack = "module function";` 後的程式行。  
   
-     ![呼叫 example3](~/docs/debugger/media/dbg_jsnav_example3.png "DBG\_JSNAV\_example3")  
+     ![呼叫 example3](~/debugger/media/dbg_jsnav_example3.png "DBG\_JSNAV\_example3")  
   
 2.  **執行至中斷點。**選擇 \[偵錯\] 功能表上的 \[開始偵錯\] \(鍵盤：**F5**\)，開始偵錯工作階段。 偵錯工具會在 `module` 函式中的中斷點暫止執行。  
   
@@ -177,7 +177,7 @@ manager: "ghogen"
   
      選取 \[條件\] 核取方塊，然後在文字方塊中輸入 `i == 500;`。 選擇 \[為 True\] 選項，然後選擇 \[確定\]。 中斷點可讓您檢查 `for` 迴圈的第 500 個反覆項目的值。 您可以用其白色十字形狀識別條件中斷點圖示。  
   
-     ![條件中斷點圖示](~/docs/debugger/media/dbg_jsnav_breakpoint_condition_icon.png "DBG\_JSNAV\_Breakpoint\_Condition\_icon")  
+     ![條件中斷點圖示](~/debugger/media/dbg_jsnav_breakpoint_condition_icon.png "DBG\_JSNAV\_Breakpoint\_Condition\_icon")  
   
 5.  **執行至中斷點。**在 \[偵錯\] 功能表上選擇 \[繼續\] \(鍵盤：**F5**\)。 暫停在 `i` 以確認目前的值 `i` 為 500。 另外請注意，變數 `s` 代表為單一程式行，而且比資料提示視窗長很多。  
   
@@ -185,7 +185,7 @@ manager: "ghogen"
   
      \[文字視覺化檢視\] 視窗隨即出現，且字串的值會以多行字串呈現。  
   
-     ![偵錯文字視覺化檢視](~/docs/debugger/media/dbg_jsnav_text_visualizer.png "DBG\_JSNAV\_Text\_Visualizer")  
+     ![偵錯文字視覺化檢視](~/debugger/media/dbg_jsnav_text_visualizer.png "DBG\_JSNAV\_Text\_Visualizer")  
   
 7.  **執行至游標處。**選取 `callTrack += "->example3";` 程式行，然後在快顯功能表上選擇 \[執行至游標處\] \(鍵盤：**Ctrl\+F10**\)。 偵錯工具會完成迴圈反覆項目，然後在該行暫停執行。  
   
@@ -211,7 +211,7 @@ manager: "ghogen"
   
 1.  **陣列物件模組函式。**編輯 `module` 函式，並以 `var myArray = new Array(1, 2, 3);` 取代 `var callTrack = "module function"` 後的程式行  
   
-     ![myArray 定義](~/docs/debugger/media/dbg_jsnav_myarray.png "DBG\_JSNAV\_myArray")  
+     ![myArray 定義](~/debugger/media/dbg_jsnav_myarray.png "DBG\_JSNAV\_myArray")  
   
 2.  **執行至中斷點。**選擇 \[偵錯\] 功能表上的 \[開始偵錯\] \(鍵盤：**F5**\)，開始偵錯工作階段。 偵錯工具會在中斷點暫停執行。 逐步執行至該行。  
   
@@ -248,7 +248,7 @@ manager: "ghogen"
   
 1.  **從模組函式呼叫範例 4 函式。**編輯 `module` 函式，並以 `example4()` 取代 `var callTrack = "module function"` 後那一行：  
   
-     ![呼叫 example4](~/docs/debugger/media/dbg_jsnav_example4.png "DBG\_JSNAV\_example4")  
+     ![呼叫 example4](~/debugger/media/dbg_jsnav_example4.png "DBG\_JSNAV\_example4")  
   
 2.  **執行至中斷點。**選擇 \[偵錯\] 功能表上的 \[開始偵錯\] \(鍵盤：**F5**\)，開始偵錯工作階段。 偵錯工具會在中斷點暫停執行。  
   
@@ -258,7 +258,7 @@ manager: "ghogen"
   
 5.  **逐步執行範例 4，然後檢查其區域變數和範圍變數**逐步執行 \(鍵盤：**F11**\) `example4` 函式。 因為 `example4` 是在 `module` 函式中定義，所以 `module` 函式會成為父範圍。`example4` 可以呼叫 `module` 函式中的任何函式並存取其變數。 在 \[區域變數\] 視窗中展開 \[範圍\] 節點，並注意它含有相同的 `module` 函式和變數。  
   
-     ![example4 方法的範圍](~/docs/debugger/media/dbg_jsnav_locals_example4_scope.png "DBG\_JSNAV\_Locals\_example4\_scope")  
+     ![example4 方法的範圍](~/debugger/media/dbg_jsnav_locals_example4_scope.png "DBG\_JSNAV\_Locals\_example4\_scope")  
   
 6.  **逐步執行範例 4\_a 並檢查其區域變數和範圍變數**繼續逐步執行 `example4` 與 `example4_a` 的呼叫。 請注意，區域變數現在是來自 `example4_a`，而且 \[範圍\] 節點會繼續保存 `module` 函式的變數。 即使 `example4` 的變數在使用中，它們不會在 `example4_a` 的可及範圍內，也不再是範圍鏈結的一部分。  
   
@@ -284,7 +284,7 @@ manager: "ghogen"
   
 1.  **呼叫模組函式中的範例 5 函式。**編輯 `module` 函式，並以 `example5();` 這一行取代 `var callTrack = "module function";` 後的程式行。  
   
-     ![呼叫 example5](~/docs/debugger/media/dbg_jsnav_example5.png "DBG\_JSNAV\_example5")  
+     ![呼叫 example5](~/debugger/media/dbg_jsnav_example5.png "DBG\_JSNAV\_example5")  
   
 2.  **執行至中斷點。**選擇 \[偵錯\] 功能表上的 \[開始偵錯\] \(鍵盤：**F5**\)，開始偵錯工作階段。 偵錯工具會在模組函式的中斷點暫止執行。  
   
@@ -296,7 +296,7 @@ manager: "ghogen"
   
 4.  **逐步執行函式以到達範例 5\_d 函式。**選擇 \[偵錯\] 功能表上的 \[逐步執行\] \(鍵盤：**F11**\) 來執行呼叫路徑中的呼叫，直到您到達範例 5\_d 函式的進入點。 請注意，當函式每一次呼叫函式時，呼叫函式的行號會被儲存，被呼叫的函式會放在堆疊的頂端。 呼叫函式的行號是其暫止執行的點。 黃色箭號會指向目前正在執行的函式。  
   
-     ![&#91;呼叫堆疊&#93; 視窗](~/docs/debugger/media/dbg_jsnav_callstack_windows.png "DBG\_JSNAV\_CallStack\_windows")  
+     ![&#91;呼叫堆疊&#93; 視窗](~/debugger/media/dbg_jsnav_callstack_windows.png "DBG\_JSNAV\_CallStack\_windows")  
   
 5.  **使用 \[呼叫堆疊\] 視窗巡覽至範例 5\_a 程式碼，並設定中斷點。**在 \[呼叫堆疊\] 視窗中，選取 `example5_a` 清單項目，然後選擇捷徑功能表上的 \[移至來源\]。 程式碼編輯器將游標設定在函式的返回行。 在這一行設定中斷點。 請注意，目前執行的程式行沒有變更。 只有編輯器游標移動了。  
   

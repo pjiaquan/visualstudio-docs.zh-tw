@@ -84,11 +84,11 @@ static void Main(string[] args) { int a, b, c; a = 1; b = 2; c = 0; for (int i =
   
  比方說，如果您使用上一節列出的程式碼，則可以取得三個值的平均值，如下：  
   
- ![WatchExpression](~/docs/debugger/media/watchexpression.png "WatchExpression")  
+ ![WatchExpression](~/debugger/media/watchexpression.png "WatchExpression")  
   
  一般來說，\[監看式\] 視窗的運算式評估規則與您的程式碼撰寫語言的運算式評估規則相同。 如果您的運算式有語法錯誤，您應會在程式碼編輯器中看到相同的編譯器錯誤。 以下為範例：  
   
- ![WatchExpressionError](~/docs/debugger/media/watchexpressionerror.png "WatchExpressionError")  
+ ![WatchExpressionError](~/debugger/media/watchexpressionerror.png "WatchExpressionError")  
   
 ##  <a name="bkmk_refreshWatch"></a> 重新整理已過期的監看值  
  在 \[監看式\] 視窗中評估運算式時，某些情況下，您可能會看到重新整理圖示 \(由兩個箭頭圍成的圓形或含有兩條波浪線的圓形\)。  例如，如果您關閉屬性評估 \(\[工具\] \/ \[選項\] \/ \[偵錯\] \/ \[啟用屬性評估及其他隱含函式呼叫\]\)，而且您有下列的程式碼：  

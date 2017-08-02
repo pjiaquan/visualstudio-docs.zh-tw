@@ -36,7 +36,7 @@ caps.handback.revision: 69
   
  Windows Form 和主控制項都會使用 Windows Form 資料繫結模型，這個模型同時支援對資料集和資料表等資料來源執行「簡單資料繫結」\(simple data binding\) 和「複雜資料繫結」\(complex data binding\)。 如需 Windows Form 中資料繫結模型的完整資訊，請參閱[資料繫結和 Windows Form](http://msdn.microsoft.com/library/419aac5e-819b-4aad-88b0-73a2f8c0bd27)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何：使用 Excel 中的資料庫資料](http://go.microsoft.com/fwlink/?LinkID=130287)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關的影片示範，請參閱[如何：使用 Excel 中的資料庫資料](http://go.microsoft.com/fwlink/?LinkID=130287)。  
   
 ## 簡單資料繫結  
  當控制項屬性繫結至單一資料項目時，例如資料表中的值，便存在簡單資料繫結。 例如，<xref:Microsoft.Office.Tools.Excel.NamedRange> 控制項具有 <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> 屬性，該屬性可繫結至資料集中的欄位。 當資料集中的欄位變更時，具名範圍中的值也會變更。 除了 <xref:Microsoft.Office.Tools.Word.XMLNodes> 控制項以外，所有主控制項都支援簡單資料繫結。<xref:Microsoft.Office.Tools.Word.XMLNodes> 控制項是一個集合，因此不支援資料繫結。  

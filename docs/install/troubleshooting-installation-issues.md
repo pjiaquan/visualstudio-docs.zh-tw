@@ -65,9 +65,9 @@ Visual Studio 安裝程式啟動載入器是最小的輕量型可執行檔，可
 
 1. 下載 [ Microsoft Visual Studio and the .NET Framework Log Collection Tool (Microsoft Visual Studio 和 .NET Framework 記錄收集工具)](https://www.microsoft.com/en-us/download/details.aspx?id=12493)，然後執行它。 此工具會收集及編譯適用於 Visual Studio、.NET Framework 和 SQL Server 安裝的可用安裝程式記錄檔。
 2. 開啟 Visual Studio 安裝程式，然後按一下 [回報問題] 以開啟「Visual Studio 意見反應」工具。
-![您可以使用 Tab 鍵移至 [提供意見反應] 按鈕以開啟意見反應工具](~/docs/install/media/report-a-problem.png)
+![您可以使用 Tab 鍵移至 [提供意見反應] 按鈕以開啟意見反應工具](~/install/media/report-a-problem.png)
 3. 提供問題報告標題，並提供相關詳細資料。 按一下 [下一步] 以移至 [附件] 區段，然後附加產生的記錄檔 (一般而言，該檔案位於 %TEMP%\vslogs.zip)。
-![使用 Tab 鍵移至 [回報新問題]，然後依照步驟執行](~/docs/install/media/problem-report-details.png)
+![使用 Tab 鍵移至 [回報新問題]，然後依照步驟執行](~/install/media/problem-report-details.png)
 4. 按一下 [下一步] 以檢閱您的問題報告，然後按一下 [提交]。
 
 ### <a name="step-5---run-installcleanupexe-to-clean-up-installation-files"></a>步驟 5 - 執行 InstallCleanup.exe 以清除安裝檔案

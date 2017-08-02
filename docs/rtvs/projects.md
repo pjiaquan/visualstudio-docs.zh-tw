@@ -49,11 +49,11 @@ R 專案 (`.rxproj` 檔案) 會識別與您專案建立關聯的所有來源和�
 1. 選擇 [檔案] > [新增] > [專案...](Ctrl+Shift+N)
 1. 從 [範本] > [R] 下選取 [R 專案]、提供專案名稱和位置，然後選取 [確定]：
 
-    ![Visual Studio R (在 VS2017 中為 RTVS) 的 [新增專案] 對話方塊](~/docs/rtvs/media/getting-started-01-new-project.png)
+    ![Visual Studio R (在 VS2017 中為 RTVS) 的 [新增專案] 對話方塊](~/rtvs/media/getting-started-01-new-project.png)
 
 這會在編輯器中建立具有已開啟之空 `script.R` 檔案的專案。 請注意，方案總管的專案中也有兩個其他檔案︰
 
-![從範本建立的 R 專案內容](~/docs/rtvs/media/projects-template-results.png)
+![從範本建立的 R 專案內容](~/rtvs/media/projects-template-results.png)
 
 `.Rhistory` 會記錄您在 [R 互動](interactive-repl.md)視窗中輸入的所有命令。 您可以使用 [R 工具] > [Windows] > [歷程記錄] 命令開啟專用的歷程記錄視窗，該視窗有工具列按鈕和操作功能表項目可清除歷程記錄內容。
 
@@ -133,7 +133,7 @@ Visual Studio 解決方案提供一個方便的位置，讓您在同一個邏輯
 
 在下例中，解決方案包含有以 R 建置模組的 R 專案及 Azure Machine Learning、Python/scikit-learn 專案、包含進行密集運算工作模組的 C++ 專案、管理資料的 SQL 專案，以及發行結果網站的 Python/Bottle 專案：
 
-![顯示解決方案中多個相關專案的 Visual Studio 方案總管](~/docs/rtvs/media/projects-polyglot.png)
+![顯示解決方案中多個相關專案的 Visual Studio 方案總管](~/rtvs/media/projects-polyglot.png)
 
 以粗體反白顯示的專案是解決方案的「啟動」專案。若要變更它，請以滑鼠右鍵按一下不同的專案，然後選取 [設定為啟始專案]。
 

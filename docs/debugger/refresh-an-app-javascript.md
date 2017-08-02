@@ -28,7 +28,7 @@ caps.handback.revision: 20
 # 重新整理應用程式 (JavaScript)
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-![適用於 Windows 和 Windows Phone](~/docs/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
+![適用於 Windows 和 Windows Phone](~/debugger/media/windows_and_phone_content.png "windows\_and\_phone\_content")  
   
  您可以在偵錯期間變更程式碼內容，然後選擇 \[偵錯\] 工具列上的 \[重新整理 Windows 應用程式\] 按鈕，重新整理使用 JavaScript 的市集應用程式。  選擇此按鈕隨即會重新載入應用程式，而不需要停止並重新開始偵錯工具。  重新整理功能可讓您修改 HTML、CSS 和 JavaScript 程式碼，並且快速查看結果。  Windows 市集和 Windows Phone 市集應用程式都支援此功能。  
   
@@ -77,7 +77,7 @@ caps.handback.revision: 20
     Hello!  
     ```  
   
-7.  按一下 \[**重新整理 Windows 應用程式**\] 按鈕，如下所示：![&#91;重新整理 Windows 應用程式&#93; 按鈕](~/docs/debugger/media/js_refresh.png "JS\_Refresh") \(或按 F4\)。  
+7.  按一下 \[**重新整理 Windows 應用程式**\] 按鈕，如下所示：![&#91;重新整理 Windows 應用程式&#93; 按鈕](~/debugger/media/js_refresh.png "JS\_Refresh") \(或按 F4\)。  
   
 8.  切換至應用程式。  應用程式隨即重新載入而不重新啟動偵錯工具，且會顯示新的頁面標題。  
   

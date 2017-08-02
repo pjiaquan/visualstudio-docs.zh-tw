@@ -22,7 +22,7 @@ caps.handback.revision: 15
   
  元件在某些方面就像控制項一樣。  您可以使用 \[工具箱\] 將元件加入至表單，並使用 \[**屬性**\] 視窗設定該元件的屬性。  但與控制項不同，將元件加入至表單並不會加入可讓使用者在表單上看見的項目。  相反地，只會提供可讓您透過程式碼來觸發的某些行為。  它是一個可開啟 \[**開啟檔案**\] 對話方塊的元件。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 3](http://go.microsoft.com/fwlink/?LinkId=205213) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 3](http://go.microsoft.com/fwlink/?LinkId=205202)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "PlayVideo") 如需觀看本主題的影片版本，請參閱[教學課程 1：在 Visual Basic 中建立圖片檢視器 \- 影片 3](http://go.microsoft.com/fwlink/?LinkId=205213) 或[教學課程 1：在 C\# 中建立圖片檢視器 \- 影片 3](http://go.microsoft.com/fwlink/?LinkId=205202)。  這些影片使用舊版 Visual Studio，因此有一些功能表命令以及某些使用者介面項目會有些微差異。  不過，概念和程序在目前 Visual Studio 版本中的運作方式雷同。  
   
 ### 若要將對話方塊元件加入至您的表單  
   

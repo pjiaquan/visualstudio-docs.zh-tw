@@ -44,17 +44,17 @@ ms.lasthandoff: 02/22/2017
 移除不必要的相依性是管理您的技術負債很重要的一部分。
 相依性的即時驗證現在包含，提供精確的資訊有關的問題，且可完全從錯誤清單和編輯器中的新功能。
 
-![作用中的即時相依性驗證](~/docs/modeling/media/dep-validation-whatsnew-01.png)
+![作用中的即時相依性驗證](~/modeling/media/dep-validation-whatsnew-01.png)
 
 撰寫經驗已進行相依性驗證更容易找到和更容易存取，變更從 「 圖層圖表 」 至 「 相依性圖表 」 的術語。
 
 **架構**功能表現在包含直接建立相依性圖表的命令︰
 
-![在 [架構] 功能表上的即時相依性項目](~/docs/modeling/media/dep-validation-whatsnew-02.png)
+![在 [架構] 功能表上的即時相依性項目](~/modeling/media/dep-validation-whatsnew-02.png)
 
 ...且已變更之屬性名稱的相依性圖表，而其描述中的圖層，讓它們更有意義︰
 
-![即時更新的相依性屬性名稱](~/docs/modeling/media/dep-validation-whatsnew-03.png)
+![即時更新的相依性屬性名稱](~/modeling/media/dep-validation-whatsnew-03.png)
 
 您現在看到立即在目前方案中的程式碼的分析結果中變更的影響每次儲存圖表。 您不必再等待完成 「 驗證相依性 」 命令。
 

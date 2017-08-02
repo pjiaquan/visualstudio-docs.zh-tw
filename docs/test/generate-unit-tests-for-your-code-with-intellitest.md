@@ -60,7 +60,7 @@ IntelliTest 會探索您的 .NET 程式碼，從而產生測試資料及單元�
   
 2.  在您程式碼中的方法上按一下滑鼠右鍵，然後選擇 [執行 IntelliTest]  ，為方法中的程式碼產生單元測試。  
   
-     ![以滑鼠右鍵按一下您的方法，以產生單元測試](~/docs/test/media/runpex.png "RunPEX")  
+     ![以滑鼠右鍵按一下您的方法，以產生單元測試](~/test/media/runpex.png "RunPEX")  
   
      IntelliTest 會以不同的輸入多次執行您的程式碼。 每次執行都會顯示在資料表中，並指出其測試資料及最終結果或例外狀況。  
   
@@ -92,7 +92,7 @@ IntelliTest 會探索您的 .NET 程式碼，從而產生測試資料及單元�
   
      您可以檢視這些警告，決定您的因應對策。  
   
-     ![檢視警告](~/docs/test/media/pexviewwarning.png "PEXViewWarning")  
+     ![檢視警告](~/test/media/pexviewwarning.png "PEXViewWarning")  
   
 2.  當您檢查完程式碼，並確認您的測試標的之後，您可以修正警告，以選擇測試該介面時所要使用的類別。  
   
@@ -154,7 +154,7 @@ IntelliTest 會探索您的 .NET 程式碼，從而產生測試資料及單元�
   
  接受預設格式以產生測試，或變更專案和測試的命名方式。 您可以建立新的測試專案，或將您的測試儲存至現有的專案。  
   
- ![使用 MSTest 預設值建立 IntelliTest](~/docs/test/media/pexcreateintellitestmstest.png "PEXCreateIntelliTestMSTest")  
+ ![使用 MSTest 預設值建立 IntelliTest](~/test/media/pexcreateintellitestmstest.png "PEXCreateIntelliTestMSTest")  
 
 <a name="extend-framework"></a>  
 ### <a name="q-can-i-use-other-unit-test-frameworks-with-intellitest"></a>問： 是否可以使用其他單元測試架構搭配 IntelliTest？  

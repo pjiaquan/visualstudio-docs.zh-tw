@@ -65,7 +65,7 @@ caps.handback.revision: 2
   
  **Visual Studio 中的補充文字**  
   
- ![Supplemental text in Visual Studio](~/docs/extensibility/ux-guidelines/media/0601-c_supplementaltext2.png "0601\-c\_SupplementalText2")  
+ ![Supplemental text in Visual Studio](~/extensibility/ux-guidelines/media/0601-c_supplementaltext2.png "0601\-c\_SupplementalText2")  
   
  **Visual Studio 中的補充文字**  
   
@@ -108,7 +108,7 @@ caps.handback.revision: 2
   
 -   當啟動對話，維護省略符號的標準: 沒有省略符號瀏覽，若工作需要額外的 UI 的省略符號。  
   
-     ![Help link in Visual Studio](~/docs/extensibility/ux-guidelines/media/0601-e_helplink.png "0601\-e\_HelpLink")  
+     ![Help link in Visual Studio](~/extensibility/ux-guidelines/media/0601-e_helplink.png "0601\-e\_HelpLink")  
   
      **省略符號 \(...\) 說明連結會指出工作會需要額外的 UI。**  
   
@@ -260,7 +260,7 @@ caps.handback.revision: 2
   
 |好|不正確|  
 |-------|---------|  
-|「 您撥接的號碼已不存在於服務。 請檢查號碼和撥號一次\] 或 0 的運算子。 」|-   「 錯誤 \(449\): 不合法的數字 」<br />-   「 此處理的例外狀況錯誤表示作業順利完成 」。<br /><br /> ![Bad error message in Visual Studio](~/docs/extensibility/ux-guidelines/media/0602-a_errordialog.png "0602\-a\_ErrorDialog")|  
+|「 您撥接的號碼已不存在於服務。 請檢查號碼和撥號一次\] 或 0 的運算子。 」|-   「 錯誤 \(449\): 不合法的數字 」<br />-   「 此處理的例外狀況錯誤表示作業順利完成 」。<br /><br /> ![Bad error message in Visual Studio](~/extensibility/ux-guidelines/media/0602-a_errordialog.png "0602\-a\_ErrorDialog")|  
   
 ## 存取說明  
   

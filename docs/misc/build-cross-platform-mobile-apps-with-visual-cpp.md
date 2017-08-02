@@ -103,7 +103,7 @@ manager: "douge"
   
      以下是預設應用程式在 Visual Studio Emulator for Android 中的外觀。  
   
-     ![執行您應用程式的模擬器](~/docs/cross-platform/media/cppmdd_emulator_running_app.PNG "CppMDD\_Emulator\_Running\_App")  
+     ![執行您應用程式的模擬器](~/cross-platform/media/cppmdd_emulator_running_app.PNG "CppMDD\_Emulator\_Running\_App")  
   
     > [!TIP]
     >  Visual Studio 啟動模擬器，這需要幾秒的時間來載入及部署您的程式碼。  在您的應用程式啟動之後，您可以設定中斷點，並使用偵錯工具，以逐步執行程式碼、檢查本機及監看值。  

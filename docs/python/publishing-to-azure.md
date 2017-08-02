@@ -67,11 +67,11 @@ ms.lasthandoff: 03/07/2017
 
 1. 當系統提示您安裝外部套件時，選取 [安裝至虛擬環境]。 請注意，對話方塊底部的 [顯示必要套件] 控制項將能顯示會安裝的套件：
 
-  ![安裝必要套件](~/docs/python/media/tutorials-common-external-packages.png)
+  ![安裝必要套件](~/python/media/tutorials-common-external-packages.png)
 
 1. 針對虛擬環境選取您偏好的基礎解譯器 (例如 **Python 2.7** 或 **Python 3.4**)，然後按一下 [建立]：
 
-  ![在建立專案時新增虛擬環境](~/docs/python/media/tutorials-common-add-virtual-environment.png)
+  ![在建立專案時新增虛擬環境](~/python/media/tutorials-common-add-virtual-environment.png)
 
 1. 當專案建立好之後，透過選取 [偵錯] > [開始偵錯] 或按 F5，在本機測試專案。 根據預設，應用程式會使用無需任何設定的記憶體內部存放庫。 所有資料都會在網頁伺服器停止時遺失。
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 03/07/2017
 
 1. 在 [發行] 對話方塊中，選取 [Microsoft Azure App Service]：
 
-  ![發佈至 Azure 步驟 1](~/docs/python/media/tutorials-common-publish-1.png)
+  ![發佈至 Azure 步驟 1](~/python/media/tutorials-common-publish-1.png)
 
 1. 選取目標：
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/07/2017
 
 1. App Service 詳細資料會出現在 [發行] 對話方塊的 [連線] 索引標籤中，如下所示。
 
-  ![發佈至 Azure 步驟 2](~/docs/python/media/tutorials-common-publish-2.png)
+  ![發佈至 Azure 步驟 2](~/python/media/tutorials-common-publish-2.png)
 
 1. 視需要選取 [下一步 >] 以檢閱其他設定。 如果您計畫[在 Azure 上對 Python 程式碼進行遠端偵錯](debugging-azure-remote.md)，您必須將 [組態] 設定為 [偵錯]
 1. 選取 [發行]。 當您的應用程式部署至 Azure 之後，您的預設瀏覽器便會開啟並顯示該網站。 

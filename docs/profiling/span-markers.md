@@ -46,13 +46,13 @@ ms.lasthandoff: 05/13/2017
 ## <a name="span-category"></a>延伸分類  
  延伸標記共有五種不同的色彩，依其分類以其中一種顯示。 如果有五種以上的類別，則會重複這些色彩。 分類可以是任何整數。 下圖顯示五種可能的色彩︰  
   
- ![五個不同分類的延伸標記](~/docs/profiling/media/cvmarkerspancategory.png "CVMarkerSpanCategory")  
+ ![五個不同分類的延伸標記](~/profiling/media/cvmarkerspancategory.png "CVMarkerSpanCategory")  
 前五個延伸分類中的色彩  
   
 ## <a name="span-aggregation-markers"></a>延伸彙總標記  
  有時延伸標記發生的位置太靠近並行視覺化檢視中的另一個標記，以至於無法個別繪製。 發生這種情況時，會顯示一個表示基礎延伸範圍的灰色「延伸彙總標記」。 當您將指標放在這些圖示的其中一個時，工具提示會顯示所代表基礎延伸範圍的數目。 若要檢視延伸範圍，請予以放大。 如果您縮放到最大後仍然出現延伸彙總標記，您可以在[標記報告](../profiling/markers-report.md)中檢視基礎延伸標記。 下圖顯示延伸彙總標記︰  
   
- ![並行視覺化檢視中的彙總延伸標記](~/docs/profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")  
+ ![並行視覺化檢視中的彙總延伸標記](~/profiling/media/cvmarkerspanaggregate.png "CVMarkerSpanAggregate")  
 延伸彙總標記  
   
 ## <a name="see-also"></a>另請參閱  

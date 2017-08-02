@@ -66,7 +66,7 @@ caps.handback.revision: 21
   
  下圖是執行緒檢視：  
   
- ![執行緒檢視](~/docs/profiling/media/threadsviewnarrowing.png "ThreadsViewNarrowing")  
+ ![執行緒檢視](~/profiling/media/threadsviewnarrowing.png "ThreadsViewNarrowing")  
 執行緒檢視  
   
  一開始會依照執行緒建立的順序排列，因此第一個是主應用程式。 您可以使用檢視左上角的排序選項，根據另一準則來排序執行緒 (例如，依據最常執行的工作)。  

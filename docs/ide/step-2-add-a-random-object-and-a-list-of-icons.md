@@ -35,7 +35,7 @@ caps.handback.revision: 22
   
 3.  加入 `List` 物件時，請注意開啟的 \[**IntelliSense**\] 視窗。  以下是 Visual C\# 範例，不過，類似的文字會在您於 Visual Basic 中加入清單時顯示。  
   
-     ![顯示 Click 事件的 &#91;屬性&#93; 視窗](~/docs/ide/media/express_listintellisense.png "Express\_ListIntellisense")  
+     ![顯示 Click 事件的 &#91;屬性&#93; 視窗](~/ide/media/express_listintellisense.png "Express\_ListIntellisense")  
 IntelliSense 視窗  
   
     > [!NOTE]

@@ -22,7 +22,7 @@ caps.handback.revision: 9
 
 您可以在 \[並行視覺化檢視\] 可以使用將巡覽器選取間隔在追蹤的時間。  \[並行視覺化檢視\] 讓目標處理序經過一段時間後顯示 CPU 核心的操作。  這可讓您更輕鬆地檢查 CPU 使用率樣式也可在將資料和資料之間的比較可能會在其他檢視。  將巡覽器會出現在並行視覺化檢視中的每個檢視頂端。  下圖顯示使用巡覽器。  
   
- ![顯示所選時間範圍的使用率導覽器](~/docs/profiling/media/cvutilizationnavigator.png "CVUtilizationNavigator")  
+ ![顯示所選時間範圍的使用率導覽器](~/profiling/media/cvutilizationnavigator.png "CVUtilizationNavigator")  
 顯示所選時間範圍的使用率導覽  
   
  在圖中，選取的時間間隔是由一個紅色矩形定義，也稱為 *捲動方塊*。  

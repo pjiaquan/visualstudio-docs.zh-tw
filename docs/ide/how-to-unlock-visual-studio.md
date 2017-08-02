@@ -50,7 +50,7 @@ ed## 使用線上訂閱解除鎖定 Visual Studio
 ### <a name="update-stale-licenses"></a>更新過時的授權  
  您可能看到「您的授權已過時，必須更新。」的訊息，代表您的授權在 Visual Studio 中已過時。
   
- ![Visual Studio 授權過時訊息](~/docs/ide/media/vs2017_stale-license.png)  
+ ![Visual Studio 授權過時訊息](~/ide/media/vs2017_stale-license.png)  
   
  這個訊息表示，雖然您的訂閱可能仍然有效，但是基於下列其中一個原因尚未重新整理 Visual Studio 用來保持最新訂閱的授權權杖，而且該權杖已經過時：  
   

@@ -47,7 +47,7 @@ caps.handback.revision: 65
   
  本主題提供 Excel 物件模型的簡短概觀。  如需可以了解整個 Excel 物件模型的資源，請參閱[使用 Excel 物件模型文件](#ExcelOMDocumentation)。  
   
- ![視訊的連結](~/docs/data-tools/media/playvideo.gif "視訊的連結") 如需相關示範影片，請參閱[如何：在 Excel 2007 增益集中使用事件處理常式](http://go.microsoft.com/fwlink/?LinkID=130291)和[如何：使用圖案在 Excel 中建立泡泡圖](http://go.microsoft.com/fwlink/?LinkID=130313)。  
+ ![視訊的連結](~/data-tools/media/playvideo.gif "視訊的連結") 如需相關示範影片，請參閱[如何：在 Excel 2007 增益集中使用事件處理常式](http://go.microsoft.com/fwlink/?LinkID=130291)和[如何：使用圖案在 Excel 中建立泡泡圖](http://go.microsoft.com/fwlink/?LinkID=130313)。  
   
 ## 存取 Excel 專案中的物件  
  當您建立 Excel 的新 VSTO 增益集專案時，Visual Studio 會自動建立 ThisAddIn.vb 或 ThisAddIn.cs 程式碼檔。  您可以使用 `Me.Application` 或 `this.Application`，來存取 Application 物件。  

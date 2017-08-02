@@ -35,7 +35,7 @@ caps.handback.revision: 12
 ### 中央記錄模型  
  在中央記錄模型，MSBuild.exe 的單一執行個體會當做「中央節點」，而中央節點的子執行個體 \(稱為「次要節點」\) 會附加到中央節點，協助其執行建置工作。  
   
- ![中央記錄器模型](~/docs/msbuild/media/centralnode.png "CentralNode")  
+ ![中央記錄器模型](~/msbuild/media/centralnode.png "CentralNode")  
   
  附加到中央節點的各種類型記錄器稱為「中央記錄器」。每種記錄器類型同時間只能有一個執行個體附加到中央節點。  
   
@@ -55,7 +55,7 @@ public interface INodeLogger: ILogger
 ### 分散式記錄模型  
  在中央記錄模型，傳入的訊息流量若太多，可能會使中央節點不勝負荷，例如，同時間有許多專案進行建置。  這可能會造成系統資源負擔並降低建置效能。  為解決這個問題，[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 支援分散式記錄模型。  
   
- ![分散式記錄模型](~/docs/msbuild/media/distnode.png "DistNode")  
+ ![分散式記錄模型](~/msbuild/media/distnode.png "DistNode")  
   
  分散式記錄模型是中央記錄模型的延伸，可讓您建立轉送記錄器。  
   

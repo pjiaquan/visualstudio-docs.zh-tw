@@ -49,13 +49,13 @@ ms.lasthandoff: 03/07/2017
 
 為了支援安裝這些目錄，VSIX 必須安裝 「 每個執行個體每台機器 」。 這可藉由檢查 extension.vsixmanifest 設計工具中的 [所有使用者] 核取方塊來啟用︰
 
-![檢查所有使用者](~/docs/extensibility/media/check-all-users.png)
+![檢查所有使用者](~/extensibility/media/check-all-users.png)
 
 ## <a name="how-to-set-the-installroot"></a>如何設定 InstallRoot
 
 若要設定的安裝目錄，您可以使用**屬性**Visual Studio 視窗中的。 比方說，您可以設定`InstallRoot`上述位置的其中一個專案參考的屬性︰
 
-![安裝根屬性](~/docs/extensibility/media/install-root-properties.png)
+![安裝根屬性](~/extensibility/media/install-root-properties.png)
 
 這會將一些中繼資料新增至對應`ProjectReference`VSIX 專案的.csproj 檔案內的屬性︰
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/07/2017
 
 如果您想要安裝到下方的子路徑`InstallRoot`，您可以達到此目的`VsixSubPath`屬性就像`InstallRoot`屬性。 比方說，假設我們想要安裝到我們的專案參考輸出 ' [installdir]\MSBuild\MyCompany\MySDK\1.0'。 我們能夠輕鬆地透過屬性設計工具︰
 
-![設定子路徑](~/docs/extensibility/media/set-subpath.png)
+![設定子路徑](~/extensibility/media/set-subpath.png)
 
 對應的.csproj 變更看起來像這樣︰
 

@@ -132,7 +132,7 @@ caps.handback.revision: 87
 2. 在功能表列上選擇 [**檢視**]、[**開啟**]。  
   
 3. 在 [**專案助理**] 頁面底部，選擇 [**應用程式檔案**] 按鈕，如下圖所示。  
-    ![[應用程式檔案] 按鈕。](~/docs/vsto/media/installshield-applicationfiles.png "[應用程式檔案] 按鈕。")  
+    ![[應用程式檔案] 按鈕。](~/vsto/media/installshield-applicationfiles.png "[應用程式檔案] 按鈕。")  
   
 4. 在 [**應用程式檔案**] 頁面上，選擇 [**加入專案輸出**] 按鈕。  
   
@@ -267,7 +267,7 @@ caps.handback.revision: 87
     在功能表列上選擇 [**檢視**]、[**開啟**]。  
   
 2. 在 [**專案助理**] 頁面底部，選擇 [**Application Registry**] 按鈕，如下圖所示。  
-    ![[應用程式登錄] 按鈕。](~/docs/vsto/media/installshield-applicationregistry.gif "[應用程式登錄] 按鈕。")  
+    ![[應用程式登錄] 按鈕。](~/vsto/media/installshield-applicationregistry.gif "[應用程式登錄] 按鈕。")  
   
     [**Application Registry**] 頁面隨即出現。  
   
@@ -385,7 +385,7 @@ caps.handback.revision: 87
 2. 在功能表列上選擇 [**檢視**]、[**開啟**]。  
   
 3. 在 [**專案助理**] 頁面底部，選擇 [**應用程式檔案**] 按鈕，如下圖所示。  
-    ![[應用程式檔案] 按鈕。](~/docs/vsto/media/installshield-applicationfiles.png "[應用程式檔案] 按鈕。")  
+    ![[應用程式檔案] 按鈕。](~/vsto/media/installshield-applicationfiles.png "[應用程式檔案] 按鈕。")  
   
 4. 在 [**應用程式檔案**] 頁面上，選擇 [**加入專案輸出**] 按鈕。  
     [**Visual Studio 輸出選取器**] 對話方塊隨即出現。  

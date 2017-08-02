@@ -201,17 +201,17 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
   
  **來自 outport 巢狀元件連接**  
   
- ![連接產生器](~/docs/modeling/media/connectionbuilder_3.png "ConnectionBuilder_3")  
+ ![連接產生器](~/modeling/media/connectionbuilder_3.png "ConnectionBuilder_3")  
   
  因此，您可能需要指定可從巢狀元件連接至 OutPort。 若要指定此連接，您將**使用自訂接受**上**InPort**做為來源角色類型和**OutPort**做為目標角色中的型別**DSL 詳細資料**視窗，如下圖所示︰  
   
  **Link Connect 指示詞，在 [DSL 總管]**  
   
- ![連接產生器影像](~/docs/modeling/media/connectionbuilder_4a.png "ConnectionBuilder_4a")  
+ ![連接產生器影像](~/modeling/media/connectionbuilder_4a.png "ConnectionBuilder_4a")  
   
  **Link Connect 指示詞在 DSL 詳細資料視窗**  
   
- ![](~/docs/modeling/media/connectionbuilder_4b.png "ConnectionBuilder_4b")  
+ ![](~/modeling/media/connectionbuilder_4b.png "ConnectionBuilder_4b")  
   
  您必須接著提供 ConnectionBuilder 類別中的方法：  
   

@@ -67,11 +67,11 @@ ms.lasthandoff: 05/10/2017
 
 1. 測試總管會針對測試搜尋專案，並將它們顯示如下。 按兩下測試會開啟其原始程式檔。
 
-    ![[測試總管] 顯示預設的 test_A](~/docs/python/media/unit-test-A.png)
+    ![[測試總管] 顯示預設的 test_A](~/python/media/unit-test-A.png)
 
 1. 隨著新增更多測試，您可以使用工具列上的 [群組依據] 功能表，組織 [測試總管] 中的檢視：
 
-    ![[測試總管] 的 [群組依據] 工具列功能表](~/docs/python/media/unit-test-group-menu.png)
+    ![[測試總管] 的 [群組依據] 工具列功能表](~/python/media/unit-test-group-menu.png)
 
 1. 您也可以在搜尋欄位中輸入文字，以依據名稱來篩選測試。
 
@@ -89,13 +89,13 @@ ms.lasthandoff: 05/10/2017
 
 - 通過的測試會顯示綠色的打勾圖示，以及執行測試所花費的時間：
 
-    ![test_A 通過狀態](~/docs/python/media/unit-test-A-pass.png)
+    ![test_A 通過狀態](~/python/media/unit-test-A-pass.png)
 
 - 失敗的測試會顯示紅色十字，以及會顯示測試執行的主控台輸出和 `unittest` 輸出的 [輸出] 連結：
 
-    ![test_A 失敗狀態](~/docs/python/media/unit-test-A-fail.png)
+    ![test_A 失敗狀態](~/python/media/unit-test-A-fail.png)
 
-    ![test_A 失敗且含原因](~/docs/python/media/unit-test-A-fail-reason.png)
+    ![test_A 失敗且含原因](~/python/media/unit-test-A-fail-reason.png)
 
 ## <a name="debugging-tests"></a>偵錯測試
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 05/10/2017
 
 若要開始偵錯，請在程式碼中設定初始中斷點，然後在 [測試總管] 中以滑鼠右鍵按一下測試 (或一系列測試)，然後選取 [偵錯選取的測試]。 Visual Studio 將會以和針對應用程式程式碼一樣的方式，啟動 Python 偵錯工具。
 
-![對測試進行偵錯](~/docs/python/media/unit-test-debugging.png)
+![對測試進行偵錯](~/python/media/unit-test-debugging.png)
 
 視您的 Visual Studio 版本而定 (請參閱[功能比較表](python-in-visual-studio.md#features-matrix))，您也可以使用 [分析選取之測試的程式碼涵蓋範圍] 和 [程式碼剖析測試] 命令。
 

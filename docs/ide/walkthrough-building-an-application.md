@@ -105,13 +105,13 @@ ms.lasthandoff: 05/30/2017
   
 3.  在 [新增方案組態] 對話方塊中，將新的組態命名為 `Test`，從現有的偵錯組態複製設定，然後選擇 [確定] 按鈕。  
   
-     ![[新增方案組態] 對話方塊](~/docs/ide/media/buildwalk_newsolutionconfigdlgbox.png "BuildWalk_NewSolutionConfigDlgBox")  
+     ![[新增方案組態] 對話方塊](~/ide/media/buildwalk_newsolutionconfigdlgbox.png "BuildWalk_NewSolutionConfigDlgBox")  
   
 4.  在 [使用中的方案平台] 清單中，選擇 [新增]。  
   
 5.  在 [新增方案平台] 對話方塊中，選擇 [x64]，而不要從 x86 平台複製設定。  
   
-     ![[新增方案平台] 對話方塊](~/docs/ide/media/buildwalk_newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
+     ![[新增方案平台] 對話方塊](~/ide/media/buildwalk_newsolutionplatform.png "BuildWalk_NewSolutionPlatform")  
   
 6.  選擇 [確定]  按鈕。  
   
@@ -134,7 +134,7 @@ ms.lasthandoff: 05/30/2017
   
  圖 1：Visual Basic 警告  
   
- ![Visual Basic 輸出視窗](~/docs/ide/media/buildwalk_vbbuildoutputwnd.png "BuildWalk_VBBuildOutputWnd")  
+ ![Visual Basic 輸出視窗](~/ide/media/buildwalk_vbbuildoutputwnd.png "BuildWalk_VBBuildOutputWnd")  
   
  圖 2：Visual C# 警告  
   
@@ -181,7 +181,7 @@ ms.lasthandoff: 05/30/2017
   
  [輸出] 視窗只會顯示組建的摘要資訊。  
   
- ![輸出視窗、Visual Basic 建置警告](~/docs/ide/media/buildwalk_visualbasicbuildwarnings.png "BuildWalk_VisualBasicBuildWarnings")  
+ ![輸出視窗、Visual Basic 建置警告](~/ide/media/buildwalk_visualbasicbuildwarnings.png "BuildWalk_VisualBasicBuildWarnings")  
   
  如需詳細資訊，請參閱[如何︰隱藏編譯器警告](../ide/how-to-suppress-compiler-warnings.md)。  
   

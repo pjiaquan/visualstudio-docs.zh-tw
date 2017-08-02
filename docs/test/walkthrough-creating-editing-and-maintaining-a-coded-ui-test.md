@@ -71,7 +71,7 @@ ms.lasthandoff: 05/13/2017
   
 12. 選取 [Checkbox] 控制項。 在 [屬性] 視窗中，將 [Name] 屬性的值從 \<No Name> 變更為 checkBox1，然後清除 [IsEnabled] 屬性。  
   
-     ![簡單 WPF 應用程式](~/docs/test/media/codedui_wpfapp.png "CodedUI_WPFApp")  
+     ![簡單 WPF 應用程式](~/test/media/codedui_wpfapp.png "CodedUI_WPFApp")  
   
 13. 按兩下按鈕控制項以加入 Click 事件處理常式。  
   
@@ -163,11 +163,11 @@ ms.lasthandoff: 05/13/2017
   
 8.  選擇 [UIMap - 自動程式化 UI 測試產生器] 上的 [開始錄製]。  
   
-     ![開始錄製](~/docs/test/media/cuit_builder_record.png "CUIT_Builder_Record")  
+     ![開始錄製](~/test/media/cuit_builder_record.png "CUIT_Builder_Record")  
   
      您可以視需要暫停錄製 (例如，如果您需要處理傳入的電子郵件)。  
   
-     ![暫停錄製](~/docs/test/media/cuit_.png "CUIT_")  
+     ![暫停錄製](~/test/media/cuit_.png "CUIT_")  
   
     > [!WARNING]
     >  將會錄製所有在桌面上執行的動作。 如果您執行的動作可能會導致在錄製中包括敏感性資料，則請暫停錄製。  
@@ -385,11 +385,11 @@ ms.lasthandoff: 05/13/2017
 ## <a name="external-resources"></a>外部資源  
   
 ### <a name="videos"></a>影片  
- ![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode1-GettingStarted (英文)](http://go.microsoft.com/fwlink/?LinkID=230573)  
+ ![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode1-GettingStarted (英文)](http://go.microsoft.com/fwlink/?LinkID=230573)  
   
- ![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode2-MaintainenceAndDebugging (英文)](http://go.microsoft.com/fwlink/?LinkID=230574)  
+ ![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode2-MaintainenceAndDebugging (英文)](http://go.microsoft.com/fwlink/?LinkID=230574)  
   
- ![視訊連結](~/docs/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode3-HandCoding (英文)](http://go.microsoft.com/fwlink/?LinkID=230575)  
+ ![視訊連結](~/data-tools/media/playvideo.gif "PlayVideo") [自動程式化 UI Tests-DeepDive-Episode3-HandCoding (英文)](http://go.microsoft.com/fwlink/?LinkID=230575)  
   
 ### <a name="hands-on-lab"></a>實習課程  
  [MSDN 虛擬實驗室：使用 Visual Studio 2010 建立自動程式碼 UI 測試簡介](http://go.microsoft.com/fwlink/?LinkID=22508)  

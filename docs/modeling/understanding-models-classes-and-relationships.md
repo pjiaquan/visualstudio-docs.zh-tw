@@ -106,7 +106,7 @@ ms.lasthandoff: 02/22/2017
 ### <a name="the-explorer-displays-the-embedding-tree"></a>[總管] 會顯示內嵌樹狀結構  
  DSL 定義也會建立檔案總管，使用者會看到隨其模型圖表。  
   
- ![產生的 DSL 總管](~/docs/modeling/media/music_explorer.png "Music_Explorer")  
+ ![產生的 DSL 總管](~/modeling/media/music_explorer.png "Music_Explorer")  
   
  [總管] 中會顯示在模型中，即使您尚未定義任何圖形的所有項目。 它會顯示項目和內嵌關聯性，但不是會參考關聯性。  
   
@@ -124,7 +124,7 @@ ms.lasthandoff: 02/22/2017
   
  在下列圖片之間的線**發行者**網域類別和**PublisherCatalog**網域關聯性是來源角色。 網域關聯性之間的線條和**專輯**網域類別是目標角色。  
   
- ![角色和屬性。] (~/docs/modeling/media/propertycode.png "PropertyCode")  
+ ![角色和屬性。] (~/modeling/media/propertycode.png "PropertyCode")  
   
  當您撰寫會周遊模型的程式碼時，具有關聯性相關聯的名稱便特別重要。 比方說，當您建置 DSL 方案時，所產生的類別 「 發行者 」 就會有一個屬性是集合的專輯的目錄。 專輯的類別有一個屬性是 「 發行者 」 之類別的單一執行個體的發行者。  
   

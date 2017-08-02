@@ -43,7 +43,7 @@ caps.handback.revision: 21
   
      \[**加入現有組件**\] 對話方塊隨即出現。  
   
-4.  選擇省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，然後選擇想要加入的組件。  建議您使用相對於選取之組件的相對路徑，以方便移植。  
+4.  選擇省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，然後選擇想要加入的組件。  建議您使用相對於選取之組件的相對路徑，以方便移植。  
   
 5.  針對 **部署目標**，選擇 **GlobalAssemblyCache** 將組件部署至全域組件快取，或選擇 **WebApplication** 將組件部署至執行 SharePoint 伺服器上 WebApplication 資料夾。  
   
@@ -81,7 +81,7 @@ caps.handback.revision: 21
   
 2.  在 **類別資源** 窗格中，選擇 **按一下這裡加入新項目**。  
   
-3.  在 \[**檔案名稱**\] 欄中，選擇省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，然後選取想要加入的類別資源。  
+3.  在 \[**檔案名稱**\] 欄中，選擇省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\)，然後選取想要加入的類別資源。  
   
 ## 刪除自訂組件  
  您可以從 SharePoint 封裝刪除組件，或從現有組件刪除安全控制項和類別資源。  

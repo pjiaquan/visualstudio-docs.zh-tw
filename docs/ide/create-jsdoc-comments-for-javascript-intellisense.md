@@ -52,7 +52,7 @@ function getArea(radius) {
   
  在上述範例中，當您輸入 `getArea` 的左括號時，IntelliSense 會顯示描述、參數和傳回的資訊。  
   
- ![函式的 IntelliSense 資訊](~/docs/ide/media/js_intellisense_jsdoc_comments.png "JS\_IntelliSense\_JSDoc\_Comments")  
+ ![函式的 IntelliSense 資訊](~/ide/media/js_intellisense_jsdoc_comments.png "JS\_IntelliSense\_JSDoc\_Comments")  
   
  下列範例將示範如何使用 @typedef 標記搭配 @property 標記。  
   

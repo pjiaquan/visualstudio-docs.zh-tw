@@ -194,7 +194,7 @@ caps.handback.revision: 34
   
     1.  在 \[**方案總管**\] 中，選擇 \[**SPD\_Workflow\_TestFT**\] 節點。  
   
-    2.  在其中一個清單屬性選取旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/docs/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕，例如 \[**目標清單**\] 屬性。  
+    2.  在其中一個清單屬性選取旁邊的省略符號 \(![ASP.NET Mobile 設計工具橢圓形](~/sharepoint/media/mwellipsis.gif "ASP.NET Mobile 設計工具橢圓形")\) 按鈕，例如 \[**目標清單**\] 屬性。  
   
     3.  填入 SharePoint 自訂精靈中未填入的值，然後選擇 \[**結束**\] 按鈕。  
   

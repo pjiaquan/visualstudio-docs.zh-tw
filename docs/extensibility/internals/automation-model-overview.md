@@ -41,7 +41,7 @@ Automation 模型包含一組您可以依據撰寫的 Visual Studio 增益集或
 ## <a name="objects-in-the-automation-model"></a>自動化模型中的物件  
  Automation 模型所組成之物件的控制主要面向，常見的環境的相關群組。 以下是圖表顯示一組更周延的撰寫 automation 模型的物件。  
   
- ![Visual Studio Automation 物件圖表](~/docs/extensibility/internals/media/vsvisualstudioautomationobjectchart.gif "vsVisualStudioAutomationObjectChart")  
+ ![Visual Studio Automation 物件圖表](~/extensibility/internals/media/vsvisualstudioautomationobjectchart.gif "vsVisualStudioAutomationObjectChart")  
 Visual Studio automation 物件  
   
  如需詳細資訊，請參閱[擴充 Visual Studio 環境](http://msdn.microsoft.com/Library/4173a963-7ac7-4966-9bb7-e28a9d9f6792)。  

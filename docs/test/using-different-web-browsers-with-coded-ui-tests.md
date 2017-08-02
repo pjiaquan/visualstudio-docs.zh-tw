@@ -117,17 +117,17 @@ ms.lasthandoff: 05/13/2017
  *我還應該知道什麼？*  
  **備註**  
   
--   ![必要條件](~/docs/test/media/prereq.png "Prereq") 不支援 Apple Safari 網頁瀏覽器。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 不支援 Apple Safari 網頁瀏覽器。  
   
--   ![必要條件](~/docs/test/media/prereq.png "Prereq") 自動程式碼 UI 測試必須包含啟動網頁瀏覽器的動作。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 自動程式碼 UI 測試必須包含啟動網頁瀏覽器的動作。  
   
      如果您已開啟一個 Web 瀏覽器，並且想要在其中執行步驟，除非使用 Internet Explorer，否則會播放失敗。 因此，最佳作法是在自動程式化 UI 測試中包含啟動 Web 瀏覽器的動作。  
   
--   ![必要條件](~/docs/test/media/prereq.png "Prereq") 不支援自動化瀏覽器架構專用的 UI 動作，例如最大化、最小化和還原。  
+-   ![必要條件](~/test/media/prereq.png "Prereq") 不支援自動化瀏覽器架構專用的 UI 動作，例如最大化、最小化和還原。  
   
  **祕訣**  
   
--   ![祕訣](~/docs/test/media/tip.png "祕訣") 您可以設定輸出，在自動程式碼 UI 記錄中包含螢幕擷取畫面。 若要這麼做，您需要完成 QTAgent32.exe.config 檔案的某些組態設定。 根據預設，這個檔案會安裝在下列位置：  
+-   ![祕訣](~/test/media/tip.png "祕訣") 您可以設定輸出，在自動程式碼 UI 記錄中包含螢幕擷取畫面。 若要這麼做，您需要完成 QTAgent32.exe.config 檔案的某些組態設定。 根據預設，這個檔案會安裝在下列位置：  
   
      **C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE**  
   
