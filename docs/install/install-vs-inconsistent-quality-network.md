@@ -103,7 +103,7 @@ c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDe
 | ----------------------- | --------------- |  
 | cs-CZ | 捷克文 |
 | de-DE | 德文 |
-| zh-TW | 英文 |
+| en-US | 英文 |
 | es-ES | 西班牙文 |
 | fr-FR | 法文 |
 | it-IT | 義大利文 |
